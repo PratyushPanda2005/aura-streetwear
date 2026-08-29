@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic:
+          - generic:
+            - generic "Pratyush Panda logo": PP
+            - generic:
+              - paragraph: Based in India
+              - paragraph:
+                - generic: Open for
+                - link "w o r k" [ref=e5] [cursor=pointer]:
+                  - /url: "#contact"
+                  - generic [ref=e6]:
+                    - generic [ref=e8]:
+                      - generic [ref=e9]: w
+                      - generic [ref=e10]: w
+                    - generic [ref=e12]:
+                      - generic [ref=e13]: o
+                      - generic [ref=e14]: o
+                    - generic [ref=e16]:
+                      - generic [ref=e17]: r
+                      - generic [ref=e18]: r
+                    - generic [ref=e20]:
+                      - generic [ref=e21]: k
+                      - generic [ref=e22]: k
+          - button "M e n u" [ref=e23]:
+            - generic [ref=e24] [cursor=pointer]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: M
+                - generic [ref=e28]: M
+              - generic [ref=e30]:
+                - generic [ref=e31]: e
+                - generic [ref=e32]: e
+              - generic [ref=e34]:
+                - generic [ref=e35]: "n"
+                - generic [ref=e36]: "n"
+              - generic [ref=e38]:
+                - generic [ref=e39]: u
+                - generic [ref=e40]: u
+        - generic:
+          - heading "Pixel Panda" [level=1]:
+            - generic: Pixel
+            - generic: Panda
+          - paragraph: Pratyush Panda — Creative Developer, India
+        - generic:
+          - generic: pixel
+          - generic: (move your cursor)
+          - generic: panda
+  - alert [ref=e41]

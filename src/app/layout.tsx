@@ -1,6 +1,23 @@
 import type { Metadata } from "next";
-import { Hanken_Grotesk, IBM_Plex_Mono, Palette_Mosaic } from "next/font/google";
+import { Hanken_Grotesk, IBM_Plex_Mono, Koulen, Palette_Mosaic, Roboto_Flex } from "next/font/google";
 import "./globals.css";
+
+// Decathlon Yestalgia clone (/fr) — variable font with width axis for the
+// condensed display type (font-stretch: 33%). Scoped via .yestalgia-site.
+const robotoFlex = Roboto_Flex({
+  variable: "--font-roboto-flex",
+  subsets: ["latin"],
+  axes: ["wdth"],
+  display: "swap",
+});
+
+// Koulen — condensed display face used for the animated split-text headings.
+const koulen = Koulen({
+  variable: "--font-koulen",
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
 
 // Type scale of indigo-laboratory.it: Hanken Grotesk for everything, IBM Plex Mono
 // for labels/captions, Palette Mosaic for the display logotype.
@@ -65,7 +82,7 @@ export default function RootLayout({
     <html
       lang="en"
       dir="ltr"
-      className={`${hankenGrotesk.variable} ${ibmPlexMono.variable} ${paletteMosaic.variable} h-full antialiased`}
+      className={`${hankenGrotesk.variable} ${ibmPlexMono.variable} ${paletteMosaic.variable} ${robotoFlex.variable} ${koulen.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col overflow-x-hidden">{children}</body>
     </html>

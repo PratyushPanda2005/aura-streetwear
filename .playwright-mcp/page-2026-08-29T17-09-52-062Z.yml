@@ -1,0 +1,48 @@
+- main [ref=f2e2]:
+  - generic [ref=f2e3]:
+    - generic:
+      - generic:
+        - generic:
+          - img "bleibtgleich logo"
+          - generic:
+            - paragraph: Based in Kyiv
+            - paragraph:
+              - generic: Working w/
+              - link "T F T L" [ref=f2e5] [cursor=pointer]:
+                - /url: https://thefirstthelast.agency/
+                - generic [ref=f2e6]:
+                  - generic [ref=f2e8]:
+                    - generic [ref=f2e9]: T
+                    - generic [ref=f2e10]: T
+                  - generic [ref=f2e12]:
+                    - generic [ref=f2e13]: F
+                    - generic [ref=f2e14]: F
+                  - generic [ref=f2e16]:
+                    - generic [ref=f2e17]: T
+                    - generic [ref=f2e18]: T
+                  - generic [ref=f2e20]:
+                    - generic [ref=f2e21]: L
+                    - generic [ref=f2e22]: L
+        - button "M e n u" [ref=f2e23]:
+          - generic [ref=f2e24] [cursor=pointer]:
+            - generic [ref=f2e26]:
+              - generic [ref=f2e27]: M
+              - generic [ref=f2e28]: M
+            - generic [ref=f2e30]:
+              - generic [ref=f2e31]: e
+              - generic [ref=f2e32]: e
+            - generic [ref=f2e34]:
+              - generic [ref=f2e35]: "n"
+              - generic [ref=f2e36]: "n"
+            - generic [ref=f2e38]:
+              - generic [ref=f2e39]: u
+              - generic [ref=f2e40]: u
+      - generic:
+        - heading "Maksym Bleibtgleich" [level=1]:
+          - generic: Maksym
+          - generic: Bleibtgleich
+        - paragraph: Designer & Developer — UX/UI & Web-flow dev.
+      - generic:
+        - generic: bleibt
+        - generic: (move your cursor)
+        - generic: gleich

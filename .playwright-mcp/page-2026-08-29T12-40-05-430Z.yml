@@ -1,0 +1,837 @@
+- generic [ref=e4]:
+  - generic:
+    - button "Menu" [ref=e7] [cursor=pointer]: Menu Menu
+    - link "Decathlon Yestalgia" [ref=e10] [cursor=pointer]:
+      - /url: https://decathlon.com
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: langswitcher
+        - combobox "langswitcher" [ref=e26] [cursor=pointer]:
+          - option "FR" [selected]
+          - option "EN"
+          - option "IT"
+          - option "ES"
+          - option "DE"
+          - option "BE-NL"
+          - option "BE-FR"
+      - link "Boutique Boutique" [ref=e27] [cursor=pointer]:
+        - /url: https://www.decathlon.fr/sportswear/decathlon-yestalgia?opeco=opeco:__drop-yestalgia&type=opeco
+    - text: Boutique
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - heading "Decathlon Yestalgia" [level=1] [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e38]:
+          - generic [ref=e40]:
+            - text: À
+            - generic [ref=e41]: À
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - text: v
+              - generic [ref=e44]: v
+            - generic [ref=e45]:
+              - text: o
+              - generic [ref=e46]: o
+            - generic [ref=e47]:
+              - text: s
+              - generic [ref=e48]: s
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - text: c
+              - generic [ref=e51]: c
+            - generic [ref=e52]:
+              - text: ô
+              - generic [ref=e53]: ô
+            - generic [ref=e54]:
+              - text: t
+              - generic [ref=e55]: t
+            - generic [ref=e56]:
+              - text: é
+              - generic [ref=e57]: é
+            - generic [ref=e58]:
+              - text: s
+              - generic [ref=e59]: s
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - text: d
+              - generic [ref=e62]: d
+            - generic [ref=e63]:
+              - text: e
+              - generic [ref=e64]: e
+            - generic [ref=e65]:
+              - text: p
+              - generic [ref=e66]: p
+            - generic [ref=e67]:
+              - text: u
+              - generic [ref=e68]: u
+            - generic [ref=e69]:
+              - text: i
+              - generic [ref=e70]: i
+            - generic [ref=e71]:
+              - text: s
+              - generic [ref=e72]: s
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - text: "1"
+              - generic [ref=e75]: "1"
+            - generic [ref=e76]:
+              - text: "9"
+              - generic [ref=e77]: "9"
+            - generic [ref=e78]:
+              - text: "7"
+              - generic [ref=e79]: "7"
+            - generic [ref=e80]:
+              - text: "6"
+              - generic [ref=e81]: "6"
+        - img "Lines" [ref=e97]
+        - generic [ref=e98]:
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]:
+                  - text: P
+                  - generic [ref=e104]: P
+                - generic [ref=e105]:
+                  - text: L
+                  - generic [ref=e106]: L
+                - generic [ref=e107]:
+                  - text: O
+                  - generic [ref=e108]: O
+                - generic [ref=e109]:
+                  - text: "N"
+                  - generic [ref=e110]: "N"
+                - generic [ref=e111]:
+                  - text: G
+                  - generic [ref=e112]: G
+                - generic [ref=e113]:
+                  - text: E
+                  - generic [ref=e114]: E
+                - generic [ref=e115]:
+                  - text: Z
+                  - generic [ref=e116]: Z
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - text: A
+                  - generic [ref=e119]: A
+                - generic [ref=e120]:
+                  - text: U
+                  - generic [ref=e121]: U
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - text: C
+                  - generic [ref=e124]: C
+                - generic [ref=e125]:
+                  - text: O
+                  - generic [ref=e126]: O
+                - generic [ref=e127]:
+                  - text: E
+                  - generic [ref=e128]: E
+                - generic [ref=e129]:
+                  - text: U
+                  - generic [ref=e130]: U
+                - generic [ref=e131]:
+                  - text: R
+                  - generic [ref=e132]: R
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - text: d
+                  - generic [ref=e135]: d
+                - generic [ref=e136]:
+                  - text: e
+                  - generic [ref=e137]: e
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - text: l
+                  - generic [ref=e141]: l
+                - generic [ref=e142]:
+                  - text: a
+                  - generic [ref=e143]: a
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - text: d
+                  - generic [ref=e146]: d
+                - generic [ref=e147]:
+                  - text: é
+                  - generic [ref=e148]: é
+                - generic [ref=e149]:
+                  - text: c
+                  - generic [ref=e150]: c
+                - generic [ref=e151]:
+                  - text: e
+                  - generic [ref=e152]: e
+                - generic [ref=e153]:
+                  - text: "n"
+                  - generic [ref=e154]: "n"
+                - generic [ref=e155]:
+                  - text: "n"
+                  - generic [ref=e156]: "n"
+                - generic [ref=e157]:
+                  - text: i
+                  - generic [ref=e158]: i
+                - generic [ref=e159]:
+                  - text: e
+                  - generic [ref=e160]: e
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - text: l
+                  - generic [ref=e163]: l
+                - generic [ref=e164]:
+                  - text: a
+                  - generic [ref=e165]: a
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - text: p
+                  - generic [ref=e168]: p
+                - generic [ref=e169]:
+                  - text: l
+                  - generic [ref=e170]: l
+                - generic [ref=e171]:
+                  - text: u
+                  - generic [ref=e172]: u
+                - generic [ref=e173]:
+                  - text: s
+                  - generic [ref=e174]: s
+              - generic [ref=e175]:
+                - generic [ref=e176]:
+                  - text: v
+                  - generic [ref=e177]: v
+                - generic [ref=e178]:
+                  - text: i
+                  - generic [ref=e179]: i
+                - generic [ref=e180]:
+                  - text: b
+                  - generic [ref=e181]: b
+                - generic [ref=e182]:
+                  - text: r
+                  - generic [ref=e183]: r
+                - generic [ref=e184]:
+                  - text: a
+                  - generic [ref=e185]: a
+                - generic [ref=e186]:
+                  - text: "n"
+                  - generic [ref=e187]: "n"
+                - generic [ref=e188]:
+                  - text: t
+                  - generic [ref=e189]: t
+                - generic [ref=e190]:
+                  - text: e
+                  - generic [ref=e191]: e
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - text: q
+                  - generic [ref=e194]: q
+                - generic [ref=e195]:
+                  - text: u
+                  - generic [ref=e196]: u
+                - generic [ref=e197]:
+                  - text: i
+                  - generic [ref=e198]: i
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - text: s
+                  - generic [ref=e201]: s
+                - generic [ref=e202]:
+                  - text: o
+                  - generic [ref=e203]: o
+                - generic [ref=e204]:
+                  - text: i
+                  - generic [ref=e205]: i
+                - generic [ref=e206]:
+                  - text: t
+                  - generic [ref=e207]: t
+          - generic [ref=e208]:
+            - img "Decathlon Yestalgia - image" [ref=e211]
+            - img "Decathlon Yestalgia - image" [ref=e214]
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e220]:
+            - link "T-shirt graphique - Rose" [ref=e221] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+              - img "T-shirt graphique - Rose" [ref=e223]
+            - link "T-shirt graphique - Blanc" [ref=e224] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993675?opeco=opeco:__drop-yestelgia_p6&type=opeco
+              - img "T-shirt graphique - Blanc" [ref=e226]
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - link "T-shirt graphique - Rose" [ref=e229] [cursor=pointer]:
+                - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+              - paragraph [ref=e230]: 20 €
+            - generic [ref=e231]:
+              - generic [ref=e232] [cursor=pointer]
+              - generic [ref=e233] [cursor=pointer]
+        - generic [ref=e234]:
+          - generic [ref=e237]:
+            - link "OG2K - Violet" [ref=e238] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+              - img "OG2K - Violet" [ref=e240]
+            - link "OG2K - Vert" [ref=e241] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994346?opeco=opeco:__drop-yestelgia_p16&type=opeco
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - link "OG2K - Violet" [ref=e247] [cursor=pointer]:
+                - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+              - paragraph [ref=e248]: 45 €
+            - generic [ref=e249]:
+              - generic [ref=e250] [cursor=pointer]
+              - generic [ref=e251] [cursor=pointer]
+        - generic [ref=e252]:
+          - generic [ref=e255]:
+            - link "Veste de survetement - Violet" [ref=e256] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+            - link "Veste de survetement - Gris" [ref=e260] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007224?opeco=opeco:__drop-yestelgia_p2&type=opeco
+              - img "Veste de survetement - Gris" [ref=e262]
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - link "Veste de survetement - Violet" [ref=e265] [cursor=pointer]:
+                - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+              - paragraph [ref=e266]: 35 €
+            - generic [ref=e267]:
+              - generic [ref=e268] [cursor=pointer]
+              - generic [ref=e269] [cursor=pointer]
+        - generic [ref=e270]:
+          - link "Sweat graphique - Gris" [ref=e274] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+            - img "Sweat graphique - Gris" [ref=e276]
+          - generic [ref=e278]:
+            - link "Sweat graphique - Gris" [ref=e279] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+            - paragraph [ref=e280]: 30 €
+        - generic [ref=e281]:
+          - generic [ref=e284]:
+            - link "Pantalon de survetement - Violet" [ref=e285] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+              - img "Pantalon de survetement - Violet" [ref=e287]
+            - link "Pantalon de survetement - Gris" [ref=e288] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9007213?opeco=opeco:__drop-yestelgia_p4&type=opeco
+              - img "Pantalon de survetement - Gris" [ref=e290]
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - link "Pantalon de survetement - Violet" [ref=e293] [cursor=pointer]:
+                - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+              - paragraph [ref=e294]: 30 €
+            - generic [ref=e295]:
+              - generic [ref=e296] [cursor=pointer]
+              - generic [ref=e297] [cursor=pointer]
+        - generic [ref=e298]:
+          - generic [ref=e301]:
+            - link "T-shirt crop - Violet" [ref=e302] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+              - img "T-shirt crop - Violet" [ref=e304]
+            - link "T-shirt crop - Blanc" [ref=e305] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993679?opeco=opeco:__drop-yestelgia_p9&type=opeco
+              - img "T-shirt crop - Blanc" [ref=e307]
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - link "T-shirt crop - Violet" [ref=e310] [cursor=pointer]:
+                - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+              - paragraph [ref=e311]: 15 €
+            - generic [ref=e312]:
+              - generic [ref=e313] [cursor=pointer]
+              - generic [ref=e314] [cursor=pointer]
+        - generic [ref=e315]:
+          - link "Legging évasé - Rose" [ref=e319] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+            - img "Legging évasé - Rose" [ref=e321]
+          - generic [ref=e323]:
+            - link "Legging évasé - Rose" [ref=e324] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+            - paragraph [ref=e325]: 25 €
+        - generic [ref=e326]:
+          - link "Sac - Vert & Rose" [ref=e330] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+            - img "Sac - Vert & Rose" [ref=e332]
+          - generic [ref=e334]:
+            - link "Sac - Vert & Rose" [ref=e335] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+            - paragraph [ref=e336]: 30 €
+        - generic [ref=e337]:
+          - link "Short - Vert" [ref=e341] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+          - generic [ref=e346]:
+            - link "Short - Vert" [ref=e347] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+            - paragraph [ref=e348]: 18 €
+        - generic [ref=e349]:
+          - link "Lunettes de soleil - Blanc & Orange" [ref=e353] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+            - img "Lunettes de soleil - Blanc & Orange" [ref=e355]
+          - generic [ref=e357]:
+            - link "Lunettes de soleil - Blanc & Orange" [ref=e358] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+            - paragraph [ref=e359]: 20 €
+        - generic [ref=e360]:
+          - link "Casquette - Blanc cassé & Vert" [ref=e364] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+            - img "Casquette - Blanc cassé & Vert" [ref=e366]
+          - generic [ref=e368]:
+            - link "Casquette - Blanc cassé & Vert" [ref=e369] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+            - paragraph [ref=e370]: 12 €
+        - generic [ref=e371]:
+          - link "Roller - Violet" [ref=e375] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+            - img "Roller - Violet" [ref=e377]
+          - generic [ref=e379]:
+            - link "Roller - Violet" [ref=e380] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+            - paragraph [ref=e381]: 90 €
+        - generic [ref=e382]:
+          - link "Chaussettes - Blanc & Vert" [ref=e386] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+            - img "Chaussettes - Blanc & Vert" [ref=e388]
+          - generic [ref=e390]:
+            - link "Chaussettes - Blanc & Vert" [ref=e391] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+            - paragraph [ref=e392]: 15 €
+      - generic [ref=e395]:
+        - generic [ref=e397]:
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - text: s
+              - generic [ref=e400]: s
+            - generic [ref=e401]:
+              - text: a
+              - generic [ref=e402]: a
+            - generic [ref=e403]:
+              - text: l
+              - generic [ref=e404]: l
+            - generic [ref=e405]:
+              - text: u
+              - generic [ref=e406]: u
+            - generic [ref=e407]:
+              - text: t
+              - generic [ref=e408]: t
+            - generic [ref=e409]:
+              - text: ","
+              - generic [ref=e410]: ","
+          - generic [ref=e411]:
+            - generic [ref=e412]:
+              - text: j
+              - generic [ref=e413]: j
+            - generic [ref=e414]:
+              - text: e
+              - generic [ref=e415]: e
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - text: s
+              - generic [ref=e418]: s
+            - generic [ref=e419]:
+              - text: u
+              - generic [ref=e420]: u
+            - generic [ref=e421]:
+              - text: i
+              - generic [ref=e422]: i
+            - generic [ref=e423]:
+              - text: s
+              - generic [ref=e424]: s
+          - emphasis [ref=e425]:
+            - generic [ref=e426]:
+              - generic [ref=e427]:
+                - text: D
+                - generic [ref=e428]: D
+              - generic [ref=e429]:
+                - text: a
+                - generic [ref=e430]: a
+              - generic [ref=e431]:
+                - text: l
+                - generic [ref=e432]: l
+              - generic [ref=e433]:
+                - text: k
+                - generic [ref=e434]: k
+              - generic [ref=e435]:
+                - text: h
+                - generic [ref=e436]: h
+              - generic [ref=e437]:
+                - text: a
+                - generic [ref=e438]: a
+              - generic [ref=e439]:
+                - text: f
+                - generic [ref=e440]: f
+              - generic [ref=e441]:
+                - text: i
+                - generic [ref=e442]: i
+              - generic [ref=e443]:
+                - text: "n"
+                - generic [ref=e444]: "n"
+              - generic [ref=e445]:
+                - text: e
+                - generic [ref=e446]: e
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - text: a
+              - generic [ref=e449]: a
+            - generic [ref=e450]:
+              - text: r
+              - generic [ref=e451]: r
+            - generic [ref=e452]:
+              - text: t
+              - generic [ref=e453]: t
+            - generic [ref=e454]:
+              - text: i
+              - generic [ref=e455]: i
+            - generic [ref=e456]:
+              - text: s
+              - generic [ref=e457]: s
+            - generic [ref=e458]:
+              - text: t
+              - generic [ref=e459]: t
+            - generic [ref=e460]:
+              - text: e
+              - generic [ref=e461]: e
+          - generic [ref=e462]:
+            - generic [ref=e463]:
+              - text: b
+              - generic [ref=e464]: b
+            - generic [ref=e465]:
+              - text: a
+              - generic [ref=e466]: a
+            - generic [ref=e467]:
+              - text: s
+              - generic [ref=e468]: s
+            - generic [ref=e469]:
+              - text: é
+              - generic [ref=e470]: é
+            - generic [ref=e471]:
+              - text: e
+              - generic [ref=e472]: e
+          - generic [ref=e474]:
+            - text: à
+            - generic [ref=e475]: à
+          - generic [ref=e476]:
+            - generic [ref=e477]:
+              - text: M
+              - generic [ref=e478]: M
+            - generic [ref=e479]:
+              - text: o
+              - generic [ref=e480]: o
+            - generic [ref=e481]:
+              - text: "n"
+              - generic [ref=e482]: "n"
+            - generic [ref=e483]:
+              - text: t
+              - generic [ref=e484]: t
+            - generic [ref=e485]:
+              - text: r
+              - generic [ref=e486]: r
+            - generic [ref=e487]:
+              - text: e
+              - generic [ref=e488]: e
+            - generic [ref=e489]:
+              - text: a
+              - generic [ref=e490]: a
+            - generic [ref=e491]:
+              - text: l
+              - generic [ref=e492]: l
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - text: e
+              - generic [ref=e495]: e
+            - generic [ref=e496]:
+              - text: t
+              - generic [ref=e497]: t
+          - generic [ref=e498]:
+            - generic [ref=e499]:
+              - text: P
+              - generic [ref=e500]: P
+            - generic [ref=e501]:
+              - text: a
+              - generic [ref=e502]: a
+            - generic [ref=e503]:
+              - text: r
+              - generic [ref=e504]: r
+            - generic [ref=e505]:
+              - text: i
+              - generic [ref=e506]: i
+            - generic [ref=e507]:
+              - text: s
+              - generic [ref=e508]: s
+            - generic [ref=e509]:
+              - text: .
+              - generic [ref=e510]: .
+        - generic [ref=e511]:
+          - img "Yestalgia" [ref=e514]
+          - paragraph [ref=e518]: Dalkhafine est une artiste franco-canadienne, travaillant principalement sur des collaborations avec des marques, que ce soit dans l’illustration, le motion design ou l’art mural. Son univers coloré et résolument positif met en scène des personnages expressifs qui évoluent dans des décors vibrants, souvent empreints de nostalgie.
+      - generic [ref=e519]:
+        - paragraph [ref=e520]: La famille Yestalgia
+        - list [ref=e522]:
+          - listitem [ref=e523]
+          - listitem [ref=e527]
+          - listitem [ref=e531]
+          - listitem [ref=e535]
+          - listitem [ref=e539]
+          - listitem [ref=e543]
+          - listitem [ref=e547]
+          - listitem [ref=e551]
+          - listitem [ref=e555]
+          - listitem [ref=e559]
+        - generic:
+          - generic:
+            - button "Previous" [ref=e563] [cursor=pointer]
+            - generic:
+              - generic [ref=e567]:
+                - generic [ref=e568]:
+                  - generic [ref=e569]: L
+                  - generic [ref=e570]: e
+                  - generic [ref=e571]: s
+                - generic [ref=e572]:
+                  - generic [ref=e573]: g
+                  - generic [ref=e574]: r
+                  - generic [ref=e575]: a
+                  - generic [ref=e576]: "n"
+                  - generic [ref=e577]: d
+                  - generic [ref=e578]: s
+                  - generic [ref=e579]: "-"
+                  - generic [ref=e580]: p
+                  - generic [ref=e581]: a
+                  - generic [ref=e582]: r
+                  - generic [ref=e583]: e
+                  - generic [ref=e584]: "n"
+                  - generic [ref=e585]: t
+                  - generic [ref=e586]: s
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - generic [ref=e589]: L
+                  - generic [ref=e590]: a
+                - generic [ref=e591]:
+                  - generic [ref=e592]: f
+                  - generic [ref=e593]: i
+                  - generic [ref=e594]: l
+                  - generic [ref=e595]: l
+                  - generic [ref=e596]: e
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - generic [ref=e599]: L
+                  - generic [ref=e600]: e
+                - generic [ref=e601]:
+                  - generic [ref=e602]: f
+                  - generic [ref=e603]: i
+                  - generic [ref=e604]: l
+                  - generic [ref=e605]: s
+              - generic [ref=e606]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]: l
+                  - generic [ref=e609]: a
+                - generic [ref=e610]:
+                  - generic [ref=e611]: m
+                  - generic [ref=e612]: è
+                  - generic [ref=e613]: r
+                  - generic [ref=e614]: e
+              - generic [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]: L
+                  - generic [ref=e618]: e
+                - generic [ref=e619]:
+                  - generic [ref=e620]: p
+                  - generic [ref=e621]: è
+                  - generic [ref=e622]: r
+                  - generic [ref=e623]: e
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: L
+                  - generic [ref=e627]: e
+                  - generic [ref=e628]: s
+                - generic [ref=e629]:
+                  - generic [ref=e630]: g
+                  - generic [ref=e631]: r
+                  - generic [ref=e632]: a
+                  - generic [ref=e633]: "n"
+                  - generic [ref=e634]: d
+                  - generic [ref=e635]: s
+                  - generic [ref=e636]: "-"
+                  - generic [ref=e637]: p
+                  - generic [ref=e638]: a
+                  - generic [ref=e639]: r
+                  - generic [ref=e640]: e
+                  - generic [ref=e641]: "n"
+                  - generic [ref=e642]: t
+                  - generic [ref=e643]: s
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - generic [ref=e646]: L
+                  - generic [ref=e647]: a
+                - generic [ref=e648]:
+                  - generic [ref=e649]: f
+                  - generic [ref=e650]: i
+                  - generic [ref=e651]: l
+                  - generic [ref=e652]: l
+                  - generic [ref=e653]: e
+              - generic [ref=e654]:
+                - generic [ref=e655]:
+                  - generic [ref=e656]: L
+                  - generic [ref=e657]: e
+                - generic [ref=e658]:
+                  - generic [ref=e659]: f
+                  - generic [ref=e660]: i
+                  - generic [ref=e661]: l
+                  - generic [ref=e662]: s
+              - generic [ref=e663]:
+                - generic [ref=e664]:
+                  - generic [ref=e665]: l
+                  - generic [ref=e666]: a
+                - generic [ref=e667]:
+                  - generic [ref=e668]: m
+                  - generic [ref=e669]: è
+                  - generic [ref=e670]: r
+                  - generic [ref=e671]: e
+              - generic [ref=e672]:
+                - generic [ref=e673]:
+                  - generic [ref=e674]: L
+                  - generic [ref=e675]: e
+                - generic [ref=e676]:
+                  - generic [ref=e677]: p
+                  - generic [ref=e678]: è
+                  - generic [ref=e679]: r
+                  - generic [ref=e680]: e
+            - button "Next" [ref=e681] [cursor=pointer]
+      - generic [ref=e698]:
+        - generic [ref=e700]:
+          - generic [ref=e701]:
+            - img "Decathlon Yestalgia - image" [ref=e704]
+            - img "Decathlon Yestalgia - image" [ref=e708]
+          - generic [ref=e709]:
+            - paragraph [ref=e711]: Tout commence dans l'effervescence des cours de récréation des années 80, avant que notre vision ne s'affirme en 2009 avec l'Ekiden 2000. La OG2K s'inspire de ce riche passé pour étendre notre gamme running, offrant une silhouette qui traverse les époques.Aux côtés de l’emblématique RR2K, elle s'impose aujourd'hui comme l'atout maître des fans de la tendance "Y2K". Son design épuré mise sur une esthétique minimaliste sans jamais négliger le confort, le tout proposé à un prix très accessible. C’est la paire idéale pour ceux qui recherchent un style rétro-technique précis et une légèreté absolue au quotidien.
+            - img "Decathlon Yestalgia - image" [ref=e715]
+        - img "Decathlon Yestalgia - image" [ref=e720]
+      - generic [ref=e722]:
+        - list:
+          - listitem: T-shirt graphique
+          - listitem: OG2K
+          - listitem: Veste de survetement
+          - listitem: Sweat graphique
+          - listitem: Pantalon de survetement
+          - listitem: T-shirt crop
+          - listitem: Legging évasé
+          - listitem: Sac
+          - listitem: Short
+          - listitem: Lunettes de soleil
+          - listitem: Casquette
+          - listitem: Roller
+          - listitem: Chaussettes
+        - list [ref=e723]:
+          - listitem [ref=e724]:
+            - generic [ref=e725]:
+              - text: T-shirt graphique
+              - generic [ref=e726]:
+                - generic [ref=e727]: "[01]"
+                - link "T-shirt graphique" [ref=e728] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e731]
+                - generic [ref=e732]: 20 €
+          - listitem [ref=e733]:
+            - generic [ref=e734]:
+              - text: OG2K
+              - generic [ref=e735]:
+                - generic [ref=e736]: "[02]"
+                - link "OG2K" [ref=e737] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e740]
+                - generic [ref=e741]: 45 €
+          - listitem [ref=e742]:
+            - generic [ref=e743]:
+              - text: Veste de survetement
+              - generic [ref=e744]:
+                - generic [ref=e745]: "[03]"
+                - link "Veste de survetement" [ref=e746] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+                - generic [ref=e751]: 35 €
+          - listitem [ref=e752]:
+            - generic [ref=e753]:
+              - text: Sweat graphique
+              - generic [ref=e754]:
+                - generic [ref=e755]: "[04]"
+                - link "Sweat graphique" [ref=e756] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e759]
+                - generic [ref=e760]: 30 €
+          - listitem [ref=e761]:
+            - generic [ref=e762]:
+              - text: Pantalon de survetement
+              - generic [ref=e763]:
+                - generic [ref=e764]: "[05]"
+                - link "Pantalon de survetement" [ref=e765] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e768]
+                - generic [ref=e769]: 30 €
+          - listitem [ref=e770]:
+            - generic [ref=e771]:
+              - text: T-shirt crop
+              - generic [ref=e772]:
+                - generic [ref=e773]: "[06]"
+                - link "T-shirt crop" [ref=e774] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e777]
+                - generic [ref=e778]: 15 €
+          - listitem [ref=e779]:
+            - generic [ref=e780]:
+              - text: Legging évasé
+              - generic [ref=e781]:
+                - generic [ref=e782]: "[07]"
+                - link "Legging" [ref=e783] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e786]
+                - generic [ref=e787]: 25 €
+          - listitem [ref=e788]:
+            - generic [ref=e789]:
+              - text: Sac
+              - generic [ref=e790]:
+                - generic [ref=e791]: "[08]"
+                - link "Sac" [ref=e792] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e795]
+                - generic [ref=e796]: 30 €
+          - listitem [ref=e797]:
+            - generic [ref=e798]:
+              - text: Short
+              - generic [ref=e799]:
+                - generic [ref=e800]: "[09]"
+                - link "Short" [ref=e801] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+                - generic [ref=e806]: 18 €
+          - listitem [ref=e807]:
+            - generic [ref=e808]:
+              - text: Lunettes de soleil
+              - generic [ref=e809]:
+                - generic [ref=e810]: "[10]"
+                - link "Lunettes de soleil" [ref=e811] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e814]
+                - generic [ref=e815]: 20 €
+          - listitem [ref=e816]:
+            - generic [ref=e817]:
+              - text: Casquette
+              - generic [ref=e818]:
+                - generic [ref=e819]: "[11]"
+                - link "Casquette" [ref=e820] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e823]
+                - generic [ref=e824]: 12 €
+          - listitem [ref=e825]:
+            - generic [ref=e826]:
+              - text: Roller
+              - generic [ref=e827]:
+                - generic [ref=e828]: "[12]"
+                - link "Roller" [ref=e829] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e832]
+                - generic [ref=e833]: 90 €
+          - listitem [ref=e834]:
+            - generic [ref=e835]:
+              - text: Chaussettes
+              - generic [ref=e836]:
+                - generic [ref=e837]: "[13]"
+                - link "Chaussettes" [ref=e838] [cursor=pointer]:
+                  - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+                  - img "Decathlon Yestalgia - image" [ref=e841]
+                - generic [ref=e842]: 15 €
+      - generic [ref=e844]:
+        - img "Decathlon Yestalgia" [ref=e847]
+        - navigation [ref=e848]:
+          - list [ref=e849]:
+            - listitem [ref=e850]:
+              - link "Mentions légales" [ref=e851] [cursor=pointer]:
+                - /url: https://decathlonyestalgia.com/fr/mentions-legales/
+            - listitem [ref=e852]:
+              - link "Crédits" [ref=e853] [cursor=pointer]:
+                - /url: https://index.studio

@@ -1,0 +1,88 @@
+- generic [active] [ref=f3e1]:
+  - main [ref=f3e2]:
+    - generic [ref=f3e4]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Selected Work
+              - generic: Projects (04)
+            - generic:
+              - article:
+                - generic:
+                  - img "Velor product design case study"
+                  - generic: "01"
+                - generic:
+                  - heading "Velor" [level=3]
+                  - generic: "2025"
+                - paragraph: Product Design
+              - article:
+                - generic:
+                  - img "Grabl web application case study"
+                  - generic: "02"
+                - generic:
+                  - heading "Grabl" [level=3]
+                  - generic: "2024"
+                - paragraph: Web App
+              - article:
+                - generic:
+                  - img "Monogram identity and motion case study"
+                  - generic: "03"
+                - generic:
+                  - heading "Monogram" [level=3]
+                  - generic: "2025"
+                - paragraph: Identity & Motion
+              - article:
+                - generic:
+                  - img "Ipsum editorial system case study"
+                  - generic: "04"
+                - generic:
+                  - heading "Ipsum" [level=3]
+                  - generic: "2024"
+                - paragraph: Editorial System
+      - generic [ref=f3e6]:
+        - generic:
+          - generic:
+            - generic:
+              - img "Pixel Panda logo"
+              - generic:
+                - paragraph: Based in India
+                - paragraph:
+                  - generic: Open for
+                  - link "w o r k" [ref=f3e8] [cursor=pointer]:
+                    - /url: "#contact"
+                    - generic [ref=f3e9]:
+                      - generic [ref=f3e11]:
+                        - generic [ref=f3e12]: w
+                        - generic [ref=f3e13]: w
+                      - generic [ref=f3e15]:
+                        - generic [ref=f3e16]: o
+                        - generic [ref=f3e17]: o
+                      - generic [ref=f3e19]:
+                        - generic [ref=f3e20]: r
+                        - generic [ref=f3e21]: r
+                      - generic [ref=f3e23]:
+                        - generic [ref=f3e24]: k
+                        - generic [ref=f3e25]: k
+            - button "M e n u" [ref=f3e26]:
+              - generic [ref=f3e27] [cursor=pointer]:
+                - generic [ref=f3e29]:
+                  - generic [ref=f3e30]: M
+                  - generic [ref=f3e31]: M
+                - generic [ref=f3e33]:
+                  - generic [ref=f3e34]: e
+                  - generic [ref=f3e35]: e
+                - generic [ref=f3e37]:
+                  - generic [ref=f3e38]: "n"
+                  - generic [ref=f3e39]: "n"
+                - generic [ref=f3e41]:
+                  - generic [ref=f3e42]: u
+                  - generic [ref=f3e43]: u
+          - generic:
+            - heading "Panda." [level=1]
+            - paragraph: Pratyush Panda 🐼 Creative Developer
+          - generic:
+            - generic: pixel
+            - generic: (move your cursor)
+            - generic: panda
+  - alert [ref=f3e44]

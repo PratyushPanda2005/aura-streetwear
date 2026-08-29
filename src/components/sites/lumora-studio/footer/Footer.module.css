@@ -1,0 +1,220 @@
+/* Lumora footer. Layout metrics use `em` off a fluid `vw` base so the whole
+   footer scales with the viewport. Typeface is Space Grotesk (SIL OFL), wired
+   in via the --font-brand variable from next/font. */
+
+.footer {
+  --color-light: white;
+  --color-dark: black;
+  --color-800: #ffffff29;
+  --color-1000: #ffffffa3;
+
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  font-family: var(--font-brand), Arial, sans-serif;
+  font-size: 0.833vw;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    font-size: 1.615vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    font-size: 2.086vw;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer {
+    font-size: 3.738vw;
+  }
+}
+
+.paddingGlobal {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .paddingGlobal {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.containerLarge {
+  width: 100%;
+  max-width: 114.979em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.component {
+  display: flex;
+  flex-flow: column;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  border-top: 1px solid var(--color-800);
+}
+
+@media screen and (max-width: 991px) {
+  .component {
+    padding-top: 2em;
+  }
+}
+
+.logo {
+  width: 100%;
+  height: 30em;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 22.75em;
+  }
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  grid-column-gap: 4em;
+  grid-row-gap: 4em;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row;
+  grid-column-gap: 36.063em;
+  grid-row-gap: 36.063em;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 991px) {
+  .grid {
+    flex-flow: column;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    grid-column-gap: 5em;
+    grid-row-gap: 5em;
+  }
+}
+
+.gridDown {
+}
+
+@media screen and (max-width: 991px) {
+  .gridDown {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gridDown {
+    grid-column-gap: 2.5em;
+    grid-row-gap: 2.5em;
+    flex-flow: row;
+  }
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 22.417em;
+}
+
+.columnLocation {
+  grid-column-gap: 0.688em;
+  grid-row-gap: 0.688em;
+}
+
+.colList {
+  display: flex;
+  flex-flow: row;
+  grid-column-gap: 6.875em;
+  grid-row-gap: 6.875em;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 991px) {
+  .colList {
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .colListPolitica {
+    width: 22.417em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .colListPolitica {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.textRegular {
+  font-size: 1em;
+  letter-spacing: -0.019em;
+}
+
+.textLight {
+  color: var(--color-light);
+}
+
+.text1000 {
+  color: var(--color-1000);
+}
+
+.link {
+  opacity: 0.6;
+  color: var(--color-light);
+  letter-spacing: -0.04em;
+  padding-top: 0.6565em;
+  padding-bottom: 0.6565em;
+  font-size: 1em;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.linkTop {
+  padding-top: 0;
+}
+
+.linkBot {
+  padding-bottom: 0;
+}
+
+.privacyLink {
+  font-size: 1em;
+  letter-spacing: -0.019em;
+  color: var(--color-1000);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.privacyLink:hover {
+  color: var(--color-light);
+}

@@ -1,0 +1,398 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - generic:
+      - button "Menu" [ref=f9e4] [cursor=pointer]
+      - link "Decathlon Yestalgia" [ref=f9e8] [cursor=pointer]:
+        - /url: https://decathlon.com
+        - img "Decathlon Yestalgia" [ref=f9e9]
+      - generic [ref=f9e10]:
+        - generic [ref=f9e11]:
+          - combobox "langswitcher" [ref=f9e12] [cursor=pointer]:
+            - option "FR"
+            - option "EN" [selected]
+            - option "IT"
+            - option "ES"
+            - option "DE"
+            - option "BE-NL"
+            - option "BE-FR"
+          - generic: ▼
+        - link "Shop" [ref=f9e13] [cursor=pointer]:
+          - /url: https://www.decathlon.fr/sportswear/decathlon-yestalgia?opeco=opeco:__drop-yestalgia&type=opeco
+    - link "Shop" [ref=f9e14] [cursor=pointer]:
+      - /url: https://www.decathlon.fr/sportswear/decathlon-yestalgia?opeco=opeco:__drop-yestalgia&type=opeco
+    - main [ref=f9e15]:
+      - region "Decathlon Yestalgia" [ref=f9e16]:
+        - heading "Decathlon Yestalgia" [level=1] [ref=f9e17]
+      - generic [ref=f9e21]:
+        - generic [ref=f9e24]:
+          - generic [ref=f9e26]:
+            - generic: M
+            - generic: o
+            - generic: v
+            - generic: i
+            - generic: "n"
+            - generic: g
+            - generic: "y"
+            - generic: o
+            - generic: u
+          - generic [ref=f9e28]:
+            - generic: s
+            - generic: i
+            - generic: "n"
+            - generic: c
+            - generic: e
+            - generic: "1"
+            - generic: "9"
+            - generic: "7"
+            - generic: "6"
+        - generic [ref=f9e29]:
+          - generic [ref=f9e31]:
+            - generic [ref=f9e33]:
+              - generic: I
+              - generic: "n"
+              - generic: t
+              - generic: o
+              - generic: t
+              - generic: h
+              - generic: e
+              - generic: h
+              - generic: e
+              - generic: a
+              - generic: r
+              - generic: t
+              - generic: o
+              - generic: f
+            - generic [ref=f9e35]:
+              - generic: t
+              - generic: h
+              - generic: e
+              - generic: m
+              - generic: o
+              - generic: s
+              - generic: t
+              - generic: v
+              - generic: i
+              - generic: b
+              - generic: r
+              - generic: a
+              - generic: "n"
+              - generic: t
+            - generic [ref=f9e37]:
+              - generic: d
+              - generic: e
+              - generic: c
+              - generic: a
+              - generic: d
+              - generic: e
+              - generic: e
+              - generic: v
+              - generic: e
+              - generic: r
+          - generic [ref=f9e38]:
+            - img "Yestalgia lifestyle" [ref=f9e40]
+            - img "Yestalgia lifestyle" [ref=f9e42]
+      - generic [ref=f9e45]:
+        - generic [ref=f9e46]:
+          - link [ref=f9e47] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+            - img "Graphic T-Shirt" [ref=f9e48]
+            - img "Graphic T-Shirt" [ref=f9e49]
+          - generic [ref=f9e50]:
+            - link "Graphic T-Shirt" [ref=f9e51] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+            - paragraph [ref=f9e52]: 20 €
+          - generic [ref=f9e53]:
+            - button "Variante 1" [ref=f9e54]
+            - button "Variante 2" [ref=f9e55]
+        - generic [ref=f9e56]:
+          - link [ref=f9e57] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+            - img "OG2K" [ref=f9e58]
+          - generic [ref=f9e60]:
+            - link "OG2K" [ref=f9e61] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+            - paragraph [ref=f9e62]: 45 €
+          - generic [ref=f9e63]:
+            - button "Variante 1" [ref=f9e64]
+            - button "Variante 2" [ref=f9e65]
+        - generic [ref=f9e66]:
+          - link [ref=f9e67] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+            - img "Tracksuit Jacket" [ref=f9e69]
+          - generic [ref=f9e70]:
+            - link "Tracksuit Jacket" [ref=f9e71] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+            - paragraph [ref=f9e72]: 35 €
+          - generic [ref=f9e73]:
+            - button "Variante 1" [ref=f9e74]
+            - button "Variante 2" [ref=f9e75]
+        - generic [ref=f9e76]:
+          - link [ref=f9e77] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+            - img "Graphic Crewneck" [ref=f9e78]
+          - generic [ref=f9e79]:
+            - link "Graphic Crewneck" [ref=f9e80] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+            - paragraph [ref=f9e81]: 30 €
+        - generic [ref=f9e82]:
+          - link [ref=f9e83] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+            - img "Tracksuit Pant" [ref=f9e84]
+            - img "Tracksuit Pant" [ref=f9e85]
+          - generic [ref=f9e86]:
+            - link "Tracksuit Pant" [ref=f9e87] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+            - paragraph [ref=f9e88]: 30 €
+          - generic [ref=f9e89]:
+            - button "Variante 1" [ref=f9e90]
+            - button "Variante 2" [ref=f9e91]
+        - generic [ref=f9e92]:
+          - link [ref=f9e93] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+            - img "T-Shirt Ringer" [ref=f9e94]
+            - img "T-Shirt Ringer" [ref=f9e95]
+          - generic [ref=f9e96]:
+            - link "T-Shirt Ringer" [ref=f9e97] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+            - paragraph [ref=f9e98]: 15 €
+          - generic [ref=f9e99]:
+            - button "Variante 1" [ref=f9e100]
+            - button "Variante 2" [ref=f9e101]
+        - generic [ref=f9e102]:
+          - link [ref=f9e103] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+            - img "Legging Flared" [ref=f9e104]
+          - generic [ref=f9e105]:
+            - link "Legging Flared" [ref=f9e106] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+            - paragraph [ref=f9e107]: 25 €
+        - generic [ref=f9e108]:
+          - link [ref=f9e109] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+            - img "Bag" [ref=f9e110]
+          - generic [ref=f9e111]:
+            - link "Bag" [ref=f9e112] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+            - paragraph [ref=f9e113]: 30 €
+          - generic [ref=f9e114]:
+            - button "Variante 1" [ref=f9e115]
+            - button "Variante 2" [ref=f9e116]
+        - generic [ref=f9e117]:
+          - link [ref=f9e118] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+          - generic [ref=f9e120]:
+            - link "Short" [ref=f9e121] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+            - paragraph [ref=f9e122]: 18 €
+        - generic [ref=f9e123]:
+          - link [ref=f9e124] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+            - img "Sunglasses" [ref=f9e125]
+          - generic [ref=f9e126]:
+            - link "Sunglasses" [ref=f9e127] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+            - paragraph [ref=f9e128]: 20 €
+          - generic [ref=f9e129]:
+            - button "Variante 1" [ref=f9e130]
+            - button "Variante 2" [ref=f9e131]
+        - generic [ref=f9e132]:
+          - link [ref=f9e133] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+            - img "Cap" [ref=f9e134]
+          - generic [ref=f9e135]:
+            - link "Cap" [ref=f9e136] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+            - paragraph [ref=f9e137]: 12 €
+          - generic [ref=f9e138]:
+            - button "Variante 1" [ref=f9e139]
+            - button "Variante 2" [ref=f9e140]
+        - generic [ref=f9e141]:
+          - link [ref=f9e142] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+            - img "Roller" [ref=f9e143]
+          - generic [ref=f9e144]:
+            - link "Roller" [ref=f9e145] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+            - paragraph [ref=f9e146]: 90 €
+        - generic [ref=f9e147]:
+          - link [ref=f9e148] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+            - img "Socks" [ref=f9e149]
+          - generic [ref=f9e150]:
+            - link "Socks" [ref=f9e151] [cursor=pointer]:
+              - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+            - paragraph [ref=f9e152]: 15 €
+          - generic [ref=f9e153]:
+            - button "Variante 1" [ref=f9e154]
+            - button "Variante 2" [ref=f9e155]
+      - generic [ref=f9e158]:
+        - heading [level=2] [ref=f9e160]:
+          - generic [ref=f9e162]:
+            - generic: H
+            - generic: i
+            - generic: ","
+          - generic [ref=f9e164]:
+            - generic: I
+            - generic: "'"
+            - generic: m
+          - emphasis [ref=f9e166]:
+            - generic: D
+            - generic: a
+            - generic: l
+            - generic: k
+            - generic: h
+            - generic: a
+            - generic: f
+            - generic: i
+            - generic: "n"
+            - generic: e
+          - generic [ref=f9e168]:
+            - generic: a
+            - generic: "n"
+          - generic [ref=f9e170]:
+            - generic: a
+            - generic: r
+            - generic: t
+            - generic: i
+            - generic: s
+            - generic: t
+          - generic [ref=f9e172]:
+            - generic: b
+            - generic: a
+            - generic: s
+            - generic: e
+            - generic: d
+          - generic [ref=f9e174]:
+            - generic: i
+            - generic: "n"
+          - generic [ref=f9e176]:
+            - generic: M
+            - generic: o
+            - generic: "n"
+            - generic: t
+            - generic: r
+            - generic: e
+            - generic: a
+            - generic: l
+          - generic [ref=f9e178]:
+            - generic: a
+            - generic: "n"
+            - generic: d
+          - generic [ref=f9e180]:
+            - generic: P
+            - generic: a
+            - generic: r
+            - generic: i
+            - generic: s
+            - generic: .
+        - generic [ref=f9e181]:
+          - img "Yestalgia" [ref=f9e183]
+          - paragraph [ref=f9e185]: Dalkhafine is a French-Canadian artist who primarily focuses on brand collaborations, ranging from illustration and motion design to mural art. Her colorful and resolutely positive universe features expressive characters evolving in vibrant settings, often tinged with nostalgia.
+      - generic [ref=f9e186]:
+        - generic [ref=f9e187] [cursor=pointer]: The Yestalgia family
+        - generic:
+          - button "Previous" [ref=f9e205]:
+            - img "Précédent"
+          - heading "The father" [level=2]
+          - button "Next" [ref=f9e206]:
+            - img "Suivant"
+      - generic [ref=f9e208]:
+        - img "OG2K" [ref=f9e210]
+        - generic [ref=f9e211]:
+          - generic [ref=f9e212]:
+            - img "OG2K" [ref=f9e214]
+            - img "OG2K outline" [ref=f9e217]
+          - generic [ref=f9e218]:
+            - paragraph [ref=f9e220]: It all began in the bustling playgrounds of the 80s, long before our vision truly took hold in 2009 with the Ekiden 2000. Drawing from this rich heritage, the OG2K expands our running range, offering a silhouette that transcends generations.Alongside the iconic RR2K, it has established itself as the ultimate must-have for fans of the "Y2K" trend. Its sleek design focuses on a minimalist aesthetic without ever compromising on comfort, at an accessible price point. It is the perfect pair for those seeking a precise retro-tech look and absolute lightness for everyday wear.
+            - img "OG2K visual" [ref=f9e222]
+      - list [ref=f9e224]:
+        - listitem [ref=f9e225]:
+          - link "[01] Graphic T-Shirt 20 €" [ref=f9e226] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379166?mc=8993674?opeco=opeco:__drop-yestelgia_p5&type=opeco
+            - generic [ref=f9e227]: "[01]"
+            - generic [ref=f9e228]: Graphic T-Shirt
+            - generic [ref=f9e229]: 20 €
+        - listitem [ref=f9e230]:
+          - link "[02] OG2K 45 €" [ref=f9e231] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379394?mc=8994345?opeco=opeco:__drop-yestelgia_p15&type=opeco
+            - generic [ref=f9e232]: "[02]"
+            - generic [ref=f9e233]: OG2K
+            - generic [ref=f9e234]: 45 €
+        - listitem [ref=f9e235]:
+          - link "[03] Tracksuit Jacket 35 €" [ref=f9e236] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-382689?mc=9007209?opeco=opeco:__drop-yestelgia_p1&type=opeco
+            - generic [ref=f9e237]: "[03]"
+            - generic [ref=f9e238]: Tracksuit Jacket
+            - generic [ref=f9e239]: 35 €
+        - listitem [ref=f9e240]:
+          - link "[04] Graphic Crewneck 30 €" [ref=f9e241] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379346?mc=8994349?opeco=opeco:__drop-yestelgia_p7&type=opeco
+            - generic [ref=f9e242]: "[04]"
+            - generic [ref=f9e243]: Graphic Crewneck
+            - generic [ref=f9e244]: 30 €
+        - listitem [ref=f9e245]:
+          - link "[05] Tracksuit Pant 30 €" [ref=f9e246] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-382770?mc=9009453?opeco=opeco:__drop-yestelgia_p3&type=opeco
+            - generic [ref=f9e247]: "[05]"
+            - generic [ref=f9e248]: Tracksuit Pant
+            - generic [ref=f9e249]: 30 €
+        - listitem [ref=f9e250]:
+          - link "[06] T-Shirt Ringer 15 €" [ref=f9e251] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379218?mc=8993678?opeco=opeco:__drop-yestelgia_p8&type=opeco
+            - generic [ref=f9e252]: "[06]"
+            - generic [ref=f9e253]: T-Shirt Ringer
+            - generic [ref=f9e254]: 15 €
+        - listitem [ref=f9e255]:
+          - link "[07] Legging Flared 25 €" [ref=f9e256] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379298?mc=8994343?opeco=opeco:__drop-yestelgia_p10&type=opeco
+            - generic [ref=f9e257]: "[07]"
+            - generic [ref=f9e258]: Legging Flared
+            - generic [ref=f9e259]: 25 €
+        - listitem [ref=f9e260]:
+          - link "[08] Bag 30 €" [ref=f9e261] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379167?mc=8993680?opeco=opeco:__drop-yestelgia_p12&type=opeco
+            - generic [ref=f9e262]: "[08]"
+            - generic [ref=f9e263]: Bag
+            - generic [ref=f9e264]: 30 €
+        - listitem [ref=f9e265]:
+          - link "[09] Short 18 €" [ref=f9e266] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379400?mc=8994344?opeco=opeco:__drop-yestelgia_p11&type=opeco
+            - generic [ref=f9e267]: "[09]"
+            - generic [ref=f9e268]: Short
+            - generic [ref=f9e269]: 18 €
+        - listitem [ref=f9e270]:
+          - link "[10] Sunglasses 20 €" [ref=f9e271] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-383425?mc=9010787?opeco=opeco:__drop-yestelgia_p13&type=opeco
+            - generic [ref=f9e272]: "[10]"
+            - generic [ref=f9e273]: Sunglasses
+            - generic [ref=f9e274]: 20 €
+        - listitem [ref=f9e275]:
+          - link "[11] Cap 12 €" [ref=f9e276] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379366?mc=8994571?opeco=opeco:__drop-yestelgia_p14&type=opeco
+            - generic [ref=f9e277]: "[11]"
+            - generic [ref=f9e278]: Cap
+            - generic [ref=f9e279]: 12 €
+        - listitem [ref=f9e280]:
+          - link "[12] Roller 90 €" [ref=f9e281] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-384500?mc=9017621?opeco=opeco:__drop-yestelgia_p17&type=opeco
+            - generic [ref=f9e282]: "[12]"
+            - generic [ref=f9e283]: Roller
+            - generic [ref=f9e284]: 90 €
+        - listitem [ref=f9e285]:
+          - link "[13] Socks 15 €" [ref=f9e286] [cursor=pointer]:
+            - /url: https://www.decathlon.fr/p/*/_/R-p-379404?mc=9006246?opeco=opeco:__drop-yestelgia_p18&type=opeco
+            - generic [ref=f9e287]: "[13]"
+            - generic [ref=f9e288]: Socks
+            - generic [ref=f9e289]: 15 €
+      - generic [ref=f9e290]:
+        - img "Decathlon Yestalgia" [ref=f9e292]
+        - navigation [ref=f9e293]:
+          - list [ref=f9e294]:
+            - listitem [ref=f9e295]:
+              - link "Legal notice" [ref=f9e296] [cursor=pointer]:
+                - /url: https://decathlonyestalgia.com/en/
+            - listitem [ref=f9e297]:
+              - link "Credits" [ref=f9e298] [cursor=pointer]:
+                - /url: https://index.studio
+  - button "Open Next.js Dev Tools" [ref=f9e304] [cursor=pointer]
+  - alert [ref=f9e308]

@@ -254,3 +254,154 @@ body.scroll-lock {
 .indigo-scroll-indicator {
   animation: 1.4s ease-in-out infinite indigo-scroll-indicator;
 }
+
+/* ==========================================================================
+   decathlonyestalgia.com/fr clone — site tokens
+   (site-key decathlonyestalgia-com-2c916833 / page-key fr-bd88bf53)
+   Palette + type transcribed verbatim from the live compiled stylesheet.
+   Scoped to .yestalgia-site so the scaffold + other site tokens stay intact.
+   ========================================================================== */
+.yestalgia-site {
+  --y-pink-100: #e9dae6; /* light lavender — primary section bg */
+  --y-pink-200: #eaa0cd; /* vibrant pink */
+  --y-pink-soft: #f3afcc; /* decoration pink */
+  --y-beige: #f1f3ed;
+  --y-blue: #7ca8d2;
+  --y-green: #00966e;
+  --y-orange: #f09341;
+  --y-yellow: #d7dd44; /* logo / lightning lime */
+  --y-grey: #222827;
+  --y-black: #000;
+  --y-white: #fff;
+  --y-body-bg: #f4f4f4;
+  --y-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  background-color: var(--y-body-bg);
+  color: var(--y-black);
+  font-family: var(--font-roboto-flex), "Roboto Flex", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  overflow-x: clip;
+}
+
+/* Condensed heavy display type — matches the site's u-title-* utilities
+   (weight 535, font-stretch 33% via the wdth axis, line-height .85). */
+.yestalgia-site .y-title {
+  text-transform: uppercase;
+  font-weight: 535;
+  font-stretch: 33%;
+  line-height: 0.85;
+}
+.yestalgia-site .y-title-100 {
+  font-size: 25vw;
+}
+@media (min-width: 1024px) {
+  .yestalgia-site .y-title-100 {
+    font-size: 14vw;
+  }
+}
+.yestalgia-site .y-title-200 {
+  font-size: 16vw;
+}
+@media (min-width: 1024px) {
+  .yestalgia-site .y-title-200 {
+    font-size: 5vw;
+  }
+}
+.yestalgia-site .y-title-300 {
+  font-size: 24px;
+  line-height: 1;
+}
+
+/* Pill button — c-button (uppercase, wdth 33, radius 10, lime fill).
+   No `display` here on purpose: setting it would beat Tailwind's display
+   utilities (flex / hidden / lg:hidden) since this rule is unlayered. */
+.yestalgia-site .y-button {
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-variation-settings: "wdth" 33;
+  font-weight: 535;
+  font-size: 14px;
+  line-height: 0.85;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1.5px solid var(--y-black);
+  background: var(--y-yellow);
+  color: var(--y-black);
+  transition:
+    transform 0.35s var(--y-ease-out),
+    background-color 0.35s var(--y-ease-out);
+}
+.yestalgia-site .y-button:hover {
+  transform: translateY(-2px);
+}
+
+/* Animated split-text headings use Koulen (condensed display face). Koulen is
+   a single-weight, already-condensed font, so drop the variable width/weight. */
+.yestalgia-site .y-tagline {
+  font-family: var(--font-koulen), "Roboto Flex", sans-serif;
+  font-weight: 400;
+  font-stretch: normal;
+  font-variation-settings: normal;
+  letter-spacing: 0.01em;
+}
+
+/* Split-text reveal: each char has an offset pink duplicate behind it. */
+.yestalgia-site .y-char {
+  display: inline-block;
+  position: relative;
+  will-change: transform, opacity;
+}
+.yestalgia-site .y-char > .y-char-shadow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  color: var(--y-pink-200);
+  transform: translate(0.06em, 0.06em);
+  pointer-events: none;
+}
+
+/* Simple fade-in-on-scroll (u-anim-simple) */
+.yestalgia-site .y-fade {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 1s var(--y-ease-out),
+    transform 1s var(--y-ease-out);
+  transition-delay: var(--y-delay, 0s);
+}
+.yestalgia-site .y-fade.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Continuous spin for satellite decorations */
+@keyframes y-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.yestalgia-site .y-spin {
+  animation: y-spin 18s linear infinite;
+}
+.yestalgia-site .y-spin-slow {
+  animation: y-spin 30s linear infinite;
+}
+
+/* Container */
+.yestalgia-site .y-container {
+  max-width: 1400px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+@media (min-width: 1024px) {
+  .yestalgia-site .y-container {
+    padding-inline: 120px;
+  }
+}
+
+/* Hide native scrollbar while Lenis drives scroll */
+.yestalgia-site::-webkit-scrollbar {
+  display: none;
+}

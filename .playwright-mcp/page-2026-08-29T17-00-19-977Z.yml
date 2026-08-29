@@ -1,0 +1,53 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation:
+      - generic:
+        - generic [ref=f1e3] [cursor=pointer]
+        - generic [ref=f1e5] [cursor=pointer]:
+          - generic "Menu" [ref=f1e6]:
+            - generic [ref=f1e8]:
+              - generic [ref=f1e9]: M
+              - generic [ref=f1e10]: e
+              - generic [ref=f1e11]: "n"
+              - generic [ref=f1e12]: u
+          - generic "Menu" [ref=f1e13]:
+            - generic [ref=f1e15]:
+              - generic [ref=f1e16]: M
+              - generic [ref=f1e17]: e
+              - generic [ref=f1e18]: "n"
+              - generic [ref=f1e19]: u
+    - main [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - generic:
+          - generic:
+            - generic "Designer& Developer" [ref=f1e22]:
+              - generic [ref=f1e23]: Designer
+              - generic [ref=f1e24]: "& Developer"
+            - generic:
+              - generic:
+                - generic "Based in Kyiv"
+                - generic:
+                  - generic "Working w/"
+                  - link "TFTLTFTL" [ref=f1e25] [cursor=pointer]:
+                    - /url: https://thefirstthelast.agency/?utm_source=bleibtgleich&utm_medium=article&utm_campaign=promo
+                    - generic [ref=f1e26]:
+                      - generic [ref=f1e29]:
+                        - generic [ref=f1e30]: T
+                        - generic [ref=f1e31]: F
+                        - generic [ref=f1e32]: T
+                        - generic [ref=f1e33]: L
+                      - generic [ref=f1e36]:
+                        - generic [ref=f1e37]: T
+                        - generic [ref=f1e38]: F
+                        - generic [ref=f1e39]: T
+                        - generic [ref=f1e40]: L
+      - list [ref=f1e56]:
+        - listitem [ref=f1e57]:
+          - list [ref=f1e59]
+        - listitem [ref=f1e60]:
+          - list [ref=f1e62]
+        - listitem [ref=f1e63]:
+          - list [ref=f1e65]
+    - generic:
+      - generic "0%"
+  - generic: Say something...
