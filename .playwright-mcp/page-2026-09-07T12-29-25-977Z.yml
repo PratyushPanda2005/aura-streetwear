@@ -1,0 +1,94 @@
+- generic [active] [ref=f8e1]:
+  - main [ref=f8e2]:
+    - generic [ref=f8e4]:
+      - generic [ref=f8e5]:
+        - link "INTARCS" [ref=f8e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f8e7]:
+          - list [ref=f8e8]:
+            - listitem [ref=f8e9]:
+              - link "Work" [ref=f8e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f8e11]:
+              - link "Studio" [ref=f8e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f8e13]:
+              - link "Journal" [ref=f8e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f8e15]:
+              - link "Contact" [ref=f8e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f8e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f8e19]:
+          - generic [ref=f8e20]: You feel the brand
+          - generic [ref=f8e22]: before it speaks®
+        - paragraph [ref=f8e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+    - generic [ref=f8e26]:
+      - generic [ref=f8e27]:
+        - heading "Selected projects" [level=2] [ref=f8e28]:
+          - generic [ref=f8e29]: Selected
+          - generic [ref=f8e30]: projects
+        - link "view all works" [ref=f8e31] [cursor=pointer]:
+          - /url: "#work"
+      - generic [ref=f8e34]:
+        - generic [ref=f8e35]:
+          - article [ref=f8e36]:
+            - generic [ref=f8e37]:
+              - img "Payy Network" [ref=f8e38]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: web design
+            - generic [ref=f8e41]:
+              - heading "Payy Network" [level=3] [ref=f8e42]
+              - paragraph [ref=f8e43]: Stablecoin payments that feel familiar, not foreign.
+          - article [ref=f8e44]:
+            - generic [ref=f8e45]:
+              - img "Gather AI" [ref=f8e46]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: website
+            - generic [ref=f8e49]:
+              - heading "Gather AI" [level=3] [ref=f8e50]
+              - paragraph [ref=f8e51]: First telco run entirely on AI, powering hundreds of brands from one intelligent core
+        - article [ref=f8e53]:
+          - generic [ref=f8e54]:
+            - img "Jurni AI" [ref=f8e55]
+            - generic:
+              - generic: creative direction
+              - generic: visual identity
+              - generic: motion
+              - generic: website
+          - generic [ref=f8e58]:
+            - heading "Jurni AI" [level=3] [ref=f8e59]
+            - paragraph [ref=f8e60]: Jurni is an AI funnel engine that turns a prompt into a live, high-converting landing experience in minutes.
+        - generic [ref=f8e61]:
+          - article [ref=f8e62]:
+            - generic [ref=f8e63]:
+              - img "Parker AI" [ref=f8e64]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+            - generic [ref=f8e67]:
+              - heading "Parker AI" [level=3] [ref=f8e68]
+              - paragraph [ref=f8e69]: Parker is an AI creative strategist that thinks, researches, and structures work like a senior partner. Clear briefs, sharp angles, and sourced notes inside Slack
+          - article [ref=f8e70]:
+            - generic [ref=f8e71]:
+              - img "Nolana AI" [ref=f8e72]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: website
+            - generic [ref=f8e75]:
+              - heading "Nolana AI" [level=3] [ref=f8e76]
+              - paragraph [ref=f8e77]: AI-native agentic OS for financial services operations
+  - button "Open Next.js Dev Tools" [ref=f8e83] [cursor=pointer]
+  - alert [ref=f8e87]

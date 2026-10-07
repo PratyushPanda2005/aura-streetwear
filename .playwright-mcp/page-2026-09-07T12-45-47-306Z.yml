@@ -1,0 +1,248 @@
+- generic [active] [ref=f11e1]:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic: Design studio
+          - generic: Architecture & interior
+    - generic:
+      - generic:
+        - generic:
+          - generic: South Yarra
+          - generic: Australia
+      - generic:
+        - generic:
+          - generic: Loading
+          - generic: 0%
+  - generic [ref=f11e4]:
+    - banner [ref=f11e5]:
+      - link "Home" [ref=f11e7] [cursor=pointer]:
+        - /url: https://telhaclarke.com.au
+      - generic [ref=f11e21]:
+        - link "Work," [ref=f11e22] [cursor=pointer]:
+          - /url: https://telhaclarke.com.au/works/
+        - link "Process," [ref=f11e23] [cursor=pointer]:
+          - /url: https://telhaclarke.com.au/process/
+        - link "Studio" [ref=f11e24] [cursor=pointer]:
+          - /url: https://telhaclarke.com.au/studio/
+      - generic [ref=f11e25]:
+        - generic [ref=f11e26]:
+          - generic [ref=f11e27]: "10"
+          - generic [ref=f11e28]: ":"
+          - generic [ref=f11e29]: "45"
+          - generic [ref=f11e30]: pm
+        - generic [ref=f11e31]: South Yarra, AUS
+      - link "Contact" [ref=f11e33] [cursor=pointer]:
+        - /url: https://telhaclarke.com.au/contact/
+    - main [ref=f11e34]:
+      - generic [ref=f11e36]:
+        - generic [ref=f11e37]:
+          - generic [ref=f11e39]:
+            - generic [ref=f11e40]:
+              - generic [ref=f11e41]:
+                - generic [ref=f11e42]: "["
+                - generic [ref=f11e43]:
+                  - generic [ref=f11e44]: Scroll
+                  - generic [ref=f11e45]: down
+                - generic [ref=f11e46]: "]"
+              - generic [aria-hidden] [ref=f11e47]:
+                - generic [ref=f11e48]: Driven by History, Centered on
+                - generic [ref=f11e50]: Context, Embracing Culture
+            - generic [ref=f11e58]:
+              - generic [ref=f11e59]: "[Scroll down]"
+              - heading "Driven by History, Centered on Context, Embracing Culture" [level=1] [ref=f11e60]:
+                - generic [ref=f11e61]: Driven by History, Centered on
+                - generic [ref=f11e63]: Context, Embracing Culture
+          - generic [ref=f11e65]:
+            - figure [ref=f11e78]
+            - generic [ref=f11e79]:
+              - generic [ref=f11e80]:
+                - generic [ref=f11e81]: "01"
+                - generic "Studio" [ref=f11e82]
+              - paragraph [ref=f11e84]: We connect, create and work on the lands of Aboriginal and Torres Strait Islander peoples throughout Australia. We acknowledge First Nations’ ancient histories, cultures, and ongoing connections to Country, and we pay our respect to Elders past and present.
+            - heading "Telha Clarke is a Melbourne based Architecture & Interior Design studio, designing various project typologies across Australia and Internationally." [level=2] [ref=f11e87]
+            - generic [ref=f11e88]: Architecture & Interior Design
+            - heading [level=3] [ref=f11e89]:
+              - paragraph [ref=f11e91]: With experience covering a range of typologies; from single & multi-residential, seniors living, student accommodation, social housing, hotels, hospitality and workplace. We believe human touch must drive creativity.
+          - generic [ref=f11e92]:
+            - generic [ref=f11e93]:
+              - heading "Selected Works" [level=2] [ref=f11e95]
+              - generic [ref=f11e96]: "02"
+              - generic [ref=f11e97]: 17 - 25'
+            - generic [ref=f11e98]:
+              - link "[ Loller ] Multi-residential 2025" [ref=f11e99] [cursor=pointer]:
+                - /url: https://telhaclarke.com.au/work/loller-street/
+                - generic [ref=f11e100]:
+                  - generic [ref=f11e101]:
+                    - generic [ref=f11e104]: "["
+                    - heading "Loller" [level=3] [ref=f11e105]
+                    - generic [ref=f11e106]: "]"
+                  - generic [ref=f11e108]:
+                    - figure [ref=f11e112]
+                    - generic [ref=f11e113]:
+                      - generic [ref=f11e114]: Multi-residential
+                      - generic [ref=f11e115]: "2025"
+              - link "[ Penthouse Vivace ] Residential 2025" [ref=f11e116] [cursor=pointer]:
+                - /url: https://telhaclarke.com.au/work/penthouse-vivace/
+                - generic [ref=f11e117]:
+                  - generic [ref=f11e118]:
+                    - generic [ref=f11e121]: "["
+                    - heading "Penthouse Vivace" [level=3] [ref=f11e122]
+                    - generic [ref=f11e123]: "]"
+                  - generic [ref=f11e125]:
+                    - figure [ref=f11e129]
+                    - generic [ref=f11e130]:
+                      - generic [ref=f11e131]: Residential
+                      - generic [ref=f11e132]: "2025"
+              - link "[ Southbank Tower ] Multi-residential 2019" [ref=f11e133] [cursor=pointer]:
+                - /url: https://telhaclarke.com.au/work/southbank-tower/
+                - generic [ref=f11e134]:
+                  - generic [ref=f11e135]:
+                    - generic [ref=f11e138]: "["
+                    - heading "Southbank Tower" [level=3] [ref=f11e139]
+                    - generic [ref=f11e140]: "]"
+                  - generic [ref=f11e142]:
+                    - figure [ref=f11e146]
+                    - generic [ref=f11e147]:
+                      - generic [ref=f11e148]: Multi-residential
+                      - generic [ref=f11e149]: "2019"
+          - generic [ref=f11e150]:
+            - link "All Work (28)" [ref=f11e152] [cursor=pointer]:
+              - /url: https://telhaclarke.com.au/works/
+              - generic [ref=f11e153]: All Work
+              - superscript [ref=f11e154]: (28)
+            - generic [ref=f11e155]:
+              - generic [ref=f11e156]:
+                - figure [ref=f11e161]
+                - figure [ref=f11e166]
+                - figure [ref=f11e171]
+                - figure [ref=f11e176]
+                - figure [ref=f11e181]
+              - generic [ref=f11e182]:
+                - figure [ref=f11e187]
+                - figure [ref=f11e192]
+                - figure [ref=f11e197]
+                - figure [ref=f11e202]
+                - figure [ref=f11e207]
+              - generic [ref=f11e208]:
+                - figure [ref=f11e213]
+                - figure [ref=f11e218]
+                - figure [ref=f11e223]
+                - figure [ref=f11e228]
+              - generic [ref=f11e229]:
+                - figure [ref=f11e234]
+                - figure [ref=f11e239]
+                - figure [ref=f11e244]
+                - figure [ref=f11e249]
+                - figure [ref=f11e254]
+          - generic [ref=f11e255]:
+            - figure [ref=f11e262]
+            - generic [ref=f11e266]:
+              - generic [ref=f11e267]: "03"
+              - heading "Vision" [level=2] [ref=f11e270]
+          - generic [ref=f11e272]:
+            - generic [ref=f11e285]:
+              - generic [ref=f11e286]:
+                - generic [ref=f11e288] [cursor=pointer]:
+                  - text: Schematic Design
+                  - superscript [ref=f11e289]: (01)
+                - text: /
+              - generic [ref=f11e290]:
+                - generic [ref=f11e292] [cursor=pointer]:
+                  - text: Development & Town Planning Applications
+                  - superscript [ref=f11e293]: (02)
+                - text: /
+              - generic [ref=f11e294]:
+                - generic [ref=f11e296] [cursor=pointer]:
+                  - text: Design Development
+                  - superscript [ref=f11e297]: (03)
+                - text: /
+              - generic [ref=f11e298]:
+                - generic [ref=f11e300] [cursor=pointer]:
+                  - text: Marketing
+                  - superscript [ref=f11e301]: (04)
+                - text: /
+              - generic [ref=f11e302]:
+                - generic [ref=f11e304] [cursor=pointer]:
+                  - text: Interior Design
+                  - superscript [ref=f11e305]: (05)
+                - text: /
+              - generic [ref=f11e306]:
+                - generic [ref=f11e308] [cursor=pointer]:
+                  - text: Construction Documentation
+                  - superscript [ref=f11e309]: (06)
+                - text: /
+              - generic [ref=f11e312] [cursor=pointer]:
+                - text: Contract Administration
+                - superscript [ref=f11e313]: (07)
+            - generic [ref=f11e315]:
+              - figure [ref=f11e318]
+              - figure [ref=f11e321]
+              - figure [ref=f11e324]
+              - figure [ref=f11e327]
+              - figure [ref=f11e330]
+              - figure [ref=f11e333]
+              - figure [ref=f11e336]
+            - generic [ref=f11e338]:
+              - generic [ref=f11e339]: "04"
+              - heading "Method" [level=2] [ref=f11e340]
+            - heading [level=3] [ref=f11e341]:
+              - paragraph [ref=f11e343]: The scope of our Studio covers all stages within Architecture and Interior Design. We offer an end to end level of service from early concepts through to practical completion.
+        - generic [ref=f11e344]:
+          - generic [ref=f11e345]:
+            - generic [ref=f11e346]:
+              - generic [ref=f11e347]:
+                - generic [ref=f11e348]: Talk to us about your project
+                - link "Contact us" [ref=f11e349] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/contact/
+              - generic [ref=f11e350]:
+                - generic [ref=f11e351]: Subscribe to our newsletter
+                - generic [ref=f11e352]:
+                  - textbox "Enter your email" [ref=f11e353]
+                  - generic [ref=f11e354]: Thanks for joining!
+                  - button "Submit" [ref=f11e355] [cursor=pointer]
+            - generic [ref=f11e362]:
+              - generic [ref=f11e364]:
+                - link "Home" [ref=f11e365] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/
+                - link "Work" [ref=f11e366] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/works/
+                - link "Studio" [ref=f11e367] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/studio/
+                - link "Process" [ref=f11e368] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/process/
+                - link "Contact" [ref=f11e369] [cursor=pointer]:
+                  - /url: https://telhaclarke.com.au/contact/
+              - generic [ref=f11e370] [cursor=pointer]: Back to top
+            - generic [ref=f11e372]:
+              - generic [ref=f11e373]:
+                - generic [ref=f11e374]:
+                  - generic [ref=f11e375]: L
+                  - paragraph [ref=f11e377]: 59 Garden Street South Yarra Victoria, Australia 3141
+                - generic [ref=f11e378]:
+                  - generic [ref=f11e379]: P
+                  - link "+61 3 8672 5999" [ref=f11e380] [cursor=pointer]:
+                    - /url: tel:+61 3 8672 5999
+                - generic [ref=f11e381]:
+                  - generic [ref=f11e382]: C
+                  - link "contact@telhaclarke.com.au" [ref=f11e383] [cursor=pointer]:
+                    - /url: mailto:contact@telhaclarke.com.au
+              - generic [ref=f11e385]:
+                - link "Instagram," [ref=f11e386] [cursor=pointer]:
+                  - /url: https://www.instagram.com/telhaclarke/
+                - link "Linkedin" [ref=f11e387] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/telhaclarke
+          - generic [ref=f11e404]:
+            - generic [ref=f11e405]: All rights reserved © Telha Clarke 2025
+            - link "Privacy policy" [ref=f11e406] [cursor=pointer]:
+              - /url: https://telhaclarke.com.au/privacy-policy/
+            - link "Terms of services" [ref=f11e407] [cursor=pointer]:
+              - /url: https://telhaclarke.com.au/terms-of-service/
+            - generic [ref=f11e408]:
+              - generic [ref=f11e409]: Website by
+              - generic [ref=f11e410]:
+                - link "TM" [ref=f11e411] [cursor=pointer]:
+                  - /url: https://thomasmonavon.com/
+                - text: "&"
+                - link "GL" [ref=f11e412] [cursor=pointer]:
+                  - /url: https://gregorylalle.com/

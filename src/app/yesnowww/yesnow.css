@@ -1,0 +1,40 @@
+/* Route-scoped styles for /yesnowww (curtain entry + hero scroll study).
+   Kept out of globals.css so no other route's tokens or keyframes change. */
+
+.yesnow-site {
+  --yn-navy: #001482;
+  --yn-pink: #ff37b4;
+  --yn-pink-light: #ff8bbe;
+  --yn-yellow: #fac209;
+  background: #000;
+  color: #fff;
+}
+
+/* Frame tickers: one 3-tile colour cycle (51px) per 3.6s = 17px per 1.2s. */
+@keyframes yn-ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-51px);
+  }
+}
+
+/* Corner medallion rings: one turn per 10s. */
+@keyframes yn-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .yesnow-site *,
+  .yesnow-site *::before,
+  .yesnow-site *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

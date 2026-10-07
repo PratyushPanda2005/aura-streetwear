@@ -1,0 +1,145 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - generic [ref=f5e6]:
+        - generic [ref=f5e7]:
+          - generic [ref=f5e8]: 01 — LES MÉTIERS
+          - generic [ref=f5e9]: 06 RÔLES
+        - heading "Derrière chaque rideau levé." [level=2] [ref=f5e10]: Derrière chaquerideau levé.
+        - list [ref=f5e11]:
+          - listitem [ref=f5e12]:
+            - generic [ref=f5e13]:
+              - generic [ref=f5e14]: "01"
+              - generic [ref=f5e15]: Sonorisation
+            - generic [ref=f5e16]: ↗
+          - listitem [ref=f5e17]:
+            - generic [ref=f5e18]:
+              - generic [ref=f5e19]: "02"
+              - generic [ref=f5e20]: Régie de spectacle
+            - generic [ref=f5e21]: ↗
+          - listitem [ref=f5e22]:
+            - generic [ref=f5e23]:
+              - generic [ref=f5e24]: "03"
+              - generic [ref=f5e25]: Booking & Diffusion
+            - generic [ref=f5e26]: ↗
+          - listitem [ref=f5e27]:
+            - generic [ref=f5e28]:
+              - generic [ref=f5e29]: "04"
+              - generic [ref=f5e30]: Direction technique
+            - generic [ref=f5e31]: ↗
+          - listitem [ref=f5e32]:
+            - generic [ref=f5e33]:
+              - generic [ref=f5e34]: "05"
+              - generic [ref=f5e35]: Éclairage & Vidéo
+            - generic [ref=f5e36]: ↗
+          - listitem [ref=f5e37]:
+            - generic [ref=f5e38]:
+              - generic [ref=f5e39]: "06"
+              - generic [ref=f5e40]: Gérance d'artistes
+            - generic [ref=f5e41]: ↗
+      - generic [ref=f5e43]:
+        - generic [ref=f5e44]: 02 — FORMATIONS
+        - heading "Apprends le métier, sur le plancher." [level=2] [ref=f5e46]
+        - generic [ref=f5e47]:
+          - article [ref=f5e48]:
+            - generic [ref=f5e49]: DEP
+            - generic [ref=f5e50]:
+              - heading "Techniques de scène" [level=3] [ref=f5e51]
+              - paragraph [ref=f5e52]: Durée · 1 800 h
+          - article [ref=f5e53]:
+            - generic [ref=f5e54]: AEC
+            - generic [ref=f5e55]:
+              - heading "Gestion d'événements" [level=3] [ref=f5e56]
+              - paragraph [ref=f5e57]: Durée · 12 mois
+          - article [ref=f5e58]:
+            - generic [ref=f5e59]: ATELIER
+            - generic [ref=f5e60]:
+              - heading "Son & éclairage live" [level=3] [ref=f5e61]
+              - paragraph [ref=f5e62]: Durée · 8 sem.
+          - article [ref=f5e63]:
+            - generic [ref=f5e64]: STAGE
+            - generic [ref=f5e65]:
+              - heading "Immersion en salle" [level=3] [ref=f5e66]
+              - paragraph [ref=f5e67]: Durée · Sur mesure
+      - generic [ref=f5e69]:
+        - generic [ref=f5e70]: 03 — TÉMOIGNAGES
+        - generic [ref=f5e72]:
+          - blockquote [ref=f5e73]:
+            - paragraph [ref=f5e74]: “J'ai trouvé ma place derrière la console. Chaque soir, la salle vibre grâce à nous.”
+            - contentinfo [ref=f5e75]: Camille — Sonorisatrice
+          - blockquote [ref=f5e76]:
+            - paragraph [ref=f5e77]: “La régie, c'est l'adrénaline du direct. Aucun show ne se ressemble.”
+            - contentinfo [ref=f5e78]: Théo — Régisseur
+          - blockquote [ref=f5e79]:
+            - paragraph [ref=f5e80]: “Booker des artistes d'ici, c'est bâtir la scène de demain.”
+            - contentinfo [ref=f5e81]: Sarah — Diffusion
+        - link "REJOINS LA SCÈNE →" [ref=f5e82] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f5e83]: REJOINS LA SCÈNE
+          - generic [ref=f5e84]: →
+    - generic:
+      - generic:
+        - img "Pushing figure"
+    - generic [ref=f5e87]:
+      - generic [ref=f5e88]:
+        - generic [ref=f5e89]:
+          - heading "VIBRER" [level=1] [ref=f5e92]
+          - heading "SCÈNE" [level=2] [ref=f5e93]
+        - generic [ref=f5e94]:
+          - generic [ref=f5e96]:
+            - generic [ref=f5e97]:
+              - generic [ref=f5e98]:
+                - generic [ref=f5e99]: CARRIERESCENE.CA
+                - generic [ref=f5e100]: ◖◗
+              - generic [ref=f5e101]:
+                - generic [ref=f5e102]: CARRIERESCENE.CA
+                - generic [ref=f5e103]: ◖◗
+              - generic [ref=f5e104]:
+                - generic [ref=f5e105]: CARRIERESCENE.CA
+                - generic [ref=f5e106]: ◖◗
+              - generic [ref=f5e107]:
+                - generic [ref=f5e108]: CARRIERESCENE.CA
+                - generic [ref=f5e109]: ◖◗
+              - generic [ref=f5e110]:
+                - generic [ref=f5e111]: CARRIERESCENE.CA
+                - generic [ref=f5e112]: ◖◗
+              - generic [ref=f5e113]:
+                - generic [ref=f5e114]: CARRIERESCENE.CA
+                - generic [ref=f5e115]: ◖◗
+              - generic [ref=f5e116]:
+                - generic [ref=f5e117]: CARRIERESCENE.CA
+                - generic [ref=f5e118]: ◖◗
+              - generic [ref=f5e119]:
+                - generic [ref=f5e120]: CARRIERESCENE.CA
+                - generic [ref=f5e121]: ◖◗
+            - generic [ref=f5e122]:
+              - generic [ref=f5e123]:
+                - generic [ref=f5e124]: CARRIERESCENE.CA
+                - generic [ref=f5e125]: ◖◗
+              - generic [ref=f5e126]:
+                - generic [ref=f5e127]: CARRIERESCENE.CA
+                - generic [ref=f5e128]: ◖◗
+              - generic [ref=f5e129]:
+                - generic [ref=f5e130]: CARRIERESCENE.CA
+                - generic [ref=f5e131]: ◖◗
+              - generic [ref=f5e132]:
+                - generic [ref=f5e133]: CARRIERESCENE.CA
+                - generic [ref=f5e134]: ◖◗
+              - generic [ref=f5e135]:
+                - generic [ref=f5e136]: CARRIERESCENE.CA
+                - generic [ref=f5e137]: ◖◗
+              - generic [ref=f5e138]:
+                - generic [ref=f5e139]: CARRIERESCENE.CA
+                - generic [ref=f5e140]: ◖◗
+              - generic [ref=f5e141]:
+                - generic [ref=f5e142]: CARRIERESCENE.CA
+                - generic [ref=f5e143]: ◖◗
+              - generic [ref=f5e144]:
+                - generic [ref=f5e145]: CARRIERESCENE.CA
+                - generic [ref=f5e146]: ◖◗
+          - generic [ref=f5e147]:
+            - generic [ref=f5e148]: C'EST QUOI?
+            - heading "Les métiers et formations qui font briller la scène indé d'ici." [level=3] [ref=f5e149]
+            - paragraph [ref=f5e150]: Le milieu de la diffusion indépendante au Québec regorge d'opportunités pour celles et ceux qui veulent contribuer à faire vibrer la culture vivante et engagée d'ici. Et il n'attend que toi! Des salles intimes, des scènes mytiques, proches de ses artistes et de son public. Parce que derrière chaque rideau levé, il y a des métiers qui comptent.
+      - generic [ref=f5e151]: SCROLLE — LE PERSONNAGE MARCHE →
+  - alert [ref=f5e153]

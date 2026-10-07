@@ -1,0 +1,20 @@
+import type { Metadata } from "next";
+import { ArtistsIndex } from "@/components/sites/ekchitra-redesign/ArtistsIndex";
+import { SiteFooter } from "@/components/sites/ekchitra-redesign/SiteFooter";
+import { SiteHeader } from "@/components/sites/ekchitra-redesign/SiteHeader";
+
+export const metadata: Metadata = {
+  title: "Artists — EkChitra",
+  description:
+    "Artists shaping contemporary India, exclusively represented by EkChitra.",
+};
+
+export default function EkchitraArtistsPage() {
+  return (
+    <main className="flex min-h-svh flex-col bg-white text-[#333]">
+      <SiteHeader alwaysSolid />
+      <ArtistsIndex />
+      <SiteFooter />
+    </main>
+  );
+}

@@ -1,0 +1,763 @@
+- generic [ref=f27e3]:
+  - navigation [ref=f27e6]:
+    - generic [ref=f27e7]:
+      - link "Screen Movie" [ref=f27e9] [cursor=pointer]:
+        - /url: ./#home
+        - paragraph [ref=f27e13]: Screen Movie
+      - generic [ref=f27e14]:
+        - paragraph [ref=f27e16]:
+          - link "Features" [ref=f27e17] [cursor=pointer]:
+            - /url: ./#features
+        - paragraph [ref=f27e19]:
+          - link "FAQ" [ref=f27e20] [cursor=pointer]:
+            - /url: ./#faq
+        - paragraph [ref=f27e22]:
+          - link "Apps" [ref=f27e23] [cursor=pointer]:
+            - /url: ./#apps
+        - paragraph [ref=f27e25]:
+          - link "Pricing" [ref=f27e26] [cursor=pointer]:
+            - /url: ./#pricing
+      - link [ref=f27e28] [cursor=pointer]:
+        - /url: ./#pricing
+        - paragraph [ref=f27e32]: Download
+  - banner [ref=f27e33]:
+    - generic [ref=f27e34]:
+      - generic [ref=f27e39]:
+        - heading "Screen Recorder & Video Editor for macOS" [level=1] [ref=f27e46]
+        - heading "Create beautiful movies from your screen." [level=1] [ref=f27e48]
+        - paragraph [ref=f27e50]: Record your screen capture screenshots edit multiple scenes animate text images and captions add music and export stunning product videos in minutes.
+        - link [ref=f27e52] [cursor=pointer]:
+          - /url: ./#pricing
+          - paragraph [ref=f27e56]: Download for macOS
+        - generic [ref=f27e57]:
+          - paragraph [ref=f27e59]: One-time purchase
+          - paragraph [ref=f27e61]: Screen record
+          - paragraph [ref=f27e63]: Screenshot capture
+          - paragraph [ref=f27e65]: Video edit
+          - paragraph [ref=f27e67]: Motion design
+          - paragraph [ref=f27e69]: 4K export
+          - paragraph [ref=f27e71]: macOS 15+
+      - generic [ref=f27e76]:
+        - generic [ref=f27e78]:
+          - heading "Roudy Hermez" [level=5] [ref=f27e82]
+          - paragraph [ref=f27e84]: "\"I was looking for a screen recorder when Solt announced Screen Movie. I trust his work and love the products he builds, so I bought it without even checking the features first\""
+        - generic [ref=f27e92]:
+          - heading "Zaid Altukhi" [level=5] [ref=f27e96]
+          - paragraph [ref=f27e98]: "\"Screen Movie has become one of my favourite tools for creating screen recordings quickly. It combines recording and the essential editing tools in one simple workflow, which means I can create polished tutorials and demos without having to rely on several different apps.”"
+  - generic [ref=f27e109]:
+    - generic [ref=f27e110]:
+      - heading "Everything you need to create a great Screen Movie" [level=2] [ref=f27e112]
+      - paragraph [ref=f27e114]:
+        - code [ref=f27e115]: Record, edit, animate, and polish your screen with powerful tools designed to turn simple captures into beautiful, cinematic videos.
+    - generic [ref=f27e116]:
+      - generic [ref=f27e118]:
+        - heading "Edit Everything on One Simple Timeline" [level=3] [ref=f27e120]
+        - paragraph [ref=f27e122]: Arrange scenes, trim clips, cut sections, and manage your entire movie from one clean and intuitive timeline.
+      - generic [ref=f27e131]:
+        - heading "Create beautiful movies from your screen." [level=3] [ref=f27e133]
+        - paragraph [ref=f27e135]: Record, edit, and bring your screen to life with cinematic motion, auto zoom, animated text, screenshots, music, and 40+ motion templates — all in one native macOS app.
+      - generic [ref=f27e141]:
+        - heading "Customize Backgrounds, Effects, and Every Detail" [level=3] [ref=f27e143]
+        - paragraph [ref=f27e145]: Choose from beautiful backgrounds, gradients, images, and effects, or create your own custom look for every scene.
+        - link "Background.Supply" [ref=f27e146] [cursor=pointer]:
+          - /url: https://www.backgrounds.supply/
+          - paragraph [ref=f27e150]: Background.Supply
+      - generic [ref=f27e155]:
+        - heading "Animated Shader Backgrounds" [level=3] [ref=f27e157]
+        - paragraph [ref=f27e159]: Add smooth, living shader gradients that subtly move and bring more depth, color, and energy to your scenes.
+      - generic [ref=f27e165]:
+        - heading "Perfect Your Cursor, Motion, and Size" [level=3] [ref=f27e167]
+        - paragraph [ref=f27e169]: Customize cursor size, style, movement, and motion effects to make every interaction clear, smooth, and easy to follow.
+      - generic [ref=f27e175]:
+        - heading "Add Light, Shadow, and Cinematic Depth" [level=3] [ref=f27e177]
+        - paragraph [ref=f27e179]: Use lighting, overlays, shadows, and depth effects to create richer, more atmospheric, cinematic-looking screen recordings.
+      - generic [ref=f27e184]:
+        - heading "Multi-Camera Recording" [level=3] [ref=f27e186]
+        - paragraph [ref=f27e188]: Record your screen and up to two cameras at the same time using your built-in camera, an external camera, iPhone, or iPad. Each camera is added as a separate editable track in the timeline.
+      - generic [ref=f27e194]:
+        - heading "Create Cinematic Motion Around Your Screen" [level=3] [ref=f27e196]
+        - paragraph [ref=f27e198]: Set motion and zoom targets with keyframes, automatically follow the cursor, and add 3D rotation for smooth, cinematic screen movements.
+      - generic [ref=f27e203]:
+        - heading "Create Stunning Motion in Seconds" [level=3] [ref=f27e205]
+        - paragraph [ref=f27e207]: Choose from 40+ motion design presets, drop in your images or videos, customize every detail, and add polished animations directly to your timeline in seconds.
+      - generic [ref=f27e213]:
+        - heading "Shape Every Frame with Custom Borders" [level=3] [ref=f27e215]
+        - paragraph [ref=f27e217]: Customize corner radius, borders, spacing, and frame styles to give your screen recordings a polished, distinctive look.
+      - generic [ref=f27e219]:
+        - generic [ref=f27e221]:
+          - heading "Pekka Gaiser" [level=5] [ref=f27e225]
+          - paragraph [ref=f27e227]:
+            - text: "\"Screen Movie is the first screen capture app that I’ve ended up actually"
+            - emphasis [ref=f27e228]: using.
+            - text: It sits at the exact sweet spot between complexity and simplicity that makes capturing a clip almost frictionless and my social feeds look much better for it. Highly recommended!"
+        - generic [ref=f27e236]:
+          - heading "Eric Havelka" [level=5] [ref=f27e240]
+          - generic [ref=f27e241]:
+            - paragraph [ref=f27e242]: "\"I’m really enjoying Screen Movie so far — it’s honestly one of the coolest tools I’ve found for creating polished screencasts. I especially love how easy it is to combine different screen recordings and visual elements."
+            - paragraph [ref=f27e243]
+            - paragraph [ref=f27e244]: I just discovered the text animations as well, and they’re really great!"
+        - generic [ref=f27e252]:
+          - heading "Craig Paterson" [level=5] [ref=f27e256]
+          - paragraph [ref=f27e258]: "\"Screen Movie is a well thought-out app with excellent screen capture and recording options which are beautifully integrated into macOS. There are some really nice built-in background graphics and motion clips making it very straightforward to get professional looking results in minutes, not hours.\""
+  - generic [ref=f27e266]:
+    - generic [ref=f27e267]:
+      - heading "More than just screen recording" [level=2] [ref=f27e269]
+      - paragraph [ref=f27e271]:
+        - code [ref=f27e272]: Capture your screen, shape every scene, add motion, sound, captions, and effects — all without leaving the app.
+    - generic [ref=f27e273]:
+      - generic [ref=f27e277]:
+        - heading "Screen Recording" [level=4] [ref=f27e279]
+        - paragraph [ref=f27e281]: Record your display, an app window, or a selected area — and capture screenshots too.
+      - generic [ref=f27e285]:
+        - heading "Camera Recording" [level=4] [ref=f27e287]
+        - paragraph [ref=f27e289]: Record your camera alone or with your screen, with a bubble that follows your cursor.
+      - generic [ref=f27e293]:
+        - heading "Camera Layouts" [level=4] [ref=f27e295]
+        - paragraph [ref=f27e297]: Fullscreen, corner overlay, side-by-side, and follow layouts — positioned anywhere you like.
+      - generic [ref=f27e301]:
+        - heading "Audio Recording" [level=4] [ref=f27e303]
+        - paragraph [ref=f27e305]: Record your voice from the microphone alongside system audio playing on your Mac.
+      - generic [ref=f27e309]:
+        - heading "Recording Notes" [level=4] [ref=f27e311]
+        - paragraph [ref=f27e313]: Keep notes and talking points ready while you record.
+      - generic [ref=f27e317]:
+        - heading "Keystroke Display" [level=4] [ref=f27e319]
+        - paragraph [ref=f27e321]: Automatically show pressed keys and shortcuts in your video.
+      - generic [ref=f27e325]:
+        - heading "Simple Timeline" [level=4] [ref=f27e327]
+        - paragraph [ref=f27e329]: Arrange, trim, cut, and edit everything in one timeline.
+      - generic [ref=f27e333]:
+        - heading "Text Overlays" [level=4] [ref=f27e335]
+        - paragraph [ref=f27e337]: Add and animate customizable text anywhere in your video.
+      - generic [ref=f27e341]:
+        - heading "Images & Elements" [level=4] [ref=f27e343]
+        - paragraph [ref=f27e345]: Drop images and media onto your timeline, plus emojis, shapes, and colors.
+      - generic [ref=f27e349]:
+        - heading "Music" [level=4] [ref=f27e351]
+        - paragraph [ref=f27e353]: Music Add background music and adjust it directly in your project.
+      - generic [ref=f27e357]:
+        - heading "Automatic Captions" [level=4] [ref=f27e359]
+        - paragraph [ref=f27e361]: Transcribe speech and automatically generate captions for your video.
+      - generic [ref=f27e365]:
+        - heading "Cursor Effects" [level=4] [ref=f27e367]
+        - paragraph [ref=f27e369]: Customize your cursor, smooth its motion, highlight clicks, and spotlight the area around it.
+      - generic [ref=f27e373]:
+        - heading "Backgrounds" [level=4] [ref=f27e375]
+        - paragraph [ref=f27e377]: Choose from a collection of ready-made backgrounds or use your own image or color.
+      - generic [ref=f27e381]:
+        - heading "Gradients" [level=4] [ref=f27e383]
+        - paragraph [ref=f27e385]: Create colorful mesh gradients or build your own simple gradient backgrounds.
+      - generic [ref=f27e389]:
+        - heading "Motion & Zoom" [level=4] [ref=f27e391]
+        - paragraph [ref=f27e393]: Auto-zoom into key moments, set keyframes, follow your cursor, and use 40+ motion presets.
+      - heading "…more is coming" [level=4] [ref=f27e397]
+  - generic [ref=f27e400]:
+    - heading "Start Anything Right from the Notch" [level=2] [ref=f27e402]
+    - paragraph [ref=f27e404]: A native macOS notch experience for instantly starting display, window, area, camera, voiceover, or screenshot captures—and quickly reopening your recent recordings.
+    - link [ref=f27e406] [cursor=pointer]:
+      - /url: ./#pricing
+      - paragraph [ref=f27e410]: Download for macOS
+    - generic [ref=f27e411]:
+      - paragraph [ref=f27e414]: Screen record
+      - paragraph [ref=f27e417]: Screenshot
+      - paragraph [ref=f27e420]: Video edit
+      - paragraph [ref=f27e423]: Voice over
+      - paragraph [ref=f27e426]: Motion design
+      - paragraph [ref=f27e429]: 3D rotation
+      - paragraph [ref=f27e432]: Cursor motion
+      - paragraph [ref=f27e435]: Local first
+      - paragraph [ref=f27e438]: Animated texts
+      - paragraph [ref=f27e441]: Animated shapes
+      - paragraph [ref=f27e444]: Effects
+      - paragraph [ref=f27e447]: Animations
+      - paragraph [ref=f27e450]: Recording notes
+  - generic [ref=f27e454]:
+    - generic [ref=f27e456]:
+      - heading "One price. Lifetime access." [level=2] [ref=f27e458]: One price.Lifetime access.
+      - paragraph [ref=f27e460]: One-time payment. No subscription.Get lifetime access to Screen Movie on your Mac.
+      - paragraph [ref=f27e462]: Get in early. Pay less. 🥳
+      - paragraph [ref=f27e464]: Try it risk-free. If Screen Movie doesn’t fit your workflow, email us within 14 days and we’ll refund your purchase.
+    - generic [ref=f27e468]:
+      - navigation [ref=f27e469]:
+        - paragraph [ref=f27e476]: Screen Movie app for macOS
+      - navigation [ref=f27e477]:
+        - paragraph [ref=f27e480] [cursor=pointer]: 1 device
+        - paragraph [ref=f27e483] [cursor=pointer]: 2 devices
+        - paragraph [ref=f27e486] [cursor=pointer]: 3 devices
+      - generic [ref=f27e488]:
+        - paragraph [ref=f27e490]: $39
+        - paragraph [ref=f27e492]: $79
+      - generic [ref=f27e493]:
+        - heading "Limited offer for early users 🥳" [level=6] [ref=f27e496]
+        - paragraph [ref=f27e501]: 85 spots left before the price increases to $49
+      - generic [ref=f27e502]:
+        - paragraph [ref=f27e510]: One-time payment
+        - paragraph [ref=f27e518]: 14-day money-back guarantee
+        - paragraph [ref=f27e526]: Lifetime updates included
+        - paragraph [ref=f27e534]: All features unlocked from day one
+        - paragraph [ref=f27e542]: Native macOS app
+        - paragraph [ref=f27e550]: 1 device license
+      - link [ref=f27e552] [cursor=pointer]:
+        - /url: https://buy.polar.sh/polar_cl_9HHgrGUNcJtoVwuZQjAfj4c2EmdryXBN2fexd2gX6UZ
+        - paragraph [ref=f27e556]: Download for macOS
+    - paragraph [ref=f27e558]: Secure checkout by Polar.sh, powered by Stripe. Prices are in USD, excluding VAT and may vary by location.
+  - generic [ref=f27e563]:
+    - heading "Frequently Asked Questions" [level=2] [ref=f27e566]
+    - generic [ref=f27e567]:
+      - heading "What is Screen Movie?" [level=5] [ref=f27e575] [cursor=pointer]
+      - heading "Is Screen Movie a subscription?" [level=5] [ref=f27e583] [cursor=pointer]
+      - heading "Are lifetime updates included?" [level=5] [ref=f27e591] [cursor=pointer]
+      - heading "Is Screen Movie fully local?" [level=5] [ref=f27e599] [cursor=pointer]
+      - heading "Does Screen Movie upload my recordings?" [level=5] [ref=f27e607] [cursor=pointer]
+      - heading "How are payments handled?" [level=5] [ref=f27e615] [cursor=pointer]
+      - heading "How do I get my license after purchase?" [level=5] [ref=f27e623] [cursor=pointer]
+      - heading "What does a 1 Device license mean?" [level=5] [ref=f27e631] [cursor=pointer]
+      - heading "What happens if I replace my Mac?" [level=5] [ref=f27e639] [cursor=pointer]
+      - heading "Do I need an internet connection to use Screen Movie?" [level=5] [ref=f27e647] [cursor=pointer]
+      - heading "Do I own the videos I create?" [level=5] [ref=f27e655] [cursor=pointer]
+      - heading "Is there a money-back guarantee?" [level=5] [ref=f27e663] [cursor=pointer]
+  - generic [ref=f27e665]:
+    - generic [ref=f27e666]:
+      - generic [ref=f27e667]:
+        - paragraph [ref=f27e672]: Supaste app for macOS
+        - heading "Copy once. Reuse anytime." [level=3] [ref=f27e675]: Copy once.Reuse anytime.
+        - heading "C l i p b o a r d h i s t o r y" [level=1] [ref=f27e680]:
+          - generic [ref=f27e681]:
+            - generic [ref=f27e682]: C
+            - generic [ref=f27e683]: l
+            - generic [ref=f27e684]: i
+            - generic [ref=f27e685]: p
+            - generic [ref=f27e686]: b
+            - generic [ref=f27e687]: o
+            - generic [ref=f27e688]: a
+            - generic [ref=f27e689]: r
+            - generic [ref=f27e690]: d
+          - generic [ref=f27e691]:
+            - generic [ref=f27e692]: h
+            - generic [ref=f27e693]: i
+            - generic [ref=f27e694]: s
+            - generic [ref=f27e695]: t
+            - generic [ref=f27e696]: o
+            - generic [ref=f27e697]: r
+            - generic [ref=f27e698]: "y"
+        - paragraph [ref=f27e700]: Supaste saves your clipboard and screenshots in a beautiful visual history, automatically grouped by type, app, and custom categories, so you can search, find, and paste anything back in seconds.
+        - link [ref=f27e702] [cursor=pointer]:
+          - /url: https://supaste.com
+          - paragraph [ref=f27e706]: Download for macOS
+      - iframe [ref=f27e709] [cursor=pointer]:
+        - generic [ref=f28e1]:
+          - generic "YouTube Video Player" [ref=f28e3]
+          - generic [ref=f28e6]:
+            - generic:
+              - generic:
+                - button "Hide player controls" [ref=f28e7] [cursor=pointer]
+                - generic [ref=f28e9]:
+                  - generic:
+                    - generic [ref=f28e12]:
+                      - generic [ref=f28e14]:
+                        - generic [ref=f28e15]:
+                          - link "Supaste — The Smart Clipboard History App for Mac" [ref=f28e16] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=F4_HccauNl0
+                          - link "Solt Wagner" [ref=f28e17] [cursor=pointer]:
+                            - /url: /channel/UCgtMDWGiSfqzOWoqGbWp6Eg
+                        - generic [ref=f28e19]:
+                          - button [ref=f28e20] [cursor=pointer]
+                          - generic [ref=f28e22]:
+                            - generic: Solt Wagner
+                            - generic: 1.86K subscribers
+                      - generic [ref=f28e23]:
+                        - button "Unmute" [ref=f28e25] [cursor=pointer]:
+                          - img "Unmute" [ref=f28e26]
+                        - button "No captions are available for this video" [disabled] [ref=f28e29] [cursor=pointer]
+                        - button "Playback Settings" [ref=f28e34] [cursor=pointer]
+                    - generic [ref=f28e39]:
+                      - button "Previous video" [ref=f28e41] [cursor=pointer]
+                      - button "Rewind 10 seconds" [ref=f28e44] [cursor=pointer]
+                      - button "Pause video" [ref=f28e46] [cursor=pointer]
+                      - button "Fast forward 10 seconds" [ref=f28e50] [cursor=pointer]
+                      - button "Next video" [disabled] [ref=f28e52] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic [ref=f28e58]:
+                        - generic [ref=f28e59]:
+                          - text: 0:03
+                          - generic [ref=f28e60]: Time elapsed 3 seconds
+                        - text: /
+                        - generic [ref=f28e61]:
+                          - text: 1:39
+                          - generic [ref=f28e62]: Time duration 1 minute, 39 seconds
+                      - button "Enter full screen" [ref=f28e66] [cursor=pointer]
+                  - slider "Seek slider" [ref=f28e70] [cursor=pointer]
+                  - generic:
+                    - generic [ref=f28e78]:
+                      - button "Share" [ref=f28e82] [cursor=pointer]
+                      - generic [ref=f28e90]:
+                        - button "More videos" [ref=f28e93] [cursor=pointer]
+                        - link "Watch on YouTube" [ref=f28e101] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=F4_HccauNl0
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=Wzd-7e-jXmk&feature=endscreen
+                                  - generic: 1:09
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Screen Movie — Multi-Camera Screen Recorder for Mac 6 days ago":
+                                        - /url: https://www.youtube.com/watch?v=Wzd-7e-jXmk&feature=endscreen
+                                        - heading "Screen Movie — Multi-Camera Screen Recorder for Mac" [level=3]
+                                        - generic: 6 days ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=fDCCmeSJu7Y&feature=endscreen
+                                  - generic: 1:27
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Screen Movie app - Screen Recording & Motion Editor for macOS 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=fDCCmeSJu7Y&feature=endscreen
+                                        - heading "Screen Movie app - Screen Recording & Motion Editor for macOS" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=FMldm8ssH0o&feature=endscreen
+                                  - generic: 1:31
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Cooldock – A Smart Second Dock with Live Widgets for macOS 2 months ago":
+                                        - /url: https://www.youtube.com/watch?v=FMldm8ssH0o&feature=endscreen
+                                        - heading "Cooldock – A Smart Second Dock with Live Widgets for macOS" [level=3]
+                                        - generic: 2 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=ONG9tyf3VqA&feature=endscreen
+                                  - generic: 1:32
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste for Mac – The Clipboard & Productivity App for Figma, Sketch & Designers 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=ONG9tyf3VqA&feature=endscreen
+                                        - heading "Supaste for Mac – The Clipboard & Productivity App for Figma, Sketch & Designers" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=o1LPLJK-5Vo&feature=endscreen
+                                  - generic: 4:20
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Best Invoice Generator App for Freelancers & Small Businesses (2026) 3 months ago":
+                                        - /url: https://www.youtube.com/watch?v=o1LPLJK-5Vo&feature=endscreen
+                                        - heading "Best Invoice Generator App for Freelancers & Small Businesses (2026)" [level=3]
+                                        - generic: 3 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=FgEZBA54GWQ&feature=endscreen
+                                  - generic: 2:41
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "I Built the Smartest Clipboard Manager for Mac — Supaste v1.2 2 months ago":
+                                        - /url: https://www.youtube.com/watch?v=FgEZBA54GWQ&feature=endscreen
+                                        - heading "I Built the Smartest Clipboard Manager for Mac — Supaste v1.2" [level=3]
+                                        - generic: 2 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=iKcIhwniePQ&feature=endscreen
+                                  - generic: 1:02
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste 1.7 is Here! 🚀 iCloud Sync, Apple Intelligence, Dropbox & Smart Clipboard Updates 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=iKcIhwniePQ&feature=endscreen
+                                        - heading "Supaste 1.7 is Here! 🚀 iCloud Sync, Apple Intelligence, Dropbox & Smart Clipboard Updates" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=5vHn8FzBS6k&feature=endscreen
+                                  - generic: 2:41
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Screen Movie — The Ultimate Screen Recorder & Video Editor for macOS 10 days ago":
+                                        - /url: https://www.youtube.com/watch?v=5vHn8FzBS6k&feature=endscreen
+                                        - heading "Screen Movie — The Ultimate Screen Recorder & Video Editor for macOS" [level=3]
+                                        - generic: 10 days ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=_xJtsiN_CeU&feature=endscreen
+                                  - generic: 0:48
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste Update – Video Auto-Play, Notch Preview & Better Clipboard History for macOS 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=_xJtsiN_CeU&feature=endscreen
+                                        - heading "Supaste Update – Video Auto-Play, Notch Preview & Better Clipboard History for macOS" [level=3]
+                                        - generic: 1 month ago
+    - generic [ref=f27e710]:
+      - generic [ref=f27e711]:
+        - paragraph [ref=f27e716]: Cooldock app for macOS
+        - heading "A useful Dock for live widgets." [level=3] [ref=f27e719]
+        - heading "Y o u r s m a r t s e c o n d D o c k" [level=1] [ref=f27e724]:
+          - generic [ref=f27e725]:
+            - generic [ref=f27e726]: "Y"
+            - generic [ref=f27e727]: o
+            - generic [ref=f27e728]: u
+            - generic [ref=f27e729]: r
+          - generic [ref=f27e730]:
+            - generic [ref=f27e731]: s
+            - generic [ref=f27e732]: m
+            - generic [ref=f27e733]: a
+            - generic [ref=f27e734]: r
+            - generic [ref=f27e735]: t
+          - generic [ref=f27e736]:
+            - generic [ref=f27e737]: s
+            - generic [ref=f27e738]: e
+            - generic [ref=f27e739]: c
+            - generic [ref=f27e740]: o
+            - generic [ref=f27e741]: "n"
+            - generic [ref=f27e742]: d
+          - generic [ref=f27e743]:
+            - generic [ref=f27e744]: D
+            - generic [ref=f27e745]: o
+            - generic [ref=f27e746]: c
+            - generic [ref=f27e747]: k
+        - paragraph [ref=f27e749]: Cooldock brings music, todos, events, weather, search, stats, quick actions, and more useful widgets into one beautiful live dock beside your original Mac Dock.
+        - link [ref=f27e751] [cursor=pointer]:
+          - /url: https://dock.cool
+          - paragraph [ref=f27e755]: Download for macOS
+      - iframe [ref=f27e758] [cursor=pointer]:
+        - generic [ref=f30e1]:
+          - generic "YouTube Video Player" [ref=f30e3]
+          - generic [ref=f30e6]:
+            - generic:
+              - generic:
+                - button "Hide player controls" [ref=f30e7] [cursor=pointer]
+                - generic [ref=f30e9]:
+                  - generic:
+                    - generic [ref=f30e12]:
+                      - generic [ref=f30e14]:
+                        - generic [ref=f30e15]:
+                          - link "Cooldock – A Smart Second Dock with Live Widgets for macOS" [ref=f30e16] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=FMldm8ssH0o
+                          - link "Solt Wagner" [ref=f30e17] [cursor=pointer]:
+                            - /url: /channel/UCgtMDWGiSfqzOWoqGbWp6Eg
+                        - generic [ref=f30e19]:
+                          - button [ref=f30e20] [cursor=pointer]
+                          - generic [ref=f30e22]:
+                            - generic: Solt Wagner
+                            - generic: 1.86K subscribers
+                      - generic [ref=f30e23]:
+                        - button "Unmute" [ref=f30e25] [cursor=pointer]:
+                          - img "Unmute" [ref=f30e26]
+                        - button "No captions are available for this video" [disabled] [ref=f30e29] [cursor=pointer]
+                        - button "Playback Settings" [ref=f30e34] [cursor=pointer]
+                    - generic [ref=f30e39]:
+                      - button "Previous video" [ref=f30e41] [cursor=pointer]
+                      - button "Rewind 10 seconds" [ref=f30e44] [cursor=pointer]
+                      - button "Pause video" [ref=f30e46] [cursor=pointer]
+                      - button "Fast forward 10 seconds" [ref=f30e50] [cursor=pointer]
+                      - button "Next video" [disabled] [ref=f30e52] [cursor=pointer]
+                  - generic:
+                    - generic:
+                      - generic [ref=f30e58]:
+                        - generic [ref=f30e59]:
+                          - text: 0:03
+                          - generic [ref=f30e60]: Time elapsed 3 seconds
+                        - text: /
+                        - generic [ref=f30e61]:
+                          - text: 1:31
+                          - generic [ref=f30e62]: Time duration 1 minute, 31 seconds
+                      - button "Enter full screen" [ref=f30e66] [cursor=pointer]
+                  - slider "Seek slider" [ref=f30e70] [cursor=pointer]
+                  - generic:
+                    - generic [ref=f30e78]:
+                      - button "Share" [ref=f30e82] [cursor=pointer]
+                      - generic [ref=f30e90]:
+                        - button "More videos" [ref=f30e93] [cursor=pointer]
+                        - link "Watch on YouTube" [ref=f30e101] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=FMldm8ssH0o
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=ONG9tyf3VqA&feature=endscreen
+                                  - generic: 1:32
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste for Mac – The Clipboard & Productivity App for Figma, Sketch & Designers 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=ONG9tyf3VqA&feature=endscreen
+                                        - heading "Supaste for Mac – The Clipboard & Productivity App for Figma, Sketch & Designers" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=ia0wb7rQJ4U&feature=endscreen
+                                  - generic: 1:19
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Cooldock – A Smart Second Dock with 130+ Live Widgets for macOS 2 months ago":
+                                        - /url: https://www.youtube.com/watch?v=ia0wb7rQJ4U&feature=endscreen
+                                        - heading "Cooldock – A Smart Second Dock with 130+ Live Widgets for macOS" [level=3]
+                                        - generic: 2 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=QbBtuItYhuU&feature=endscreen
+                                  - generic: 0:31
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Cooldock v1.2 – New Mac Dock Widgets for GitHub, Shopify, Supabase, Dropbox & More 2 months ago":
+                                        - /url: https://www.youtube.com/watch?v=QbBtuItYhuU&feature=endscreen
+                                        - heading "Cooldock v1.2 – New Mac Dock Widgets for GitHub, Shopify, Supabase, Dropbox & More" [level=3]
+                                        - generic: 2 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=FgEZBA54GWQ&feature=endscreen
+                                  - generic: 2:41
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "I Built the Smartest Clipboard Manager for Mac — Supaste v1.2 2 months ago":
+                                        - /url: https://www.youtube.com/watch?v=FgEZBA54GWQ&feature=endscreen
+                                        - heading "I Built the Smartest Clipboard Manager for Mac — Supaste v1.2" [level=3]
+                                        - generic: 2 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=o1LPLJK-5Vo&feature=endscreen
+                                  - generic: 4:20
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Best Invoice Generator App for Freelancers & Small Businesses (2026) 3 months ago":
+                                        - /url: https://www.youtube.com/watch?v=o1LPLJK-5Vo&feature=endscreen
+                                        - heading "Best Invoice Generator App for Freelancers & Small Businesses (2026)" [level=3]
+                                        - generic: 3 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=rC5fsKZBcw8&feature=endscreen
+                                  - generic: 1:30
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Best Proposal Builder App for Freelancers & Agencies (2026) 3 months ago":
+                                        - /url: https://www.youtube.com/watch?v=rC5fsKZBcw8&feature=endscreen
+                                        - heading "Best Proposal Builder App for Freelancers & Agencies (2026)" [level=3]
+                                        - generic: 3 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=F4_HccauNl0&feature=endscreen
+                                  - generic: 1:39
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste — The Smart Clipboard History App for Mac 3 months ago":
+                                        - /url: https://www.youtube.com/watch?v=F4_HccauNl0&feature=endscreen
+                                        - heading "Supaste — The Smart Clipboard History App for Mac" [level=3]
+                                        - generic: 3 months ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=_xJtsiN_CeU&feature=endscreen
+                                  - generic: 0:48
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste Update – Video Auto-Play, Notch Preview & Better Clipboard History for macOS 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=_xJtsiN_CeU&feature=endscreen
+                                        - heading "Supaste Update – Video Auto-Play, Notch Preview & Better Clipboard History for macOS" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=fDCCmeSJu7Y&feature=endscreen
+                                  - generic: 1:27
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Screen Movie app - Screen Recording & Motion Editor for macOS 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=fDCCmeSJu7Y&feature=endscreen
+                                        - heading "Screen Movie app - Screen Recording & Motion Editor for macOS" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=iKcIhwniePQ&feature=endscreen
+                                  - generic: 1:02
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste 1.7 is Here! 🚀 iCloud Sync, Apple Intelligence, Dropbox & Smart Clipboard Updates 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=iKcIhwniePQ&feature=endscreen
+                                        - heading "Supaste 1.7 is Here! 🚀 iCloud Sync, Apple Intelligence, Dropbox & Smart Clipboard Updates" [level=3]
+                                        - generic: 1 month ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=sykXqX25BxI&feature=endscreen
+                                  - generic: 1:31
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Screen Movie for macOS — Screen Recorder, Video Editor & Motion Design Tool 22 minutes ago":
+                                        - /url: https://www.youtube.com/watch?v=sykXqX25BxI&feature=endscreen
+                                        - heading "Screen Movie for macOS — Screen Recorder, Video Editor & Motion Design Tool" [level=3]
+                                        - generic: 22 minutes ago
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - link [aria-hidden]:
+                                  - /url: https://www.youtube.com/watch?v=LrTDyaiGuDI&feature=endscreen
+                                  - generic: 0:17
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - link "Supaste v1.4 – Faster Clipboard Manager with Notch Preview & Keyboard Shortcuts for macOS 1 month ago":
+                                        - /url: https://www.youtube.com/watch?v=LrTDyaiGuDI&feature=endscreen
+                                        - heading "Supaste v1.4 – Faster Clipboard Manager with Notch Preview & Keyboard Shortcuts for macOS" [level=3]
+                                        - generic: 1 month ago
+  - contentinfo [ref=f27e761]:
+    - generic [ref=f27e762]:
+      - generic [ref=f27e763]:
+        - link "Screen Movie" [ref=f27e765] [cursor=pointer]:
+          - /url: ./
+          - paragraph [ref=f27e769]: Screen Movie
+        - heading "Screen Recording & Motion Editor for macOS" [level=5] [ref=f27e771]
+        - paragraph [ref=f27e773]: Create beautiful movies from your screen.
+        - link [ref=f27e775] [cursor=pointer]:
+          - /url: ./#pricing
+          - paragraph [ref=f27e779]: Download for macOS
+        - paragraph [ref=f27e782]: © 2026 Screen.Movie - All rights reserved
+        - generic [ref=f27e783]:
+          - paragraph [ref=f27e785]: Built with 💙 by
+          - link "Solt Wagner" [ref=f27e786] [cursor=pointer]:
+            - /url: https://x.com/soltwagner
+            - paragraph [ref=f27e790]: Solt Wagner
+      - generic [ref=f27e791]:
+        - heading "Menu" [level=5] [ref=f27e793]
+        - generic [ref=f27e794]:
+          - paragraph [ref=f27e796]:
+            - link "Home" [ref=f27e797] [cursor=pointer]:
+              - /url: ./#home
+          - paragraph [ref=f27e799]:
+            - link "Features" [ref=f27e800] [cursor=pointer]:
+              - /url: ./#features
+          - paragraph [ref=f27e802]:
+            - link "FAQ" [ref=f27e803] [cursor=pointer]:
+              - /url: ./#features
+          - paragraph [ref=f27e805]:
+            - link "Pricing" [ref=f27e806] [cursor=pointer]:
+              - /url: ./#pricing
+      - generic [ref=f27e807]:
+        - heading "Navigation" [level=5] [ref=f27e809]
+        - generic [ref=f27e810]:
+          - paragraph [ref=f27e812]:
+            - link "Contact" [ref=f27e813] [cursor=pointer]:
+              - /url: ./contact
+          - paragraph [ref=f27e815]:
+            - link "Share feedback" [ref=f27e816] [cursor=pointer]:
+              - /url: ./feedback
+          - paragraph [ref=f27e818]:
+            - link "Roadmap" [ref=f27e819] [cursor=pointer]:
+              - /url: ./feedback
+          - paragraph [ref=f27e821]:
+            - link "Privacy policy" [ref=f27e822] [cursor=pointer]:
+              - /url: ./privacy
+          - paragraph [ref=f27e824]:
+            - link "Terms of service" [ref=f27e825] [cursor=pointer]:
+              - /url: ./terms
+          - paragraph [ref=f27e827]:
+            - link "Customer portal" [ref=f27e828] [cursor=pointer]:
+              - /url: https://polar.sh/screen-movie/portal/
+      - generic [ref=f27e829]:
+        - heading "More products" [level=5] [ref=f27e831]
+        - generic [ref=f27e832]:
+          - paragraph [ref=f27e834]:
+            - link "Macapp.Supply" [ref=f27e835] [cursor=pointer]:
+              - /url: https://macapp.supply
+          - paragraph [ref=f27e837]:
+            - link "Supaste.com" [ref=f27e838] [cursor=pointer]:
+              - /url: https://supaste.com
+          - paragraph [ref=f27e840]:
+            - link "Dock.Cool" [ref=f27e841] [cursor=pointer]:
+              - /url: https://dock.cool
+          - paragraph [ref=f27e843]:
+            - link "Runey.app" [ref=f27e844] [cursor=pointer]:
+              - /url: https://runey.app
+          - paragraph [ref=f27e846]:
+            - link "Revone.app" [ref=f27e847] [cursor=pointer]:
+              - /url: https://revone.app
+          - paragraph [ref=f27e849]:
+            - link "Icoon.co" [ref=f27e850] [cursor=pointer]:
+              - /url: https://icoon.co
+          - paragraph [ref=f27e852]:
+            - link "Selected.site" [ref=f27e853] [cursor=pointer]:
+              - /url: https://selected.site
+          - paragraph [ref=f27e855]:
+            - link "Supaframe.io" [ref=f27e856] [cursor=pointer]:
+              - /url: https://supaframe.io
+          - paragraph [ref=f27e858]:
+            - link "Frameblox.com" [ref=f27e859] [cursor=pointer]:
+              - /url: https://frameblox.com
+    - img [ref=f27e861]:
+      - paragraph [ref=f27e863]: Screen Movie

@@ -1,0 +1,133 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - generic [ref=f12e4]:
+      - generic [ref=f12e5]:
+        - link "INTARCS" [ref=f12e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f12e7]:
+          - list [ref=f12e8]:
+            - listitem [ref=f12e9]:
+              - link "Work" [ref=f12e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f12e11]:
+              - link "Studio" [ref=f12e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f12e13]:
+              - link "Journal" [ref=f12e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f12e15]:
+              - link "Contact" [ref=f12e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f12e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f12e19]:
+          - generic [ref=f12e20]: You feel the brand
+          - generic [ref=f12e22]: before it speaks®
+        - paragraph [ref=f12e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+    - generic [ref=f12e26]:
+      - generic [ref=f12e27]:
+        - heading "Selected projects" [level=2] [ref=f12e28]:
+          - generic [ref=f12e29]: Selected
+          - generic [ref=f12e30]: projects
+        - link "view all works" [ref=f12e31] [cursor=pointer]:
+          - /url: "#work"
+      - generic [ref=f12e34]:
+        - generic [ref=f12e35]:
+          - article [ref=f12e36]:
+            - generic [ref=f12e37]:
+              - img "Payy Network" [ref=f12e38]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: web design
+            - generic [ref=f12e41]:
+              - heading "Payy Network" [level=3] [ref=f12e42]
+              - paragraph [ref=f12e43]: Stablecoin payments that feel familiar, not foreign.
+          - article [ref=f12e44]:
+            - generic [ref=f12e45]:
+              - img "Gather AI" [ref=f12e46]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: website
+            - generic [ref=f12e49]:
+              - heading "Gather AI" [level=3] [ref=f12e50]
+              - paragraph [ref=f12e51]: First telco run entirely on AI, powering hundreds of brands from one intelligent core
+        - article [ref=f12e53]:
+          - generic [ref=f12e54]:
+            - img "Jurni AI" [ref=f12e55]
+            - generic:
+              - generic: creative direction
+              - generic: visual identity
+              - generic: motion
+              - generic: website
+          - generic [ref=f12e58]:
+            - heading "Jurni AI" [level=3] [ref=f12e59]
+            - paragraph [ref=f12e60]: Jurni is an AI funnel engine that turns a prompt into a live, high-converting landing experience in minutes.
+        - generic [ref=f12e61]:
+          - article [ref=f12e62]:
+            - generic [ref=f12e63]:
+              - img "Parker AI" [ref=f12e64]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+            - generic [ref=f12e67]:
+              - heading "Parker AI" [level=3] [ref=f12e68]
+              - paragraph [ref=f12e69]: Parker is an AI creative strategist that thinks, researches, and structures work like a senior partner. Clear briefs, sharp angles, and sourced notes inside Slack
+          - article [ref=f12e70]:
+            - generic [ref=f12e71]:
+              - img "Nolana AI" [ref=f12e72]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: website
+            - generic [ref=f12e75]:
+              - heading "Nolana AI" [level=3] [ref=f12e76]
+              - paragraph [ref=f12e77]: AI-native agentic OS for financial services operations
+    - generic [ref=f12e79]:
+      - generic [ref=f12e80]:
+        - generic [ref=f12e81]:
+          - button [pressed] [ref=f12e82] [cursor=pointer]:
+            - text: Schematic Design
+            - superscript [ref=f12e83]: (01)
+          - text: /
+        - generic [ref=f12e84]:
+          - button [ref=f12e85] [cursor=pointer]:
+            - text: Development & Town Planning Applications
+            - superscript [ref=f12e86]: (02)
+          - text: /
+        - generic [ref=f12e87]:
+          - button [ref=f12e88] [cursor=pointer]:
+            - text: Design Development
+            - superscript [ref=f12e89]: (03)
+          - text: /
+        - generic [ref=f12e90]:
+          - button [ref=f12e91] [cursor=pointer]:
+            - text: Marketing
+            - superscript [ref=f12e92]: (04)
+          - text: /
+        - generic [ref=f12e93]:
+          - button [ref=f12e94] [cursor=pointer]:
+            - text: Interior Design
+            - superscript [ref=f12e95]: (05)
+          - text: /
+        - generic [ref=f12e96]:
+          - button [ref=f12e97] [cursor=pointer]:
+            - text: Construction Documentation
+            - superscript [ref=f12e98]: (06)
+          - text: /
+        - button [ref=f12e100] [cursor=pointer]:
+          - text: Contract Administration
+          - superscript [ref=f12e101]: (07)
+      - img "Schematic Design" [ref=f12e105]
+      - generic [ref=f12e119]:
+        - generic [ref=f12e120]: "04"
+        - heading "Method" [level=2] [ref=f12e121]
+      - paragraph [ref=f12e122]: The scope of our Studio covers all stages within Architecture and Interior Design. We offer an end to end level of service from early concepts through to practical completion.
+  - button "Open Next.js Dev Tools" [ref=f12e128] [cursor=pointer]

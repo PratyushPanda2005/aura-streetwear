@@ -1,0 +1,826 @@
+- generic [active] [ref=f24e1]:
+  - generic: Hello world
+  - generic:
+    - button "Close about modal"
+    - generic [ref=f24e2]:
+      - button "Close esc esc" [ref=f24e3] [cursor=pointer]:
+        - generic [ref=f24e4]:
+          - generic [ref=f24e5]: Close
+          - generic [ref=f24e7]:
+            - generic [ref=f24e9]: esc
+            - generic [ref=f24e10]: esc
+      - generic [ref=f24e11]:
+        - generic [ref=f24e12]: About the studio
+        - generic [ref=f24e17]:
+          - generic [ref=f24e18]:
+            - generic [ref=f24e30]: EST 2022
+            - generic [ref=f24e31]: BASED IN MELBOURNE and HANOI
+          - generic [ref=f24e32]:
+            - generic [ref=f24e35]: listen
+            - generic [ref=f24e36]: create
+            - generic [ref=f24e37]: obsess
+            - generic [ref=f24e38]: inspire
+        - generic [ref=f24e39]:
+          - heading "Clients" [level=2] [ref=f24e42]
+          - list [ref=f24e44]:
+            - listitem [ref=f24e45]:
+              - heading "Vinamilk" [level=2] [ref=f24e46]
+            - listitem [ref=f24e47]:
+              - heading "Moc Chau Creamery" [level=2] [ref=f24e48]
+            - listitem [ref=f24e49]:
+              - heading "OH Architecture" [level=2] [ref=f24e50]
+            - listitem [ref=f24e51]:
+              - heading "Supersolid Agency" [level=2] [ref=f24e52]
+            - listitem [ref=f24e53]:
+              - heading "Mammoth Murals" [level=2] [ref=f24e54]
+            - listitem [ref=f24e55]:
+              - heading "SLIK Agency" [level=2] [ref=f24e56]
+            - listitem [ref=f24e57]:
+              - heading "BlueBrown Partners" [level=2] [ref=f24e58]
+            - listitem [ref=f24e59]:
+              - heading "Backhouse" [level=2] [ref=f24e60]
+            - listitem [ref=f24e61]:
+              - heading "University of Sydney" [level=2] [ref=f24e62]
+        - generic [ref=f24e63]:
+          - heading "Awards" [level=2] [ref=f24e66]
+          - list [ref=f24e68]:
+            - listitem [ref=f24e69]:
+              - heading "Awwwards SOTD (x5)" [level=2] [ref=f24e70]
+            - listitem [ref=f24e71]:
+              - heading "FWA SOTD (x5)" [level=2] [ref=f24e72]
+            - listitem [ref=f24e73]:
+              - heading "CSSDA SOTD (x5)" [level=2] [ref=f24e74]
+            - listitem [ref=f24e75]:
+              - heading "Awwwards Honorable Mention (x8)" [level=2] [ref=f24e76]
+            - listitem [ref=f24e77]:
+              - heading "Awwwards Typography Honors (x2)" [level=2] [ref=f24e78]
+            - listitem [ref=f24e79]:
+              - heading "Awwwards Independent of The Year Nominee (x1)" [level=2] [ref=f24e80]
+        - generic [ref=f24e81]:
+          - heading "Our principles" [level=2] [ref=f24e84]
+          - list [ref=f24e86]:
+            - listitem [ref=f24e87]:
+              - heading "Outcomes first, taste second" [level=2] [ref=f24e88]
+              - paragraph [ref=f24e89]: "Every creative decision we make is interrogated against one question: does this actually serve your growth?"
+            - listitem [ref=f24e90]:
+              - heading "All in or nothing" [level=2] [ref=f24e91]
+              - paragraph [ref=f24e92]: We take on fewer projects so we can give each one everything. When we commit to your brand, we're fully present, fully invested, fully responsible for the result.
+            - listitem [ref=f24e93]:
+              - heading "Human-first, always" [level=2] [ref=f24e94]
+              - paragraph [ref=f24e95]: Behind every brand is a person with a real story and real stakes. We never lose sight of that. The most powerful digital experiences are the ones that feel unmistakably human.
+            - listitem [ref=f24e96]:
+              - heading "Intention over speed" [level=2] [ref=f24e97]
+              - paragraph [ref=f24e98]: Rushed work compounds into regret. We move at the pace the work demands. Every layer earns its place before we move to the next.
+  - generic [ref=f24e99]:
+    - banner [ref=f24e100]:
+      - generic [ref=f24e101]:
+        - link "Return to home" [ref=f24e103] [cursor=pointer]:
+          - /url: "#"
+        - navigation [ref=f24e104]:
+          - list [ref=f24e105]:
+            - listitem [ref=f24e106]:
+              - button "About" [ref=f24e107] [cursor=pointer]
+            - listitem [ref=f24e108]:
+              - link "Work" [ref=f24e109] [cursor=pointer]:
+                - /url: /work
+            - listitem [ref=f24e110]:
+              - link "Services" [ref=f24e111] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=f24e112]:
+              - link "Process" [ref=f24e113] [cursor=pointer]:
+                - /url: "#process"
+        - generic [ref=f24e114]:
+          - button "Enable sound effects" [ref=f24e116] [cursor=pointer]
+          - link "Start a project" [ref=f24e125] [cursor=pointer]:
+            - /url: https://cal.com/byhuy/project-intro-call
+    - main [ref=f24e134]:
+      - heading "We design change-making website experiences that finally reflect what you've actually built.‍For established brands whose reputation has outgrown their digital presence." [level=1] [ref=f24e148]:
+        - generic [aria-hidden] [ref=f24e150]: We design change-making
+        - generic [aria-hidden] [ref=f24e152]: website experiences that finally
+        - generic [aria-hidden] [ref=f24e154]: reflect what you've actually built.
+        - generic [aria-hidden] [ref=f24e156]: ‍
+        - generic [aria-hidden] [ref=f24e158]: For established brands whose
+        - generic [aria-hidden] [ref=f24e160]: reputation has outgrown their
+        - generic [aria-hidden] [ref=f24e162]: digital presence.
+      - generic [ref=f24e172]:
+        - generic [ref=f24e173]:
+          - generic [ref=f24e174]:
+            - generic [ref=f24e179]:
+              - generic [ref=f24e180]:
+                - button "previous statistic" [ref=f24e181] [cursor=pointer]
+                - button "next statistic" [ref=f24e182] [cursor=pointer]
+              - generic [ref=f24e183]:
+                - generic [ref=f24e184]:
+                  - text: "0"
+                  - generic [ref=f24e185]: "1"
+                - generic [ref=f24e186]: /
+                - generic [ref=f24e187]:
+                  - text: "0"
+                  - generic [ref=f24e188]: "2"
+            - list [ref=f24e190]:
+              - listitem [ref=f24e191]:
+                - generic "15+" [ref=f24e192]:
+                  - generic [aria-hidden] [ref=f24e194]: 15+
+                - paragraph [ref=f24e195]:
+                  - generic [aria-hidden] [ref=f24e197]: Founder-led brands from
+                  - generic [aria-hidden] [ref=f24e199]: disruptive creative agencies to
+                  - generic [aria-hidden] [ref=f24e201]: consumer brands
+              - listitem [ref=f24e202]:
+                - generic "30+" [ref=f24e203]:
+                  - generic [aria-hidden] [ref=f24e205]: 30+
+                - paragraph [ref=f24e206]:
+                  - generic [aria-hidden] [ref=f24e208]: Globally recognized awards
+                  - generic [aria-hidden] [ref=f24e210]: (Awwwards, FWA, CSSDA)
+          - generic [ref=f24e211]:
+            - heading "Great founders changing the world deserve a presence as powerful as what they're building. Most founders we work with have built something significant, but their website doesn't show it yet. That gap costs more than revenue. It costs the certainty that your brand is finally being understood." [level=2] [ref=f24e212]:
+              - generic [aria-hidden] [ref=f24e213]:
+                - generic [aria-hidden] [ref=f24e214]:
+                  - generic [aria-hidden] [ref=f24e215]: G
+                  - generic [aria-hidden] [ref=f24e216]: r
+                  - generic [aria-hidden] [ref=f24e217]: e
+                  - generic [aria-hidden] [ref=f24e218]: a
+                  - generic [aria-hidden] [ref=f24e219]: t
+                - generic [aria-hidden] [ref=f24e220]:
+                  - generic [aria-hidden] [ref=f24e221]: f
+                  - generic [aria-hidden] [ref=f24e222]: o
+                  - generic [aria-hidden] [ref=f24e223]: u
+                  - generic [aria-hidden] [ref=f24e224]: "n"
+                  - generic [aria-hidden] [ref=f24e225]: d
+                  - generic [aria-hidden] [ref=f24e226]: e
+                  - generic [aria-hidden] [ref=f24e227]: r
+                  - generic [aria-hidden] [ref=f24e228]: s
+                - generic [aria-hidden] [ref=f24e229]:
+                  - generic [aria-hidden] [ref=f24e230]: c
+                  - generic [aria-hidden] [ref=f24e231]: h
+                  - generic [aria-hidden] [ref=f24e232]: a
+                  - generic [aria-hidden] [ref=f24e233]: "n"
+                  - generic [aria-hidden] [ref=f24e234]: g
+                  - generic [aria-hidden] [ref=f24e235]: i
+                  - generic [aria-hidden] [ref=f24e236]: "n"
+                  - generic [aria-hidden] [ref=f24e237]: g
+                - generic [aria-hidden] [ref=f24e238]:
+                  - generic [aria-hidden] [ref=f24e239]: t
+                  - generic [aria-hidden] [ref=f24e240]: h
+                  - generic [aria-hidden] [ref=f24e241]: e
+              - generic [aria-hidden] [ref=f24e242]:
+                - generic [aria-hidden] [ref=f24e243]:
+                  - generic [aria-hidden] [ref=f24e244]: w
+                  - generic [aria-hidden] [ref=f24e245]: o
+                  - generic [aria-hidden] [ref=f24e246]: r
+                  - generic [aria-hidden] [ref=f24e247]: l
+                  - generic [aria-hidden] [ref=f24e248]: d
+                - generic [aria-hidden] [ref=f24e249]:
+                  - generic [aria-hidden] [ref=f24e250]: d
+                  - generic [aria-hidden] [ref=f24e251]: e
+                  - generic [aria-hidden] [ref=f24e252]: s
+                  - generic [aria-hidden] [ref=f24e253]: e
+                  - generic [aria-hidden] [ref=f24e254]: r
+                  - generic [aria-hidden] [ref=f24e255]: v
+                  - generic [aria-hidden] [ref=f24e256]: e
+                - generic [aria-hidden] [ref=f24e258]: a
+                - generic [aria-hidden] [ref=f24e259]:
+                  - generic [aria-hidden] [ref=f24e260]: p
+                  - generic [aria-hidden] [ref=f24e261]: r
+                  - generic [aria-hidden] [ref=f24e262]: e
+                  - generic [aria-hidden] [ref=f24e263]: s
+                  - generic [aria-hidden] [ref=f24e264]: e
+                  - generic [aria-hidden] [ref=f24e265]: "n"
+                  - generic [aria-hidden] [ref=f24e266]: c
+                  - generic [aria-hidden] [ref=f24e267]: e
+                - generic [aria-hidden] [ref=f24e268]:
+                  - generic [aria-hidden] [ref=f24e269]: a
+                  - generic [aria-hidden] [ref=f24e270]: s
+              - generic [aria-hidden] [ref=f24e271]:
+                - generic [aria-hidden] [ref=f24e272]:
+                  - generic [aria-hidden] [ref=f24e273]: p
+                  - generic [aria-hidden] [ref=f24e274]: o
+                  - generic [aria-hidden] [ref=f24e275]: w
+                  - generic [aria-hidden] [ref=f24e276]: e
+                  - generic [aria-hidden] [ref=f24e277]: r
+                  - generic [aria-hidden] [ref=f24e278]: f
+                  - generic [aria-hidden] [ref=f24e279]: u
+                  - generic [aria-hidden] [ref=f24e280]: l
+                - generic [aria-hidden] [ref=f24e281]:
+                  - generic [aria-hidden] [ref=f24e282]: a
+                  - generic [aria-hidden] [ref=f24e283]: s
+                - generic [aria-hidden] [ref=f24e284]:
+                  - generic [aria-hidden] [ref=f24e285]: w
+                  - generic [aria-hidden] [ref=f24e286]: h
+                  - generic [aria-hidden] [ref=f24e287]: a
+                  - generic [aria-hidden] [ref=f24e288]: t
+                - generic [aria-hidden] [ref=f24e289]:
+                  - generic [aria-hidden] [ref=f24e290]: t
+                  - generic [aria-hidden] [ref=f24e291]: h
+                  - generic [aria-hidden] [ref=f24e292]: e
+                  - generic [aria-hidden] [ref=f24e293]: "y"
+                  - generic [aria-hidden] [ref=f24e294]: "'"
+                  - generic [aria-hidden] [ref=f24e295]: r
+                  - generic [aria-hidden] [ref=f24e296]: e
+                - generic [aria-hidden] [ref=f24e297]:
+                  - generic [aria-hidden] [ref=f24e298]: b
+                  - generic [aria-hidden] [ref=f24e299]: u
+                  - generic [aria-hidden] [ref=f24e300]: i
+                  - generic [aria-hidden] [ref=f24e301]: l
+                  - generic [aria-hidden] [ref=f24e302]: d
+                  - generic [aria-hidden] [ref=f24e303]: i
+                  - generic [aria-hidden] [ref=f24e304]: "n"
+                  - generic [aria-hidden] [ref=f24e305]: g
+                  - generic [aria-hidden] [ref=f24e306]: .
+              - generic [aria-hidden] [ref=f24e307]:
+                - generic [aria-hidden] [ref=f24e308]:
+                  - generic [aria-hidden] [ref=f24e309]: M
+                  - generic [aria-hidden] [ref=f24e310]: o
+                  - generic [aria-hidden] [ref=f24e311]: s
+                  - generic [aria-hidden] [ref=f24e312]: t
+                - generic [aria-hidden] [ref=f24e313]:
+                  - generic [aria-hidden] [ref=f24e314]: f
+                  - generic [aria-hidden] [ref=f24e315]: o
+                  - generic [aria-hidden] [ref=f24e316]: u
+                  - generic [aria-hidden] [ref=f24e317]: "n"
+                  - generic [aria-hidden] [ref=f24e318]: d
+                  - generic [aria-hidden] [ref=f24e319]: e
+                  - generic [aria-hidden] [ref=f24e320]: r
+                  - generic [aria-hidden] [ref=f24e321]: s
+                - generic [aria-hidden] [ref=f24e322]:
+                  - generic [aria-hidden] [ref=f24e323]: w
+                  - generic [aria-hidden] [ref=f24e324]: e
+                - generic [aria-hidden] [ref=f24e325]:
+                  - generic [aria-hidden] [ref=f24e326]: w
+                  - generic [aria-hidden] [ref=f24e327]: o
+                  - generic [aria-hidden] [ref=f24e328]: r
+                  - generic [aria-hidden] [ref=f24e329]: k
+                - generic [aria-hidden] [ref=f24e330]:
+                  - generic [aria-hidden] [ref=f24e331]: w
+                  - generic [aria-hidden] [ref=f24e332]: i
+                  - generic [aria-hidden] [ref=f24e333]: t
+                  - generic [aria-hidden] [ref=f24e334]: h
+                - generic [aria-hidden] [ref=f24e335]:
+                  - generic [aria-hidden] [ref=f24e336]: h
+                  - generic [aria-hidden] [ref=f24e337]: a
+                  - generic [aria-hidden] [ref=f24e338]: v
+                  - generic [aria-hidden] [ref=f24e339]: e
+              - generic [aria-hidden] [ref=f24e340]:
+                - generic [aria-hidden] [ref=f24e341]:
+                  - generic [aria-hidden] [ref=f24e342]: b
+                  - generic [aria-hidden] [ref=f24e343]: u
+                  - generic [aria-hidden] [ref=f24e344]: i
+                  - generic [aria-hidden] [ref=f24e345]: l
+                  - generic [aria-hidden] [ref=f24e346]: t
+                - generic [aria-hidden] [ref=f24e347]:
+                  - generic [aria-hidden] [ref=f24e348]: s
+                  - generic [aria-hidden] [ref=f24e349]: o
+                  - generic [aria-hidden] [ref=f24e350]: m
+                  - generic [aria-hidden] [ref=f24e351]: e
+                  - generic [aria-hidden] [ref=f24e352]: t
+                  - generic [aria-hidden] [ref=f24e353]: h
+                  - generic [aria-hidden] [ref=f24e354]: i
+                  - generic [aria-hidden] [ref=f24e355]: "n"
+                  - generic [aria-hidden] [ref=f24e356]: g
+                - generic [aria-hidden] [ref=f24e357]:
+                  - generic [aria-hidden] [ref=f24e358]: s
+                  - generic [aria-hidden] [ref=f24e359]: i
+                  - generic [aria-hidden] [ref=f24e360]: g
+                  - generic [aria-hidden] [ref=f24e361]: "n"
+                  - generic [aria-hidden] [ref=f24e362]: i
+                  - generic [aria-hidden] [ref=f24e363]: f
+                  - generic [aria-hidden] [ref=f24e364]: i
+                  - generic [aria-hidden] [ref=f24e365]: c
+                  - generic [aria-hidden] [ref=f24e366]: a
+                  - generic [aria-hidden] [ref=f24e367]: "n"
+                  - generic [aria-hidden] [ref=f24e368]: t
+                  - generic [aria-hidden] [ref=f24e369]: ","
+                - generic [aria-hidden] [ref=f24e370]:
+                  - generic [aria-hidden] [ref=f24e371]: b
+                  - generic [aria-hidden] [ref=f24e372]: u
+                  - generic [aria-hidden] [ref=f24e373]: t
+              - generic [aria-hidden] [ref=f24e374]:
+                - generic [aria-hidden] [ref=f24e375]:
+                  - generic [aria-hidden] [ref=f24e376]: t
+                  - generic [aria-hidden] [ref=f24e377]: h
+                  - generic [aria-hidden] [ref=f24e378]: e
+                  - generic [aria-hidden] [ref=f24e379]: i
+                  - generic [aria-hidden] [ref=f24e380]: r
+                - generic [aria-hidden] [ref=f24e381]:
+                  - generic [aria-hidden] [ref=f24e382]: w
+                  - generic [aria-hidden] [ref=f24e383]: e
+                  - generic [aria-hidden] [ref=f24e384]: b
+                  - generic [aria-hidden] [ref=f24e385]: s
+                  - generic [aria-hidden] [ref=f24e386]: i
+                  - generic [aria-hidden] [ref=f24e387]: t
+                  - generic [aria-hidden] [ref=f24e388]: e
+                - generic [aria-hidden] [ref=f24e389]:
+                  - generic [aria-hidden] [ref=f24e390]: d
+                  - generic [aria-hidden] [ref=f24e391]: o
+                  - generic [aria-hidden] [ref=f24e392]: e
+                  - generic [aria-hidden] [ref=f24e393]: s
+                  - generic [aria-hidden] [ref=f24e394]: "n"
+                  - generic [aria-hidden] [ref=f24e395]: "'"
+                  - generic [aria-hidden] [ref=f24e396]: t
+                - generic [aria-hidden] [ref=f24e397]:
+                  - generic [aria-hidden] [ref=f24e398]: s
+                  - generic [aria-hidden] [ref=f24e399]: h
+                  - generic [aria-hidden] [ref=f24e400]: o
+                  - generic [aria-hidden] [ref=f24e401]: w
+                - generic [aria-hidden] [ref=f24e402]:
+                  - generic [aria-hidden] [ref=f24e403]: i
+                  - generic [aria-hidden] [ref=f24e404]: t
+                - generic [aria-hidden] [ref=f24e405]:
+                  - generic [aria-hidden] [ref=f24e406]: "y"
+                  - generic [aria-hidden] [ref=f24e407]: e
+                  - generic [aria-hidden] [ref=f24e408]: t
+                  - generic [aria-hidden] [ref=f24e409]: .
+              - generic [aria-hidden] [ref=f24e410]:
+                - generic [aria-hidden] [ref=f24e411]:
+                  - generic [aria-hidden] [ref=f24e412]: T
+                  - generic [aria-hidden] [ref=f24e413]: h
+                  - generic [aria-hidden] [ref=f24e414]: a
+                  - generic [aria-hidden] [ref=f24e415]: t
+                - generic [aria-hidden] [ref=f24e416]:
+                  - generic [aria-hidden] [ref=f24e417]: g
+                  - generic [aria-hidden] [ref=f24e418]: a
+                  - generic [aria-hidden] [ref=f24e419]: p
+                - generic [aria-hidden] [ref=f24e420]:
+                  - generic [aria-hidden] [ref=f24e421]: c
+                  - generic [aria-hidden] [ref=f24e422]: o
+                  - generic [aria-hidden] [ref=f24e423]: s
+                  - generic [aria-hidden] [ref=f24e424]: t
+                  - generic [aria-hidden] [ref=f24e425]: s
+                - generic [aria-hidden] [ref=f24e426]:
+                  - generic [aria-hidden] [ref=f24e427]: m
+                  - generic [aria-hidden] [ref=f24e428]: o
+                  - generic [aria-hidden] [ref=f24e429]: r
+                  - generic [aria-hidden] [ref=f24e430]: e
+                - generic [aria-hidden] [ref=f24e431]:
+                  - generic [aria-hidden] [ref=f24e432]: t
+                  - generic [aria-hidden] [ref=f24e433]: h
+                  - generic [aria-hidden] [ref=f24e434]: a
+                  - generic [aria-hidden] [ref=f24e435]: "n"
+                - generic [aria-hidden] [ref=f24e436]:
+                  - generic [aria-hidden] [ref=f24e437]: r
+                  - generic [aria-hidden] [ref=f24e438]: e
+                  - generic [aria-hidden] [ref=f24e439]: v
+                  - generic [aria-hidden] [ref=f24e440]: e
+                  - generic [aria-hidden] [ref=f24e441]: "n"
+                  - generic [aria-hidden] [ref=f24e442]: u
+                  - generic [aria-hidden] [ref=f24e443]: e
+                  - generic [aria-hidden] [ref=f24e444]: .
+              - generic [aria-hidden] [ref=f24e445]:
+                - generic [aria-hidden] [ref=f24e446]:
+                  - generic [aria-hidden] [ref=f24e447]: I
+                  - generic [aria-hidden] [ref=f24e448]: t
+                - generic [aria-hidden] [ref=f24e449]:
+                  - generic [aria-hidden] [ref=f24e450]: c
+                  - generic [aria-hidden] [ref=f24e451]: o
+                  - generic [aria-hidden] [ref=f24e452]: s
+                  - generic [aria-hidden] [ref=f24e453]: t
+                  - generic [aria-hidden] [ref=f24e454]: s
+                - generic [aria-hidden] [ref=f24e455]:
+                  - generic [aria-hidden] [ref=f24e456]: t
+                  - generic [aria-hidden] [ref=f24e457]: h
+                  - generic [aria-hidden] [ref=f24e458]: e
+                - generic [aria-hidden] [ref=f24e459]:
+                  - generic [aria-hidden] [ref=f24e460]: c
+                  - generic [aria-hidden] [ref=f24e461]: e
+                  - generic [aria-hidden] [ref=f24e462]: r
+                  - generic [aria-hidden] [ref=f24e463]: t
+                  - generic [aria-hidden] [ref=f24e464]: a
+                  - generic [aria-hidden] [ref=f24e465]: i
+                  - generic [aria-hidden] [ref=f24e466]: "n"
+                  - generic [aria-hidden] [ref=f24e467]: t
+                  - generic [aria-hidden] [ref=f24e468]: "y"
+                - generic [aria-hidden] [ref=f24e469]:
+                  - generic [aria-hidden] [ref=f24e470]: t
+                  - generic [aria-hidden] [ref=f24e471]: h
+                  - generic [aria-hidden] [ref=f24e472]: a
+                  - generic [aria-hidden] [ref=f24e473]: t
+                - generic [aria-hidden] [ref=f24e474]:
+                  - generic [aria-hidden] [ref=f24e475]: "y"
+                  - generic [aria-hidden] [ref=f24e476]: o
+                  - generic [aria-hidden] [ref=f24e477]: u
+                  - generic [aria-hidden] [ref=f24e478]: r
+              - generic [aria-hidden] [ref=f24e479]:
+                - generic [aria-hidden] [ref=f24e480]:
+                  - generic [aria-hidden] [ref=f24e481]: b
+                  - generic [aria-hidden] [ref=f24e482]: r
+                  - generic [aria-hidden] [ref=f24e483]: a
+                  - generic [aria-hidden] [ref=f24e484]: "n"
+                  - generic [aria-hidden] [ref=f24e485]: d
+                - generic [aria-hidden] [ref=f24e486]:
+                  - generic [aria-hidden] [ref=f24e487]: i
+                  - generic [aria-hidden] [ref=f24e488]: s
+                - generic [aria-hidden] [ref=f24e489]:
+                  - generic [aria-hidden] [ref=f24e490]: f
+                  - generic [aria-hidden] [ref=f24e491]: i
+                  - generic [aria-hidden] [ref=f24e492]: "n"
+                  - generic [aria-hidden] [ref=f24e493]: a
+                  - generic [aria-hidden] [ref=f24e494]: l
+                  - generic [aria-hidden] [ref=f24e495]: l
+                  - generic [aria-hidden] [ref=f24e496]: "y"
+                - generic [aria-hidden] [ref=f24e497]:
+                  - generic [aria-hidden] [ref=f24e498]: b
+                  - generic [aria-hidden] [ref=f24e499]: e
+                  - generic [aria-hidden] [ref=f24e500]: i
+                  - generic [aria-hidden] [ref=f24e501]: "n"
+                  - generic [aria-hidden] [ref=f24e502]: g
+                - generic [aria-hidden] [ref=f24e503]:
+                  - generic [aria-hidden] [ref=f24e504]: u
+                  - generic [aria-hidden] [ref=f24e505]: "n"
+                  - generic [aria-hidden] [ref=f24e506]: d
+                  - generic [aria-hidden] [ref=f24e507]: e
+                  - generic [aria-hidden] [ref=f24e508]: r
+                  - generic [aria-hidden] [ref=f24e509]: s
+                  - generic [aria-hidden] [ref=f24e510]: t
+                  - generic [aria-hidden] [ref=f24e511]: o
+                  - generic [aria-hidden] [ref=f24e512]: o
+                  - generic [aria-hidden] [ref=f24e513]: d
+                  - generic [aria-hidden] [ref=f24e514]: .
+            - generic [ref=f24e515]:
+              - img "A headshot of Huy" [ref=f24e516]
+              - generic [ref=f24e517]:
+                - generic [ref=f24e518]: Huy (By Huy) Nguyen
+                - generic [ref=f24e519]: Founder, MONOLOG
+        - list [ref=f24e524]:
+          - listitem [ref=f24e525]:
+            - generic [ref=f24e526]: Vinamilk
+          - listitem [ref=f24e527]:
+            - generic [ref=f24e528]: Moc Chau Creamery
+          - listitem [ref=f24e529]:
+            - generic [ref=f24e530]: University of Sydney
+          - listitem [ref=f24e531]:
+            - generic [ref=f24e532]: OH Architecture
+          - listitem [ref=f24e533]:
+            - generic [ref=f24e534]: Supersolid Agency
+          - listitem [ref=f24e535]:
+            - generic [ref=f24e536]: SLIK Agency
+          - listitem [ref=f24e537]:
+            - generic [ref=f24e538]: Mammoth Murals
+          - listitem [ref=f24e539]:
+            - generic [ref=f24e540]: Backhouse
+      - generic [ref=f24e542]:
+        - generic [ref=f24e543]:
+          - generic: ‎
+          - generic [ref=f24e544]:
+            - heading "We close‎‎‎‎‎ ‎" [level=2] [ref=f24e546]:
+              - generic [aria-hidden] [ref=f24e547]: W
+              - generic [aria-hidden] [ref=f24e548]: e
+              - generic [aria-hidden] [ref=f24e549]: c
+              - generic [aria-hidden] [ref=f24e550]: l
+              - generic [aria-hidden] [ref=f24e551]: o
+              - generic [aria-hidden] [ref=f24e552]: s
+              - generic [aria-hidden] [ref=f24e553]: e
+            - heading "That gap" [level=2] [ref=f24e555]:
+              - generic [aria-hidden] [ref=f24e556]: T
+              - generic [aria-hidden] [ref=f24e557]: h
+              - generic [aria-hidden] [ref=f24e558]: a
+              - generic [aria-hidden] [ref=f24e559]: t
+              - generic [aria-hidden] [ref=f24e560]: g
+              - generic [aria-hidden] [ref=f24e561]: a
+              - generic [aria-hidden] [ref=f24e562]: p
+          - paragraph [ref=f24e564]: Your website is where ideal customers decide if you're worth their time. We take what makes you irreplaceable, shape the entire experience around it, and make sure they feel that before they read another word.
+        - generic [ref=f24e565]:
+          - img "A picture of OH Architecture's project Sidney House" [ref=f24e567]
+          - img "Carton of Moc Chau Creamery UHT fresh plain milk on a wooden table with a white pitcher, an orange, and amber glassware in warm lighting." [ref=f24e568]
+          - img "Man with eyes closed wearing a blue and pink hooded jacket with floral patterns against a pink background." [ref=f24e569]
+          - img "Man flexing his muscles and smiling while standing in front of a white car at night." [ref=f24e570]
+          - img "Front facade of a building with a big mural" [ref=f24e571]
+      - generic [ref=f24e572]:
+        - list [ref=f24e576]:
+          - listitem [ref=f24e577]:
+            - link "SS /05 OH Architecture Brand refresh and website for a practice with a decade of crafting high-end homes for Australian families. 21% Increase in conversions with projects starting from $2M+" [ref=f24e578] [cursor=pointer]:
+              - /url: https://www.oharchitecture.com.au/
+              - generic [ref=f24e583]:
+                - generic [ref=f24e584]:
+                  - generic [ref=f24e585]:
+                    - generic [ref=f24e586]: SS
+                    - generic [ref=f24e587]: /05
+                  - heading "OH Architecture" [level=2] [ref=f24e592]
+                  - paragraph [ref=f24e593]: Brand refresh and website for a practice with a decade of crafting high-end homes for Australian families.
+                - generic [ref=f24e594]:
+                  - heading "21%" [level=3] [ref=f24e595]
+                  - paragraph [ref=f24e596]: Increase in conversions with projects starting from $2M+
+          - listitem [ref=f24e597]:
+            - link "SS /05 Supersolid Website for a 100% creative-owned Sydney agency built to merge commercial value with cultural impact. 58% Increase in average session duration" [ref=f24e598] [cursor=pointer]:
+              - /url: https://www.supersolid.agency/
+              - generic [ref=f24e603]:
+                - generic [ref=f24e604]:
+                  - generic [ref=f24e605]:
+                    - generic [ref=f24e606]: SS
+                    - generic [ref=f24e607]: /05
+                  - heading "Supersolid" [level=2] [ref=f24e612]
+                  - paragraph [ref=f24e613]: Website for a 100% creative-owned Sydney agency built to merge commercial value with cultural impact.
+                - generic [ref=f24e614]:
+                  - heading "58%" [level=3] [ref=f24e615]
+                  - paragraph [ref=f24e616]: Increase in average session duration
+          - listitem [ref=f24e617]:
+            - link "SS /05 Mammoth Murals Brand strategy, identity and website for an established mural agency with a decade of large-scale public art behind it. $100K+ In new work within 30 days of launch" [ref=f24e618] [cursor=pointer]:
+              - /url: https://mammothmurals.com/
+              - generic [ref=f24e623]:
+                - generic [ref=f24e624]:
+                  - generic [ref=f24e625]:
+                    - generic [ref=f24e626]: SS
+                    - generic [ref=f24e627]: /05
+                  - heading "Mammoth Murals" [level=2] [ref=f24e632]
+                  - paragraph [ref=f24e633]: Brand strategy, identity and website for an established mural agency with a decade of large-scale public art behind it.
+                - generic [ref=f24e634]:
+                  - heading "$100K+" [level=3] [ref=f24e635]
+                  - paragraph [ref=f24e636]: In new work within 30 days of launch
+          - listitem [ref=f24e637]:
+            - link "SS /05 HISS (University of Sydney) Brand identity and website for a University of Sydney initiative challenging the norms of queer education on a global stage. 15+ Global universities united on a single platform" [ref=f24e638] [cursor=pointer]:
+              - /url: https://www.hiss.sydney/
+              - generic [ref=f24e643]:
+                - generic [ref=f24e644]:
+                  - generic [ref=f24e645]:
+                    - generic [ref=f24e646]: SS
+                    - generic [ref=f24e647]: /05
+                  - heading "HISS (University of Sydney)" [level=2] [ref=f24e652]
+                  - paragraph [ref=f24e653]: Brand identity and website for a University of Sydney initiative challenging the norms of queer education on a global stage.
+                - generic [ref=f24e654]:
+                  - heading "15+" [level=3] [ref=f24e655]
+                  - paragraph [ref=f24e656]: Global universities united on a single platform
+          - listitem [ref=f24e657]:
+            - link "SS /05 SLIK Website for an Australian activation agency pushing creativity further for some of the country's most ambitious brands." [ref=f24e658] [cursor=pointer]:
+              - /url: https://www.slik.com.au/
+              - generic [ref=f24e664]:
+                - generic [ref=f24e665]:
+                  - generic [ref=f24e666]: SS
+                  - generic [ref=f24e667]: /05
+                - heading "SLIK" [level=2] [ref=f24e672]
+                - paragraph [ref=f24e673]: Website for an Australian activation agency pushing creativity further for some of the country's most ambitious brands.
+        - link "07 View All Stories (→)" [ref=f24e675] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=f24e676]: "07"
+          - generic [ref=f24e677]: View All Stories
+          - generic [ref=f24e678]: (→)
+      - generic [ref=f24e681]:
+        - generic [ref=f24e682]:
+          - generic [ref=f24e687]:
+            - generic [ref=f24e688]:
+              - button "previous statistic" [ref=f24e689] [cursor=pointer]
+              - button "next statistic" [ref=f24e690] [cursor=pointer]
+            - generic [ref=f24e691]:
+              - generic [ref=f24e692]:
+                - text: "0"
+                - generic [ref=f24e693]: "1"
+              - generic [ref=f24e694]: /
+              - generic [ref=f24e695]:
+                - text: "0"
+                - generic [ref=f24e696]: "3"
+          - heading "(Real client stories)" [level=3] [ref=f24e697]
+          - list [ref=f24e699]:
+            - listitem [ref=f24e700]:
+              - paragraph [ref=f24e701]:
+                - generic [aria-hidden] [ref=f24e703]: "\"For years, our website struggled to"
+                - generic [aria-hidden] [ref=f24e705]: showcase our work effectively and attract
+                - generic [aria-hidden] [ref=f24e707]: the right clients. Within just 30 days of
+                - generic [aria-hidden] [ref=f24e709]: launching the new site with MONOLOG, we
+                - generic [aria-hidden] [ref=f24e711]: generated $100k in new sales and receive
+                - generic [aria-hidden] [ref=f24e713]: 2-3 qualified inquiries every week."
+              - generic [ref=f24e715]:
+                - paragraph [ref=f24e716]: Andrew Tynes
+                - paragraph [ref=f24e717]: Owner, Mammoth Murals
+            - listitem [ref=f24e718]:
+              - paragraph [ref=f24e719]:
+                - generic [aria-hidden] [ref=f24e721]: "\"Huy and his team are a rare collaborator"
+                - generic [aria-hidden] [ref=f24e723]: who cares as much about “your thing.”
+                - generic [aria-hidden] [ref=f24e725]: Highly talented and humble, Huy is always
+                - generic [aria-hidden] [ref=f24e727]: willing to delve deeper to find the most
+                - generic [aria-hidden] [ref=f24e729]: interesting and elegant solution to the
+                - generic [aria-hidden] [ref=f24e731]: problem. We’d strongly recommend Huy to
+                - generic [aria-hidden] [ref=f24e733]: brands looking for a true web partner for
+                - generic [aria-hidden] [ref=f24e735]: their business."
+              - generic [ref=f24e737]:
+                - paragraph [ref=f24e738]: Jonathon Shannon
+                - paragraph [ref=f24e739]: Creative Director, Supersolid
+            - listitem [ref=f24e740]:
+              - paragraph [ref=f24e741]:
+                - generic [aria-hidden] [ref=f24e743]: "\"Since launching our new website,"
+                - generic [aria-hidden] [ref=f24e745]: showcasing our completed work is far more
+                - generic [aria-hidden] [ref=f24e747]: streamlined. The design is not only
+                - generic [aria-hidden] [ref=f24e749]: impressive but innovative, it truly stands
+                - generic [aria-hidden] [ref=f24e751]: out. We've also seen a real shift in enquiry
+                - generic [aria-hidden] [ref=f24e753]: "quality: 21% have converted into signed"
+                - generic [aria-hidden] [ref=f24e755]: projects, and we're saving 3-5 hours a
+                - generic [aria-hidden] [ref=f24e757]: week previously lost to back-and-forth
+                - generic [aria-hidden] [ref=f24e759]: qualification. It's meant a stronger pipeline
+                - generic [aria-hidden] [ref=f24e761]: and a much more efficient client
+                - generic [aria-hidden] [ref=f24e763]: acquisition process."
+              - generic [ref=f24e765]:
+                - paragraph [ref=f24e766]: Johnny Hyde
+                - paragraph [ref=f24e767]: Director, OH Architecture
+        - generic [ref=f24e770]:
+          - list [ref=f24e772]:
+            - listitem [ref=f24e773]:
+              - heading "Brand Strategy" [level=2] [ref=f24e774]
+            - listitem [ref=f24e775]:
+              - heading "Visual Identity" [level=2] [ref=f24e776]
+            - listitem [ref=f24e777]:
+              - heading "Website Strategy" [level=2] [ref=f24e778]
+            - listitem [ref=f24e779]:
+              - heading "Website Design" [level=2] [ref=f24e780]
+            - listitem [ref=f24e781]:
+              - heading "Website Development" [level=2] [ref=f24e782]
+            - listitem [ref=f24e783]:
+              - heading "3D Development" [level=2] [ref=f24e784]
+          - generic:
+            - generic:
+              - list:
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+      - generic [ref=f24e785]:
+        - heading "Project Process" [level=2] [ref=f24e786]
+        - list [ref=f24e803]:
+          - listitem [ref=f24e804]:
+            - generic [ref=f24e805]:
+              - generic [ref=f24e807]:
+                - generic [ref=f24e808]: Step
+                - generic [ref=f24e811]: ‎
+              - generic [ref=f24e812]:
+                - heading "We uncover your story" [level=3] [ref=f24e813]
+                - paragraph [ref=f24e814]: We dig deep into your brand, surface what makes you irreplaceable, and shape it into sharp positioning and a website strategy that connects in seconds.
+            - link "See step 01 in action ↗" [ref=f24e815] [cursor=pointer]:
+              - /url: https://youtu.be/LVOLFgSqHQ0?si=ilDSUJZ8q4J_05Ou&t=76
+          - listitem [ref=f24e818]:
+            - generic [ref=f24e819]:
+              - generic [ref=f24e821]:
+                - generic [ref=f24e822]: Step
+                - generic [ref=f24e825]: ‎
+              - generic [ref=f24e826]:
+                - heading "We shape your digital presence" [level=3] [ref=f24e827]
+                - paragraph [ref=f24e828]: With your narrative locked, we design and direct a brand and website that feels premium, signals credibility, and gives your audience one clear reason to lean in and act.
+            - link "See step 02 in action ↗" [ref=f24e829] [cursor=pointer]:
+              - /url: https://youtu.be/LVOLFgSqHQ0?si=V8p7IBYcyDvXfcSM&t=480
+          - listitem [ref=f24e832]:
+            - generic [ref=f24e833]:
+              - generic [ref=f24e835]:
+                - generic [ref=f24e836]: Step
+                - generic [ref=f24e839]: ‎
+              - generic [ref=f24e840]:
+                - heading "We send it into the world" [level=3] [ref=f24e841]
+                - paragraph [ref=f24e842]: Your brand and website goes live as a long-term asset that turns attention into opportunity, attracts the clients you're built for, and grows with you.
+            - link "See step 03 in action ↗" [ref=f24e843] [cursor=pointer]:
+              - /url: https://youtu.be/LVOLFgSqHQ0?si=P7382hcVSsMWaHtP&t=696
+      - generic [ref=f24e846]:
+        - generic [ref=f24e848]:
+          - heading "Here's what you need to consider before partnering with us." [level=2] [ref=f24e849]
+          - list [ref=f24e851]:
+            - listitem [ref=f24e852]:
+              - button [ref=f24e853] [cursor=pointer]:
+                - heading "Who will actually be working on our project?" [level=3] [ref=f24e854]
+              - generic [ref=f24e857]:
+                - paragraph [ref=f24e858]: Huy leads every engagement from strategy, creative direction, and your primary point of contact throughout.
+                - paragraph [ref=f24e859]: Depending on scope, a carefully selected team of collaborators supports on design and development. The level of care and craft stays consistent, regardless of project size.
+            - listitem [ref=f24e860]:
+              - button [ref=f24e861] [cursor=pointer]:
+                - heading "How long do your projects usually take?" [level=3] [ref=f24e862]
+              - generic [ref=f24e865]:
+                - paragraph [ref=f24e866]: Most projects run 10-14 weeks end-to-end.
+                - paragraph [ref=f24e867]: Timelines can flex based on scope, but we set milestones from day one so there are no surprises.
+            - listitem [ref=f24e868]:
+              - button [ref=f24e869] [cursor=pointer]:
+                - heading "How do you communicate and manage work?" [level=3] [ref=f24e870]
+              - generic [ref=f24e873]:
+                - paragraph [ref=f24e874]: We keep things simple and transparent with a dedicated Notion portal to manage our project (timelines and deliverables).
+                - paragraph [ref=f24e875]: Most of the time you'll receive async Loom updates and weekly communication via Slack or WhatsApp. We can also integrate with your tools so the process stays structured yet flexible.Synchronous calls are typically scheduled to review important decisions or milestones of the project.
+            - listitem [ref=f24e876]:
+              - button [ref=f24e877] [cursor=pointer]:
+                - heading "What do you need to start working together?" [level=3] [ref=f24e878]
+              - generic [ref=f24e881]:
+                - paragraph [ref=f24e882]: We'll discuss your specific needs during a discovery call and we will provide a tailored proposal to match your project needs.
+                - paragraph [ref=f24e883]:
+                  - text: Afterwards, we just need a signed contract proposal and the initial project deposit payment. That’s all. We make onboarding fast so we can get to work ASAP. Ready to get started?
+                  - link "Book a call with Huy" [ref=f24e884] [cursor=pointer]:
+                    - /url: https://cal.com/byhuy/project-intro-call?duration=45
+            - listitem [ref=f24e885]:
+              - button [ref=f24e886] [cursor=pointer]:
+                - heading "What happens after launch?" [level=3] [ref=f24e887]
+              - generic [ref=f24e890]:
+                - paragraph [ref=f24e891]: We provide 90 days of hands-on support to make sure everything runs smoothly and your brand is set to steal the spotlight. You’ll also get tailored documentation and CMS training videos so non-technical team members can update the site with ease.
+                - paragraph [ref=f24e892]: After that, you’re fully equipped to manage things in-house, and if you ever want ongoing support, we offer care plans tailored to your needs.
+            - listitem [ref=f24e893]:
+              - button [ref=f24e894] [cursor=pointer]:
+                - heading "Can you handle branding, design and development?" [level=3] [ref=f24e895]
+              - generic [ref=f24e898]:
+                - paragraph [ref=f24e899]: Absolutely. Our specialty is delivering all three under one roof and focus on what matters most to you and your business.
+                - paragraph [ref=f24e900]: Whether you’re a team of 10 or a brand operating in 50 countries, your narrative, identity, visuals, and functionality are aligned from day one, creating a cohesive final experience.
+            - listitem [ref=f24e901]:
+              - button [ref=f24e902] [cursor=pointer]:
+                - heading "What is the project investment?" [level=3] [ref=f24e903]
+              - paragraph [ref=f24e907]: Project investment starts from $15k USD with most projects ranging from $25k - $50k depending on scope and project complexity.
+        - generic [ref=f24e908]:
+          - img "A headshot of Huy" [ref=f24e909]
+          - paragraph [ref=f24e910]: Got more questions? Chat with Huy.
+          - link "Book a call with Huy" [ref=f24e911] [cursor=pointer]:
+            - /url: https://cal.com/byhuy/project-intro-call
+      - generic [ref=f24e920]:
+        - generic [ref=f24e921]:
+          - generic [ref=f24e923]:
+            - heading "Ready to build an experience that moves people?" [level=2] [ref=f24e924]
+            - generic [ref=f24e925]:
+              - generic [ref=f24e926]: Let's build
+              - generic [ref=f24e927]: an experience
+              - generic [ref=f24e928]: That moves
+              - generic [ref=f24e929]:
+                - generic [ref=f24e930]: →
+                - generic [ref=f24e931]: People
+            - link "Tell us your story" [ref=f24e932] [cursor=pointer]:
+              - /url: https://cal.com/byhuy/project-intro-call
+          - generic [ref=f24e943]:
+            - blockquote [ref=f24e1126]: “A passionate team who listens deeply, collaborates openly, and always delivers with care. ”
+            - generic [ref=f24e1127]: "- University of Sydney"
+        - generic:
+          - img "A black and white image of the founder of the studio, Huy, working at the desk."
+      - generic [ref=f24e1128]:
+        - generic [ref=f24e1129]:
+          - generic [ref=f24e1130]:
+            - navigation [ref=f24e1132]:
+              - list [ref=f24e1133]:
+                - listitem [ref=f24e1134]:
+                  - button "About →" [ref=f24e1135] [cursor=pointer]:
+                    - generic [ref=f24e1136]: About
+                    - generic [ref=f24e1137]: →
+                - listitem [ref=f24e1138]:
+                  - link "Work →" [ref=f24e1139] [cursor=pointer]:
+                    - /url: /work
+                    - generic [ref=f24e1140]: Work
+                    - generic [ref=f24e1141]: →
+                - listitem [ref=f24e1142]:
+                  - link "Process →" [ref=f24e1143] [cursor=pointer]:
+                    - /url: "#process"
+                    - generic [ref=f24e1144]: Process
+                    - generic [ref=f24e1145]: →
+                - listitem [ref=f24e1146]:
+                  - link "Services →" [ref=f24e1147] [cursor=pointer]:
+                    - /url: "#services"
+                    - generic [ref=f24e1148]: Services
+                    - generic [ref=f24e1149]: →
+                - listitem [ref=f24e1150]:
+                  - link "Resources →" [ref=f24e1151] [cursor=pointer]:
+                    - /url: https://byhuy.gumroad.com/
+                    - generic [ref=f24e1152]: Resources
+                    - generic [ref=f24e1153]: →
+                - listitem [ref=f24e1154]:
+                  - link "Contact →" [ref=f24e1155] [cursor=pointer]:
+                    - /url: https://cal.com/byhuy/project-intro-call
+                    - generic [ref=f24e1156]: Contact
+                    - generic [ref=f24e1157]: →
+            - generic [ref=f24e1158]:
+              - generic [ref=f24e1159]:
+                - generic [ref=f24e1160]: (STUDIO DETAILS)
+                - generic [ref=f24e1161]:
+                  - link "Webflow certified partner page" [ref=f24e1162] [cursor=pointer]:
+                    - /url: https://webflow.com/@byhuy
+                  - link "⮡ hello@bymonolog.com" [ref=f24e1168] [cursor=pointer]:
+                    - /url: mailto:hello@bymonolog.com?subject=Coming%20from%20your%20website%3A%20%5BSubject%5D
+                  - generic [ref=f24e1170]: Based in Hanoi City, Vietnam and Melbourne, AustraliaWorking Worldwide.
+              - generic [ref=f24e1171]:
+                - generic [ref=f24e1172]: (socials)
+                - navigation [ref=f24e1173]:
+                  - list [ref=f24e1174]:
+                    - listitem [ref=f24e1175]:
+                      - link "YouTube ↗" [ref=f24e1176] [cursor=pointer]:
+                        - /url: https://www.youtube.com/@by_huy
+                    - listitem [ref=f24e1178]:
+                      - link "Linkedin ↗" [ref=f24e1179] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/byhuy/
+                    - listitem [ref=f24e1181]:
+                      - link "Instagram ↗" [ref=f24e1182] [cursor=pointer]:
+                        - /url: https://www.instagram.com/by_huy/
+              - generic [ref=f24e1184]:
+                - generic [ref=f24e1185]: (ASK ai About MONOLOG)
+                - generic [ref=f24e1186]:
+                  - link "Ask Claude about MONOLOG" [ref=f24e1187] [cursor=pointer]:
+                    - /url: https://claude.ai/new?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point.
+                  - link "Ask Gemini about MONOLOG" [ref=f24e1189] [cursor=pointer]:
+                    - /url: https://www.google.com/search?udm=50&aep=11&q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point.
+                  - link "Ask ChatGPT about MONOLOG" [ref=f24e1191] [cursor=pointer]:
+                    - /url: https://chat.openai.com/?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point.
+                  - link "Ask Grok about MONOLOG" [ref=f24e1193] [cursor=pointer]:
+                    - /url: https://x.com/i/grok?text=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point.
+                  - link "Ask Perplexity about MONOLOG" [ref=f24e1195] [cursor=pointer]:
+                    - /url: https://www.perplexity.ai/search/new?q=I%20lead%20an%20established%20business%20whose%20presence%20hasn't%20caught%20up%20to%20what%20we've%20built.%20Evaluate%20MONOLOG%20(bymonolog.com)%20and%20the%20founder%20Huy%20as%20a%20potential%20partner%20%E2%80%94%20their%20positioning%2C%20results%2C%20who%20they%20genuinely%20serve%2C%20and%20whether%20they'd%20be%20the%20right%20fit%20for%20a%20founder-led%20business%20at%20an%20inflection%20point.
+          - generic [ref=f24e1198]:
+            - generic [ref=f24e1200]:
+              - generic [ref=f24e1201]:
+                - generic [ref=f24e1202]: Hanoi City
+                - generic [ref=f24e1203]:
+                  - text: "08"
+                  - generic [ref=f24e1204]: ":"
+                  - text: "05"
+                  - generic [ref=f24e1205]: ":"
+                  - text: "50"
+                  - generic [ref=f24e1206]: PM
+              - generic [ref=f24e1207]: Monday, Sep 7, 2026 (GMT +07)
+            - generic [ref=f24e1209]:
+              - button "Back to top ↑" [ref=f24e1210] [cursor=pointer]:
+                - generic [ref=f24e1211]: Back to top
+                - generic [ref=f24e1212]: ↑
+              - generic [ref=f24e1213]: Booking projects for Q3 ‘2026
+            - generic [ref=f24e1214]:
+              - generic [ref=f24e1215]: ©
+              - generic [ref=f24e1216]: "2026"
+              - generic [ref=f24e1217]: MONOLOG Studio
+        - generic [ref=f24e1218]: 『Refuse to be underestimated. 』

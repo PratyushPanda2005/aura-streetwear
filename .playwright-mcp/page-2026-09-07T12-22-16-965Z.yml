@@ -1,0 +1,1173 @@
+- generic [active] [ref=f7e1]:
+  - generic [aria-hidden] [ref=f7e2]:
+    - heading [level=5] [ref=f7e5]: A long time ago, in a browser far far away...
+    - paragraph [ref=f7e6]: A small disturbance in the data. We use cookies to understand how the site performs — nothing sinister, no dark side stuff.
+    - generic [ref=f7e7]:
+      - paragraph [ref=f7e10] [cursor=pointer]: May the cookies be with you
+      - paragraph [ref=f7e14] [cursor=pointer]: I'll pass, thanks
+  - paragraph [ref=f7e28]: Branding company
+  - generic [ref=f7e29]:
+    - generic [aria-hidden]:
+      - generic: "["
+      - text: scroll down
+      - generic: "]"
+    - generic [ref=f7e30]:
+      - banner:
+        - navigation [ref=f7e31]:
+          - generic [ref=f7e33]:
+            - link [ref=f7e36] [cursor=pointer]:
+              - /url: /work
+              - generic [ref=f7e37]:
+                - generic:
+                  - generic: "["
+                  - generic:
+                    - generic: WORK
+                    - generic: WORK
+                  - generic: "]"
+            - link [ref=f7e40] [cursor=pointer]:
+              - /url: /studio
+              - generic [ref=f7e41]:
+                - generic:
+                  - generic: "["
+                  - generic:
+                    - generic: STUDIO
+                    - generic: STUDIO
+                  - generic: "]"
+            - link [ref=f7e44] [cursor=pointer]:
+              - /url: /lab
+              - generic [ref=f7e45]:
+                - generic:
+                  - generic: "["
+                  - generic:
+                    - generic: LAB
+                    - generic: LAB
+                  - generic: "]"
+            - link [ref=f7e48] [cursor=pointer]:
+              - /url: /contact
+              - generic [ref=f7e49]:
+                - generic:
+                  - generic: "["
+                  - generic:
+                    - generic: CONTACT
+                    - generic: CONTACT
+                  - generic: "]"
+        - generic [ref=f7e50]:
+          - generic [ref=f7e52] [cursor=pointer]:
+            - generic:
+              - generic: "["
+              - generic:
+                - generic:
+                  - generic:
+                    - text: CLOSE
+                    - generic: X
+                - generic:
+                  - generic:
+                    - text: CLOSE
+                    - generic: X
+              - generic: "]"
+          - generic [ref=f7e53]:
+            - generic [ref=f7e55]:
+              - navigation [ref=f7e56]:
+                - link "W o r k W o r k" [ref=f7e57] [cursor=pointer]:
+                  - /url: /work
+                  - generic [ref=f7e59]:
+                    - generic [ref=f7e60]:
+                      - generic [ref=f7e61]: W
+                      - generic [ref=f7e62]: o
+                      - generic [ref=f7e63]: r
+                      - generic [ref=f7e64]: k
+                    - generic [ref=f7e65]:
+                      - generic [ref=f7e66]: W
+                      - generic [ref=f7e67]: o
+                      - generic [ref=f7e68]: r
+                      - generic [ref=f7e69]: k
+                - link "S t u d i o S t u d i o" [ref=f7e70] [cursor=pointer]:
+                  - /url: /studio
+                  - generic [ref=f7e72]:
+                    - generic [ref=f7e73]:
+                      - generic [ref=f7e74]: S
+                      - generic [ref=f7e75]: t
+                      - generic [ref=f7e76]: u
+                      - generic [ref=f7e77]: d
+                      - generic [ref=f7e78]: i
+                      - generic [ref=f7e79]: o
+                    - generic [ref=f7e80]:
+                      - generic [ref=f7e81]: S
+                      - generic [ref=f7e82]: t
+                      - generic [ref=f7e83]: u
+                      - generic [ref=f7e84]: d
+                      - generic [ref=f7e85]: i
+                      - generic [ref=f7e86]: o
+                - link "L a b L a b" [ref=f7e87] [cursor=pointer]:
+                  - /url: /lab
+                  - generic [ref=f7e89]:
+                    - generic [ref=f7e90]:
+                      - generic [ref=f7e91]: L
+                      - generic [ref=f7e92]: a
+                      - generic [ref=f7e93]: b
+                    - generic [ref=f7e94]:
+                      - generic [ref=f7e95]: L
+                      - generic [ref=f7e96]: a
+                      - generic [ref=f7e97]: b
+                - link "C o n t a c t C o n t a c t" [ref=f7e98] [cursor=pointer]:
+                  - /url: /contact
+                  - generic [ref=f7e100]:
+                    - generic [ref=f7e101]:
+                      - generic [ref=f7e102]: C
+                      - generic [ref=f7e103]: o
+                      - generic [ref=f7e104]: "n"
+                      - generic [ref=f7e105]: t
+                      - generic [ref=f7e106]: a
+                      - generic [ref=f7e107]: c
+                      - generic [ref=f7e108]: t
+                    - generic [ref=f7e109]:
+                      - generic [ref=f7e110]: C
+                      - generic [ref=f7e111]: o
+                      - generic [ref=f7e112]: "n"
+                      - generic [ref=f7e113]: t
+                      - generic [ref=f7e114]: a
+                      - generic [ref=f7e115]: c
+                      - generic [ref=f7e116]: t
+              - generic [ref=f7e117]:
+                - generic [ref=f7e118]:
+                  - link [ref=f7e119] [cursor=pointer]:
+                    - /url: https://www.cooldesignshit.com/
+                    - generic [ref=f7e120]:
+                      - img "Featured Merch"
+                  - generic [ref=f7e121]:
+                    - generic [ref=f7e122]: Cool
+                    - generic [ref=f7e124]: Design
+                    - generic [ref=f7e126]: Sh*t
+                  - generic [ref=f7e128]:
+                    - generic [ref=f7e129]: Merch
+                    - generic [ref=f7e131]: store
+                    - generic [ref=f7e133]: for
+                    - generic [ref=f7e135]: real
+                    - generic [ref=f7e137]: design
+                    - generic [ref=f7e139]: geeks.
+                - generic [ref=f7e141]:
+                  - generic [ref=f7e142]:
+                    - textbox "EMAIL" [ref=f7e144]
+                    - generic [ref=f7e145] [cursor=pointer]
+                  - generic [ref=f7e149]:
+                    - generic [ref=f7e150]: Receive
+                    - generic [ref=f7e152]: occasional
+                    - generic [ref=f7e154]: insights
+                    - generic [ref=f7e156]: "on"
+                    - generic [ref=f7e158]: brand
+                    - generic [ref=f7e160]: identity
+                    - generic [ref=f7e162]: and
+                    - generic [ref=f7e164]: taste.
+                  - generic [ref=f7e166]:
+                    - link [ref=f7e167] [cursor=pointer]:
+                      - /url: https://x.com/produx_design
+                    - link [ref=f7e172] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/produxdesign
+                    - link [ref=f7e177] [cursor=pointer]:
+                      - /url: https://www.instagram.com/socoloff_alex/
+            - generic [ref=f7e182]:
+              - generic [ref=f7e183]:
+                - link [ref=f7e184] [cursor=pointer]:
+                  - /url: /privacy-policy
+                  - paragraph [ref=f7e187]: Privacy policy
+                - link [ref=f7e188] [cursor=pointer]:
+                  - /url: /support
+                  - paragraph [ref=f7e191]: Support
+              - paragraph [ref=f7e192]: © 2026 PRODUX STUDIOS LLC. All rights reserved.
+      - generic [ref=f7e207]:
+        - main [ref=f7e209]:
+          - generic [ref=f7e211]:
+            - generic:
+              - generic:
+                - heading "You feel the brand before it speaks®" [level=1]:
+                  - generic: You
+                  - generic: feel
+                  - generic: the
+                  - generic: brand
+                  - generic: before
+                  - generic: it
+                  - generic: speaks®
+                - paragraph:
+                  - generic:
+                    - generic:
+                      - generic [aria-hidden]: Produx builds brand identities for
+                      - generic: Produx builds brand identities for
+                    - generic:
+                      - generic [aria-hidden]: companies that care how things feel
+                      - generic: companies that care how things feel
+                    - generic:
+                      - generic [aria-hidden]: and how they are perceived over time.
+                      - generic: and how they are perceived over time.
+          - generic [ref=f7e245]:
+            - link [ref=f7e250] [cursor=pointer]:
+              - /url: /work
+              - paragraph [ref=f7e253]: view all works
+            - generic [ref=f7e255]:
+              - generic [ref=f7e256]:
+                - generic [ref=f7e257] [cursor=pointer]:
+                  - generic [ref=f7e258]:
+                    - generic:
+                      - generic: creative direction
+                      - generic: visual identity
+                      - generic: motion
+                      - generic: web design
+                  - generic [ref=f7e261]:
+                    - generic [ref=f7e263]:
+                      - heading "Payy Network" [level=3] [ref=f7e264]:
+                        - generic [ref=f7e265]: Payy
+                        - generic [ref=f7e268]: Network
+                      - generic [ref=f7e271]:
+                        - generic [ref=f7e272]: Stablecoin
+                        - generic [ref=f7e275]: payments
+                        - generic [ref=f7e278]: that
+                        - generic [ref=f7e281]: feel
+                        - generic [ref=f7e284]: familiar,
+                        - generic [ref=f7e287]: not
+                        - generic [ref=f7e290]: foreign.
+                    - generic [ref=f7e295]:
+                      - generic [ref=f7e296]: V
+                      - generic [ref=f7e298]: i
+                      - generic [ref=f7e300]: e
+                      - generic [ref=f7e302]: w
+                      - generic [ref=f7e306]: P
+                      - generic [ref=f7e308]: r
+                      - generic [ref=f7e310]: o
+                      - generic [ref=f7e312]: j
+                      - generic [ref=f7e314]: e
+                      - generic [ref=f7e316]: c
+                      - generic [ref=f7e318]: t
+                - generic [ref=f7e320] [cursor=pointer]:
+                  - generic [ref=f7e321]:
+                    - generic:
+                      - generic: creative direction
+                      - generic: visual identity
+                      - generic: website
+                  - generic [ref=f7e324]:
+                    - generic [ref=f7e326]:
+                      - heading "Gather AI" [level=3] [ref=f7e327]:
+                        - generic [ref=f7e328]: Gather
+                        - generic [ref=f7e331]: AI
+                      - generic [ref=f7e334]:
+                        - generic [ref=f7e335]: first
+                        - generic [ref=f7e338]: telco
+                        - generic [ref=f7e341]: run
+                        - generic [ref=f7e344]: entirely
+                        - generic [ref=f7e347]: "on"
+                        - generic [ref=f7e350]: AI,
+                        - generic [ref=f7e353]: powering
+                        - generic [ref=f7e356]: hundreds
+                        - generic [ref=f7e359]: of
+                        - generic [ref=f7e362]: brands
+                        - generic [ref=f7e365]: from
+                        - generic [ref=f7e368]: one
+                        - generic [ref=f7e371]: intelligent
+                        - generic [ref=f7e374]: core
+                    - generic [ref=f7e379]:
+                      - generic [ref=f7e380]: V
+                      - generic [ref=f7e382]: i
+                      - generic [ref=f7e384]: e
+                      - generic [ref=f7e386]: w
+                      - generic [ref=f7e390]: P
+                      - generic [ref=f7e392]: r
+                      - generic [ref=f7e394]: o
+                      - generic [ref=f7e396]: j
+                      - generic [ref=f7e398]: e
+                      - generic [ref=f7e400]: c
+                      - generic [ref=f7e402]: t
+              - generic [ref=f7e405] [cursor=pointer]:
+                - generic [ref=f7e406]:
+                  - generic:
+                    - generic: creative direction
+                    - generic: visual identity
+                    - generic: motion
+                    - generic: website
+                - generic [ref=f7e409]:
+                  - generic [ref=f7e411]:
+                    - heading "Jurni AI" [level=3] [ref=f7e412]:
+                      - generic [ref=f7e413]: Jurni
+                      - generic [ref=f7e416]: AI
+                    - generic [ref=f7e419]:
+                      - generic [ref=f7e420]: Jurni
+                      - generic [ref=f7e423]: is
+                      - generic [ref=f7e426]: an
+                      - generic [ref=f7e429]: AI
+                      - generic [ref=f7e432]: funnel
+                      - generic [ref=f7e435]: engine
+                      - generic [ref=f7e438]: that
+                      - generic [ref=f7e441]: turns
+                      - generic [ref=f7e444]: a
+                      - generic [ref=f7e447]: prompt
+                      - generic [ref=f7e450]: into
+                      - generic [ref=f7e453]: a
+                      - generic [ref=f7e456]: live,
+                      - generic [ref=f7e459]: high-converting
+                      - generic [ref=f7e462]: landing
+                      - generic [ref=f7e465]: experience
+                      - generic [ref=f7e468]: in
+                      - generic [ref=f7e471]: minutes.
+                  - generic [ref=f7e476]:
+                    - generic [ref=f7e477]: V
+                    - generic [ref=f7e479]: i
+                    - generic [ref=f7e481]: e
+                    - generic [ref=f7e483]: w
+                    - generic [ref=f7e487]: P
+                    - generic [ref=f7e489]: r
+                    - generic [ref=f7e491]: o
+                    - generic [ref=f7e493]: j
+                    - generic [ref=f7e495]: e
+                    - generic [ref=f7e497]: c
+                    - generic [ref=f7e499]: t
+              - generic [ref=f7e501]:
+                - generic [ref=f7e502] [cursor=pointer]:
+                  - generic [ref=f7e503]:
+                    - generic:
+                      - generic: creative direction
+                      - generic: visual identity
+                      - generic: motion
+                  - generic [ref=f7e506]:
+                    - generic [ref=f7e508]:
+                      - heading "Parker AI" [level=3] [ref=f7e509]:
+                        - generic [ref=f7e510]: Parker
+                        - generic [ref=f7e513]: AI
+                      - generic [ref=f7e516]:
+                        - generic [ref=f7e517]: Parker
+                        - generic [ref=f7e520]: is
+                        - generic [ref=f7e523]: an
+                        - generic [ref=f7e526]: AI
+                        - generic [ref=f7e529]: creative
+                        - generic [ref=f7e532]: strategist
+                        - generic [ref=f7e535]: that
+                        - generic [ref=f7e538]: thinks,
+                        - generic [ref=f7e541]: researches,
+                        - generic [ref=f7e544]: and
+                        - generic [ref=f7e547]: structures
+                        - generic [ref=f7e550]: work
+                        - generic [ref=f7e553]: like
+                        - generic [ref=f7e556]: a
+                        - generic [ref=f7e559]: senior
+                        - generic [ref=f7e562]: partner.
+                        - generic [ref=f7e565]: Clear
+                        - generic [ref=f7e568]: briefs,
+                        - generic [ref=f7e571]: sharp
+                        - generic [ref=f7e574]: angles,
+                        - generic [ref=f7e577]: and
+                        - generic [ref=f7e580]: sourced
+                        - generic [ref=f7e583]: notes
+                        - generic [ref=f7e586]: inside
+                        - generic [ref=f7e589]: Slack
+                    - generic [ref=f7e594]:
+                      - generic [ref=f7e595]: V
+                      - generic [ref=f7e597]: i
+                      - generic [ref=f7e599]: e
+                      - generic [ref=f7e601]: w
+                      - generic [ref=f7e605]: P
+                      - generic [ref=f7e607]: r
+                      - generic [ref=f7e609]: o
+                      - generic [ref=f7e611]: j
+                      - generic [ref=f7e613]: e
+                      - generic [ref=f7e615]: c
+                      - generic [ref=f7e617]: t
+                - generic [ref=f7e619] [cursor=pointer]:
+                  - generic [ref=f7e620]:
+                    - generic:
+                      - generic: creative direction
+                      - generic: visual identity
+                      - generic: motion
+                      - generic: website
+                  - generic [ref=f7e623]:
+                    - generic [ref=f7e625]:
+                      - heading "Nolana AI" [level=3] [ref=f7e626]:
+                        - generic [ref=f7e627]: Nolana
+                        - generic [ref=f7e630]: AI
+                      - generic [ref=f7e633]:
+                        - generic [ref=f7e634]: AI-native
+                        - generic [ref=f7e637]: agentic
+                        - generic [ref=f7e640]: OS
+                        - generic [ref=f7e646]: for
+                        - generic [ref=f7e649]: financial
+                        - generic [ref=f7e652]: services
+                        - generic [ref=f7e655]: operations
+                    - generic [ref=f7e660]:
+                      - generic [ref=f7e661]: V
+                      - generic [ref=f7e663]: i
+                      - generic [ref=f7e665]: e
+                      - generic [ref=f7e667]: w
+                      - generic [ref=f7e671]: P
+                      - generic [ref=f7e673]: r
+                      - generic [ref=f7e675]: o
+                      - generic [ref=f7e677]: j
+                      - generic [ref=f7e679]: e
+                      - generic [ref=f7e681]: c
+                      - generic [ref=f7e683]: t
+          - generic [ref=f7e685]:
+            - generic [ref=f7e690]:
+              - generic [ref=f7e692]:
+                - generic [ref=f7e693]:
+                  - generic [aria-hidden]: We intentionally limit our projects so each client
+                  - generic [ref=f7e694]: We intentionally limit our projects so each client
+                - generic [ref=f7e695]:
+                  - generic [aria-hidden]: receives our full attention, clear communication,
+                  - generic [ref=f7e696]: receives our full attention, clear communication,
+                - generic [ref=f7e697]:
+                  - generic [aria-hidden]: and consistent ownership of the work.
+                  - generic [ref=f7e698]: and consistent ownership of the work.
+              - link [ref=f7e699] [cursor=pointer]:
+                - /url: /contact
+                - paragraph [ref=f7e702]: LET'S TALK
+            - generic [ref=f7e705]:
+              - generic [ref=f7e707]:
+                - img "Partner Logo"
+              - generic [ref=f7e709]:
+                - img "Partner Logo"
+              - generic [ref=f7e711]:
+                - img "Partner Logo"
+              - generic [ref=f7e713]:
+                - img "Partner Logo"
+              - generic [ref=f7e715]:
+                - img "Partner Logo"
+              - generic [ref=f7e717]:
+                - img "Partner Logo"
+              - generic [ref=f7e719]:
+                - img "Partner Logo"
+              - generic [ref=f7e721]:
+                - img "Partner Logo"
+              - generic [ref=f7e723]:
+                - img "Partner Logo"
+              - generic [ref=f7e725]:
+                - img "Partner Logo"
+              - generic [ref=f7e727]:
+                - img "Partner Logo"
+              - generic [ref=f7e729]:
+                - img "Partner Logo"
+              - generic [ref=f7e731]:
+                - img "Partner Logo"
+              - generic [ref=f7e733]:
+                - img "Partner Logo"
+              - generic [ref=f7e735]:
+                - img "Partner Logo"
+              - generic [ref=f7e737]:
+                - img "Partner Logo"
+              - generic [ref=f7e739]:
+                - img "Partner Logo"
+              - generic [ref=f7e741]:
+                - img "Partner Logo"
+              - generic [ref=f7e743]:
+                - img "Partner Logo"
+              - generic [ref=f7e745]:
+                - img "Partner Logo"
+              - generic [ref=f7e747]:
+                - img "Partner Logo"
+              - generic [ref=f7e749]:
+                - img "Partner Logo"
+              - generic [ref=f7e751]:
+                - img "Partner Logo"
+              - generic [ref=f7e753]:
+                - img "Partner Logo"
+          - generic [ref=f7e759]:
+            - generic [ref=f7e761] [cursor=pointer]:
+              - heading "Brand Strategy and Identity" [level=4] [ref=f7e762]
+              - paragraph [ref=f7e764]: "01"
+            - generic [ref=f7e766] [cursor=pointer]:
+              - heading "Web Design and Development" [level=4] [ref=f7e767]
+              - paragraph [ref=f7e769]: "02"
+            - generic [ref=f7e771] [cursor=pointer]:
+              - heading "Product UX/UI Design" [level=4] [ref=f7e772]
+              - paragraph [ref=f7e774]: "03"
+            - generic [ref=f7e776] [cursor=pointer]:
+              - heading "Motion Design and Content" [level=4] [ref=f7e777]
+              - paragraph [ref=f7e779]: "04"
+          - generic [ref=f7e780]:
+            - generic [ref=f7e783]:
+              - heading "In 14 days, we shape a complete brand identity that moves with confidence." [level=2] [ref=f7e785]:
+                - generic [ref=f7e786]:
+                  - generic [ref=f7e787]: In
+                  - generic [ref=f7e789]: "14"
+                  - generic [ref=f7e791]: days,
+                  - generic [ref=f7e793]: we
+                  - generic [ref=f7e795]: shape
+                  - generic [ref=f7e797]: a
+                - generic [ref=f7e799]:
+                  - generic [ref=f7e800]: complete
+                  - generic [ref=f7e802]: brand
+                  - generic [ref=f7e804]: identity
+                - generic [ref=f7e806]:
+                  - generic [ref=f7e807]: that
+                  - generic [ref=f7e809]: moves
+                  - generic [ref=f7e811]: with
+                - generic [ref=f7e813]: confidence.
+              - generic [ref=f7e817]:
+                - generic [ref=f7e818]: Stand
+                - generic [ref=f7e820]: out
+                - generic [ref=f7e822]: and
+                - generic [ref=f7e824]: earn
+                - generic [ref=f7e826]: trust
+              - generic [ref=f7e833]:
+                - generic [ref=f7e834]: Brand
+                - generic [ref=f7e836]: Identity
+                - generic [ref=f7e838]: in
+                - generic [ref=f7e840]: just
+                - generic [ref=f7e842]: "14"
+                - generic [ref=f7e844]: days
+              - generic [ref=f7e849]:
+                - generic [ref=f7e850]: Launch
+                - generic [ref=f7e852]: faster
+                - generic [ref=f7e854]: "&"
+                - generic [ref=f7e856]: save
+                - generic [ref=f7e858]: capital
+            - generic [ref=f7e862]:
+              - link [ref=f7e869] [cursor=pointer]:
+                - /url: https://www.google.com/search?sca_esv=8639ec9b40ab010a&sxsrf=ANbL-n7hwecaZv6TK39KiTxdHQfeEW3JhQ:1778157509790&q=google+reviews+produx&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOQMpmnWhtKt_TIJ9ZFNIV39r6WZfSgv9pcWsYkl2L6icls_RA0AzbAxpG6KtT6BfADMTJz0%3D&uds=ALYpb_lx5Hup9BUa31h6AkHudUb2sfYEnes1tT1RqBDEW8zdmjXAUWPJWxOZ7a4hI_xe6WxFgRDJJtlGodig3SnOqrwtts_7DWusmthyGiWhRXEOfjdCeu0&sa=X&ved=2ahUKEwiy8Ob1mKeUAxUnUaQEHaPmCdYQ3PALegQIQhAF&biw=2294&bih=1294&dpr=2
+                - paragraph [ref=f7e872]: read all reviews
+              - generic [ref=f7e1127] [cursor=pointer]:
+                - generic [ref=f7e1128]:
+                  - generic:
+                    - img "Jimmy Slage"
+                    - generic:
+                      - heading "Jimmy Slage" [level=4]
+                      - paragraph: Parker AI
+                  - paragraph: Alexandr is an artist. Absolutely brilliant. He's someone who loves the craft of design. His first message to me was "I don't want to do what every other AI company does. I want it to be unique."
+                - generic [ref=f7e1129]:
+                  - generic:
+                    - img "Ty Zamkow"
+                    - generic:
+                      - heading "Ty Zamkow" [level=4]
+                      - paragraph: Nolana AI
+                  - paragraph: Alexandr did an outstanding job on our logo! He's incredibly responsive, fully dedicated, and went above and beyond to ensure we achieved the perfect result.
+                - generic [ref=f7e1130]:
+                  - generic:
+                    - img "Nathan Graville"
+                    - generic:
+                      - heading "Nathan Graville" [level=4]
+                      - paragraph: Geviti
+                  - paragraph: Alex has been amazing. Only a month in, but Produx Design very active role in our operation already in terms of web, UI/UX, and eventual marketing.
+                - generic [ref=f7e1131]:
+                  - generic:
+                    - img "Delbert Ty"
+                    - generic:
+                      - heading "Delbert Ty" [level=4]
+                      - paragraph: Gather AI
+                  - paragraph: Great experience working together. The team went above expectations at every stage and brought strong thinking, taste, and attention to detail.
+                - generic [ref=f7e1132]:
+                  - generic:
+                    - img "Arianna Armelli"
+                    - generic:
+                      - heading "Arianna Armelli" [level=4]
+                      - paragraph: Dorothy Tech
+                  - paragraph: Produx brand sprint exceeded our expectations. They captured our vision perfectly, delivering a cohesive and impactful brand.
+                - generic [ref=f7e1133]:
+                  - generic:
+                    - img "Fawaz Buqammaz"
+                    - generic:
+                      - heading "Fawaz Buqammaz" [level=4]
+                      - paragraph: SOOR
+                  - paragraph: Honestly, we were given a better designs than we asked for, produx design is our trusted partner! LETS GROW TOGETHER!
+            - generic [ref=f7e1134]:
+              - heading "A A b b r r a a n n d d i i s s r r e e c c o o g g n n i i z z e e d d b b e e f f o o r r e e i i t t i i s s u u n n d d e e r r s s t t o o o o d d . . Y Y o o u u r r v v i i s s u u a a l l i i d d e e n n t t i i t t y y s s h h a a p p e e s s h h o o w w p p e e o o p p l l e e r r e e c c o o g g n n i i z z e e y y o o u u , , t t r r u u s s t t y y o o u u , , a a n n d d r r e e m m e e m m b b e e r r y y o o u u . . W W e e h h e e l l p p d d e e f f i i n n e e t t h h a a t t d d i i f f f f e e r r e e n n c c e e . ." [level=2] [ref=f7e1135]:
+                - generic [ref=f7e1136]:
+                  - generic [ref=f7e1140]:
+                    - generic [ref=f7e1141]: A
+                    - text: A
+                  - generic [ref=f7e1143]:
+                    - generic [ref=f7e1144]:
+                      - generic [ref=f7e1145]: b
+                      - text: b
+                    - generic [ref=f7e1146]:
+                      - generic [ref=f7e1147]: r
+                      - text: r
+                    - generic [ref=f7e1148]:
+                      - generic [ref=f7e1149]: a
+                      - text: a
+                    - generic [ref=f7e1150]:
+                      - generic [ref=f7e1151]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1152]:
+                      - generic [ref=f7e1153]: d
+                      - text: d
+                  - generic [ref=f7e1155]:
+                    - generic [ref=f7e1156]:
+                      - generic [ref=f7e1157]: i
+                      - text: i
+                    - generic [ref=f7e1158]:
+                      - generic [ref=f7e1159]: s
+                      - text: s
+                  - generic [ref=f7e1161]:
+                    - generic [ref=f7e1162]:
+                      - generic [ref=f7e1163]: r
+                      - text: r
+                    - generic [ref=f7e1164]:
+                      - generic [ref=f7e1165]: e
+                      - text: e
+                    - generic [ref=f7e1166]:
+                      - generic [ref=f7e1167]: c
+                      - text: c
+                    - generic [ref=f7e1168]:
+                      - generic [ref=f7e1169]: o
+                      - text: o
+                    - generic [ref=f7e1170]:
+                      - generic [ref=f7e1171]: g
+                      - text: g
+                    - generic [ref=f7e1172]:
+                      - generic [ref=f7e1173]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1174]:
+                      - generic [ref=f7e1175]: i
+                      - text: i
+                    - generic [ref=f7e1176]:
+                      - generic [ref=f7e1177]: z
+                      - text: z
+                    - generic [ref=f7e1178]:
+                      - generic [ref=f7e1179]: e
+                      - text: e
+                    - generic [ref=f7e1180]:
+                      - generic [ref=f7e1181]: d
+                      - text: d
+                  - generic [ref=f7e1183]:
+                    - generic [ref=f7e1184]:
+                      - generic [ref=f7e1185]: b
+                      - text: b
+                    - generic [ref=f7e1186]:
+                      - generic [ref=f7e1187]: e
+                      - text: e
+                    - generic [ref=f7e1188]:
+                      - generic [ref=f7e1189]: f
+                      - text: f
+                    - generic [ref=f7e1190]:
+                      - generic [ref=f7e1191]: o
+                      - text: o
+                    - generic [ref=f7e1192]:
+                      - generic [ref=f7e1193]: r
+                      - text: r
+                    - generic [ref=f7e1194]:
+                      - generic [ref=f7e1195]: e
+                      - text: e
+                  - generic [ref=f7e1197]:
+                    - generic [ref=f7e1198]:
+                      - generic [ref=f7e1199]: i
+                      - text: i
+                    - generic [ref=f7e1200]:
+                      - generic [ref=f7e1201]: t
+                      - text: t
+                  - generic [ref=f7e1203]:
+                    - generic [ref=f7e1204]:
+                      - generic [ref=f7e1205]: i
+                      - text: i
+                    - generic [ref=f7e1206]:
+                      - generic [ref=f7e1207]: s
+                      - text: s
+                  - generic [ref=f7e1209]:
+                    - generic [ref=f7e1210]:
+                      - generic [ref=f7e1211]: u
+                      - text: u
+                    - generic [ref=f7e1212]:
+                      - generic [ref=f7e1213]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1214]:
+                      - generic [ref=f7e1215]: d
+                      - text: d
+                    - generic [ref=f7e1216]:
+                      - generic [ref=f7e1217]: e
+                      - text: e
+                    - generic [ref=f7e1218]:
+                      - generic [ref=f7e1219]: r
+                      - text: r
+                    - generic [ref=f7e1220]:
+                      - generic [ref=f7e1221]: s
+                      - text: s
+                    - generic [ref=f7e1222]:
+                      - generic [ref=f7e1223]: t
+                      - text: t
+                    - generic [ref=f7e1224]:
+                      - generic [ref=f7e1225]: o
+                      - text: o
+                    - generic [ref=f7e1226]:
+                      - generic [ref=f7e1227]: o
+                      - text: o
+                    - generic [ref=f7e1228]:
+                      - generic [ref=f7e1229]: d
+                      - text: d
+                    - generic [ref=f7e1230]:
+                      - generic [ref=f7e1231]: .
+                      - text: .
+                  - generic [ref=f7e1233]:
+                    - generic [ref=f7e1234]:
+                      - generic [ref=f7e1235]: "Y"
+                      - text: "Y"
+                    - generic [ref=f7e1236]:
+                      - generic [ref=f7e1237]: o
+                      - text: o
+                    - generic [ref=f7e1238]:
+                      - generic [ref=f7e1239]: u
+                      - text: u
+                    - generic [ref=f7e1240]:
+                      - generic [ref=f7e1241]: r
+                      - text: r
+                  - generic [ref=f7e1243]:
+                    - generic [ref=f7e1244]:
+                      - generic [ref=f7e1245]: v
+                      - text: v
+                    - generic [ref=f7e1246]:
+                      - generic [ref=f7e1247]: i
+                      - text: i
+                    - generic [ref=f7e1248]:
+                      - generic [ref=f7e1249]: s
+                      - text: s
+                    - generic [ref=f7e1250]:
+                      - generic [ref=f7e1251]: u
+                      - text: u
+                    - generic [ref=f7e1252]:
+                      - generic [ref=f7e1253]: a
+                      - text: a
+                    - generic [ref=f7e1254]:
+                      - generic [ref=f7e1255]: l
+                      - text: l
+                  - generic [ref=f7e1257]:
+                    - generic [ref=f7e1258]:
+                      - generic [ref=f7e1259]: i
+                      - text: i
+                    - generic [ref=f7e1260]:
+                      - generic [ref=f7e1261]: d
+                      - text: d
+                    - generic [ref=f7e1262]:
+                      - generic [ref=f7e1263]: e
+                      - text: e
+                    - generic [ref=f7e1264]:
+                      - generic [ref=f7e1265]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1266]:
+                      - generic [ref=f7e1267]: t
+                      - text: t
+                    - generic [ref=f7e1268]:
+                      - generic [ref=f7e1269]: i
+                      - text: i
+                    - generic [ref=f7e1270]:
+                      - generic [ref=f7e1271]: t
+                      - text: t
+                    - generic [ref=f7e1272]:
+                      - generic [ref=f7e1273]: "y"
+                      - text: "y"
+                  - generic [ref=f7e1275]:
+                    - generic [ref=f7e1276]:
+                      - generic [ref=f7e1277]: s
+                      - text: s
+                    - generic [ref=f7e1278]:
+                      - generic [ref=f7e1279]: h
+                      - text: h
+                    - generic [ref=f7e1280]:
+                      - generic [ref=f7e1281]: a
+                      - text: a
+                    - generic [ref=f7e1282]:
+                      - generic [ref=f7e1283]: p
+                      - text: p
+                    - generic [ref=f7e1284]:
+                      - generic [ref=f7e1285]: e
+                      - text: e
+                    - generic [ref=f7e1286]:
+                      - generic [ref=f7e1287]: s
+                      - text: s
+                  - generic [ref=f7e1289]:
+                    - generic [ref=f7e1290]:
+                      - generic [ref=f7e1291]: h
+                      - text: h
+                    - generic [ref=f7e1292]:
+                      - generic [ref=f7e1293]: o
+                      - text: o
+                    - generic [ref=f7e1294]:
+                      - generic [ref=f7e1295]: w
+                      - text: w
+                  - generic [ref=f7e1297]:
+                    - generic [ref=f7e1298]:
+                      - generic [ref=f7e1299]: p
+                      - text: p
+                    - generic [ref=f7e1300]:
+                      - generic [ref=f7e1301]: e
+                      - text: e
+                    - generic [ref=f7e1302]:
+                      - generic [ref=f7e1303]: o
+                      - text: o
+                    - generic [ref=f7e1304]:
+                      - generic [ref=f7e1305]: p
+                      - text: p
+                    - generic [ref=f7e1306]:
+                      - generic [ref=f7e1307]: l
+                      - text: l
+                    - generic [ref=f7e1308]:
+                      - generic [ref=f7e1309]: e
+                      - text: e
+                  - generic [ref=f7e1311]:
+                    - generic [ref=f7e1312]:
+                      - generic [ref=f7e1313]: r
+                      - text: r
+                    - generic [ref=f7e1314]:
+                      - generic [ref=f7e1315]: e
+                      - text: e
+                    - generic [ref=f7e1316]:
+                      - generic [ref=f7e1317]: c
+                      - text: c
+                    - generic [ref=f7e1318]:
+                      - generic [ref=f7e1319]: o
+                      - text: o
+                    - generic [ref=f7e1320]:
+                      - generic [ref=f7e1321]: g
+                      - text: g
+                    - generic [ref=f7e1322]:
+                      - generic [ref=f7e1323]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1324]:
+                      - generic [ref=f7e1325]: i
+                      - text: i
+                    - generic [ref=f7e1326]:
+                      - generic [ref=f7e1327]: z
+                      - text: z
+                    - generic [ref=f7e1328]:
+                      - generic [ref=f7e1329]: e
+                      - text: e
+                  - generic [ref=f7e1331]:
+                    - generic [ref=f7e1332]:
+                      - generic [ref=f7e1333]: "y"
+                      - text: "y"
+                    - generic [ref=f7e1334]:
+                      - generic [ref=f7e1335]: o
+                      - text: o
+                    - generic [ref=f7e1336]:
+                      - generic [ref=f7e1337]: u
+                      - text: u
+                    - generic [ref=f7e1338]:
+                      - generic [ref=f7e1339]: ","
+                      - text: ","
+                  - generic [ref=f7e1341]:
+                    - generic [ref=f7e1342]:
+                      - generic [ref=f7e1343]: t
+                      - text: t
+                    - generic [ref=f7e1344]:
+                      - generic [ref=f7e1345]: r
+                      - text: r
+                    - generic [ref=f7e1346]:
+                      - generic [ref=f7e1347]: u
+                      - text: u
+                    - generic [ref=f7e1348]:
+                      - generic [ref=f7e1349]: s
+                      - text: s
+                    - generic [ref=f7e1350]:
+                      - generic [ref=f7e1351]: t
+                      - text: t
+                  - generic [ref=f7e1353]:
+                    - generic [ref=f7e1354]:
+                      - generic [ref=f7e1355]: "y"
+                      - text: "y"
+                    - generic [ref=f7e1356]:
+                      - generic [ref=f7e1357]: o
+                      - text: o
+                    - generic [ref=f7e1358]:
+                      - generic [ref=f7e1359]: u
+                      - text: u
+                    - generic [ref=f7e1360]:
+                      - generic [ref=f7e1361]: ","
+                      - text: ","
+                  - generic [ref=f7e1363]:
+                    - generic [ref=f7e1364]:
+                      - generic [ref=f7e1365]: a
+                      - text: a
+                    - generic [ref=f7e1366]:
+                      - generic [ref=f7e1367]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1368]:
+                      - generic [ref=f7e1369]: d
+                      - text: d
+                  - generic [ref=f7e1371]:
+                    - generic [ref=f7e1372]:
+                      - generic [ref=f7e1373]: r
+                      - text: r
+                    - generic [ref=f7e1374]:
+                      - generic [ref=f7e1375]: e
+                      - text: e
+                    - generic [ref=f7e1376]:
+                      - generic [ref=f7e1377]: m
+                      - text: m
+                    - generic [ref=f7e1378]:
+                      - generic [ref=f7e1379]: e
+                      - text: e
+                    - generic [ref=f7e1380]:
+                      - generic [ref=f7e1381]: m
+                      - text: m
+                    - generic [ref=f7e1382]:
+                      - generic [ref=f7e1383]: b
+                      - text: b
+                    - generic [ref=f7e1384]:
+                      - generic [ref=f7e1385]: e
+                      - text: e
+                    - generic [ref=f7e1386]:
+                      - generic [ref=f7e1387]: r
+                      - text: r
+                  - generic [ref=f7e1389]:
+                    - generic [ref=f7e1390]:
+                      - generic [ref=f7e1391]: "y"
+                      - text: "y"
+                    - generic [ref=f7e1392]:
+                      - generic [ref=f7e1393]: o
+                      - text: o
+                    - generic [ref=f7e1394]:
+                      - generic [ref=f7e1395]: u
+                      - text: u
+                    - generic [ref=f7e1396]:
+                      - generic [ref=f7e1397]: .
+                      - text: .
+                  - generic [ref=f7e1399]:
+                    - generic [ref=f7e1400]:
+                      - generic [ref=f7e1401]: W
+                      - text: W
+                    - generic [ref=f7e1402]:
+                      - generic [ref=f7e1403]: e
+                      - text: e
+                  - generic [ref=f7e1405]:
+                    - generic [ref=f7e1406]:
+                      - generic [ref=f7e1407]: h
+                      - text: h
+                    - generic [ref=f7e1408]:
+                      - generic [ref=f7e1409]: e
+                      - text: e
+                    - generic [ref=f7e1410]:
+                      - generic [ref=f7e1411]: l
+                      - text: l
+                    - generic [ref=f7e1412]:
+                      - generic [ref=f7e1413]: p
+                      - text: p
+                  - generic [ref=f7e1415]:
+                    - generic [ref=f7e1416]:
+                      - generic [ref=f7e1417]: d
+                      - text: d
+                    - generic [ref=f7e1418]:
+                      - generic [ref=f7e1419]: e
+                      - text: e
+                    - generic [ref=f7e1420]:
+                      - generic [ref=f7e1421]: f
+                      - text: f
+                    - generic [ref=f7e1422]:
+                      - generic [ref=f7e1423]: i
+                      - text: i
+                    - generic [ref=f7e1424]:
+                      - generic [ref=f7e1425]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1426]:
+                      - generic [ref=f7e1427]: e
+                      - text: e
+                  - generic [ref=f7e1429]:
+                    - generic [ref=f7e1430]:
+                      - generic [ref=f7e1431]: t
+                      - text: t
+                    - generic [ref=f7e1432]:
+                      - generic [ref=f7e1433]: h
+                      - text: h
+                    - generic [ref=f7e1434]:
+                      - generic [ref=f7e1435]: a
+                      - text: a
+                    - generic [ref=f7e1436]:
+                      - generic [ref=f7e1437]: t
+                      - text: t
+                  - generic [ref=f7e1439]:
+                    - generic [ref=f7e1440]:
+                      - generic [ref=f7e1441]: d
+                      - text: d
+                    - generic [ref=f7e1442]:
+                      - generic [ref=f7e1443]: i
+                      - text: i
+                    - generic [ref=f7e1444]:
+                      - generic [ref=f7e1445]: f
+                      - text: f
+                    - generic [ref=f7e1446]:
+                      - generic [ref=f7e1447]: f
+                      - text: f
+                    - generic [ref=f7e1448]:
+                      - generic [ref=f7e1449]: e
+                      - text: e
+                    - generic [ref=f7e1450]:
+                      - generic [ref=f7e1451]: r
+                      - text: r
+                    - generic [ref=f7e1452]:
+                      - generic [ref=f7e1453]: e
+                      - text: e
+                    - generic [ref=f7e1454]:
+                      - generic [ref=f7e1455]: "n"
+                      - text: "n"
+                    - generic [ref=f7e1456]:
+                      - generic [ref=f7e1457]: c
+                      - text: c
+                    - generic [ref=f7e1458]:
+                      - generic [ref=f7e1459]: e
+                      - text: e
+                    - generic [ref=f7e1460]:
+                      - generic [ref=f7e1461]: .
+                      - text: .
+              - generic [ref=f7e1462]:
+                - generic [ref=f7e1463] [cursor=pointer]:
+                  - link "Strategy matters" [ref=f7e1464]:
+                    - /url: /journal/brand-strategy-matters
+                  - generic [ref=f7e1465]: Branding
+                  - generic:
+                    - heading "Strategy matters" [level=4]:
+                      - generic: Strategy
+                      - generic: matters
+                    - generic:
+                      - generic: Why
+                      - generic: brand
+                      - generic: strategy
+                      - generic: is
+                      - generic: matters,
+                      - generic: and
+                      - generic: how
+                      - generic: to
+                      - generic: build
+                      - generic: one
+                    - generic:
+                      - generic:
+                        - paragraph: Read more
+                - generic [ref=f7e1468] [cursor=pointer]:
+                  - link "Alex Socoloff" [ref=f7e1469]:
+                    - /url: https://www.topinteractiveagencies.com/digital/agency/leaders/alexandr-socoloff-we-are-huge-believers-in-the-no-code-future/
+                  - generic [ref=f7e1470]: Press
+                  - generic:
+                    - heading "Alex Socoloff" [level=4]:
+                      - generic: Alex
+                      - generic: Socoloff
+                    - generic:
+                      - generic: Read
+                      - generic: a
+                      - generic: full
+                      - generic: interview
+                      - generic: with
+                      - generic: our
+                      - generic: founder
+                      - generic: and
+                      - generic: creative
+                      - generic: director
+                    - generic:
+                      - generic:
+                        - paragraph: Read more
+                - generic [ref=f7e1473] [cursor=pointer]:
+                  - link "Creative Development" [ref=f7e1474]:
+                    - /url: /journal/brand-strategy-matters
+                  - generic [ref=f7e1475]: Branding
+                  - generic:
+                    - heading "Creative Development" [level=4]:
+                      - generic: Creative
+                      - generic: Development
+                    - generic:
+                      - generic: Defining
+                      - generic: the
+                      - generic: new
+                      - generic: standard
+                      - generic: of
+                      - generic: interactive
+                      - generic: storytelling.
+                    - generic:
+                      - generic:
+                        - paragraph: Read more
+                - generic [ref=f7e1478] [cursor=pointer]:
+                  - link "Digital Flow" [ref=f7e1479]:
+                    - /url: /journal/brand-strategy-matters
+                  - generic [ref=f7e1480]: Branding
+                  - generic:
+                    - heading "Digital Flow" [level=4]:
+                      - generic: Digital
+                      - generic: Flow
+                    - generic:
+                      - generic: How
+                      - generic: motion
+                      - generic: defines
+                      - generic: the
+                      - generic: user
+                      - generic: experience
+                      - generic: of
+                      - generic: tomorrow
+                    - generic:
+                      - generic:
+                        - paragraph: Read more
+                - generic [ref=f7e1483] [cursor=pointer]:
+                  - link "Future Proof" [ref=f7e1484]:
+                    - /url: /journal/brand-strategy-matters
+                  - generic [ref=f7e1485]: Branding
+                  - generic:
+                    - heading "Future Proof" [level=4]:
+                      - generic: Future
+                      - generic: Proof
+                    - generic:
+                      - generic: Staying
+                      - generic: relevant
+                      - generic: in
+                      - generic: an
+                      - generic: ever-changing
+                      - generic: landscape
+                    - generic:
+                      - generic:
+                        - paragraph: Read more
+        - contentinfo [ref=f7e1488]:
+          - generic [ref=f7e1489]:
+            - generic [ref=f7e1490]:
+              - generic [ref=f7e1491]:
+                - heading "Menu/" [level=5] [ref=f7e1492]
+                - generic [ref=f7e1493]:
+                  - link [ref=f7e1494] [cursor=pointer]:
+                    - /url: /work
+                    - generic [ref=f7e1495]:
+                      - generic:
+                        - generic: "["
+                        - generic:
+                          - generic: Work
+                          - generic: Work
+                        - generic: "]"
+                  - link [ref=f7e1496] [cursor=pointer]:
+                    - /url: /studio
+                    - generic [ref=f7e1497]:
+                      - generic:
+                        - generic: "["
+                        - generic:
+                          - generic: Studio
+                          - generic: Studio
+                        - generic: "]"
+                  - link [ref=f7e1498] [cursor=pointer]:
+                    - /url: /journal
+                    - generic [ref=f7e1499]:
+                      - generic:
+                        - generic: "["
+                        - generic:
+                          - generic: Journal
+                          - generic: Journal
+                        - generic: "]"
+                  - link [ref=f7e1500] [cursor=pointer]:
+                    - /url: /contact
+                    - generic [ref=f7e1501]:
+                      - generic:
+                        - generic: "["
+                        - generic:
+                          - generic: Contact
+                          - generic: Contact
+                        - generic: "]"
+              - generic [ref=f7e1503]:
+                - heading "Headquarters/" [level=5] [ref=f7e1504]
+                - paragraph [ref=f7e1505]: Barcelona, Spain
+                - paragraph [ref=f7e1506]: Wyoming USA.
+              - generic [ref=f7e1507]:
+                - heading "Newsletter/" [level=5] [ref=f7e1508]
+                - generic [ref=f7e1509]:
+                  - textbox "EMAIL" [ref=f7e1511]
+                  - generic [ref=f7e1512] [cursor=pointer]
+                - paragraph [ref=f7e1516]: Receive occasional insights on brand identity and taste.
+              - generic [ref=f7e1517]:
+                - heading "socials/" [level=5] [ref=f7e1518]
+                - generic [ref=f7e1519]:
+                  - link [ref=f7e1520] [cursor=pointer]:
+                    - /url: https://x.com/produx_design
+                  - link [ref=f7e1525] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/produxdesign
+                  - link [ref=f7e1530] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=QDia3e12czc
+            - generic [ref=f7e1538]:
+              - generic [ref=f7e1539]:
+                - link [ref=f7e1540] [cursor=pointer]:
+                  - /url: /privacy-policy
+                  - paragraph [ref=f7e1543]: Privacy policy
+                - link [ref=f7e1544] [cursor=pointer]:
+                  - /url: /support
+                  - paragraph [ref=f7e1547]: Support
+              - paragraph [ref=f7e1548]: © 2026 PRODUX STUDIOS LLC. All rights reserved.
+  - alert [ref=f7e1549]
+  - text: ▾ ▾ ▾ ▾ ▾

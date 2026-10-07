@@ -1,0 +1,36 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2]:
+    - generic [ref=f4e4]:
+      - generic [ref=f4e5]:
+        - link "PRØDUX" [ref=f4e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f4e7]:
+          - list [ref=f4e8]:
+            - listitem [ref=f4e9]:
+              - link "Work" [ref=f4e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f4e11]:
+              - link "Studio" [ref=f4e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f4e13]:
+              - link "Journal" [ref=f4e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f4e15]:
+              - link "Contact" [ref=f4e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f4e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f4e19]:
+          - generic [ref=f4e20]: You feel the brand
+          - generic [ref=f4e22]: before it speaks®
+        - paragraph [ref=f4e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+  - button "Open Next.js Dev Tools" [ref=f4e31] [cursor=pointer]:
+    - generic [ref=f4e34]:
+      - text: Compiling
+      - generic [ref=f4e35]:
+        - generic [ref=f4e36]: .
+        - generic [ref=f4e37]: .
+        - generic [ref=f4e38]: .

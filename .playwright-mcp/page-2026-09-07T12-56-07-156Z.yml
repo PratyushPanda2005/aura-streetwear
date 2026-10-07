@@ -1,0 +1,668 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - banner [ref=f14e3]:
+      - link "Introducing the new Calendly, built to handle all of the work around meetings." [ref=f14e4] [cursor=pointer]:
+        - /url: /blog/new-calendly
+        - generic [ref=f14e5]:
+          - paragraph [ref=f14e12]: Introducing the new Calendly, built to handle all of the work around meetings.
+          - generic [ref=f14e13]: Learn more
+        - button "Dismiss announcement" [ref=f14e17]
+      - generic [ref=f14e23]:
+        - generic [ref=f14e24]:
+          - link "Calendly" [ref=f14e25] [cursor=pointer]:
+            - /url: /
+            - img "Calendly" [ref=f14e26]
+          - navigation [ref=f14e40]:
+            - button "Product" [ref=f14e42] [cursor=pointer]
+            - button "Solutions" [ref=f14e46] [cursor=pointer]
+            - button "Resources" [ref=f14e50] [cursor=pointer]
+            - link "Pricing" [ref=f14e54] [cursor=pointer]:
+              - /url: /pricing
+        - generic [ref=f14e55]:
+          - button "Talk to sales" [ref=f14e57] [cursor=pointer]
+          - button "Log In" [ref=f14e59] [cursor=pointer]
+          - button "Get started for free" [ref=f14e61] [cursor=pointer]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link "Calendly":
+              - /url: /
+              - img "Calendly"
+            - navigation:
+              - generic:
+                - button "Product"
+              - generic:
+                - button "Solutions"
+              - generic:
+                - button "Resources"
+              - generic:
+                - link "Pricing":
+                  - /url: /pricing
+          - generic:
+            - generic:
+              - button "Talk to sales"
+            - generic:
+              - button "Log In"
+            - generic:
+              - button "Get started for free"
+  - main [ref=f14e63]:
+    - generic [ref=f14e64]:
+      - generic [ref=f14e67]:
+        - generic [ref=f14e70]:
+          - generic [ref=f14e72]:
+            - generic [ref=f14e73]:
+              - heading "All the work around meetings, handled." [level=1] [ref=f14e74]
+              - paragraph [ref=f14e75]: From AI-powered scheduling to automated meeting recaps and follow-ups, get the busywork done with fewer tools and less effort.
+            - generic [ref=f14e76]:
+              - button [ref=f14e77] [cursor=pointer]
+              - button [ref=f14e80] [cursor=pointer]
+          - paragraph [ref=f14e84]:
+            - link "Sign up with email" [ref=f14e85] [cursor=pointer]:
+              - /url: /signup
+            - text: • No credit card required
+        - generic [ref=f14e89]:
+          - button [aria-hidden]
+          - generic [ref=f14e90]:
+            - tablist "Calendly products" [ref=f14e91]:
+              - tab "Scheduling" [selected] [ref=f14e93] [cursor=pointer]
+              - tab "Callie" [ref=f14e136] [cursor=pointer]
+              - tab "Notetaker" [ref=f14e175] [cursor=pointer]
+              - tab "Payments" [ref=f14e218] [cursor=pointer]
+            - generic [ref=f14e262]:
+              - tabpanel "Scheduling" [ref=f14e263]:
+                - generic [ref=f14e264]:
+                  - generic [ref=f14e265]:
+                    - img "Calendly Scheduling" [ref=f14e267]:
+                      - generic [ref=f14e277]: Scheduling
+                    - generic [ref=f14e278]:
+                      - 'heading "Book meetings with the world’s #1 scheduling tool" [level=2] [ref=f14e279]'
+                      - paragraph [ref=f14e280]: Giving you complete control and total customization, Calendly is the easiest and most powerful way to find time to connect.
+                  - button [ref=f14e281] [cursor=pointer]
+              - tabpanel [aria-hidden]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img:
+                        - generic: Callie
+                      - generic: Beta
+                    - generic:
+                      - heading [level=2]: Introducing your 24/7 AI scheduling assistant
+                      - paragraph: Add Callie to any email thread to coordinate scheduling on your behalf without switching tools or sacrificing control.
+                  - button: Learn more
+              - tabpanel [aria-hidden]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img:
+                        - generic: Notetaker
+                      - generic: New
+                    - generic:
+                      - heading [level=2]: Actionable, shareable recaps for every meeting
+                      - paragraph: Finish the day knowing every meeting was captured, next steps were tracked, and follow-ups were handled.
+                  - button: Learn more
+              - tabpanel [aria-hidden]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img:
+                        - generic: Payments
+                      - generic: New
+                    - generic:
+                      - heading [level=2]: Flexible, built-in payment tools
+                      - paragraph: Charge upfront for meetings, sell packages, and send invoices with payment features that make it easy to get paid.
+                  - button: Learn more
+      - generic [ref=f14e293]:
+        - generic [ref=f14e297]:
+          - generic [ref=f14e298]:
+            - generic [ref=f14e299]: AI meeting management
+            - heading "Built for people whose work runs on meetings" [level=2] [ref=f14e300]
+            - paragraph [ref=f14e301]: Meetings move you forward, but the work around them can slow you down. Calendly handles the tasks before, during, and after meetings, so you have more space for what matters.
+          - button "Start for free" [ref=f14e303] [cursor=pointer]
+        - generic [ref=f14e307]:
+          - generic [ref=f14e309]:
+            - heading "Book" [level=3] [ref=f14e310]
+            - generic [ref=f14e313]:
+              - paragraph [ref=f14e314]: A client emails asking to meet. Share a booking link or ask Callie, your AI assistant, to find times that work for everyone.
+              - generic [ref=f14e315]:
+                - generic [ref=f14e316]: Callie replies with times to meet
+                - generic [ref=f14e326]: Client picks Tuesday at 2 p.m.
+                - generic [ref=f14e338]: Client pays $150 deposit upfront
+          - generic [ref=f14e356]:
+            - heading "Prep" [level=3] [ref=f14e357]
+            - paragraph [aria-hidden] [ref=f14e359]: Never walk into a meeting cold.
+          - generic [ref=f14e366]:
+            - heading "Capture" [level=3] [ref=f14e367]
+            - paragraph [aria-hidden] [ref=f14e369]: Focus on the conversation. Notetaker handles the notes.
+          - generic [ref=f14e376]:
+            - heading "Follow up" [level=3] [ref=f14e377]
+            - paragraph [aria-hidden] [ref=f14e379]: Work moves forward after the meeting ends.
+      - generic "A better way to book your meetings" [ref=f14e387]:
+        - generic [ref=f14e388]:
+          - generic [ref=f14e389]:
+            - generic [ref=f14e393]:
+              - img "Calendly Scheduling" [ref=f14e395]:
+                - generic [ref=f14e405]: Scheduling
+              - heading "A better way to book your meetings" [level=2] [ref=f14e406]
+            - generic [ref=f14e407]:
+              - button "Full control over your calendar Connect your calendars, set your hours, and control exactly when you're available to meet. Open Full control over your calendar" [expanded] [ref=f14e410]:
+                - paragraph [ref=f14e413]: Full control over your calendar
+                - generic [ref=f14e414]:
+                  - paragraph [ref=f14e415]: Connect your calendars, set your hours, and control exactly when you're available to meet.
+                  - button "Open Full control over your calendar" [ref=f14e416] [cursor=pointer]
+              - button [ref=f14e424] [cursor=pointer]:
+                - paragraph [ref=f14e429]: Meeting templates for every scenario
+                - generic [ref=f14e430]:
+                  - paragraph [ref=f14e431]: From one-on-one calls to multi-host meetings, pre-built event types make scheduling easy for everyone.
+                  - button "Open Meeting templates for every scenario" [ref=f14e432]
+              - button [ref=f14e440] [cursor=pointer]:
+                - paragraph [ref=f14e448]: Automated email & text workflows
+                - generic [ref=f14e449]:
+                  - paragraph [ref=f14e450]: Reduce no-shows with personalized email and text reminders, and let invitees reschedule when needed without the back-and-forth.
+                  - button "Open Automated email & text workflows" [ref=f14e451]
+              - button [ref=f14e459] [cursor=pointer]:
+                - paragraph [ref=f14e465]: Website embeds and routing forms
+                - generic [ref=f14e466]:
+                  - paragraph [ref=f14e467]: Let visitors schedule right from your website. Add routing forms to qualify leads and match them with the right team member.
+                  - button "Open Website embeds and routing forms" [ref=f14e468]
+              - button [ref=f14e476] [cursor=pointer]:
+                - paragraph [ref=f14e483]: Scheduling whenever, wherever
+                - generic [ref=f14e484]:
+                  - paragraph [ref=f14e485]: Access Calendly from the mobile app or browser extension, or use it with your favorite AI tool, LinkedIn, or 150+ other integrations.
+                  - button "Open Scheduling whenever, wherever" [ref=f14e486]
+              - button [ref=f14e494] [cursor=pointer]:
+                - paragraph [ref=f14e504]: Tools for teams of all sizes
+                - generic [ref=f14e505]:
+                  - paragraph [ref=f14e506]: Grow your business with scheduling that scales. Add teammates, set permissions, and manage access without switching tools.
+                  - button "Open Tools for teams of all sizes" [ref=f14e507]
+          - region "Feature visual" [ref=f14e513]
+      - generic [ref=f14e523]:
+        - generic [ref=f14e524]:
+          - generic [ref=f14e527]:
+            - generic [ref=f14e528]:
+              - img "Calendly Callie" [ref=f14e530]:
+                - generic [ref=f14e538]: Callie
+              - generic [ref=f14e539]: Beta
+            - heading "Meet Callie, your AI assistant" [level=2] [ref=f14e540]
+          - region "Product features" [ref=f14e542]:
+            - generic [ref=f14e543]:
+              - heading [level=3] [ref=f14e544]:
+                - button "Conversational scheduling" [expanded] [ref=f14e545]
+              - region "Conversational scheduling" [ref=f14e552]:
+                - generic [ref=f14e555]:
+                  - paragraph [ref=f14e556]: Instead of managing scheduling links and calendars yourself, just add callie@calendly.com to the email thread. Say what you need and let Callie take it from there.
+                  - button "Conversational scheduling" [ref=f14e557] [cursor=pointer]
+            - heading [level=3] [ref=f14e564]:
+              - button "Precise coordination" [ref=f14e565] [cursor=pointer]
+            - heading [level=3] [ref=f14e571]:
+              - button "24/7 assistance with meeting tasks" [ref=f14e572] [cursor=pointer]
+        - tabpanel [ref=f14e580]
+      - generic [ref=f14e591]:
+        - generic [ref=f14e592]:
+          - generic [ref=f14e595]:
+            - generic [ref=f14e596]:
+              - img "Calendly Notetaker" [ref=f14e598]:
+                - generic [ref=f14e608]: Notetaker
+              - generic [ref=f14e609]: New
+            - heading "Actionable recaps for every meeting" [level=2] [ref=f14e610]
+          - region "Product features" [ref=f14e612]:
+            - generic [ref=f14e613]:
+              - heading [level=3] [ref=f14e614]:
+                - button "Clear summaries with next steps" [expanded] [ref=f14e615]
+              - region "Clear summaries with next steps" [ref=f14e620]:
+                - generic [ref=f14e623]:
+                  - paragraph [ref=f14e624]: End every call with meeting summaries and next steps, so nothing falls through the cracks.
+                  - button "Clear summaries with next steps" [ref=f14e625] [cursor=pointer]
+            - heading [level=3] [ref=f14e632]:
+              - button "Pre-drafted follow-up emails" [ref=f14e633] [cursor=pointer]
+            - heading [level=3] [ref=f14e644]:
+              - button "Works with your tools" [ref=f14e645] [cursor=pointer]
+            - heading [level=3] [ref=f14e655]:
+              - button "Instant meeting recall" [ref=f14e656] [cursor=pointer]
+        - tabpanel [ref=f14e663]
+      - generic [ref=f14e675]:
+        - generic [ref=f14e676]:
+          - generic [ref=f14e679]:
+            - generic [ref=f14e680]:
+              - img "Calendly Payments" [ref=f14e682]:
+                - generic [ref=f14e693]: Payments
+              - generic [ref=f14e694]: New
+            - heading "Flexible payment options that fit your business" [level=2] [ref=f14e695]
+          - region "Product features" [ref=f14e697]:
+            - generic [ref=f14e698]:
+              - heading [level=3] [ref=f14e699]:
+                - button "Upfront meeting payments" [expanded] [ref=f14e700]
+              - region "Upfront meeting payments" [ref=f14e704]:
+                - generic [ref=f14e707]:
+                  - paragraph [ref=f14e708]: Collect payment when clients book with you, so you can get paid sooner and reduce no-shows.
+                  - button "Upfront meeting payments" [ref=f14e709] [cursor=pointer]
+            - heading [level=3] [ref=f14e716]:
+              - button "Meeting packages" [ref=f14e717] [cursor=pointer]
+            - heading [level=3] [ref=f14e727]:
+              - button "Invoices" [ref=f14e728] [cursor=pointer]
+            - heading [level=3] [ref=f14e736]:
+              - button "Payment links" [ref=f14e737] [cursor=pointer]
+        - tabpanel [ref=f14e746]
+      - generic "Use case showcase" [ref=f14e757]:
+        - generic [ref=f14e758]:
+          - generic [ref=f14e759]: Customer stories
+          - heading "Real customers. Real results." [level=2] [ref=f14e760]
+        - generic [ref=f14e761]:
+          - tabpanel "75 hours saved monthly" [ref=f14e762]:
+            - generic [ref=f14e763]:
+              - generic [ref=f14e772] [cursor=pointer]:
+                - generic [aria-hidden]: “
+                - generic [ref=f14e773]: Pua Pakele
+              - generic [ref=f14e793] [cursor=pointer]:
+                - heading [level=3] [ref=f14e794]: 100% attendance rate
+                - generic [ref=f14e795]:
+                  - generic [ref=f14e796]:
+                    - generic [aria-hidden]: “
+                    - paragraph [ref=f14e798]: Adding a booking fee didn’t just reduce no-shows — it changed the tone of my consultations.”
+                  - generic [ref=f14e800]:
+                    - generic [ref=f14e801]: Elizabeth Saunders
+                    - generic [ref=f14e804]: Founder at Real Life E
+              - generic [ref=f14e822]:
+                - heading "75 hours saved monthly" [level=3] [ref=f14e823]
+                - generic [ref=f14e824]:
+                  - generic "“Calendly helps us protect our team’s time and make every support interaction count.”" [ref=f14e825]:
+                    - generic [aria-hidden]: “
+                    - paragraph [ref=f14e827]: Calendly helps us protect our team’s time and make every support interaction count.”
+                  - generic [ref=f14e829]:
+                    - generic [ref=f14e830]: Marques Stewart
+                    - generic "Managing Director of Technology at Achievement First" [ref=f14e838]
+              - generic [ref=f14e848] [cursor=pointer]:
+                - heading [level=3] [ref=f14e849]: 80% reduction in booking-related emails
+                - generic [ref=f14e850]:
+                  - generic [ref=f14e851]:
+                    - generic [aria-hidden]: “
+                    - paragraph [ref=f14e853]: We care deeply about the experience they have with us — and Calendly helps us start it off right.”
+                  - generic [ref=f14e855]:
+                    - generic [ref=f14e856]: Akira Bradley
+                    - generic [ref=f14e859]: Co-Founder at Barking with the Bradley’s
+              - generic [ref=f14e877] [cursor=pointer]:
+                - generic [aria-hidden]: “
+                - generic [ref=f14e878]: Lizzie Lewis
+          - tablist "Use cases" [ref=f14e890]:
+            - tab "Use case 1" [selected] [ref=f14e891] [cursor=pointer]
+            - tab "Use case 2" [ref=f14e892] [cursor=pointer]
+            - tab "Use case 3" [ref=f14e893] [cursor=pointer]
+            - tab "Use case 4" [ref=f14e894] [cursor=pointer]
+            - tab "Use case 5" [ref=f14e895] [cursor=pointer]
+      - generic [ref=f14e897]:
+        - generic [ref=f14e901]:
+          - generic [ref=f14e902]:
+            - generic [ref=f14e903]: 150+ integrations
+            - heading "Connect Calendly with your favorite tools" [level=2] [ref=f14e904]
+            - paragraph [ref=f14e905]: Our extensive list of integrations makes Calendly flexible.
+          - button [ref=f14e907] [cursor=pointer]
+        - generic [ref=f14e916]:
+          - link "Zoom integration" [ref=f14e917] [cursor=pointer]:
+            - /url: /integration/zoom
+          - link "Google Calendar integration" [ref=f14e926] [cursor=pointer]:
+            - /url: /help/how-to-connect-your-google-calendar
+          - link "Gmail integration" [ref=f14e936] [cursor=pointer]:
+            - /url: /integration/gmail-workflows
+          - link "Google Meet" [ref=f14e946] [cursor=pointer]:
+            - /url: /integration/google-meet
+          - link "Salesforce integration" [ref=f14e956] [cursor=pointer]:
+            - /url: /integration/salesforce
+          - link "Slack integration" [ref=f14e966] [cursor=pointer]:
+            - /url: /integration/slack
+          - link "Microsoft Teams integration" [ref=f14e976] [cursor=pointer]:
+            - /url: /integration/microsoft-teams
+          - link "Outlook integration" [ref=f14e986] [cursor=pointer]:
+            - /url: /integration/outlook-workflows
+          - link "Chrome integration" [ref=f14e996] [cursor=pointer]:
+            - /url: /integration/calendly-for-chrome
+          - link "OpenAI" [ref=f14e1005] [cursor=pointer]:
+            - /url: /integration/chatgpt
+          - link "Claude" [ref=f14e1014] [cursor=pointer]:
+            - /url: /integration/claude
+          - link "HubSpot integration" [ref=f14e1024] [cursor=pointer]:
+            - /url: /integration/hubspot
+          - link "Greenhouse integration" [ref=f14e1034] [cursor=pointer]:
+            - /url: /integration/greenhouse
+          - link "LinkedIn integration" [ref=f14e1044] [cursor=pointer]:
+            - /url: /integration/linkedin
+          - link "Stripe integration" [ref=f14e1054] [cursor=pointer]:
+            - /url: /integration/stripe
+          - link "PayPal integration" [ref=f14e1064] [cursor=pointer]:
+            - /url: /integration/paypal
+          - link "Zapier integration" [ref=f14e1074] [cursor=pointer]:
+            - /url: /integration/zapier
+        - generic [ref=f14e1087]:
+          - link "Google suite" [ref=f14e1089] [cursor=pointer]:
+            - /url: /integration/google
+            - generic [ref=f14e1100]:
+              - paragraph [ref=f14e1101]: Google suite
+              - paragraph [ref=f14e1102]: Get your job done faster by connecting Calendly to Google Calendar, Meet, Analytics, and more.
+          - link "Microsoft suite" [ref=f14e1104] [cursor=pointer]:
+            - /url: /integration/microsoft
+            - generic [ref=f14e1115]:
+              - paragraph [ref=f14e1116]: Microsoft suite
+              - paragraph [ref=f14e1117]: Make your day easier with Calendly integrations for Microsoft Teams, Outlook, Azure SSO, and more.
+      - generic [ref=f14e1121]:
+        - generic [ref=f14e1123]:
+          - generic [ref=f14e1124]:
+            - generic [ref=f14e1125]: Get started
+            - heading "From the first meeting to the follow-up" [level=2] [ref=f14e1128]
+            - paragraph [ref=f14e1129]: All of the work around meetings, handled in one place. Book time, capture every discussion, and keep next steps moving without the manual work.
+          - button "Start for free" [ref=f14e1131] [cursor=pointer]
+        - group "Scrolling product highlights" [ref=f14e1132]:
+          - generic [ref=f14e1133]:
+            - list [ref=f14e1134]:
+              - listitem [ref=f14e1135]:
+                - generic [ref=f14e1141]:
+                  - generic [aria-hidden] [ref=f14e1142]:
+                    - generic [ref=f14e1148]: Discovery
+                    - generic [ref=f14e1151]: Scheduled
+                  - generic [ref=f14e1152]:
+                    - generic [ref=f14e1161]: Discovery
+                    - generic [ref=f14e1162]: Scheduled
+              - listitem [ref=f14e1163]:
+                - generic [ref=f14e1169]:
+                  - generic [aria-hidden] [ref=f14e1170]:
+                    - generic [ref=f14e1176]: Meeting
+                    - generic [ref=f14e1179]: Summarized
+                  - generic [ref=f14e1180]:
+                    - generic [ref=f14e1191]: Meeting
+                    - generic [ref=f14e1192]: Summarized
+              - listitem [ref=f14e1193]:
+                - generic [ref=f14e1199]:
+                  - generic [aria-hidden] [ref=f14e1200]:
+                    - generic [ref=f14e1206]: Interview
+                    - generic [ref=f14e1209]: Booked
+                  - generic [ref=f14e1210]:
+                    - generic [ref=f14e1221]: Interview
+                    - generic [ref=f14e1222]: Booked
+              - listitem [ref=f14e1223]:
+                - generic [ref=f14e1229]:
+                  - generic [aria-hidden] [ref=f14e1230]:
+                    - generic [ref=f14e1236]: Payment
+                    - generic [ref=f14e1239]: Received
+                  - generic [ref=f14e1240]:
+                    - generic [ref=f14e1252]: Payment
+                    - generic [ref=f14e1253]: Received
+            - list [aria-hidden] [ref=f14e1254]:
+              - listitem [ref=f14e1255]:
+                - generic [ref=f14e1261]:
+                  - generic [aria-hidden] [ref=f14e1262]:
+                    - generic [ref=f14e1268]: Discovery
+                    - generic [ref=f14e1271]: Scheduled
+                  - generic [ref=f14e1272]:
+                    - generic [ref=f14e1281]: Discovery
+                    - generic [ref=f14e1282]: Scheduled
+              - listitem [ref=f14e1283]:
+                - generic [ref=f14e1289]:
+                  - generic [aria-hidden] [ref=f14e1290]:
+                    - generic [ref=f14e1296]: Meeting
+                    - generic [ref=f14e1299]: Summarized
+                  - generic [ref=f14e1300]:
+                    - generic [ref=f14e1311]: Meeting
+                    - generic [ref=f14e1312]: Summarized
+              - listitem [ref=f14e1313]:
+                - generic [ref=f14e1319]:
+                  - generic [aria-hidden] [ref=f14e1320]:
+                    - generic [ref=f14e1326]: Interview
+                    - generic [ref=f14e1329]: Booked
+                  - generic [ref=f14e1330]:
+                    - generic [ref=f14e1341]: Interview
+                    - generic [ref=f14e1342]: Booked
+              - listitem [ref=f14e1343]:
+                - generic [ref=f14e1349]:
+                  - generic [aria-hidden] [ref=f14e1350]:
+                    - generic [ref=f14e1356]: Payment
+                    - generic [ref=f14e1359]: Received
+                  - generic [ref=f14e1360]:
+                    - generic [ref=f14e1372]: Payment
+                    - generic [ref=f14e1373]: Received
+            - list [aria-hidden] [ref=f14e1374]:
+              - listitem [ref=f14e1375]:
+                - generic [ref=f14e1381]:
+                  - generic [aria-hidden] [ref=f14e1382]:
+                    - generic [ref=f14e1388]: Discovery
+                    - generic [ref=f14e1391]: Scheduled
+                  - generic [ref=f14e1392]:
+                    - generic [ref=f14e1401]: Discovery
+                    - generic [ref=f14e1402]: Scheduled
+              - listitem [ref=f14e1403]:
+                - generic [ref=f14e1409]:
+                  - generic [aria-hidden] [ref=f14e1410]:
+                    - generic [ref=f14e1416]: Meeting
+                    - generic [ref=f14e1419]: Summarized
+                  - generic [ref=f14e1420]:
+                    - generic [ref=f14e1431]: Meeting
+                    - generic [ref=f14e1432]: Summarized
+              - listitem [ref=f14e1433]:
+                - generic [ref=f14e1439]:
+                  - generic [aria-hidden] [ref=f14e1440]:
+                    - generic [ref=f14e1446]: Interview
+                    - generic [ref=f14e1449]: Booked
+                  - generic [ref=f14e1450]:
+                    - generic [ref=f14e1461]: Interview
+                    - generic [ref=f14e1462]: Booked
+              - listitem [ref=f14e1463]:
+                - generic [ref=f14e1469]:
+                  - generic [aria-hidden] [ref=f14e1470]:
+                    - generic [ref=f14e1476]: Payment
+                    - generic [ref=f14e1479]: Received
+                  - generic [ref=f14e1480]:
+                    - generic [ref=f14e1492]: Payment
+                    - generic [ref=f14e1493]: Received
+  - contentinfo [ref=f14e1495]:
+    - generic [ref=f14e1498]:
+      - generic [ref=f14e1499]:
+        - generic [ref=f14e1500]:
+          - paragraph [ref=f14e1501]: Make space for what matters.
+          - img "Calendly" [ref=f14e1502]
+        - navigation "Footer" [ref=f14e1516]:
+          - generic [ref=f14e1517]:
+            - heading "Products" [level=3] [ref=f14e1518]
+            - list [ref=f14e1519]:
+              - listitem [ref=f14e1520]:
+                - link "Scheduling" [ref=f14e1521] [cursor=pointer]:
+                  - /url: /scheduling
+              - listitem [ref=f14e1523]:
+                - link "AI assistant" [ref=f14e1524] [cursor=pointer]:
+                  - /url: /ai-assistant
+              - listitem [ref=f14e1526]:
+                - link "Notetaker" [ref=f14e1527] [cursor=pointer]:
+                  - /url: /notetaker
+              - listitem [ref=f14e1529]:
+                - link "Contacts" [ref=f14e1530] [cursor=pointer]:
+                  - /url: /contacts
+              - listitem [ref=f14e1532]:
+                - link "Payments" [ref=f14e1533] [cursor=pointer]:
+                  - /url: /payments
+          - generic [ref=f14e1535]:
+            - heading "Features" [level=3] [ref=f14e1536]
+            - list [ref=f14e1537]:
+              - listitem [ref=f14e1538]:
+                - link "Security" [ref=f14e1539] [cursor=pointer]:
+                  - /url: /security
+              - listitem [ref=f14e1541]:
+                - link "Customizable availability" [ref=f14e1542] [cursor=pointer]:
+                  - /url: /scheduling/availability
+              - listitem [ref=f14e1544]:
+                - link "Event types" [ref=f14e1545] [cursor=pointer]:
+                  - /url: /scheduling/event-types
+              - listitem [ref=f14e1547]:
+                - link "Meeting polls" [ref=f14e1548] [cursor=pointer]:
+                  - /url: /scheduling/meeting-polls
+              - listitem [ref=f14e1550]:
+                - link "Reminders & follow up" [ref=f14e1551] [cursor=pointer]:
+                  - /url: /scheduling/automated-communication
+              - listitem [ref=f14e1553]:
+                - link "Meeting routing" [ref=f14e1554] [cursor=pointer]:
+                  - /url: /scheduling/routing
+              - listitem [ref=f14e1556]:
+                - link "Analytics" [ref=f14e1557] [cursor=pointer]:
+                  - /url: /features/analytics
+              - listitem [ref=f14e1559]:
+                - link "Admin management" [ref=f14e1560] [cursor=pointer]:
+                  - /url: /features/admin-management
+          - generic [ref=f14e1562]:
+            - heading "Integrations" [level=3] [ref=f14e1563]
+            - list [ref=f14e1564]:
+              - listitem [ref=f14e1565]:
+                - link "Google ecosystem" [ref=f14e1566] [cursor=pointer]:
+                  - /url: /integration?search=google
+              - listitem [ref=f14e1568]:
+                - link "Microsoft ecosystem" [ref=f14e1569] [cursor=pointer]:
+                  - /url: /integration?search=microsoft
+              - listitem [ref=f14e1571]:
+                - link "Video conferencing" [ref=f14e1572] [cursor=pointer]:
+                  - /url: /integration#video-conferencing
+              - listitem [ref=f14e1574]:
+                - link "Payment processors" [ref=f14e1575] [cursor=pointer]:
+                  - /url: /integration#payments
+              - listitem [ref=f14e1577]:
+                - link "Sales & CRM" [ref=f14e1578] [cursor=pointer]:
+                  - /url: /integration#sales-and-crm
+              - listitem [ref=f14e1580]:
+                - link "Recruiting & ATS" [ref=f14e1581] [cursor=pointer]:
+                  - /url: /integration#recruiting-and-ats
+              - listitem [ref=f14e1583]:
+                - link "All integrations" [ref=f14e1584] [cursor=pointer]:
+                  - /url: /integration
+          - generic [ref=f14e1586]:
+            - heading "Solutions" [level=3] [ref=f14e1587]
+            - list [ref=f14e1588]:
+              - listitem [ref=f14e1589]:
+                - link "For individuals" [ref=f14e1590] [cursor=pointer]:
+                  - /url: /solutions/individuals
+              - listitem [ref=f14e1592]:
+                - link "For teams" [ref=f14e1593] [cursor=pointer]:
+                  - /url: /solutions/small-business
+              - listitem [ref=f14e1595]:
+                - link "For large companies" [ref=f14e1596] [cursor=pointer]:
+                  - /url: /solutions/enterprise
+          - generic [ref=f14e1598]:
+            - heading "Resources" [level=3] [ref=f14e1599]
+            - list [ref=f14e1600]:
+              - listitem [ref=f14e1601]:
+                - link "Create your account" [ref=f14e1602] [cursor=pointer]:
+                  - /url: /signup
+              - listitem [ref=f14e1604]:
+                - link "Pricing and plans" [ref=f14e1605] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=f14e1607]:
+                - link "Product tour" [ref=f14e1608] [cursor=pointer]:
+                  - /url: /demo
+              - listitem [ref=f14e1610]:
+                - link "What's new" [ref=f14e1611] [cursor=pointer]:
+                  - /url: /release-notes
+              - listitem [ref=f14e1613]:
+                - link "Getting started guide" [ref=f14e1614] [cursor=pointer]:
+                  - /url: /learn/getting-started
+              - listitem [ref=f14e1616]:
+                - link "Calendly community" [ref=f14e1617] [cursor=pointer]:
+                  - /url: https://community.calendly.com
+              - listitem [ref=f14e1619]:
+                - link "Developer tools" [ref=f14e1620] [cursor=pointer]:
+                  - /url: https://developer.calendly.com
+          - generic [ref=f14e1622]:
+            - heading "Support" [level=3] [ref=f14e1623]
+            - list [ref=f14e1624]:
+              - listitem [ref=f14e1625]:
+                - link "Help center" [ref=f14e1626] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=f14e1628]:
+                - link "Learning hub" [ref=f14e1629] [cursor=pointer]:
+                  - /url: /learn
+              - listitem [ref=f14e1631]:
+                - link "Contact support" [ref=f14e1632] [cursor=pointer]:
+                  - /url: /help/support
+              - listitem [ref=f14e1634]:
+                - link "Contact sales" [ref=f14e1635] [cursor=pointer]:
+                  - /url: /contact
+          - generic [ref=f14e1637]:
+            - heading "Company" [level=3] [ref=f14e1638]
+            - list [ref=f14e1639]:
+              - listitem [ref=f14e1640]:
+                - link "About us" [ref=f14e1641] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f14e1643]:
+                - link "Careers We’re hiring!" [ref=f14e1644] [cursor=pointer]:
+                  - /url: /careers
+                  - generic [ref=f14e1645]: Careers
+                  - generic [ref=f14e1646]: We’re hiring!
+              - listitem [ref=f14e1648]:
+                - link "Become a partner" [ref=f14e1649] [cursor=pointer]:
+                  - /url: /partners/contact
+              - listitem [ref=f14e1651]:
+                - link "Blog" [ref=f14e1652] [cursor=pointer]:
+                  - /url: /blog
+      - generic [ref=f14e1654]:
+        - generic [ref=f14e1655]:
+          - generic [ref=f14e1656]:
+            - generic [ref=f14e1657]: Downloads
+            - list [ref=f14e1658]:
+              - listitem [ref=f14e1659]:
+                - link "Apple" [ref=f14e1660] [cursor=pointer]:
+                  - /url: https://apps.apple.com/app/calendly-mobile/id1451094657?pt=118425599&mt=8&ct=footer&utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=ios&utm_term=ios&l=en-us
+              - listitem [ref=f14e1662]:
+                - link "Google Play" [ref=f14e1663] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=com.calendly.app&utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=android&utm_term=android&hl=en-us
+              - listitem [ref=f14e1665]:
+                - link "Microsoft Edge" [ref=f14e1666] [cursor=pointer]:
+                  - /url: https://microsoftedge.microsoft.com/addons/detail/calendly-meeting-schedul/hfngfpepejakabkhocoamdlnipilcpga?utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=edge&utm_term=edge&hl=en-us
+              - listitem [ref=f14e1668]:
+                - link "Safari" [ref=f14e1669] [cursor=pointer]:
+                  - /url: https://apps.apple.com/us/app/calendly-meeting-scheduling/id6746816242?mt=12&utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer
+              - listitem [ref=f14e1671]:
+                - link "Chrome" [ref=f14e1672] [cursor=pointer]:
+                  - /url: https://chromewebstore.google.com/detail/calendly-meeting-scheduli/cbhilkcodigmigfbnphipnnmamjfkipp?utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=chrome&utm_term=chrome&hl=en-us
+              - listitem [ref=f14e1674]:
+                - link "Firefox" [ref=f14e1675] [cursor=pointer]:
+                  - /url: https://addons.mozilla.org/en-US/firefox/addon/calendly-meeting-scheduling/?utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=firefox&utm_term=firefox
+              - listitem [ref=f14e1677]:
+                - link "Outlook" [ref=f14e1678] [cursor=pointer]:
+                  - /url: https://appsource.microsoft.com/en-us/product/office/WA104381446?utm_source=calendly&utm_medium=marketing_site&utm_campaign=footer&utm_content=outlook&utm_term=outlookaddin
+          - generic [ref=f14e1680]:
+            - generic [ref=f14e1681]: Join us on social
+            - list [ref=f14e1682]:
+              - listitem [ref=f14e1683]:
+                - link "Link to Calendly X account" [ref=f14e1684] [cursor=pointer]:
+                  - /url: https://x.com/calendly
+              - listitem [ref=f14e1687]:
+                - link "Link to Calendly Instagram account" [ref=f14e1688] [cursor=pointer]:
+                  - /url: https://instagram.com/calendly
+              - listitem [ref=f14e1694]:
+                - link "Link to Calendly Facebook account" [ref=f14e1695] [cursor=pointer]:
+                  - /url: https://facebook.com/calendly
+              - listitem [ref=f14e1699]:
+                - link "Link to Calendly LinkedIn account" [ref=f14e1700] [cursor=pointer]:
+                  - /url: https://linkedin.com/company/calendly
+              - listitem [ref=f14e1704]:
+                - link "Link to Calendly YouTube account" [ref=f14e1705] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/Calendly
+        - generic [ref=f14e1708]:
+          - generic [ref=f14e1709]:
+            - button "English" [ref=f14e1711] [cursor=pointer]
+            - generic [ref=f14e1719]:
+              - link "Privacy Policy" [ref=f14e1720] [cursor=pointer]:
+                - /url: /legal/privacy-notice
+              - link "Legal" [ref=f14e1722] [cursor=pointer]:
+                - /url: /legal
+              - link "Status" [ref=f14e1724] [cursor=pointer]:
+                - /url: https://www.calendlystatus.com
+              - button "Cookie Settings" [ref=f14e1726] [cursor=pointer]
+              - button "Your Privacy Choices" [ref=f14e1727] [cursor=pointer]
+          - generic [ref=f14e1729]: © Copyright Calendly 2026
+  - region "Cookie banner" [ref=f14e1730]:
+    - dialog "Privacy" [ref=f14e1731]:
+      - generic [ref=f14e1732]:
+        - generic [ref=f14e1735]:
+          - text: We use cookies and similar technologies to improve and personalize your experience, to understand website interactions (including clicks, cursor movement and screen recordings), and for marketing. Click “Decline” to decline optional cookies or “Cookie Settings” to manage individual settings. To learn more, visit our
+          - link "privacy notice" [ref=f14e1736] [cursor=pointer]:
+            - /url: https://calendly.com/legal/privacy-notice
+          - text: .
+        - generic [ref=f14e1738]:
+          - button "Cookie settings, Opens the preference center dialog" [ref=f14e1739] [cursor=pointer]: Cookie settings
+          - generic [ref=f14e1740]:
+            - button "Decline" [ref=f14e1741] [cursor=pointer]
+            - button "I understand" [ref=f14e1742] [cursor=pointer]
+        - button "Close" [ref=f14e1744] [cursor=pointer]
+  - iframe [aria-hidden] [ref=f14e1745]

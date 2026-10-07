@@ -1,0 +1,134 @@
+- generic [active] [ref=f13e1]:
+  - main [ref=f13e2]:
+    - generic [ref=f13e4]:
+      - generic [ref=f13e5]:
+        - link "INTARCS" [ref=f13e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f13e7]:
+          - list [ref=f13e8]:
+            - listitem [ref=f13e9]:
+              - link "Work" [ref=f13e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f13e11]:
+              - link "Studio" [ref=f13e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f13e13]:
+              - link "Journal" [ref=f13e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f13e15]:
+              - link "Contact" [ref=f13e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f13e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f13e19]:
+          - generic [ref=f13e20]: You feel the brand
+          - generic [ref=f13e22]: before it speaks®
+        - paragraph [ref=f13e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+    - generic [ref=f13e26]:
+      - generic [ref=f13e27]:
+        - heading "Selected projects" [level=2] [ref=f13e28]:
+          - generic [ref=f13e29]: Selected
+          - generic [ref=f13e30]: projects
+        - link "view all works" [ref=f13e31] [cursor=pointer]:
+          - /url: "#work"
+      - generic [ref=f13e34]:
+        - generic [ref=f13e35]:
+          - article [ref=f13e36]:
+            - generic [ref=f13e37]:
+              - img "Payy Network" [ref=f13e38]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: web design
+            - generic [ref=f13e41]:
+              - heading "Payy Network" [level=3] [ref=f13e42]
+              - paragraph [ref=f13e43]: Stablecoin payments that feel familiar, not foreign.
+          - article [ref=f13e44]:
+            - generic [ref=f13e45]:
+              - img "Gather AI" [ref=f13e46]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: website
+            - generic [ref=f13e49]:
+              - heading "Gather AI" [level=3] [ref=f13e50]
+              - paragraph [ref=f13e51]: First telco run entirely on AI, powering hundreds of brands from one intelligent core
+        - article [ref=f13e53]:
+          - generic [ref=f13e54]:
+            - img "Jurni AI" [ref=f13e55]
+            - generic:
+              - generic: creative direction
+              - generic: visual identity
+              - generic: motion
+              - generic: website
+          - generic [ref=f13e58]:
+            - heading "Jurni AI" [level=3] [ref=f13e59]
+            - paragraph [ref=f13e60]: Jurni is an AI funnel engine that turns a prompt into a live, high-converting landing experience in minutes.
+        - generic [ref=f13e61]:
+          - article [ref=f13e62]:
+            - generic [ref=f13e63]:
+              - img "Parker AI" [ref=f13e64]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+            - generic [ref=f13e67]:
+              - heading "Parker AI" [level=3] [ref=f13e68]
+              - paragraph [ref=f13e69]: Parker is an AI creative strategist that thinks, researches, and structures work like a senior partner. Clear briefs, sharp angles, and sourced notes inside Slack
+          - article [ref=f13e70]:
+            - generic [ref=f13e71]:
+              - img "Nolana AI" [ref=f13e72]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: website
+            - generic [ref=f13e75]:
+              - heading "Nolana AI" [level=3] [ref=f13e76]
+              - paragraph [ref=f13e77]: AI-native agentic OS for financial services operations
+    - generic [ref=f13e79]:
+      - generic [ref=f13e80]:
+        - generic [ref=f13e81]:
+          - button [ref=f13e82] [cursor=pointer]:
+            - text: Schematic Design
+            - superscript [ref=f13e83]: (01)
+          - text: /
+        - generic [ref=f13e84]:
+          - button [ref=f13e85] [cursor=pointer]:
+            - text: Development & Town Planning Applications
+            - superscript [ref=f13e86]: (02)
+          - text: /
+        - generic [ref=f13e87]:
+          - button [ref=f13e88] [cursor=pointer]:
+            - text: Design Development
+            - superscript [ref=f13e89]: (03)
+          - text: /
+        - generic [ref=f13e90]:
+          - button [ref=f13e91] [cursor=pointer]:
+            - text: Marketing
+            - superscript [ref=f13e92]: (04)
+          - text: /
+        - generic [ref=f13e93]:
+          - button [pressed] [ref=f13e94] [cursor=pointer]:
+            - text: Interior Design
+            - superscript [ref=f13e95]: (05)
+          - text: /
+        - generic [ref=f13e96]:
+          - button [ref=f13e97] [cursor=pointer]:
+            - text: Construction Documentation
+            - superscript [ref=f13e98]: (06)
+          - text: /
+        - button [ref=f13e100] [cursor=pointer]:
+          - text: Contract Administration
+          - superscript [ref=f13e101]: (07)
+      - img "Interior Design" [ref=f13e133]
+      - generic [ref=f13e119]:
+        - generic [ref=f13e120]: "04"
+        - heading "Method" [level=2] [ref=f13e121]
+      - paragraph [ref=f13e122]: The scope of our Studio covers all stages within Architecture and Interior Design. We offer an end to end level of service from early concepts through to practical completion.
+  - button "Open Next.js Dev Tools" [ref=f13e128] [cursor=pointer]
+  - alert [ref=f13e134]

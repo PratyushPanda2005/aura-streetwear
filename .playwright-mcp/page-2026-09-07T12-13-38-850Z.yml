@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "PRØDUX" [ref=e6] [cursor=pointer]:
+            - /url: "#top"
+          - navigation "Primary" [ref=e7]:
+            - list [ref=e8]:
+              - listitem [ref=e9]:
+                - link "Work" [ref=e10] [cursor=pointer]:
+                  - /url: "#work"
+                  - text: "[Work]"
+              - listitem [ref=e11]:
+                - link "Studio" [ref=e12] [cursor=pointer]:
+                  - /url: "#studio"
+                  - text: "[Studio]"
+              - listitem [ref=e13]:
+                - link "Journal" [ref=e14] [cursor=pointer]:
+                  - /url: "#journal"
+                  - text: "[Journal]"
+              - listitem [ref=e15]:
+                - link "Contact" [ref=e16] [cursor=pointer]:
+                  - /url: "#contact"
+                  - text: "[Contact]"
+        - generic [ref=e18]:
+          - heading "You feel the brand before it speaks®" [level=1] [ref=e19]:
+            - generic [ref=e20]: You feel the brand
+            - generic [ref=e22]: before it speaks®
+          - paragraph [ref=e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+      - generic [ref=e28]:
+        - paragraph [ref=e29]: PRØDUX
+        - paragraph [ref=e30]:
+          - generic [ref=e31]: We turn direction
+          - generic [ref=e32]: into identity.
+        - generic [ref=e33]:
+          - paragraph [ref=e34]:
+            - generic [ref=e35]: Strategy,
+            - generic [ref=e36]: Brand Design
+          - paragraph [ref=e37]:
+            - generic [ref=e38]: Web Design,
+            - generic [ref=e39]: Motion
+  - button "Open Next.js Dev Tools" [ref=e45] [cursor=pointer]

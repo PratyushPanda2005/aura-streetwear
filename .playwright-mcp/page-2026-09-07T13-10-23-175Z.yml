@@ -1,0 +1,188 @@
+- generic [active] [ref=f25e1]:
+  - main [ref=f25e2]:
+    - generic [ref=f25e4]:
+      - generic [ref=f25e5]:
+        - link "INTARCS" [ref=f25e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f25e7]:
+          - list [ref=f25e8]:
+            - listitem [ref=f25e9]:
+              - link "Work" [ref=f25e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f25e11]:
+              - link "Studio" [ref=f25e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f25e13]:
+              - link "Journal" [ref=f25e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f25e15]:
+              - link "Contact" [ref=f25e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f25e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f25e19]:
+          - generic [ref=f25e20]: You feel the brand
+          - generic [ref=f25e22]: before it speaks®
+        - paragraph [ref=f25e24]: Prødux builds brand identities for companies that care how things feel and how they are perceived over time.
+    - generic [ref=f25e26]:
+      - generic [ref=f25e27]:
+        - heading "Selected projects" [level=2] [ref=f25e28]:
+          - generic [ref=f25e29]: Selected
+          - generic [ref=f25e30]: projects
+        - link "view all works" [ref=f25e31] [cursor=pointer]:
+          - /url: "#work"
+      - generic [ref=f25e34]:
+        - generic [ref=f25e35]:
+          - article [ref=f25e36]:
+            - generic [ref=f25e37]:
+              - img "Payy Network" [ref=f25e38]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: web design
+            - generic [ref=f25e41]:
+              - heading "Payy Network" [level=3] [ref=f25e42]
+              - paragraph [ref=f25e43]: Stablecoin payments that feel familiar, not foreign.
+          - article [ref=f25e44]:
+            - generic [ref=f25e45]:
+              - img "Gather AI" [ref=f25e46]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: website
+            - generic [ref=f25e49]:
+              - heading "Gather AI" [level=3] [ref=f25e50]
+              - paragraph [ref=f25e51]: First telco run entirely on AI, powering hundreds of brands from one intelligent core
+        - article [ref=f25e53]:
+          - generic [ref=f25e54]:
+            - img "Jurni AI" [ref=f25e55]
+            - generic:
+              - generic: creative direction
+              - generic: visual identity
+              - generic: motion
+              - generic: website
+          - generic [ref=f25e58]:
+            - heading "Jurni AI" [level=3] [ref=f25e59]
+            - paragraph [ref=f25e60]: Jurni is an AI funnel engine that turns a prompt into a live, high-converting landing experience in minutes.
+        - generic [ref=f25e61]:
+          - article [ref=f25e62]:
+            - generic [ref=f25e63]:
+              - img "Parker AI" [ref=f25e64]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+            - generic [ref=f25e67]:
+              - heading "Parker AI" [level=3] [ref=f25e68]
+              - paragraph [ref=f25e69]: Parker is an AI creative strategist that thinks, researches, and structures work like a senior partner. Clear briefs, sharp angles, and sourced notes inside Slack
+          - article [ref=f25e70]:
+            - generic [ref=f25e71]:
+              - img "Nolana AI" [ref=f25e72]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: website
+            - generic [ref=f25e75]:
+              - heading "Nolana AI" [level=3] [ref=f25e76]
+              - paragraph [ref=f25e77]: AI-native agentic OS for financial services operations
+    - generic [ref=f25e79]:
+      - generic [ref=f25e80]:
+        - generic [ref=f25e81]:
+          - button [pressed] [ref=f25e82] [cursor=pointer]:
+            - text: Schematic Design
+            - superscript [ref=f25e83]: (01)
+          - text: /
+        - generic [ref=f25e84]:
+          - button [ref=f25e85] [cursor=pointer]:
+            - text: Development & Town Planning Applications
+            - superscript [ref=f25e86]: (02)
+          - text: /
+        - generic [ref=f25e87]:
+          - button [ref=f25e88] [cursor=pointer]:
+            - text: Design Development
+            - superscript [ref=f25e89]: (03)
+          - text: /
+        - generic [ref=f25e90]:
+          - button [ref=f25e91] [cursor=pointer]:
+            - text: Marketing
+            - superscript [ref=f25e92]: (04)
+          - text: /
+        - generic [ref=f25e93]:
+          - button [ref=f25e94] [cursor=pointer]:
+            - text: Interior Design
+            - superscript [ref=f25e95]: (05)
+          - text: /
+        - generic [ref=f25e96]:
+          - button [ref=f25e97] [cursor=pointer]:
+            - text: Construction Documentation
+            - superscript [ref=f25e98]: (06)
+          - text: /
+        - button [ref=f25e100] [cursor=pointer]:
+          - text: Contract Administration
+          - superscript [ref=f25e101]: (07)
+      - img "Schematic Design" [ref=f25e105]
+      - generic [ref=f25e119]:
+        - generic [ref=f25e120]: "04"
+        - heading "Method" [level=2] [ref=f25e121]
+      - paragraph [ref=f25e122]: The scope of our Studio covers all stages within Architecture and Interior Design. We offer an end to end level of service from early concepts through to practical completion.
+    - generic [ref=f25e123]:
+      - generic [ref=f25e124]:
+        - generic [ref=f25e125]: Customer stories
+        - heading "Real customers. Real results." [level=2] [ref=f25e126]
+      - generic [ref=f25e127]:
+        - article [ref=f25e128]:
+          - generic [ref=f25e129]:
+            - generic [ref=f25e130]:
+              - heading "75 hours saved monthly" [level=3] [ref=f25e131]
+              - generic [ref=f25e132]:
+                - paragraph [ref=f25e133]:
+                  - generic [aria-hidden] [ref=f25e134]: “
+                  - text: Calendly helps us protect our team's time and make every support interaction count.”
+                - generic [ref=f25e135]:
+                  - generic [ref=f25e136]: Marques Stewart
+                  - generic [ref=f25e137]: Managing Director of Technology at Achievement First
+            - img "Marques Stewart" [ref=f25e139]
+        - article [aria-hidden] [ref=f25e140]
+        - article [aria-hidden] [ref=f25e143]
+        - article [aria-hidden] [ref=f25e146]
+        - article [aria-hidden] [ref=f25e149]
+      - tablist "Customer stories" [ref=f25e152]:
+        - tab "Marques Stewart" [selected] [ref=f25e153] [cursor=pointer]
+        - tab "Akira Bradley" [ref=f25e154] [cursor=pointer]
+        - tab "Lizzie Lewis" [ref=f25e155] [cursor=pointer]
+        - tab "Pua Pakele" [ref=f25e156] [cursor=pointer]
+        - tab "Elizabeth Saunders" [ref=f25e157] [cursor=pointer]
+    - generic [ref=f25e160]:
+      - heading "Brands we've helped" [level=2] [ref=f25e163]
+      - generic [ref=f25e164]:
+        - generic [ref=f25e165]:
+          - img "Vinamilk" [ref=f25e167]
+          - generic [ref=f25e168]: Vinamilk
+        - generic [ref=f25e169]:
+          - img "Moc Chau Creamery" [ref=f25e171]
+          - generic [ref=f25e172]: Moc Chau Creamery
+        - generic [ref=f25e173]:
+          - img "University of Sydney" [ref=f25e175]
+          - generic [ref=f25e176]: University of Sydney
+        - generic [ref=f25e177]:
+          - img "OH Architecture" [ref=f25e179]
+          - generic [ref=f25e180]: OH Architecture
+        - generic [ref=f25e181]:
+          - img "Supersolid Agency" [ref=f25e183]
+          - generic [ref=f25e184]: Supersolid Agency
+        - generic [ref=f25e185]:
+          - img "SLIK Agency" [ref=f25e187]
+          - generic [ref=f25e188]: SLIK Agency
+        - generic [ref=f25e189]:
+          - img "Mammoth Murals" [ref=f25e191]
+          - generic [ref=f25e192]: Mammoth Murals
+        - generic [ref=f25e193]:
+          - img "Backhouse" [ref=f25e195]
+          - generic [ref=f25e196]: Backhouse
+  - button "Open Next.js Dev Tools" [ref=f25e202] [cursor=pointer]
+  - alert [ref=f25e206]

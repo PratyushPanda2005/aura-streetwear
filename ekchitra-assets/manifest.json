@@ -1,0 +1,334 @@
+{
+  "source": "https://www.ekchitra.com/",
+  "downloadedAt": "2026-10-07T17:11:55.418Z",
+  "assets": [
+    {
+      "path": "brand/ekchitra-logo-black.png",
+      "url": "https://static.wixstatic.com/media/37b6d4_2ff4a44bf5be4423a531ff1eedc9cc93~mv2.png",
+      "note": "Header logo",
+      "ok": true,
+      "bytes": 7373
+    },
+    {
+      "path": "brand/favicon.ico",
+      "url": "https://static.wixstatic.com/ficons/8de284_b5162eb5436740c48987aae7f10093a3~mv2.ico",
+      "note": "Favicon",
+      "ok": true,
+      "bytes": 15406
+    },
+    {
+      "path": "images/hero-hydart-2025-show-banner.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_cd9cf7b7c78f4ceb9e5492276c4564da~mv2.jpg",
+      "note": "Hero slide: hydart 2025 Show Banner",
+      "ok": true,
+      "bytes": 1368890
+    },
+    {
+      "path": "images/hero-dsc01932.jpg",
+      "url": "https://static.wixstatic.com/media/ae9d87_36b182362796436d95ff63ab27d8b9a7~mv2.jpg",
+      "note": "Hero slide: DSC01932",
+      "ok": true,
+      "bytes": 1074903
+    },
+    {
+      "path": "images/hero-newindianexpress-2025-12-05.avif",
+      "url": "https://static.wixstatic.com/media/ae9d87_5ccef4d15a51442d900bbdf5fcd8173c~mv2.avif",
+      "note": "Hero slide: New Indian Express press photo",
+      "ok": true,
+      "bytes": 138073
+    },
+    {
+      "path": "images/gallery-space-hyderabad.webp",
+      "url": "https://static.wixstatic.com/media/ae9d87_ebe70417ba424990bae8efe581ffe3d9~mv2.webp",
+      "note": "Ekchitra art gallery | Hyderabad",
+      "ok": true,
+      "bytes": 79522
+    },
+    {
+      "path": "exhibitions/hyd-art-2025.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_6591d384bbdd43beae9f39c255f7fde7~mv2.jpg",
+      "note": "HYD ART | 2025",
+      "ok": true,
+      "bytes": 970801
+    },
+    {
+      "path": "exhibitions/swadhatri-2025.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_9c85a12368514fac86e819fe2f2ddd78~mv2.jpg",
+      "note": "SWADHATRI | 2025",
+      "ok": true,
+      "bytes": 256642
+    },
+    {
+      "path": "exhibitions/living-temple-2025.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_a52bfafb954d47b3a3994d14d107d2bc~mv2.jpg",
+      "note": "LIVING TEMPLE | 2025",
+      "ok": true,
+      "bytes": 2682487
+    },
+    {
+      "path": "exhibitions/living-temple-2026.jpg",
+      "url": "https://static.wixstatic.com/media/ae9d87_1b6d9e13719a4861854e70131e4876ee~mv2.jpg",
+      "note": "Living Temple 2026",
+      "ok": true,
+      "bytes": 2613094
+    },
+    {
+      "path": "exhibitions/hyd-art-logo.png",
+      "url": "https://static.wixstatic.com/media/ae9d87_a5a8f8e3af324f95b81a59aa758edbf4~mv2.png",
+      "note": "Hyd Art wordmark",
+      "ok": true,
+      "bytes": 32353
+    },
+    {
+      "path": "artworks/arthanareeswara--anupama-choudhary.png",
+      "url": "https://static.wixstatic.com/media/8de284_08c8d713fc6b4721bf4f3241e3a9aefb~mv2.png",
+      "note": "Arthanareeswara | Anupama Choudhary",
+      "ok": true,
+      "bytes": 2015716
+    },
+    {
+      "path": "artworks/untitled-1--ashok-juttu.png",
+      "url": "https://static.wixstatic.com/media/8de284_16b7dc9c70fe457499f3ff4082ede2d0~mv2.png",
+      "note": "Untitled - 1 | Ashok Juttu",
+      "ok": true,
+      "bytes": 1958361
+    },
+    {
+      "path": "artworks/untitled-1--chandrapal-panjre.png",
+      "url": "https://static.wixstatic.com/media/8de284_5a59598dee3042248773d0edeb1f5b42~mv2.png",
+      "note": "Untitled - 1 | Chandrapal Panjre",
+      "ok": true,
+      "bytes": 1488200
+    },
+    {
+      "path": "artworks/untitled-2--charanjeet-singh.png",
+      "url": "https://static.wixstatic.com/media/8de284_cd750421c1834049a8c409eb397e1c76~mv2.png",
+      "note": "Untitled - 2 | Charanjeet Singh",
+      "ok": true,
+      "bytes": 1470005
+    },
+    {
+      "path": "artworks/paths-1--dilip-kumar.png",
+      "url": "https://static.wixstatic.com/media/8de284_8ab042a38ea54bec8e28d42b3c7deb11~mv2.png",
+      "note": "Paths - 1 | Dilip Kumar",
+      "ok": true,
+      "bytes": 1153073
+    },
+    {
+      "path": "artworks/harmony-of-nature-and-mind--farhad-hussain.png",
+      "url": "https://static.wixstatic.com/media/8de284_b514e036af0b426c9a4af5637b45484c~mv2.png",
+      "note": "Harmony of Nature and Mind | Farhad Hussain",
+      "ok": true,
+      "bytes": 1201391
+    },
+    {
+      "path": "artworks/vernacular-house-2--kolipitchai-prabhakar.png",
+      "url": "https://static.wixstatic.com/media/8de284_520e2488e6064e009903458b7b17ebab~mv2.png",
+      "note": "Vernacular House | Kolipitchai Prabhakar",
+      "ok": true,
+      "bytes": 1523249
+    },
+    {
+      "path": "artworks/sites-of-remembering--manish-sharma.png",
+      "url": "https://static.wixstatic.com/media/8de284_7e1c01837bab4a31aba694a06abc0b0b~mv2.png",
+      "note": "Sites of Remembering | Manish Sharma",
+      "ok": true,
+      "bytes": 342563
+    },
+    {
+      "path": "artworks/between-presence-and-absence-3--parul-kaur.png",
+      "url": "https://static.wixstatic.com/media/8de284_cf65c9a371de46fe8383d7d5911ddeee~mv2.png",
+      "note": "Between Presence and Absence 3 | Parul Kaur",
+      "ok": true,
+      "bytes": 1006337
+    },
+    {
+      "path": "artworks/finding-my-ground--rahul-and-gunjan.png",
+      "url": "https://static.wixstatic.com/media/8de284_9af886df80cd4094bae708342db02a1a~mv2.png",
+      "note": "Finding My Ground | Rahul & Gunjan",
+      "ok": true,
+      "bytes": 776513
+    },
+    {
+      "path": "artworks/meri-maa-ki-dua--rajesh-naik.png",
+      "url": "https://static.wixstatic.com/media/8de284_0e0561efc2444f97a48825609ccc5fea~mv2.png",
+      "note": "Meri Maa Ki Dua | Rajesh Naik",
+      "ok": true,
+      "bytes": 1582355
+    },
+    {
+      "path": "artworks/modified-continuity--sarvanan-parasuraman.png",
+      "url": "https://static.wixstatic.com/media/8de284_8935754a03b34f2687a1d38f8468ecbd~mv2.png",
+      "note": "Modified Continuity | Sarvanan Parasuraman",
+      "ok": true,
+      "bytes": 2014772
+    },
+    {
+      "path": "artworks/embrace-of-light--selvakumar.png",
+      "url": "https://static.wixstatic.com/media/8de284_d6957eee25c54c93b078e9a80c5225fd~mv2.png",
+      "note": "Embrace of Light | SelvaKumar",
+      "ok": true,
+      "bytes": 842095
+    },
+    {
+      "path": "artworks/head-1--subodh-kerkar.png",
+      "url": "https://static.wixstatic.com/media/8de284_e9fae437e2d947c2af5ad07b0d152de4~mv2.png",
+      "note": "Head 1 | Subodh Kerkar",
+      "ok": true,
+      "bytes": 1718138
+    },
+    {
+      "path": "artworks/sanctum-aikyam--vinod-daroz.png",
+      "url": "https://static.wixstatic.com/media/8de284_5de296dd10524fbaa0ed6c023bace99c~mv2.png",
+      "note": "Sanctum (From the series of Aikyam) | Vinod Daroz",
+      "ok": true,
+      "bytes": 911551
+    },
+    {
+      "path": "artists/anupama-choudary.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_ee9203fe4bea4b5c8b903ae9f06d075f~mv2.jpg",
+      "note": "Anupama Choudary",
+      "ok": true,
+      "bytes": 460967
+    },
+    {
+      "path": "artists/ashok-juttu.jpg",
+      "url": "https://static.wixstatic.com/media/ae9d87_eece866b76b94b5699b09ee25dc92256~mv2.jpg",
+      "note": "Ashok Juttu",
+      "ok": true,
+      "bytes": 1532508
+    },
+    {
+      "path": "artists/chandrapal-panjre.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_ee6b078b5aec4094abd8882a6eb98069~mv2.jpg",
+      "note": "Chandrapal Panjre",
+      "ok": true,
+      "bytes": 131603
+    },
+    {
+      "path": "artists/charanjeet-singh.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_a1b275a7e0e443a5aaf5c0eb04712243~mv2.jpg",
+      "note": "Charanjeet Singh",
+      "ok": true,
+      "bytes": 936827
+    },
+    {
+      "path": "artists/dilip-kumar.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_19c9b980d4984f76b6f160d4da93939d~mv2.jpg",
+      "note": "Dilip Kumar",
+      "ok": true,
+      "bytes": 198771
+    },
+    {
+      "path": "artists/farhad-hussain.png",
+      "url": "https://static.wixstatic.com/media/8de284_0aa7d29f929d47bba1ea7dbc43be90d8~mv2.png",
+      "note": "Farhad Hussain",
+      "ok": true,
+      "bytes": 308847
+    },
+    {
+      "path": "artists/kolipitchai-prabhakar.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_278fdd6fdb2041309398ceb54b3f2510~mv2.jpg",
+      "note": "Kolipitchai Prabhakar",
+      "ok": true,
+      "bytes": 599793
+    },
+    {
+      "path": "artists/manish-sharma.jpg",
+      "url": "https://static.wixstatic.com/media/8de284_252f0f109c3e4b528bb0a5f27d61fc4c~mv2.jpg",
+      "note": "Manish Sharma",
+      "ok": true,
+      "bytes": 197586
+    },
+    {
+      "path": "icons/instagram.png",
+      "url": "https://static.wixstatic.com/media/11062b_482d38aa2aaa49a5b45774ebe9a5b544~mv2.png",
+      "note": "Instagram social icon",
+      "ok": true,
+      "bytes": 4730
+    },
+    {
+      "path": "icons/whatsapp.svg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+      "note": "WhatsApp floating button",
+      "ok": true,
+      "bytes": 2501
+    },
+    {
+      "path": "icons/wix-shape-1d3a0b.svg",
+      "url": "https://static.wixstatic.com/shapes/1d3a0b_97d72ad4c8dc4903bfb02b2baa7763ae.svg",
+      "note": "Decorative shape SVG",
+      "ok": true,
+      "bytes": 347
+    },
+    {
+      "path": "fonts/clear-sans-thin.woff2",
+      "url": "https://static.wixstatic.com/ufonts/08a6aa_eddba56762964185a3fea213a8458d38/woff2/file.woff2",
+      "note": "Clear Sans Thin (custom upload)",
+      "ok": true,
+      "bytes": 71684
+    },
+    {
+      "path": "fonts/louis-george-cafe-light.woff2",
+      "url": "https://static.wixstatic.com/ufonts/9dd8d0_7be2b0a114e449beb470ff0097036c95/woff2/file.woff2",
+      "note": "Louis George Cafe Light (custom upload)",
+      "ok": true,
+      "bytes": 15044
+    },
+    {
+      "path": "fonts/madefor-text.var.woff2",
+      "url": "https://static.parastorage.com/fonts/v2/f73e760d-c6b3-4659-9a8c-9ce1d76c1173/madefor-text.var.original.woff2",
+      "note": "Wix Madefor Text (variable)",
+      "ok": true,
+      "bytes": 40188
+    },
+    {
+      "path": "svg/chevron-left.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/chevron-right.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/hamburger.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/send-arrow.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/close-thick.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/close-thin.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/document.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    },
+    {
+      "path": "svg/scroll-down-cue.svg",
+      "url": "inline DOM",
+      "note": "Inline SVG",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+- generic [active] [ref=f37e1]:
+  - main [ref=f37e2]:
+    - generic [ref=f37e4]:
+      - generic [ref=f37e5]:
+        - link "INTARCS" [ref=f37e6] [cursor=pointer]:
+          - /url: "#top"
+        - navigation "Primary" [ref=f37e7]:
+          - list [ref=f37e8]:
+            - listitem [ref=f37e9]:
+              - link "Work" [ref=f37e10] [cursor=pointer]:
+                - /url: "#work"
+                - text: "[Work]"
+            - listitem [ref=f37e11]:
+              - link "Studio" [ref=f37e12] [cursor=pointer]:
+                - /url: "#studio"
+                - text: "[Studio]"
+            - listitem [ref=f37e13]:
+              - link "Journal" [ref=f37e14] [cursor=pointer]:
+                - /url: "#journal"
+                - text: "[Journal]"
+            - listitem [ref=f37e15]:
+              - link "Contact" [ref=f37e16] [cursor=pointer]:
+                - /url: "#contact"
+                - text: "[Contact]"
+      - generic [ref=f37e18]:
+        - heading "You feel the brand before it speaks®" [level=1] [ref=f37e19]:
+          - generic [ref=f37e20]: You feel the brand
+          - generic [ref=f37e22]: before it speaks®
+        - paragraph [ref=f37e24]: Intarcs builds brand identities for companies that care how things feel and how they are perceived over time.
+    - generic [ref=f37e26]:
+      - generic [ref=f37e27]:
+        - heading "Selected projects" [level=2] [ref=f37e28]:
+          - generic [ref=f37e29]: Selected
+          - generic [ref=f37e30]: projects
+        - link "view all works" [ref=f37e31] [cursor=pointer]:
+          - /url: "#work"
+      - generic [ref=f37e34]:
+        - generic [ref=f37e35]:
+          - article [ref=f37e36]:
+            - generic [ref=f37e37]:
+              - img "Payy Network" [ref=f37e38]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: web design
+            - generic [ref=f37e41]:
+              - heading "Payy Network" [level=3] [ref=f37e42]
+              - paragraph [ref=f37e43]: Stablecoin payments that feel familiar, not foreign.
+          - article [ref=f37e44]:
+            - generic [ref=f37e45]:
+              - img "Gather AI" [ref=f37e46]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: website
+            - generic [ref=f37e49]:
+              - heading "Gather AI" [level=3] [ref=f37e50]
+              - paragraph [ref=f37e51]: First telco run entirely on AI, powering hundreds of brands from one intelligent core
+        - article [ref=f37e53]:
+          - generic [ref=f37e54]:
+            - img "Jurni AI" [ref=f37e55]
+            - generic:
+              - generic: creative direction
+              - generic: visual identity
+              - generic: motion
+              - generic: website
+          - generic [ref=f37e58]:
+            - heading "Jurni AI" [level=3] [ref=f37e59]
+            - paragraph [ref=f37e60]: Jurni is an AI funnel engine that turns a prompt into a live, high-converting landing experience in minutes.
+        - generic [ref=f37e61]:
+          - article [ref=f37e62]:
+            - generic [ref=f37e63]:
+              - img "Parker AI" [ref=f37e64]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+            - generic [ref=f37e67]:
+              - heading "Parker AI" [level=3] [ref=f37e68]
+              - paragraph [ref=f37e69]: Parker is an AI creative strategist that thinks, researches, and structures work like a senior partner. Clear briefs, sharp angles, and sourced notes inside Slack
+          - article [ref=f37e70]:
+            - generic [ref=f37e71]:
+              - img "Nolana AI" [ref=f37e72]
+              - generic:
+                - generic: creative direction
+                - generic: visual identity
+                - generic: motion
+                - generic: website
+            - generic [ref=f37e75]:
+              - heading "Nolana AI" [level=3] [ref=f37e76]
+              - paragraph [ref=f37e77]: AI-native agentic OS for financial services operations
+    - generic [ref=f37e79]:
+      - generic [ref=f37e80]:
+        - generic [ref=f37e81]:
+          - button [pressed] [ref=f37e82] [cursor=pointer]:
+            - text: Schematic Design
+            - superscript [ref=f37e83]: (01)
+          - text: /
+        - generic [ref=f37e84]:
+          - button [ref=f37e85] [cursor=pointer]:
+            - text: Development & Town Planning Applications
+            - superscript [ref=f37e86]: (02)
+          - text: /
+        - generic [ref=f37e87]:
+          - button [ref=f37e88] [cursor=pointer]:
+            - text: Design Development
+            - superscript [ref=f37e89]: (03)
+          - text: /
+        - generic [ref=f37e90]:
+          - button [ref=f37e91] [cursor=pointer]:
+            - text: Marketing
+            - superscript [ref=f37e92]: (04)
+          - text: /
+        - generic [ref=f37e93]:
+          - button [ref=f37e94] [cursor=pointer]:
+            - text: Interior Design
+            - superscript [ref=f37e95]: (05)
+          - text: /
+        - generic [ref=f37e96]:
+          - button [ref=f37e97] [cursor=pointer]:
+            - text: Construction Documentation
+            - superscript [ref=f37e98]: (06)
+          - text: /
+        - button [ref=f37e100] [cursor=pointer]:
+          - text: Contract Administration
+          - superscript [ref=f37e101]: (07)
+      - img "Schematic Design" [ref=f37e105]
+      - generic [ref=f37e119]:
+        - generic [ref=f37e120]: "04"
+        - heading "Method" [level=2] [ref=f37e121]
+      - paragraph [ref=f37e122]: The scope of our Studio covers all stages within Architecture and Interior Design. We offer an end to end level of service from early concepts through to practical completion.
+    - generic [ref=f37e123]:
+      - generic [ref=f37e124]:
+        - generic [ref=f37e125]: Customer stories
+        - heading "Real customers. Real results." [level=2] [ref=f37e126]
+      - generic [ref=f37e127]:
+        - article [ref=f37e128]:
+          - generic [ref=f37e129]:
+            - generic [ref=f37e130]:
+              - heading "75 hours saved monthly" [level=3] [ref=f37e131]
+              - generic [ref=f37e132]:
+                - paragraph [ref=f37e133]:
+                  - generic [aria-hidden] [ref=f37e134]: “
+                  - text: Calendly helps us protect our team's time and make every support interaction count.”
+                - generic [ref=f37e135]:
+                  - generic [ref=f37e136]: Marques Stewart
+                  - generic [ref=f37e137]: Managing Director of Technology at Achievement First
+            - img "Marques Stewart" [ref=f37e139]
+        - article [aria-hidden] [ref=f37e140]
+        - article [aria-hidden] [ref=f37e143]
+        - article [aria-hidden] [ref=f37e146]
+        - article [aria-hidden] [ref=f37e149]
+      - tablist "Customer stories" [ref=f37e152]:
+        - tab "Marques Stewart" [selected] [ref=f37e153] [cursor=pointer]
+        - tab "Akira Bradley" [ref=f37e155] [cursor=pointer]
+        - tab "Lizzie Lewis" [ref=f37e156] [cursor=pointer]
+        - tab "Pua Pakele" [ref=f37e157] [cursor=pointer]
+        - tab "Elizabeth Saunders" [ref=f37e158] [cursor=pointer]
+    - generic [ref=f37e161]:
+      - generic [ref=f37e162]:
+        - generic [ref=f37e163]:
+          - generic [ref=f37e164]: "05"
+          - generic [ref=f37e165]: Clients
+        - heading "Brands we've helped" [level=2] [ref=f37e166]
+      - generic [ref=f37e167]:
+        - generic [ref=f37e168]:
+          - img "Vinamilk" [ref=f37e170]
+          - generic [ref=f37e171]: Vinamilk
+        - generic [ref=f37e172]:
+          - img "Moc Chau Creamery" [ref=f37e174]
+          - generic [ref=f37e175]: Moc Chau Creamery
+        - generic [ref=f37e176]:
+          - img "University of Sydney" [ref=f37e178]
+          - generic [ref=f37e179]: University of Sydney
+        - generic [ref=f37e180]:
+          - img "OH Architecture" [ref=f37e182]
+          - generic [ref=f37e183]: OH Architecture
+        - generic [ref=f37e184]:
+          - img "Supersolid Agency" [ref=f37e186]
+          - generic [ref=f37e187]: Supersolid Agency
+        - generic [ref=f37e188]:
+          - img "SLIK Agency" [ref=f37e190]
+          - generic [ref=f37e191]: SLIK Agency
+        - generic [ref=f37e192]:
+          - img "Mammoth Murals" [ref=f37e194]
+          - generic [ref=f37e195]: Mammoth Murals
+        - generic [ref=f37e196]:
+          - img "Backhouse" [ref=f37e198]
+          - generic [ref=f37e199]: Backhouse
+    - generic [ref=f37e201]:
+      - generic [ref=f37e202]:
+        - paragraph [ref=f37e203]: Intarcs.
+        - paragraph [ref=f37e204]: Intarcs — Designing Brands, Building Experiences
+      - generic [ref=f37e206]:
+        - navigation "Navigation" [ref=f37e207]:
+          - heading "Navigation" [level=2] [ref=f37e208]
+          - list [ref=f37e209]:
+            - listitem [ref=f37e210]:
+              - link "Home" [ref=f37e211] [cursor=pointer]:
+                - /url: "#top"
+            - listitem [ref=f37e212]:
+              - link "About" [ref=f37e213] [cursor=pointer]:
+                - /url: "#studio"
+            - listitem [ref=f37e214]:
+              - link "Service" [ref=f37e215] [cursor=pointer]:
+                - /url: "#studio"
+            - listitem [ref=f37e216]:
+              - link "Location" [ref=f37e217] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f37e218]:
+              - link "Pricing" [ref=f37e219] [cursor=pointer]:
+                - /url: "#contact"
+        - navigation "Support" [ref=f37e220]:
+          - heading "Support" [level=2] [ref=f37e221]
+          - list [ref=f37e222]:
+            - listitem [ref=f37e223]:
+              - link "Help Center" [ref=f37e224] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f37e225]:
+              - link "FAQ" [ref=f37e226] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f37e227]:
+              - link "Terms" [ref=f37e228] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f37e229]:
+              - link "Privacy" [ref=f37e230] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f37e231]:
+          - heading "Stay up to date" [level=2] [ref=f37e232]
+          - generic [ref=f37e234]:
+            - link "Instagram" [ref=f37e235] [cursor=pointer]:
+              - /url: "#"
+            - link "LinkedIn" [ref=f37e240] [cursor=pointer]:
+              - /url: "#"
+            - link "YouTube" [ref=f37e244] [cursor=pointer]:
+              - /url: "#"
+            - link "Dribbble" [ref=f37e248] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=f37e252]: Subscribe to newsletter
+          - generic [ref=f37e253]:
+            - textbox "Subscribe to newsletter" [ref=f37e254]:
+              - /placeholder: Enter your email
+            - button "Contact us" [ref=f37e255]
+      - generic [ref=f37e257]: Intarcs.
+  - button "Open Next.js Dev Tools" [ref=f37e263] [cursor=pointer]

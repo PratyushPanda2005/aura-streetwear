@@ -1,0 +1,3 @@
+[    2615ms] [WARNING] Unrecognized feature: 'presentation'. @ https://screen.movie/:172
+[    5231ms] [LOG] DataFast: pageview tracked successfully @ https://datafa.st/js/script.js:0
+[   14913ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.UMRSAOTK.mjs:0

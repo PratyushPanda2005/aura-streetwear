@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - region "top of page"
+    - generic [ref=e10]:
+      - group:
+        - banner:
+          - generic [ref=e11]:
+            - group:
+              - link [ref=e16] [cursor=pointer]:
+                - /url: https://www.ekchitra.com
+                - img "EkChitra Logo black.png" [ref=e18]
+              - navigation "Site" [ref=e21]:
+                - list [ref=e22]:
+                  - listitem [ref=e23]:
+                    - link "About" [ref=e26] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/about
+                  - listitem [ref=e28]:
+                    - link "Artists" [ref=e31] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/artists
+                  - listitem [ref=e33]:
+                    - link "Gallery" [ref=e36] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/category/all-products
+                  - listitem [ref=e38]:
+                    - link "Exhibitions" [ref=e41] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/exhibitions
+                  - listitem [ref=e43]:
+                    - link "News" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/news
+                  - listitem [ref=e48]:
+                    - link "Contact" [ref=e51] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/contact
+        - main:
+          - generic [ref=e54]:
+            - group:
+              - group [ref=e58]:
+                - generic [ref=e59]:
+                  - group:
+                    - group [ref=e60]:
+                      - list:
+                        - listitem [ref=e61]:
+                          - img "hydart 2025 Show Banner 1920x1080 copy.jpg" [ref=e67]
+          - generic [ref=e70]:
+            - group:
+              - generic [ref=e74]:
+                - group:
+                  - heading "Meet the Artists" [level=2] [ref=e77]
+                  - link "Explore More Artists" [ref=e78] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/artists/selva-kumar
+              - generic [ref=e85]:
+                - group:
+                  - generic [ref=e87]:
+                    - list:
+                      - listitem [ref=e88]:
+                        - generic [ref=e90]:
+                          - link [ref=e93] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/anupama-choudhary
+                            - img "ANUPAMA CHOUDARY | Ekchitra" [ref=e97]
+                          - heading "ANUPAMA CHOUDARY" [level=6] [ref=e99]
+                      - listitem [ref=e100]:
+                        - generic [ref=e102]:
+                          - link [ref=e105] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/ashok-juttu
+                            - img "Ashok Juttu | Ekchitra" [ref=e109]
+                          - heading "ASHOK JUTTU" [level=6] [ref=e111]
+                      - listitem [ref=e112]:
+                        - generic [ref=e114]:
+                          - link [ref=e117] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/chandrapal-panjre
+                            - img "Chandrapal Panjre | Ekchitra" [ref=e121]
+                          - heading "CHANDRAPAL PANJRE" [level=6] [ref=e123]
+                      - listitem [ref=e124]:
+                        - generic [ref=e126]:
+                          - link [ref=e129] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/charanjeet-singh
+                            - img "Charanjeet Singh | Ekchitra" [ref=e133]
+                          - heading "CHARANJEET SINGH" [level=6] [ref=e135]
+                      - listitem [ref=e136]:
+                        - generic [ref=e138]:
+                          - link [ref=e141] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/dilip-kumar
+                            - img "Dilip Kumar | Ekchitra" [ref=e145]
+                          - heading "DILIP KUMAR" [level=6] [ref=e147]
+                      - listitem [ref=e148]:
+                        - generic [ref=e150]:
+                          - link [ref=e153] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/farhad-hussain
+                            - img "Farhad Hussain | Ekchitra" [ref=e157]
+                          - heading "FARHAD HUSSAIN" [level=6] [ref=e159]
+                      - listitem [ref=e160]:
+                        - generic [ref=e162]:
+                          - link [ref=e165] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/kolipitchai-prabhakar
+                            - img "Kolipitchai Prabhakar | Ekchitra" [ref=e169]
+                          - heading "KOLIPITCHAI PRABHAKAR" [level=6] [ref=e171]
+                      - listitem [ref=e172]:
+                        - generic [ref=e174]:
+                          - link [ref=e177] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/artists/manish-sharma
+                            - img "Manisha Sharma | Ekchitra" [ref=e181]
+                          - heading "MANISH SHARMA" [level=6] [ref=e183]
+          - generic [ref=e184]:
+            - generic [ref=e188]:
+              - group:
+                - img "Ekchitra art gallery | Hyderabad" [ref=e194]
+            - generic [ref=e195]:
+              - group:
+                - generic [ref=e197]:
+                  - heading "ABOUT EKCHITRA" [level=2] [ref=e200]
+                  - paragraph [ref=e202]: "EKCHITRA was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide. Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+                  - link "More About Us" [ref=e203] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/about
+          - generic [ref=e210]:
+            - group:
+              - generic [ref=e214]:
+                - group:
+                  - heading "Exhibitions" [level=2] [ref=e217]
+                  - link "Explore more Exhibitions" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/exhibitions
+              - generic [ref=e225]:
+                - group:
+                  - generic [ref=e227]:
+                    - list:
+                      - listitem [ref=e228]:
+                        - generic [ref=e230]:
+                          - link [ref=e233] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/exhibitions
+                            - img "HYD ART | Ekchitra | 2025" [ref=e237]
+                          - heading "HYD ART" [level=6] [ref=e239]
+                          - paragraph [ref=e241]: December 19 - 21, 2025
+                      - listitem [ref=e242]:
+                        - generic [ref=e244]:
+                          - link [ref=e247] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/exhibitions
+                            - img "SWADHATRI | Ekchitra | 2025" [ref=e251]
+                          - heading "SWADHATRI" [level=6] [ref=e253]
+                          - paragraph [ref=e255]: March 7 - 16, 2025
+                      - listitem [ref=e256]:
+                        - generic [ref=e258]:
+                          - link [ref=e261] [cursor=pointer]:
+                            - /url: https://www.ekchitra.com/exhibitions
+                            - img "LIVING TEMPLE | Ekchitra | 2025" [ref=e265]
+                          - heading "LIVING TEMPLE" [level=6] [ref=e267]
+                          - paragraph [ref=e269]: Feb 28 - March 4 2025
+          - generic [ref=e270]:
+            - generic [ref=e274]:
+              - group:
+                - heading "UPCOMING" [level=2] [ref=e277]
+            - generic [ref=e278]:
+              - group:
+                - generic [ref=e280]:
+                  - list:
+                    - listitem [ref=e281]:
+                      - generic [ref=e283]:
+                        - img "Hyd Art" [ref=e289]
+                        - heading "LIVING TEMPLE 2026" [level=6] [ref=e291]
+                        - heading "NOT YET ANNOUNCED" [level=6] [ref=e293]
+                    - listitem [ref=e294]:
+                      - generic [ref=e296]:
+                        - img "Hyd Art" [ref=e302]
+                        - heading "HYD ART 2026" [level=6] [ref=e304]
+                        - heading "December 03 - 04, 2026" [level=6] [ref=e306]
+        - contentinfo:
+          - generic [ref=e307]:
+            - group:
+              - generic [ref=e311]:
+                - group:
+                  - generic [ref=e313]:
+                    - heading "EkChitra" [level=5] [ref=e316]
+                    - paragraph [ref=e318]: Contemporary Indian art gallery showcasing exceptional talent and creativity.
+                    - list "Social Bar" [ref=e320]:
+                      - listitem [ref=e321]:
+                        - link "Instagram" [ref=e322] [cursor=pointer]:
+                          - /url: https://www.instagram.com/ek_chitra/
+              - generic [ref=e324]:
+                - group:
+                  - generic [ref=e326]:
+                    - heading "Quick Links" [level=5] [ref=e329]
+                    - paragraph [ref=e331]:
+                      - link "Gallery" [ref=e332] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/about
+                    - paragraph [ref=e334]:
+                      - link "Artists" [ref=e335] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/artists
+                    - paragraph [ref=e337]:
+                      - link "Exhibitions" [ref=e338] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/virtual-gallery
+                    - paragraph [ref=e340]:
+                      - link "News" [ref=e341] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/news
+              - generic [ref=e342]:
+                - group:
+                  - generic [ref=e344]:
+                    - heading "Information" [level=5] [ref=e347]
+                    - paragraph [ref=e349]:
+                      - link "About Us" [ref=e350] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/about
+                    - paragraph [ref=e352]:
+                      - link "Contact" [ref=e353] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/contact
+                    - paragraph [ref=e355]:
+                      - link "Privacy Policy" [ref=e356] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/privacy-policy
+                    - paragraph [ref=e358]:
+                      - link "Terms & Conditions" [ref=e359] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/terms-and-conditions
+              - generic [ref=e360]:
+                - group
+              - generic [ref=e363]:
+                - group:
+                  - paragraph [ref=e367]: © 2026 EKCHITRA. All rights reserved.
+    - region "bottom of page"
+  - link "Chat on WhatsApp" [ref=e368] [cursor=pointer]:
+    - /url: https://wa.me/919100118321
+    - img "WhatsApp Icon" [ref=e369]
+  - generic [ref=e371] [cursor=pointer]
