@@ -1,4 +1,5 @@
 import { Marcellus } from "next/font/google";
+import "./ekchitra.css";
 
 // Display serif for artist names in the artists carousel. Scoped to this route.
 const marcellus = Marcellus({

@@ -13,7 +13,7 @@ export const FONT = {
 
 /**
  * Colours. The page ground and ink are CSS variables on `.ekchitra-site`
- * (`src/app/globals.css`); use them in class names as `bg-(--ek-paper)` and
+ * (`src/app/ekchitra-redesign/ekchitra.css`); use them in class names as `bg-(--ek-paper)` and
  * `text-(--ek-ink)`. Change the two values there to recolour the whole site.
  */
 export const COLOR = {
