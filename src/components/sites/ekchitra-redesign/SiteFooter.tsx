@@ -3,18 +3,26 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 import { FOOTER, LOGO, ROUTES } from "./data";
-import { FONT, Text } from "./design-system";
+import { BrandStripe, FONT, Text } from "./design-system";
 
-const LINK = "transition-colors duration-300 ease-out hover:text-[#b50938]";
+const TITLE = "text-[12px] tracking-[1.4px] text-(--ek-maroon) uppercase";
 
-/** Light grey footer: gallery details, two link lists, location and social links. */
+const LINK =
+  "text-(--ek-ink)/75 transition-colors duration-300 ease-out hover:text-(--ek-maroon)";
+
+/**
+ * Footer on the off-white ground: the four-colour stripe along the top, then the
+ * logo and tagline, two link lists, and location with social links.
+ */
 export function SiteFooter() {
   return (
     <footer
       id="contact"
-      className={cn("bg-[#f2f2f2] text-[#6e6e6e]", FONT.sans)}
+      className={cn("bg-(--ek-paper) text-(--ek-ink)", FONT.sans)}
     >
-      <div className="grid gap-y-10 px-[17px] py-[30px] lg:grid-cols-3 lg:gap-x-[60px] lg:px-[69px]">
+      <BrandStripe />
+
+      <div className="grid gap-y-12 px-[17px] pt-14 pb-12 lg:grid-cols-3 lg:gap-x-[60px] lg:px-[69px] lg:pt-[69px] lg:pb-14">
         <div>
           <a
             href={ROUTES.home}
@@ -26,10 +34,10 @@ export function SiteFooter() {
               alt={LOGO.alt}
               width={LOGO.width}
               height={LOGO.height}
-              className="h-6 w-auto"
+              className="h-7 w-auto"
             />
           </a>
-          <Text size="sm" className="mt-5 max-w-[320px]">
+          <Text size="sm" className="mt-5 max-w-[320px] text-(--ek-ink)/75">
             {FOOTER.tagline}
           </Text>
         </div>
@@ -37,7 +45,7 @@ export function SiteFooter() {
         <nav aria-label="Footer" className="grid grid-cols-2 gap-x-[14px]">
           {FOOTER.columns.map((column) => (
             <div key={column.title}>
-              <Text size="sm" className="font-bold">
+              <Text size="sm" className={TITLE}>
                 {column.title}
               </Text>
               <ul className="mt-4">
@@ -59,10 +67,10 @@ export function SiteFooter() {
         </nav>
 
         <div className="flex flex-col lg:items-end lg:text-right">
-          <Text size="sm" className="font-bold">
+          <Text size="sm" className={TITLE}>
             {FOOTER.location.title}
           </Text>
-          <Text size="sm" className="mt-4">
+          <Text size="sm" className="mt-4 text-(--ek-ink)/75">
             {FOOTER.location.note}
           </Text>
           <ul className="mt-4 flex gap-x-5">
@@ -84,12 +92,11 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <Text
-        size="sm"
-        className="px-[17px] pb-[30px] text-[12px] lg:px-[69px] lg:text-right"
-      >
-        {FOOTER.copyright}
-      </Text>
+      <div className="mx-[17px] border-t border-(--ek-ink)/15 py-6 lg:mx-[69px]">
+        <Text size="sm" className="text-[12px] text-(--ek-ink)/60">
+          {FOOTER.copyright}
+        </Text>
+      </div>
     </footer>
   );
 }

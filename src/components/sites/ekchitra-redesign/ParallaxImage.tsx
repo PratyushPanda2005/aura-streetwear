@@ -17,7 +17,7 @@ export function ParallaxImage() {
   return (
     <div
       className={cn(
-        "relative h-[420px] bg-black [clip-path:inset(0)] lg:h-[560px]",
+        "relative h-[420px] bg-(--ek-ink) [clip-path:inset(0)] lg:h-[560px]",
         FONT.sans,
       )}
     >
@@ -33,7 +33,7 @@ export function ParallaxImage() {
       {PARALLAX_IMAGE.caption ? (
         <Text
           size="sm"
-          className="absolute bottom-[17px] left-[17px] text-white/80 lg:bottom-[30px] lg:left-[30px]"
+          className="absolute bottom-[17px] left-[17px] text-(--ek-paper)/80 lg:bottom-[30px] lg:left-[30px]"
         >
           {PARALLAX_IMAGE.caption}
         </Text>

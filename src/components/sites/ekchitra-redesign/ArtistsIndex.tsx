@@ -51,7 +51,7 @@ export function ArtistsIndex() {
   return (
     <section
       className={cn(
-        "bg-white pt-[112px] text-black min-[600px]:pt-[128px] min-[1200px]:pt-[140px]",
+        "bg-(--ek-paper) pt-[112px] text-(--ek-ink) min-[600px]:pt-[128px] min-[1200px]:pt-[140px]",
         FONT.sans,
       )}
     >
@@ -80,7 +80,7 @@ export function ArtistsIndex() {
             <button
               type="button"
               onClick={() => setQuery("")}
-              className="text-[17px] leading-7 tracking-[0.17px] underline-offset-4 transition-colors duration-150 ease-in-out hover:text-[#1a1a1a] hover:underline"
+              className="text-[17px] leading-7 tracking-[0.17px] underline-offset-4 transition-colors duration-150 ease-in-out hover:text-(--ek-ink) hover:underline"
             >
               Clear search
             </button>
@@ -101,7 +101,7 @@ export function ArtistsIndex() {
                     as="a"
                     size="sm"
                     href={`#${artistId(item.artist)}`}
-                    className="uppercase transition-colors duration-150 ease-in-out hover:text-[#b50938]"
+                    className="uppercase transition-colors duration-150 ease-in-out hover:text-(--ek-maroon)"
                   >
                     {item.artist}
                   </Text>
@@ -137,7 +137,7 @@ export function ArtistsIndex() {
                     <Heading
                       as="h2"
                       size="sm"
-                      className="mt-4 text-[19px] leading-6 transition-colors duration-150 ease-in-out group-hover:text-[#b50938]"
+                      className="mt-4 text-[19px] leading-6 transition-colors duration-150 ease-in-out group-hover:text-(--ek-maroon)"
                     >
                       {item.artist}
                     </Heading>

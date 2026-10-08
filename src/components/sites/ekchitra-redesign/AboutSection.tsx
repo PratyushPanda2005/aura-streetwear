@@ -15,7 +15,10 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className={cn("bg-white pb-14 text-black lg:pb-[69px]", FONT.sans)}
+      className={cn(
+        "bg-(--ek-paper) pb-14 text-(--ek-ink) lg:pb-[69px]",
+        FONT.sans,
+      )}
     >
       <div className="px-[17px] py-[34px] text-center lg:px-[69px]">
         <Label as="h2" className="py-[11px]">

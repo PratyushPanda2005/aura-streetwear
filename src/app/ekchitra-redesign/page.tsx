@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { AboutSection } from "@/components/sites/ekchitra-redesign/AboutSection";
 import { ArtistsSection } from "@/components/sites/ekchitra-redesign/ArtistsSection";
+import { BrandStripe } from "@/components/sites/ekchitra-redesign/design-system";
 import { EventsSection } from "@/components/sites/ekchitra-redesign/EventsSection";
 import { HeroSection } from "@/components/sites/ekchitra-redesign/HeroSection";
 import { ParallaxImage } from "@/components/sites/ekchitra-redesign/ParallaxImage";
@@ -16,11 +17,13 @@ export const metadata: Metadata = {
 
 export default function EkchitraRedesignPage() {
   return (
-    <main className="flex min-h-svh flex-col bg-white text-[#333]">
+    <main className="flex min-h-svh flex-col bg-(--ek-paper) text-(--ek-ink)">
       <SiteHeader />
       <HeroSection />
       <AboutSection />
+      <BrandStripe />
       <EventsSection />
+      <BrandStripe />
       <ArtistsSection />
       <ParallaxImage />
       <ServicesSection />

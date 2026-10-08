@@ -1,3 +1,4 @@
+export { BrandStripe } from "./BrandStripe";
 export { Button } from "./Button";
 export { CarouselArrow } from "./CarouselArrow";
 export { PageBanner } from "./PageBanner";

@@ -71,7 +71,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
       className={cn(
         "group fixed inset-x-0 top-0 z-[11] h-[112px] transition-[background-color,transform] duration-300 ease-out min-[600px]:h-[128px] min-[1200px]:h-[140px]",
         FONT.sans,
-        solid ? "bg-white" : "bg-white/0",
+        solid ? "bg-(--ek-paper)" : "bg-(--ek-paper)/0",
         hidden && !menuOpen ? "-translate-y-full" : "translate-y-0",
       )}
     >
@@ -104,7 +104,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
                     href={link.href}
                     className={cn(
                       NAV_LINK,
-                      "text-white/75 transition-colors duration-300 ease-out group-data-[solid=true]:text-[#767676] hover:text-white group-data-[solid=true]:hover:text-[#1a1a1a]",
+                      "text-(--ek-paper)/75 transition-colors duration-300 ease-out group-data-[solid=true]:text-[#767676] hover:text-(--ek-paper) group-data-[solid=true]:hover:text-(--ek-ink)",
                     )}
                   >
                     {link.label}
@@ -131,7 +131,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
                     aria-current={link.href === pathname ? "page" : undefined}
                     className={cn(
                       NAV_LINK,
-                      "text-white transition-colors duration-300 ease-out group-data-[solid=true]:text-[#1a1a1a]",
+                      "text-(--ek-paper) transition-colors duration-300 ease-out group-data-[solid=true]:text-(--ek-ink)",
                     )}
                   >
                     {link.label}
@@ -147,7 +147,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
             aria-expanded={menuOpen}
             aria-controls="ekchitra-mobile-menu"
             onClick={() => setMenuOpen((open) => !open)}
-            className="absolute top-4 right-0 flex items-center gap-2 text-[12px] leading-6 tracking-[1.4px] text-white uppercase transition-colors duration-[250ms] group-data-[solid=true]:text-[#1a1a1a] min-[600px]:hidden"
+            className="absolute top-4 right-0 flex items-center gap-2 text-[12px] leading-6 tracking-[1.4px] text-(--ek-paper) uppercase transition-colors duration-[250ms] group-data-[solid=true]:text-(--ek-ink) min-[600px]:hidden"
           >
             {menuOpen ? "Close" : "Menu"}
             <svg viewBox="0 0 24 24" aria-hidden="true" className="size-6">
@@ -175,7 +175,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
       <div
         id="ekchitra-mobile-menu"
         hidden={!menuOpen}
-        className="absolute inset-x-0 top-full h-[calc(100dvh-112px)] overflow-y-auto border-t border-[#e6e6e6] bg-white px-[17px] py-6 min-[600px]:hidden"
+        className="absolute inset-x-0 top-full h-[calc(100dvh-112px)] overflow-y-auto border-t border-[#e6e6e6] bg-(--ek-paper) px-[17px] py-6 min-[600px]:hidden"
       >
         <ul className={cn("text-[27px] leading-9 uppercase", FONT.serif)}>
           {[...PRIMARY_NAV, ...SECONDARY_NAV].map((link) => (
@@ -184,7 +184,7 @@ export function SiteHeader({ alwaysSolid = false }: { alwaysSolid?: boolean }) {
                 href={link.href}
                 aria-current={link.href === pathname ? "page" : undefined}
                 onClick={() => setMenuOpen(false)}
-                className="block py-4 text-[#1a1a1a] transition-colors duration-150 ease-in-out hover:text-[#b50938] aria-[current=page]:text-[#b50938]"
+                className="block py-4 text-(--ek-ink) transition-colors duration-150 ease-in-out hover:text-(--ek-maroon) aria-[current=page]:text-(--ek-maroon)"
               >
                 {link.label}
               </a>

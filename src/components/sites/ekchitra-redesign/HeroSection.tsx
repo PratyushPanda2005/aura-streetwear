@@ -12,7 +12,7 @@ import { Button, FONT, Heading, Label, Text } from "./design-system";
 const SLIDE_INTERVAL_MS = 6000;
 
 /**
- * Full-bleed hero: a fixed-height media band with a dark scrim, centred
+ * Full-bleed hero: a full-screen media band with a dark scrim, centred
  * serif title, a white call-to-action and a play/pause control.
  *
  * The media is a slow cross-fade of gallery photographs standing in for a film;
@@ -36,7 +36,7 @@ export function HeroSection() {
     <section
       id="top"
       className={cn(
-        "relative h-[675px] w-full overflow-hidden bg-[#f3f3f3]",
+        "relative h-svh min-h-[560px] w-full overflow-hidden bg-[#f3f3f3]",
         FONT.sans,
       )}
     >
@@ -62,11 +62,13 @@ export function HeroSection() {
       <div className="absolute inset-x-0 top-0 h-[220px] bg-linear-to-b from-black/55 to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_62%_58%_at_50%_55%,rgb(0_0_0/0.56)_0%,rgb(0_0_0/0.38)_45%,rgb(0_0_0/0.04)_100%)]">
         <div className="flex h-full flex-col items-center justify-center px-4 pt-16 text-center [text-shadow:0_1px_2px_rgb(0_0_0/0.5),0_2px_18px_rgb(0_0_0/0.45)]">
-          <Label className="mb-4 text-white">{HERO.eyebrow}</Label>
-          <Heading as="h1" className="text-white">
+          <Label className="mb-4 text-(--ek-paper)">{HERO.eyebrow}</Label>
+          <Heading as="h1" className="text-(--ek-paper)">
             {HERO.title}
           </Heading>
-          <Text className="mt-4 max-w-[640px] text-white">{HERO.body}</Text>
+          <Text className="mt-4 max-w-[640px] text-(--ek-paper)">
+            {HERO.body}
+          </Text>
           <Button href={HERO.cta.href} className="mt-8">
             {HERO.cta.label}
           </Button>
@@ -78,7 +80,7 @@ export function HeroSection() {
         aria-label={playing ? "Pause slideshow" : "Play slideshow"}
         aria-pressed={!playing}
         onClick={() => setPlaying((value) => !value)}
-        className="absolute right-5 bottom-5 z-10 hidden size-8 items-center justify-center rounded-full bg-black/20 text-white transition-colors duration-150 ease-in-out hover:bg-black/50 min-[600px]:flex"
+        className="absolute right-5 bottom-5 z-10 hidden size-8 items-center justify-center rounded-full bg-black/20 text-(--ek-paper) transition-colors duration-150 ease-in-out hover:bg-black/50 min-[600px]:flex"
       >
         <svg viewBox="0 0 16 16" aria-hidden="true" className="size-4">
           {playing ? (

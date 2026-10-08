@@ -68,6 +68,8 @@ export interface Artwork {
   height: number;
   /** Artist page on ekchitra.com, where one exists. */
   href: string;
+  /** Shaped piece photographed on white: shown whole on a paper mount, not cropped. */
+  cutout?: boolean;
 }
 
 const ARTWORKS_DIR = "/sites/ekchitra-redesign/artworks";
@@ -108,6 +110,7 @@ export const ARTWORKS: Artwork[] = [
     image: `${ARTWORKS_DIR}/untitled-1--chandrapal-panjre.png`,
     width: 1200,
     height: 1438,
+    cutout: true,
     href: `${ARTISTS_URL}/chandrapal-panjre`,
   },
   {
@@ -128,6 +131,7 @@ export const ARTWORKS: Artwork[] = [
     image: `${ARTWORKS_DIR}/paths-1--dilip-kumar.png`,
     width: 1200,
     height: 1408,
+    cutout: true,
     href: `${ARTISTS_URL}/dilip-kumar`,
   },
   {
@@ -158,6 +162,7 @@ export const ARTWORKS: Artwork[] = [
     image: `${ARTWORKS_DIR}/sites-of-remembering--manish-sharma.png`,
     width: 1200,
     height: 671,
+    cutout: true,
     href: `${ARTISTS_URL}/manish-sharma`,
   },
   {
@@ -165,9 +170,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Between Presence and Absence 3",
     medium: "Watercolor on Stamp Papers",
     size: "14 x 20 Inches",
-    image: `${ARTWORKS_DIR}/between-presence-and-absence-3--parul-kaur.png`,
-    width: 1200,
-    height: 1444,
+    image: `${ARTWORKS_DIR}/between-presence-and-absence-3--parul-kaur-trimmed.png`,
+    width: 966,
+    height: 1319,
     href: `${ARTISTS_URL}/parul-kaur`,
   },
   {
@@ -178,6 +183,7 @@ export const ARTWORKS: Artwork[] = [
     image: `${ARTWORKS_DIR}/finding-my-ground--rahul-and-gunjan.png`,
     width: 1200,
     height: 919,
+    cutout: true,
     href: `${ARTISTS_URL}/rahul-%26-gunjan`,
   },
   {
@@ -198,6 +204,7 @@ export const ARTWORKS: Artwork[] = [
     image: `${ARTWORKS_DIR}/modified-continuity--sarvanan-parasuraman.png`,
     width: 1200,
     height: 1382,
+    cutout: true,
     href: `${ARTISTS_URL}/sarvanan-parasuraman`,
   },
   {
@@ -215,9 +222,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Head 1",
     medium: "Ceramic Clay with Red Oxide",
     size: "18.5 x 11 Inches",
-    image: `${ARTWORKS_DIR}/head-1--subodh-kerkar.png`,
-    width: 1200,
-    height: 1761,
+    image: `${ARTWORKS_DIR}/head-1--subodh-kerkar-trimmed.png`,
+    width: 1044,
+    height: 1613,
     href: `${ARTISTS_URL}/subodh-kekar`,
   },
   {

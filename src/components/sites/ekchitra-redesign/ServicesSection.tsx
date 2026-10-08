@@ -11,7 +11,7 @@ import { Button, FONT, Heading, Text } from "./design-system";
  */
 export function ServicesSection() {
   return (
-    <section id="services" className={cn("bg-[#191919]", FONT.sans)}>
+    <section id="services" className={cn("bg-(--ek-ink)", FONT.sans)}>
       {SERVICES.map((service, index) => (
         <div key={service.title} className="grid lg:h-[480px] lg:grid-cols-2">
           <div
@@ -29,20 +29,20 @@ export function ServicesSection() {
             />
           </div>
 
-          <div className="flex items-center justify-center bg-[#191919] px-[17px] py-14 text-center text-white lg:px-[69px] lg:py-0">
+          <div className="flex items-center justify-center bg-(--ek-ink) px-[17px] py-14 text-center text-(--ek-paper) lg:px-[69px] lg:py-0">
             <div className="max-w-[410px]">
-              <Text size="sm" className="text-white/70 uppercase">
+              <Text size="sm" className="text-(--ek-paper)/70 uppercase">
                 {service.eyebrow}
               </Text>
               <Heading as="h2" className="mt-3">
                 {service.title}
               </Heading>
-              <Text className="mt-4 text-white/85">{service.body}</Text>
+              <Text className="mt-4 text-(--ek-paper)/85">{service.body}</Text>
               <Button
                 href={service.cta.href}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-8 border-white bg-white text-[#780000]"
+                className="mt-8 bg-(--ek-paper) text-(--ek-maroon)"
               >
                 {service.cta.label}
               </Button>

@@ -497,3 +497,17 @@ body.scroll-lock {
     transform: scaleX(1);
   }
 }
+
+/* ==========================================================================
+   EkChitra redesign (/ekchitra-redesign) — brand palette.
+   Scoped to .ekchitra-site so other routes keep their own tokens.
+   Paper and ink are the ground and text; the other four are accents.
+   ========================================================================== */
+.ekchitra-site {
+  --ek-paper: #fcf0d6;
+  --ek-ink: #191919;
+  --ek-red: #e62a34;
+  --ek-maroon: #780000;
+  --ek-sky: #89cff0;
+  --ek-navy: #0c1b8f;
+}

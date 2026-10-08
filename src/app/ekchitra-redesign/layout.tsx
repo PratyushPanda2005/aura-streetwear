@@ -13,5 +13,7 @@ export default function EkchitraRedesignLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <div className={marcellus.variable}>{children}</div>;
+  return (
+    <div className={`ekchitra-site ${marcellus.variable}`}>{children}</div>
+  );
 }

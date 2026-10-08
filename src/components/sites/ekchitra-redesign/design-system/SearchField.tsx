@@ -37,12 +37,12 @@ export function SearchField({
         onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
         autoComplete="off"
-        className="h-14 min-w-0 flex-1 rounded-l-[2px] border border-transparent bg-[#f3f3f3] px-[15px] text-[17px] leading-7 tracking-[0.17px] text-[#1a1a1a] transition-colors duration-150 ease-in-out outline-none placeholder:text-[#767676] focus:border-[#1a1a1a] focus:bg-white [&::-webkit-search-cancel-button]:appearance-none"
+        className="h-14 min-w-0 flex-1 rounded-l-[2px] border border-transparent bg-[#f3f3f3] px-[15px] text-[17px] leading-7 tracking-[0.17px] text-(--ek-ink) transition-colors duration-150 ease-in-out outline-none placeholder:text-[#767676] focus:border-(--ek-ink) focus:bg-(--ek-paper) [&::-webkit-search-cancel-button]:appearance-none"
       />
       <button
         type="submit"
         aria-label={submitLabel}
-        className="flex size-14 shrink-0 items-center justify-center rounded-r-[2px] bg-[#767676] text-white transition-colors duration-150 ease-in-out hover:bg-[#1a1a1a]"
+        className="flex size-14 shrink-0 items-center justify-center rounded-r-[2px] bg-[#767676] text-(--ek-paper) transition-colors duration-150 ease-in-out hover:bg-(--ek-ink)"
       >
         <svg viewBox="0 0 24 24" aria-hidden="true" className="size-6">
           <circle

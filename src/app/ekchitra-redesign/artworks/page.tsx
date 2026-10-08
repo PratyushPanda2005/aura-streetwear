@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function EkchitraArtworksPage() {
   return (
-    <main className="flex min-h-svh flex-col bg-white text-[#333]">
+    <main className="flex min-h-svh flex-col bg-(--ek-paper) text-(--ek-ink)">
       <SiteHeader alwaysSolid />
       <ArtworksIndex />
       <SiteFooter />

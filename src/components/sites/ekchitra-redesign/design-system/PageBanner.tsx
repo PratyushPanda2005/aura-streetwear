@@ -21,7 +21,7 @@ export function PageBanner({ label, heading, meta, image }: PageBannerProps) {
   return (
     <div
       className={cn(
-        "relative flex min-h-[380px] items-end overflow-hidden bg-[#191919] lg:min-h-[480px]",
+        "relative flex min-h-[380px] items-end overflow-hidden bg-(--ek-ink) lg:min-h-[480px]",
         FONT.sans,
       )}
     >
@@ -34,19 +34,19 @@ export function PageBanner({ label, heading, meta, image }: PageBannerProps) {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/55 to-black/35" />
-      <div className="relative w-full px-[17px] pt-24 pb-10 text-white lg:px-[69px] lg:pb-14">
+      <div className="relative w-full px-[17px] pt-24 pb-10 text-(--ek-paper) lg:px-[69px] lg:pb-14">
         <Label as="p">{label}</Label>
         <Heading as="h1" className="mt-3 max-w-[980px]">
           {heading}
         </Heading>
         <div className="mt-5 flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2">
           {meta ? (
-            <Text size="sm" className="text-white/80 uppercase">
+            <Text size="sm" className="text-(--ek-paper)/80 uppercase">
               {meta}
             </Text>
           ) : null}
           {image.caption ? (
-            <Text size="sm" className="text-white/60">
+            <Text size="sm" className="text-(--ek-paper)/60">
               {image.caption}
             </Text>
           ) : null}
