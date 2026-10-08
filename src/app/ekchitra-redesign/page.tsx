@@ -19,14 +19,17 @@ export default function EkchitraRedesignPage() {
   return (
     <main className="flex min-h-svh flex-col bg-(--ek-paper) text-(--ek-ink)">
       <SiteHeader />
-      <HeroSection />
-      <AboutSection />
-      <BrandStripe />
-      <EventsSection />
-      <BrandStripe />
-      <ArtistsSection />
-      <ParallaxImage />
-      <ServicesSection />
+      {/* Sits above the footer, which is pinned behind it and revealed on scroll. */}
+      <div className="relative z-10 bg-(--ek-paper)">
+        <HeroSection />
+        <AboutSection />
+        <BrandStripe />
+        <EventsSection />
+        <BrandStripe />
+        <ArtistsSection />
+        <ParallaxImage />
+        <ServicesSection />
+      </div>
       <SiteFooter />
     </main>
   );

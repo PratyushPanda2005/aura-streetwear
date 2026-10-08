@@ -13,7 +13,10 @@ export default function EkchitraArtworksPage() {
   return (
     <main className="flex min-h-svh flex-col bg-(--ek-paper) text-(--ek-ink)">
       <SiteHeader alwaysSolid />
-      <ArtworksIndex />
+      {/* Sits above the footer, which is pinned behind it and revealed on scroll. */}
+      <div className="relative z-10 bg-(--ek-paper)">
+        <ArtworksIndex />
+      </div>
       <SiteFooter />
     </main>
   );

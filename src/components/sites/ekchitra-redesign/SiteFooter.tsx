@@ -11,14 +11,18 @@ const LINK =
   "text-(--ek-ink)/75 transition-colors duration-300 ease-out hover:text-(--ek-maroon)";
 
 /**
- * Footer on the off-white ground: the four-colour stripe along the top, then the
+ * Footer on the off-white ground, pinned to the bottom of the viewport behind the
+ * page so the content slides up to reveal it (on screens tall enough to fit it): the four-colour stripe along the top, then the
  * logo and tagline, two link lists, and location with social links.
  */
 export function SiteFooter() {
   return (
     <footer
       id="contact"
-      className={cn("bg-(--ek-paper) text-(--ek-ink)", FONT.sans)}
+      className={cn(
+        "bottom-0 z-0 bg-(--ek-paper) text-(--ek-ink) [@media(min-height:700px)]:sticky",
+        FONT.sans,
+      )}
     >
       <BrandStripe />
 
