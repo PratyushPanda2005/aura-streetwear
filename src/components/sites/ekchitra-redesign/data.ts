@@ -68,7 +68,7 @@ export interface Artwork {
   height: number;
   /** Artist page on ekchitra.com, where one exists. */
   href: string;
-  /** Shaped piece photographed on white: shown whole on a paper mount, not cropped. */
+  /** Shaped piece with a transparent background (white cut out of the photograph). */
   cutout?: boolean;
 }
 
@@ -107,9 +107,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Untitled - 1",
     medium: "Mixed Media",
     size: "24 x 30 Inches",
-    image: `${ARTWORKS_DIR}/untitled-1--chandrapal-panjre.png`,
-    width: 1200,
-    height: 1438,
+    image: `${ARTWORKS_DIR}/untitled-1--chandrapal-panjre-cutout.png`,
+    width: 1047,
+    height: 1295,
     cutout: true,
     href: `${ARTISTS_URL}/chandrapal-panjre`,
   },
@@ -128,9 +128,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Paths - 1",
     medium: "Acrylic on Plywood",
     size: "53 x 50 Inches",
-    image: `${ARTWORKS_DIR}/paths-1--dilip-kumar.png`,
-    width: 1200,
-    height: 1408,
+    image: `${ARTWORKS_DIR}/paths-1--dilip-kumar-cutout.png`,
+    width: 999,
+    height: 1085,
     cutout: true,
     href: `${ARTISTS_URL}/dilip-kumar`,
   },
@@ -159,9 +159,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Sites of Remembering",
     medium: "Wood, Iron, Acrylic and PU",
     size: "36 x 65 x 7 Inches",
-    image: `${ARTWORKS_DIR}/sites-of-remembering--manish-sharma.png`,
-    width: 1200,
-    height: 671,
+    image: `${ARTWORKS_DIR}/sites-of-remembering--manish-sharma-cutout.png`,
+    width: 968,
+    height: 494,
     cutout: true,
     href: `${ARTISTS_URL}/manish-sharma`,
   },
@@ -180,9 +180,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Finding My Ground",
     medium: "Collected Wool Silk, Linen, Cotton & Steel",
     size: "64 x 84 Inches",
-    image: `${ARTWORKS_DIR}/finding-my-ground--rahul-and-gunjan.png`,
-    width: 1200,
-    height: 919,
+    image: `${ARTWORKS_DIR}/finding-my-ground--rahul-and-gunjan-cutout.png`,
+    width: 1071,
+    height: 839,
     cutout: true,
     href: `${ARTISTS_URL}/rahul-%26-gunjan`,
   },
@@ -201,9 +201,9 @@ export const ARTWORKS: Artwork[] = [
     title: "Modified Continuity",
     medium: "Paper Board",
     size: "48 x 48 Inches",
-    image: `${ARTWORKS_DIR}/modified-continuity--sarvanan-parasuraman.png`,
-    width: 1200,
-    height: 1382,
+    image: `${ARTWORKS_DIR}/modified-continuity--sarvanan-parasuraman-cutout.png`,
+    width: 1128,
+    height: 1285,
     cutout: true,
     href: `${ARTISTS_URL}/sarvanan-parasuraman`,
   },

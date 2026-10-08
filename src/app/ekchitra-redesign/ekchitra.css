@@ -4,6 +4,8 @@
    accents. Use in class names as bg-(--ek-paper), text-(--ek-maroon), etc. */
 .ekchitra-site {
   --ek-paper: #fcf0d6;
+  /* A shade deeper than paper: tiles behind artworks. */
+  --ek-paper-deep: #eee3cb;
   --ek-ink: #191919;
   --ek-red: #e62a34;
   --ek-maroon: #780000;

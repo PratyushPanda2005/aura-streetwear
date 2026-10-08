@@ -35,12 +35,12 @@ export function ArtistsSection() {
     <section
       id="artists"
       className={cn(
-        "bg-(--ek-ink) pt-10 pb-14 text-(--ek-paper) lg:pt-12 lg:pb-[69px]",
+        "bg-(--ek-paper) pt-10 pb-14 text-(--ek-ink) lg:pt-12 lg:pb-[69px]",
         FONT.sans,
       )}
     >
       <Label as="h2" className="flex items-center justify-center gap-x-3">
-        <span aria-hidden="true" className="size-2 bg-(--ek-sky)" />
+        <span aria-hidden="true" className="size-2 bg-(--ek-navy)" />
         {ARTISTS_SECTION.label}
       </Label>
 
@@ -87,13 +87,13 @@ export function ArtistsSection() {
             swiperRef.current = swiper;
           }}
           onRealIndexChange={(swiper) => setActive(swiper.realIndex)}
-          className="!pb-[34px] [--swiper-pagination-bottom:0px] [--swiper-pagination-bullet-horizontal-gap:5.72px] [--swiper-pagination-bullet-inactive-color:#6f6f6f] [--swiper-pagination-bullet-inactive-opacity:1] [--swiper-pagination-bullet-size:5.72px] [--swiper-pagination-color:var(--ek-sky)]"
+          className="!pb-[34px] [--swiper-pagination-bottom:0px] [--swiper-pagination-bullet-horizontal-gap:5.72px] [--swiper-pagination-bullet-inactive-color:#a4a4a4] [--swiper-pagination-bullet-inactive-opacity:1] [--swiper-pagination-bullet-size:5.72px] [--swiper-pagination-color:var(--ek-navy)]"
         >
           {ARTWORKS.map((item, index) => (
             <SwiperSlide key={item.image} className="!w-[80vw] lg:!w-[54vw]">
               <div
                 className={cn(
-                  "relative aspect-[4/3] overflow-hidden bg-(--ek-paper)",
+                  "relative aspect-[4/3] overflow-hidden bg-(--ek-ink)",
                   index !== active && "cursor-pointer",
                 )}
               >
@@ -102,10 +102,7 @@ export function ArtistsSection() {
                   alt={`${item.title} by ${item.artist}`}
                   fill
                   sizes="(max-width: 1023px) 80vw, 54vw"
-                  className={cn(
-                    "object-contain p-[5%]",
-                    item.cutout && "mix-blend-multiply",
-                  )}
+                  className="object-contain p-[5%]"
                 />
               </div>
             </SwiperSlide>

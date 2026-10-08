@@ -19,6 +19,8 @@ export const FONT = {
 export const COLOR = {
   /** Off-white page ground and light text (#FCF0D6). */
   paper: "var(--ek-paper)",
+  /** A shade deeper than paper, for tiles behind artworks (#EEE3CB). */
+  paperDeep: "var(--ek-paper-deep)",
   /** Brand ink for text and dark grounds (#191919). */
   ink: "var(--ek-ink)",
   /** #780000 — accent for text: button labels, hover, status lines. */
