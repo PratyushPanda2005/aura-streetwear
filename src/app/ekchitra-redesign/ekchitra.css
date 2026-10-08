@@ -12,3 +12,9 @@
   --ek-sky: #89cff0;
   --ek-navy: #0c1b8f;
 }
+
+/* Text selection: dark red ground, off-white text. */
+.ekchitra-site ::selection {
+  background-color: var(--ek-maroon);
+  color: var(--ek-paper);
+}
