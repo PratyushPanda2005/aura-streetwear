@@ -39,10 +39,11 @@ export function ServicesSection() {
               </Heading>
               <Text className="mt-4 text-(--ek-paper)/85">{service.body}</Text>
               <Button
+                variant="light"
                 href={service.cta.href}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-8 bg-(--ek-paper) text-(--ek-maroon)"
+                className="mt-8"
               >
                 {service.cta.label}
               </Button>

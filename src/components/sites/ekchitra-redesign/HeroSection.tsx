@@ -69,7 +69,7 @@ export function HeroSection() {
           <Text className="mt-4 max-w-[640px] text-(--ek-paper)">
             {HERO.body}
           </Text>
-          <Button href={HERO.cta.href} className="mt-8">
+          <Button variant="light" href={HERO.cta.href} className="mt-8">
             {HERO.cta.label}
           </Button>
         </div>

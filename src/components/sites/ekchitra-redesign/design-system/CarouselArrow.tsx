@@ -7,7 +7,7 @@ type CarouselArrowProps = { direction: "prev" | "next" } & Omit<
   "type"
 >;
 
-/** Round previous/next control on top of a carousel: brand black with an off-white arrow. */
+/** Round previous/next control on top of a carousel: off-white with a dark red arrow, inverting on hover. */
 export function CarouselArrow({
   direction,
   className,
@@ -17,7 +17,7 @@ export function CarouselArrow({
     <button
       type="button"
       className={cn(
-        "pointer-events-auto flex size-[38px] items-center justify-center rounded-full border border-(--ek-paper)/25 bg-(--ek-ink) text-(--ek-paper) transition-[color,border-color,opacity] duration-150 ease-in-out hover:border-(--ek-paper) disabled:opacity-0",
+        "pointer-events-auto flex size-[38px] items-center justify-center rounded-full bg-(--ek-paper) text-(--ek-maroon) transition-[color,background-color,opacity] duration-150 ease-in-out hover:bg-(--ek-maroon) hover:text-(--ek-paper) disabled:opacity-0",
         className,
       )}
       {...rest}

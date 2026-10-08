@@ -1,0 +1,175 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e6]:
+      - link "EkChitra — home" [ref=e7] [cursor=pointer]:
+        - /url: /ekchitra-redesign
+        - img "EkChitra" [ref=e8]
+      - navigation "Secondary navigation" [ref=e9]:
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Contact" [ref=e12] [cursor=pointer]:
+              - /url: "#contact"
+      - navigation "Primary navigation" [ref=e13]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "About" [ref=e16] [cursor=pointer]:
+              - /url: /ekchitra-redesign#about
+          - listitem [ref=e17]:
+            - link "Artists" [ref=e18] [cursor=pointer]:
+              - /url: /ekchitra-redesign/artists
+          - listitem [ref=e19]:
+            - link "Artworks" [ref=e20] [cursor=pointer]:
+              - /url: /ekchitra-redesign/artworks
+          - listitem [ref=e21]:
+            - link "Exhibitions" [ref=e22] [cursor=pointer]:
+              - /url: /ekchitra-redesign#exhibitions
+          - listitem [ref=e23]:
+            - link "Services" [ref=e24] [cursor=pointer]:
+              - /url: /ekchitra-redesign#services
+    - generic [ref=e25]:
+      - img "Lamp lighting at an EkChitra exhibition opening" [ref=e26]
+      - img "Artists and visitors inside the EkChitra gallery" [ref=e27]
+      - img "Ribbon cutting at EkChitra, Hyderabad" [ref=e28]
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: EkChitra · Hyderabad
+        - heading "Art is everywhere. We help you notice." [level=1] [ref=e33]
+        - paragraph [ref=e34]: A contemporary Indian art gallery for the curious — welcoming, thoughtful and open to everyone.
+        - link "Our Exhibitions" [ref=e35] [cursor=pointer]:
+          - /url: "#exhibitions"
+      - button "Pause slideshow" [ref=e36]
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Why we exist" [level=2] [ref=e42]
+        - paragraph [ref=e43]:
+          - text: We’ve always lived around art.
+          - generic [ref=e44]: We’ve just forgotten to notice it.
+      - generic [ref=e45]:
+        - img "Artists and visitors gathered in front of a painting inside the EkChitra gallery" [ref=e47]
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.
+          - paragraph [ref=e51]: Ek Chitra makes that conversation easier to enter. Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.
+          - link "About us" [ref=e52] [cursor=pointer]:
+            - /url: https://www.ekchitra.com/about
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Events & Announcements" [level=2] [ref=e60]
+        - paragraph [ref=e62]: Current & upcoming
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: https://www.ekchitra.com/exhibitions
+            - img "Living Temple 2026 — exhibition poster" [ref=e69]
+            - generic [ref=e70]:
+              - paragraph [ref=e71]: Ongoing
+              - heading "Living Temple 2026" [level=3] [ref=e73]
+              - generic [ref=e74]:
+                - paragraph [ref=e75]: 12 Sep — 18 Nov 2026
+                - paragraph [ref=e76]: Curated by Annapurna M
+                - paragraph [ref=e77]: EkChitra, Hyderabad
+          - link [ref=e79] [cursor=pointer]:
+            - /url: https://www.ekchitra.com/exhibitions
+            - paragraph [ref=e81]: Exhibition image to follow
+            - generic [ref=e82]:
+              - paragraph [ref=e83]: Upcoming
+              - heading "Where Light Rests" [level=3] [ref=e85]
+              - generic [ref=e86]:
+                - paragraph [ref=e87]: 05 Dec 2026 — 14 Feb 2027
+                - paragraph [ref=e88]: Curated by Annapurna M
+                - paragraph [ref=e89]: EkChitra, Hyderabad
+        - generic:
+          - button "Previous event" [disabled] [ref=e90]
+          - button "Next event" [ref=e93]
+      - link "View all" [ref=e97] [cursor=pointer]:
+        - /url: https://www.ekchitra.com/exhibitions
+    - generic [ref=e103]:
+      - heading "Artists" [level=2] [ref=e104]
+      - generic [ref=e106]:
+        - paragraph [ref=e107]: Anupama Choudhary
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Arthanareeswara
+          - paragraph [ref=e110]: Mixed Media on Canvas · 36 x 36 Inches
+        - link "View artist" [ref=e111] [cursor=pointer]:
+          - /url: https://www.ekchitra.com/artists/anupama-choudhary
+      - generic [ref=e112]:
+        - generic [ref=e114]:
+          - img "Arthanareeswara by Anupama Choudhary" [ref=e117]
+          - img "Untitled - 1 by Ashok Juttu" [ref=e120] [cursor=pointer]
+          - img "Untitled - 1 by Chandrapal Panjre" [ref=e123] [cursor=pointer]
+          - img "Untitled - 2 by Charanjeet Singh" [ref=e126] [cursor=pointer]
+          - img "Paths - 1 by Dilip Kumar" [ref=e129] [cursor=pointer]
+          - img "Harmony of Nature and Mind by Farhad Hussain" [ref=e132] [cursor=pointer]
+          - img "Vernacular House by Kolipitchai Prabhakar" [ref=e135] [cursor=pointer]
+          - img "Sites of Remembering by Manish Sharma" [ref=e138] [cursor=pointer]
+          - img "Between Presence and Absence 3 by Parul Kaur" [ref=e141] [cursor=pointer]
+          - img "Finding My Ground by Rahul & Gunjan" [ref=e144] [cursor=pointer]
+          - img "Meri Maa Ki Dua by Rajesh Naik" [ref=e147] [cursor=pointer]
+          - img "Modified Continuity by Sarvanan Parasuraman" [ref=e150] [cursor=pointer]
+          - img "Embrace of Light by Selva Kumar" [ref=e153] [cursor=pointer]
+          - img "Head 1 by Subodh Kerkar" [ref=e156] [cursor=pointer]
+          - img "Sanctum (From the series of Aikyam) by Vinod Daroz" [ref=e159] [cursor=pointer]
+        - generic:
+          - button "Previous artist" [ref=e160]
+          - button "Next artist" [ref=e163]
+      - link "Explore all artists" [ref=e167] [cursor=pointer]:
+        - /url: /ekchitra-redesign/artists
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - img "Sanctum (From the series of Aikyam) by Vinod Daroz — detail" [ref=e172]
+        - generic [ref=e174]:
+          - paragraph [ref=e175]: For architects, designers & institutions
+          - heading "Bespoke sourcing" [level=2] [ref=e176]
+          - paragraph [ref=e177]: Art selection, curation and placement shaped around a particular space and brief.
+          - link "Source for a space" [ref=e178] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+      - generic [ref=e179]:
+        - img "Untitled - 1 by Ashok Juttu — detail" [ref=e181]
+        - generic [ref=e183]:
+          - paragraph [ref=e184]: For collectors
+          - heading "Art advisory" [level=2] [ref=e185]
+          - paragraph [ref=e186]: Contextual, considered guidance for starting, refining or growing a collection.
+          - link "Get in touch" [ref=e187] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+    - generic [ref=e188]:
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - link "EkChitra — home" [ref=e196] [cursor=pointer]:
+            - /url: /ekchitra-redesign
+            - img "EkChitra" [ref=e197]
+          - paragraph [ref=e198]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+        - navigation "Footer" [ref=e199]:
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Explore
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - link "Artists" [ref=e204] [cursor=pointer]:
+                  - /url: /ekchitra-redesign/artists
+              - listitem [ref=e205]:
+                - link "Artworks" [ref=e206] [cursor=pointer]:
+                  - /url: /ekchitra-redesign/artworks
+              - listitem [ref=e207]:
+                - link "Exhibitions" [ref=e208] [cursor=pointer]:
+                  - /url: /ekchitra-redesign#exhibitions
+              - listitem [ref=e209]:
+                - link "Services" [ref=e210] [cursor=pointer]:
+                  - /url: /ekchitra-redesign#services
+          - generic [ref=e211]:
+            - paragraph [ref=e212]: Gallery
+            - list [ref=e213]:
+              - listitem [ref=e214]:
+                - link "About" [ref=e215] [cursor=pointer]:
+                  - /url: /ekchitra-redesign#about
+              - listitem [ref=e216]:
+                - link "Contact" [ref=e217] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+        - generic [ref=e218]:
+          - paragraph [ref=e219]: Hyderabad
+          - paragraph [ref=e220]: Address and opening hours to be confirmed.
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "Instagram" [ref=e223] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+            - listitem [ref=e224]:
+              - link "WhatsApp" [ref=e225] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+      - paragraph [ref=e227]: © 2026 EkChitra
+  - button "Open Next.js Dev Tools" [ref=e233] [cursor=pointer]
