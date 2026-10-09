@@ -1,0 +1,95 @@
+/* EkChitra homepage v3 — motion. Class names are prefixed ek3- and used only by
+   this route's components. */
+
+/* Loading screen: lifts away once the count finishes. */
+.ek3-loader {
+  transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.ek3-loader[data-done="true"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+/* Headline words rise into place one after another. */
+@keyframes ek3-word {
+  from {
+    transform: translate3d(0, 110%, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.ek3-words > span {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.ek3-words > span > span {
+  display: inline-block;
+  animation: ek3-word 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--ek3-start, 1.5s) + var(--ek3-step, 0s));
+}
+
+.ek3-words > span:nth-child(2) > span {
+  --ek3-step: 0.07s;
+}
+.ek3-words > span:nth-child(3) > span {
+  --ek3-step: 0.14s;
+}
+.ek3-words > span:nth-child(4) > span {
+  --ek3-step: 0.21s;
+}
+.ek3-words > span:nth-child(5) > span {
+  --ek3-step: 0.28s;
+}
+.ek3-words > span:nth-child(6) > span {
+  --ek3-step: 0.35s;
+}
+
+/* Fade-and-rise as a block scrolls into view (see Reveal.tsx). */
+.ek3-reveal {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+  transition:
+    opacity 1s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ek3-reveal[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+}
+
+/* A row rendered twice end to end, sliding by exactly one copy. */
+@keyframes ek3-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.ek3-marquee {
+  animation: ek3-marquee 80s linear infinite;
+}
+
+.ek3-marquee-wrap:hover .ek3-marquee {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ek3-loader {
+    display: none;
+  }
+
+  .ek3-words > span > span,
+  .ek3-marquee {
+    animation: none;
+  }
+
+  .ek3-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
