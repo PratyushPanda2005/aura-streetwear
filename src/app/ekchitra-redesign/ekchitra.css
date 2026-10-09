@@ -3,7 +3,7 @@
    their own tokens. Paper and ink are the ground and text; the other four are
    accents. Use in class names as bg-(--ek-paper), text-(--ek-maroon), etc. */
 .ekchitra-site {
-  --ek-paper: #fcf0d6;
+  --ek-paper: #ffffff;
   /* A shade deeper than paper: tiles behind artworks. */
   --ek-paper-deep: #eee3cb;
   --ek-ink: #191919;
@@ -17,4 +17,24 @@
 .ekchitra-site ::selection {
   background-color: var(--ek-maroon);
   color: var(--ek-paper);
+}
+
+/* Underline of text links: wipes out to the right, then draws back in from the left. */
+@keyframes ek-underline {
+  0% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  45% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  46% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

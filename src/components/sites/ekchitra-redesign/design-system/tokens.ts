@@ -17,7 +17,7 @@ export const FONT = {
  * `text-(--ek-ink)`. Change the two values there to recolour the whole site.
  */
 export const COLOR = {
-  /** Off-white page ground and light text (#FCF0D6). */
+  /** White page ground and light text (#FFFFFF). */
   paper: "var(--ek-paper)",
   /** A shade deeper than paper, for tiles behind artworks (#EEE3CB). */
   paperDeep: "var(--ek-paper-deep)",
