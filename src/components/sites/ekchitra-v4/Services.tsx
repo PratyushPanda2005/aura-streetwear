@@ -6,10 +6,10 @@ import { ARTWORKS, SERVICES } from "../ekchitra-redesign/data";
 import { Reveal } from "./Reveal";
 import { ArrowLink, BODY, GUTTER, H2, SANS } from "./shared";
 
-/** Heading of each service: its name, then a phrase set in italic. */
+/** Heading of each service: its name, then a phrase on a second line. */
 const HEADINGS = [
-  { plain: "Bespoke sourcing,", italic: "shaped around your space" },
-  { plain: "Art advisory,", italic: "for growing a collection" },
+  { plain: "Bespoke sourcing,", second: "shaped around your space" },
+  { plain: "Art advisory,", second: "for growing a collection" },
 ];
 
 /** Small second picture of each block. */
@@ -81,7 +81,8 @@ export function Services() {
                 <div>
                   <p className={cn(BODY, "opacity-60")}>{service.eyebrow}</p>
                   <h2 className={cn(H2, "mt-6")}>
-                    {heading.plain} <em className="block">{heading.italic}</em>
+                    {heading.plain}{" "}
+                    <span className="block">{heading.second}</span>
                   </h2>
                   <p className={cn(BODY, "mt-10 max-w-[480px] lg:mt-12")}>
                     {service.body}

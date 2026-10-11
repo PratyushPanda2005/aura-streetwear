@@ -10,7 +10,6 @@ import "./v4.css";
 const serif = Fraunces({
   variable: "--font-ek4-serif",
   subsets: ["latin"],
-  style: ["normal", "italic"],
   axes: ["opsz"],
   display: "swap",
 });

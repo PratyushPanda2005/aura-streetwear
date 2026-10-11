@@ -28,7 +28,7 @@ export function Cta() {
         <div className="absolute inset-0 bg-black/45" />
         <div className="relative px-4">
           <h2 className={H2}>
-            Art is everywhere. <em className="block">Come and notice.</em>
+            Art is everywhere. <span className="block">Come and notice.</span>
           </h2>
           <a
             href={contact.href}

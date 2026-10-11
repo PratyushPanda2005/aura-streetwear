@@ -45,7 +45,7 @@ function EventCard({
           <span
             className={cn(
               SERIF,
-              "absolute inset-0 flex items-center justify-center px-6 text-center text-[28px] leading-[1.1] text-white/80 italic lg:text-[34px]",
+              "absolute inset-0 flex items-center justify-center px-6 text-center text-[28px] leading-[1.1] text-white/80 lg:text-[34px]",
             )}
           >
             {EVENTS_SECTION.imagePlaceholder}
@@ -89,7 +89,7 @@ export function Events() {
     >
       <Reveal>
         <h2 className={H1}>
-          Events &amp; <em className="block">announcements</em>
+          Events &amp; <span className="block">announcements</span>
         </h2>
       </Reveal>
       <Reveal className="mt-10 lg:mt-12 lg:ml-[calc(50%+5px)]">

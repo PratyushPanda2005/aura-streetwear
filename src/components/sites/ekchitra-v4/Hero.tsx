@@ -65,7 +65,7 @@ export function Hero() {
             "mx-auto mt-4 max-w-[900px] text-[40px] leading-[1] tracking-[-0.02em] lg:text-[60px]",
           )}
         >
-          Art is everywhere. <em>We help you notice.</em>
+          Art is everywhere. <span>We help you notice.</span>
         </h1>
       </div>
 

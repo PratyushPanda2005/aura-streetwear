@@ -10,11 +10,11 @@ import { ArrowLink, BODY, GUTTER, H2, SANS } from "./shared";
 /** Line over the photograph; the words light up one by one as it is scrolled. */
 const OVERLAY = {
   plain: "You don’t need to know about art",
-  italic: "to feel at home here",
+  second: "to feel at home here",
 };
 
 const PLAIN_WORDS = OVERLAY.plain.split(" ");
-const ITALIC_WORDS = OVERLAY.italic.split(" ");
+const SECOND_WORDS = OVERLAY.second.split(" ");
 
 const WORD =
   "opacity-30 transition-opacity duration-700 data-[on=true]:opacity-100";
@@ -35,7 +35,7 @@ export function About() {
           <p className={cn(BODY, "opacity-60")}>{ABOUT_SECTION.label}</p>
           <h2 className={cn(H2, "mt-6 max-w-[640px]")}>
             Every exhibition begins with an idea,{" "}
-            <em>every visit with curiosity</em>
+            <span>every visit with curiosity</span>
           </h2>
         </Reveal>
         <Reveal className="mt-12 lg:mt-[100px] lg:ml-[calc(50%+5px)]">
@@ -76,8 +76,8 @@ export function About() {
                 {word}{" "}
               </span>
             ))}
-            <em>
-              {ITALIC_WORDS.map((word, index) => (
+            <span>
+              {SECOND_WORDS.map((word, index) => (
                 <span
                   key={index}
                   data-step={wordStep(PLAIN_WORDS.length + index)}
@@ -86,7 +86,7 @@ export function About() {
                   {word}{" "}
                 </span>
               ))}
-            </em>
+            </span>
           </p>
         </div>
       </Progress>

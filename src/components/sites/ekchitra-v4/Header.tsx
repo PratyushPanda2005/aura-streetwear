@@ -165,7 +165,7 @@ export function Header() {
                 <span
                   className={cn(
                     SERIF,
-                    "text-[44px] leading-[1.1] tracking-[-0.02em] transition-[padding] duration-500 ease-out group-hover/item:pl-4 group-hover/item:italic lg:text-[80px]",
+                    "text-[44px] leading-[1.1] tracking-[-0.02em] transition-[padding] duration-500 ease-out group-hover/item:pl-4 lg:text-[80px]",
                   )}
                 >
                   {link.label}

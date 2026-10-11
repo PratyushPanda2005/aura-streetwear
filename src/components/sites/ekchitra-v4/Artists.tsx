@@ -23,7 +23,7 @@ export function Artists() {
     <section id="artists" className={cn("pt-24 lg:pt-[190px]", GUTTER, SANS)}>
       <Reveal className="lg:ml-[50%]">
         <h2 className={H1}>
-          Artists shaping <em className="block">contemporary India</em>
+          Artists shaping <span className="block">contemporary India</span>
         </h2>
       </Reveal>
 

@@ -11,7 +11,7 @@ import { WaveCanvas } from "./WaveCanvas";
 const LINES = [
   { text: "A gallery for the curious.", step: 0.08 },
   { text: "Welcoming, thoughtful,", step: 0.36 },
-  { text: "open to everyone.", step: 0.62, italic: true },
+  { text: "open to everyone.", step: 0.62 },
 ];
 
 const TILES = ARTWORKS.filter((artwork) => !artwork.cutout).slice(0, 6);
@@ -41,7 +41,6 @@ export function World() {
               data-step={line.step}
               className={cn(
                 "block translate-y-3 opacity-0 transition-[opacity,translate] duration-1000 ease-out data-[on=true]:translate-y-0 data-[on=true]:opacity-100",
-                line.italic && "italic",
               )}
             >
               {line.text}
@@ -57,8 +56,8 @@ export function World() {
             className={cn(
               "flex flex-col gap-y-12 lg:gap-y-24",
               columnIndex === 0
-                ? "pt-[60svh]"
-                : "translate-y-[calc(var(--p,0)_*_-140px)] pt-[95svh] will-change-transform",
+                ? "pt-16 lg:pt-24"
+                : "translate-y-[calc(var(--p,0)_*_-140px)] pt-28 will-change-transform lg:pt-40",
             )}
           >
             {column.map((artwork) => (
