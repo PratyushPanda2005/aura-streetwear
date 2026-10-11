@@ -18,6 +18,7 @@ declare module "curtainsjs" {
     autoRender?: boolean;
     antialias?: boolean;
     premultipliedAlpha?: boolean;
+    production?: boolean;
   }
 
   export class Curtains {
@@ -26,6 +27,10 @@ declare module "curtainsjs" {
     onSuccess(cb: () => void): this;
     onRender(cb: () => void): this;
     onScroll(cb: () => void): this;
+    onContextLost(cb: () => void): this;
+    restoreContext(): void;
+    enableDrawing(): void;
+    disableDrawing(): void;
     updateScrollValues(x: number, y: number): void;
     resize(): void;
     dispose(): void;
