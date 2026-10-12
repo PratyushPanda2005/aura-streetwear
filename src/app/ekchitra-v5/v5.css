@@ -1,0 +1,122 @@
+/* EkChitra homepage v5 — palette and motion. Scoped to this route's wrapper. */
+.ek5 {
+  /* Brand black. */
+  --k-ink: #191919;
+  --k-sand: #ece8e3;
+  /* Brand colours: dark red for hovers and the upcoming-exhibition panel, navy
+     and sky blue kept for accents. */
+  --k-maroon: #780000;
+  --k-navy: #0c1b8f;
+  --k-sky: #89cff0;
+}
+
+.ek5 ::selection {
+  background-color: var(--k-maroon);
+  color: #ffffff;
+}
+
+/* Entry animations. Each one runs every time its element scrolls into view (see
+   useShown.ts): `data-shown="true"` is set on entry and removed once the element
+   has left the screen completely. The transitions sit on the shown state only,
+   so the reset on leaving is instant and the next entry plays from the start. */
+
+/* Fade-and-rise of a whole block (Reveal.tsx). */
+.ek5-reveal {
+  opacity: 0;
+  transform: translate3d(0, 32px, 0);
+}
+
+.ek5-reveal[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1.1s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Letter-by-letter text (Chars.tsx): each letter fades in; its delay is set from
+   its place on its line. */
+.ek5-chars [data-char] {
+  opacity: 0;
+}
+
+.ek5-chars[data-shown="true"] [data-char] {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.45s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.9, 0.7);
+}
+
+/* Link underline that draws in from the left (CapsLink.tsx). */
+.ek5-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentcolor;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.ek5-underline[data-shown="true"]::after {
+  transform: scaleX(1);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.25s;
+}
+
+/* Picture entry (InView.tsx): the frame wipes open from the bottom while the
+   picture inside settles from a slight zoom. */
+.ek5-wipe {
+  clip-path: inset(100% 0 0 0);
+}
+
+.ek5-wipe img {
+  transform: scale(1.35);
+}
+
+[data-shown="true"] .ek5-wipe {
+  clip-path: inset(0);
+  transition: clip-path 1.3s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms);
+}
+
+[data-shown="true"] .ek5-wipe img {
+  transform: none;
+  transition: transform 1.8s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms);
+}
+
+/* Small text that fades in after the picture above it. */
+.ek5-fade {
+  opacity: 0;
+  transition: color 0.3s ease-out;
+}
+
+[data-shown="true"] .ek5-fade,
+.ek5-chars[data-shown="true"] .ek5-fade {
+  opacity: 1;
+  transition:
+    opacity 0.9s ease-out calc(var(--delay, 0ms) + 500ms),
+    color 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ek5-reveal,
+  .ek5-chars [data-char],
+  .ek5-fade {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .ek5-underline::after {
+    transform: none;
+    transition: none;
+  }
+
+  .ek5-wipe,
+  .ek5-wipe img {
+    clip-path: none;
+    transform: none;
+    transition: none;
+  }
+}

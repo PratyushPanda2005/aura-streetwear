@@ -1,0 +1,950 @@
+[   45399ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/LpDjwuneGsL3oK1h2pcg5gj5nxuvPSYs9JMdvZfYb2YamDZblz402eD8UGcWZIHIDRlLdk4700sYio6YI006htS7axs9HkIvubK/1.ts?skid=default&signature=NmFkNjA2NDBfNWY3ZmNjYTQ4MzAwNzA1NWE2MDViZTZiNTQ5MGU4NGYxM2ExY2I2ODAzNmFmMGI5M2Q2NjVjMDU3NmNmOTI5Mw==&zone=0:0
+[   45662ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/aqw02DPScGXywt98EELQ6kCMSMjkw9WrkvX6uOWCrC021fw01Nz8znD2k4Nc9sCs21etzYQxISDTaR7VHmabTqrz4IPyL01tj78yPlw200NYjlkg/1.ts?skid=default&signature=NmFkNjA2NDBfNTVmODk3NmIzYTgwNjk0ZDc2ZmQ3NjU2MzEzMGEwMzg0ODRmN2I3YTc1MjEyNjVjMTI1NWEwYWVlZGZiOGMxNw==&zone=0:0
+[14208276ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14208350ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14208657ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14209160ms] [LOG] [Fast Refresh] done in 605ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14215899ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14217106ms] [LOG] [Fast Refresh] done in 1307ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14247324ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14247714ms] [LOG] [Fast Refresh] done in 402ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14247720ms] [LOG] [Fast Refresh] done in 402ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14247831ms] [LOG] [Fast Refresh] done in 402ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14253016ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14253046ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14257150ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14257158ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14323187ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14323418ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14323505ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14323561ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14335280ms] [LOG] [Fast Refresh] done in 277ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14335362ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14335415ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14411001ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/1ylaW-cO.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:35
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/pySWfa9n.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:38
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/NvNXc4ck.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:39
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Dihe7RKd.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:40
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BYS3FVV5.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:41
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CUcHBaGG.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:42
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DzCVu3uj.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:43
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/D2ocF0G7.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:44
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BKpje9CW.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:45
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BpgSNbKF.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:46
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DOwzAmKQ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:47
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DQa91pve.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:48
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/vdHyhZ-_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:49
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/LLdQKO4S.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:50
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DuMML04J.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:51
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DmV6SsEq.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:52
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/B8Rp_8jz.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:53
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CWxZc6e7.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:54
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BUg1GIuz.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:55
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/tIGYV_S_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:56
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/0LHd6p9X.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:57
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CUU4Bqoz.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:58
+[14411011ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/X7ZgYgJo.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:59
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Bc7RQ2Of.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:60
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C8ymKMHV.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:61
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BLMdD8AV.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:62
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CSXu6oxd.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:63
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BpE788Aw.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:64
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DP37pr-u.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:65
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C05k_-3m.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:66
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CLxgyrAJ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:67
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Ou-lV114.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:68
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/LOhX7DsQ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:69
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DfidERJO.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:70
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DmKW4tZ_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:71
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/4cZz9Ytt.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:72
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/jeK0QeU7.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:73
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Bgzg_OJv.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:74
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/coalMNZo.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:75
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/sTtSd5Mf.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:76
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BjMitUl2.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:77
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/YGC34bt_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:78
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DMhAypxu.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:79
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BoIfTExJ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:80
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DXIRjqbZ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:81
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BF-mFOZh.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:82
+[14411012ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Cd3LF_g1.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:83
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Dso9QBNC.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:84
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BoqoiaSW.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:85
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DU3k_qze.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:86
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CrZwKJAQ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:87
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CUi0LEGk.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:88
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BZ1Kid2-.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:89
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C0t1bLCi.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:90
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/ByRSXQVt.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:91
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CMcxEABW.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:92
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CqkleIqs.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:93
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Bzjc2X20.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:94
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CNZ6kMtu.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:95
+[14411013ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/FMla-QZ_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:96
+[14411743ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:0
+[14411799ms] [INFO] Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:0
+[14411803ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/1ylaW-cO.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:0
+[14411803ms] [INFO] Loading the script 'https://consent.cookiebot.com/uc.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:0
+[14411814ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ :0
+[14411858ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ about:blank:0
+[14411940ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ about:blank:0
+[14412422ms] [INFO] Loading the script 'https://consent.cookiebot.com/uc.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:0
+[14412470ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/challenge-platform/scripts/jsd/main.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ :0
+[14412477ms] [INFO] Loading the script 'https://www.kettal.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ about:blank:0
+[14412494ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BsB-gt4H.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:40
+[14412527ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DshZOuYd.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:44
+[14412995ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CclHMBj_.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/BUg1GIuz.js:10
+[14413042ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BydOUdE7.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/DmKW4tZ_.js:0
+[14413125ms] [INFO] Loading the script 'https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/CclHMBj_.js:143
+[14413443ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14413444ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14413445ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14413382ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/UFWh7shk.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413382ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Do2vdXnM.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413382ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/SStAyX0A.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413382ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Ca61403H.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413382ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CGnWay4A.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413389ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BDgP1mNt.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:40
+[14413414ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BdnDpEVQ.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/:0
+[14413418ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C-OAQkIH.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413451ms] [INFO] Loading the script 'https://www.googletagmanager.com/gtag/js?id=G-59MC82C94B' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://consent.cookiebot.com/uc.js:1
+[14413454ms] [INFO] Loading the script 'https://www.gstatic.com/cast/sdk/libs/sender/1.0/cast_framework.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1:9
+[14413455ms] [INFO] Loading the script 'https://www.gstatic.com/eureka/clank/154/cast_sender.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1:9
+[14413621ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CYxjHPZY.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413621ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BtBvnIrA.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413622ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/3OXpGUqF.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413622ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C9cFEoLB.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413667ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C-8Dxn7D.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413668ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/6g_2nMsz.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413675ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BtviII6o.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413675ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BfOgNKD2.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BXJzzwGw.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/6S9R_UyE.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DNdIS7hX.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/44WDAOyt.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Cplh-Bzn.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413679ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/B3eOC43-.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413680ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CVbKbPJF.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413680ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/WskDcqu4.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413680ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/XPuhk8jr.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413680ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BVgVFShm.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413688ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/qy2MT0QS.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413689ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DkzuCDNS.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413689ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DyMSbJPf.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413689ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/eRtZ4ZmL.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413697ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BJ_lV6L2.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413697ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Dueh1h56.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413697ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/lc8cUSHo.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BQS2PZye.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C7DF32PU.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/ByAQ_q7j.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CQ2kh30R.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/C-wvjKgX.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413698ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BPQSRPim.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413699ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/CiMZ0Twq.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413699ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DQuTSLOU.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413699ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/458SE8Cx.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413699ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/Bla1r6Qe.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14413699ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/BjSHT9wt.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14414685ms] [INFO] Loading the script 'https://www.googletagmanager.com/gtm.js?id=GTM-N54CX3XR' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ :0
+[14414708ms] [INFO] Loading the script 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/969762179/?random=1791821978885&cv=11&fst=1791821978885&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6a80v9253917470za208zd9253917470xecxf1&gcd=13n3n3n3n5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.kettal.com%2F&rcb=18&frm=0&tiba=Kettal%20Living%20%7C%20Contemporary%20Furniture%20%26%20Outdoor%20Living&did=dMWZhNz&gdid=dMWZhNz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1530099019.1791807569&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.googletagmanager.com/gtag/js?id=G-59MC82C94B:399
+[14414712ms] [INFO] Loading the script 'https://static.hj.contentsquare.net/c/csq-6720988.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ :0
+[14416019ms] [INFO] Loading the script 'https://t.contentsquare.net/uxa/smb/tag.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://static.hj.contentsquare.net/c/csq-6720988.js:2
+[14428132ms] [INFO] Loading the script 'https://www.kettal.com/_nuxt/DMSPZ3FI.js' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://www.kettal.com/_nuxt/1ylaW-cO.js:18
+[14491709ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14491774ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14498936ms] [WARNING] Image with src "/sites/ekchitra-redesign/images/hero-newindianexpress-2025-12-05.avif" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14525705ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14526338ms] [WARNING] Image with src "/sites/ekchitra-redesign/images/gallery-space-hyderabad.webp" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14526634ms] [LOG] [Fast Refresh] done in 1030ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14526704ms] [LOG] [Fast Refresh] done in 1030ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14526761ms] [LOG] [Fast Refresh] done in 1030ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14529039ms] [LOG] [Fast Refresh] done in 1030ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14529175ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14529204ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14783491ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14783492ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14783492ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[14964300ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14964343ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14996741ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14997134ms] [LOG] [Fast Refresh] done in 476ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[14997384ms] [LOG] [Fast Refresh] done in 476ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15009139ms] [LOG] [Fast Refresh] done in 476ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15009272ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15009319ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15028812ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15029034ms] [LOG] [Fast Refresh] done in 256ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15029076ms] [LOG] [Fast Refresh] done in 256ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15034411ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15034438ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15294924ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15294925ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15294925ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15451534ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15451577ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15455151ms] [WARNING] Image with src "/sites/ekchitra-redesign/exhibitions/living-temple-2026.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15485581ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15485618ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15730919ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15732061ms] [LOG] [Fast Refresh] done in 1181ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15732083ms] [LOG] [Fast Refresh] done in 1181ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15752604ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15752642ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15843605ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15843608ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15843608ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[15984051ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[15984104ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16060657ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16060953ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16060953ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16060954ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16060954ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16061107ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16061107ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16061107ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16061107ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072328ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072339ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072339ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072339ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072502ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16072891ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072891ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072891ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16072891ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073082ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073082ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073083ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073083ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073247ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073247ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073247ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073247ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073285ms] [ERROR] ./src/components/sites/ekchitra-v5/CapsLink.tsx:27:4
+Error: Expression expected
+  25 |
+  26 |   return () => observer.d...
+> 27 |   }, []);
+     |    ^
+  28 |
+  29 |   return (
+  30 |     <a
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/CapsLink.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073285ms] [ERROR] ./src/components/sites/ekchitra-v5/Chars.tsx:56:4
+Error: Expression expected
+  54 |
+  55 |   return () => observer.d...
+> 56 |   }, []);
+     |    ^
+  57 |
+  58 |   return (
+  59 |     <span
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Chars.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx
+
+  Client Component Browser:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component Browser]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/sites/ekchitra-v5/Chars.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Client Component SSR]
+    ./src/components/sites/ekchitra-v5/Hero.tsx [Server Component]
+    ./src/app/ekchitra-v5/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073285ms] [ERROR] ./src/components/sites/ekchitra-v5/InView.tsx:30:4
+Error: Expression expected
+  28 |
+  29 |   return () => observer.d...
+> 30 |   }, [delay]);
+     |    ^
+  31 |
+  32 |   return (
+  33 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/InView.tsx
+    ./src/components/sites/ekchitra-v5/Statement.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16073285ms] [ERROR] ./src/components/sites/ekchitra-v5/Reveal.tsx:22:4
+Error: Expression expected
+  20 |
+  21 |   return () => observer.d...
+> 22 |   }, []);
+     |    ^
+  23 |
+  24 |   return (
+  25 |     <div ref={ref} classN...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/sites/ekchitra-v5/Reveal.tsx
+    ./src/components/sites/ekchitra-v5/Services.tsx
+    ./src/app/ekchitra-v5/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[16076931ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16077344ms] [LOG] [Fast Refresh] done in 393ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16077353ms] [LOG] [Fast Refresh] done in 393ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16077460ms] [LOG] [Fast Refresh] done in 393ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16097111ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16097140ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16310034ms] [WARNING] GSAP target  not found. https://gsap.com @ https://goodman-gallery.com/_next/static/chunks/abe6e74dad4fbc35.js:0
+[16310035ms] [WARNING] GSAP target  not found. https://gsap.com @ https://goodman-gallery.com/_next/static/chunks/abe6e74dad4fbc35.js:0
+[16335363ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://goodman-gallery.com/_next/data/LRLOgfzXVBu03RDU8ri4j/programme/on-view-in-prague-william-kentridges-the-battle-between-yes-and-no.json?event=on-view-in-prague-william-kentridges-the-battle-between-yes-and-no:0
+[16377556ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[16377558ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[16377559ms] The play() request was interrupted by a new load request. https://goo.gl/LdLk22
+[16491285ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16491326ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16508182ms] [WARNING] Image with src "/sites/ekchitra-redesign/artworks/untitled-1--ashok-juttu.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16535895ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16537455ms] [LOG] [Fast Refresh] done in 1640ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16537464ms] [LOG] [Fast Refresh] done in 1640ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16537692ms] [LOG] [Fast Refresh] done in 1640ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16541353ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16541412ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16541751ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16541801ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16542024ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16542055ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16545419ms] [WARNING] Image with src "/sites/ekchitra-redesign/exhibitions/living-temple-2026.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16647443ms] [WARNING] Image with src "/sites/ekchitra-redesign/artworks/arthanareeswara--anupama-choudhary.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16649304ms] [WARNING] GSAP target  not found. https://gsap.com @ https://goodman-gallery.com/_next/static/chunks/abe6e74dad4fbc35.js:0
+[16649305ms] [WARNING] GSAP target  not found. https://gsap.com @ https://goodman-gallery.com/_next/static/chunks/abe6e74dad4fbc35.js:0
+[16777989ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16778183ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16826896ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16828360ms] [LOG] [Fast Refresh] done in 1361ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16828556ms] [LOG] [Fast Refresh] done in 1361ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16839707ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16839737ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16877949ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16878528ms] [LOG] [Fast Refresh] done in 472ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16878704ms] [LOG] [Fast Refresh] done in 472ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16880262ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16880316ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16893179ms] [WARNING] Image with src "/sites/ekchitra-redesign/artworks/arthanareeswara--anupama-choudhary.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16893572ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16893780ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16893813ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16992900ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16993584ms] [LOG] [Fast Refresh] done in 323ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16993615ms] [LOG] [Fast Refresh] done in 323ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16993635ms] [LOG] [Fast Refresh] done in 323ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16993772ms] [WARNING] Image with src "/sites/ekchitra-redesign/artworks/untitled-2--charanjeet-singh.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16997403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[16997494ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17013713ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17014302ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17014418ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17043830ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17043940ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17043970ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17044033ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17044549ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17044619ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17044738ms] [WARNING] Image with src "/sites/ekchitra-redesign/artworks/harmony-of-nature-and-mind--farhad-hussain.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17056411ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17056445ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17119501ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17119804ms] [LOG] [Fast Refresh] done in 369ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17119826ms] [LOG] [Fast Refresh] done in 369ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17119976ms] [LOG] [Fast Refresh] done in 369ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17200211ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17200344ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17200422ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17200445ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17206334ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17206563ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17206594ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17219213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17219332ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17219367ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17264028ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17264095ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17264130ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17276313ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17276525ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17276595ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17365153ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17365408ms] [LOG] [Fast Refresh] done in 329ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17365458ms] [LOG] [Fast Refresh] done in 329ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17365614ms] [LOG] [Fast Refresh] done in 329ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17380930ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[17380977ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

@@ -15,11 +15,14 @@ import { useEffect, useRef, type ReactNode } from "react";
  */
 export function Progress({
   mode = "through",
+  varName = "--p",
   id,
   className,
   children,
 }: {
   mode?: "through" | "pinned";
+  /** Custom property the progress is written to; change it when nesting. */
+  varName?: string;
   id?: string;
   className?: string;
   children: ReactNode;
@@ -41,7 +44,7 @@ export function Progress({
           ? -rect.top / Math.max(1, rect.height - view)
           : (view - rect.top) / (rect.height + view);
       const progress = Math.min(1, Math.max(0, raw));
-      el.style.setProperty("--p", progress.toFixed(4));
+      el.style.setProperty(varName, progress.toFixed(4));
       for (const step of steps) {
         step.dataset.on = String(progress >= Number(step.dataset.step));
       }
@@ -58,7 +61,7 @@ export function Progress({
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
     };
-  }, [mode]);
+  }, [mode, varName]);
 
   return (
     <div ref={ref} id={id} className={className}>
