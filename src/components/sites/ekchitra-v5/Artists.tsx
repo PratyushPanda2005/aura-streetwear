@@ -13,7 +13,8 @@ import {
 } from "../ekchitra-redesign/data";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { InView } from "./InView";
+import { BODY, CAPS, DISPLAY, GUTTER, PATTERNS, SANS } from "./shared";
 
 /** Artists shown on the homepage; the rest are a click away. */
 const FEATURED = ARTWORKS.filter((artwork) => !artwork.cutout).slice(0, 4);
@@ -89,7 +90,18 @@ export function Artists() {
 
   return (
     <section id="artists" className={cn("scroll-mt-[68px]", SANS)}>
-      <div className={cn("pt-2 pb-8 lg:pb-10", GUTTER)}>
+      <div className={cn("relative pt-2 pb-8 lg:pb-10", GUTTER)}>
+        <InView className="absolute right-5 bottom-10 hidden w-[190px] lg:block">
+          <div className="ek5-wipe relative aspect-[5/6] overflow-hidden">
+            <Image
+              src={PATTERNS.diamonds}
+              alt=""
+              fill
+              sizes="190px"
+              className="object-cover"
+            />
+          </div>
+        </InView>
         <p className={CAPS}>
           <Chars text={ARTISTS_SECTION.label} />
         </p>
