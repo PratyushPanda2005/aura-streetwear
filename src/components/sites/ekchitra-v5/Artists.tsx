@@ -94,8 +94,8 @@ export function Artists() {
         <Diamonds
           rows={24}
           side="right"
-          colourful
-          className="absolute top-0 right-0 hidden w-[120px] lg:block"
+          accent
+          className="absolute top-0 right-0 hidden w-[120px] text-(--k-ink)/10 lg:block"
         />
         <p className={CAPS}>
           <Chars text={ARTISTS_SECTION.label} />
