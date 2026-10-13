@@ -10,6 +10,16 @@ import { InView } from "./InView";
 import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
 
 /**
+ * TEMPORARY PLACEHOLDER — this photograph is the banner of Goodman Gallery's
+ * "available artworks" page and is here only to judge the layout. Replace it
+ * with an EkChitra image before the site is published.
+ */
+const BANNER = {
+  src: "/sites/ekchitra-redesign/placeholders/artworks-banner-placeholder-goodman.jpg",
+  alt: "",
+};
+
+/**
  * Top of the artworks page: a wide picture set in from the page edges, which
  * wipes open on arrival and moves a little slower than the page, with the page
  * title in two lines over its centre. Below it, the page's line of introduction
@@ -22,14 +32,14 @@ export function ArtworksHero() {
         <InView>
           <div className="ek5-wipe relative h-[52svh] min-h-[340px] overflow-hidden bg-(--k-ink) lg:h-[64svh]">
             <Image
-              src={ARTWORKS_PAGE.banner.src}
-              alt={ARTWORKS_PAGE.banner.alt}
+              src={BANNER.src}
+              alt={BANNER.alt}
               fill
               preload
               sizes="100vw"
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-(--k-ink)/45" />
+            <div className="absolute inset-0 bg-(--k-ink)/25" />
             <div className="absolute inset-0 flex translate-y-[calc((var(--p,0.5)_-_0.5)_*_60px)] flex-col items-center justify-center px-4 text-center text-white">
               <p className={CAPS}>
                 <Chars text={ARTWORKS_PAGE.label} />
@@ -43,9 +53,6 @@ export function ArtworksHero() {
                 <Chars text={["Discover", "and collect"]} />
               </h1>
             </div>
-            <p className="ek5-fade absolute right-4 bottom-4 text-[12px] text-white/70">
-              {ARTWORKS_PAGE.banner.caption}
-            </p>
           </div>
         </InView>
       </Progress>

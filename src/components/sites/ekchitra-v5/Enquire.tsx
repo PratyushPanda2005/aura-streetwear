@@ -21,9 +21,9 @@ export function Enquire() {
       )}
     >
       <Diamonds
-        rows={26}
+        rows={30}
         horizontal
-        className="absolute top-0 left-0 h-[56px] text-white/10 lg:h-[80px]"
+        className="absolute top-0 left-0 h-[84px] text-white/20 lg:h-[132px]"
       />
       <p className={CAPS}>
         <Chars text="Enquiries" />
