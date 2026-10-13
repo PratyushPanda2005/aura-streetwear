@@ -16,13 +16,14 @@ export const SHRINK_SCREENS = 0.5;
  * Fixed white bar. At the top of the page the logo is shown very large and the
  * links are hidden; scrolling shrinks the logo into the bar's left corner and
  * fades the links in. The scroll amount (0–1) is written to `--s` on the bar.
- * Further down the page the bar slides up out of the way while scrolling down
+ * Inner pages pass `compact`: the logo starts small and the links are there from
+ * the start. Further down the page the bar slides up out of the way while scrolling down
  * and comes back as soon as you scroll up.
  */
-export function Header() {
+export function Header({ compact = false }: { compact?: boolean }) {
   const ref = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
-  const [settled, setSettled] = useState(false);
+  const [settled, setSettled] = useState(compact);
   const [hidden, setHidden] = useState(false);
   const lastY = useRef(0);
 
@@ -30,15 +31,14 @@ export function Header() {
     const el = ref.current;
     if (!el) return;
     const onScroll = () => {
-      const amount = Math.min(
-        1,
-        window.scrollY / (window.innerHeight * SHRINK_SCREENS),
-      );
+      const amount = compact
+        ? 1
+        : Math.min(1, window.scrollY / (window.innerHeight * SHRINK_SCREENS));
       el.style.setProperty("--s", amount.toFixed(3));
       setSettled(amount > 0.85);
       // Past the hero entry, slide away on the way down and return on the way up.
       const y = window.scrollY;
-      if (amount < 1) setHidden(false);
+      if (amount < 1 || y < 120) setHidden(false);
       else if (y > lastY.current + 2) setHidden(true);
       else if (y < lastY.current - 2) setHidden(false);
       lastY.current = y;
@@ -46,7 +46,7 @@ export function Header() {
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [compact]);
 
   useEffect(() => {
     document.body.classList.toggle("overflow-hidden", open);
@@ -60,6 +60,7 @@ export function Header() {
         data-settled={settled}
         className={cn(
           "group fixed inset-x-0 top-0 z-40 bg-white text-(--k-ink) transition-transform duration-500 ease-out",
+          compact && "[--s:1]",
           hidden && !open ? "-translate-y-full" : "translate-y-0",
           SANS,
         )}

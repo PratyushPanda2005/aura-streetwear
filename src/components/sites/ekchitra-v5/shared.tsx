@@ -19,10 +19,19 @@ export const GUTTER = "px-4 lg:px-5";
 
 export const V5_HOME = "/ekchitra-v5";
 
+/** Pages of this version. */
+export const V5_ROUTES = {
+  home: V5_HOME,
+  artworks: `${V5_HOME}/artworks`,
+  /** Not rebuilt in this version yet; points at the earlier artists page. */
+  artists: ROUTES.artists,
+};
+
+/** Section links carry the homepage path so they work from every page. */
 export const V5_NAV = [
-  { label: "About", href: "#about" },
-  { label: "Exhibitions", href: "#exhibitions" },
-  { label: "Artists", href: ROUTES.artists },
-  { label: "Artworks", href: ROUTES.artworks },
-  { label: "Services", href: "#services" },
+  { label: "About", href: `${V5_HOME}#about` },
+  { label: "Exhibitions", href: `${V5_HOME}#exhibitions` },
+  { label: "Artists", href: V5_ROUTES.artists },
+  { label: "Artworks", href: V5_ROUTES.artworks },
+  { label: "Services", href: `${V5_HOME}#services` },
 ];
