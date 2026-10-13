@@ -6,6 +6,7 @@ import { ABOUT_SECTION, ARTWORKS } from "../ekchitra-redesign/data";
 import { Progress } from "../ekchitra-v4/Progress";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
+import { Diamonds } from "./Diamonds";
 import { InView } from "./InView";
 import { BODY, CAPS, DISPLAY, SANS } from "./shared";
 
@@ -50,6 +51,10 @@ export function Statement() {
         SANS,
       )}
     >
+      <Diamonds
+        rows={20}
+        className="absolute top-[38%] left-0 w-[56px] text-(--k-ink)/10 lg:w-[100px]"
+      />
       {FLOATS.map(({ artwork, className }, index) => (
         <div
           key={artwork.image}

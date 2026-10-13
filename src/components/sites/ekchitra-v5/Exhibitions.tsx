@@ -21,7 +21,7 @@ export function Exhibitions() {
   return (
     <section
       id="exhibitions"
-      className={cn("scroll-mt-[68px] pb-24 lg:pb-[120px]", GUTTER, SANS)}
+      className={cn("scroll-mt-[68px] pb-24 lg:pb-[100px]", GUTTER, SANS)}
     >
       <div className="flex items-end justify-between gap-x-6">
         <div>

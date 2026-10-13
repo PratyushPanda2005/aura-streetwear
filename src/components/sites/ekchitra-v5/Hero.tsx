@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 
 import { EVENTS, HERO, HERO_SLIDES } from "../ekchitra-redesign/data";
 import { Chars } from "./Chars";
+import { Diamonds } from "./Diamonds";
 import { SHRINK_SCREENS } from "./Header";
 import { CapsLink } from "./CapsLink";
 import { CAPS, DISPLAY, GUTTER, SANS } from "./shared";
@@ -68,8 +69,14 @@ export function Hero() {
     <section
       ref={ref}
       id="top"
-      className={cn("pt-[46svh] lg:pt-[calc(62svh-30px)]", SANS)}
+      className={cn("relative pt-[46svh] lg:pt-[calc(62svh-30px)]", SANS)}
     >
+      <Diamonds
+        rows={14}
+        side="right"
+        accent
+        className="absolute top-[96px] right-0 w-[64px] text-(--k-ink)/10 lg:top-[120px] lg:w-[120px]"
+      />
       <div className={cn("flex items-end justify-between pb-3", GUTTER)}>
         <p className={CAPS}>
           Hyderabad <span suppressHydrationWarning>{time}</span>

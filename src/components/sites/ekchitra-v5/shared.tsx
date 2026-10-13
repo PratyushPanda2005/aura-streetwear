@@ -26,13 +26,3 @@ export const V5_NAV = [
   { label: "Artworks", href: ROUTES.artworks },
   { label: "Services", href: "#services" },
 ];
-
-/** Brand patterns (from the client's "3 patterns" folder). */
-export const PATTERNS = {
-  /** Stepped zigzag, cropped to one seamless band for use as a repeating strip. */
-  band: "/sites/ekchitra-redesign/patterns/pattern-1-band.jpg",
-  /** Red and sky-blue capsules. */
-  capsules: "/sites/ekchitra-redesign/patterns/pattern-2.jpg",
-  /** Rows of diamonds. */
-  diamonds: "/sites/ekchitra-redesign/patterns/pattern-3.jpg",
-};

@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { LOGO } from "../ekchitra-redesign/data";
+import { Diamonds } from "./Diamonds";
 import { CAPS, DISPLAY, GUTTER, SANS, V5_HOME, V5_NAV } from "./shared";
 
 /** Share of the screen height scrolled while the large logo settles into the bar. */
@@ -139,6 +140,12 @@ export function Header() {
             Close
           </button>
         </div>
+        <Diamonds
+          rows={18}
+          side="right"
+          accent
+          className="absolute right-0 bottom-10 w-[84px] text-(--k-ink)/10"
+        />
         <ul className={cn("mt-8 text-[40px] leading-[1.25]", DISPLAY)}>
           {[...V5_NAV, { label: "Contact", href: "#contact" }].map((link) => (
             <li key={link.label}>

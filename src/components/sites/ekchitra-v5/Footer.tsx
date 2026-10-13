@@ -4,22 +4,31 @@ import { cn } from "@/lib/utils";
 
 import { FOOTER, LOGO } from "../ekchitra-redesign/data";
 import { Chars } from "./Chars";
+import { Diamonds } from "./Diamonds";
 import { BODY, CAPS, GUTTER, SANS, V5_HOME, V5_NAV } from "./shared";
 
 const LINK = "transition-opacity duration-300 hover:opacity-60";
 
 /**
- * Footer in the brand black, under a strip of the brand's zigzag pattern: the logo and tagline on the left, then columns for the pages,
+ * Footer in the brand black, with the brand's diamond motif faint in one corner: the logo and tagline on the left, then columns for the pages,
  * the gallery's location and its social links, and a closing line.
  */
 export function Footer() {
   return (
-    <footer id="contact" className={cn("bg-(--k-ink) text-(--k-sand)", SANS)}>
-      <div
-        aria-hidden="true"
-        className="h-10 bg-[url(/sites/ekchitra-redesign/patterns/pattern-1-band.jpg)] bg-[length:auto_100%] bg-repeat-x lg:h-14"
+    <footer
+      id="contact"
+      className={cn(
+        "relative overflow-hidden bg-(--k-ink) text-(--k-sand)",
+        SANS,
+      )}
+    >
+      <Diamonds
+        rows={18}
+        side="right"
+        accent
+        className="absolute right-0 bottom-0 w-[72px] text-white/10 lg:w-[110px]"
       />
-      <div className={cn("pt-12 pb-6 lg:pt-16", GUTTER)}>
+      <div className={cn("relative pt-12 pb-6 lg:pt-16", GUTTER)}>
         <div className="grid gap-y-12 lg:grid-cols-12">
           <div className="lg:col-span-6">
             <a href={V5_HOME} aria-label={`${FOOTER.name} — home`}>
