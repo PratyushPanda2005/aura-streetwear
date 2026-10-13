@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { SmoothScroll } from "@/components/sites/ekchitra-v3/SmoothScroll";
-import { Enquire } from "@/components/sites/ekchitra-v5/Enquire";
 import { EXHIBITIONS } from "@/components/sites/ekchitra-v5/exhibitions-data";
 import { ExhibitionsList } from "@/components/sites/ekchitra-v5/ExhibitionsList";
 import { Footer } from "@/components/sites/ekchitra-v5/Footer";
@@ -36,11 +35,6 @@ export default function EkchitraV5ExhibitionsPage() {
         note={`${EXHIBITIONS.length} exhibitions`}
       />
       <ExhibitionsList />
-      <Enquire
-        label="Visit"
-        title={["Planning a visit?", "We’d love to see you."]}
-        body="Ask about opening hours, walkthroughs or bringing a group to the gallery."
-      />
       <Footer />
     </main>
   );

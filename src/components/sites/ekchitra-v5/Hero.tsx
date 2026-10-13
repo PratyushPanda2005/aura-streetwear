@@ -6,14 +6,16 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { EVENTS, HERO, HERO_SLIDES } from "../ekchitra-redesign/data";
+import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { SHRINK_SCREENS } from "./Header";
-import { CapsLink } from "./CapsLink";
-import { CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
 
 /** Time each photograph stays on screen before cross-fading to the next. */
 const SLIDE_INTERVAL_MS = 6000;
+
+/** Scroll distance over which the photograph draws in from the page edges. */
+const INSET_PX = 360;
 
 const formatTime = () =>
   new Intl.DateTimeFormat("en-GB", {
@@ -23,11 +25,15 @@ const formatTime = () =>
   }).format(new Date());
 
 /**
- * Hero: more than half a screen of white for the large logo, a thin line with
- * the gallery's city and local time on the left and the current exhibition on
- * the right, then a photograph with the headline over its lower-left corner.
- * The photograph starts edge to edge, peeking over the bottom of the screen, and
- * draws in from the sides as it is scrolled up under the bar (`--h` runs 0–1).
+ * Hero.
+ *
+ * A short white band at the top holds the large logo (it belongs to the header,
+ * and rises into the bar on scroll) with the gallery's one-line description
+ * centred beneath it and the diamond motif on both edges. A thin line follows
+ * with the city and local time on the left and the current exhibition on the
+ * right. Then the photograph: edge to edge at first, with the headline over its
+ * lower-left corner, drawing in from the sides as it is scrolled up under the
+ * bar (`--h` runs 0–1).
  */
 export function Hero() {
   const [active, setActive] = useState(0);
@@ -38,10 +44,7 @@ export function Hero() {
     const el = ref.current;
     if (!el) return;
     const onScroll = () => {
-      const amount = Math.min(
-        1,
-        window.scrollY / (window.innerHeight * SHRINK_SCREENS),
-      );
+      const amount = Math.min(1, window.scrollY / INSET_PX);
       el.style.setProperty("--h", amount.toFixed(3));
     };
     onScroll();
@@ -66,17 +69,29 @@ export function Hero() {
   }, []);
 
   return (
-    <section
-      ref={ref}
-      id="top"
-      className={cn("relative pt-[46svh] lg:pt-[calc(62svh-30px)]", SANS)}
-    >
-      <Diamonds
-        rows={14}
-        side="right"
-        accent
-        className="absolute top-[96px] right-0 w-[64px] text-(--k-ink)/10 lg:top-[120px] lg:w-[120px]"
-      />
+    <section ref={ref} id="top" className={cn("relative", SANS)}>
+      {/* White band: room for the large logo, then the description. */}
+      <div className="relative flex flex-col items-center px-4 pt-[158px] pb-8 text-center lg:pt-[232px] lg:pb-10">
+        {/* Two motifs, deliberately not mirrored: a stepped strip low on the
+            left edge, and a run of clusters hanging from the bar on the right. */}
+        <Diamonds
+          rows={16}
+          shape="steps"
+          tint="sky"
+          className="absolute bottom-5 left-0 hidden w-[96px] text-(--k-ink)/10 lg:block"
+        />
+        <Diamonds
+          rows={28}
+          shape="clusters"
+          tint="maroon"
+          horizontal
+          className="absolute top-[60px] right-0 h-[22px] -scale-x-100 text-(--k-ink)/10 lg:top-[68px] lg:h-[72px]"
+        />
+        <p className={cn(BODY, "max-w-[480px] text-[17px] lg:text-[19px]")}>
+          <Chars text={HERO.body} />
+        </p>
+      </div>
+
       <div className={cn("flex items-end justify-between pb-3", GUTTER)}>
         <p className={CAPS}>
           Hyderabad <span suppressHydrationWarning>{time}</span>

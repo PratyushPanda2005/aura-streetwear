@@ -5,7 +5,6 @@ import {
 } from "@/components/sites/ekchitra-redesign/data";
 import { SmoothScroll } from "@/components/sites/ekchitra-v3/SmoothScroll";
 import { ArtworksGrid } from "@/components/sites/ekchitra-v5/ArtworksGrid";
-import { Enquire } from "@/components/sites/ekchitra-v5/Enquire";
 import { Footer } from "@/components/sites/ekchitra-v5/Footer";
 import { Header } from "@/components/sites/ekchitra-v5/Header";
 import { PageHero } from "@/components/sites/ekchitra-v5/PageHero";
@@ -39,7 +38,6 @@ export default function EkchitraV5ArtworksPage() {
         note={`${ARTWORKS.length} works on view`}
       />
       <ArtworksGrid />
-      <Enquire />
       <Footer />
     </main>
   );

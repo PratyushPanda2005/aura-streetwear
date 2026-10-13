@@ -60,8 +60,9 @@ export function PageHero({
 
       <div className="relative flex flex-col items-center px-4 pt-20 pb-14 text-center lg:pt-[110px] lg:pb-20">
         <Diamonds
-          rows={14}
-          accent
+          rows={16}
+          shape="scatter"
+          tint="maroon"
           className="absolute top-10 left-0 w-[56px] text-(--k-ink)/10 lg:w-[100px]"
         />
         <h2

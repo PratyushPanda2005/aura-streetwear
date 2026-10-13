@@ -54,6 +54,8 @@ export function Statement() {
     >
       <Diamonds
         rows={20}
+        shape="band"
+        tint="navy"
         className="absolute top-[38%] left-0 w-[56px] text-(--k-ink)/10 lg:w-[100px]"
       />
       {FLOATS.map(({ artwork, className }, index) => (

@@ -9,15 +9,22 @@ import { LOGO } from "../ekchitra-redesign/data";
 import { Diamonds } from "./Diamonds";
 import { CAPS, DISPLAY, GUTTER, SANS, V5_HOME, V5_NAV } from "./shared";
 
-/** Share of the screen height scrolled while the large logo settles into the bar. */
-export const SHRINK_SCREENS = 0.5;
+/**
+ * Scroll distance over which the large logo settles into the bar. It equals the
+ * distance the logo travels, so the logo rises exactly with the page and the
+ * text under it never catches up with it.
+ */
+export const SHRINK_PX = 84;
 
 /**
- * Fixed white bar. At the top of the page the logo is shown very large and the
- * links are hidden; scrolling shrinks the logo into the bar's left corner and
- * fades the links in. The scroll amount (0–1) is written to `--s` on the bar.
- * Inner pages pass `compact`: the logo starts small and the links are there from
- * the start. Further down the page the bar slides up out of the way while scrolling down
+ * Fixed white bar: the page links on the left, the logo in the middle and the
+ * contact button on the right, all there from the start.
+ *
+ * On the homepage the logo begins large, hanging below the bar over the top of
+ * the page, and as the page is scrolled it rises and shrinks into its place in
+ * the middle of the bar, where it stays. The scroll amount (0–1) is written to
+ * `--s` on the bar. Inner pages pass `compact`: the logo starts in the bar.
+ * Further down the page the bar slides up out of the way while scrolling down
  * and comes back as soon as you scroll up.
  */
 export function Header({ compact = false }: { compact?: boolean }) {
@@ -31,14 +38,14 @@ export function Header({ compact = false }: { compact?: boolean }) {
     const el = ref.current;
     if (!el) return;
     const onScroll = () => {
-      const amount = compact
-        ? 1
-        : Math.min(1, window.scrollY / (window.innerHeight * SHRINK_SCREENS));
+      const amount = compact ? 1 : Math.min(1, window.scrollY / SHRINK_PX);
       el.style.setProperty("--s", amount.toFixed(3));
       setSettled(amount > 0.85);
       // Past the hero entry, slide away on the way down and return on the way up.
       const y = window.scrollY;
-      if (amount < 1 || y < 120) setHidden(false);
+      // Stay put through the hero so the logo is seen settling into the bar.
+      const stayUntil = compact ? 120 : window.innerHeight * 0.9;
+      if (amount < 1 || y < stayUntil) setHidden(false);
       else if (y > lastY.current + 2) setHidden(true);
       else if (y < lastY.current - 2) setHidden(false);
       lastY.current = y;
@@ -67,14 +74,23 @@ export function Header({ compact = false }: { compact?: boolean }) {
       >
         <div
           className={cn(
-            "relative flex h-[60px] items-center justify-end lg:h-[68px]",
+            "relative flex h-[60px] items-center justify-between lg:h-[68px] lg:justify-end",
             GUTTER,
           )}
         >
+          <button
+            type="button"
+            aria-expanded={open}
+            aria-controls="ek-v5-menu"
+            onClick={() => setOpen(true)}
+            className={cn(CAPS, "lg:hidden")}
+          >
+            Menu
+          </button>
           <a
             href={V5_HOME}
             aria-label="EkChitra — home"
-            className="absolute top-[19px] left-4 origin-top-left scale-[calc(1_+_(1_-_var(--s,0))_*_2.2)] will-change-transform lg:top-[22px] lg:left-5 lg:scale-[calc(1_+_(1_-_var(--s,0))_*_5.2)]"
+            className="absolute top-[19px] left-1/2 origin-top -translate-x-1/2 translate-y-[calc((1_-_var(--s,0))_*_64px)] scale-[calc(1_+_(1_-_var(--s,0))_*_1.7)] will-change-transform lg:top-[22px] lg:translate-y-[calc((1_-_var(--s,0))_*_84px)] lg:scale-[calc(1_+_(1_-_var(--s,0))_*_3.1)]"
           >
             <Image
               src={LOGO.src}
@@ -89,14 +105,13 @@ export function Header({ compact = false }: { compact?: boolean }) {
 
           <nav
             aria-label="Primary navigation"
-            className="absolute top-1/2 left-[190px] hidden -translate-y-1/2 opacity-0 transition-opacity duration-500 group-data-[settled=true]:opacity-100 lg:block"
+            className="absolute top-1/2 left-5 hidden -translate-y-1/2 lg:block"
           >
             <ul className="flex gap-x-6">
               {V5_NAV.map((link) => (
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    tabIndex={settled ? undefined : -1}
                     className="text-[14px] tracking-[-0.01em] transition-colors duration-300 hover:text-(--k-maroon)"
                   >
                     {link.label}
@@ -115,15 +130,6 @@ export function Header({ compact = false }: { compact?: boolean }) {
           >
             Contact
           </a>
-          <button
-            type="button"
-            aria-expanded={open}
-            aria-controls="ek-v5-menu"
-            onClick={() => setOpen(true)}
-            className={cn(CAPS, "lg:hidden")}
-          >
-            Menu
-          </button>
         </div>
       </header>
 
@@ -142,9 +148,10 @@ export function Header({ compact = false }: { compact?: boolean }) {
           </button>
         </div>
         <Diamonds
-          rows={18}
+          rows={21}
+          shape="clusters"
+          tint="navy"
           side="right"
-          accent
           className="absolute right-0 bottom-10 w-[84px] text-(--k-ink)/10"
         />
         <ul className={cn("mt-8 text-[40px] leading-[1.25]", DISPLAY)}>

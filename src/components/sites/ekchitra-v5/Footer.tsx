@@ -66,9 +66,10 @@ export function Footer() {
       )}
     >
       <Diamonds
-        rows={18}
+        rows={21}
+        shape="clusters"
+        tint="sky"
         horizontal
-        accent
         className="absolute bottom-0 left-0 h-[84px] -scale-y-100 text-white/15 lg:h-[116px]"
       />
       <div className="relative flex flex-wrap items-center justify-between gap-6">

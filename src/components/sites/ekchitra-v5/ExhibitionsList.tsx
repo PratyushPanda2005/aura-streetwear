@@ -104,7 +104,8 @@ export function ExhibitionsList() {
                     ) : (
                       <>
                         <Diamonds
-                          rows={18}
+                          rows={21}
+                          shape="clusters"
                           horizontal
                           className="absolute top-0 left-0 h-[56px] text-white/15"
                         />
