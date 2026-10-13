@@ -9,7 +9,15 @@ import { BODY, CAPS, DISPLAY, SANS } from "./shared";
  * Closing call on inner pages: a dark red band with a short invitation, a white
  * button to get in touch, and the diamond motif tone on tone along one edge.
  */
-export function Enquire() {
+export function Enquire({
+  label = "Enquiries",
+  title = ["Interested in a work?", "We’d love to hear from you."],
+  body = "Ask about availability, pricing or seeing a piece in person at the gallery.",
+}: {
+  label?: string;
+  title?: string[];
+  body?: string;
+}) {
   const contact =
     FOOTER.social.find((link) => link.label === "WhatsApp") ?? FOOTER.social[0];
 
@@ -26,17 +34,15 @@ export function Enquire() {
         className="absolute top-0 left-0 h-[84px] text-white/20 lg:h-[132px]"
       />
       <p className={CAPS}>
-        <Chars text="Enquiries" />
+        <Chars text={label} />
       </p>
       <h2
         className={cn(DISPLAY, "mt-4 text-[32px] leading-[1.1] lg:text-[56px]")}
       >
-        <Chars
-          text={["Interested in a work?", "We’d love to hear from you."]}
-        />
+        <Chars text={title} />
       </h2>
       <p className={cn(BODY, "mt-5 max-w-[420px] text-white/75")}>
-        <Chars text="Ask about availability, pricing or seeing a piece in person at the gallery." />
+        <Chars text={body} />
       </p>
       <a
         href={contact.href}

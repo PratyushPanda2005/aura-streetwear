@@ -6,7 +6,7 @@ import { EVENTS, EVENTS_SECTION } from "../ekchitra-redesign/data";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { InView } from "./InView";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, DISPLAY, GUTTER, SANS, V5_ROUTES } from "./shared";
 
 const number = (index: number) => `(${String(index + 1).padStart(2, "0")})`;
 
@@ -37,13 +37,7 @@ export function Exhibitions() {
             <Chars text={EVENTS_SECTION.heading} />
           </h2>
         </div>
-        <CapsLink
-          arrow
-          href={EVENTS_SECTION.cta.href}
-          target="_blank"
-          rel="noreferrer"
-          className="mb-1 shrink-0"
-        >
+        <CapsLink arrow href={V5_ROUTES.exhibitions} className="mb-1 shrink-0">
           {EVENTS_SECTION.cta.label}
         </CapsLink>
       </div>

@@ -11,16 +11,19 @@ import { useShown } from "./useShown";
  */
 export function InView({
   delay = 0,
+  once = false,
   className,
   children,
 }: {
   delay?: number;
+  /** Play the entry animation only the first time. */
+  once?: boolean;
   className?: string;
   children: ReactNode;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
-  useShown(ref);
+  useShown(ref, undefined, once);
 
   useEffect(() => {
     ref.current?.style.setProperty("--delay", `${delay}ms`);

@@ -96,7 +96,9 @@
   opacity: 1;
   transition:
     opacity 0.9s ease-out calc(var(--delay, 0ms) + 500ms),
-    color 0.3s ease-out;
+    color 0.3s ease-out,
+    transform 0.32s cubic-bezier(0.2, 0.7, 0.2, 1),
+    translate 0.32s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 @media (prefers-reduced-motion: reduce) {

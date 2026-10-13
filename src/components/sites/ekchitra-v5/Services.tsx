@@ -8,6 +8,17 @@ import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
 
+/**
+ * Pictures for the service cards: stock photographs from Unsplash (free licence)
+ * of art placed in a room. The first is
+ * https://unsplash.com/photos/a-room-with-a-large-map-on-the-wall-tgQ_jbtwPI8
+ * Swap them for photographs of EkChitra's own placements when available; a
+ * service with no entry here falls back to its artwork picture.
+ */
+const PICTURES: (string | undefined)[] = [
+  "/sites/ekchitra-redesign/placeholders/services-sourcing-unsplash.jpg",
+];
+
 /** Only the first service is shown for now; raise this to bring the rest back. */
 const SHOWN = SERVICES.slice(0, 1);
 
@@ -27,7 +38,7 @@ export function Services() {
     >
       <Reveal>
         <div className="grid gap-5">
-          {SHOWN.map((service) => (
+          {SHOWN.map((service, index) => (
             <article
               key={service.title}
               className="flex gap-x-6 bg-(--k-sand) p-6 lg:min-h-[460px] lg:p-10"
@@ -61,11 +72,11 @@ export function Services() {
               </div>
               <div className="relative hidden w-[46%] shrink-0 overflow-hidden sm:block">
                 <Image
-                  src={service.image.src}
-                  alt={service.image.alt}
+                  src={PICTURES[index] ?? service.image.src}
+                  alt={PICTURES[index] ? "" : service.image.alt}
                   fill
                   sizes="(max-width: 1023px) 40vw, 45vw"
-                  className="object-cover transition-transform duration-[1400ms] ease-out hover:scale-[1.05]"
+                  className="object-cover object-[50%_38%] transition-transform duration-[1400ms] ease-out hover:scale-[1.05]"
                 />
               </div>
             </article>

@@ -4,10 +4,12 @@ import { useEffect, useRef, type RefObject } from "react";
  * Sets `data-shown="true"` on an element each time it scrolls into view and
  * removes it once the element has left the screen completely, so CSS entry
  * animations replay on every visit. `prepare` runs just before each entry.
+ * With `once`, the element stays shown after its first entry.
  */
 export function useShown<T extends HTMLElement>(
   ref: RefObject<T | null>,
   prepare?: (el: T) => void,
+  once = false,
 ) {
   const prepareRef = useRef(prepare);
 
@@ -30,7 +32,7 @@ export function useShown<T extends HTMLElement>(
       { rootMargin: "0px 0px -6% 0px" },
     );
     const leave = new IntersectionObserver(([entry]) => {
-      if (!entry.isIntersecting) delete el.dataset.shown;
+      if (!entry.isIntersecting && !once) delete el.dataset.shown;
     });
 
     enter.observe(el);
@@ -39,5 +41,5 @@ export function useShown<T extends HTMLElement>(
       enter.disconnect();
       leave.disconnect();
     };
-  }, [ref]);
+  }, [ref, once]);
 }
