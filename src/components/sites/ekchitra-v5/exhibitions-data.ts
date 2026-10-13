@@ -58,10 +58,3 @@ export const EXHIBITIONS: Exhibition[] = [
     href: EXHIBITIONS_URL,
   },
 ];
-
-export const EXHIBITION_FILTERS = [
-  "All",
-  "Ongoing",
-  "Upcoming",
-  "Past",
-] as const;

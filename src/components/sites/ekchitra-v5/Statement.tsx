@@ -12,7 +12,8 @@ import { BODY, CAPS, DISPLAY, SANS } from "./shared";
 
 /**
  * Pictures floating around the statement. Each drifts at its own speed as the
- * section is scrolled (`--p` runs 0–1), which makes them gather and part. They
+ * section is scrolled (`--p` runs 0–1), which makes them gather and part. All
+ * of them keep to the side lanes, clear of the centred text, at every width. They
  * enter like the artist cards: each wipes open from the bottom, one after another.
  */
 const FLOATS = [
@@ -29,12 +30,12 @@ const FLOATS = [
   {
     artwork: ARTWORKS[3],
     className:
-      "bottom-[3%] left-[19%] hidden aspect-[3/4] w-[11%] translate-y-[calc((0.5_-_var(--p,0.5))_*_420px)] lg:block",
+      "bottom-[3%] left-[max(2%,calc(50%-540px))] hidden aspect-[3/4] w-[11%] max-w-[160px] translate-y-[calc((0.5_-_var(--p,0.5))_*_240px)] lg:block",
   },
   {
     artwork: ARTWORKS[6],
     className:
-      "right-[6%] bottom-[4%] aspect-[4/5] w-[28%] translate-y-[calc((0.5_-_var(--p,0.5))_*_200px)] lg:right-[13%] lg:w-[17%]",
+      "right-[6%] bottom-[4%] aspect-[4/5] w-[28%] translate-y-[calc((0.5_-_var(--p,0.5))_*_200px)] lg:right-[5%] lg:w-[15%]",
   },
 ];
 

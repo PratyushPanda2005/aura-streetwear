@@ -44,10 +44,10 @@ const COLUMNS: { title: string; links: FooterLink[]; note?: string }[] = [
 ];
 
 const LINK =
-  "text-[16px] leading-[1.9] transition-colors duration-300 hover:text-white lg:text-[17px]";
+  "text-[16px] leading-[1.9] transition-colors duration-300 hover:text-(--k-sky) lg:text-[17px]";
 
 /**
- * Footer: deep red ground, light blue type.
+ * Footer: deep red ground, white type (links turn light blue on hover).
  *
  * A large invitation with an outlined button on top; below it the logo, large,
  * on the left and four link columns on the right, each headed by a title ruled above and
@@ -60,7 +60,7 @@ export function Footer() {
     <footer
       id="contact"
       className={cn(
-        "relative overflow-hidden bg-(--k-maroon) pt-14 pb-10 text-(--k-sky) lg:pt-[72px] lg:pb-14",
+        "relative overflow-hidden bg-(--k-maroon) pt-14 pb-10 text-white lg:pt-[72px] lg:pb-14",
         GUTTER,
         SANS,
       )}
@@ -75,7 +75,7 @@ export function Footer() {
         <h2
           className={cn(
             DISPLAY,
-            "text-[28px] leading-[1.1] text-(--k-sky)/55 lg:text-[40px]",
+            "text-[28px] leading-[1.1] text-white/55 lg:text-[40px]",
           )}
         >
           <Chars text="Art is everywhere. Come and notice." />
@@ -84,7 +84,7 @@ export function Footer() {
           href={CONTACT.href}
           target="_blank"
           rel="noreferrer"
-          className="flex h-11 items-center border border-(--k-sky)/60 px-8 text-[16px] transition-colors duration-300 hover:border-(--k-sky) hover:bg-(--k-sky) hover:text-(--k-maroon)"
+          className="flex h-11 items-center border border-white/60 px-8 text-[16px] transition-colors duration-300 hover:border-white hover:bg-white hover:text-(--k-maroon)"
         >
           Get in touch
         </a>
@@ -98,14 +98,14 @@ export function Footer() {
             className="relative block w-[200px] lg:w-full lg:max-w-[260px]"
           >
             {/* The logo file is black; it is used as a mask so it takes the
-                footer's light blue. */}
+                footer's white. */}
             <span
               role="img"
               aria-label={LOGO.alt}
-              className="block aspect-[526/118] bg-(--k-sky) [mask-image:url(/sites/ekchitra-redesign/images/ekchitra-logo.png)] [mask-size:contain] [mask-repeat:no-repeat]"
+              className="block aspect-[526/118] bg-white [mask-image:url(/sites/ekchitra-redesign/images/ekchitra-logo.png)] [mask-size:contain] [mask-repeat:no-repeat]"
             />
           </a>
-          <p className="mt-6 max-w-[280px] text-[14px] leading-[1.5] text-(--k-sky)/75">
+          <p className="mt-6 max-w-[280px] text-[14px] leading-[1.5] text-white/70">
             {FOOTER.tagline}
           </p>
         </div>
@@ -114,7 +114,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 lg:gap-x-12">
             {COLUMNS.map((column) => (
               <div key={column.title}>
-                <h3 className="flex items-center justify-between border-y border-(--k-sky)/70 py-2 text-[17px] leading-[1.4] lg:text-[19px]">
+                <h3 className="flex items-center justify-between border-y border-white/60 py-2 text-[17px] leading-[1.4] lg:text-[19px]">
                   {column.title}
                   <svg
                     viewBox="0 0 16 16"
@@ -145,7 +145,7 @@ export function Footer() {
                   ))}
                 </ul>
                 {column.note && (
-                  <p className="mt-5 max-w-[220px] text-[14px] leading-[1.5] text-(--k-sky)/75">
+                  <p className="mt-5 max-w-[220px] text-[14px] leading-[1.5] text-white/70">
                     {column.note}
                   </p>
                 )}
@@ -153,9 +153,9 @@ export function Footer() {
             ))}
           </div>
 
-          <div className="mt-12 flex flex-wrap justify-between gap-x-6 gap-y-2 border-y border-(--k-sky)/70 py-4 text-[14px] lg:mt-14">
+          <div className="mt-12 flex flex-wrap justify-between gap-x-6 gap-y-2 border-y border-white/60 py-4 text-[14px] lg:mt-14">
             <p>{FOOTER.copyright}</p>
-            <p className="text-(--k-sky)/75">Hyderabad, India</p>
+            <p className="text-white/70">Hyderabad, India</p>
           </div>
         </div>
       </div>

@@ -5,166 +5,165 @@ import { useState } from "react";
 
 import { cn } from "@/lib/utils";
 
-import { Progress } from "../ekchitra-v4/Progress";
-import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { EXHIBITION_FILTERS, EXHIBITIONS } from "./exhibitions-data";
+import { type Exhibition, EXHIBITIONS } from "./exhibitions-data";
 import { InView } from "./InView";
 import { CAPS, DISPLAY, GUTTER, SANS } from "./shared";
 
-type Filter = (typeof EXHIBITION_FILTERS)[number];
+/** Tabs, and which exhibitions each one holds. */
+const TABS: { label: string; status: Exhibition["status"] }[] = [
+  { label: "Current", status: "Ongoing" },
+  { label: "Upcoming", status: "Upcoming" },
+  { label: "Archive", status: "Past" },
+];
 
 /**
- * The exhibitions, one to a row.
+ * The exhibitions, under three tabs — current, upcoming and archive — one tab
+ * shown at a time.
  *
- * A heading with status filters, then each exhibition as a two-column row: on
- * the left its number, title, strapline, venue and dates, which stay pinned near
- * the top of the screen while the row is scrolled; on the right a large picture
- * that wipes open on arrival and drifts a little slower than the page. Hovering
- * a row turns its title dark red and raises a "view exhibition" button over the
- * picture. An exhibition with no picture yet gets a dark red panel with its title.
+ * Each exhibition is a card: its picture on top and, on the plain page below it, a
+ * small label, the title, a strapline, and the venue and dates. On hover the
+ * picture compresses by a strip, the details slide up into it and a "view
+ * exhibition" button rises into the space left below — the same move as the
+ * artwork cards, and the card never changes size. An exhibition with no picture yet gets a dark red panel with its
+ * title. Cards wipe open in turn when their tab is shown.
  */
 export function ExhibitionsList() {
-  const [filter, setFilter] = useState<Filter>("All");
+  const [tab, setTab] = useState(TABS[0]);
   const shown = EXHIBITIONS.filter(
-    (exhibition) => filter === "All" || exhibition.status === filter,
+    (exhibition) => exhibition.status === tab.status,
   );
 
   return (
-    <section id="list" className={cn("pb-24 lg:pb-[120px]", GUTTER, SANS)}>
-      <div className="grid gap-y-5 border-t border-(--k-ink)/15 pt-6 lg:grid-cols-2 lg:gap-x-5">
-        <h2
-          className={cn(DISPLAY, "text-[28px] leading-[1.15] lg:text-[32px]")}
-        >
-          <Chars text="Gallery exhibitions" />
-        </h2>
-        <ul className="flex flex-wrap items-end gap-x-6 gap-y-2">
-          {EXHIBITION_FILTERS.map((label) => {
-            const active = label === filter;
-            const count =
-              label === "All"
-                ? EXHIBITIONS.length
-                : EXHIBITIONS.filter((item) => item.status === label).length;
-            return (
-              <li key={label}>
-                <button
-                  type="button"
-                  aria-pressed={active}
-                  onClick={() => setFilter(label)}
-                  className={cn(
-                    CAPS,
-                    "relative pb-1 transition-colors duration-300 after:absolute after:inset-x-0 after:bottom-0 after:h-px after:origin-left after:bg-current after:transition-transform after:duration-500 after:ease-[cubic-bezier(0.22,1,0.36,1)] hover:text-(--k-maroon)",
-                    active
-                      ? "text-(--k-maroon) after:scale-x-100"
-                      : "text-(--k-ink)/55 after:scale-x-0",
-                  )}
-                >
-                  {label} <span className="text-[10px]">({count})</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+    <section
+      id="list"
+      className={cn("relative pb-24 lg:pb-[120px]", GUTTER, SANS)}
+    >
+      <div
+        role="tablist"
+        aria-label="Exhibitions"
+        className="flex gap-x-8 border-b border-(--k-ink)/15"
+      >
+        {TABS.map((item) => {
+          const active = item.label === tab.label;
+          const count = EXHIBITIONS.filter(
+            (exhibition) => exhibition.status === item.status,
+          ).length;
+          return (
+            <button
+              key={item.label}
+              type="button"
+              role="tab"
+              aria-selected={active}
+              onClick={() => setTab(item)}
+              className={cn(
+                CAPS,
+                "relative pb-4 text-[13px] transition-colors duration-300 after:absolute after:inset-x-0 after:-bottom-px after:h-[2px] after:origin-left after:bg-(--k-maroon) after:transition-transform after:duration-500 after:ease-[cubic-bezier(0.22,1,0.36,1)] hover:text-(--k-maroon)",
+                active
+                  ? "text-(--k-ink) after:scale-x-100"
+                  : "text-(--k-ink)/45 after:scale-x-0",
+              )}
+            >
+              {item.label} <span className="text-[10px]">({count})</span>
+            </button>
+          );
+        })}
       </div>
 
-      <ul className="mt-8 space-y-5">
-        {shown.map((exhibition) => {
-          const number = String(EXHIBITIONS.indexOf(exhibition) + 1).padStart(
-            2,
-            "0",
-          );
-          return (
-            <li key={exhibition.title}>
+      <ul
+        key={tab.label}
+        role="tabpanel"
+        className="mt-10 grid gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3"
+      >
+        {shown.map((exhibition, index) => (
+          <li key={exhibition.title}>
+            <InView once delay={index * 120}>
               <a
                 href={exhibition.href}
                 target="_blank"
                 rel="noreferrer"
-                className="group grid gap-y-4 lg:grid-cols-2 lg:gap-x-5"
+                className="group relative block"
               >
-                {/* Details — pinned while the row scrolls past. */}
-                <div className="order-2 grid grid-cols-2 gap-x-5 self-start lg:sticky lg:top-[92px] lg:order-1">
-                  <div className="grid grid-cols-[auto_1fr] gap-x-3">
-                    <span className="pt-[5px] text-[12px] leading-4">
-                      ({number})
-                    </span>
-                    <span>
-                      <span className="block text-[18px] leading-[1.25] transition-colors duration-300 group-hover:text-(--k-maroon) lg:text-[22px]">
-                        <Chars text={exhibition.title} />
-                      </span>
-                      <span className="mt-1 block text-[14px] leading-[1.4] text-(--k-ink)/60">
-                        {exhibition.subtitle}
-                      </span>
-                    </span>
-                  </div>
-                  <div className="text-[13px] leading-[1.5]">
-                    <span
-                      className={cn(
-                        "mb-3 inline-block px-3 py-[5px] text-[12px] leading-4",
-                        exhibition.status === "Past"
-                          ? "bg-(--k-sand) text-(--k-ink)"
-                          : "bg-(--k-maroon) text-white",
-                      )}
-                    >
-                      {exhibition.status}
-                    </span>
-                    <span className="block">{exhibition.venue}</span>
-                    <span className="block text-(--k-ink)/60">
-                      {exhibition.dates}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Picture */}
-                <InView className="order-1 lg:order-2">
-                  <Progress className="ek5-wipe relative aspect-[16/9] overflow-hidden bg-(--k-maroon)">
+                {/* Picture. On hover its frame gets 64px shorter, so the
+                    picture compresses around its centre. */}
+                <span className="ek5-wipe relative block aspect-[16/9] overflow-hidden">
+                  <span
+                    className={cn(
+                      "absolute inset-x-0 top-0 bottom-0 overflow-hidden transition-[bottom] duration-[320ms] ease-[cubic-bezier(0.2,0.7,0.2,1)] group-hover:bottom-16 group-focus-visible:bottom-16",
+                      !exhibition.image && "bg-(--k-maroon)",
+                    )}
+                  >
                     {exhibition.image ? (
                       <Image
                         src={exhibition.image}
                         alt={exhibition.title}
                         fill
-                        sizes="(max-width: 1023px) 100vw, 50vw"
-                        className="translate-y-[calc((var(--p,0.5)_-_0.5)_*_5%)] scale-[1.06] object-cover will-change-transform"
+                        sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+                        className="object-cover"
                       />
                     ) : (
                       <>
                         <Diamonds
-                          rows={22}
+                          rows={18}
                           horizontal
-                          className="absolute top-0 left-0 h-[70px] text-white/15 lg:h-[100px]"
+                          className="absolute top-0 left-0 h-[56px] text-white/15"
                         />
                         <span
                           className={cn(
                             DISPLAY,
-                            "absolute inset-x-5 bottom-5 text-[12vw] leading-[0.95] tracking-[-0.05em] text-white lg:inset-x-8 lg:bottom-7 lg:text-[6vw]",
+                            "absolute inset-x-5 bottom-4 text-[34px] leading-[1] text-white lg:text-[40px]",
                           )}
                         >
                           {exhibition.title}
                         </span>
                       </>
                     )}
-                    <span className="absolute right-4 bottom-4 flex h-11 translate-y-[6px] items-stretch bg-white text-(--k-ink) opacity-0 transition-[opacity,translate] duration-[320ms] ease-[cubic-bezier(0.2,0.7,0.2,1)] group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100 lg:right-6 lg:bottom-6">
-                      <span className="flex items-center px-4 text-[14px]">
-                        View exhibition
-                      </span>
-                      <span className="flex items-center pr-4">
-                        <svg
-                          viewBox="0 0 12 18"
-                          aria-hidden="true"
-                          className="h-[18px] w-3"
-                        >
-                          <path
-                            d="M3 0l3 3-3 3-3-3zM9 6l3 3-3 3-3-3zM3 12l3 3-3 3-3-3z"
-                            fill="currentColor"
-                          />
-                        </svg>
-                      </span>
-                    </span>
-                  </Progress>
-                </InView>
+                  </span>
+                </span>
+
+                {/* Details: slide up into the strip to make room below. */}
+                <span className="ek5-fade block pt-4 transition-transform duration-[320ms] ease-[cubic-bezier(0.2,0.7,0.2,1)] group-hover:-translate-y-16 group-focus-visible:-translate-y-16">
+                  <span
+                    className={cn(CAPS, "block text-[11px] text-(--k-maroon)")}
+                  >
+                    Gallery exhibition
+                  </span>
+                  <span className="mt-2 block text-[20px] leading-[1.25] lg:text-[22px]">
+                    {exhibition.title}
+                  </span>
+                  <span className="mt-1 block text-[14px] leading-[1.4] text-(--k-ink)/60">
+                    {exhibition.subtitle}
+                  </span>
+                  <span className="mt-4 block text-[13px] leading-[1.5]">
+                    <span className="text-(--k-maroon)">
+                      {exhibition.venue}
+                    </span>{" "}
+                    <span>{exhibition.dates}</span>
+                  </span>
+                </span>
+
+                {/* Button: rises into the space left at the bottom. */}
+                <span className="absolute bottom-0 left-0 flex h-11 translate-y-[6px] items-stretch bg-(--k-ink) text-white opacity-0 transition-[opacity,translate,background-color] duration-[320ms] ease-[cubic-bezier(0.2,0.7,0.2,1)] group-hover:translate-y-0 group-hover:opacity-100 group-hover:delay-[60ms] group-focus-visible:translate-y-0 group-focus-visible:opacity-100 hover:bg-(--k-maroon)">
+                  <span className="flex items-center px-4 text-[14px]">
+                    View exhibition
+                  </span>
+                  <span className="flex items-center pr-4">
+                    <svg
+                      viewBox="0 0 12 18"
+                      aria-hidden="true"
+                      className="h-[18px] w-3"
+                    >
+                      <path
+                        d="M3 0l3 3-3 3-3-3zM9 6l3 3-3 3-3-3zM3 12l3 3-3 3-3-3z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </span>
               </a>
-            </li>
-          );
-        })}
+            </InView>
+          </li>
+        ))}
       </ul>
     </section>
   );
