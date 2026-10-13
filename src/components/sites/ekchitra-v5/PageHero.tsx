@@ -12,7 +12,7 @@ import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
  * Top of an inner page: a wide picture set in from the page edges, which wipes
  * open on arrival and moves a little slower than the page, with the page's label
  * and a two-line title over its centre. Below it, a line of introduction and a
- * short note centred in white space, with the diamond motif on both edges.
+ * short note centred in white space, with the diamond motif on the left edge.
  */
 export function PageHero({
   label,
@@ -63,12 +63,6 @@ export function PageHero({
           rows={14}
           accent
           className="absolute top-10 left-0 w-[56px] text-(--k-ink)/10 lg:w-[100px]"
-        />
-        <Diamonds
-          rows={18}
-          side="right"
-          colourful
-          className="absolute top-6 right-0 hidden w-[100px] lg:block"
         />
         <h2
           className={cn(

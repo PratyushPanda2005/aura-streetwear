@@ -6,7 +6,8 @@ import { Diamonds } from "./Diamonds";
 import { BODY, CAPS, DISPLAY, SANS } from "./shared";
 
 /**
- * Closing call on inner pages: a dark red band with a short invitation, a white
+ * Closing call on inner pages: a band in the brand black (the footer below it is
+ * dark red) with a short invitation, a white
  * button to get in touch, and the diamond motif tone on tone along one edge.
  */
 export function Enquire({
@@ -24,14 +25,14 @@ export function Enquire({
   return (
     <section
       className={cn(
-        "relative flex flex-col items-center overflow-hidden bg-(--k-maroon) px-4 py-20 text-center text-white lg:py-[110px]",
+        "relative flex flex-col items-center overflow-hidden bg-(--k-ink) px-4 py-20 text-center text-white lg:py-[110px]",
         SANS,
       )}
     >
       <Diamonds
         rows={30}
         horizontal
-        className="absolute top-0 left-0 h-[84px] text-white/20 lg:h-[132px]"
+        className="absolute top-0 left-0 h-[84px] text-white/15 lg:h-[132px]"
       />
       <p className={CAPS}>
         <Chars text={label} />
@@ -50,7 +51,7 @@ export function Enquire({
         rel="noreferrer"
         className={cn(
           CAPS,
-          "mt-9 flex h-11 items-center bg-white px-7 text-(--k-ink) transition-colors duration-300 hover:bg-(--k-ink) hover:text-white",
+          "mt-9 flex h-11 items-center bg-white px-7 text-(--k-ink) transition-colors duration-300 hover:bg-(--k-maroon) hover:text-white",
         )}
       >
         Get in touch
