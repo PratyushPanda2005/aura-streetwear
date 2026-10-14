@@ -101,6 +101,44 @@
     translate 0.32s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
+/* Page-load entrances for the hero (run once, on arrival). `--d` delays each
+   piece so they arrive in order: logo, description, line, picture, headline. */
+@keyframes ek5-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+}
+
+.ek5-rise {
+  animation: ek5-rise 1.1s cubic-bezier(0.22, 1, 0.36, 1) var(--d, 0ms) both;
+}
+
+/* The picture opens like a curtain lifting from the bottom… */
+@keyframes ek5-curtain {
+  from {
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0);
+  }
+}
+
+.ek5-curtain {
+  animation: ek5-curtain 1.5s cubic-bezier(0.76, 0, 0.24, 1) var(--d, 0ms) both;
+}
+
+/* …while the photograph inside settles from a slight zoom. */
+@keyframes ek5-settle {
+  from {
+    transform: scale(1.16);
+  }
+}
+
+.ek5-settle {
+  animation: ek5-settle 2.4s cubic-bezier(0.22, 1, 0.36, 1) var(--d, 0ms) both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ek5-reveal,
   .ek5-chars [data-char],
@@ -113,6 +151,12 @@
   .ek5-underline::after {
     transform: none;
     transition: none;
+  }
+
+  .ek5-rise,
+  .ek5-curtain,
+  .ek5-settle {
+    animation: none;
   }
 
   .ek5-wipe,

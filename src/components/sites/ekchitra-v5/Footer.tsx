@@ -50,8 +50,8 @@ const LINK =
  * Footer: deep red ground, white type (links turn light blue on hover).
  *
  * A large invitation with an outlined button on top; below it the logo, large,
- * on the left and four link columns on the right, each headed by a title ruled above and
- * below with a small arrow. A closing line sits between two more rules, and
+ * on the left and four link columns on the right, each headed by a title with a small
+ * arrow. A closing line sits underneath, and
  * a short run of the diamond motif in grey and blue sits flush in the bottom-left
  * corner.
  */
@@ -115,7 +115,7 @@ export function Footer() {
           <div className="grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-4 lg:gap-x-12">
             {COLUMNS.map((column) => (
               <div key={column.title}>
-                <h3 className="flex items-center justify-between border-y border-white/60 py-2 text-[17px] leading-[1.4] lg:text-[19px]">
+                <h3 className="flex items-center justify-between py-2 text-[17px] leading-[1.4] lg:text-[19px]">
                   {column.title}
                   <svg
                     viewBox="0 0 16 16"
@@ -154,7 +154,7 @@ export function Footer() {
             ))}
           </div>
 
-          <div className="mt-12 flex flex-wrap justify-between gap-x-6 gap-y-2 border-y border-white/60 py-4 text-[14px] lg:mt-14">
+          <div className="mt-12 flex flex-wrap justify-between gap-x-6 gap-y-2 py-4 text-[14px] text-white/70 lg:mt-14">
             <p>{FOOTER.copyright}</p>
             <p className="text-white/70">Hyderabad, India</p>
           </div>

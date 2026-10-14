@@ -92,15 +92,17 @@ export function Header({ compact = false }: { compact?: boolean }) {
             aria-label="EkChitra — home"
             className="absolute top-[19px] left-1/2 origin-top -translate-x-1/2 translate-y-[calc((1_-_var(--s,0))_*_64px)] scale-[calc(1_+_(1_-_var(--s,0))_*_1.7)] will-change-transform lg:top-[22px] lg:translate-y-[calc((1_-_var(--s,0))_*_84px)] lg:scale-[calc(1_+_(1_-_var(--s,0))_*_3.1)]"
           >
-            <Image
-              src={LOGO.src}
-              alt={LOGO.alt}
-              width={LOGO.width}
-              height={LOGO.height}
-              preload
-              sizes="700px"
-              className="h-[22px] w-auto lg:h-6"
-            />
+            <span className={cn("block", !compact && "ek5-rise [--d:100ms]")}>
+              <Image
+                src={LOGO.src}
+                alt={LOGO.alt}
+                width={LOGO.width}
+                height={LOGO.height}
+                preload
+                sizes="700px"
+                className="h-[22px] w-auto lg:h-6"
+              />
+            </span>
           </a>
 
           <nav
@@ -150,9 +152,9 @@ export function Header({ compact = false }: { compact?: boolean }) {
         <Diamonds
           rows={21}
           shape="clusters"
-          tint="navy"
+          tint="sky"
           side="right"
-          className="absolute right-0 bottom-10 w-[84px] text-(--k-ink)/10"
+          className="absolute right-0 bottom-10 w-[84px] text-(--k-navy)"
         />
         <ul className={cn("mt-8 text-[40px] leading-[1.25]", DISPLAY)}>
           {[...V5_NAV, { label: "Contact", href: "#contact" }].map((link) => (

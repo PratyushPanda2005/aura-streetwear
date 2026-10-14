@@ -34,6 +34,11 @@ const formatTime = () =>
  * right. Then the photograph: edge to edge at first, with the headline over its
  * lower-left corner, drawing in from the sides as it is scrolled up under the
  * bar (`--h` runs 0–1).
+ *
+ * On arrival everything enters in order: the logo rises in, the description
+ * fades in letter by letter, the two diamond motifs appear diamond by diamond,
+ * the photograph opens upwards like a curtain while settling from a slight zoom,
+ * and the headline on it fades in last.
  */
 export function Hero() {
   const [active, setActive] = useState(0);
@@ -78,21 +83,28 @@ export function Hero() {
           rows={16}
           shape="steps"
           tint="sky"
+          reveal={0.9}
           className="absolute bottom-5 left-0 hidden w-[96px] text-(--k-ink)/10 lg:block"
         />
         <Diamonds
           rows={28}
           shape="clusters"
-          tint="maroon"
+          tint="sky"
           horizontal
-          className="absolute top-[60px] right-0 h-[22px] -scale-x-100 text-(--k-ink)/10 lg:top-[68px] lg:h-[72px]"
+          reveal={0.5}
+          className="absolute top-[60px] right-0 h-[22px] -scale-x-100 text-(--k-maroon) lg:top-[68px] lg:h-[72px]"
         />
         <p className={cn(BODY, "max-w-[480px] text-[17px] lg:text-[19px]")}>
           <Chars text={HERO.body} />
         </p>
       </div>
 
-      <div className={cn("flex items-end justify-between pb-3", GUTTER)}>
+      <div
+        className={cn(
+          "ek5-rise flex items-end justify-between pb-3 [--d:900ms]",
+          GUTTER,
+        )}
+      >
         <p className={CAPS}>
           Hyderabad <span suppressHydrationWarning>{time}</span>
         </p>
@@ -101,23 +113,25 @@ export function Hero() {
         </CapsLink>
       </div>
 
-      <div className="relative mx-[calc(var(--h,0)_*_16px)] h-[calc(100svh-110px)] min-h-[420px] overflow-hidden bg-(--k-ink) lg:mx-[calc(var(--h,0)_*_20px)] lg:h-[calc(100svh-130px)]">
-        {HERO_SLIDES.map((slide, index) => (
-          <Image
-            key={slide.src}
-            src={slide.src}
-            alt={slide.alt}
-            fill
-            sizes="100vw"
-            preload={index === 0}
-            className={cn(
-              "object-cover transition-[opacity,scale] duration-[1500ms,8000ms] ease-[ease-in-out,linear]",
-              index === active
-                ? "scale-[1.05] opacity-100"
-                : "scale-100 opacity-0",
-            )}
-          />
-        ))}
+      <div className="ek5-curtain relative mx-[calc(var(--h,0)_*_16px)] h-[calc(100svh-110px)] min-h-[420px] overflow-hidden bg-(--k-ink) [--d:350ms] lg:mx-[calc(var(--h,0)_*_20px)] lg:h-[calc(100svh-130px)]">
+        <div className="ek5-settle absolute inset-0 [--d:350ms]">
+          {HERO_SLIDES.map((slide, index) => (
+            <Image
+              key={slide.src}
+              src={slide.src}
+              alt={slide.alt}
+              fill
+              sizes="100vw"
+              preload={index === 0}
+              className={cn(
+                "object-cover transition-[opacity,scale] duration-[1500ms,8000ms] ease-[ease-in-out,linear]",
+                index === active
+                  ? "scale-[1.05] opacity-100"
+                  : "scale-100 opacity-0",
+              )}
+            />
+          ))}
+        </div>
         <div className="absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-black/70 to-transparent" />
         <div
           className={cn(

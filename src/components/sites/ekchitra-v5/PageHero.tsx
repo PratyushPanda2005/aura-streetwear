@@ -63,7 +63,7 @@ export function PageHero({
           rows={16}
           shape="scatter"
           tint="maroon"
-          className="absolute top-10 left-0 w-[56px] text-(--k-ink)/10 lg:w-[100px]"
+          className="absolute top-10 left-0 w-[56px] text-(--k-sky) lg:w-[100px]"
         />
         <h2
           className={cn(
