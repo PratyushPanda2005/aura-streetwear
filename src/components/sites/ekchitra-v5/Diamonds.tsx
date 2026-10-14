@@ -38,7 +38,9 @@ const UNIT = 20;
  * It is drawn in the current text colour, so the base tone is set with a text
  * colour class: a pale grey, or one of the brand colours for a two-colour
  * motif. `shape` picks the outline; `tint` picks out a scattering of diamonds
- * in a second brand colour (`accent` is shorthand for the sky-blue tint). `side`
+ * in a second brand colour (`accent` is shorthand for the sky-blue tint);
+ * `tintEvery` sets how sparse they are and `tintOpacity` how strongly they show,
+ * so a motif can carry just a hint of colour. `side`
  * says which edge is the straight one — put the strip against that edge of the
  * page or panel. `horizontal` lays the strip on its side with the straight edge
  * up.
@@ -48,6 +50,8 @@ export function Diamonds({
   shape = "steps",
   tint,
   accent = false,
+  tintEvery = 7,
+  tintOpacity,
   side = "left",
   horizontal = false,
   reveal,
@@ -57,6 +61,10 @@ export function Diamonds({
   shape?: keyof typeof SHAPES;
   tint?: keyof typeof TINTS;
   accent?: boolean;
+  /** Roughly one diamond in this many is tinted. */
+  tintEvery?: number;
+  /** Strength of the tinted diamonds, 0–1. */
+  tintOpacity?: number;
   side?: "left" | "right";
   horizontal?: boolean;
   /**
@@ -73,7 +81,13 @@ export function Diamonds({
   const across = (most + 0.5) * UNIT;
   const along = (rows + 1) * half;
   const picked = tint ? TINTS[tint] : accent ? TINTS.sky : undefined;
-  const cells: { key: string; d: string; fill: string; begin: number }[] = [];
+  const cells: {
+    key: string;
+    d: string;
+    fill: string;
+    tinted: boolean;
+    begin: number;
+  }[] = [];
 
   for (let row = 0; row < rows; row += 1) {
     const count = widths[row % widths.length];
@@ -85,9 +99,14 @@ export function Diamonds({
         key: `${row}-${column}`,
         d: `M${x} ${y - half}L${x + half} ${y}L${x} ${y + half}L${x - half} ${y}Z`,
         begin: (reveal ?? 0) + (row * 2 + column) * 0.045,
-        fill:
-          picked && (row * 5 + column * 3) % 7 === 0 ? picked : "fill-current",
+        fill: "fill-current",
+        tinted: false,
       });
+      const cell = cells[cells.length - 1];
+      if (picked && (row * 5 + column * 3) % tintEvery === 0) {
+        cell.fill = picked;
+        cell.tinted = true;
+      }
     }
   }
 
@@ -103,9 +122,20 @@ export function Diamonds({
     >
       {cells.map((cell) =>
         reveal === undefined ? (
-          <path key={cell.key} d={cell.d} className={cell.fill} />
+          <path
+            key={cell.key}
+            d={cell.d}
+            className={cell.fill}
+            fillOpacity={cell.tinted ? tintOpacity : undefined}
+          />
         ) : (
-          <path key={cell.key} d={cell.d} className={cell.fill} opacity="0">
+          <path
+            key={cell.key}
+            d={cell.d}
+            className={cell.fill}
+            fillOpacity={cell.tinted ? tintOpacity : undefined}
+            opacity="0"
+          >
             <animate
               attributeName="opacity"
               from="0"

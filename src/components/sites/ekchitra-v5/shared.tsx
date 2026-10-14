@@ -22,6 +22,7 @@ export const V5_HOME = "/ekchitra-v5";
 /** Pages of this version. */
 export const V5_ROUTES = {
   home: V5_HOME,
+  about: `${V5_HOME}/about`,
   artworks: `${V5_HOME}/artworks`,
   exhibitions: `${V5_HOME}/exhibitions`,
   /** Not rebuilt in this version yet; points at the earlier artists page. */
@@ -30,7 +31,7 @@ export const V5_ROUTES = {
 
 /** Section links carry the homepage path so they work from every page. */
 export const V5_NAV = [
-  { label: "About", href: `${V5_HOME}#about` },
+  { label: "About", href: V5_ROUTES.about },
   { label: "Exhibitions", href: V5_ROUTES.exhibitions },
   { label: "Artists", href: V5_ROUTES.artists },
   { label: "Artworks", href: V5_ROUTES.artworks },

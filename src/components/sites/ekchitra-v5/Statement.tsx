@@ -8,7 +8,7 @@ import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
 import { InView } from "./InView";
-import { BODY, CAPS, DISPLAY, SANS } from "./shared";
+import { BODY, CAPS, DISPLAY, SANS, V5_ROUTES } from "./shared";
 
 /**
  * Pictures floating around the statement. Each drifts at its own speed as the
@@ -92,12 +92,7 @@ export function Statement() {
         <p className={cn(BODY, "mx-auto mt-6 max-w-[460px]")}>
           <Chars text={ABOUT_SECTION.paragraphs[1]} />
         </p>
-        <CapsLink
-          href={ABOUT_SECTION.cta.href}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-8"
-        >
+        <CapsLink href={V5_ROUTES.about} className="mt-8">
           {ABOUT_SECTION.cta.label}
         </CapsLink>
       </div>

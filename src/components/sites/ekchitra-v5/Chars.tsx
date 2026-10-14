@@ -36,21 +36,24 @@ function stagger(el: HTMLElement) {
  * a paragraph arrives as one soft wave rather than letter after letter from the
  * top. Lines are measured as the text is actually wrapped on screen. Pass an
  * array to force line breaks; `after` is placed at the end of the last line.
+ * With `once`, the text fades in the first time it is seen and then stays.
  * Screen readers get the plain text; the animated letters are hidden from them.
  */
 export function Chars({
   text,
   after,
+  once = false,
   className,
 }: {
   text: string | string[];
   after?: ReactNode;
+  once?: boolean;
   className?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const lines = Array.isArray(text) ? text : [text];
 
-  useShown(ref, stagger);
+  useShown(ref, stagger, once);
 
   return (
     <span

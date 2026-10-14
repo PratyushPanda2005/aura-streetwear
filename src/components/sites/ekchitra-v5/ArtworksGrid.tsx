@@ -22,8 +22,13 @@ const CHIP = "h-9 border px-4 text-[13px] transition-colors duration-300";
  * entry itself never changes size. Pictures wipe open in turn the first time
  * they come into view, and never again — not even when filtering.
  */
-export function ArtworksGrid() {
-  const [query, setQuery] = useState("");
+export function ArtworksGrid({
+  initialQuery = "",
+}: {
+  /** Search to start with, e.g. a medium picked from the header menu. */
+  initialQuery?: string;
+}) {
+  const [query, setQuery] = useState(initialQuery);
   const term = query.trim().toLowerCase();
 
   const results = useMemo(

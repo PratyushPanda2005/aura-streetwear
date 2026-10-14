@@ -31,7 +31,7 @@ export function Services() {
     <section
       id="services"
       className={cn(
-        "scroll-mt-[68px] pt-20 pb-24 lg:pt-[100px] lg:pb-[140px]",
+        "scroll-mt-[60px] lg:scroll-mt-[68px] pt-20 pb-24 lg:pt-[100px] lg:pb-[140px]",
         GUTTER,
         SANS,
       )}

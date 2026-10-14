@@ -12,7 +12,8 @@ import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
  * Top of an inner page: a wide picture set in from the page edges, which wipes
  * open on arrival and moves a little slower than the page, with the page's label
  * and a two-line title over its centre. Below it, a line of introduction and a
- * short note centred in white space, with the diamond motif on the left edge.
+ * short note centred in white space, with the diamond motif on the left edge
+ * (left out when the page opens with its own introduction).
  */
 export function PageHero({
   label,
@@ -20,12 +21,15 @@ export function PageHero({
   image,
   intro,
   note,
+  once = false,
 }: {
   label: string;
   title: string[];
   image: { src: string; alt: string };
-  intro: string;
-  note: string;
+  intro?: string;
+  note?: string;
+  /** Play the text entrances only the first time they are seen. */
+  once?: boolean;
 }) {
   return (
     <section className={cn("pt-[60px] lg:pt-[68px]", SANS)}>
@@ -43,7 +47,7 @@ export function PageHero({
             <div className="absolute inset-0 bg-(--k-ink)/35" />
             <div className="absolute inset-0 flex translate-y-[calc((var(--p,0.5)_-_0.5)_*_60px)] flex-col items-center justify-center px-4 text-center text-white">
               <p className={CAPS}>
-                <Chars text={label} />
+                <Chars once={once} text={label} />
               </p>
               <h1
                 className={cn(
@@ -51,32 +55,34 @@ export function PageHero({
                   "mt-4 text-[44px] leading-[1.05] lg:text-[72px]",
                 )}
               >
-                <Chars text={title} />
+                <Chars once={once} text={title} />
               </h1>
             </div>
           </div>
         </InView>
       </Progress>
 
-      <div className="relative flex flex-col items-center px-4 pt-20 pb-14 text-center lg:pt-[110px] lg:pb-20">
-        <Diamonds
-          rows={16}
-          shape="scatter"
-          tint="maroon"
-          className="absolute top-10 left-0 w-[56px] text-(--k-sky) lg:w-[100px]"
-        />
-        <h2
-          className={cn(
-            DISPLAY,
-            "max-w-[620px] text-[28px] leading-[1.15] lg:text-[40px]",
-          )}
-        >
-          <Chars text={intro} />
-        </h2>
-        <p className={cn(BODY, "mt-5 text-(--k-ink)/60")}>
-          <Chars text={note} />
-        </p>
-      </div>
+      {intro && (
+        <div className="relative flex flex-col items-center px-4 pt-20 pb-14 text-center lg:pt-[110px] lg:pb-20">
+          <Diamonds
+            rows={16}
+            shape="scatter"
+            tint="maroon"
+            className="absolute top-10 left-0 w-[56px] text-(--k-sky) lg:w-[100px]"
+          />
+          <h2
+            className={cn(
+              DISPLAY,
+              "max-w-[620px] text-[28px] leading-[1.15] lg:text-[40px]",
+            )}
+          >
+            <Chars once={once} text={intro} />
+          </h2>
+          <p className={cn(BODY, "mt-5 text-(--k-ink)/60")}>
+            {note && <Chars once={once} text={note} />}
+          </p>
+        </div>
+      )}
     </section>
   );
 }

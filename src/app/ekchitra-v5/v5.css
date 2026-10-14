@@ -139,10 +139,53 @@
   animation: ek5-settle 2.4s cubic-bezier(0.22, 1, 0.36, 1) var(--d, 0ms) both;
 }
 
+/* Rise into place from 100px below, as kettal.com's gallery pictures do; stagger
+   neighbours with `--delay`. */
+.ek5-lift {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+}
+
+[data-shown="true"] .ek5-lift {
+  opacity: 1;
+  transform: none;
+  transition:
+    transform 1.4s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms),
+    opacity 0.9s ease-out var(--delay, 0ms);
+}
+
+/* kettal.com's picture reveal: the frame opens upwards on their menu curve, the
+   picture itself stays still. */
+.ek5-clip {
+  clip-path: inset(100% 0 0 0);
+}
+
+[data-shown="true"] .ek5-clip {
+  clip-path: inset(0);
+  transition: clip-path 1s cubic-bezier(0.785, 0.135, 0.15, 0.86)
+    var(--delay, 0ms);
+}
+
+/* An endless strip: the track holds its list twice and slides by one copy. */
+@keyframes ek5-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.ek5-marquee {
+  animation: ek5-marquee var(--marquee-s, 60s) linear infinite;
+}
+
+.ek5-marquee:hover {
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ek5-reveal,
   .ek5-chars [data-char],
-  .ek5-fade {
+  .ek5-fade,
+  .ek5-lift {
     opacity: 1;
     transform: none;
     transition: none;
@@ -155,12 +198,14 @@
 
   .ek5-rise,
   .ek5-curtain,
-  .ek5-settle {
+  .ek5-settle,
+  .ek5-marquee {
     animation: none;
   }
 
   .ek5-wipe,
-  .ek5-wipe img {
+  .ek5-wipe img,
+  .ek5-clip {
     clip-path: none;
     transform: none;
     transition: none;

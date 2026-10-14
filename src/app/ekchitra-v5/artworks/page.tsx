@@ -25,7 +25,13 @@ const BANNER = {
   alt: "",
 };
 
-export default function EkchitraV5ArtworksPage() {
+export default async function EkchitraV5ArtworksPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  // Set by the "by medium" links in the header menu.
+  const { medium } = await searchParams;
   return (
     <main className="flex min-h-svh flex-col bg-white text-(--k-ink)">
       <SmoothScroll />
@@ -37,7 +43,7 @@ export default function EkchitraV5ArtworksPage() {
         intro={ARTWORKS_PAGE.intro}
         note={`${ARTWORKS.length} works on view`}
       />
-      <ArtworksGrid />
+      <ArtworksGrid initialQuery={typeof medium === "string" ? medium : ""} />
       <Footer />
     </main>
   );

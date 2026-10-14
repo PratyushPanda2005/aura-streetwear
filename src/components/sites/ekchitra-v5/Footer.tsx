@@ -27,7 +27,7 @@ const COLUMNS: { title: string; links: FooterLink[]; note?: string }[] = [
   {
     title: "The gallery",
     links: [
-      { label: "About", href: `${V5_HOME}#about` },
+      { label: "About", href: V5_ROUTES.about },
       { label: "Services", href: `${V5_HOME}#services` },
       { label: "Contact us", href: CONTACT.href, external: true },
     ],

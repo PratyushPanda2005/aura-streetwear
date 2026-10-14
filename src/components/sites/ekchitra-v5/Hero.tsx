@@ -76,23 +76,30 @@ export function Hero() {
   return (
     <section ref={ref} id="top" className={cn("relative", SANS)}>
       {/* White band: room for the large logo, then the description. */}
-      <div className="relative flex flex-col items-center px-4 pt-[158px] pb-8 text-center lg:pt-[232px] lg:pb-10">
-        {/* Two motifs, deliberately not mirrored: a stepped strip low on the
-            left edge, and a run of clusters hanging from the bar on the right. */}
+      <div className="relative flex flex-col items-center px-4 pt-[148px] pb-8 text-center lg:pt-[206px] lg:pb-10">
+        {/* Two quiet motifs, supporting rather than leading: pale grey with
+            only a hint of colour. A stepped strip low on the left edge with a
+            few sky-blue diamonds, and a short run of clusters hanging from the
+            bar on the right with a couple of soft maroon ones — offset, not
+            mirrored, so the logo stays the centre of attention. */}
         <Diamonds
           rows={16}
           shape="steps"
           tint="sky"
+          tintEvery={19}
+          tintOpacity={0.6}
           reveal={0.9}
-          className="absolute bottom-5 left-0 hidden w-[96px] text-(--k-ink)/10 lg:block"
+          className="absolute bottom-5 left-0 hidden w-[96px] text-(--k-ink)/[0.07] lg:block"
         />
         <Diamonds
-          rows={28}
+          rows={22}
           shape="clusters"
-          tint="sky"
+          tint="maroon"
+          tintEvery={11}
+          tintOpacity={0.45}
           horizontal
           reveal={0.5}
-          className="absolute top-[60px] right-0 h-[22px] -scale-x-100 text-(--k-maroon) lg:top-[68px] lg:h-[72px]"
+          className="absolute top-[60px] right-0 h-[18px] -scale-x-100 text-(--k-ink)/[0.07] lg:top-[68px] lg:h-[46px]"
         />
         <p className={cn(BODY, "max-w-[480px] text-[17px] lg:text-[19px]")}>
           <Chars text={HERO.body} />

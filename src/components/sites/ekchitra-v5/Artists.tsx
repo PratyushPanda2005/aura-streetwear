@@ -89,7 +89,10 @@ export function Artists() {
   }, []);
 
   return (
-    <section id="artists" className={cn("scroll-mt-[68px]", SANS)}>
+    <section
+      id="artists"
+      className={cn("scroll-mt-[60px] lg:scroll-mt-[68px]", SANS)}
+    >
       <div className={cn("relative pt-2 pb-8 lg:pb-10", GUTTER)}>
         <Diamonds
           rows={24}
