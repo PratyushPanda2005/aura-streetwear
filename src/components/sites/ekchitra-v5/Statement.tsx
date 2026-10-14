@@ -56,7 +56,9 @@ export function Statement() {
         rows={20}
         shape="band"
         tint="sky"
-        className="absolute top-[38%] left-0 w-[56px] text-(--k-navy) lg:w-[100px]"
+        tintEvery={9}
+        tintOpacity={0.7}
+        className="absolute top-[38%] left-0 w-[56px] text-(--k-ink)/[0.1] lg:w-[100px]"
       />
       {FLOATS.map(({ artwork, className }, index) => (
         <div

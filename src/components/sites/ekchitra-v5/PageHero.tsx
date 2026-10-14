@@ -67,8 +67,10 @@ export function PageHero({
           <Diamonds
             rows={16}
             shape="scatter"
-            tint="maroon"
-            className="absolute top-10 left-0 w-[56px] text-(--k-sky) lg:w-[100px]"
+            tint="sky"
+            tintEvery={13}
+            tintOpacity={0.55}
+            className="absolute top-10 left-0 w-[56px] text-(--k-ink)/[0.1] lg:w-[100px]"
           />
           <h2
             className={cn(

@@ -1,5 +1,3 @@
-import { ROUTES } from "../ekchitra-redesign/data";
-
 /** Text face (loaded in `src/app/ekchitra-v5/layout.tsx`). */
 export const SANS = "font-[family-name:var(--font-ek5-sans)]";
 
@@ -25,8 +23,7 @@ export const V5_ROUTES = {
   about: `${V5_HOME}/about`,
   artworks: `${V5_HOME}/artworks`,
   exhibitions: `${V5_HOME}/exhibitions`,
-  /** Not rebuilt in this version yet; points at the earlier artists page. */
-  artists: ROUTES.artists,
+  artists: `${V5_HOME}/artists`,
 };
 
 /** Section links carry the homepage path so they work from every page. */
