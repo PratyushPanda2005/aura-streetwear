@@ -6,12 +6,11 @@ import { Progress } from "../ekchitra-v4/Progress";
 import { ABOUT_CURATOR } from "./about-data";
 import { Chars } from "./Chars";
 import { InView } from "./InView";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, DISPLAY, GUTTER, SANS, TITLE } from "./shared";
 
 /**
- * The curator, laid out as the chairperson block on knma.org's team page: a
- * thin rule with the role as a title, a wide picture across the content
- * width, then two columns — her name, role and a short lead on the left, the
+ * The curator, laid out as the chairperson block on knma.org's team page: the
+ * role as a title, a wide picture across the content width, then two columns — her name, role and a short lead on the left, the
  * biography on the right.
  *
  * The picture fills the frame; it wipes open on arrival and drifts a little
@@ -22,13 +21,13 @@ export function AboutCurator() {
     <section
       id="curator"
       className={cn(
-        "scroll-mt-[60px] pt-16 pb-14 lg:scroll-mt-[68px] lg:pt-[96px] lg:pb-[80px]",
+        "scroll-mt-[60px] pt-10 pb-14 lg:scroll-mt-[68px] lg:pt-[56px] lg:pb-[80px]",
         GUTTER,
         SANS,
       )}
     >
-      <div className="border-t border-(--k-ink)/30 pt-4">
-        <h2 className={cn(DISPLAY, "text-[26px] leading-[1.2] lg:text-[32px]")}>
+      <div>
+        <h2 className={TITLE}>
           <Chars once text={ABOUT_CURATOR.title} />
         </h2>
       </div>

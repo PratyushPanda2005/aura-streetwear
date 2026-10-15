@@ -11,12 +11,12 @@ import { useShown } from "./useShown";
  */
 export function InView({
   delay = 0,
-  once = false,
+  once = true,
   className,
   children,
 }: {
   delay?: number;
-  /** Play the entry animation only the first time. */
+  /** Play the entry animation only the first time (default); `false` replays it on every visit. */
   once?: boolean;
   className?: string;
   children: ReactNode;

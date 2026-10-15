@@ -6,7 +6,16 @@ import { EVENTS, EVENTS_SECTION } from "../ekchitra-redesign/data";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { InView } from "./InView";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS, V5_ROUTES } from "./shared";
+import {
+  BODY,
+  CAPS,
+  DISPLAY,
+  EYEBROW,
+  GUTTER,
+  SANS,
+  TITLE,
+  V5_ROUTES,
+} from "./shared";
 
 const number = (index: number) => `(${String(index + 1).padStart(2, "0")})`;
 
@@ -29,15 +38,10 @@ export function Exhibitions() {
     >
       <div className="flex items-end justify-between gap-x-6">
         <div>
-          <p className={CAPS}>
+          <p className={EYEBROW}>
             <Chars text={EVENTS_SECTION.label} />
           </p>
-          <h2
-            className={cn(
-              DISPLAY,
-              "mt-3 text-[28px] leading-[1.15] lg:text-[32px]",
-            )}
-          >
+          <h2 className={cn(TITLE, "mt-2")}>
             <Chars text={EVENTS_SECTION.heading} />
           </h2>
         </div>

@@ -30,19 +30,18 @@ function stagger(el: HTMLElement) {
 }
 
 /**
- * Text that fades in letter by letter each time it scrolls into view.
+ * Text that fades in letter by letter the first time it scrolls into view.
  *
  * Every rendered line starts almost together and fills in from left to right, so
  * a paragraph arrives as one soft wave rather than letter after letter from the
  * top. Lines are measured as the text is actually wrapped on screen. Pass an
  * array to force line breaks; `after` is placed at the end of the last line.
- * With `once`, the text fades in the first time it is seen and then stays.
  * Screen readers get the plain text; the animated letters are hidden from them.
  */
 export function Chars({
   text,
   after,
-  once = false,
+  once = true,
   className,
 }: {
   text: string | string[];

@@ -14,7 +14,7 @@ import {
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, DISPLAY, EYEBROW, GUTTER, SANS, TITLE } from "./shared";
 
 /** Artists shown on the homepage; the rest are a click away. */
 const FEATURED = ARTWORKS.filter((artwork) => !artwork.cutout).slice(0, 4);
@@ -101,19 +101,14 @@ export function Artists() {
           side="right"
           className="absolute top-0 right-0 hidden w-[120px] text-(--k-ink)/10 lg:block"
         />
-        <p className={CAPS}>
+        <p className={EYEBROW}>
           <Chars text={ARTISTS_SECTION.label} />
         </p>
-        <h2
-          className={cn(
-            DISPLAY,
-            "mt-4 text-[48px] leading-[1.08] tracking-[-0.045em] lg:text-[98px]",
-          )}
-        >
+        <h2 className={cn(TITLE, "mt-2")}>
           <Chars
-            text={["Discover", "EkChitra’s Artists"]}
+            text="Discover EkChitra’s Artists"
             after={
-              <sup className="ek5-fade relative -top-[2.2em] text-[12px] tracking-normal lg:-top-[4.6em] lg:text-[14px]">
+              <sup className="ek5-fade relative -top-[1.4em] text-[12px] tracking-normal lg:-top-[1.8em] lg:text-[14px]">
                 ({ARTWORKS.length})
               </sup>
             }

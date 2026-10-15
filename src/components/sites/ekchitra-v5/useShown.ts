@@ -1,15 +1,16 @@
 import { useEffect, useRef, type RefObject } from "react";
 
 /**
- * Sets `data-shown="true"` on an element each time it scrolls into view and
- * removes it once the element has left the screen completely, so CSS entry
- * animations replay on every visit. `prepare` runs just before each entry.
- * With `once`, the element stays shown after its first entry.
+ * Sets `data-shown="true"` on an element when it first scrolls into view, so
+ * CSS entry animations play once and the element then stays shown. `prepare`
+ * runs just before the entry. Pass `once = false` to remove the flag again
+ * when the element has left the screen, so the animation replays on every
+ * visit.
  */
 export function useShown<T extends HTMLElement>(
   ref: RefObject<T | null>,
   prepare?: (el: T) => void,
-  once = false,
+  once = true,
 ) {
   const prepareRef = useRef(prepare);
 

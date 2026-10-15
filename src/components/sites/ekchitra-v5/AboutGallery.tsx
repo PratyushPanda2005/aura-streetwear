@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 import { ABOUT_GALLERY } from "./about-data";
 import { InView } from "./InView";
-import { CAPS, GUTTER, SANS } from "./shared";
+import { EYEBROW, GUTTER, SANS } from "./shared";
 
 /** Entry delays, so the first pictures rise one after another. */
 const DELAYS = [
@@ -74,9 +74,7 @@ export function AboutGallery() {
   return (
     <section className={cn("pb-16 lg:pb-[96px]", SANS)}>
       <div className={cn("flex items-end justify-between pb-6", GUTTER)}>
-        <p className={cn(CAPS, "text-(--k-ink)/60")}>
-          Gallery ({ABOUT_GALLERY.length})
-        </p>
+        <p className={EYEBROW}>Gallery ({ABOUT_GALLERY.length})</p>
         <div className="flex gap-x-2">
           <button
             type="button"

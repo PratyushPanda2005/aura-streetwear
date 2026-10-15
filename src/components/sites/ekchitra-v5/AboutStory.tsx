@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { ABOUT_STORY } from "./about-data";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, EYEBROW, GUTTER, SANS, TITLE } from "./shared";
 
 /**
  * "Our story", laid out as kettal.com's history intro: a large statement whose
@@ -29,15 +29,10 @@ export function AboutStory() {
         className="absolute bottom-10 left-0 hidden w-[80px] text-(--k-ink)/[0.07] lg:block"
       />
       <div className="relative">
-        <p className={cn(CAPS, "text-(--k-ink)/60 lg:absolute lg:top-[18px]")}>
+        <p className={cn(EYEBROW, "lg:absolute lg:top-[16px]")}>
           <Chars once text={ABOUT_STORY.label} />
         </p>
-        <h2
-          className={cn(
-            DISPLAY,
-            "mt-5 text-[30px] leading-[1.25] lg:mt-0 lg:indent-[18%] lg:text-[48px] lg:leading-[1.3]",
-          )}
-        >
+        <h2 className={cn(TITLE, "mt-2 lg:mt-0 lg:indent-[18%]")}>
           <Chars once text={ABOUT_STORY.lead} />
         </h2>
       </div>

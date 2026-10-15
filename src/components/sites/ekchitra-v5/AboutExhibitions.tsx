@@ -7,7 +7,7 @@ import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
 import { InView } from "./InView";
-import { CAPS, DISPLAY, GUTTER, SANS, V5_ROUTES } from "./shared";
+import { CAPS, EYEBROW, GUTTER, SANS, TITLE, V5_ROUTES } from "./shared";
 
 /**
  * Heights the posters cycle through, so the strip has an uneven, hung-by-hand
@@ -58,15 +58,10 @@ export function AboutExhibitions() {
         className="absolute top-6 right-0 hidden w-[64px] text-(--k-ink)/[0.12] lg:block"
       />
       <div className={cn("flex flex-col items-center text-center", GUTTER)}>
-        <p
-          className={cn(
-            DISPLAY,
-            "max-w-[990px] text-[28px] leading-[1.1] lg:text-[39px] lg:leading-[1.04]",
-          )}
-        >
+        <p className={cn(TITLE, "max-w-[990px]")}>
           <Chars once text={ABOUT_EXHIBITIONS.statement} />
         </p>
-        <p className={cn(CAPS, "mt-6 text-(--k-ink)/60")}>
+        <p className={cn(EYEBROW, "mt-3")}>
           <Chars once text={ABOUT_EXHIBITIONS.by} />
         </p>
       </div>

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { FOOTER, LOGO } from "../ekchitra-redesign/data";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { DISPLAY, GUTTER, SANS, V5_HOME, V5_ROUTES } from "./shared";
+import { GUTTER, SANS, TITLE, V5_HOME, V5_ROUTES } from "./shared";
 
 const CONTACT =
   FOOTER.social.find((link) => link.label === "WhatsApp") ?? FOOTER.social[0];
@@ -73,12 +73,7 @@ export function Footer() {
         className="absolute bottom-0 left-0 h-[84px] -scale-y-100 text-white/15 lg:h-[116px]"
       />
       <div className="relative flex flex-wrap items-center justify-between gap-6">
-        <h2
-          className={cn(
-            DISPLAY,
-            "text-[28px] leading-[1.1] text-white/55 lg:text-[40px]",
-          )}
-        >
+        <h2 className={cn(TITLE, "text-white/55")}>
           <Chars text="Art is everywhere. Come and notice." />
         </h2>
         <a

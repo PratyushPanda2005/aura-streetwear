@@ -6,7 +6,7 @@ import { Progress } from "../ekchitra-v4/Progress";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
 import { InView } from "./InView";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, GUTTER, PAGE_TITLE, SANS, TITLE } from "./shared";
 
 /**
  * Top of an inner page: a wide picture set in from the page edges, which wipes
@@ -49,12 +49,7 @@ export function PageHero({
               <p className={CAPS}>
                 <Chars once={once} text={label} />
               </p>
-              <h1
-                className={cn(
-                  DISPLAY,
-                  "mt-4 text-[44px] leading-[1.05] lg:text-[72px]",
-                )}
-              >
+              <h1 className={cn(PAGE_TITLE, "mt-2")}>
                 <Chars once={once} text={title} />
               </h1>
             </div>
@@ -72,12 +67,7 @@ export function PageHero({
             tintOpacity={0.55}
             className="absolute top-10 left-0 w-[56px] text-(--k-ink)/[0.1] lg:w-[100px]"
           />
-          <h2
-            className={cn(
-              DISPLAY,
-              "max-w-[620px] text-[28px] leading-[1.15] lg:text-[40px]",
-            )}
-          >
+          <h2 className={cn(TITLE, "max-w-[620px]")}>
             <Chars once={once} text={intro} />
           </h2>
           <p className={cn(BODY, "mt-5 text-(--k-ink)/60")}>

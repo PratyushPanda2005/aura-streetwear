@@ -15,10 +15,8 @@
   color: #ffffff;
 }
 
-/* Entry animations. Each one runs every time its element scrolls into view (see
-   useShown.ts): `data-shown="true"` is set on entry and removed once the element
-   has left the screen completely. The transitions sit on the shown state only,
-   so the reset on leaving is instant and the next entry plays from the start. */
+/* Entry animations. Each one plays once, the first time its element scrolls
+   into view (see useShown.ts): `data-shown="true"` is set on entry and stays. */
 
 /* Fade-and-rise of a whole block (Reveal.tsx). */
 .ek5-reveal {

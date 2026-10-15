@@ -9,7 +9,7 @@ import { EVENTS, HERO, HERO_SLIDES } from "../ekchitra-redesign/data";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
 import { Diamonds } from "./Diamonds";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, CAPS, GUTTER, PAGE_TITLE, SANS } from "./shared";
 
 /** Time each photograph stays on screen before cross-fading to the next. */
 const SLIDE_INTERVAL_MS = 6000;
@@ -149,12 +149,7 @@ export function Hero() {
           <p className={CAPS}>
             <Chars text={HERO.eyebrow} />
           </p>
-          <h1
-            className={cn(
-              DISPLAY,
-              "mt-4 max-w-[760px] text-[38px] leading-[1.08] lg:text-[64px]",
-            )}
-          >
+          <h1 className={cn(PAGE_TITLE, "mt-2 max-w-[760px]")}>
             <Chars text={HERO.title} />
           </h1>
         </div>

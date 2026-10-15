@@ -9,6 +9,22 @@ export const DISPLAY =
 export const CAPS =
   "text-[12px] leading-4 font-normal tracking-[0.12em] uppercase";
 
+/**
+ * Type scale shared by every page, so headings and the small labels over
+ * them read the same everywhere.
+ *
+ * - `EYEBROW`: the small spaced-capitals label above a heading.
+ * - `TITLE`: every section heading (and large statement).
+ * - `PAGE_TITLE`: the one title on a page's banner.
+ */
+export const EYEBROW = `${CAPS} text-(--k-ink)/60`;
+
+export const TITLE =
+  "font-[family-name:var(--font-ek5-sans)] font-normal tracking-[-0.035em] text-[30px] leading-[1.12] lg:text-[44px]";
+
+export const PAGE_TITLE =
+  "font-[family-name:var(--font-ek5-sans)] font-normal tracking-[-0.035em] text-[40px] leading-[1.05] lg:text-[64px]";
+
 /** Running text. */
 export const BODY = "text-[16px] leading-[1.4] tracking-[-0.01em]";
 

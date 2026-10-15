@@ -6,7 +6,7 @@ import { SERVICES } from "../ekchitra-redesign/data";
 import { Reveal } from "./Reveal";
 import { CapsLink } from "./CapsLink";
 import { Chars } from "./Chars";
-import { BODY, CAPS, DISPLAY, GUTTER, SANS } from "./shared";
+import { BODY, EYEBROW, GUTTER, SANS, TITLE } from "./shared";
 
 /**
  * Pictures for the service cards: stock photographs from Unsplash (free licence)
@@ -44,16 +44,11 @@ export function Services() {
               className="flex gap-x-6 bg-(--k-sand) p-6 lg:min-h-[460px] lg:p-10"
             >
               <div className="flex flex-1 flex-col justify-between gap-y-10">
-                <p className={CAPS}>
+                <p className={EYEBROW}>
                   <Chars text={service.eyebrow} />
                 </p>
                 <div>
-                  <h2
-                    className={cn(
-                      DISPLAY,
-                      "text-[32px] leading-[1.1] lg:text-[56px]",
-                    )}
-                  >
+                  <h2 className={TITLE}>
                     <Chars text={service.title} />
                   </h2>
                   <p className={cn(BODY, "mt-4 max-w-[400px]")}>
