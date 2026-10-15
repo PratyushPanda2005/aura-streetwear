@@ -179,6 +179,57 @@
   animation-play-state: paused;
 }
 
+/* Hero studies (/ekchitra-v5/heroes). */
+
+/* A column of tiles whose list is doubled, drifting by one copy and looping. */
+@keyframes ek5-drift-up {
+  to {
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+@keyframes ek5-drift-down {
+  from {
+    transform: translate3d(0, -50%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ek5-drift-up {
+  animation: ek5-drift-up var(--drift-s, 60s) linear infinite;
+}
+
+.ek5-drift-down {
+  animation: ek5-drift-down var(--drift-s, 60s) linear infinite;
+}
+
+/* A slow, endless turn. */
+@keyframes ek5-turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ek5-turn {
+  animation: ek5-turn 60s linear infinite;
+}
+
+/* A slow push in and back out on a photograph. */
+@keyframes ek5-kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+.ek5-kenburns {
+  animation: ek5-kenburns 18s ease-in-out infinite alternate;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ek5-reveal,
   .ek5-chars [data-char],
@@ -197,7 +248,11 @@
   .ek5-rise,
   .ek5-curtain,
   .ek5-settle,
-  .ek5-marquee {
+  .ek5-marquee,
+  .ek5-drift-up,
+  .ek5-drift-down,
+  .ek5-turn,
+  .ek5-kenburns {
     animation: none;
   }
 
