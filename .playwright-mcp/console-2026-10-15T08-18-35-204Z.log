@@ -352,3 +352,5 @@ Design by Flot Noir background-color: #EDE7DE; color: #000; font-family: "Helvet
 [43242585ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fcharanjeet-singh-2.jpg&w=384&q=75:0
 [43248779ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fdilip-kumar-2.jpg&w=384&q=75:0
 [43378255ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fvinod-daroz-1.jpg&w=384&q=75:0
+[43390112ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fcharanjeet-singh-2.jpg&w=384&q=75:0
+[43396348ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3100/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fdilip-kumar-2.jpg&w=384&q=75:0

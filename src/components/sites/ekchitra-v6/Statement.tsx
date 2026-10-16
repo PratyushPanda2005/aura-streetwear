@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 
 import { CapsLink } from "../ekchitra-v5/CapsLink";
 import { Chars } from "../ekchitra-v5/Chars";
-import { Reveal } from "../ekchitra-v5/Reveal";
-import { BODY, SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
+import { Diamonds } from "../ekchitra-v5/Diamonds";
+import { SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
 import { STATEMENT, STATS } from "./data";
 import { GRID, HEAD } from "./styles";
 import { Index } from "./ui";
@@ -22,12 +22,29 @@ const PANELS = [
     tone: "bg-(--k-maroon) text-white",
     caption: "text-white/80",
     size: "h-[60%]",
+    motif: {
+      shape: "steps",
+      tint: "sky",
+      horizontal: true,
+      rows: 15,
+      className:
+        "right-0 bottom-0 h-[80px] -scale-y-100 text-white/[0.16] lg:h-[108px]",
+    } as const,
   },
   {
     stat: artists,
     tone: "bg-(--k-sky) text-(--k-ink)",
     caption: "text-(--k-ink)/70",
     size: "h-[40%]",
+    motif: {
+      shape: "clusters",
+      tint: "maroon",
+      horizontal: false,
+      rows: 18,
+      className:
+        "top-1/2 right-0 w-[44px] -translate-y-1/2 text-(--k-ink)/[0.12] lg:w-[56px]",
+    } as const,
+    link: { label: "View all artists", href: V5_ROUTES.artists },
   },
 ];
 
@@ -44,8 +61,8 @@ const ease = (t: number) => 1 - (1 - t) * (1 - t);
  * the top of the screen it pins, and while scrolling on, the photograph slides
  * left and two brand-coloured panels slide in beside it — maroon with the
  * number of exhibitions curated, sky blue with the number of artists — their
- * figures rolling up with the scroll. The pin releases and the story follows
- * in two columns, with a link to the About page.
+ * figures rolling up with the scroll; the artists panel links to all the
+ * artists. The pin releases straight into the next section.
  */
 export function Statement() {
   const pin = useRef<HTMLDivElement>(null);
@@ -114,44 +131,46 @@ export function Statement() {
                   <div
                     key={panel.stat.label}
                     className={cn(
-                      "flex flex-col justify-between p-5 lg:p-6",
+                      "relative flex flex-col justify-between overflow-hidden p-5 lg:p-6",
                       panel.tone,
                       panel.size,
                     )}
                   >
-                    <p className="text-[56px] leading-none tracking-[-0.04em] tabular-nums lg:text-[88px]">
+                    <Diamonds
+                      rows={panel.motif.rows}
+                      shape={panel.motif.shape}
+                      horizontal={panel.motif.horizontal}
+                      side="right"
+                      tint={panel.motif.tint}
+                      tintEvery={7}
+                      tintOpacity={0.5}
+                      className={cn("absolute", panel.motif.className)}
+                    />
+                    <p className="relative text-[56px] leading-none tracking-[-0.04em] tabular-nums lg:text-[88px]">
                       {Math.round(progress * panel.stat.value)}
                       {panel.stat.suffix || "+"}
                     </p>
-                    <p
-                      className={cn(
-                        "text-[14px] lg:text-[15px]",
-                        panel.caption,
+                    <div className="relative flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
+                      <p
+                        className={cn(
+                          "text-[14px] lg:text-[15px]",
+                          panel.caption,
+                        )}
+                      >
+                        {panel.stat.label}
+                      </p>
+                      {"link" in panel && panel.link && (
+                        <CapsLink arrow href={panel.link.href}>
+                          {panel.link.label}
+                        </CapsLink>
                       )}
-                    >
-                      {panel.stat.label}
-                    </p>
+                    </div>
                   </div>
                 ))}
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      {/* The story: the belief on the left, the rest on the right. */}
-      <div className={cn(GRID, "gap-y-6 pt-16 lg:pt-24")}>
-        <Reveal className="col-span-4 lg:col-span-6">
-          <p className="text-[24px] leading-[1.2] tracking-[-0.02em] lg:text-[30px]">
-            {STATEMENT.body[0]}
-          </p>
-        </Reveal>
-        <Reveal className="col-span-4 flex flex-col items-start gap-8 lg:col-span-5 lg:col-start-8">
-          <p className={cn(BODY, "text-(--k-ink)/70")}>{STATEMENT.body[1]}</p>
-          <CapsLink arrow href={V5_ROUTES.about}>
-            Read our story
-          </CapsLink>
-        </Reveal>
       </div>
     </section>
   );

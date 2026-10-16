@@ -230,7 +230,95 @@
   animation: ek5-kenburns 18s ease-in-out infinite alternate;
 }
 
+/* v6: a card that rises into place when its block scrolls in. */
+.ek6-card {
+  opacity: 0;
+  transform: translate3d(0, 60px, 0);
+}
+
+[data-shown="true"] .ek6-card {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms),
+    transform 1.2s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms);
+}
+
+/* v6: a fine rule that draws itself across when its block scrolls in. */
+.ek6-rule {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+[data-shown="true"] .ek6-rule {
+  transform: scaleX(1);
+  transition: transform 1.2s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms);
+}
+
+/* v6 footer: blobs of brand colour drifting under a liquid warp. */
+@keyframes ek6-drift-a {
+  to {
+    transform: translate3d(18%, 12%, 0) scale(1.25) rotate(25deg);
+  }
+}
+
+@keyframes ek6-drift-b {
+  to {
+    transform: translate3d(-22%, -10%, 0) scale(0.85) rotate(-30deg);
+  }
+}
+
+@keyframes ek6-drift-c {
+  to {
+    transform: translate3d(12%, -18%, 0) scale(1.15) rotate(40deg);
+  }
+}
+
+.ek6-drift-a {
+  animation: ek6-drift-a 16s ease-in-out infinite alternate;
+}
+
+.ek6-drift-b {
+  animation: ek6-drift-b 21s ease-in-out infinite alternate;
+}
+
+.ek6-drift-c {
+  animation: ek6-drift-c 26s ease-in-out infinite alternate;
+}
+
+/* v6 footer: silk waves sway a little. */
+@keyframes ek6-sway {
+  to {
+    transform: translate3d(-4%, 2.5%, 0) scale(1.04);
+  }
+}
+
+.ek6-sway {
+  animation: ek6-sway 14s ease-in-out infinite alternate;
+}
+
+.ek6-sway-slow {
+  animation: ek6-sway 22s ease-in-out infinite alternate-reverse;
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .ek6-sway,
+  .ek6-sway-slow {
+    animation: none;
+  }
+
+  .ek6-drift-a,
+  .ek6-drift-b,
+  .ek6-drift-c {
+    animation: none;
+  }
+
+  .ek6-rule,
+  .ek6-card {
+    opacity: 1;
+    transform: none;
+  }
+
   .ek5-reveal,
   .ek5-chars [data-char],
   .ek5-fade,

@@ -5,13 +5,10 @@ import { type ComponentProps, useEffect, useRef } from "react";
 
 import { cn } from "@/lib/utils";
 
-import { Chars } from "../ekchitra-v5/Chars";
 import { Diamonds } from "../ekchitra-v5/Diamonds";
-import { CAPS, SANS, TITLE } from "../ekchitra-v5/shared";
-import { SERVICE_LIST, SERVICES_INTRO } from "./data";
+import { CAPS, SANS } from "../ekchitra-v5/shared";
+import { SERVICE_LIST } from "./data";
 import { DistortedDots } from "./DistortedDots";
-import { GRID, HEAD } from "./styles";
-import { Index } from "./ui";
 
 /** Scroll each card holds still before the next one slides in, px. */
 const HOLD_PX = 250;
@@ -36,7 +33,7 @@ const LAYERS = ["z-10", "z-20", "z-30"];
  * 02 — What we do, after the chapter cards of stateofaidesign.com, stacking
  * sideways.
  *
- * After a short heading, the services are full-screen cards in the brand
+ * Straight after About, the services are full-screen cards in the brand
  * colours — maroon, navy and sky — each with its picture printed
  * large behind it as a still field of dots, the grid bent into waves. The stack pins to the screen; each card holds for a
  * moment, then the next slides in from the right and settles over it, one by
@@ -82,17 +79,9 @@ export function Services() {
   return (
     <section
       id="services"
+      aria-label="What we do"
       className={cn("scroll-mt-11 bg-white text-(--k-ink)", SANS)}
     >
-      <div className={cn(GRID, HEAD)}>
-        <div className="col-span-4 lg:col-span-7">
-          <Index n={2} label="What we do" />
-          <h2 className={cn(TITLE, "mt-2 lg:mt-3")}>
-            <Chars text={SERVICES_INTRO.words.join(" ")} />
-          </h2>
-        </div>
-      </div>
-
       {/* Scroll room: each card's hold and lift, then the last card's hold. */}
       <div ref={pin} className="relative h-[calc(3*(100svh-44px)+750px)]">
         <div className="sticky top-11 h-[calc(100svh-44px)] overflow-hidden">
@@ -115,7 +104,7 @@ export function Services() {
                 ink={service.dark ? "#ffffff" : "#191919"}
                 invert={!service.dark}
                 seed={index * 2.3}
-                opacity={service.dark ? 0.16 : 0.13}
+                opacity={service.dark ? 0.11 : 0.09}
               />
               <Diamonds
                 rows={22}
@@ -130,26 +119,26 @@ export function Services() {
               />
               {/* The number, in a column exactly as wide as the strip each
                   later card leaves uncovered, so only the number shows. */}
-              <p className="relative w-12 shrink-0 pt-[25px] pl-4 text-[22px] leading-none tracking-[-0.03em] tabular-nums lg:w-[88px] lg:pt-[34px] lg:pl-5 lg:text-[40px]">
+              <p className="relative w-12 shrink-0 pt-[25px] pl-4 text-[20px] leading-none tracking-[-0.03em] tabular-nums lg:w-[88px] lg:pt-[34px] lg:pl-5 lg:text-[32px]">
                 0{index + 1}
               </p>
               <div className="relative flex min-w-0 flex-1 flex-col justify-between gap-6 py-6 pr-4 lg:py-8 lg:pr-5">
                 <div className="relative grid grid-cols-4 gap-x-4 gap-y-4 lg:grid-cols-12 lg:gap-x-5">
-                  <h3 className="col-span-4 text-[44px] leading-[0.95] tracking-[-0.04em] lg:col-span-5 lg:text-[76px]">
+                  <h3 className="col-span-4 text-[36px] leading-[0.95] tracking-[-0.04em] lg:col-span-5 lg:text-[60px]">
                     {service.title}
                   </h3>
-                  <div className="col-span-4 lg:col-span-4 lg:col-start-7">
-                    <p className="text-[20px] leading-[1.15] tracking-[-0.02em] lg:text-[28px]">
+                  <div className="col-span-4 lg:col-span-5 lg:col-start-7">
+                    <p className="text-[19px] leading-[1.15] tracking-[-0.02em] lg:text-[30px] lg:leading-[34px]">
                       {service.headline}
                     </p>
-                    <p className="mt-3 text-[14px] leading-[1.5] opacity-80 lg:mt-5 lg:text-[15px]">
+                    <p className="mt-3 text-[13px] leading-[1.5] opacity-80 lg:mt-4 lg:max-w-[420px] lg:text-[15px]">
                       {service.body}
                     </p>
                   </div>
                 </div>
 
                 <div className="relative grid grid-cols-4 items-end gap-x-4 gap-y-5 lg:grid-cols-12 lg:gap-x-5">
-                  <div className="relative col-span-4 h-[22svh] overflow-hidden lg:col-span-5 lg:h-[38svh]">
+                  <div className="relative col-span-4 h-[24svh] overflow-hidden lg:col-span-5 lg:h-[43svh]">
                     <Image
                       src={service.image.src}
                       alt={service.image.alt}
@@ -162,13 +151,17 @@ export function Services() {
                     <p className={cn(CAPS, "text-[10px] opacity-70")}>
                       This covers:
                     </p>
-                    <ul className="mt-3 space-y-1.5 text-[14px] lg:mt-4 lg:space-y-2 lg:text-[15px]">
+                    <ul className="mt-2 text-[13px] lg:mt-3 lg:max-w-[420px] lg:text-[15px]">
                       {service.covers.map((item) => (
-                        <li key={item} className="flex items-center gap-x-3">
-                          <span
-                            aria-hidden="true"
-                            className="size-1.5 rotate-45 bg-current"
-                          />
+                        <li
+                          key={item}
+                          className={cn(
+                            "border-b py-1.5 leading-[1.4] lg:py-2.5",
+                            service.dark
+                              ? "border-white/30"
+                              : "border-(--k-ink)/25",
+                          )}
+                        >
                           {item}
                         </li>
                       ))}
@@ -179,14 +172,25 @@ export function Services() {
                         ? { target: "_blank", rel: "noreferrer" }
                         : {})}
                       className={cn(
-                        "mt-5 flex items-center justify-between px-4 py-3 text-[14px] transition-opacity hover:opacity-85 lg:mt-6",
+                        "mt-4 flex h-12 items-center justify-between px-5 text-[14px] transition-opacity hover:opacity-85 lg:h-16 lg:text-[15px]",
                         service.dark
                           ? "bg-white text-(--k-ink)"
                           : "bg-(--k-ink) text-white",
                       )}
                     >
                       {service.cta.label}
-                      <span aria-hidden="true">→</span>
+                      <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        className="size-6"
+                      >
+                        <path
+                          d="M3 12h17M13 5l7 7-7 7"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.8"
+                        />
+                      </svg>
                     </a>
                   </div>
                 </div>

@@ -32,7 +32,7 @@ export function ContactPanel() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-black/25" />
+      <div className="absolute inset-0 bg-(--k-ink)/25" />
 
       <div className="relative flex min-h-[420px] flex-col justify-between gap-16 bg-white/10 p-5 backdrop-blur-2xl lg:h-[448px] lg:p-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
@@ -51,7 +51,7 @@ export function ContactPanel() {
             href={CONTACT.href}
             target="_blank"
             rel="noreferrer"
-            className="flex h-9 w-full items-center justify-between bg-white/60 px-2 text-[14px] text-black transition-colors hover:bg-white lg:w-[250px]"
+            className="flex h-9 w-full items-center justify-between bg-white/60 px-2 text-[14px] text-(--k-ink) transition-colors hover:bg-white lg:w-[250px]"
           >
             Get in touch <span aria-hidden="true">→</span>
           </a>

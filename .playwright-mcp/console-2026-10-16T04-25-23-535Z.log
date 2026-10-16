@@ -1,0 +1,31 @@
+[    2390ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    2467ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3384ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    3690ms] [WARNING] Image with src "/sites/ekchitra-redesign/placeholders/hero-grid-gallery-unsplash.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4670ms] [LOG] [Fast Refresh] done in 1385ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 2221071ms] [WARNING] Unrecognized feature: 'presentation'. @ https://stateofaidesign.com/:319
+[ 2222554ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.M72CMGW7.mjs:0
+[ 4628896ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.M72CMGW7.mjs:0
+[ 5685463ms] [LOG] %cmetric: color:gray {name: TTFB, entries: Array(1), value: 1378.800000011921, rating: needs-improvement, delta: 1378.800000011921} @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 5685463ms] [LOG] %cusr: color:gray {locale: en-US} @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 5685463ms] [LOG] %croute_data: color:gray Search-Photos @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 5700525ms] [LOG] %cmetric: color:gray {name: TTFB, entries: Array(1), value: 1463, rating: needs-improvement, delta: 1463} @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 5700525ms] [LOG] %cusr: color:gray {locale: en-US} @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 5700525ms] [LOG] %croute_data: color:gray Search-Photos @ https://unsplash.com/a/en-US/th.a6ce659038.js:4
+[ 8302883ms] [ERROR] Hydration completed but contains mismatches. @ https://capsules.moyra.co/_nuxt/x5_w19NA.js:13
+[ 8692819ms] [ERROR] Hydration completed but contains mismatches. @ https://capsules.moyra.co/_nuxt/x5_w19NA.js:13
+[29744246ms] [ERROR] Hydration completed but contains mismatches. @ https://capsules.moyra.co/_nuxt/x5_w19NA.js:13
+[30377066ms] [LOG] ❤️ Lovable Script — v1.9.2 @ https://cdn.gpteng.co/lovable.js:96
+[30377455ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app/assets/index-D7rMQdPo.js:214
+[30377479ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://gptengineer.app') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30377479ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30377479ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://beta.lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30377481ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://gptengineer.app') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30377481ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30377481ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://beta.lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30378062ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://gptengineer.app') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30378062ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[30378062ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://beta.lovable.dev') does not match the recipient window's origin ('https://id-preview--a7c1d211-dd0a-4cd9-be95-c4a889096c61.lovable.app'). @ https://cdn.gpteng.co/lovable.js:29
+[49661910ms] [WARNING] Unrecognized feature: 'presentation'. @ https://stateofaidesign.com/:319
+[49663300ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.OVE3SHNJ.mjs:0

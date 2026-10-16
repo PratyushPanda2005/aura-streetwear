@@ -53,7 +53,7 @@ const LINK =
   "text-[16px] leading-[1.9] transition-colors duration-300 hover:text-(--k-sky) lg:text-[17px]";
 
 /**
- * Footer: the v5 footer set on the Swiss grid — deep maroon, white type.
+ * Footer: the v5 footer set on the Swiss grid — brand black, white type.
  *
  * A large invitation with a solid white button opposite; below it the logo
  * and tagline in the first four columns and four link columns across the
@@ -65,7 +65,7 @@ export function Footer() {
     <footer
       id="contact"
       className={cn(
-        "relative scroll-mt-11 overflow-hidden bg-(--k-maroon) pt-20 pb-[136px] text-white lg:pt-28 lg:pb-24",
+        "relative scroll-mt-11 overflow-hidden bg-(--k-ink) pt-20 pb-[104px] text-white lg:pt-28 lg:pb-8",
         SANS,
       )}
     >
@@ -87,7 +87,7 @@ export function Footer() {
             href={CONTACT.href}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center justify-between bg-white px-4 py-3 text-[14px] text-(--k-maroon) transition-opacity hover:opacity-85"
+            className="flex items-center justify-between bg-white px-4 py-3 text-[14px] text-(--k-ink) transition-opacity hover:opacity-85"
           >
             Get in touch <span aria-hidden="true">→</span>
           </a>
@@ -144,11 +144,18 @@ export function Footer() {
               )}
             </div>
           ))}
+        </div>
+      </div>
 
-          <div className="col-span-2 mt-2 flex flex-wrap justify-between gap-x-6 gap-y-2 text-[13px] text-white/60 lg:col-span-4 lg:mt-4">
-            <p>{FOOTER.copyright}</p>
-            <p>Hyderabad, India</p>
-          </div>
+      <div
+        className={cn(
+          GRID,
+          "relative mt-16 text-[13px] text-white/60 lg:mt-28",
+        )}
+      >
+        <div className="col-span-4 flex justify-between gap-x-6 lg:col-span-8 lg:col-start-5">
+          <p>{FOOTER.copyright}</p>
+          <p>Hyderabad, India</p>
         </div>
       </div>
     </footer>
