@@ -1,0 +1,498 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - link "Aspen Search home" [ref=f4e7] [cursor=pointer]:
+        - /url: /
+      - time [ref=f4e14]:
+        - generic [ref=f4e15]: "NYC: 11:31 AM"
+        - generic [ref=f4e17]:
+          - generic [ref=f4e18]:
+            - generic [ref=f4e19]:
+              - generic [ref=f4e20]: 11:31 AM
+              - generic [aria-hidden] [ref=f4e21]:
+                - generic [ref=f4e23]:
+                  - generic [aria-hidden] [ref=f4e24]: "0"
+                  - generic [ref=f4e25]: "1"
+                  - generic [aria-hidden] [ref=f4e26]: "2"
+                  - generic [aria-hidden] [ref=f4e27]: "3"
+                  - generic [aria-hidden] [ref=f4e28]: "4"
+                  - generic [aria-hidden] [ref=f4e29]: "5"
+                  - generic [aria-hidden] [ref=f4e30]: "6"
+                  - generic [aria-hidden] [ref=f4e31]: "7"
+                  - generic [aria-hidden] [ref=f4e32]: "8"
+                  - generic [aria-hidden] [ref=f4e33]: "9"
+                - generic [ref=f4e35]:
+                  - generic [aria-hidden] [ref=f4e36]: "0"
+                  - generic [ref=f4e37]: "1"
+                  - generic [aria-hidden] [ref=f4e38]: "2"
+                  - generic [aria-hidden] [ref=f4e39]: "3"
+                  - generic [aria-hidden] [ref=f4e40]: "4"
+                  - generic [aria-hidden] [ref=f4e41]: "5"
+                  - generic [aria-hidden] [ref=f4e42]: "6"
+                  - generic [aria-hidden] [ref=f4e43]: "7"
+                  - generic [aria-hidden] [ref=f4e44]: "8"
+                  - generic [aria-hidden] [ref=f4e45]: "9"
+                - generic [ref=f4e46]: ":"
+                - generic [ref=f4e48]:
+                  - generic [aria-hidden] [ref=f4e49]: "0"
+                  - generic [aria-hidden] [ref=f4e50]: "1"
+                  - generic [aria-hidden] [ref=f4e51]: "2"
+                  - generic [ref=f4e52]: "3"
+                  - generic [aria-hidden] [ref=f4e53]: "4"
+                  - generic [aria-hidden] [ref=f4e54]: "5"
+                  - generic [aria-hidden] [ref=f4e55]: "6"
+                  - generic [aria-hidden] [ref=f4e56]: "7"
+                  - generic [aria-hidden] [ref=f4e57]: "8"
+                  - generic [aria-hidden] [ref=f4e58]: "9"
+                - generic [ref=f4e60]:
+                  - generic [aria-hidden] [ref=f4e61]: "0"
+                  - generic [ref=f4e62]: "1"
+                  - generic [aria-hidden] [ref=f4e63]: "2"
+                  - generic [aria-hidden] [ref=f4e64]: "3"
+                  - generic [aria-hidden] [ref=f4e65]: "4"
+                  - generic [aria-hidden] [ref=f4e66]: "5"
+                  - generic [aria-hidden] [ref=f4e67]: "6"
+                  - generic [aria-hidden] [ref=f4e68]: "7"
+                  - generic [aria-hidden] [ref=f4e69]: "8"
+                  - generic [aria-hidden] [ref=f4e70]: "9"
+                - generic [ref=f4e71]: AM
+            - generic [ref=f4e72]: NYC
+          - generic [ref=f4e73]:
+            - generic [ref=f4e74]:
+              - generic [ref=f4e75]: 08:31 AM
+              - generic [aria-hidden] [ref=f4e76]:
+                - generic [ref=f4e78]:
+                  - generic [ref=f4e79]: "0"
+                  - generic [aria-hidden] [ref=f4e80]: "1"
+                  - generic [aria-hidden] [ref=f4e81]: "2"
+                  - generic [aria-hidden] [ref=f4e82]: "3"
+                  - generic [aria-hidden] [ref=f4e83]: "4"
+                  - generic [aria-hidden] [ref=f4e84]: "5"
+                  - generic [aria-hidden] [ref=f4e85]: "6"
+                  - generic [aria-hidden] [ref=f4e86]: "7"
+                  - generic [aria-hidden] [ref=f4e87]: "8"
+                  - generic [aria-hidden] [ref=f4e88]: "9"
+                - generic [ref=f4e90]:
+                  - generic [aria-hidden] [ref=f4e91]: "0"
+                  - generic [aria-hidden] [ref=f4e92]: "1"
+                  - generic [aria-hidden] [ref=f4e93]: "2"
+                  - generic [aria-hidden] [ref=f4e94]: "3"
+                  - generic [aria-hidden] [ref=f4e95]: "4"
+                  - generic [aria-hidden] [ref=f4e96]: "5"
+                  - generic [aria-hidden] [ref=f4e97]: "6"
+                  - generic [aria-hidden] [ref=f4e98]: "7"
+                  - generic [ref=f4e99]: "8"
+                  - generic [aria-hidden] [ref=f4e100]: "9"
+                - generic [ref=f4e101]: ":"
+                - generic [ref=f4e103]:
+                  - generic [aria-hidden] [ref=f4e104]: "0"
+                  - generic [aria-hidden] [ref=f4e105]: "1"
+                  - generic [aria-hidden] [ref=f4e106]: "2"
+                  - generic [ref=f4e107]: "3"
+                  - generic [aria-hidden] [ref=f4e108]: "4"
+                  - generic [aria-hidden] [ref=f4e109]: "5"
+                  - generic [aria-hidden] [ref=f4e110]: "6"
+                  - generic [aria-hidden] [ref=f4e111]: "7"
+                  - generic [aria-hidden] [ref=f4e112]: "8"
+                  - generic [aria-hidden] [ref=f4e113]: "9"
+                - generic [ref=f4e115]:
+                  - generic [aria-hidden] [ref=f4e116]: "0"
+                  - generic [ref=f4e117]: "1"
+                  - generic [aria-hidden] [ref=f4e118]: "2"
+                  - generic [aria-hidden] [ref=f4e119]: "3"
+                  - generic [aria-hidden] [ref=f4e120]: "4"
+                  - generic [aria-hidden] [ref=f4e121]: "5"
+                  - generic [aria-hidden] [ref=f4e122]: "6"
+                  - generic [aria-hidden] [ref=f4e123]: "7"
+                  - generic [aria-hidden] [ref=f4e124]: "8"
+                  - generic [aria-hidden] [ref=f4e125]: "9"
+                - generic [ref=f4e126]: AM
+            - generic [ref=f4e127]: LA
+    - generic [ref=f4e128]:
+      - generic [ref=f4e129]:
+        - list [ref=f4e131]:
+          - listitem [ref=f4e132]:
+            - link "About" [ref=f4e135] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f4e137]:
+            - link "Clients" [ref=f4e140] [cursor=pointer]:
+              - /url: /#clients
+          - listitem [ref=f4e142]:
+            - link "Testimonials" [ref=f4e145] [cursor=pointer]:
+              - /url: /#testimonials
+          - listitem [ref=f4e147]:
+            - link "Team" [ref=f4e150] [cursor=pointer]:
+              - /url: /#team
+        - button "Toggle theme" [ref=f4e152] [cursor=pointer]
+      - button "Contact" [ref=f4e156] [cursor=pointer]
+  - main [ref=f4e160]:
+    - generic [ref=f4e164]:
+      - generic [ref=f4e165]:
+        - heading "Aspen" [level=1] [ref=f4e169]
+        - generic [ref=f4e173]:
+          - generic [ref=f4e174]:
+            - generic [ref=f4e175]: Placing software engineers, quantitative researchers, and AI/ML scientists into the firms shaping markets and technology since 2006.
+            - button "Start a conversation" [ref=f4e178] [cursor=pointer]
+          - generic [ref=f4e183]:
+            - generic [ref=f4e184]: We don't move volume. We move careers that compound — and the firms smart enough to invest in them.
+            - generic [ref=f4e185]: "Recent hires from:"
+      - generic [ref=f4e218]:
+        - paragraph [ref=f4e223]: Search
+        - paragraph [ref=f4e226]:
+          - generic [ref=f4e227]: placing
+          - generic [ref=f4e229]: winners.
+    - generic [ref=f4e232]:
+      - generic [ref=f4e233]:
+        - paragraph [ref=f4e237]: About Aspen
+        - generic [ref=f4e239]:
+          - generic [ref=f4e240]: "Aspen Search was founded on a simple observation: the best quantitative researchers and engineers don't apply to jobs. They get one shot every few years to make a move, and they want that conversation to be with someone who actually understands the work — the systems, the strategies, the tradeoffs, and the difference between a fund that will sharpen them and one that will stall them."
+          - generic [ref=f4e241]: That's the bar we hold ourselves to. We've spent nearly two decades inside the hiring rooms of the top systematic firms and the venture-backed teams competing for the same minds. We don't pitch roles. We have honest conversations about where someone should spend the next five years of their career — and we're often the reason it's the right call.
+      - generic [ref=f4e243]:
+        - generic [ref=f4e244]:
+          - paragraph [ref=f4e246]:
+            - generic [ref=f4e247]:
+              - generic [ref=f4e248]: 500+
+              - generic [aria-hidden] [ref=f4e249]:
+                - generic [ref=f4e251]:
+                  - generic [aria-hidden] [ref=f4e252]: "0"
+                  - generic [aria-hidden] [ref=f4e253]: "1"
+                  - generic [aria-hidden] [ref=f4e254]: "2"
+                  - generic [aria-hidden] [ref=f4e255]: "3"
+                  - generic [aria-hidden] [ref=f4e256]: "4"
+                  - generic [ref=f4e257]: "5"
+                  - generic [aria-hidden] [ref=f4e258]: "6"
+                  - generic [aria-hidden] [ref=f4e259]: "7"
+                  - generic [aria-hidden] [ref=f4e260]: "8"
+                  - generic [aria-hidden] [ref=f4e261]: "9"
+                - generic [ref=f4e263]:
+                  - generic [ref=f4e264]: "0"
+                  - generic [aria-hidden] [ref=f4e265]: "1"
+                  - generic [aria-hidden] [ref=f4e266]: "2"
+                  - generic [aria-hidden] [ref=f4e267]: "3"
+                  - generic [aria-hidden] [ref=f4e268]: "4"
+                  - generic [aria-hidden] [ref=f4e269]: "5"
+                  - generic [aria-hidden] [ref=f4e270]: "6"
+                  - generic [aria-hidden] [ref=f4e271]: "7"
+                  - generic [aria-hidden] [ref=f4e272]: "8"
+                  - generic [aria-hidden] [ref=f4e273]: "9"
+                - generic [ref=f4e275]:
+                  - generic [ref=f4e276]: "0"
+                  - generic [aria-hidden] [ref=f4e277]: "1"
+                  - generic [aria-hidden] [ref=f4e278]: "2"
+                  - generic [aria-hidden] [ref=f4e279]: "3"
+                  - generic [aria-hidden] [ref=f4e280]: "4"
+                  - generic [aria-hidden] [ref=f4e281]: "5"
+                  - generic [aria-hidden] [ref=f4e282]: "6"
+                  - generic [aria-hidden] [ref=f4e283]: "7"
+                  - generic [aria-hidden] [ref=f4e284]: "8"
+                  - generic [aria-hidden] [ref=f4e285]: "9"
+                - generic [ref=f4e286]: +
+          - paragraph [ref=f4e287]: Placements since 2006
+        - generic [ref=f4e288]:
+          - paragraph [ref=f4e290]:
+            - generic [ref=f4e291]:
+              - generic [ref=f4e292]: $1M-5M
+              - generic [aria-hidden] [ref=f4e293]:
+                - generic [ref=f4e294]: $
+                - generic [ref=f4e296]:
+                  - generic [aria-hidden] [ref=f4e297]: "0"
+                  - generic [ref=f4e298]: "1"
+                  - generic [aria-hidden] [ref=f4e299]: "2"
+                  - generic [aria-hidden] [ref=f4e300]: "3"
+                  - generic [aria-hidden] [ref=f4e301]: "4"
+                  - generic [aria-hidden] [ref=f4e302]: "5"
+                  - generic [aria-hidden] [ref=f4e303]: "6"
+                  - generic [aria-hidden] [ref=f4e304]: "7"
+                  - generic [aria-hidden] [ref=f4e305]: "8"
+                  - generic [aria-hidden] [ref=f4e306]: "9"
+                - generic [ref=f4e307]: M-
+                - generic [ref=f4e309]:
+                  - generic [aria-hidden] [ref=f4e310]: "0"
+                  - generic [aria-hidden] [ref=f4e311]: "1"
+                  - generic [aria-hidden] [ref=f4e312]: "2"
+                  - generic [aria-hidden] [ref=f4e313]: "3"
+                  - generic [aria-hidden] [ref=f4e314]: "4"
+                  - generic [ref=f4e315]: "5"
+                  - generic [aria-hidden] [ref=f4e316]: "6"
+                  - generic [aria-hidden] [ref=f4e317]: "7"
+                  - generic [aria-hidden] [ref=f4e318]: "8"
+                  - generic [aria-hidden] [ref=f4e319]: "9"
+                - generic [ref=f4e320]: M
+          - paragraph [ref=f4e321]: Range of recent offers
+        - generic [ref=f4e322]:
+          - paragraph [ref=f4e324]:
+            - generic [ref=f4e325]:
+              - generic [ref=f4e326]: 19+
+              - generic [aria-hidden] [ref=f4e327]:
+                - generic [ref=f4e329]:
+                  - generic [aria-hidden] [ref=f4e330]: "0"
+                  - generic [ref=f4e331]: "1"
+                  - generic [aria-hidden] [ref=f4e332]: "2"
+                  - generic [aria-hidden] [ref=f4e333]: "3"
+                  - generic [aria-hidden] [ref=f4e334]: "4"
+                  - generic [aria-hidden] [ref=f4e335]: "5"
+                  - generic [aria-hidden] [ref=f4e336]: "6"
+                  - generic [aria-hidden] [ref=f4e337]: "7"
+                  - generic [aria-hidden] [ref=f4e338]: "8"
+                  - generic [aria-hidden] [ref=f4e339]: "9"
+                - generic [ref=f4e341]:
+                  - generic [aria-hidden] [ref=f4e342]: "0"
+                  - generic [aria-hidden] [ref=f4e343]: "1"
+                  - generic [aria-hidden] [ref=f4e344]: "2"
+                  - generic [aria-hidden] [ref=f4e345]: "3"
+                  - generic [aria-hidden] [ref=f4e346]: "4"
+                  - generic [aria-hidden] [ref=f4e347]: "5"
+                  - generic [aria-hidden] [ref=f4e348]: "6"
+                  - generic [aria-hidden] [ref=f4e349]: "7"
+                  - generic [aria-hidden] [ref=f4e350]: "8"
+                  - generic [ref=f4e351]: "9"
+                - generic [ref=f4e352]: +
+          - paragraph [ref=f4e353]: Years inside these hiring rooms
+    - generic [ref=f4e355]:
+      - generic [ref=f4e356]:
+        - heading "Connecting top-tier talent" [level=2] [ref=f4e357]:
+          - generic [ref=f4e358]: Connecting
+          - generic [ref=f4e360]: top-tier
+          - generic [ref=f4e362]: talent
+        - generic [ref=f4e364]:
+          - generic [ref=f4e365]: At Aspen Search, we don't just fill positions—we build careers and transform companies. We specialize in connecting exceptional engineering and research talent with the world's most innovative quantitative trading firms and venture-backed technology companies.
+          - button "Talk to a partner" [ref=f4e367] [cursor=pointer]
+      - generic [ref=f4e371]:
+        - generic [ref=f4e372]:
+          - generic [ref=f4e374]:
+            - generic [ref=f4e375]: "01"
+            - generic [ref=f4e376]:
+              - heading "Quantitative Research" [level=3] [ref=f4e377]
+              - img "Executive Search animation" [ref=f4e380]
+          - generic [ref=f4e396]:
+            - generic [ref=f4e397]: Researchers who own a signal end to end, from first idea to live capital. We know which pods are actually hiring, how each firm structures its research stack, and what a real offer looks like before you ever see one.
+            - list [ref=f4e400]:
+              - listitem [ref=f4e401]:
+                - generic [ref=f4e403]: Signal research
+              - listitem [ref=f4e404]:
+                - generic [ref=f4e406]: Portfolio construction
+              - listitem [ref=f4e407]:
+                - generic [ref=f4e409]: Systematic equities and futures
+              - listitem [ref=f4e410]:
+                - generic [ref=f4e412]: PhD and post-doc moves
+        - generic [ref=f4e413]:
+          - generic [ref=f4e415]:
+            - generic [ref=f4e416]: "02"
+            - generic [ref=f4e417]:
+              - heading "Engineering & Infrastructure" [level=3] [ref=f4e418]
+              - img "Quantitative Research animation" [ref=f4e421]
+          - generic [ref=f4e434]:
+            - generic [ref=f4e435]: "The engineers who keep a strategy alive in production: execution, market data, and the platforms researchers build on top of. Most arrive from big tech and want an honest read on what the switch really feels like."
+            - list [ref=f4e438]:
+              - listitem [ref=f4e439]:
+                - generic [ref=f4e441]: Low-latency C++
+              - listitem [ref=f4e442]:
+                - generic [ref=f4e444]: Execution and order routing
+              - listitem [ref=f4e445]:
+                - generic [ref=f4e447]: Market data pipelines
+              - listitem [ref=f4e448]:
+                - generic [ref=f4e450]: Research platform teams
+        - generic [ref=f4e451]:
+          - generic [ref=f4e453]:
+            - generic [ref=f4e454]: "03"
+            - generic [ref=f4e455]:
+              - heading "AI & Machine Learning" [level=3] [ref=f4e456]
+              - img "Engineering & AI animation" [ref=f4e459]
+          - generic [ref=f4e510]:
+            - generic [ref=f4e511]: Researchers and engineers moving between frontier labs, venture-backed teams, and the funds now bidding for exactly the same people. We can tell you how the compute, the data access, and the equity actually compare.
+            - list [ref=f4e514]:
+              - listitem [ref=f4e515]:
+                - generic [ref=f4e517]: Applied AI engineering
+              - listitem [ref=f4e518]:
+                - generic [ref=f4e520]: ML and deep learning research
+              - listitem [ref=f4e521]:
+                - generic [ref=f4e523]: Training infrastructure
+              - listitem [ref=f4e524]:
+                - generic [ref=f4e526]: Founding technical hires
+        - generic [ref=f4e527]:
+          - generic [ref=f4e529]:
+            - generic [ref=f4e530]: "04"
+            - generic [ref=f4e531]:
+              - heading "Leadership & Team Builds" [level=3] [ref=f4e532]
+              - img "Hardware & Systems animation" [ref=f4e535]
+          - generic [ref=f4e545]:
+            - generic [ref=f4e546]: Whole functions, not single seats. Some of these searches start with one researcher and end, years later, with a desk, a platform team, and the person running both.
+            - list [ref=f4e549]:
+              - listitem [ref=f4e550]:
+                - generic [ref=f4e552]: Heads of research
+              - listitem [ref=f4e553]:
+                - generic [ref=f4e555]: Engineering leadership
+              - listitem [ref=f4e556]:
+                - generic [ref=f4e558]: New desk buildouts
+              - listitem [ref=f4e559]:
+                - generic [ref=f4e561]: Multi-year hiring plans
+    - generic [ref=f4e562]:
+      - heading "Clients" [level=2] [ref=f4e565]
+      - generic [ref=f4e570]:
+        - generic [ref=f4e571]:
+          - generic [ref=f4e573]:
+            - paragraph [ref=f4e576]: Who we work with
+            - generic [ref=f4e577]:
+              - paragraph [ref=f4e578]:
+                - generic [ref=f4e579]: Headlands
+                - generic [aria-hidden] [ref=f4e580]:
+                  - generic [ref=f4e581]: Headlands
+                  - generic [ref=f4e582]: Two Sigma
+                  - generic [ref=f4e583]: EQR - Citadel
+                  - generic [ref=f4e584]: Vatic Labs
+                  - generic [ref=f4e585]: GQS - Citadel
+                  - generic [ref=f4e586]: Syntria
+              - generic [ref=f4e587]:
+                - generic [ref=f4e589]:
+                  - generic [ref=f4e590]: "01"
+                  - generic [aria-hidden] [ref=f4e591]:
+                    - generic [ref=f4e593]:
+                      - generic [ref=f4e594]: "0"
+                      - generic [aria-hidden] [ref=f4e595]: "1"
+                      - generic [aria-hidden] [ref=f4e596]: "2"
+                      - generic [aria-hidden] [ref=f4e597]: "3"
+                      - generic [aria-hidden] [ref=f4e598]: "4"
+                      - generic [aria-hidden] [ref=f4e599]: "5"
+                      - generic [aria-hidden] [ref=f4e600]: "6"
+                      - generic [aria-hidden] [ref=f4e601]: "7"
+                      - generic [aria-hidden] [ref=f4e602]: "8"
+                      - generic [aria-hidden] [ref=f4e603]: "9"
+                    - generic [ref=f4e605]:
+                      - generic [aria-hidden] [ref=f4e606]: "0"
+                      - generic [ref=f4e607]: "1"
+                      - generic [aria-hidden] [ref=f4e608]: "2"
+                      - generic [aria-hidden] [ref=f4e609]: "3"
+                      - generic [aria-hidden] [ref=f4e610]: "4"
+                      - generic [aria-hidden] [ref=f4e611]: "5"
+                      - generic [aria-hidden] [ref=f4e612]: "6"
+                      - generic [aria-hidden] [ref=f4e613]: "7"
+                      - generic [aria-hidden] [ref=f4e614]: "8"
+                      - generic [aria-hidden] [ref=f4e615]: "9"
+                - generic [aria-hidden] [ref=f4e616]: "-"
+                - generic [ref=f4e617]: "06"
+          - generic [ref=f4e633]:
+            - generic [ref=f4e634]: Our client relationships have existed for nearly two decades. They're not logos we collected — they're firms we've helped staff through generations of hiring, from a single quant researcher to entire engineering organizations. We work with the firms that pay the top of the market, run the best research environments, and treat hiring as a long game.
+            - button "Work with us" [ref=f4e636] [cursor=pointer]
+        - list "Clients" [ref=f4e640]:
+          - listitem [ref=f4e641]:
+            - button "Headlands Quant Finance" [ref=f4e642] [cursor=pointer]:
+              - heading "Headlands" [level=3] [ref=f4e643]
+              - generic [ref=f4e644]: Quant Finance
+          - listitem [ref=f4e645]:
+            - button "Two Sigma Quant Finance" [ref=f4e646] [cursor=pointer]:
+              - heading "Two Sigma" [level=3] [ref=f4e647]
+              - generic [ref=f4e648]: Quant Finance
+          - listitem [ref=f4e649]:
+            - button "EQR - Citadel Quant Finance" [ref=f4e650] [cursor=pointer]:
+              - heading "EQR - Citadel" [level=3] [ref=f4e651]
+              - generic [ref=f4e652]: Quant Finance
+          - listitem [ref=f4e653]:
+            - button "Vatic Labs AI" [ref=f4e654] [cursor=pointer]:
+              - heading "Vatic Labs" [level=3] [ref=f4e655]
+              - generic [ref=f4e656]: AI
+          - listitem [ref=f4e657]:
+            - button "GQS - Citadel Quant Finance" [ref=f4e658] [cursor=pointer]:
+              - heading "GQS - Citadel" [level=3] [ref=f4e659]
+              - generic [ref=f4e660]: Quant Finance
+          - listitem [ref=f4e661]:
+            - button "Syntria AI" [ref=f4e662] [cursor=pointer]:
+              - heading "Syntria" [level=3] [ref=f4e663]
+              - generic [ref=f4e664]: AI
+    - generic [ref=f4e665]:
+      - generic [ref=f4e666]:
+        - generic [ref=f4e667]:
+          - heading "Team" [level=2] [ref=f4e669]
+          - paragraph [ref=f4e673]:
+            - generic [ref=f4e674]: Small team. High Signal.
+        - generic [ref=f4e675]:
+          - generic [ref=f4e676]:
+            - paragraph [ref=f4e680]: Who you'll actually work with
+            - generic [ref=f4e681]:
+              - button "Previous team members" [disabled]
+              - button "Next team members" [ref=f4e682] [cursor=pointer]
+          - generic [ref=f4e683]: Aspen is run by partners who do the work themselves. No junior researchers cold-DMing candidates, no algorithmic outreach, no spray-and-pray. When you talk to someone at Aspen, you're talking to the person who will run your search from intake to offer.
+      - generic [ref=f4e687]:
+        - generic [ref=f4e689]:
+          - button "Ben Herman" [ref=f4e690] [cursor=pointer]
+          - generic [ref=f4e695]: Founder & CEO
+        - generic [ref=f4e697]:
+          - button "Lira Aptekman" [ref=f4e698] [cursor=pointer]
+          - generic [ref=f4e703]: Talent Partner
+        - generic [ref=f4e705]:
+          - button "Tyler Guimaraes" [ref=f4e706] [cursor=pointer]
+          - generic [ref=f4e711]: Talent Partner
+        - generic [ref=f4e713]:
+          - button "Kunal Batra" [ref=f4e714] [cursor=pointer]
+          - generic [ref=f4e719]: Talent Partner
+        - generic [ref=f4e721]:
+          - button "Chris Demmel" [ref=f4e722] [cursor=pointer]
+          - generic [ref=f4e727]: Talent Partner
+        - generic [ref=f4e729]:
+          - button "Mike Leonard" [ref=f4e730] [cursor=pointer]
+          - generic [ref=f4e735]: Talent Partner
+        - generic [ref=f4e737]:
+          - button "Mario Mlinaric" [ref=f4e738] [cursor=pointer]
+          - generic [ref=f4e743]: Talent Partner
+        - generic [ref=f4e745]:
+          - button "Shawn Glabach" [ref=f4e746] [cursor=pointer]
+          - generic [ref=f4e751]: Talent Partner
+    - generic [ref=f4e752]:
+      - paragraph [ref=f4e755]: Let's Start Conversation
+      - button "Get in Touch" [ref=f4e762] [cursor=pointer]
+  - contentinfo [ref=f4e767]:
+    - generic [ref=f4e768]:
+      - paragraph [ref=f4e770]:
+        - generic [ref=f4e771]: Raise your trajectory
+      - generic [ref=f4e772]:
+        - generic [ref=f4e773]:
+          - list [ref=f4e775]:
+            - listitem [ref=f4e776]:
+              - link "About" [ref=f4e777] [cursor=pointer]:
+                - /url: /#about
+            - listitem [ref=f4e779]:
+              - link "Clients" [ref=f4e780] [cursor=pointer]:
+                - /url: /#clients
+            - listitem [ref=f4e782]:
+              - link "Testimonials" [ref=f4e783] [cursor=pointer]:
+                - /url: /#testimonials
+            - listitem [ref=f4e785]:
+              - link "Team" [ref=f4e786] [cursor=pointer]:
+                - /url: /#team
+          - generic [ref=f4e789]:
+            - generic [ref=f4e797]:
+              - paragraph [ref=f4e798]: NYC
+              - paragraph [ref=f4e799]:
+                - time [ref=f4e800]: 11:31 AM
+            - generic [ref=f4e808]:
+              - paragraph [ref=f4e809]: LA
+              - paragraph [ref=f4e810]:
+                - time [ref=f4e811]: 8:31 AM
+        - generic [ref=f4e812]:
+          - link "ben@aspensearch.com" [ref=f4e813] [cursor=pointer]:
+            - /url: mailto:ben@aspensearch.com
+          - list [ref=f4e815]:
+            - listitem [ref=f4e816]:
+              - link "Linkedin" [ref=f4e817] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/aspen-search/
+    - generic [ref=f4e821]:
+      - generic [ref=f4e826]:
+        - generic [ref=f4e827]:
+          - paragraph [ref=f4e828]: © 2026 Aspen Search
+          - list [ref=f4e829]:
+            - listitem [ref=f4e830]:
+              - generic [ref=f4e831]: •
+              - button "Privacy Policy" [ref=f4e832] [cursor=pointer]
+        - paragraph [ref=f4e833]:
+          - text: Website by
+          - link "Code Resolution" [ref=f4e834] [cursor=pointer]:
+            - /url: https://coderesolution.com/
+      - button "Let’s start a conversation Start a conversation" [ref=f4e835] [cursor=pointer]:
+        - generic [ref=f4e836]:
+          - paragraph [ref=f4e837]:
+            - generic [ref=f4e838]: Let’s start a conversation
+          - paragraph [ref=f4e840]: Start a conversation
+        - generic [aria-hidden]:
+          - paragraph: Let’s start a conversation
+          - generic:
+            - paragraph: Start a conversation
+  - alert [ref=f4e843]

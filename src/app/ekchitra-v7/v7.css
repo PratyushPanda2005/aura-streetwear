@@ -1,0 +1,97 @@
+/* EkChitra v7 — after aspensearch.com's ruled four-column grid, in the
+   brand's colours with the diamond pattern. */
+.ek7 {
+  /* The brand's colours: brand black, maroon, navy and sky. The `--k-*`
+     names feed the shared diamond pattern. */
+  --e7-ink: #191919;
+  --e7-maroon: #780000;
+  --e7-navy: #0c1b8f;
+  --e7-sky: #89cff0;
+  --k-ink: var(--e7-ink);
+  --k-maroon: var(--e7-maroon);
+  --k-navy: var(--e7-navy);
+  --k-sky: var(--e7-sky);
+  --e7-grey: #e0e0e0;
+  --e7-grey-2: #d9d9d9;
+  --e7-rule: #191919;
+  --e7-header: 61px;
+  color: var(--e7-ink);
+  background: #fff;
+  font-family: var(--font-e7-sans), Arial, system-ui, sans-serif;
+  font-weight: 450;
+  letter-spacing: -0.04em;
+}
+
+/* Cells open in turn on arrival: a short rise and fade. */
+@keyframes e7-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 24px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.e7-rise {
+  animation: e7-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* A strip that runs sideways for ever: its list is doubled and slides by one
+   copy. */
+@keyframes e7-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.e7-marquee {
+  animation: e7-marquee var(--marquee-s, 30s) linear infinite;
+}
+
+/* Blocks that rise into place once they scroll into view (InView). */
+.e7-in {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+}
+
+[data-shown="true"] .e7-in,
+.e7-in[data-shown="true"] {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 1s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms),
+    transform 1.1s cubic-bezier(0.22, 1, 0.36, 1) var(--delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .e7-rise,
+  .e7-marquee {
+    animation: none;
+  }
+
+  .e7-in {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Ink rules drawn through a grid's empty cells: a line down each of the four
+   columns and across every 200px row. */
+@media (min-width: 1024px) {
+  .e7-ruled {
+    background-image:
+      repeating-linear-gradient(
+        to right,
+        transparent 0 calc(25% - 1px),
+        var(--e7-rule) calc(25% - 1px) 25%
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 199px,
+        var(--e7-rule) 199px 200px
+      );
+  }
+}
