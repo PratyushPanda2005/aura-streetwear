@@ -1,0 +1,301 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - banner [ref=f17e3]:
+      - generic [ref=f17e4]:
+        - link "EkChitra — home" [ref=f17e5] [cursor=pointer]:
+          - /url: /ekchitra-v7
+        - paragraph [ref=f17e7]: Hyderabad
+      - navigation [ref=f17e8]:
+        - link "About" [ref=f17e9] [cursor=pointer]:
+          - /url: /ekchitra-v7#about
+        - link "Services" [ref=f17e10] [cursor=pointer]:
+          - /url: /ekchitra-v7#services
+        - link "Artists" [ref=f17e11] [cursor=pointer]:
+          - /url: /ekchitra-v7#artists
+        - link "Exhibitions" [ref=f17e12] [cursor=pointer]:
+          - /url: /ekchitra-v7#exhibitions
+      - link "Contact" [ref=f17e13] [cursor=pointer]:
+        - /url: https://wa.me/919100118321
+    - main [ref=f17e16]:
+      - region "EkChitra" [ref=f17e17]:
+        - heading "EkChitra — a contemporary Indian art gallery in Hyderabad" [level=1] [ref=f17e18]
+        - paragraph [aria-hidden] [ref=f17e20]: EkChitra
+        - generic [ref=f17e23]:
+          - paragraph [ref=f17e24]: A contemporary Indian art gallery in Hyderabad, showing painters, printmakers and sculptors from across the country since its first exhibition.
+          - link "Start a conversation" [ref=f17e25] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+        - generic [ref=f17e28]:
+          - paragraph [ref=f17e29]: "We don’t just hang pictures. We introduce people to the work and the artists that will stay with them.Recent shows:"
+          - generic [ref=f17e31]:
+            - paragraph [ref=f17e32]:
+              - generic [ref=f17e33]: Living Temple 2026
+              - generic [ref=f17e35]: Hyd Art 2026
+              - generic [ref=f17e37]: Hyd Art
+              - generic [ref=f17e39]: Swadhatri
+              - generic [ref=f17e41]: Living Temple
+              - generic [ref=f17e43]: Naik City
+              - generic [ref=f17e45]: House of Unified Expression
+              - generic [ref=f17e47]: Mirror Mirror – Champa Tree
+            - paragraph [aria-hidden] [ref=f17e49]:
+              - generic [ref=f17e50]: Living Temple 2026
+              - generic [ref=f17e52]: Hyd Art 2026
+              - generic [ref=f17e54]: Hyd Art
+              - generic [ref=f17e56]: Swadhatri
+              - generic [ref=f17e58]: Living Temple
+              - generic [ref=f17e60]: Naik City
+              - generic [ref=f17e62]: House of Unified Expression
+              - generic [ref=f17e64]: Mirror Mirror – Champa Tree
+        - paragraph [aria-hidden] [ref=f17e68]: Gallery
+        - paragraph [ref=f17e70]: Art iseverywhere.
+      - region "About EkChitra" [ref=f17e72]:
+        - generic [ref=f17e73]:
+          - paragraph [ref=f17e75]:
+            - generic [ref=f17e77]: About EkChitra
+          - paragraph [ref=f17e79]:
+            - generic [ref=f17e80]: EkChitra
+            - generic [ref=f17e81]: was
+            - generic [ref=f17e82]: founded
+            - generic [ref=f17e83]: with
+            - generic [ref=f17e84]: a
+            - generic [ref=f17e85]: vision
+            - generic [ref=f17e86]: to
+            - generic [ref=f17e87]: bridge
+            - generic [ref=f17e88]: the
+            - generic [ref=f17e89]: gap
+            - generic [ref=f17e90]: between
+            - generic [ref=f17e91]: exceptional
+            - generic [ref=f17e92]: contemporary
+            - generic [ref=f17e93]: Indian
+            - generic [ref=f17e94]: artists
+            - generic [ref=f17e95]: and
+            - generic [ref=f17e96]: art
+            - generic [ref=f17e97]: enthusiasts
+            - generic [ref=f17e98]: worldwide.
+            - generic [ref=f17e99]: Our
+            - generic [ref=f17e100]: journey
+            - generic [ref=f17e101]: began
+            - generic [ref=f17e102]: with
+            - generic [ref=f17e103]: a
+            - generic [ref=f17e104]: simple
+            - generic [ref=f17e105]: "belief:"
+            - generic [ref=f17e106]: that
+            - generic [ref=f17e107]: art
+            - generic [ref=f17e108]: has
+            - generic [ref=f17e109]: the
+            - generic [ref=f17e110]: power
+            - generic [ref=f17e111]: to
+            - generic [ref=f17e112]: transform
+            - generic [ref=f17e113]: spaces,
+            - generic [ref=f17e114]: inspire
+            - generic [ref=f17e115]: minds,
+            - generic [ref=f17e116]: and
+            - generic [ref=f17e117]: connect
+            - generic [ref=f17e118]: souls.
+            - generic [ref=f17e119]: Today,
+            - generic [ref=f17e120]: we
+            - generic [ref=f17e121]: proudly
+            - generic [ref=f17e122]: showcase
+            - generic [ref=f17e123]: a
+            - generic [ref=f17e124]: diverse
+            - generic [ref=f17e125]: collection
+            - generic [ref=f17e126]: of
+            - generic [ref=f17e127]: contemporary
+            - generic [ref=f17e128]: artworks,
+            - generic [ref=f17e129]: from
+            - generic [ref=f17e130]: bold
+            - generic [ref=f17e131]: abstracts
+            - generic [ref=f17e132]: to
+            - generic [ref=f17e133]: serene
+            - generic [ref=f17e134]: landscapes,
+            - generic [ref=f17e135]: each
+            - generic [ref=f17e136]: piece
+            - generic [ref=f17e137]: carefully
+            - generic [ref=f17e138]: curated
+            - generic [ref=f17e139]: to
+            - generic [ref=f17e140]: bring
+            - generic [ref=f17e141]: beauty
+            - generic [ref=f17e142]: and
+            - generic [ref=f17e143]: meaning
+            - generic [ref=f17e144]: into
+            - generic [ref=f17e145]: your
+            - generic [ref=f17e146]: life.
+        - generic [ref=f17e147]:
+          - generic [ref=f17e148]:
+            - paragraph [ref=f17e149]: "18"
+            - paragraph [ref=f17e150]: Exhibitions curated
+          - generic [ref=f17e151]:
+            - paragraph [ref=f17e152]: "15"
+            - paragraph [ref=f17e153]: Artists represented
+          - generic [ref=f17e154]:
+            - paragraph [ref=f17e155]: 29+
+            - paragraph [ref=f17e156]: Works in the collection
+          - img "Sanctum Aikyam by Vinod Daroz" [ref=f17e158]
+          - img "Embrace of Light by Selvakumar" [ref=f17e160]
+          - img "Harmony of Nature and Mind by Farhad Hussain" [ref=f17e162]
+      - region [ref=f17e163]:
+        - generic [ref=f17e165]:
+          - heading "Art for spaces, minds & souls" [level=2] [ref=f17e166]
+          - generic [ref=f17e167]:
+            - paragraph [ref=f17e168]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls. Three ways we work with the people who come to us."
+            - link "Talk to the gallery" [ref=f17e169] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+        - list [ref=f17e172]:
+          - listitem [ref=f17e173]:
+            - generic [ref=f17e175]:
+              - generic [ref=f17e176]:
+                - paragraph [ref=f17e177]: "01"
+                - heading "Exhibitions" [level=3] [ref=f17e178]
+                - paragraph [ref=f17e179]: Every visit begins with curiosity — you don’t need to know about art to feel at home here. Every show is curated by Annapurna M.
+              - list [ref=f17e180]:
+                - listitem [ref=f17e181]: Curated exhibitions, four to six a year
+                - listitem [ref=f17e183]: Opening evenings with the artists
+                - listitem [ref=f17e185]: Guided walkthroughs for schools and groups
+                - listitem [ref=f17e187]: Hyd Art, our annual city-wide showcase
+                - listitem [ref=f17e189]: Talks, workshops and studio visits
+          - listitem [ref=f17e200]:
+            - generic [ref=f17e202]:
+              - generic [ref=f17e203]:
+                - paragraph [ref=f17e204]: "02"
+                - heading "Art advisory" [level=3] [ref=f17e205]
+                - paragraph [ref=f17e206]: Contextual, considered guidance for starting, refining or growing a collection.
+              - list [ref=f17e207]:
+                - listitem [ref=f17e208]: Starting a collection, with a first work
+                - listitem [ref=f17e210]: Refining what you already own
+                - listitem [ref=f17e212]: Growing a collection with a clear direction
+                - listitem [ref=f17e214]: Introductions to artists and their studios
+                - listitem [ref=f17e216]: Framing, care and documentation
+          - listitem [ref=f17e225]:
+            - generic [ref=f17e227]:
+              - generic [ref=f17e228]:
+                - paragraph [ref=f17e229]: "03"
+                - heading "Bespoke sourcing" [level=3] [ref=f17e230]
+                - paragraph [ref=f17e231]: Art selection, curation and placement shaped around a particular space and brief.
+              - list [ref=f17e232]:
+                - listitem [ref=f17e233]: Homes, from a single wall to a whole house
+                - listitem [ref=f17e235]: Architects and interior designers
+                - listitem [ref=f17e237]: Offices, hotels and restaurants
+                - listitem [ref=f17e239]: Institutions and public spaces
+                - listitem [ref=f17e241]: Commissions made for a particular site
+      - region [ref=f17e250]:
+        - generic [ref=f17e251]:
+          - heading "Artists" [level=2] [ref=f17e252]
+          - generic [ref=f17e253]:
+            - paragraph [ref=f17e254]: Represented by EkChitra
+            - paragraph [ref=f17e256]: 01 — 08
+        - generic [ref=f17e257]:
+          - list [ref=f17e258]:
+            - listitem [ref=f17e259]:
+              - button "Anupama Choudhary Mixed Media" [pressed] [ref=f17e260]:
+                - generic [ref=f17e261]: Anupama Choudhary
+                - generic [ref=f17e262]: Mixed Media
+            - listitem [ref=f17e264]:
+              - button "Ashok Juttu Acrylic, Fabric & Acid Wash Acrylic Ink & Acrylic Pens" [ref=f17e265]:
+                - generic [ref=f17e266]: Ashok Juttu
+                - generic [ref=f17e267]:
+                  - generic [ref=f17e268]: Acrylic, Fabric & Acid Wash
+                  - generic [ref=f17e269]: Acrylic Ink & Acrylic Pens
+            - listitem [ref=f17e270]:
+              - button "Chandrapal Panjre Mixed Media" [ref=f17e271]:
+                - generic [ref=f17e272]: Chandrapal Panjre
+                - generic [ref=f17e273]: Mixed Media
+            - listitem [ref=f17e275]:
+              - button "Charanjeet Singh Acrylic" [ref=f17e276]:
+                - generic [ref=f17e277]: Charanjeet Singh
+                - generic [ref=f17e278]: Acrylic
+            - listitem [ref=f17e280]:
+              - button "Dilip Kumar Acrylic" [ref=f17e281]:
+                - generic [ref=f17e282]: Dilip Kumar
+                - generic [ref=f17e283]: Acrylic
+            - listitem [ref=f17e285]:
+              - button "Farhad Hussain Acrylic" [ref=f17e286]:
+                - generic [ref=f17e287]: Farhad Hussain
+                - generic [ref=f17e288]: Acrylic
+            - listitem [ref=f17e290]:
+              - button "Kolipitchai Prabhakar Acrylic" [ref=f17e291]:
+                - generic [ref=f17e292]: Kolipitchai Prabhakar
+                - generic [ref=f17e293]: Acrylic
+            - listitem [ref=f17e295]:
+              - button "Manish Sharma Wood, Iron, Acrylic and PU" [ref=f17e296]:
+                - generic [ref=f17e297]: Manish Sharma
+                - generic [ref=f17e298]: Wood, Iron, Acrylic and PU
+          - generic [ref=f17e300]:
+            - img "Garuda by Anupama Choudhary" [ref=f17e302]
+            - generic [ref=f17e303]:
+              - generic [ref=f17e304]:
+                - paragraph [ref=f17e305]: Garuda
+                - paragraph [ref=f17e306]: Mixed Media on Canvas · 36 x 36 Inches
+              - paragraph [ref=f17e307]: This artist explores the vibrant intersection of pop art and Indian mythology, employing a comic-book style to bring their vision to life. Their work reflects a deep appreciation for the rich narratives and characters found in Indian folklore. By merging traditional themes with contemporary aesthetics, the artist creates pieces that resonate with both cultural heritage and modern sensibilities.
+              - generic [ref=f17e308]:
+                - link "About Anupama" [ref=f17e309] [cursor=pointer]:
+                  - /url: https://www.ekchitra.com/artists/anupama-choudhary
+                - link "All 15 artists" [ref=f17e312] [cursor=pointer]:
+                  - /url: /ekchitra-v5/artists
+      - region [ref=f17e315]:
+        - generic [ref=f17e316]:
+          - paragraph [ref=f17e318]: Four to six shows a year
+          - heading "Shows" [level=2] [ref=f17e320]
+        - generic [ref=f17e321]:
+          - generic [ref=f17e322]:
+            - generic [ref=f17e323]:
+              - paragraph [ref=f17e324]: “Living Temple 2026”
+              - paragraph [aria-hidden]: “Hyd Art 2026”
+              - paragraph [aria-hidden]: “Hyd Art”
+              - paragraph [aria-hidden]: “Swadhatri”
+              - paragraph [aria-hidden]: “Living Temple”
+              - paragraph [aria-hidden]: “Naik City”
+            - generic [ref=f17e325]:
+              - generic [ref=f17e326]:
+                - button "Previous exhibition" [ref=f17e327]
+                - button "Next exhibition" [ref=f17e330]
+              - paragraph [ref=f17e333]: 01 — 06
+          - img "Poster for Living Temple 2026" [ref=f17e335]
+          - generic [ref=f17e336]:
+            - generic [ref=f17e337]:
+              - generic [ref=f17e338]:
+                - term [ref=f17e339]: Status
+                - definition [ref=f17e340]: Current
+              - generic [ref=f17e341]:
+                - term [ref=f17e342]: Dates
+                - definition [ref=f17e343]: Dates to be announced
+              - generic [ref=f17e344]:
+                - term [ref=f17e345]: Curator
+                - definition [ref=f17e346]: Annapurna M
+            - link "All exhibitions" [ref=f17e347] [cursor=pointer]:
+              - /url: /ekchitra-v5/exhibitions
+      - region "Visit the gallery" [ref=f17e350]:
+        - link "Come and see the work" [ref=f17e351] [cursor=pointer]:
+          - /url: https://wa.me/919100118321
+          - generic [ref=f17e352]: Come
+          - generic [ref=f17e353]: and
+          - generic [ref=f17e354]: see
+          - generic [ref=f17e355]: the
+          - generic [ref=f17e356]: work
+    - contentinfo [ref=f17e360]:
+      - generic [ref=f17e361]:
+        - paragraph [ref=f17e362]: Art is everywhere.Come and notice.
+        - navigation "Footer" [ref=f17e363]:
+          - link "About" [ref=f17e364] [cursor=pointer]:
+            - /url: /ekchitra-v7#about
+          - link "Services" [ref=f17e365] [cursor=pointer]:
+            - /url: /ekchitra-v7#services
+          - link "Artists" [ref=f17e366] [cursor=pointer]:
+            - /url: /ekchitra-v7#artists
+          - link "Exhibitions" [ref=f17e367] [cursor=pointer]:
+            - /url: /ekchitra-v7#exhibitions
+        - generic [ref=f17e371]:
+          - paragraph [ref=f17e372]: Hyderabad
+          - paragraph
+      - generic [ref=f17e373]:
+        - link "Instagram" [ref=f17e374] [cursor=pointer]:
+          - /url: https://www.instagram.com/ek_chitra/
+        - link "WhatsApp" [ref=f17e377] [cursor=pointer]:
+          - /url: https://wa.me/919100118321
+      - generic [ref=f17e380]:
+        - paragraph [ref=f17e382]: EkChitra
+        - link [ref=f17e383] [cursor=pointer]:
+          - /url: https://wa.me/919100118321
+          - generic [ref=f17e384]: Let’s starta conversation
+      - generic [ref=f17e387]:
+        - paragraph [ref=f17e388]: © 2026 EkChitra
+        - paragraph [ref=f17e389]: Contemporary Indian art · Hyderabad
+  - alert [ref=f17e390]

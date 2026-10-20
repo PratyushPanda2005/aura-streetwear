@@ -1,0 +1,363 @@
+/* champions4good.club — section 2 ("Finally / No boring networking").
+   Values from getComputedStyle + the source Webflow stylesheet. Scoped to .c4g. */
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.c4g {
+  --c4g-white: #fbfbfb;
+  --c4g-black: #121212;
+  --c4g-green: #94ffe4;
+  --c4g-dark-green: #002629;
+  --c4g-dark-purple: #23002b;
+  --c4g-display: "Druk Condensed Super Desktop", var(--font-c4g-display), Arial, sans-serif;
+  width: 100%;
+  background-color: var(--c4g-white);
+  /* Webflow body defaults — the inline Lottie svg's baseline gap depends on them. */
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.c4g-standin {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--c4g-white);
+}
+.c4g-standin.is-hero {
+  background-color: var(--c4g-dark-purple);
+}
+
+.c4g-s2 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+/* ---------- Type ---------- */
+.c4g-xl {
+  margin: 0;
+  color: var(--c4g-black);
+  font-family: var(--c4g-display);
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 0.78em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.c4g-s {
+  margin: 0;
+  color: var(--c4g-black);
+  font-family: var(--c4g-display);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 0.85em;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.c4g-xl.is-left,
+.c4g-s.is-left {
+  text-align: left;
+}
+.c4g-xl.is-green,
+.c4g-s.is-green {
+  color: var(--c4g-green);
+}
+
+@media (min-width: 992px) {
+  .c4g-xl {
+    font-size: clamp(7rem, 10.5vw, 11.25rem);
+  }
+  .c4g-s {
+    font-size: clamp(2rem, 3vw, 3rem);
+  }
+}
+@media (max-width: 479px) {
+  .c4g-xl {
+    font-size: 72px;
+    line-height: 0.8em;
+    letter-spacing: 0;
+  }
+  .c4g-s {
+    font-size: 32px;
+    line-height: 0.9em;
+    letter-spacing: 0;
+  }
+}
+
+/* ---------- Shared layout ---------- */
+.c4g-layer-div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.c4g-layer-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.c4g-layer-2 {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.c4g-layer-3 {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+.c4g-lottie {
+  width: 100%;
+  height: 100%;
+}
+/* Webflow renders the Lottie svg inline (preflight would make it block). */
+.c4g .c4g-lottie svg {
+  display: inline;
+  vertical-align: baseline;
+}
+.c4g-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 12rem 2rem 2rem;
+}
+.c4g-subline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.c4g-mt-05 {
+  margin-top: 0.5rem;
+}
+.c4g-mt-1 {
+  margin-top: 1rem;
+}
+.c4g-mt-3 {
+  margin-top: 3rem;
+}
+.c4g-max-45 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 45rem;
+}
+.c4g-align-to-headline {
+  margin-left: 0.2rem;
+}
+
+/* ---------- Stickers ---------- */
+.c4g-sticker-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.c4g-sticker-wrap::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: -1em;
+}
+.c4g-sticker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  visibility: hidden;
+}
+.c4g-sticker.is-purple-1 { width: 11.625rem; }
+.c4g-sticker.is-purple-2 { width: 10rem; }
+.c4g-sticker.is-purple-3 { width: 8.125rem; }
+.c4g-sticker.is-green-1 { width: 7.1875rem; }
+.c4g-sticker.is-green-2 { width: 8.125rem; }
+.c4g-sticker.is-yellow-1 { width: 10.8125rem; }
+.c4g-sticker.is-yellow-2 { width: 8.125rem; }
+
+/* ---------- Desktop scene (≥992px) ---------- */
+.c4g-desktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.c4g-mobile {
+  display: none;
+  width: 100%;
+}
+.c4g-anim-wrap {
+  width: 100%;
+  height: 400vh;
+}
+.c4g-anim-stage {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+.c4g-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.c4g-l3-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.c4g-l3-pad {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 2rem 2rem;
+}
+.c4g-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+  place-items: end center;
+  width: 100%;
+}
+.c4g-grid-left {
+  grid-column: 1 / 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.c4g-grid-right {
+  grid-column: 9 / 13;
+}
+@media (min-width: 1920px) {
+  .c4g-grid-right {
+    grid-column: 10 / 13;
+  }
+}
+
+/* ---------- Sticker cursor ---------- */
+.c4g-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color: var(--c4g-black);
+  pointer-events: none;
+  transform: translateZ(0);
+}
+.c4g-cursor-item {
+  display: grid;
+  place-items: center;
+  opacity: 0;
+}
+.c4g-cursor-svg {
+  grid-area: 1 / 1;
+  width: 48px;
+  overflow: visible;
+  color: var(--c4g-white);
+}
+
+/* ---------- Mobile / tablet (≤991px) ---------- */
+@media (max-width: 991px) {
+  .c4g-desktop,
+  .c4g-cursor {
+    display: none;
+  }
+  .c4g-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .c4g-sticker.is-green-1 { width: 5rem; }
+  .c4g-sticker.is-green-2 { width: 5.25rem; }
+}
+.c4g-m-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--c4g-white);
+}
+.c4g-m-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.c4g-lottie.is-horse {
+  height: auto;
+}
+.c4g-m-wrapper {
+  padding: 3rem 2rem 2rem;
+}
+.c4g-m-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 479px) {
+  .c4g-m-wrapper {
+    padding: 3rem 1.5rem 2rem;
+  }
+  .c4g-m-01 {
+    margin-top: 0.1rem;
+  }
+  .c4g-lottie.is-horse {
+    width: 150%;
+    margin-right: 50%;
+  }
+  .c4g-sticker.is-green-1 { width: 4rem; }
+  .c4g-sticker.is-green-2 { width: 4.25rem; }
+}

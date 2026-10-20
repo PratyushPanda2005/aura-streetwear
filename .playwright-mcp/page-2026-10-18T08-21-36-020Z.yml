@@ -1,0 +1,789 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "champions for good logo champions for good logo champions for good logo" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - img "champions for good logo" [ref=e12]
+      - img "champions for good logo" [ref=e15]
+      - img "champions for good logo" [ref=e18]
+    - generic [ref=e19]:
+      - link "MembersMembers" [ref=e20] [cursor=pointer]:
+        - /url: /member
+        - generic:
+          - generic:
+            - generic [aria-hidden]: M
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: m
+            - generic [aria-hidden]: b
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: r
+            - generic [aria-hidden]: s
+          - generic [aria-hidden]:
+            - generic [aria-hidden]: M
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: m
+            - generic [aria-hidden]: b
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: r
+            - generic [aria-hidden]: s
+      - link "EventsEvents" [ref=e21] [cursor=pointer]:
+        - /url: /events
+        - generic:
+          - generic:
+            - generic [aria-hidden]: E
+            - generic [aria-hidden]: v
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: "n"
+            - generic [aria-hidden]: t
+            - generic [aria-hidden]: s
+          - generic [aria-hidden]:
+            - generic [aria-hidden]: E
+            - generic [aria-hidden]: v
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: "n"
+            - generic [aria-hidden]: t
+            - generic [aria-hidden]: s
+      - link "FAQFAQ" [ref=e22] [cursor=pointer]:
+        - /url: /faq
+        - generic:
+          - generic:
+            - generic [aria-hidden]: F
+            - generic [aria-hidden]: A
+            - generic [aria-hidden]: Q
+          - generic [aria-hidden]:
+            - generic [aria-hidden]: F
+            - generic [aria-hidden]: A
+            - generic [aria-hidden]: Q
+      - button "SoundsSounds" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]:
+          - generic [ref=e26]:
+            - generic [aria-hidden] [ref=e27]: S
+            - generic [aria-hidden] [ref=e28]: o
+            - generic [aria-hidden] [ref=e29]: u
+            - generic [aria-hidden] [ref=e30]: "n"
+            - generic [aria-hidden] [ref=e31]: d
+            - generic [aria-hidden] [ref=e32]: s
+          - generic [ref=e34]:
+            - generic [aria-hidden] [ref=e35]: S
+            - generic [aria-hidden] [ref=e36]: o
+            - generic [aria-hidden] [ref=e37]: u
+            - generic [aria-hidden] [ref=e38]: "n"
+            - generic [aria-hidden] [ref=e39]: d
+            - generic [aria-hidden] [ref=e40]: s
+    - link "JoinJoin" [ref=e46] [cursor=pointer]:
+      - /url: https://calendly.com/jason-brix-champions4good/30min?background_color=062629&text_color=ffffff&primary_color=94ffe5
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [aria-hidden] [ref=e50]: J
+          - generic [aria-hidden] [ref=e51]: o
+          - generic [aria-hidden] [ref=e52]: i
+          - generic [aria-hidden] [ref=e53]: "n"
+        - generic [aria-hidden] [ref=e55]:
+          - generic [aria-hidden] [ref=e56]: J
+          - generic [aria-hidden] [ref=e57]: o
+          - generic [aria-hidden] [ref=e58]: i
+          - generic [aria-hidden] [ref=e59]: "n"
+  - generic [ref=e61]:
+    - heading "YOUR NETWORK OFGAME CHANGERS" [level=1] [ref=e125]:
+      - generic "YOUR" [ref=e126]:
+        - generic [aria-hidden] [ref=e128]: YOUR
+      - generic [aria-hidden] [ref=e129]:
+        - generic [aria-hidden] [ref=e130]: "N"
+        - generic [aria-hidden] [ref=e131]: E
+        - generic [aria-hidden] [ref=e132]: T
+        - generic [aria-hidden] [ref=e133]: W
+        - generic [aria-hidden] [ref=e134]: O
+        - generic [aria-hidden] [ref=e135]: R
+        - generic [aria-hidden] [ref=e136]: K
+      - generic "OF" [ref=e137]:
+        - generic [aria-hidden] [ref=e139]: OF
+      - generic [aria-hidden] [ref=e140]:
+        - generic [aria-hidden] [ref=e141]: G
+        - generic [aria-hidden] [ref=e142]: A
+        - generic [aria-hidden] [ref=e143]: M
+        - generic [aria-hidden] [ref=e144]: E
+      - generic [aria-hidden] [ref=e145]:
+        - generic [aria-hidden] [ref=e146]: C
+        - generic [aria-hidden] [ref=e147]: H
+        - generic [aria-hidden] [ref=e148]: A
+        - generic [aria-hidden] [ref=e149]: "N"
+        - generic [aria-hidden] [ref=e150]: G
+        - generic [aria-hidden] [ref=e151]: E
+        - generic [aria-hidden] [ref=e152]: R
+        - generic [aria-hidden] [ref=e153]: S
+    - generic [ref=e158]:
+      - generic [ref=e177]:
+        - generic:
+          - generic:
+            - generic "Finally":
+              - generic [aria-hidden]:
+                - generic [aria-hidden]: F
+                - generic [aria-hidden]: i
+                - generic [aria-hidden]: "n"
+                - generic [aria-hidden]: a
+                - generic [aria-hidden]: l
+                - generic [aria-hidden]: l
+                - generic [aria-hidden]: "y"
+          - generic:
+            - generic:
+              - heading "No boringnetworking" [level=2]:
+                - generic [aria-hidden]:
+                  - generic [aria-hidden]: "N"
+                  - generic [aria-hidden]: o
+                  - generic [aria-hidden]: b
+                  - generic [aria-hidden]: o
+                  - generic [aria-hidden]: r
+                  - generic [aria-hidden]: i
+                  - generic [aria-hidden]: "n"
+                  - generic [aria-hidden]: g
+                - generic [aria-hidden]:
+                  - generic [aria-hidden]: "n"
+                  - generic [aria-hidden]: e
+                  - generic [aria-hidden]: t
+                  - generic [aria-hidden]: w
+                  - generic [aria-hidden]: o
+                  - generic [aria-hidden]: r
+                  - generic [aria-hidden]: k
+                  - generic [aria-hidden]: i
+                  - generic [aria-hidden]: "n"
+                  - generic [aria-hidden]: g
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Sondern" [level=2]
+                - generic: Sportliche Events, echte Begegnungen und neue Chancen fuer alle Mitglieder. In einer familiaeren Atmosphaere.
+    - generic [ref=e188]:
+      - img "White text reading COMMUNITY VOICES inside a rounded rectangular border on black background."
+    - generic [ref=e190]:
+      - generic [ref=e191]: „Mit Champions for Good ist eine Plattform entstanden, die Athlet:innen Zugang zu einem vielseitigen Netzwerk eröffnet und Chancen bietet, sich über den Sport hinaus weiter zu entwickeln und einzubringen. Ich freue mich, Teil davon zu sein.“
+      - img "Black silhouette of a smartphone with a speech bubble containing a white plus sign inside it on the screen." [ref=e196]
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e202]: Deborah Levi
+          - generic [ref=e203]: Olympiasiegerin Bob-Zweier
+        - img "Confident young woman with curly hair wearing a black tank top standing against a textured concrete wall." [ref=e210]
+    - generic [ref=e240]:
+      - generic:
+        - heading "Unser Ziel" [level=2]:
+          - generic [aria-hidden]:
+            - generic [aria-hidden]: U
+            - generic [aria-hidden]: "n"
+            - generic [aria-hidden]: s
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: r
+            - generic [aria-hidden]: Z
+            - generic [aria-hidden]: i
+            - generic [aria-hidden]: e
+            - generic [aria-hidden]: l
+        - generic:
+          - generic "Neue Chancenfuer Athleten":
+            - generic [aria-hidden]:
+              - generic [aria-hidden]: "N"
+              - generic [aria-hidden]: e
+              - generic [aria-hidden]: u
+              - generic [aria-hidden]: e
+              - generic:
+                - generic [aria-hidden]: C
+                - generic [aria-hidden]: h
+                - generic [aria-hidden]: a
+                - generic [aria-hidden]: "n"
+                - generic [aria-hidden]: c
+                - generic [aria-hidden]: e
+                - generic [aria-hidden]: "n"
+            - generic [aria-hidden]:
+              - generic [aria-hidden]: f
+              - generic [aria-hidden]: u
+              - generic [aria-hidden]: e
+              - generic [aria-hidden]: r
+              - generic [aria-hidden]: A
+              - generic [aria-hidden]: t
+              - generic [aria-hidden]: h
+              - generic [aria-hidden]: l
+              - generic [aria-hidden]: e
+              - generic [aria-hidden]: t
+              - generic [aria-hidden]: e
+              - generic [aria-hidden]: "n"
+    - generic [ref=e244]:
+      - generic [ref=e245]: unsere
+      - generic [ref=e246]: Mission?
+      - generic [ref=e248]:
+        - generic [ref=e249]: die
+        - generic [ref=e250]: Regeln
+      - generic [ref=e279]:
+        - generic [ref=e287]: des
+        - generic [ref=e288]: klass-
+      - generic [ref=e289]: ischen spon-
+      - generic [ref=e291]:
+        - generic [ref=e292]: sorings
+        - generic [ref=e293]: und
+        - generic [ref=e294]: Net-
+      - generic [ref=e295]: Workings
+      - generic [ref=e316]: Neu denken
+      - generic [ref=e318]:
+        - generic [ref=e319]: und
+        - generic [ref=e344]: Athlet-
+      - generic [ref=e345]:
+        - generic [ref=e346]: innnen
+        - generic [ref=e347]: den
+        - generic [ref=e348]: zu-
+      - generic [ref=e349]:
+        - generic [ref=e350]: gang
+        - generic [ref=e351]: zu
+        - generic [ref=e352]: Wirt-
+      - generic [ref=e353]: Schaftlichen
+      - generic [ref=e355]: Chancen
+      - generic [ref=e376]:
+        - generic [ref=e377]: Eroeffnen
+        - generic [ref=e378]: DIE
+      - generic [ref=e379]:
+        - generic [ref=e380]: SIE
+        - generic [ref=e381]: verdient
+      - generic [ref=e390]: haben.
+    - generic [ref=e394]:
+      - heading "our values" [level=2] [ref=e396] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e397]:
+          - generic [aria-hidden] [ref=e398]: o
+          - generic [aria-hidden] [ref=e399]: u
+          - generic [aria-hidden] [ref=e400]: r
+        - generic [aria-hidden] [ref=e401]:
+          - generic [aria-hidden] [ref=e402]: v
+          - generic [aria-hidden] [ref=e403]: a
+          - generic [aria-hidden] [ref=e404]: l
+          - generic [aria-hidden] [ref=e405]: u
+          - generic [aria-hidden] [ref=e406]: e
+          - generic [aria-hidden] [ref=e407]: s
+      - generic [ref=e408]: 01 Offene Kommunikation 02Teamgeist 03Kollaboration 04Fair Play 05Respekt 06IntegriTaet 07DiversitAEt 08inklusion
+    - generic [ref=e435]:
+      - heading "ClubMemberships" [level=2] [ref=e438] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e439]:
+          - generic [aria-hidden] [ref=e440]: C
+          - generic [aria-hidden] [ref=e441]: l
+          - generic [aria-hidden] [ref=e442]: u
+          - generic [aria-hidden] [ref=e443]: b
+        - generic [aria-hidden] [ref=e444]:
+          - generic [aria-hidden] [ref=e445]: M
+          - generic [aria-hidden] [ref=e446]: e
+          - generic [aria-hidden] [ref=e447]: m
+          - generic [aria-hidden] [ref=e448]: b
+          - generic [aria-hidden] [ref=e449]: e
+          - generic [aria-hidden] [ref=e450]: r
+          - generic [aria-hidden] [ref=e451]: s
+          - generic [aria-hidden] [ref=e452]: h
+          - generic [aria-hidden] [ref=e453]: i
+          - generic [aria-hidden] [ref=e454]: p
+          - generic [aria-hidden] [ref=e455]: s
+      - generic [ref=e459]:
+        - generic [ref=e464]:
+          - generic [ref=e465]:
+            - generic [ref=e466]:
+              - img "Simplified turquoise silhouette of a baseball player swinging a bat." [ref=e468]
+              - heading "Athlete" [level=3] [ref=e470]
+              - generic [ref=e471]: Kostenfrei
+            - paragraph [ref=e474]: Für Spitzen-Athlet:innen, die ihre Karriere über den Sport hinaus entwickeln möchten.
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - img "Simple mint green pentagon shape on white background." [ref=e478]
+                - generic [ref=e479]: Zugang zu Business Kontakten
+              - generic [ref=e481]:
+                - img "A mint green diamond shape on a white background." [ref=e482]
+                - generic [ref=e483]: Aufbau der eigenen Personal Brand
+              - generic [ref=e485]:
+                - img "Mint green hexagon shape on white background." [ref=e486]
+                - generic [ref=e487]: Chancen auf Sponsorings
+          - link "JoinJoin" [ref=e489] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e490]:
+              - generic [ref=e492]:
+                - generic [aria-hidden] [ref=e493]: J
+                - generic [aria-hidden] [ref=e494]: o
+                - generic [aria-hidden] [ref=e495]: i
+                - generic [aria-hidden] [ref=e496]: "n"
+              - generic [aria-hidden] [ref=e497]:
+                - generic [aria-hidden] [ref=e498]: J
+                - generic [aria-hidden] [ref=e499]: o
+                - generic [aria-hidden] [ref=e500]: i
+                - generic [aria-hidden] [ref=e501]: "n"
+        - generic [ref=e509]:
+          - generic [ref=e510]:
+            - generic [ref=e511]:
+              - img "Orange stylized figure swinging a hockey stick in a striking pose." [ref=e513]
+              - heading "Booster" [level=3] [ref=e515]
+              - generic [ref=e516]: 1.020€/Jahr
+            - paragraph [ref=e519]: Für Freelancer, Berater & Unternehmen bis 2 Mitarbeiter.
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - img "Solid orange pentagon shape on white background." [ref=e523]
+                - generic [ref=e524]: Zugang zu Athlet:innen, Partnern und Geschäftsmöglichkeiten
+              - generic [ref=e527]:
+                - img "Orange diamond shape on a white background." [ref=e528]
+                - generic [ref=e529]: Events, Workshops & sportliche Formate
+              - generic [ref=e531]:
+                - img "Simple orange hexagon shape on white background." [ref=e532]
+                - generic [ref=e533]: Persönliches Matchmaking für Kontakte und Kooperationen
+          - link "JoinJoin" [ref=e535] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e536]:
+              - generic [ref=e537]:
+                - generic [aria-hidden] [ref=e538]: J
+                - generic [aria-hidden] [ref=e539]: o
+                - generic [aria-hidden] [ref=e540]: i
+                - generic [aria-hidden] [ref=e541]: "n"
+              - generic [aria-hidden] [ref=e542]:
+                - generic [aria-hidden] [ref=e543]: J
+                - generic [aria-hidden] [ref=e544]: o
+                - generic [aria-hidden] [ref=e545]: i
+                - generic [aria-hidden] [ref=e546]: "n"
+        - generic [ref=e554]:
+          - generic [ref=e555]:
+            - generic [ref=e556]:
+              - img "Stylized graphic of a person playing tennis holding a racket raised to hit a ball." [ref=e558]
+              - heading "Business" [level=3] [ref=e560]
+              - generic [ref=e561]: ab 1.980€/Jahr
+            - paragraph [ref=e565]: Für Unternehmen und KMUs bis 50 Mitarbeiter.
+            - generic [ref=e567]:
+              - generic [ref=e568]:
+                - img "Solid dark purple pentagon shape." [ref=e569]
+                - generic [ref=e570]: Strategische Partnerschaften und neue Geschäftschancen
+              - generic [ref=e572]:
+                - img "Solid dark purple diamond shape on white background." [ref=e573]
+                - generic [ref=e574]: Kundenbindung und Ausbau wichtiger Geschäftsbeziehungen
+              - generic [ref=e576]:
+                - img "Simple dark purple hexagon shape on white background." [ref=e577]
+                - generic [ref=e578]: Inspiration für Teams durch Athlet:innen und Expert:innen
+          - link "JoinJoin" [ref=e580] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e581]:
+              - generic [ref=e582]:
+                - generic [aria-hidden] [ref=e583]: J
+                - generic [aria-hidden] [ref=e584]: o
+                - generic [aria-hidden] [ref=e585]: i
+                - generic [aria-hidden] [ref=e586]: "n"
+              - generic [aria-hidden] [ref=e587]:
+                - generic [aria-hidden] [ref=e588]: J
+                - generic [aria-hidden] [ref=e589]: o
+                - generic [aria-hidden] [ref=e590]: i
+                - generic [aria-hidden] [ref=e591]: "n"
+        - generic [ref=e599]:
+          - generic [ref=e600]:
+            - generic [ref=e601]:
+              - img "Simple purple silhouette of a person swinging a golf club." [ref=e603]
+              - heading "corporate" [level=3] [ref=e605]
+              - generic [ref=e606]: 3.960€/Jahr
+            - paragraph [ref=e609]: Für Unternehmen ab 50 Mitarbeiter.
+            - generic [ref=e612]:
+              - generic [ref=e613]:
+                - img "Solid purple pentagon shape with rounded corners on a white background." [ref=e614]
+                - generic [ref=e615]: Employer Branding, Talent-Weiterbildung und strategische Beziehungen
+              - generic [ref=e617]:
+                - img "Pink diamond shape on a white background." [ref=e618]
+                - generic [ref=e619]: Athlet:innen für Leadership, Kultur und Mitarbeiterentwicklung
+              - generic [ref=e621]:
+                - img "Pink hexagon shape with rounded corners on a white background." [ref=e622]
+                - generic [ref=e623]: Zentralisierte Athleten Aktivierungen & Business Integrationen
+          - link "JoinJoin" [ref=e625] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e626]:
+              - generic [ref=e627]:
+                - generic [aria-hidden] [ref=e628]: J
+                - generic [aria-hidden] [ref=e629]: o
+                - generic [aria-hidden] [ref=e630]: i
+                - generic [aria-hidden] [ref=e631]: "n"
+              - generic [aria-hidden] [ref=e632]:
+                - generic [aria-hidden] [ref=e633]: J
+                - generic [aria-hidden] [ref=e634]: o
+                - generic [aria-hidden] [ref=e635]: i
+                - generic [aria-hidden] [ref=e636]: "n"
+        - generic [ref=e644]:
+          - generic [ref=e645]:
+            - generic [ref=e646]:
+              - img "Orange stylized figure swinging a hockey stick in a striking pose." [ref=e648]
+              - heading "Partner" [level=3] [ref=e650]
+              - generic [ref=e651]: Individuell
+            - paragraph [ref=e654]: Gestalten Sie Business-Wachstum mit der Kraft des Sports – gemeinsam mit Champions for Good als strategischen Partner.
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - img "Solid orange pentagon shape on white background." [ref=e658]
+                - generic [ref=e659]: Exklusiver Partner-Status
+              - generic [ref=e662]:
+                - img "Orange diamond shape on a white background." [ref=e663]
+                - generic [ref=e664]: Mitgestaltung der Club-Formate
+              - generic [ref=e666]:
+                - img "Simple orange hexagon shape on white background." [ref=e667]
+                - generic [ref=e668]: Strukturierte, individuelle Zusammenarbeiten
+          - link "JoinJoin" [ref=e670] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - generic [aria-hidden] [ref=e673]: J
+                - generic [aria-hidden] [ref=e674]: o
+                - generic [aria-hidden] [ref=e675]: i
+                - generic [aria-hidden] [ref=e676]: "n"
+              - generic [aria-hidden] [ref=e677]:
+                - generic [aria-hidden] [ref=e678]: J
+                - generic [aria-hidden] [ref=e679]: o
+                - generic [aria-hidden] [ref=e680]: i
+                - generic [aria-hidden] [ref=e681]: "n"
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - generic [ref=e691]:
+              - img "Simplified turquoise silhouette of a baseball player swinging a bat." [ref=e693]
+              - heading "Athlete" [level=3] [ref=e695]
+              - generic [ref=e696]: Kostenfrei
+            - paragraph [ref=e699]: Für Spitzen-Athlet:innen, die ihre Karriere über den Sport hinaus entwickeln möchten.
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - img "Simple mint green pentagon shape on white background." [ref=e704]
+                - generic [ref=e705]: Zugang zu Business Kontakten
+              - generic [ref=e707]:
+                - img "A mint green diamond shape on a white background." [ref=e708]
+                - generic [ref=e709]: Aufbau der eigenen Personal Brand
+              - generic [ref=e711]:
+                - img "Mint green hexagon shape on white background." [ref=e712]
+                - generic [ref=e713]: Chancen auf Sponsorings
+          - link "JoinJoin" [ref=e715] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e716]:
+              - generic [ref=e717]:
+                - generic [aria-hidden] [ref=e718]: J
+                - generic [aria-hidden] [ref=e719]: o
+                - generic [aria-hidden] [ref=e720]: i
+                - generic [aria-hidden] [ref=e721]: "n"
+              - generic [aria-hidden] [ref=e722]:
+                - generic [aria-hidden] [ref=e723]: J
+                - generic [aria-hidden] [ref=e724]: o
+                - generic [aria-hidden] [ref=e725]: i
+                - generic [aria-hidden] [ref=e726]: "n"
+        - generic [ref=e734]:
+          - generic [ref=e735]:
+            - generic [ref=e736]:
+              - img "Orange stylized figure swinging a hockey stick in a striking pose." [ref=e738]
+              - heading "Booster" [level=3] [ref=e740]
+              - generic [ref=e741]: 1.020€/Jahr
+            - paragraph [ref=e744]: Für Freelancer, Berater & Unternehmen bis 2 Mitarbeiter.
+            - generic [ref=e746]:
+              - generic [ref=e747]:
+                - img "Solid orange pentagon shape on white background." [ref=e748]
+                - generic [ref=e749]: Zugang zu Athlet:innen, Partnern und Geschäftsmöglichkeiten
+              - generic [ref=e752]:
+                - img "Orange diamond shape on a white background." [ref=e753]
+                - generic [ref=e754]: Events, Workshops & sportliche Formate
+              - generic [ref=e756]:
+                - img "Simple orange hexagon shape on white background." [ref=e757]
+                - generic [ref=e758]: Persönliches Matchmaking für Kontakte und Kooperationen
+          - link "JoinJoin" [ref=e760] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - generic [aria-hidden] [ref=e763]: J
+                - generic [aria-hidden] [ref=e764]: o
+                - generic [aria-hidden] [ref=e765]: i
+                - generic [aria-hidden] [ref=e766]: "n"
+              - generic [aria-hidden] [ref=e767]:
+                - generic [aria-hidden] [ref=e768]: J
+                - generic [aria-hidden] [ref=e769]: o
+                - generic [aria-hidden] [ref=e770]: i
+                - generic [aria-hidden] [ref=e771]: "n"
+        - generic [ref=e779]:
+          - generic [ref=e780]:
+            - generic [ref=e781]:
+              - img "Stylized graphic of a person playing tennis holding a racket raised to hit a ball." [ref=e783]
+              - heading "Business" [level=3] [ref=e785]
+              - generic [ref=e786]: ab 1.980€/Jahr
+            - paragraph [ref=e790]: Für Unternehmen und KMUs bis 50 Mitarbeiter.
+            - generic [ref=e792]:
+              - generic [ref=e793]:
+                - img "Solid dark purple pentagon shape." [ref=e794]
+                - generic [ref=e795]: Strategische Partnerschaften und neue Geschäftschancen
+              - generic [ref=e797]:
+                - img "Solid dark purple diamond shape on white background." [ref=e798]
+                - generic [ref=e799]: Kundenbindung und Ausbau wichtiger Geschäftsbeziehungen
+              - generic [ref=e801]:
+                - img "Simple dark purple hexagon shape on white background." [ref=e802]
+                - generic [ref=e803]: Inspiration für Teams durch Athlet:innen und Expert:innen
+          - link "JoinJoin" [ref=e805] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e806]:
+              - generic [ref=e807]:
+                - generic [aria-hidden] [ref=e808]: J
+                - generic [aria-hidden] [ref=e809]: o
+                - generic [aria-hidden] [ref=e810]: i
+                - generic [aria-hidden] [ref=e811]: "n"
+              - generic [aria-hidden] [ref=e812]:
+                - generic [aria-hidden] [ref=e813]: J
+                - generic [aria-hidden] [ref=e814]: o
+                - generic [aria-hidden] [ref=e815]: i
+                - generic [aria-hidden] [ref=e816]: "n"
+        - generic [ref=e824]:
+          - generic [ref=e825]:
+            - generic [ref=e826]:
+              - img "Simple purple silhouette of a person swinging a golf club." [ref=e828]
+              - heading "corporate" [level=3] [ref=e830]
+              - generic [ref=e831]: 3.960€/Jahr
+            - paragraph [ref=e834]: Für Unternehmen ab 50 Mitarbeiter.
+            - generic [ref=e837]:
+              - generic [ref=e838]:
+                - img "Solid purple pentagon shape with rounded corners on a white background." [ref=e839]
+                - generic [ref=e840]: Employer Branding, Talent-Weiterbildung und strategische Beziehungen
+              - generic [ref=e842]:
+                - img "Pink diamond shape on a white background." [ref=e843]
+                - generic [ref=e844]: Athlet:innen für Leadership, Kultur und Mitarbeiterentwicklung
+              - generic [ref=e846]:
+                - img "Pink hexagon shape with rounded corners on a white background." [ref=e847]
+                - generic [ref=e848]: Zentralisierte Athleten Aktivierungen & Business Integrationen
+          - link "JoinJoin" [ref=e850] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e851]:
+              - generic [ref=e852]:
+                - generic [aria-hidden] [ref=e853]: J
+                - generic [aria-hidden] [ref=e854]: o
+                - generic [aria-hidden] [ref=e855]: i
+                - generic [aria-hidden] [ref=e856]: "n"
+              - generic [aria-hidden] [ref=e857]:
+                - generic [aria-hidden] [ref=e858]: J
+                - generic [aria-hidden] [ref=e859]: o
+                - generic [aria-hidden] [ref=e860]: i
+                - generic [aria-hidden] [ref=e861]: "n"
+        - generic [ref=e869]:
+          - generic [ref=e870]:
+            - generic [ref=e871]:
+              - img "Orange stylized figure swinging a hockey stick in a striking pose." [ref=e873]
+              - heading "Partner" [level=3] [ref=e875]
+              - generic [ref=e876]: Individuell
+            - paragraph [ref=e879]: Gestalten Sie Business-Wachstum mit der Kraft des Sports – gemeinsam mit Champions for Good als strategischen Partner.
+            - generic [ref=e881]:
+              - generic [ref=e882]:
+                - img "Solid orange pentagon shape on white background." [ref=e883]
+                - generic [ref=e884]: Exklusiver Partner-Status
+              - generic [ref=e887]:
+                - img "Orange diamond shape on a white background." [ref=e888]
+                - generic [ref=e889]: Mitgestaltung der Club-Formate
+              - generic [ref=e891]:
+                - img "Simple orange hexagon shape on white background." [ref=e892]
+                - generic [ref=e893]: Strukturierte, individuelle Zusammenarbeiten
+          - link "JoinJoin" [ref=e895] [cursor=pointer]:
+            - /url: "#join"
+            - generic [ref=e896]:
+              - generic [ref=e897]:
+                - generic [aria-hidden] [ref=e898]: J
+                - generic [aria-hidden] [ref=e899]: o
+                - generic [aria-hidden] [ref=e900]: i
+                - generic [aria-hidden] [ref=e901]: "n"
+              - generic [aria-hidden] [ref=e902]:
+                - generic [aria-hidden] [ref=e903]: J
+                - generic [aria-hidden] [ref=e904]: o
+                - generic [aria-hidden] [ref=e905]: i
+                - generic [aria-hidden] [ref=e906]: "n"
+    - generic [ref=e910]:
+      - heading "YourBenefits" [level=2] [ref=e913] [cursor=pointer]:
+        - generic [aria-hidden] [ref=e914]:
+          - generic [aria-hidden] [ref=e915]: "Y"
+          - generic [aria-hidden] [ref=e916]: o
+          - generic [aria-hidden] [ref=e917]: u
+          - generic [aria-hidden] [ref=e918]: r
+        - generic [aria-hidden] [ref=e919]:
+          - generic [aria-hidden] [ref=e920]: B
+          - generic [aria-hidden] [ref=e921]: e
+          - generic [aria-hidden] [ref=e922]: "n"
+          - generic [aria-hidden] [ref=e923]: e
+          - generic [aria-hidden] [ref=e924]: f
+          - generic [aria-hidden] [ref=e925]: i
+          - generic [aria-hidden] [ref=e926]: t
+          - generic [aria-hidden] [ref=e927]: s
+      - heading "01 Kuratiertes Netzwerk aus Executives und Athlet-innen 02Tickets zu einzigartigen sport-EVENTS 03Exklusive Benefits und rabatte auf angebote unserer Club-partner" [level=3] [ref=e931]
+    - generic [ref=e969]:
+      - generic [ref=e970]:
+        - generic:
+          - heading "READy TO JOIN?" [level=2]:
+            - generic [aria-hidden]:
+              - generic [aria-hidden]: R
+              - generic [aria-hidden]: E
+              - generic [aria-hidden]: A
+              - generic [aria-hidden]: D
+              - generic [aria-hidden]: "y"
+              - generic [aria-hidden]: T
+              - generic [aria-hidden]: O
+            - generic [aria-hidden]:
+              - generic:
+                - generic [aria-hidden]: J
+                - generic [aria-hidden]: O
+                - generic [aria-hidden]: I
+                - generic [aria-hidden]: "N"
+                - generic [aria-hidden]: "?"
+      - generic [ref=e971]:
+        - heading "Vereinbare ein GespraEch mit unserem team und erfahre mehr UEber Deine Membership bei champions for good." [level=3] [ref=e972]
+        - link "JoinJoin" [ref=e974] [cursor=pointer]:
+          - /url: https://calendly.com/jason-brix-champions4good/30min?background_color=062629&text_color=ffffff&primary_color=94ffe5
+          - generic [ref=e975]:
+            - generic [ref=e977]:
+              - generic [aria-hidden] [ref=e978]: J
+              - generic [aria-hidden] [ref=e979]: o
+              - generic [aria-hidden] [ref=e980]: i
+              - generic [aria-hidden] [ref=e981]: "n"
+            - generic [aria-hidden] [ref=e983]:
+              - generic [aria-hidden] [ref=e984]: J
+              - generic [aria-hidden] [ref=e985]: o
+              - generic [aria-hidden] [ref=e986]: i
+              - generic [aria-hidden] [ref=e987]: "n"
+  - generic [ref=e1015]:
+    - generic [ref=e1016]:
+      - generic [ref=e1020]:
+        - generic [ref=e1021]: Menü
+        - link "MembersMembers" [ref=e1022] [cursor=pointer]:
+          - /url: /member
+          - generic [ref=e1023]:
+            - generic [ref=e1024]:
+              - generic [aria-hidden] [ref=e1025]: M
+              - generic [aria-hidden] [ref=e1026]: e
+              - generic [aria-hidden] [ref=e1027]: m
+              - generic [aria-hidden] [ref=e1028]: b
+              - generic [aria-hidden] [ref=e1029]: e
+              - generic [aria-hidden] [ref=e1030]: r
+              - generic [aria-hidden] [ref=e1031]: s
+            - generic [aria-hidden] [ref=e1032]:
+              - generic [aria-hidden] [ref=e1033]: M
+              - generic [aria-hidden] [ref=e1034]: e
+              - generic [aria-hidden] [ref=e1035]: m
+              - generic [aria-hidden] [ref=e1036]: b
+              - generic [aria-hidden] [ref=e1037]: e
+              - generic [aria-hidden] [ref=e1038]: r
+              - generic [aria-hidden] [ref=e1039]: s
+        - link "EventsEvents" [ref=e1040] [cursor=pointer]:
+          - /url: /events
+          - generic [ref=e1041]:
+            - generic [ref=e1042]:
+              - generic [aria-hidden] [ref=e1043]: E
+              - generic [aria-hidden] [ref=e1044]: v
+              - generic [aria-hidden] [ref=e1045]: e
+              - generic [aria-hidden] [ref=e1046]: "n"
+              - generic [aria-hidden] [ref=e1047]: t
+              - generic [aria-hidden] [ref=e1048]: s
+            - generic [aria-hidden] [ref=e1049]:
+              - generic [aria-hidden] [ref=e1050]: E
+              - generic [aria-hidden] [ref=e1051]: v
+              - generic [aria-hidden] [ref=e1052]: e
+              - generic [aria-hidden] [ref=e1053]: "n"
+              - generic [aria-hidden] [ref=e1054]: t
+              - generic [aria-hidden] [ref=e1055]: s
+        - link "FAQFAQ" [ref=e1056] [cursor=pointer]:
+          - /url: /faq
+          - generic [ref=e1057]:
+            - generic [ref=e1058]:
+              - generic [aria-hidden] [ref=e1059]: F
+              - generic [aria-hidden] [ref=e1060]: A
+              - generic [aria-hidden] [ref=e1061]: Q
+            - generic [aria-hidden] [ref=e1062]:
+              - generic [aria-hidden] [ref=e1063]: F
+              - generic [aria-hidden] [ref=e1064]: A
+              - generic [aria-hidden] [ref=e1065]: Q
+      - generic [ref=e1067]:
+        - generic [ref=e1068]: Links
+        - link "Club PlatformClub Platform" [ref=e1069] [cursor=pointer]:
+          - /url: https://championsforgood-club.coapp.io/
+          - generic [ref=e1070]:
+            - generic [ref=e1071]:
+              - generic [aria-hidden] [ref=e1072]: C
+              - generic [aria-hidden] [ref=e1073]: l
+              - generic [aria-hidden] [ref=e1074]: u
+              - generic [aria-hidden] [ref=e1075]: b
+              - generic [aria-hidden] [ref=e1076]: P
+              - generic [aria-hidden] [ref=e1077]: l
+              - generic [aria-hidden] [ref=e1078]: a
+              - generic [aria-hidden] [ref=e1079]: t
+              - generic [aria-hidden] [ref=e1080]: f
+              - generic [aria-hidden] [ref=e1081]: o
+              - generic [aria-hidden] [ref=e1082]: r
+              - generic [aria-hidden] [ref=e1083]: m
+            - generic [aria-hidden] [ref=e1084]:
+              - generic [aria-hidden] [ref=e1085]: C
+              - generic [aria-hidden] [ref=e1086]: l
+              - generic [aria-hidden] [ref=e1087]: u
+              - generic [aria-hidden] [ref=e1088]: b
+              - generic [aria-hidden] [ref=e1089]: P
+              - generic [aria-hidden] [ref=e1090]: l
+              - generic [aria-hidden] [ref=e1091]: a
+              - generic [aria-hidden] [ref=e1092]: t
+              - generic [aria-hidden] [ref=e1093]: f
+              - generic [aria-hidden] [ref=e1094]: o
+              - generic [aria-hidden] [ref=e1095]: r
+              - generic [aria-hidden] [ref=e1096]: m
+        - link "LinkedInLinkedIn" [ref=e1097] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/champions-for-good/
+          - generic [ref=e1098]:
+            - generic [ref=e1099]:
+              - generic [aria-hidden] [ref=e1100]: L
+              - generic [aria-hidden] [ref=e1101]: i
+              - generic [aria-hidden] [ref=e1102]: "n"
+              - generic [aria-hidden] [ref=e1103]: k
+              - generic [aria-hidden] [ref=e1104]: e
+              - generic [aria-hidden] [ref=e1105]: d
+              - generic [aria-hidden] [ref=e1106]: I
+              - generic [aria-hidden] [ref=e1107]: "n"
+            - generic [aria-hidden] [ref=e1108]:
+              - generic [aria-hidden] [ref=e1109]: L
+              - generic [aria-hidden] [ref=e1110]: i
+              - generic [aria-hidden] [ref=e1111]: "n"
+              - generic [aria-hidden] [ref=e1112]: k
+              - generic [aria-hidden] [ref=e1113]: e
+              - generic [aria-hidden] [ref=e1114]: d
+              - generic [aria-hidden] [ref=e1115]: I
+              - generic [aria-hidden] [ref=e1116]: "n"
+      - generic [ref=e1117]:
+        - generic [ref=e1118]: Legal
+        - link "ImpressumImpressum" [ref=e1119] [cursor=pointer]:
+          - /url: /legal/impressum
+          - generic [ref=e1120]:
+            - generic [ref=e1121]:
+              - generic [aria-hidden] [ref=e1122]: I
+              - generic [aria-hidden] [ref=e1123]: m
+              - generic [aria-hidden] [ref=e1124]: p
+              - generic [aria-hidden] [ref=e1125]: r
+              - generic [aria-hidden] [ref=e1126]: e
+              - generic [aria-hidden] [ref=e1127]: s
+              - generic [aria-hidden] [ref=e1128]: s
+              - generic [aria-hidden] [ref=e1129]: u
+              - generic [aria-hidden] [ref=e1130]: m
+            - generic [aria-hidden] [ref=e1131]:
+              - generic [aria-hidden] [ref=e1132]: I
+              - generic [aria-hidden] [ref=e1133]: m
+              - generic [aria-hidden] [ref=e1134]: p
+              - generic [aria-hidden] [ref=e1135]: r
+              - generic [aria-hidden] [ref=e1136]: e
+              - generic [aria-hidden] [ref=e1137]: s
+              - generic [aria-hidden] [ref=e1138]: s
+              - generic [aria-hidden] [ref=e1139]: u
+              - generic [aria-hidden] [ref=e1140]: m
+        - link "DatenschutzDatenschutz" [ref=e1141] [cursor=pointer]:
+          - /url: /legal/datenschutz
+          - generic [ref=e1142]:
+            - generic [ref=e1143]:
+              - generic [aria-hidden] [ref=e1144]: D
+              - generic [aria-hidden] [ref=e1145]: a
+              - generic [aria-hidden] [ref=e1146]: t
+              - generic [aria-hidden] [ref=e1147]: e
+              - generic [aria-hidden] [ref=e1148]: "n"
+              - generic [aria-hidden] [ref=e1149]: s
+              - generic [aria-hidden] [ref=e1150]: c
+              - generic [aria-hidden] [ref=e1151]: h
+              - generic [aria-hidden] [ref=e1152]: u
+              - generic [aria-hidden] [ref=e1153]: t
+              - generic [aria-hidden] [ref=e1154]: z
+            - generic [aria-hidden] [ref=e1155]:
+              - generic [aria-hidden] [ref=e1156]: D
+              - generic [aria-hidden] [ref=e1157]: a
+              - generic [aria-hidden] [ref=e1158]: t
+              - generic [aria-hidden] [ref=e1159]: e
+              - generic [aria-hidden] [ref=e1160]: "n"
+              - generic [aria-hidden] [ref=e1161]: s
+              - generic [aria-hidden] [ref=e1162]: c
+              - generic [aria-hidden] [ref=e1163]: h
+              - generic [aria-hidden] [ref=e1164]: u
+              - generic [aria-hidden] [ref=e1165]: t
+              - generic [aria-hidden] [ref=e1166]: z
+    - generic [ref=e1168]:
+      - generic [ref=e1169]: © 2026 | Champions for Good GmbH
+      - generic [ref=e1170]:
+        - link "Website made by Double Play" [ref=e1171] [cursor=pointer]:
+          - /url: https://www.doubleplay.studio/
+        - img "Lila Umriss eines Tennisballs vor weißem Hintergrund." [ref=e1172]
