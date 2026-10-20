@@ -47,13 +47,15 @@ function Arrow() {
  * single frame held in the middle of the screen. Scrolling on, the next
  * show's poster slides up inside that frame and covers the one before, in
  * step with the scroll — a screen of scroll per show — its picture settling
- * from a slight zoom; the wipe eases after the scroll so it glides. The right is a white panel,
- * in black type, that stays put: a numbered index of the three with the
- * current one bracketed and in black, its number set huge in the corner, a
- * link to the show between two fine rules, and its title set very large at
- * the foot. When the next block reaches the middle of the screen, the number
- * and the title fade to the next and the bracket moves down the index.
- * Clicking a name scrolls to its block. On a phone the panel gives way to a
+ * from a slight zoom; the wipe eases after the scroll so it glides. The right
+ * is a white panel, in black type, that stays put. At the top, what is
+ * showing: its number set huge with its title, very large, directly under
+ * it; a light run of the diamond motif in the open middle; and at the foot
+ * a numbered index of the three with the current one bracketed and in black,
+ * then a link to the show and its dates under a fine rule. When the next
+ * block reaches the middle of the screen, the number and the title fade to
+ * the next and the bracket moves down the index. Clicking a name scrolls to
+ * its block. On a phone the panel gives way to a
  * caption under each poster.
  */
 export function ExhibitionsIndex() {
@@ -207,8 +209,60 @@ export function ExhibitionsIndex() {
         {/* The panel, held while the posters pass. */}
         <div className="hidden lg:block lg:w-[min(34vw,480px)] lg:shrink-0">
           <div className="sticky top-11 flex h-[calc(100svh-44px)] flex-col px-[2vw] pt-[1.6vw] pb-[2.6vw]">
-            <div className="flex items-start justify-between gap-x-6">
-              <ol className="text-[0.85vw] leading-[1.95] uppercase">
+            {/* What is showing: the number, huge, with the title under it. */}
+            <div>
+              <div className="relative h-[0.8em] text-[11vw] leading-[0.8] tracking-[-0.06em] text-(--k-ink)">
+                <span aria-hidden="true" className="invisible tabular-nums">
+                  00
+                </span>
+                {SHOWS.map((item, index) => (
+                  <p
+                    key={item.title}
+                    aria-hidden={index !== active}
+                    className={cn(
+                      "absolute top-0 left-0 tabular-nums transition-opacity duration-500 ease-out",
+                      index === active ? "opacity-100" : "opacity-0",
+                    )}
+                  >
+                    {pad(index + 1)}
+                  </p>
+                ))}
+              </div>
+
+              {/* Titles stacked in one cell, so the block is as tall as the
+                  tallest and the next title fades in over the last. */}
+              <div className="mt-[1.4vw] grid items-start text-[4.4vw] leading-[1.02] tracking-[-0.05em]">
+                {SHOWS.map((item, index) => (
+                  <h3
+                    key={item.title}
+                    aria-hidden={index !== active}
+                    className={cn(
+                      "line-clamp-2 text-(--k-ink) transition-opacity duration-500 ease-out [grid-area:1/1]",
+                      index === active ? "opacity-100" : "opacity-0",
+                    )}
+                  >
+                    {item.title}
+                  </h3>
+                ))}
+              </div>
+            </div>
+
+            {/* A light run of the diamond motif in the open middle. */}
+            <div className="relative flex-1">
+              <Diamonds
+                rows={30}
+                shape="steps"
+                side="right"
+                tint="maroon"
+                tintEvery={7}
+                tintOpacity={0.45}
+                className="absolute top-1/2 right-[-2vw] w-[3.3vw] -translate-y-1/2 text-(--k-ink)/[0.1]"
+              />
+            </div>
+
+            {/* The index of the three, then the way in. */}
+            <div>
+              <ol className="text-[clamp(13px,1.1vw,17px)] leading-[1.9] uppercase">
                 {SHOWS.map((item, index) => (
                   <li key={item.title}>
                     <button
@@ -232,47 +286,11 @@ export function ExhibitionsIndex() {
                 ))}
               </ol>
 
-              {/* The big number, fading from one to the next. */}
-              <div className="relative h-[0.8em] shrink-0 text-[11vw] leading-[0.8] tracking-[-0.06em] text-(--k-ink)">
-                <span aria-hidden="true" className="invisible tabular-nums">
-                  00
-                </span>
-                {SHOWS.map((item, index) => (
-                  <p
-                    key={item.title}
-                    aria-hidden={index !== active}
-                    className={cn(
-                      "absolute top-0 right-0 tabular-nums transition-opacity duration-500 ease-out",
-                      index === active ? "opacity-100" : "opacity-0",
-                    )}
-                  >
-                    {pad(index + 1)}
-                  </p>
-                ))}
-              </div>
-            </div>
-
-            <span className="mt-[4.5vw] block h-px bg-(--k-ink)/15" />
-
-            {/* A light run of the diamond motif in the open middle. */}
-            <div className="relative flex-1">
-              <Diamonds
-                rows={30}
-                shape="steps"
-                side="right"
-                tint="maroon"
-                tintEvery={7}
-                tintOpacity={0.45}
-                className="absolute top-1/2 right-[-2vw] w-[3.3vw] -translate-y-1/2 text-(--k-ink)/[0.1]"
-              />
-            </div>
-
-            <div>
               <a
                 href={show.href}
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center justify-between gap-x-6 border-b border-(--k-ink)/15 pb-[1.6vw] text-[1vw] transition-opacity hover:opacity-60"
+                className="mt-[1.6vw] flex items-center justify-between gap-x-6 border-t border-(--k-ink)/15 pt-[1.6vw] text-[clamp(15px,1.25vw,19px)] transition-opacity hover:opacity-60"
               >
                 <span>
                   View exhibition
@@ -283,21 +301,6 @@ export function ExhibitionsIndex() {
                 </span>
                 <Arrow />
               </a>
-
-              <div className="relative mt-[1.8vw] h-[2.1em] overflow-hidden text-[5vw] leading-[1.02] tracking-[-0.05em]">
-                {SHOWS.map((item, index) => (
-                  <h3
-                    key={item.title}
-                    aria-hidden={index !== active}
-                    className={cn(
-                      "absolute inset-x-0 bottom-0 line-clamp-2 text-(--k-ink) transition-opacity duration-500 ease-out",
-                      index === active ? "opacity-100" : "opacity-0",
-                    )}
-                  >
-                    {item.title}
-                  </h3>
-                ))}
-              </div>
             </div>
           </div>
         </div>

@@ -9,9 +9,9 @@ import { hyderabadTime } from "../ekchitra-v5/heroes/data";
 import { CONTACT, V6_HOME, V6_NAV } from "./data";
 
 /**
- * The thin bar that stays at the top of the page, as on aspensearch.com: a
- * black diamond mark, the live Hyderabad time, the page links and a black
- * contact cell on the right.
+ * The thin bar that stays at the top of the page, as on aspensearch.com: the
+ * live Hyderabad time (linking home), the page links and a black contact cell
+ * on the right.
  */
 export function TopBar() {
   const [time, setTime] = useState("");
@@ -32,19 +32,11 @@ export function TopBar() {
     >
       <a
         href={V6_HOME}
-        aria-label="EkChitra — home"
-        className="flex w-11 items-center justify-center bg-(--k-ink)"
-      >
-        <svg viewBox="0 0 20 20" aria-hidden="true" className="size-4">
-          <path d="M10 1l9 9-9 9-9-9z" fill="#fff" />
-        </svg>
-      </a>
-      <p
-        className={cn(CAPS, "flex items-center px-4 text-[11px]")}
+        className={cn(CAPS, "flex items-center px-4 text-[11px] lg:px-5")}
         suppressHydrationWarning
       >
         {time} Hyderabad
-      </p>
+      </a>
       <nav
         aria-label="Primary navigation"
         className="ml-auto hidden items-center px-5 lg:flex"

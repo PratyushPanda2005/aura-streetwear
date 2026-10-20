@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 
 import { GRID } from "../styles";
+import { LogoStack } from "./LogoStack";
 import {
   CONTACT,
   FOOTER,
@@ -15,11 +16,21 @@ import {
  * Variation 03 — after rejouice. Black. A short line set large on the left
  * with the contact and a newsletter field under it; the pages and socials
  * in two columns on the right, the place and copyright beneath them; and
- * the name in white across the full width at the bottom.
+ * the name in white across the full width at the bottom. `light` sets it in
+ * brand black on white instead, with the name set as the logo and repeated
+ * in a static, fading stack (see LogoStack).
  */
-export function FooterMark() {
+export function FooterMark({ light = false }: { light?: boolean }) {
   return (
-    <footer className={cn(SCREEN, "bg-black text-white")}>
+    <footer
+      className={cn(
+        SCREEN,
+        // The stacked name needs more than a screen, so the light footer grows.
+        light
+          ? "h-auto min-h-svh bg-white text-(--k-ink)"
+          : "bg-black text-white",
+      )}
+    >
       <div className={cn(GRID, "gap-y-12 pt-14 lg:pt-16")}>
         <div className="col-span-4 lg:col-span-5">
           <p className="text-[34px] leading-[1.05] tracking-[-0.03em] lg:text-[44px]">
@@ -40,12 +51,22 @@ export function FooterMark() {
             <label htmlFor="ek6-f3-email" className="text-[15px]">
               Sign up for news of openings
             </label>
-            <div className="mt-3 flex items-center border-b border-white">
+            <div
+              className={cn(
+                "mt-3 flex items-center border-b",
+                light ? "border-(--k-ink)" : "border-white",
+              )}
+            >
               <input
                 id="ek6-f3-email"
                 type="email"
                 placeholder="Email"
-                className="h-9 min-w-0 flex-1 bg-transparent text-[15px] outline-none placeholder:text-white/40"
+                className={cn(
+                  "h-9 min-w-0 flex-1 bg-transparent text-[15px] outline-none",
+                  light
+                    ? "placeholder:text-(--k-ink)/40"
+                    : "placeholder:text-white/40",
+                )}
               />
               <button type="submit" aria-label="Sign up" className="px-1">
                 →
@@ -70,9 +91,13 @@ export function FooterMark() {
         </div>
       </div>
 
-      <div className="mt-auto px-4 lg:px-5">
-        <Wordmark className="translate-y-[6%]" />
-      </div>
+      {light ? (
+        <LogoStack className="mt-auto pt-24 lg:pt-32" />
+      ) : (
+        <div className="mt-auto px-4 lg:px-5">
+          <Wordmark className="translate-y-[6%]" />
+        </div>
+      )}
     </footer>
   );
 }

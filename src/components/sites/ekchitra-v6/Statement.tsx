@@ -6,11 +6,11 @@ import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { CapsLink } from "../ekchitra-v5/CapsLink";
-import { Chars } from "../ekchitra-v5/Chars";
 import { Diamonds } from "../ekchitra-v5/Diamonds";
 import { SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
 import { STATEMENT, STATS } from "./data";
 import { GRID, HEAD } from "./styles";
+import { ScrollFillText } from "./ScrollFillText";
 import { Index } from "./ui";
 
 const [exhibitions, artists] = STATS;
@@ -33,16 +33,16 @@ const PANELS = [
   },
   {
     stat: artists,
-    tone: "bg-(--k-sky) text-(--k-ink)",
-    caption: "text-(--k-ink)/70",
+    tone: "bg-(--k-ink) text-white",
+    caption: "text-white/70",
     size: "h-[40%]",
     motif: {
-      shape: "clusters",
-      tint: "maroon",
+      shape: "zigzag",
+      tint: "sky",
       horizontal: false,
-      rows: 18,
+      rows: 24,
       className:
-        "top-1/2 right-0 w-[44px] -translate-y-1/2 text-(--k-ink)/[0.12] lg:w-[56px]",
+        "top-0 right-0 w-[64px] text-white/[0.14] lg:w-[88px]",
     } as const,
     link: { label: "View all artists", href: V5_ROUTES.artists },
   },
@@ -57,10 +57,11 @@ const ease = (t: number) => 1 - (1 - t) * (1 - t);
  * 01 — About, after the "An inflection point" section of stateofaidesign.com.
  *
  * A small label sits directly over the gallery's founding line, both flush
- * with the left margin. Then a photograph of the gallery fills the width; as it reaches
+ * with the left margin; the line fills from grey to black as it scrolls up. Then a photograph of the gallery fills the width; as it reaches
  * the top of the screen it pins, and while scrolling on, the photograph slides
  * left and two brand-coloured panels slide in beside it — maroon with the
- * number of exhibitions curated, sky blue with the number of artists — their
+ * number of exhibitions curated, brand black (with the diamond motif) with
+ * the number of artists — their
  * figures rolling up with the scroll; the artists panel links to all the
  * artists. The pin releases straight into the next section.
  */
@@ -104,7 +105,7 @@ export function Statement() {
         <div className="col-span-4 lg:col-span-7">
           <Index n={1} label={STATEMENT.label} />
           <h2 className={cn(TITLE, "mt-2 lg:mt-3")}>
-            <Chars text={STATEMENT.lead} />
+            <ScrollFillText text={STATEMENT.lead} />
           </h2>
         </div>
       </div>
@@ -160,7 +161,7 @@ export function Statement() {
                         {panel.stat.label}
                       </p>
                       {"link" in panel && panel.link && (
-                        <CapsLink arrow href={panel.link.href}>
+                        <CapsLink light arrow href={panel.link.href}>
                           {panel.link.label}
                         </CapsLink>
                       )}
