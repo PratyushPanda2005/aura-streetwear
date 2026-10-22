@@ -3,14 +3,14 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 import { Diamonds } from "../../ekchitra-v5/Diamonds";
-import { CAPS, SANS } from "../../ekchitra-v5/shared";
+import { SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
 import { EXHIBITIONS } from "../data";
 import { GRID } from "../styles";
+import { CurrentPair } from "./CurrentShows";
 
 type Show = (typeof EXHIBITIONS)[number];
 
-const CURRENT = EXHIBITIONS.filter((show) => show.status === "Current");
 const PAST = EXHIBITIONS.filter((show) => show.status === "Past");
 
 /** The year a show ran, from its published dates; null when none is given. */
@@ -60,58 +60,7 @@ export function ExhibitionsRecord() {
       )}
     >
       {/* Now and upcoming. */}
-      <div className={cn(GRID, "gap-y-12")}>
-        <h2 className="col-span-4 flex items-baseline justify-between border-y border-(--k-ink) py-3 text-[15px] lg:col-span-12">
-          Now and upcoming
-          <span className="text-[13px] tabular-nums">
-            {pad(CURRENT.length)}
-          </span>
-        </h2>
-
-        {CURRENT.map((show) => (
-          <article
-            key={show.title}
-            className="col-span-4 flex flex-col lg:col-span-6"
-          >
-            <a
-              href={show.href}
-              target="_blank"
-              rel="noreferrer"
-              tabIndex={-1}
-              aria-hidden="true"
-              className="group relative block aspect-video overflow-hidden bg-(--k-ink)/5"
-            >
-              <Image
-                src={show.image}
-                alt=""
-                fill
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-              />
-            </a>
-            <p className={cn(CAPS, "mt-5 text-[12px]")}>
-              {/\d/.test(show.dates) ? "Upcoming" : "Now on"}
-            </p>
-            <h3 className="mt-2 text-[36px] leading-[1] tracking-[-0.045em] lg:text-[3.2vw]">
-              {show.title}
-            </h3>
-            <div className="mt-4 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
-              <p>{show.subtitle}</p>
-              <p>{show.dates || "Dates to be announced"}</p>
-            </div>
-            <a
-              href={show.href}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-6 flex h-12 w-full items-center justify-between bg-(--k-ink) px-5 text-[14px] text-white transition-colors duration-300 hover:bg-(--k-navy) sm:w-[300px]"
-            >
-              View exhibition
-              <span className="sr-only">: {show.title}</span>
-              <LineArrow />
-            </a>
-          </article>
-        ))}
-      </div>
+      <CurrentPair />
 
       {/* The archive. */}
       <div className={cn(GRID, "mt-16 lg:mt-24")}>

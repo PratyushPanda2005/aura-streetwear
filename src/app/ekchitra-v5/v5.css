@@ -392,3 +392,26 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
     animation: none;
   }
 }
+
+/* v6: a soft rise for text blocks, once, as they scroll into view. Its delay
+   is --rise-delay (falls back to the InView --delay). */
+.ek6-rise {
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+}
+[data-shown="true"] .ek6-rise {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 0.9s ease-out var(--rise-delay, var(--delay, 0ms)),
+    transform 1.1s cubic-bezier(0.22, 1, 0.36, 1)
+      var(--rise-delay, var(--delay, 0ms));
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-rise,
+  [data-shown="true"] .ek6-rise {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
