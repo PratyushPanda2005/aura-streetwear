@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 import { ARTISTS_PAGE } from "../../ekchitra-redesign/data";
 import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
-import { LineArrow, pad } from "../cta-variants/shared";
-import { GRID } from "../styles";
+import { pad } from "../cta-variants/shared";
+import { BUTTON, GRID, ITEM_TITLE, SECTION_TITLE } from "../styles";
 
 /** An artist's mediums, short and without repeats: "Acrylic", "Mixed Media". */
 const mediums = (artist: (typeof ARTISTS)[number]) =>
@@ -81,9 +81,7 @@ export function ArtistsIndex() {
                   <span className="text-[13px] tabular-nums">
                     {pad(index + 1)}
                   </span>
-                  <span className="text-[28px] leading-[1] tracking-[-0.04em] lg:text-[1.9vw]">
-                    {item.name}
-                  </span>
+                  <span className={ITEM_TITLE}>{item.name}</span>
                   <span className="text-[13px] tabular-nums">
                     {pad(item.works.length)}
                   </span>
@@ -145,10 +143,8 @@ export function ArtistsIndex() {
                   <p className="text-[13px] tabular-nums">
                     {pad(index + 1)} / {pad(ARTISTS.length)}
                   </p>
-                  <h2 className="mt-2 text-[34px] leading-[1] tracking-[-0.04em] lg:text-[2.6vw]">
-                    {artist.name}
-                  </h2>
-                  <p className={cn(CAPS, "mt-3 text-[10px]")}>
+                  <h2 className={cn(SECTION_TITLE, "mt-2")}>{artist.name}</h2>
+                  <p className={cn(CAPS, "mt-3 text-[11px]")}>
                     {mediums(artist).join(" · ")}
                   </p>
                   <p className="mt-4 line-clamp-5 text-[15px] leading-[1.45]">
@@ -183,10 +179,10 @@ export function ArtistsIndex() {
                     target="_blank"
                     rel="noreferrer"
                     tabIndex={on ? undefined : -1}
-                    className="mt-6 flex h-12 shrink-0 items-center justify-between bg-(--k-ink) px-5 text-[14px] text-white transition-colors duration-300 hover:bg-(--k-maroon) lg:mt-auto"
+                    className={cn(BUTTON, "mt-6 lg:mt-auto")}
                   >
                     {ARTISTS_PAGE.cardCta}
-                    <LineArrow />
+                    <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
@@ -211,7 +207,7 @@ function Preview({ artist }: { artist: (typeof ARTISTS)[number] }) {
         sizes="100vw"
         className="h-auto w-full"
       />
-      <p className={cn(CAPS, "mt-4 text-[10px]")}>
+      <p className={cn(CAPS, "mt-4 text-[11px]")}>
         {mediums(artist).join(" · ")}
       </p>
       <p className="mt-2 line-clamp-4 text-[15px] leading-[1.45]">
@@ -221,10 +217,10 @@ function Preview({ artist }: { artist: (typeof ARTISTS)[number] }) {
         href={artist.href}
         target="_blank"
         rel="noreferrer"
-        className="mt-5 flex h-12 items-center justify-between bg-(--k-ink) px-5 text-[14px] text-white"
+        className={cn(BUTTON, "mt-5")}
       >
         {ARTISTS_PAGE.cardCta}
-        <LineArrow />
+        <span aria-hidden="true">→</span>
       </a>
     </div>
   );

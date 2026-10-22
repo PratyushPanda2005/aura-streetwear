@@ -112,13 +112,7 @@ export function FooterSmoke() {
       </div>
 
       <div className="relative h-[320px] shrink-0 lg:h-[54%] [clip-path:polygon(0_56px,16%_56px,calc(16%+56px)_0,100%_0,100%_100%,0_100%)]">
-        <Image
-          src={SILK}
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
+        <Image src={SILK} alt="" fill sizes="100vw" className="object-cover" />
         <Diamonds
           rows={24}
           shape="clusters"

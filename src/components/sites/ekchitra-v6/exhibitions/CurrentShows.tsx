@@ -6,9 +6,9 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { CAPS } from "../../ekchitra-v5/shared";
-import { LineArrow, pad } from "../cta-variants/shared";
+import { pad } from "../cta-variants/shared";
 import { EXHIBITIONS } from "../data";
-import { GRID } from "../styles";
+import { BUTTON, GRID } from "../styles";
 
 /** The shows that are on now or coming next. */
 export const CURRENT = EXHIBITIONS.filter((show) => show.status === "Current");
@@ -50,17 +50,11 @@ export function ViewButton({
       href={show.href}
       target="_blank"
       rel="noreferrer"
-      className={cn(
-        "flex h-12 w-full shrink-0 items-center justify-between px-5 text-[14px] transition-colors duration-300 sm:w-[300px]",
-        light
-          ? "bg-white text-(--k-ink) hover:bg-(--k-sky)"
-          : "bg-(--k-ink) text-white hover:bg-(--k-navy)",
-        className,
-      )}
+      className={cn(BUTTON, light && "bg-white text-(--k-ink)", className)}
     >
       View exhibition
       <span className="sr-only">: {show.title}</span>
-      <LineArrow />
+      <span aria-hidden="true">→</span>
     </a>
   );
 }

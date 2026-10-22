@@ -20,6 +20,7 @@ export function PageFrame({
   title,
   intro,
   note,
+  hideHeading = false,
   children,
 }: {
   banner: { src: string; alt: string; position?: string };
@@ -28,6 +29,8 @@ export function PageFrame({
   intro: string;
   /** A short line under the intro, e.g. "15 artists represented". */
   note: string;
+  /** Keep the heading for screen readers only, so the page's own content follows the banner. */
+  hideHeading?: boolean;
   children: ReactNode;
 }) {
   return (
@@ -47,16 +50,20 @@ export function PageFrame({
         />
       </div>
 
-      <div className={cn(GRID, HEAD, "gap-y-6")}>
-        <div className="col-span-4 lg:col-span-7">
-          <p className={cn(CAPS, "text-[10px] text-(--k-ink)/70")}>{label}</p>
-          <h1 className={cn(TITLE, "mt-3")}>{title}</h1>
+      {hideHeading ? (
+        <h1 className="sr-only">{title}</h1>
+      ) : (
+        <div className={cn(GRID, HEAD, "gap-y-6")}>
+          <div className="col-span-4 lg:col-span-7">
+            <p className={cn(CAPS, "text-[12px]")}>{label}</p>
+            <h1 className={cn(TITLE, "mt-3")}>{title}</h1>
+          </div>
+          <div className="col-span-4 flex flex-col justify-end lg:col-span-4 lg:col-start-9">
+            <p className={cn(BODY, "text-(--k-ink)/80")}>{intro}</p>
+            <p className="mt-2 text-[13px] tabular-nums">{note}</p>
+          </div>
         </div>
-        <div className="col-span-4 flex flex-col justify-end lg:col-span-4 lg:col-start-9">
-          <p className={cn(BODY, "text-(--k-ink)/80")}>{intro}</p>
-          <p className="mt-2 text-[13px] tabular-nums">{note}</p>
-        </div>
-      </div>
+      )}
 
       {children}
       <FooterMark />

@@ -30,7 +30,10 @@ export function ScrollFillText({ text }: { text: string }) {
       const view = window.innerHeight;
       const start = view * 0.85;
       const end = view * 0.45 - rect.height;
-      const progress = Math.min(1, Math.max(0, (start - rect.top) / (start - end)));
+      const progress = Math.min(
+        1,
+        Math.max(0, (start - rect.top) / (start - end)),
+      );
       const filled = progress * chars.length;
       chars.forEach((char, index) => {
         const amount = Math.min(1, Math.max(0, filled - index));

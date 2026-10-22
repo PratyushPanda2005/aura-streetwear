@@ -43,10 +43,7 @@ export function CtaExpand() {
     <section
       id="services"
       aria-label="Services"
-      className={cn(
-        "scroll-mt-11 bg-white text-(--k-ink)",
-        SANS,
-      )}
+      className={cn("scroll-mt-11 bg-white text-(--k-ink)", SANS)}
     >
       <div className="flex flex-col bg-(--k-ink) lg:h-[86svh] lg:min-h-[620px] lg:flex-row">
         {CTA_SERVICES.map((service, index) => {

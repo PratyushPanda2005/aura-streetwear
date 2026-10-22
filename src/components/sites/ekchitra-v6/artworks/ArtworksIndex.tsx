@@ -9,7 +9,7 @@ import { ARTWORKS_PAGE } from "../../ekchitra-redesign/data";
 import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
-import { GRID } from "../styles";
+import { CARD_TITLE, GRID } from "../styles";
 
 /** Every work by every artist, in the artists' order. */
 const WORKS = ARTISTS.flatMap((artist) =>
@@ -59,13 +59,11 @@ function WorkCard({ work }: { work: Work }) {
         />
         <div className="mt-3 flex items-baseline justify-between gap-x-3 border-t border-(--k-ink)/15 pt-2.5">
           <span className="text-[12px] tabular-nums">{pad(n)}</span>
-          <span className={cn(CAPS, "line-clamp-1 text-right text-[10px]")}>
+          <span className={cn(CAPS, "line-clamp-1 text-right text-[11px]")}>
             {work.medium}
           </span>
         </div>
-        <h3 className="mt-2 text-[18px] leading-[1.15] tracking-[-0.02em] lg:text-[20px]">
-          {work.title}
-        </h3>
+        <h3 className={cn(CARD_TITLE, "mt-2")}>{work.title}</h3>
         <p className="mt-0.5 text-[14px]">{work.artist}</p>
         <div className="mt-2 flex items-center justify-between text-[13px]">
           <span>{work.size}</span>

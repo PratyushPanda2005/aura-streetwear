@@ -41,8 +41,7 @@ const PANELS = [
       tint: "sky",
       horizontal: false,
       rows: 24,
-      className:
-        "top-0 right-0 w-[64px] text-white/[0.14] lg:w-[88px]",
+      className: "top-0 right-0 w-[64px] text-white/[0.14] lg:w-[88px]",
     } as const,
     link: { label: "View all artists", href: V5_ROUTES.artists },
   },

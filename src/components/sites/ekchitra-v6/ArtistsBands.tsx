@@ -14,7 +14,7 @@ import {
 import { CapsLink } from "../ekchitra-v5/CapsLink";
 import { Chars } from "../ekchitra-v5/Chars";
 import { BODY, DISPLAY, SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
-import { GRID, HEAD } from "./styles";
+import { BUTTON, GRID, HEAD } from "./styles";
 import { Index } from "./ui";
 
 /** Artists shown on the homepage; the rest are a click away. */
@@ -31,20 +31,6 @@ const CARD =
 const BAND = "relative h-svh min-h-[640px] [clip-path:inset(0)]";
 
 const ROW = "grid grid-cols-[92px_1fr] gap-x-3 text-[13px] leading-[1.45]";
-
-/** A long arrow, drawn as a line. */
-function Arrow() {
-  return (
-    <svg viewBox="0 0 40 10" aria-hidden="true" className="h-2.5 w-10 shrink-0">
-      <path
-        d="M0 5h39M34 1l4.5 4-4.5 4"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1"
-      />
-    </svg>
-  );
-}
 
 /**
  * Artists, the v5 bands in the v6 grid: the "02 Artists" index and heading,
@@ -201,7 +187,10 @@ export function ArtistsBands() {
         <div className="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end">
           <a
             href={V5_ROUTES.artists}
-            className="group pointer-events-auto sticky bottom-0 flex h-12 w-[240px] items-center justify-between self-end bg-(--k-navy) px-4 text-[14px] text-white transition-colors duration-300 hover:bg-(--k-ink) lg:w-[280px] lg:px-5"
+            className={cn(
+              BUTTON,
+              "pointer-events-auto sticky bottom-0 w-[208px] self-end bg-(--k-navy)",
+            )}
           >
             {/* Two diamonds of the motif, corner to corner, in sky blue. */}
             <svg
@@ -212,9 +201,7 @@ export function ArtistsBands() {
               <path d="M12 0l4 4-4 4-4-4zM4 8l4 4-4 4-4-4z" />
             </svg>
             <span>View all artists</span>
-            <span className="transition-transform duration-300 group-hover:translate-x-1">
-              <Arrow />
-            </span>
+            <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>
