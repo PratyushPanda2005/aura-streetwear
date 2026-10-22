@@ -7,7 +7,7 @@ import {
   ARTIST_WORK_COUNT,
 } from "@/components/sites/ekchitra-v5/artists-data";
 import { ArtistsGrid } from "@/components/sites/ekchitra-v5/ArtistsGrid";
-import { Footer } from "@/components/sites/ekchitra-v5/Footer";
+import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
 import { Header } from "@/components/sites/ekchitra-v5/Header";
 import { PageHero } from "@/components/sites/ekchitra-v5/PageHero";
 
@@ -38,7 +38,7 @@ export default function EkchitraV5ArtistsPage() {
         note={`${ARTISTS.length} artists · ${ARTIST_WORK_COUNT} works`}
       />
       <ArtistsGrid />
-      <Footer />
+      <FooterMark />
     </main>
   );
 }

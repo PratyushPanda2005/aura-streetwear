@@ -21,10 +21,15 @@ const SLIDE_FILES = [
   "vernacular-house-2--kolipitchai-prabhakar.png",
 ];
 const SLIDES = [
-  { src: HERO_ART[0].src, alt: `${HERO_ART[0].title} by ${HERO_ART[0].artist}` },
+  {
+    src: HERO_ART[0].src,
+    alt: `${HERO_ART[0].title} by ${HERO_ART[0].artist}`,
+  },
   ...SLIDE_FILES.flatMap((file) => {
     const work = ARTWORKS.find((artwork) => artwork.image.endsWith(`/${file}`));
-    return work ? [{ src: work.image, alt: `${work.title} by ${work.artist}` }] : [];
+    return work
+      ? [{ src: work.image, alt: `${work.title} by ${work.artist}` }]
+      : [];
   }),
 ];
 

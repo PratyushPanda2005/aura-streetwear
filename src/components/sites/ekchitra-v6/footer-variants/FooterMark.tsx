@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 
+import { SANS } from "../../ekchitra-v5/shared";
 import { GRID } from "../styles";
 import { LogoStack } from "./LogoStack";
 import {
@@ -13,7 +14,7 @@ import {
 } from "./shared";
 
 /**
- * Variation 03 — after rejouice. Black. A short line set large on the left
+ * Variation 03 — after rejouice. Brand black. A short line set large on the left
  * with the contact and a newsletter field under it; the pages and socials
  * in two columns on the right, the place and copyright beneath them; and
  * the name in white across the full width at the bottom. `light` sets it in
@@ -25,10 +26,11 @@ export function FooterMark({ light = false }: { light?: boolean }) {
     <footer
       className={cn(
         SCREEN,
+        SANS,
         // The stacked name needs more than a screen, so the light footer grows.
         light
           ? "h-auto min-h-svh bg-white text-(--k-ink)"
-          : "bg-black text-white",
+          : "bg-(--k-ink) text-white",
       )}
     >
       <div className={cn(GRID, "gap-y-12 pt-14 lg:pt-16")}>
@@ -94,8 +96,8 @@ export function FooterMark({ light = false }: { light?: boolean }) {
       {light ? (
         <LogoStack className="mt-auto pt-24 lg:pt-32" />
       ) : (
-        <div className="mt-auto px-4 lg:px-5">
-          <Wordmark className="translate-y-[6%]" />
+        <div className="mt-auto px-4 pb-4 lg:px-5 lg:pb-5">
+          <Wordmark />
         </div>
       )}
     </footer>

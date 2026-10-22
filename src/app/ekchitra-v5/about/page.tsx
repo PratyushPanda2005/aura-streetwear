@@ -7,7 +7,7 @@ import { AboutCurator } from "@/components/sites/ekchitra-v5/AboutCurator";
 import { AboutGallery } from "@/components/sites/ekchitra-v5/AboutGallery";
 import { AboutStory } from "@/components/sites/ekchitra-v5/AboutStory";
 import { AboutValues } from "@/components/sites/ekchitra-v5/AboutValues";
-import { Footer } from "@/components/sites/ekchitra-v5/Footer";
+import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
 import { Header } from "@/components/sites/ekchitra-v5/Header";
 import { PageHero } from "@/components/sites/ekchitra-v5/PageHero";
 
@@ -33,7 +33,7 @@ export default function EkchitraV5AboutPage() {
       <AboutValues />
       <AboutCurator />
       <AboutExhibitions />
-      <Footer />
+      <FooterMark />
     </main>
   );
 }

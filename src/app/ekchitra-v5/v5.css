@@ -10,6 +10,30 @@
   --k-sky: #89cff0;
 }
 
+/*
+ * The page's own scrollbar in the brand colours: a maroon thumb on a sand
+ * track, darkening to brand black under the pointer. The page scrolls on
+ * <html>, outside the .ek5 wrapper, so it is scoped to pages that hold one.
+ */
+html:has(.ek5) {
+  scrollbar-color: #780000 #ece8e3;
+  scrollbar-width: thin;
+}
+html:has(.ek5)::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+html:has(.ek5)::-webkit-scrollbar-track {
+  background: #ece8e3;
+}
+html:has(.ek5)::-webkit-scrollbar-thumb {
+  background: #780000;
+  border: 2px solid #ece8e3;
+}
+html:has(.ek5)::-webkit-scrollbar-thumb:hover {
+  background: #191919;
+}
+
 .ek5 ::selection {
   background-color: var(--k-maroon);
   color: #ffffff;
@@ -350,5 +374,21 @@
     clip-path: none;
     transform: none;
     transition: none;
+  }
+}
+
+/* v6 artists index: the pinned preview fades up when the artist changes. */
+@keyframes ek6-preview-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+}
+.ek6-preview-in {
+  animation: ek6-preview-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-preview-in {
+    animation: none;
   }
 }

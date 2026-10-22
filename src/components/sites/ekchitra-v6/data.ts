@@ -12,8 +12,8 @@ export const V6_HOME = "/ekchitra-v6";
 export const V6_NAV = [
   { label: "About", href: V5_ROUTES.about },
   { label: "Exhibitions", href: V5_ROUTES.exhibitions },
-  { label: "Artists", href: V5_ROUTES.artists },
-  { label: "Artworks", href: V5_ROUTES.artworks },
+  { label: "Artists", href: `${V6_HOME}/artists` },
+  { label: "Artworks", href: `${V6_HOME}/artworks` },
   { label: "Services", href: `${V6_HOME}#services` },
 ];
 

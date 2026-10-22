@@ -62,19 +62,24 @@ export function GroupTitle({
 }
 
 /**
- * The name set as one line across the full width — a text wordmark standing
- * in for the logo. Sized in viewport units so it always spans the page.
+ * The name set as text the way the logo is drawn — "Ek" extra-bold and
+ * "Chitra" extra-light, both set tight — on one line across the full width between
+ * the gutters. The letters' ink, not their boxes, meets the margins: the "E"
+ * carries 0.069em of side bearing on its left, pulled back by the negative
+ * margin, and the ink from "E" to "a" measures 3.342em (the tracking runs
+ * past the last letter too), so the size is the width over 3.342.
  */
 export function Wordmark({ className }: { className?: string }) {
   return (
     <p
       aria-hidden="true"
       className={cn(
-        "text-[27.6vw] leading-[0.78] font-medium tracking-[-0.065em] whitespace-nowrap",
+        "-ml-[0.069em] text-[calc((100vw-32px)/3.342)] leading-[0.8] whitespace-nowrap lg:text-[calc((100vw-40px)/3.342)]",
         className,
       )}
     >
-      EkChitra
+      <span className="font-extrabold tracking-[-0.06em]">Ek</span>
+      <span className="font-extralight tracking-[-0.045em]">Chitra</span>
     </p>
   );
 }

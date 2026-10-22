@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SmoothScroll } from "@/components/sites/ekchitra-v3/SmoothScroll";
 import { EXHIBITIONS } from "@/components/sites/ekchitra-v5/exhibitions-data";
 import { ExhibitionsList } from "@/components/sites/ekchitra-v5/ExhibitionsList";
-import { Footer } from "@/components/sites/ekchitra-v5/Footer";
+import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
 import { Header } from "@/components/sites/ekchitra-v5/Header";
 import { PageHero } from "@/components/sites/ekchitra-v5/PageHero";
 
@@ -35,7 +35,7 @@ export default function EkchitraV5ExhibitionsPage() {
         note={`${EXHIBITIONS.length} exhibitions`}
       />
       <ExhibitionsList />
-      <Footer />
+      <FooterMark />
     </main>
   );
 }

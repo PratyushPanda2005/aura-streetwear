@@ -51,7 +51,7 @@ function Arrow() {
  * is a white panel, in black type, that stays put. At the top, what is
  * showing: its number set huge with its title, very large, directly under
  * it; a light run of the diamond motif in the open middle; and at the foot
- * a numbered index of the three with the current one bracketed and in black,
+ * a numbered index of the three, all in black, with the current one bracketed,
  * then a link to the show and its dates under a fine rule. When the next
  * block reaches the middle of the screen, the number and the title fade to
  * the next and the bracket moves down the index. Clicking a name scrolls to
@@ -269,10 +269,8 @@ export function ExhibitionsIndex() {
                       type="button"
                       onClick={() => goTo(index)}
                       className={cn(
-                        "grid grid-cols-[4.2em_1fr] text-left transition-colors duration-300",
-                        index === active
-                          ? "text-(--k-ink)"
-                          : "text-(--k-ink)/40 hover:text-(--k-ink)/70",
+                        "grid grid-cols-[4.2em_1fr] text-left text-(--k-ink) transition-opacity duration-300",
+                        index !== active && "hover:opacity-60",
                       )}
                     >
                       <span className="tabular-nums">
@@ -294,10 +292,7 @@ export function ExhibitionsIndex() {
               >
                 <span>
                   View exhibition
-                  <span className="text-(--k-ink)/45">
-                    {" "}
-                    · {show.dates || show.subtitle}
-                  </span>
+                  <span> · {show.dates || show.subtitle}</span>
                 </span>
                 <Arrow />
               </a>
