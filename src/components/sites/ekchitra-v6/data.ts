@@ -11,7 +11,7 @@ export const V6_HOME = "/ekchitra-v6";
 /** Links in the top bar and footer; pages still live in v5 for now. */
 export const V6_NAV = [
   { label: "About", href: V5_ROUTES.about },
-  { label: "Exhibitions", href: V5_ROUTES.exhibitions },
+  { label: "Exhibitions", href: `${V6_HOME}/exhibitions` },
   { label: "Artists", href: `${V6_HOME}/artists` },
   { label: "Artworks", href: `${V6_HOME}/artworks` },
   { label: "Services", href: `${V6_HOME}#services` },
