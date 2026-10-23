@@ -99,8 +99,8 @@ export const ABOUT_CURATOR = {
   ],
 };
 
-/** Posters for the moving strip: every show except the text-only Hyd Art 2026. */
-const POSTERS = EXHIBITIONS.filter((show) => show.title !== "Hyd Art 2026");
+/** Posters for the moving strip: every show except Where Light Rests, whose poster is still a placeholder. */
+const POSTERS = EXHIBITIONS.filter((show) => show.title !== "Where Light Rests");
 
 export const ABOUT_EXHIBITIONS = {
   statement: `${EXHIBITIONS.length} exhibitions, each curated by Annapurna M — from Shreekaram and Chitram to Living Temple and Hyd Art.`,

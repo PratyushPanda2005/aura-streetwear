@@ -31,13 +31,15 @@ export const EXHIBITIONS: Exhibition[] = [
     image: `${DIR}/living-temple-2026.jpg`,
     href: SITE,
   },
+  // Not yet on ekchitra.com: title and dates from the redesign brief, and a
+  // placeholder poster until the gallery supplies the real one.
   {
     status: "Current",
-    title: "Hyd Art 2026",
+    title: "Where Light Rests",
     subtitle: CURATOR,
-    dates: "December 3 – 4, 2026",
-    image: `${DIR}/hyd-art-2026.jpg`,
-    href: `${SITE}/hyd-art`,
+    dates: "December 5, 2026 – February 14, 2027",
+    image: `${DIR}/where-light-rests-placeholder.svg`,
+    href: SITE,
   },
   {
     status: "Past",

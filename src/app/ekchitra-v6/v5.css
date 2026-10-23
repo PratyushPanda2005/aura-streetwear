@@ -14,10 +14,15 @@
  * The page's own scrollbar in the brand colours: a maroon thumb on a sand
  * track, darkening to brand black under the pointer. The page scrolls on
  * <html>, outside the .ek5 wrapper, so it is scoped to pages that hold one.
+ * The thumb is a plain rectangle. Chrome ignores the ::-webkit-scrollbar rules
+ * (and draws a rounded thumb) once scrollbar-color is set, so the standard
+ * properties are kept for browsers without them, i.e. Firefox.
  */
-html:has(.ek5) {
-  scrollbar-color: #780000 #ece8e3;
-  scrollbar-width: thin;
+@supports not selector(::-webkit-scrollbar) {
+  html:has(.ek5) {
+    scrollbar-color: #780000 #ece8e3;
+    scrollbar-width: thin;
+  }
 }
 html:has(.ek5)::-webkit-scrollbar {
   width: 10px;
@@ -29,6 +34,7 @@ html:has(.ek5)::-webkit-scrollbar-track {
 html:has(.ek5)::-webkit-scrollbar-thumb {
   background: #780000;
   border: 2px solid #ece8e3;
+  border-radius: 0;
 }
 html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   background: #191919;

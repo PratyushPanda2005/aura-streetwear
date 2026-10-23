@@ -12,8 +12,12 @@ import { DriftPicture, EASE, useDrift } from "./motion";
 import { BUTTON, GRID, HEAD } from "./styles";
 import { Index } from "./ui";
 
-/** What is on now and next, then the latest from the archive: three in all. */
-const SHOWS = EXHIBITIONS.slice(0, 3);
+/**
+ * Three shows from the archive, picked by title for their posters: dark,
+ * full-bleed images that fill the card (no white grounds or logo strips).
+ */
+const HOME_SHOWS = ["Satirical Symphony", "Tree of Life", "Pause & Reflect"];
+const SHOWS = EXHIBITIONS.filter((show) => HOME_SHOWS.includes(show.title));
 
 /**
  * The colour each card's gradient rises in, taken in turn from the brand:

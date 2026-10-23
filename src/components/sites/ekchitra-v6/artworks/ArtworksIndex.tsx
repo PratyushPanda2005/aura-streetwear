@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type CSSProperties } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -10,6 +10,7 @@ import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
 import { CARD_TITLE, GRID } from "../styles";
+import { ARTWORK_SIZES } from "./sizes";
 
 /** Every work by every artist, in the artists' order. */
 const WORKS = ARTISTS.flatMap((artist) =>
@@ -22,27 +23,30 @@ const WORKS = ARTISTS.flatMap((artist) =>
 
 type Work = (typeof WORKS)[number];
 
-/** Deal the works into `count` columns in turn, so the rows read across. */
-const intoColumns = (works: Work[], count: number) =>
-  Array.from({ length: count }, (_, column) =>
-    works.filter((_, index) => index % count === column),
-  );
-
 /**
  * The artworks, after the v6 grid: a ruled bar with a search field, one-tap
- * medium filters and a count, then every work in columns — four on desktop,
- * two on a phone, dealt in turn so the rows read across — each shown at its
- * own proportions, never cropped. Under
- * each picture, between fine rules: its number, the title, the artist, the
- * medium and size, and a link to the artist that slides in on hover.
+ * medium filters and a count, then every work in justified rows: the works in
+ * a row share one height, each as wide as its own proportions make it, and
+ * the row fills the width exactly — never cropped.
+ * Under each picture, between fine rules: its number, the title, the artist,
+ * the medium and size, and a link to the artist that slides in on hover.
  */
 const workKey = (work: Work) => `${work.artist}-${work.title}-${work.image}`;
 
-/** One work: the picture at its own proportions, then its details. */
+/**
+ * One work: the picture, then its details wrapped to the picture's width.
+ * Its flex basis is its aspect ratio times the row height (--row-h, set on
+ * the list) and it grows in that same ratio, so every work in a row ends up
+ * one height and the row fills the width exactly.
+ */
 function WorkCard({ work }: { work: Work }) {
   const n = WORKS.indexOf(work) + 1;
+  const [width, height] = ARTWORK_SIZES[work.image] ?? [1, 1];
   return (
-    <li className="mb-10 lg:mb-12">
+    <li
+      style={{ "--ratio": width / height } as CSSProperties}
+      className="min-w-0 grow-(--ratio) basis-[calc(var(--ratio)*var(--row-h))]"
+    >
       <a
         href={work.href}
         target="_blank"
@@ -52,9 +56,9 @@ function WorkCard({ work }: { work: Work }) {
         <Image
           src={work.image}
           alt={`${work.title} by ${work.artist}`}
-          width={0}
-          height={0}
-          sizes="(min-width: 1024px) 25vw, 50vw"
+          width={width}
+          height={height}
+          sizes="(min-width: 1024px) 620px, 360px"
           className="h-auto w-full"
         />
         <div className="mt-3 flex items-baseline justify-between gap-x-3 border-t border-(--k-ink)/15 pt-2.5">
@@ -65,9 +69,9 @@ function WorkCard({ work }: { work: Work }) {
         </div>
         <h3 className={cn(CARD_TITLE, "mt-2")}>{work.title}</h3>
         <p className="mt-0.5 text-[14px]">{work.artist}</p>
-        <div className="mt-2 flex items-center justify-between text-[13px]">
-          <span>{work.size}</span>
-          <span className="hidden items-center gap-x-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100 lg:flex">
+        <div className="mt-2 flex items-center justify-between gap-x-3 text-[13px]">
+          <span className="lg:shrink-0 lg:whitespace-nowrap">{work.size}</span>
+          <span className="hidden min-w-0 items-center gap-x-2 overflow-hidden whitespace-nowrap opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100 lg:flex">
             {ARTWORKS_PAGE.cardCta}
             <LineArrow className="w-6" />
           </span>
@@ -164,28 +168,14 @@ export function ArtworksIndex({
         </div>
       </div>
 
-      {/* The works, each at its own proportions. */}
+      {/* The works in justified rows. The trailing ::after soaks up the
+          spare width in the last row so it stays at the base height. */}
       {results.length ? (
-        <>
-          {/* Four columns on desktop, two on a phone, each dealt in turn. */}
-          {([4, 2] as const).map((count) => (
-            <div
-              key={count}
-              className={cn(
-                "mt-8 gap-x-4 px-4 lg:mt-10 lg:gap-x-5 lg:px-5",
-                count === 4 ? "hidden lg:flex" : "flex lg:hidden",
-              )}
-            >
-              {intoColumns(results, count).map((column, c) => (
-                <ul key={c} className="min-w-0 flex-1">
-                  {column.map((work) => (
-                    <WorkCard key={workKey(work)} work={work} />
-                  ))}
-                </ul>
-              ))}
-            </div>
+        <ul className="mt-8 flex flex-wrap items-start gap-x-3 gap-y-8 px-4 [--row-h:120px] after:grow-[999] after:content-[''] lg:mt-10 lg:gap-x-4 lg:gap-y-10 lg:px-5 lg:[--row-h:240px]">
+          {results.map((work) => (
+            <WorkCard key={workKey(work)} work={work} />
           ))}
-        </>
+        </ul>
       ) : (
         <div className={cn(GRID, "mt-10")}>
           <p className="col-span-4 text-[17px] lg:col-span-6">
