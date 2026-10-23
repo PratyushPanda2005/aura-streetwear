@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
 import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
-import { ExhibitionsIndex } from "@/components/sites/ekchitra-v6/ExhibitionsIndex";
+import { ExhibitionsHome } from "@/components/sites/ekchitra-v6/ExhibitionsHome";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
 import { CtaExpand } from "@/components/sites/ekchitra-v6/cta-variants/CtaExpand";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
@@ -27,7 +27,7 @@ export default function EkchitraV6Page() {
       <TopBar />
       <Hero />
       <Statement />
-      <ExhibitionsIndex />
+      <ExhibitionsHome />
       <ArtistsBands />
       <CtaExpand />
       <FooterMark />

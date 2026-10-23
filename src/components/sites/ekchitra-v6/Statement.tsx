@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 
 import { CapsLink } from "../ekchitra-v5/CapsLink";
 import { Diamonds } from "../ekchitra-v5/Diamonds";
-import { SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
-import { STATEMENT, STATS } from "./data";
+import { SANS, TITLE } from "../ekchitra-v5/shared";
+import { STATEMENT, STATS, V6_HOME } from "./data";
 import { GRID, HEAD } from "./styles";
 import { ScrollFillText } from "./ScrollFillText";
 import { Index } from "./ui";
@@ -43,7 +43,7 @@ const PANELS = [
       rows: 24,
       className: "top-0 right-0 w-[64px] text-white/[0.14] lg:w-[88px]",
     } as const,
-    link: { label: "View all artists", href: V5_ROUTES.artists },
+    link: { label: "More about us", href: `${V6_HOME}/about` },
   },
 ];
 
@@ -61,8 +61,8 @@ const ease = (t: number) => 1 - (1 - t) * (1 - t);
  * left and two brand-coloured panels slide in beside it — maroon with the
  * number of exhibitions curated, brand black (with the diamond motif) with
  * the number of artists — their
- * figures rolling up with the scroll; the artists panel links to all the
- * artists. The pin releases straight into the next section.
+ * figures rolling up with the scroll; the artists panel links to the About
+ * page. The pin releases straight into the next section.
  */
 export function Statement() {
   const pin = useRef<HTMLDivElement>(null);

@@ -14,7 +14,7 @@ export const GRID =
  * Spacing around a section's label and heading — the same for every section,
  * so the gap before each "0N" label is always the same.
  */
-export const HEAD = "pt-12 pb-10 lg:pt-16 lg:pb-12";
+export const HEAD = "pt-8 pb-8 lg:pt-12 lg:pb-10";
 
 /** Vertical rhythm shared by every section. */
 export const SECTION = "py-20 lg:py-[120px]";

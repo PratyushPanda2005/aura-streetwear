@@ -415,3 +415,19 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
     transition: none;
   }
 }
+
+/* A card with its corners folded in, after the cards on knma.org: the four
+   corners clipped back 20px, so the rectangle reads as a chamfered octagon
+   (the angle of the diamond motif). */
+.ek6-fold {
+  clip-path: polygon(
+    20px 0,
+    calc(100% - 20px) 0,
+    100% 20px,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    20px 100%,
+    0 calc(100% - 20px),
+    0 20px
+  );
+}

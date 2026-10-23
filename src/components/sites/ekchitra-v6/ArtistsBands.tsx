@@ -95,7 +95,7 @@ export function ArtistsBands() {
     >
       <div className={cn(GRID, HEAD)}>
         <div className="col-span-4 lg:col-span-7">
-          <Index n={2} label={ARTISTS_SECTION.label} />
+          <Index n={3} label={ARTISTS_SECTION.label} />
           <h2 className={cn(TITLE, "mt-2 lg:mt-3")}>
             <Chars text="Discover EkChitra’s Artists" />
           </h2>
