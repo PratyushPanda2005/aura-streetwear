@@ -1,5 +1,5 @@
 import { DM_Sans } from "next/font/google";
-import "../ekchitra-v5/v5.css";
+import "./v5.css";
 
 // Same brand typeface and design tokens as v5: DM Sans, regular weight.
 const sans = DM_Sans({
