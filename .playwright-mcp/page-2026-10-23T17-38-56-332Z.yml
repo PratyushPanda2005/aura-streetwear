@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - paragraph [ref=e4]:
+        - generic [ref=e5]: pratik panda
+        - generic [aria-hidden] [ref=e6]: →
+        - generic [ref=e7]: I think first - as simple as that!
+      - navigation "Primary" [ref=e8]:
+        - link "works" [ref=e9] [cursor=pointer]:
+          - /url: "#works"
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "playground" [ref=e12] [cursor=pointer]:
+              - /url: "#playground"
+          - listitem [ref=e13]:
+            - link "story" [ref=e14] [cursor=pointer]:
+              - /url: "#story"
+          - listitem [ref=e15]:
+            - link "coffee?" [ref=e16] [cursor=pointer]:
+              - /url: "#coffee"
+    - main [ref=e17]:
+      - generic [ref=e19]:
+        - heading "human who loves to think first." [level=1] [ref=e20]
+        - paragraph [ref=e21]: Hey, I’m Pratik Panda, aka Panda. A designer who loves to play with symbols, obsess over design systems, and occasionally get lost in illustrations.
+      - region [ref=e22]:
+        - generic [ref=e23]:
+          - heading "Built at Verloop - Outreach Analytics - Desktop" [level=2] [ref=e24]
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: 34% better outreach outcomes - A powerful tool designed to provide comprehensive insights into your outreach efforts on Verloop.
+            - paragraph [ref=e27]: It offers a user-friendly interface with detailed analytics and easy-to-understand widgets, helping you track and analyse key performance metrics.
+            - paragraph [ref=e28]: The dashboard allows you to monitor every single aspect of your outreach campaigns. Filters helps you focus on the data most relevant, ensuring precise analysis.
+        - generic [ref=e29]:
+          - link "Read full case study" [ref=e30] [cursor=pointer]:
+            - /url: "#"
+          - generic [aria-hidden] [ref=e31]:
+            - generic [ref=e32]: →
+            - generic [ref=e34]: →
+            - generic [ref=e36]: →
+      - region "Works" [ref=e38]
+    - contentinfo [ref=e42]:
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link "LinkedIn" [ref=e45] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e46]:
+          - link "Behance" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e48]:
+          - link "Resume" [ref=e49] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e50]:
+          - link "Email" [ref=e51] [cursor=pointer]:
+            - /url: "#"
+      - paragraph [ref=e52]: Let’s meet at Bangalore, India
+  - button "Open Next.js Dev Tools" [ref=e58] [cursor=pointer]
+  - alert [ref=e62]
