@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Hanken_Grotesk, Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { HorizontalScroll } from "@/components/sites/pratik/HorizontalScroll";
+import { PinnedWorksLink } from "@/components/sites/pratik/PinnedWorksLink";
 
 export const metadata: Metadata = {
   title: "Pratik Panda — I think first",
@@ -59,17 +60,24 @@ export default function PratikPage() {
       )}
     >
       <header className="flex h-10 shrink-0 items-center justify-between bg-black px-4 md:px-10">
-        <p className={cn(label, "flex min-w-0 items-center gap-1")}>
-          <span className="font-medium text-[#f4f4f4]">pratik panda</span>
-          <span className="text-[#6f6f6f]" aria-hidden="true">
-            →
-          </span>
-          <span className="hidden truncate text-[#6f6f6f] sm:inline">I think first - as simple as that!</span>
-        </p>
-        <nav aria-label="Primary" className="flex items-center justify-between gap-4 md:w-[640px] md:pl-10">
-          <a href="#works" aria-current="page" className={cn(label, "text-[#f4f4f4]")}>
+        <div className="flex min-w-0 md:w-[720px] md:shrink-0">
+          <p className={cn(label, "flex min-w-0 items-center gap-1")}>
+            <span className="font-medium text-[#f4f4f4] opacity-[calc(1_-_var(--brand-fade,0)_*_0.4)]">pratik panda</span>
+            <span className="text-[#6f6f6f]" aria-hidden="true">
+              →
+            </span>
+            <span
+              id="pratik-tagline"
+              className="hidden truncate text-[#6f6f6f] opacity-[calc(1_-_var(--brand-fade,0))] sm:inline"
+            >
+              I think first - as simple as that!
+            </span>
+          </p>
+        </div>
+        <nav aria-label="Primary" className="flex items-center justify-between gap-4 md:flex-1 md:pl-10">
+          <PinnedWorksLink href="#works" stripId="works" taglineId="pratik-tagline" className={cn(label, "text-[#f4f4f4]")}>
             works
-          </a>
+          </PinnedWorksLink>
           <ul className="flex items-center gap-4">
             {navLinks.map((link) => (
               <li key={link.label} className="flex">
