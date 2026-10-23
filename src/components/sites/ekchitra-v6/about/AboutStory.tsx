@@ -11,7 +11,8 @@ import { ABOUT_CURATOR, ABOUT_STORY } from "../../ekchitra-v5/about-data";
 import { Diamonds } from "../../ekchitra-v5/Diamonds";
 import { InView } from "../../ekchitra-v5/InView";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
-import { CONTACT, V6_HOME } from "../data";
+import { V6_HOME } from "../data";
+import { handwriting, signature } from "../fonts";
 import { DriftPicture, useDrift } from "../motion";
 import { ExhibitionsBands } from "./ExhibitionsBands";
 import { BUTTON, GRID, SECTION_TITLE } from "../styles";
@@ -50,6 +51,30 @@ const COLLECTION = [
   },
 ];
 
+/**
+ * The curator's note, line by line, each indented a little differently as a
+ * hand would set it. PLACEHOLDER WORDING — taken from EkChitra's own published
+ * lines; confirm or replace with Annapurna M's own words before launch.
+ */
+const NOTE = [
+  { line: "We’ve always lived around art —", indent: "lg:pl-0" },
+  { line: "we’ve just forgotten to notice it.", indent: "lg:pl-[6%]" },
+  {
+    line: "Every exhibition here begins with an idea,",
+    indent: "lg:pl-[12%]",
+  },
+  { line: "and every visit with curiosity.", indent: "lg:pl-[4%]" },
+];
+
+/** Stagger for each line's write-in, then the signature's. */
+const WRITE_DELAYS = [
+  "[--write-delay:0ms]",
+  "[--write-delay:500ms]",
+  "[--write-delay:1000ms]",
+  "[--write-delay:1500ms]",
+  "[--write-delay:2100ms]",
+];
+
 /** A paragraph that rises in once, as it scrolls into view. */
 function Rise({
   delay = 0,
@@ -75,9 +100,10 @@ function Rise({
  * centred beside it; the exhibitions as full-screen poster bands with
  * frosted cards gliding over them; and the collection — two works stacked on
  * the left, the words centred beside them with a button to the artworks;
- * and the curator as one simple full-width card in brand navy — portrait, name, her line, a
- * paragraph and a button. Pictures drift gently as the page
- * scrolls; words rise in once; all held still for reduced motion.
+ * and the curator, after the handwritten note on velaaprivateisland.com: a few
+ * lines in a pen hand on sand, writing themselves in, signed by Annapurna M.
+ * Pictures drift gently as the page scrolls; words rise in once; all held
+ * still for reduced motion.
  */
 export function AboutStory() {
   const root = useRef<HTMLDivElement>(null);
@@ -187,44 +213,47 @@ export function AboutStory() {
         </div>
       </section>
 
-      {/* The curator, as one simple rectangular card. */}
+      {/* The curator, after Velaa's handwritten note: a few lines in a pen
+          hand on sand, writing themselves in, then her signature. */}
       <section
         aria-labelledby="curator-heading"
-        className={cn(GRID, "pb-20 lg:pb-32")}
+        className="bg-(--k-sand) py-20 text-(--k-ink) lg:py-36"
       >
-        <div className="col-span-4 grid grid-cols-1 bg-(--k-navy) text-white sm:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:col-span-12">
-          <div className="relative aspect-[4/5] overflow-hidden bg-(--k-ink)/5 sm:aspect-auto sm:min-h-[420px]">
-            <Image
-              src={ABOUT_CURATOR.image.src}
-              alt={ABOUT_CURATOR.image.alt}
-              fill
-              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 40vw, 100vw"
-              className="object-cover object-[50%_25%]"
-            />
-          </div>
-          <div className="flex flex-col p-5 lg:p-10">
-            <p className={cn(CAPS, "text-[12px]")}>About the curator</p>
-            <h2 id="curator-heading" className={cn(SECTION_TITLE, "mt-3")}>
-              {ABOUT_CURATOR.name}
-            </h2>
-            <p className="mt-2 text-[15px]">{ABOUT_CURATOR.role}</p>
-            <p className="mt-6 text-[19px] leading-[1.35] tracking-[-0.015em] lg:text-[21px]">
-              {ABOUT_CURATOR.lead}
-            </p>
-            <p className="mt-4 text-[16px] leading-[1.5]">
-              {ABOUT_CURATOR.body[0]}
-            </p>
-            <a
-              href={CONTACT.href}
-              target="_blank"
-              rel="noreferrer"
-              className={cn(BUTTON, "mt-8 bg-white text-(--k-ink) lg:mt-auto")}
-            >
-              Talk to the curator
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
-        </div>
+        <InView className="mx-auto max-w-[1100px] px-4 lg:px-5">
+          <h2 id="curator-heading" className={cn(CAPS, "text-center")}>
+            A note from our curator
+          </h2>
+          <figure className="mt-10 lg:mt-16">
+            <blockquote className={cn(handwriting.className, "-rotate-2")}>
+              <p className="space-y-2 text-[16px] leading-[1.9] min-[400px]:text-[17px] sm:text-[26px] lg:space-y-4 lg:text-[2.5vw] min-[1440px]:text-[36px]">
+                {NOTE.map(({ line, indent }, index) => (
+                  <span key={line} className={cn("block", indent)}>
+                    <span
+                      className={cn(
+                        "ek6-write -mx-[0.3em] inline-block px-[0.3em]",
+                        WRITE_DELAYS[index],
+                      )}
+                    >
+                      {line}
+                    </span>
+                  </span>
+                ))}
+              </p>
+            </blockquote>
+            <figcaption className="mt-8 flex flex-col items-end pr-[6%] lg:mt-12">
+              <span
+                className={cn(
+                  signature.className,
+                  "ek6-write -mx-[0.3em] inline-block -rotate-6 px-[0.3em] text-[64px] leading-none lg:text-[88px]",
+                  WRITE_DELAYS[NOTE.length],
+                )}
+              >
+                {ABOUT_CURATOR.name}
+              </span>
+              <span className={cn(CAPS, "mt-3")}>Curator, EkChitra</span>
+            </figcaption>
+          </figure>
+        </InView>
       </section>
 
       {/* A run of the diamond motif resting on the footer. */}

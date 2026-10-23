@@ -422,6 +422,26 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   }
 }
 
+/* Handwriting that writes itself in, after the note on velaaprivateisland.com:
+   each line is wiped open from the left once its block scrolls into view,
+   staggered by `--write-delay`. The element carries a little padding so the
+   pen's loops aren't clipped once it is fully shown. */
+.ek6-write {
+  clip-path: inset(0 100% 0 0);
+}
+[data-shown="true"] .ek6-write {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1.4s cubic-bezier(0.65, 0, 0.35, 1)
+    var(--write-delay, 0ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-write,
+  [data-shown="true"] .ek6-write {
+    clip-path: none;
+    transition: none;
+  }
+}
+
 /* A card with its corners folded in, after the cards on knma.org: the four
    corners clipped back 20px, so the rectangle reads as a chamfered octagon
    (the angle of the diamond motif). */
