@@ -1932,3 +1932,23 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ 
 [145114856ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
 [145115127ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
 [145115934ms] [LOG] [Fast Refresh] done in 917ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[145223765ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[145224347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[145232941ms] [LOG] [Fast Refresh] done in 8647ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[146080026ms] [ERROR] Failed to load resource: net::ERR_NETWORK_IO_SUSPENDED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartworks%2Funtitled-1--ashok-juttu.png&w=640&q=75:0
+[146080108ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartworks%2Fembrace-of-light--selvakumar.png&w=640&q=75:0
+[146080108ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartworks%2Fmeri-maa-ki-dua--rajesh-naik.png&w=640&q=75:0
+[146080108ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fexhibitions%2Fliving-temple-2026.jpg&w=128&q=75:0
+[146080108ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartists%2Fanupama-choudhary-1.jpg&w=640&q=75:0
+[146080117ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fartworks%2Fvernacular-house-2--kolipitchai-prabhakar.png&w=640&q=75:0
+[146080142ms] [ERROR] Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED @ http://localhost:3000/_next/image?url=%2Fsites%2Fekchitra-redesign%2Fexhibitions%2Fhyd-art-2026.jpg&w=640&q=75:0
+[146088212ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[146089515ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[146102037ms] [LOG] [Fast Refresh] done in 12133ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[147586307ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[147588696ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[147589312ms] [LOG] [Fast Refresh] done in 713ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[159375444ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[159376016ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[159376581ms] [LOG] [Fast Refresh] done in 668ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[159709567ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
