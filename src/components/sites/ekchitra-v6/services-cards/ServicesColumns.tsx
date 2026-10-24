@@ -5,7 +5,7 @@ import { BUTTON, GRID } from "../styles";
 import { CTA_SERVICES, Covers, INTRO, MUTED, pad, SCREEN } from "./shared";
 
 /**
- * 05 — Columns on sand: no pictures. The heading and line in columns 1–4,
+ * 05 — Columns: no pictures. The heading and line in columns 1–4,
  * then the two services in 5–8 and 9–12, each opening under a black rule
  * with its number, then the name, audience, line, what it covers and a
  * button — read across like a printed menu. Static.
@@ -14,7 +14,7 @@ export function ServicesColumns() {
   return (
     <section
       aria-label="Services"
-      className={cn("bg-(--k-sand) py-20 text-(--k-ink)", SCREEN, SANS)}
+      className={cn("bg-white py-20 text-(--k-ink)", SCREEN, SANS)}
     >
       <div className={cn(GRID, "gap-y-12")}>
         <div className="col-span-4">

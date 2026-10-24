@@ -42,7 +42,7 @@ export function ServicesSplitList() {
                   href={service.cta.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="block py-5 hover:bg-(--k-sand)"
+                  className="block py-5"
                 >
                   <span className="flex items-baseline justify-between gap-x-4">
                     <span className="text-[13px] tabular-nums">
