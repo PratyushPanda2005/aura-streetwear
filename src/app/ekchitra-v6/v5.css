@@ -442,6 +442,82 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   }
 }
 
+/* Services iterations: a hairline that draws itself across from the left, and
+   a picture unveiled upwards from its foot, once their block scrolls into
+   view (`--delay` staggers neighbours). */
+.ek6-line {
+  transform: scaleX(0);
+  transform-origin: left;
+}
+[data-shown="true"] .ek6-line {
+  transform: scaleX(1);
+  transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1) var(--delay, 0ms);
+}
+.ek6-unveil {
+  clip-path: inset(100% 0 0 0);
+}
+[data-shown="true"] .ek6-unveil {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 1.3s cubic-bezier(0.77, 0, 0.18, 1) var(--delay, 0ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-line,
+  [data-shown="true"] .ek6-line {
+    transform: none;
+    transition: none;
+  }
+  .ek6-unveil,
+  [data-shown="true"] .ek6-unveil {
+    clip-path: none;
+    transition: none;
+  }
+}
+
+/* A line of display type that slides up out of a mask once its block scrolls
+   into view, after the agenda on chandebootcamp.com (`--delay` staggers). */
+.ek6-mask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.04em;
+}
+.ek6-mask > span {
+  display: block;
+  transform: translate3d(0, 105%, 0);
+}
+[data-shown="true"] .ek6-mask > span {
+  transform: none;
+  transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1) var(--delay, 0ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-mask > span,
+  [data-shown="true"] .ek6-mask > span {
+    transform: none;
+    transition: none;
+  }
+}
+
+/* A row of type that runs on without end: the track holds the phrase twice
+   and slides left by half its width, then repeats. Pauses under the pointer;
+   held still for reduced motion. */
+@keyframes ek6-marquee {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.ek6-marquee {
+  animation: ek6-marquee var(--marquee-duration, 40s) linear infinite;
+  animation-direction: var(--marquee-direction, normal);
+}
+.group:hover .ek6-marquee,
+.group:focus-visible .ek6-marquee {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-marquee {
+    animation: none;
+  }
+}
+
 /* A card with its corners folded in, after the cards on knma.org: the four
    corners clipped back 20px, so the rectangle reads as a chamfered octagon
    (the angle of the diamond motif). */

@@ -6,29 +6,7 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
-import { CTA_SERVICES, LineArrow, pad } from "./shared";
-
-/**
- * TEMPORARY PLACEHOLDERS (Unsplash, free licence) — replace with EkChitra
- * photographs:
- * - Bespoke sourcing: an abstract painting in a living room, by Virender
- *   Singh (unsplash.com/photos/GybmMi0QZV4).
- * - Art advisory: a visitor studying a painting in a museum, by Lucrezia
- *   Carnelos (unsplash.com/photos/aUtrOFDViw0).
- * `position` keeps the painting in view as the panel narrows and widens.
- */
-const PHOTOS: Record<string, { src: string; alt: string; position: string }> = {
-  bespoke: {
-    src: "/sites/ekchitra-redesign/placeholders/cta-bespoke-unsplash-virender-singh.jpg",
-    alt: "An abstract painting hung above a chair in a living room",
-    position: "object-[30%_32%]",
-  },
-  advisory: {
-    src: "/sites/ekchitra-redesign/placeholders/cta-advisory-unsplash-lucrezia-carnelos.jpg",
-    alt: "A visitor standing before a painting in a gallery",
-    position: "object-[50%_55%]",
-  },
-};
+import { CTA_PHOTOS as PHOTOS, CTA_SERVICES, LineArrow, pad } from "./shared";
 
 /**
  * Variation 07 — expanding panels. Two picture panels share the width; the

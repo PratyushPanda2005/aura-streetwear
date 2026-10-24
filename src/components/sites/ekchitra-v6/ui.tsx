@@ -39,13 +39,30 @@ export function Label({
  * The section index that sits in columns 1–3 of every section: its number,
  * set a little larger, over its name in small capitals.
  */
-export function Index({ n, label }: { n: number; label: string }) {
+export function Index({
+  n,
+  label,
+  light = false,
+}: {
+  n: number;
+  label: string;
+  /** For dark sections: the name in translucent white. */
+  light?: boolean;
+}) {
   return (
     <div className="flex items-baseline gap-x-3 self-start">
       <span className="text-[13px] tabular-nums">
         {String(n).padStart(2, "0")}
       </span>
-      <span className={cn(CAPS, "text-[10px] text-(--k-ink)/60")}>{label}</span>
+      <span
+        className={cn(
+          CAPS,
+          "text-[10px]",
+          light ? "text-white/70" : "text-(--k-ink)/60",
+        )}
+      >
+        {label}
+      </span>
     </div>
   );
 }

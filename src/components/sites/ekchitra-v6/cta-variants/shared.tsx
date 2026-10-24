@@ -32,6 +32,31 @@ export const CTA_SERVICES = [
   },
 ];
 
+/**
+ * TEMPORARY PLACEHOLDERS (Unsplash, free licence) — replace with EkChitra
+ * photographs:
+ * - Bespoke sourcing: an abstract painting in a living room, by Virender
+ *   Singh (unsplash.com/photos/GybmMi0QZV4).
+ * - Art advisory: a visitor studying a painting in a museum, by Lucrezia
+ *   Carnelos (unsplash.com/photos/aUtrOFDViw0).
+ * `position` keeps the painting in view as frames change shape.
+ */
+export const CTA_PHOTOS: Record<
+  string,
+  { src: string; alt: string; position: string }
+> = {
+  bespoke: {
+    src: "/sites/ekchitra-redesign/placeholders/cta-bespoke-unsplash-virender-singh.jpg",
+    alt: "An abstract painting hung above a chair in a living room",
+    position: "object-[30%_32%]",
+  },
+  advisory: {
+    src: "/sites/ekchitra-redesign/placeholders/cta-advisory-unsplash-lucrezia-carnelos.jpg",
+    alt: "A visitor standing before a painting in a gallery",
+    position: "object-[50%_55%]",
+  },
+};
+
 export const INTRO = {
   title: SERVICES_INTRO.words.join(" "),
   body: SERVICES_INTRO.body,
@@ -53,7 +78,7 @@ export function SectionHead({
   return (
     <div className={cn(GRID, HEAD, className)}>
       <div className="col-span-4 lg:col-span-7">
-        <Index n={3} label="Services" />
+        <Index n={3} label="Services" light={light} />
         <h2 className={cn(TITLE, "mt-2 lg:mt-3", light && "text-white")}>
           <Chars text={INTRO.title} />
         </h2>
