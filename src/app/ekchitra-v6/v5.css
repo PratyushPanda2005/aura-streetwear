@@ -496,28 +496,6 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   }
 }
 
-/* A row of type that runs on without end: the track holds the phrase twice
-   and slides left by half its width, then repeats. Pauses under the pointer;
-   held still for reduced motion. */
-@keyframes ek6-marquee {
-  to {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-.ek6-marquee {
-  animation: ek6-marquee var(--marquee-duration, 40s) linear infinite;
-  animation-direction: var(--marquee-direction, normal);
-}
-.group:hover .ek6-marquee,
-.group:focus-visible .ek6-marquee {
-  animation-play-state: paused;
-}
-@media (prefers-reduced-motion: reduce) {
-  .ek6-marquee {
-    animation: none;
-  }
-}
-
 /* A card with its corners folded in, after the cards on knma.org: the four
    corners clipped back 20px, so the rectangle reads as a chamfered octagon
    (the angle of the diamond motif). */

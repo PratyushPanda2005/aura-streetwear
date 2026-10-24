@@ -92,8 +92,12 @@ export function ExIndexReel() {
   return (
     <section
       ref={section}
+      id="exhibitions"
       aria-label="Exhibitions"
-      className={cn("relative bg-(--k-ink) text-white lg:h-[280svh]", SANS)}
+      className={cn(
+        "relative scroll-mt-11 bg-(--k-ink) text-white lg:h-[280svh]",
+        SANS,
+      )}
     >
       {/* Desktop: the pinned reel, centred on the screen — the index split
           either side of the poster strip, the title beneath. */}

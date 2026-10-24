@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
-import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
+import { FooterPattern } from "@/components/sites/ekchitra-v6/footer-variants/FooterPattern";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
-import { ExhibitionsHome } from "@/components/sites/ekchitra-v6/ExhibitionsHome";
+import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
-import { CtaExpand } from "@/components/sites/ekchitra-v6/cta-variants/CtaExpand";
+import { CtaCard } from "@/components/sites/ekchitra-v6/cta-variants/CtaCard";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 
@@ -27,10 +27,10 @@ export default function EkchitraV6Page() {
       <TopBar />
       <Hero />
       <Statement />
-      <ExhibitionsHome />
+      <ExIndexReel />
       <ArtistsBands />
-      <CtaExpand />
-      <FooterMark />
+      <CtaCard />
+      <FooterPattern />
     </main>
   );
 }

@@ -1,9 +1,13 @@
+import Image from "next/image";
+
 import { cn } from "@/lib/utils";
 
+import { CTA_PHOTOS, CTA_SERVICES } from "../cta-variants/shared";
+
 /**
- * Shared bits for the services iterations: the two services, their photos,
- * the intro, the section head and v6's line arrow all come from the calls to
- * action (cta-variants/shared), so every iteration says the same thing.
+ * Shared bits for the static services iterations: the two services and their
+ * photos come from the calls to action (cta-variants/shared), so every
+ * iteration says the same thing. Nothing here moves.
  */
 export {
   CTA_PHOTOS,
@@ -11,18 +15,16 @@ export {
   INTRO,
   LineArrow,
   pad,
-  SectionHead,
 } from "../cta-variants/shared";
 
-/**
- * A text link underlined by a 1px rule that draws away to the right on hover
- * and back on leaving, as Goodman Gallery sets its contact links.
- */
-export const UNDERLINE =
-  "bg-linear-to-r from-current to-current bg-[length:100%_1px] bg-left-bottom bg-no-repeat pb-0.5 transition-[background-size] duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:bg-[length:0%_1px] hover:bg-[length:0%_1px]";
+export type Service = (typeof CTA_SERVICES)[number];
 
 /** The muted line under a card's name (its audience), at a legible contrast. */
 export const MUTED = "text-(--k-ink)/65";
+
+/** A plain text link, underlined. */
+export const TEXT_LINK =
+  "underline decoration-1 underline-offset-4 hover:no-underline";
 
 /** What a service covers, as a short run of lines. */
 export function Covers({
@@ -48,3 +50,35 @@ export function Covers({
     </ul>
   );
 }
+
+/** A service's photograph filling its frame (set the frame's size with `className`). */
+export function ServicePhoto({
+  service,
+  sizes,
+  className,
+}: {
+  service: Service;
+  sizes: string;
+  className?: string;
+}) {
+  const photo = CTA_PHOTOS[service.key];
+  return (
+    <div className={cn("relative overflow-hidden bg-(--k-ink)/5", className)}>
+      <Image
+        src={photo.src}
+        alt={photo.alt}
+        fill
+        sizes={sizes}
+        className={cn("object-cover", photo.position)}
+      />
+    </div>
+  );
+}
+
+/**
+ * Every iteration fits one screen on desktop: the section is as tall as the
+ * screen below the 44px top bar (never under 640px), and its content is
+ * centred in it; photographs flex to fill whatever height the words leave.
+ */
+export const SCREEN =
+  "lg:flex lg:h-[calc(100svh-44px)] lg:min-h-[640px] lg:flex-col lg:justify-center lg:py-12";
