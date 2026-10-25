@@ -43,9 +43,9 @@ export function ExList() {
         </div>
 
         <div className="col-span-4 flex flex-col lg:col-span-6">
-          <ol className="border-t border-(--k-ink)/15">
+          <ol className="">
             {SHOWS.map((show, index) => (
-              <li key={show.title} className="border-b border-(--k-ink)/15">
+              <li key={show.title} className="">
                 <a
                   href={show.href}
                   target="_blank"

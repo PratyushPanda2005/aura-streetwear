@@ -115,7 +115,7 @@ export function ExhibitionsNow() {
                 href={show.href}
                 target="_blank"
                 rel="noreferrer"
-                className="grid grid-cols-4 items-baseline gap-x-4 border-t border-(--k-ink)/15 py-5 transition-colors duration-300 hover:bg-(--k-ink) hover:text-white lg:grid-cols-12 lg:gap-x-5 lg:py-6"
+                className="grid grid-cols-4 items-baseline gap-x-4 py-5 transition-colors duration-300 hover:bg-(--k-ink) hover:text-white lg:grid-cols-12 lg:gap-x-5 lg:py-6"
               >
                 <span className="text-[13px] tabular-nums opacity-60 lg:col-span-2 lg:pl-2">
                   {year(show.dates)}

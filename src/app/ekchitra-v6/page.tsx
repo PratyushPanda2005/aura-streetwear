@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
-import { FooterPattern } from "@/components/sites/ekchitra-v6/footer-variants/FooterPattern";
+import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
-import { CtaCard } from "@/components/sites/ekchitra-v6/cta-variants/CtaCard";
+import { ServicesPanels } from "@/components/sites/ekchitra-v6/services-cards/ServicesPanels";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 
@@ -29,8 +29,12 @@ export default function EkchitraV6Page() {
       <Statement />
       <ExIndexReel />
       <ArtistsBands />
-      <CtaCard />
-      <FooterPattern />
+      {/* Services: iteration 07 (three panels) for now. The wrapper keeps
+          the top bar's "Services" link landing here. */}
+      <div id="services" className="scroll-mt-11">
+        <ServicesPanels />
+      </div>
+      <FooterLedger />
     </main>
   );
 }

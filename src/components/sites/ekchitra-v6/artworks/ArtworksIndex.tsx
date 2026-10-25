@@ -61,7 +61,7 @@ function WorkCard({ work }: { work: Work }) {
           sizes="(min-width: 1024px) 620px, 360px"
           className="h-auto w-full"
         />
-        <div className="mt-3 flex items-baseline justify-between gap-x-3 border-t border-(--k-ink)/15 pt-2.5">
+        <div className="mt-3 flex items-baseline justify-between gap-x-3 pt-2.5">
           <span className="text-[12px] tabular-nums">{pad(n)}</span>
           <span className={cn(CAPS, "line-clamp-1 text-right text-[11px]")}>
             {work.medium}
@@ -108,8 +108,8 @@ export function ArtworksIndex({
     >
       {/* Search, filters and count, between two rules. */}
       <div className={GRID}>
-        <div className="col-span-4 flex flex-col gap-y-4 border-y border-(--k-ink) py-3 lg:col-span-12 lg:flex-row lg:items-center lg:gap-x-8">
-          <label className="flex h-10 w-full shrink-0 items-center gap-x-3 border-b border-(--k-ink)/30 lg:w-[320px] lg:border-b-0">
+        <div className="col-span-4 flex flex-col gap-y-4 py-3 lg:col-span-12 lg:flex-row lg:items-center lg:gap-x-8">
+          <label className="flex h-10 w-full shrink-0 items-center gap-x-3 lg:w-[320px]">
             <svg
               viewBox="0 0 16 16"
               aria-hidden="true"
@@ -147,9 +147,7 @@ export function ArtworksIndex({
                     aria-pressed={on}
                     className={cn(
                       "h-8 border px-3 text-[13px] transition-colors duration-300",
-                      on
-                        ? "border-(--k-ink) bg-(--k-ink) text-white"
-                        : "border-(--k-ink)/20 hover:border-(--k-ink)",
+                      on ? "bg-(--k-ink) text-white" : "",
                     )}
                   >
                     {chip}

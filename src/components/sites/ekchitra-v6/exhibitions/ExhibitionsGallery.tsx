@@ -122,12 +122,7 @@ export function ExhibitionsGallery() {
 
       {/* Past exhibitions: a compact two-column grid with year filters. */}
       <section aria-labelledby="past-heading" className="pb-16 lg:pb-24">
-        <div
-          className={cn(
-            GRID,
-            "items-baseline gap-y-3 border-t border-(--k-ink) pt-4 pb-8 lg:pb-10",
-          )}
-        >
+        <div className={cn(GRID, "items-baseline gap-y-3 pt-4 pb-8 lg:pb-10")}>
           <h2
             id="past-heading"
             className="col-span-4 text-[15px] lg:col-span-6"
@@ -186,10 +181,6 @@ export function ExhibitionsGallery() {
                       "object-cover transition-[scale] duration-[750ms] group-hover:scale-[1.04] motion-reduce:transition-none",
                       EASE,
                     )}
-                  />
-                  <span
-                    aria-hidden="true"
-                    className="pointer-events-none absolute inset-0 ring-1 ring-(--k-ink)/10 ring-inset"
                   />
                 </span>
                 <span className="col-span-3">

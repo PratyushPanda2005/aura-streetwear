@@ -130,10 +130,6 @@ export function ExAgendaPanels() {
           className="relative scroll-mt-11"
         >
           <InView>
-            <div className="px-4 lg:px-5">
-              <div className="ek6-line h-px bg-(--k-ink)/20" />
-            </div>
-
             <div className="relative px-4 py-14 lg:px-5 lg:py-20">
               {/* Phone: the number, year and status as a row. */}
               <p className="mb-8 flex justify-between text-[13px] tabular-nums lg:hidden">
@@ -154,9 +150,7 @@ export function ExAgendaPanels() {
                         aria-current={n === index ? "true" : undefined}
                         className={cn(
                           "flex h-8 items-center border px-3 text-[13px] tabular-nums transition-colors duration-300",
-                          n === index
-                            ? "border-(--k-ink) bg-(--k-ink) text-white"
-                            : "border-(--k-ink)/20 hover:border-(--k-ink)",
+                          n === index ? "bg-(--k-ink) text-white" : "",
                         )}
                       >
                         {pad(n + 1)}
@@ -237,9 +231,6 @@ export function ExAgendaPanels() {
           </InView>
         </section>
       ))}
-      <div className="px-4 lg:px-5">
-        <div className="h-px bg-(--k-ink)/20" />
-      </div>
     </div>
   );
 }

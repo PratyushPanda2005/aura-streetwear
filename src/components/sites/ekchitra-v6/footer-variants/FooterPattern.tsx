@@ -157,7 +157,7 @@ export function FooterPattern() {
         {/* Links, then the last line. */}
         <div className="flex flex-col lg:col-span-6">
           {/* Social links and the site index. */}
-          <div className="grid grid-cols-1 border-t border-(--k-sand)/15 flex-1 sm:grid-cols-2">
+          <div className="grid grid-cols-1 flex-1 sm:grid-cols-2">
             <div className="flex flex-col gap-y-4 px-4 py-6 lg:px-5">
               <Bracket>Social</Bracket>
               <ul className="space-y-1.5 text-[14px]">
@@ -175,7 +175,7 @@ export function FooterPattern() {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col gap-y-4 border-(--k-sand)/15 px-4 py-6 sm:border-l lg:px-5">
+            <div className="flex flex-col gap-y-4 px-4 py-6 lg:px-5">
               <div className="flex items-baseline justify-between gap-x-4">
                 <Bracket>Site index</Bracket>
                 <a
@@ -205,7 +205,7 @@ export function FooterPattern() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2 border-t border-(--k-sand)/15 px-4 py-5 sm:flex-row sm:items-end sm:justify-between lg:px-5">
+          <div className="flex flex-col gap-2 px-4 py-5 sm:flex-row sm:items-end sm:justify-between lg:px-5">
             <Bracket>{FOOTER.copyright}. All rights reserved</Bracket>
           </div>
         </div>

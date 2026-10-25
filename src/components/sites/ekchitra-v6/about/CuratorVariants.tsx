@@ -186,7 +186,7 @@ export function CuratorDark() {
               <p key={line}>{line}</p>
             ))}
           </div>
-          <dl className="mt-10 grid grid-cols-3 border-t border-white/30 pt-5">
+          <dl className="mt-10 grid grid-cols-3 pt-5">
             {FACTS.map((fact) => (
               <div key={fact.label}>
                 <dt className="sr-only">{fact.label}</dt>
@@ -217,11 +217,11 @@ export function CuratorSheet() {
       <div className={cn(GRID, "items-start gap-y-10")}>
         <div className="col-span-4 lg:col-span-7">
           <p className={cn(CAPS, "text-[12px]")}>About the curator</p>
-          <dl className="mt-6 border-t-2 border-(--k-ink)">
+          <dl className="mt-6">
             {rows.map(([k, v]) => (
               <div
                 key={k}
-                className="grid grid-cols-[8rem_1fr] gap-x-5 border-b border-(--k-ink)/15 py-3 lg:grid-cols-[12rem_1fr]"
+                className="grid grid-cols-[8rem_1fr] gap-x-5 py-3 lg:grid-cols-[12rem_1fr]"
               >
                 <dt className={cn(CAPS, "pt-1 text-[11px]")}>{k}</dt>
                 <dd className="text-[20px] leading-[1.25] tracking-[-0.015em] lg:text-[24px]">
@@ -285,7 +285,7 @@ export function CuratorShows() {
           </a>
         </div>
         <div className="col-span-4 lg:col-span-5 lg:col-start-8">
-          <p className="flex items-baseline justify-between border-y border-(--k-ink) py-3 text-[15px]">
+          <p className="flex items-baseline justify-between py-3 text-[15px]">
             Curated by {C.name}
             <span className="text-[13px] tabular-nums">
               {pad(EXHIBITIONS.length)}
@@ -295,7 +295,7 @@ export function CuratorShows() {
             {EXHIBITIONS.map((show, i) => (
               <li
                 key={show.title}
-                className="grid grid-cols-[2.5rem_1fr_auto] items-baseline gap-x-3 border-b border-(--k-ink)/15 py-2.5 text-[15px]"
+                className="grid grid-cols-[2.5rem_1fr_auto] items-baseline gap-x-3 py-2.5 text-[15px]"
               >
                 <span className="text-[12px] tabular-nums">{pad(i + 1)}</span>
                 <a

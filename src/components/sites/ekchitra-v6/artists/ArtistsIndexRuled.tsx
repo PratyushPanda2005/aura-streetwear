@@ -79,19 +79,15 @@ export function ArtistsIndexRuled() {
   return (
     <section
       aria-label="Artists"
-      className={cn("border-y border-(--k-ink) bg-white text-(--k-ink)", SANS)}
+      className={cn("bg-white text-(--k-ink)", SANS)}
     >
       <div className="grid grid-cols-1 items-start lg:grid-cols-12">
         {/* The names. */}
-        <ol className="lg:col-span-4 lg:border-r lg:border-(--k-ink)">
+        <ol className="lg:col-span-4">
           {ARTISTS.map((item, index) => {
             const on = index === active;
             return (
-              <li
-                key={item.id}
-                id={item.id}
-                className="border-b border-(--k-ink) last:border-b-0"
-              >
+              <li key={item.id} id={item.id} className="">
                 <button
                   type="button"
                   onMouseEnter={() => choose(index, 140)}
@@ -148,7 +144,7 @@ export function ArtistsIndexRuled() {
               >
                 <div
                   className={cn(
-                    "col-span-4 flex items-center justify-center overflow-hidden border-r border-(--k-ink) p-5",
+                    "col-span-4 flex items-center justify-center overflow-hidden p-5",
                     GREY,
                   )}
                 >
@@ -189,7 +185,7 @@ export function ArtistsIndexRuled() {
                     {artist.statement}
                   </p>
 
-                  <div className="mt-5 border-t border-(--k-ink)/25 pt-3">
+                  <div className="mt-5 pt-3">
                     <p className={cn(CAPS, "text-[10px]")}>{lead.title}</p>
                     <p className={cn(CAPS, "mt-1 text-[10px] opacity-70")}>
                       {lead.medium} · {lead.size}
@@ -237,7 +233,7 @@ export function ArtistsIndexRuled() {
 function Preview({ artist }: { artist: (typeof ARTISTS)[number] }) {
   const lead = artist.works[0];
   return (
-    <div className="border-t border-(--k-ink)">
+    <div className="">
       <div className={cn("flex justify-center p-4", GREY)}>
         <Image
           src={lead.image}
@@ -248,7 +244,7 @@ function Preview({ artist }: { artist: (typeof ARTISTS)[number] }) {
           className="h-auto max-h-[60svh] w-auto max-w-full"
         />
       </div>
-      <div className="border-t border-(--k-ink) bg-(--k-sky) p-4">
+      <div className="bg-(--k-sky) p-4">
         <Tags artist={artist} />
         <p className="mt-3 line-clamp-5 text-[15px] leading-[1.4]">
           {artist.statement}

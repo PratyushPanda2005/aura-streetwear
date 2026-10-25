@@ -82,7 +82,7 @@ export function FooterSmoke() {
             Openings, new artists and the occasional studio visit — a few times
             a year.
           </p>
-          <div className="mt-4 flex items-center border-b border-(--k-ink)">
+          <div className="mt-4 flex items-center">
             <input
               id="ek6-f5-email"
               type="email"

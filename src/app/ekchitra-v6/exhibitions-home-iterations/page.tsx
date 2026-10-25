@@ -10,6 +10,7 @@ import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExI
 import { ExLedgerRows } from "@/components/sites/ekchitra-v6/exhibitions-home/ExLedgerRows";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
+import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
 
 export const metadata: Metadata = {
   title: "Exhibitions — iterations",
@@ -66,6 +67,7 @@ export default function ExhibitionsHomeIterationsPage() {
           {variation.body}
         </section>
       ))}
+      <FooterLedger />
     </main>
   );
 }

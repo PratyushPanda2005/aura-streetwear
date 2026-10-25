@@ -10,6 +10,7 @@ import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { pad } from "../cta-variants/shared";
 import { BUTTON, GRID, ITEM_TITLE, SECTION_TITLE } from "../styles";
+import { artistPath } from "./paths";
 
 /** An artist's mediums, short and without repeats: "Acrylic", "Mixed Media". */
 const mediums = (artist: (typeof ARTISTS)[number]) =>
@@ -53,15 +54,11 @@ export function ArtistsIndex() {
     >
       <div className={cn(GRID, "items-start")}>
         {/* The names. */}
-        <ol className="col-span-4 border-t border-(--k-ink) lg:col-span-4">
+        <ol className="col-span-4 lg:col-span-4">
           {ARTISTS.map((item, index) => {
             const on = index === active;
             return (
-              <li
-                key={item.id}
-                id={item.id}
-                className="border-b border-(--k-ink)/15"
-              >
+              <li key={item.id} id={item.id} className="">
                 <button
                   type="button"
                   onMouseEnter={() => choose(index, 140)}
@@ -126,7 +123,8 @@ export function ArtistsIndex() {
                     height={0}
                     sizes="30vw"
                     className={cn(
-                      "h-auto max-h-full w-auto max-w-full transition-[translate,scale] duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none",
+                      // Multiply blends a photo's own white ground into the panel's grey.
+                      "h-auto max-h-full w-auto max-w-full mix-blend-multiply transition-[translate,scale] duration-[900ms] ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none",
                       on
                         ? "translate-y-0 scale-100"
                         : "translate-y-3 scale-[0.98]",
@@ -136,7 +134,7 @@ export function ArtistsIndex() {
 
                 <div
                   className={cn(
-                    "col-span-4 flex flex-col border-t border-(--k-ink) pt-4 transition-[translate] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none",
+                    "col-span-4 flex flex-col pt-4 transition-[translate] duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none",
                     on ? "translate-y-0" : "translate-y-2",
                   )}
                 >
@@ -151,7 +149,7 @@ export function ArtistsIndex() {
                     {artist.statement}
                   </p>
 
-                  <div className="mt-5 border-t border-(--k-ink)/15 pt-3 text-[13px]">
+                  <div className="mt-5 pt-3 text-[13px]">
                     <p>{lead.title}</p>
                     <p>{lead.size}</p>
                   </div>
@@ -175,9 +173,7 @@ export function ArtistsIndex() {
                   )}
 
                   <a
-                    href={artist.href}
-                    target="_blank"
-                    rel="noreferrer"
+                    href={artistPath(artist)}
                     tabIndex={on ? undefined : -1}
                     className={cn(BUTTON, "mt-6 lg:mt-auto")}
                   >
@@ -213,12 +209,7 @@ function Preview({ artist }: { artist: (typeof ARTISTS)[number] }) {
       <p className="mt-2 line-clamp-4 text-[15px] leading-[1.45]">
         {artist.statement}
       </p>
-      <a
-        href={artist.href}
-        target="_blank"
-        rel="noreferrer"
-        className={cn(BUTTON, "mt-5")}
-      >
+      <a href={artistPath(artist)} className={cn(BUTTON, "mt-5")}>
         {ARTISTS_PAGE.cardCta}
         <span aria-hidden="true">→</span>
       </a>

@@ -16,16 +16,20 @@ import {
   type Service,
 } from "./shared";
 
-/** The peeking photograph's size (px), and how quickly it catches the pointer. */
-const PEEK = { w: 240, h: 160 };
-const FOLLOW = 0.12;
+/**
+ * The peeking photograph's size (px), how far it may drift from its resting
+ * place towards the pointer (px), and how quickly it eases there.
+ */
+const PEEK = { w: 180, h: 120 };
+const DRIFT = 12;
+const FOLLOW = 0.1;
 
 /**
- * A table row that, on desktop, shows a small photograph of its service
- * under the pointer while it is hovered. The photograph eases smoothly after
- * the pointer with no hard edge — it may drift past the row's hairlines — and
- * fades out once the pointer leaves the row. For reduced motion it simply
- * appears where the pointer entered.
+ * A table row that, on desktop, shows a small photograph of its service while
+ * it is hovered. The photograph rests in one place — in the empty space under
+ * the service's name — and only drifts slightly (up to DRIFT px) towards the
+ * pointer, easing there; it fades out once the pointer leaves the row. Held
+ * still for reduced motion.
  */
 function PeekRow({
   service,
@@ -63,17 +67,34 @@ function PeekRow({
           ? requestAnimationFrame(tick)
           : 0;
     };
-    // Centre the photo on the pointer; nothing clips it.
+    // Resting place: just under the service's name, aligned with it; then a
+    // small pull towards the pointer.
+    const title = el.querySelector("h3");
+    const rest = () => {
+      const rect = el.getBoundingClientRect();
+      const t = title?.getBoundingClientRect();
+      return t
+        ? { x: t.left - rect.left, y: t.bottom - rect.top + 14 }
+        : { x: 0, y: (rect.height - PEEK.h) / 2 };
+    };
     const aim = (event: PointerEvent) => {
       const rect = el.getBoundingClientRect();
-      target.x = event.clientX - rect.left - PEEK.w / 2;
-      target.y = event.clientY - rect.top - PEEK.h / 2;
+      const home = rest();
+      const dx =
+        (event.clientX - rect.left - (home.x + PEEK.w / 2)) / rect.width;
+      const dy = (event.clientY - rect.top - rect.height / 2) / rect.height;
+      const clamp = (v: number) => Math.max(-1, Math.min(1, v * 2));
+      target.x = home.x + clamp(dx) * DRIFT;
+      target.y = home.y + clamp(dy) * DRIFT;
     };
     const onEnter = (event: PointerEvent) => {
-      aim(event);
-      pos.x = target.x;
-      pos.y = target.y;
+      const home = rest();
+      pos.x = home.x;
+      pos.y = home.y;
       place();
+      if (reduce) return;
+      aim(event);
+      if (!frame) frame = requestAnimationFrame(tick);
     };
     const onMove = (event: PointerEvent) => {
       if (reduce) return;
@@ -102,7 +123,7 @@ function PeekRow({
         ref={peek}
         aria-hidden="true"
         className={cn(
-          "pointer-events-none absolute top-0 left-0 z-10 hidden h-[160px] w-[240px] lg:block",
+          "pointer-events-none absolute top-0 left-0 z-10 hidden h-[120px] w-[180px] lg:block",
         )}
       >
         {/* Size matches PEEK; it fades and scales in on hover. */}
@@ -116,7 +137,7 @@ function PeekRow({
             src={photo.src}
             alt=""
             fill
-            sizes="240px"
+            sizes="180px"
             className={cn("object-cover", photo.position)}
           />
         </div>
@@ -131,8 +152,9 @@ const COLS = "grid grid-cols-4 gap-x-4 lg:grid-cols-12 lg:gap-x-5";
 /**
  * 02 — Table: no pictures, the two services as rows of a ruled spec sheet on
  * the grid — number, name, who it's for, what it is, what it covers and the
- * way in, under a header row of small capitals. Hovering a row brings a
- * small photograph of the service under the pointer, kept inside the row.
+ * way in, under a header row of small capitals. Hovering a row brings in a
+ * small photograph of the service, resting in one place and drifting only
+ * slightly with the pointer.
  */
 export function ServicesTable() {
   return (
@@ -140,14 +162,7 @@ export function ServicesTable() {
       aria-label="Services"
       className={cn("bg-white px-4 py-20 text-(--k-ink) lg:px-5", SCREEN, SANS)}
     >
-      <div
-        className={cn(
-          COLS,
-          CAPS,
-          "hidden border-b border-(--k-ink) pb-3 text-[11px] lg:grid",
-          MUTED,
-        )}
-      >
+      <div className={cn(COLS, CAPS, "hidden pb-3 text-[11px] lg:grid", MUTED)}>
         <span className="col-span-1">No.</span>
         <span className="col-span-3">Service</span>
         <span className="col-span-2">For</span>
@@ -158,10 +173,7 @@ export function ServicesTable() {
         <PeekRow
           key={service.key}
           service={service}
-          className={cn(
-            COLS,
-            "items-baseline gap-y-3 border-b border-(--k-ink)/20 py-8 first:border-t first:border-(--k-ink) lg:first:border-t-0 lg:py-10",
-          )}
+          className={cn(COLS, "items-baseline gap-y-3 py-8 lg:py-10")}
         >
           <span className="col-span-1 text-[13px] tabular-nums">
             {pad(index + 1)}

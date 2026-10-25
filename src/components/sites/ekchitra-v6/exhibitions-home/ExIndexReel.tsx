@@ -16,13 +16,13 @@ import { ALL_HREF, SHOWS, VENUE, pad, statusOf, yearOf } from "./shared";
 const EASING = 0.12;
 
 /**
- * 04 — Index reel, after the pinned work index on east64films.com: on brand
- * black the section holds the screen while it scrolls, the whole composition
+ * 04 — Index reel, after the pinned work index on east64films.com: on white
+ * the section holds the screen while it scrolls, the whole composition
  * centred on it. The posters run in a vertical strip at the centre; the
  * numbered index is split either side — title and number set against the
  * poster's left edge, curator, status and year from its right — sliding up
  * as you scroll so the current show sits on the poster's centre line in
- * white while the rest fade with distance. Under the posters the current
+ * full ink while the rest fade with distance. Under the posters the current
  * title is set large and centred. Rows link to their shows. Below `lg`, a
  * plain list.
  */
@@ -95,7 +95,7 @@ export function ExIndexReel() {
       id="exhibitions"
       aria-label="Exhibitions"
       className={cn(
-        "relative scroll-mt-11 bg-(--k-ink) text-white lg:h-[280svh]",
+        "relative scroll-mt-11 bg-white text-(--k-ink) lg:h-[280svh]",
         SANS,
       )}
     >
@@ -103,9 +103,9 @@ export function ExIndexReel() {
           either side of the poster strip, the title beneath. */}
       <div
         ref={stage}
-        className="sticky top-0 hidden h-svh flex-col items-center justify-center overflow-hidden [--img-h:calc(40vw*10/16)] [--p:0] lg:flex"
+        className="sticky top-0 hidden h-svh flex-col items-center justify-center overflow-hidden [--img-w:min(54vw,calc((100svh-230px)*1.6))] [--img-h:calc(var(--img-w)*10/16)] [--p:0] lg:flex"
       >
-        <div className="grid w-full grid-cols-[minmax(0,1fr)_40vw_minmax(0,1fr)] items-center gap-x-10 px-5">
+        <div className="grid w-full grid-cols-[minmax(0,1fr)_var(--img-w)_minmax(0,1fr)] items-center gap-x-8 px-5">
           {/* Left: marker, title and number, set against the poster's edge. */}
           <div className="relative h-(--img-h)">
             <ol className="absolute inset-x-0 top-[calc(50%-15px)] translate-y-[calc(var(--p)*-30px)] will-change-transform">
@@ -118,12 +118,12 @@ export function ExIndexReel() {
                     href={show.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="flex h-[30px] items-center justify-end gap-x-6 text-[13px] tracking-[0.04em] uppercase hover:opacity-100! focus-visible:opacity-100! focus-visible:outline-1 focus-visible:-outline-offset-1 focus-visible:outline-white"
+                    className="flex h-[30px] items-center justify-end gap-x-6 text-[13px] tracking-[0.04em] uppercase hover:opacity-100! focus-visible:opacity-100! focus-visible:outline-1 focus-visible:-outline-offset-1 focus-visible:outline-(--k-ink)"
                   >
                     <span
                       aria-hidden="true"
                       className={cn(
-                        "inline-block size-0 shrink-0 border-y-4 border-l-[6px] border-y-transparent border-l-white transition-opacity duration-300",
+                        "inline-block size-0 shrink-0 border-y-4 border-l-[6px] border-y-transparent border-l-(--k-ink) transition-opacity duration-300",
                         active === index ? "opacity-100" : "opacity-0",
                       )}
                     />
@@ -149,7 +149,7 @@ export function ExIndexReel() {
                     src={show.image}
                     alt=""
                     fill
-                    sizes="40vw"
+                    sizes="54vw"
                     className="object-cover"
                   />
                 </div>
@@ -199,25 +199,16 @@ export function ExIndexReel() {
                 {show.title}
               </span>
               <span
-                className={cn(CAPS, "mt-3 block text-[11px] text-white/70")}
+                className={cn(CAPS, "mt-3 block text-[11px] text-(--k-ink)/65")}
               >
                 {show.subtitle} · {VENUE}
               </span>
             </p>
           ))}
         </div>
-
-        <p
-          className={cn(
-            CAPS,
-            "absolute bottom-5 left-5 text-[10px] text-white/60",
-          )}
-        >
-          {pad(active + 1)} / {pad(SHOWS.length)}
-        </p>
         <a
           href={ALL_HREF}
-          className="absolute right-5 bottom-5 flex items-center gap-x-2 bg-white px-3 py-1.5 text-[12px] tracking-[0.06em] text-(--k-ink) uppercase transition-opacity hover:opacity-85"
+          className="absolute right-5 bottom-5 flex items-center gap-x-2 bg-(--k-ink) px-3 py-1.5 text-[12px] tracking-[0.06em] text-white uppercase transition-opacity hover:opacity-85"
         >
           <span aria-hidden="true">▸</span> All exhibitions
         </a>
@@ -244,24 +235,21 @@ export function ExIndexReel() {
               </span>
               <span className="mt-4 flex items-baseline gap-x-3 text-[13px] uppercase tracking-[0.04em]">
                 <span className="tabular-nums">{pad(index + 1)}</span>
-                <span className="text-white/70">
+                <span className="text-(--k-ink)/65">
                   {statusOf(show)} · {yearOf(show)}
                 </span>
               </span>
               <span className="mt-2 block text-[30px] leading-[1.02] tracking-[-0.035em]">
                 {show.title}
               </span>
-              <span className="mt-1 block text-[14px] text-white/70">
+              <span className="mt-1 block text-[14px] text-(--k-ink)/65">
                 {show.subtitle}
               </span>
             </a>
           </li>
         ))}
         <li>
-          <a
-            href={ALL_HREF}
-            className="inline-block border-b border-white pb-1 text-[15px]"
-          >
+          <a href={ALL_HREF} className="inline-block pb-1 text-[15px]">
             All exhibitions →
           </a>
         </li>

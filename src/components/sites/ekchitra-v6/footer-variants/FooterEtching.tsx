@@ -45,7 +45,7 @@ export function FooterEtching() {
               <input
                 type="email"
                 placeholder="ENTER EMAIL"
-                className="h-10 w-full border-b border-white bg-transparent text-[13px] tracking-[0.06em] outline-none placeholder:text-white"
+                className="h-10 w-full bg-transparent text-[13px] tracking-[0.06em] outline-none placeholder:text-white"
               />
             </label>
             <button

@@ -24,10 +24,7 @@ export function ServicesColumns() {
           </p>
         </div>
         {CTA_SERVICES.map((service, index) => (
-          <article
-            key={service.key}
-            className="col-span-4 flex flex-col border-t border-(--k-ink) pt-4"
-          >
+          <article key={service.key} className="col-span-4 flex flex-col pt-4">
             <span className="text-[13px] tabular-nums">{pad(index + 1)}</span>
             <h3 className="mt-8 text-[28px] leading-[1.05] tracking-[-0.035em] lg:text-[34px]">
               {service.title}

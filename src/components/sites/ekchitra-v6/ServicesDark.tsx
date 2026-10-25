@@ -44,10 +44,6 @@ export function ServicesDark() {
             delay={index * 160}
             className="col-span-4 flex flex-col"
           >
-            <span
-              aria-hidden="true"
-              className="ek6-rule block h-px w-full bg-white/40"
-            />
             <div className="ek5-fade flex flex-1 flex-col pt-6">
               <p className="text-[13px] tabular-nums text-white/45">
                 {pad(index + 1)}

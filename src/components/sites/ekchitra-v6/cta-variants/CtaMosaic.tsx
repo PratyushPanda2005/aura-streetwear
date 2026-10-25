@@ -32,7 +32,7 @@ export function CtaMosaic() {
           >
             <div
               className={cn(
-                "col-span-2 flex min-h-[220px] flex-col justify-between border-t border-(--k-ink)/15 bg-white p-4 lg:col-span-1 lg:p-5",
+                "col-span-2 flex min-h-[220px] flex-col justify-between bg-white p-4 lg:col-span-1 lg:p-5",
                 mirrored && "lg:order-2",
               )}
             >
@@ -78,7 +78,7 @@ export function CtaMosaic() {
               )}
             >
               <p className="text-[15px] leading-[1.35]">{service.body}</p>
-              <span className="flex items-center justify-between border-t border-white/30 pt-4 text-[15px]">
+              <span className="flex items-center justify-between pt-4 text-[15px]">
                 {service.cta.label}
                 <LineArrow className="transition-transform duration-300 group-hover:translate-x-1" />
               </span>

@@ -53,12 +53,7 @@ export function FooterMark({ light = false }: { light?: boolean }) {
             <label htmlFor="ek6-f3-email" className="text-[15px]">
               Sign up for news of openings
             </label>
-            <div
-              className={cn(
-                "mt-3 flex items-center border-b",
-                light ? "border-(--k-ink)" : "border-white",
-              )}
-            >
+            <div className={cn("mt-3 flex items-center", light ? "" : "")}>
               <input
                 id="ek6-f3-email"
                 type="email"

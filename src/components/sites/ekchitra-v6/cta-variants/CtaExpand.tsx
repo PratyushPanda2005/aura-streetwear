@@ -86,7 +86,7 @@ export function CtaExpand() {
                         ))}
                       </ul>
                     </div>
-                    <div className="mt-6 flex items-center justify-between border-t border-white/30 pt-4 text-[15px]">
+                    <div className="mt-6 flex items-center justify-between pt-4 text-[15px]">
                       {service.cta.label}
                       <LineArrow className="transition-transform duration-300 group-hover:translate-x-1" />
                     </div>

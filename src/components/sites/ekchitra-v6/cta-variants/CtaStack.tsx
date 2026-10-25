@@ -10,13 +10,13 @@ const TONES = [
   {
     card: "bg-white text-(--k-ink)",
     muted: "text-(--k-ink)/60",
-    rule: "border-(--k-ink)/15",
+    rule: "",
     button: "bg-(--k-ink) text-white hover:bg-(--k-maroon)",
   },
   {
     card: "bg-(--k-ink) text-white",
     muted: "text-white/60",
-    rule: "border-white/20",
+    rule: "",
     button: "bg-white text-(--k-ink) hover:bg-(--k-sky)",
   },
 ];
@@ -42,7 +42,7 @@ export function CtaStack() {
             <article
               key={service.key}
               className={cn(
-                "grid grid-cols-1 border-t lg:sticky lg:top-11 lg:h-[calc(100svh-44px)] lg:grid-cols-2",
+                "grid grid-cols-1 lg:sticky lg:top-11 lg:h-[calc(100svh-44px)] lg:grid-cols-2",
                 tone.card,
                 tone.rule,
               )}
@@ -82,14 +82,14 @@ export function CtaStack() {
 
                 <ul
                   className={cn(
-                    "mt-8 grid grid-cols-1 border-t text-[14px] sm:grid-cols-2 sm:gap-x-5",
+                    "mt-8 grid grid-cols-1 text-[14px] sm:grid-cols-2 sm:gap-x-5",
                     tone.rule,
                   )}
                 >
                   {service.covers.map((item) => (
                     <li
                       key={item}
-                      className={cn("border-b py-2.5 opacity-80", tone.rule)}
+                      className={cn("py-2.5 opacity-80", tone.rule)}
                     >
                       {item}
                     </li>

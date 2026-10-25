@@ -50,7 +50,7 @@ function Words({ service, n }: { service: Service; n: number }) {
               : {})}
             className={cn(
               CAPS,
-              "mt-4 inline-flex items-center gap-x-2 border-b border-white pb-1 text-[11px] hover:opacity-70",
+              "mt-4 inline-flex items-center gap-x-2 pb-1 text-[11px] hover:opacity-70",
             )}
           >
             {service.cta.label} <span aria-hidden="true">→</span>

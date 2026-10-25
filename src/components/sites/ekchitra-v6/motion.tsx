@@ -81,11 +81,6 @@ export function DriftPicture({
           )}
         />
       </span>
-      {/* A hairline frame over the picture, so pale posters hold their edge. */}
-      <span
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 ring-1 ring-(--k-ink)/10 ring-inset"
-      />
     </span>
   );
 }

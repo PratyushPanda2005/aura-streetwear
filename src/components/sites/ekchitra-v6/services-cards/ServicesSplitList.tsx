@@ -35,9 +35,9 @@ export function ServicesSplitList() {
           <p className="mt-4 mb-8 max-w-[440px] text-[16px] leading-[1.45] text-(--k-ink)/75">
             {INTRO.body}
           </p>
-          <ul className="mt-2 border-t border-(--k-ink) lg:mt-auto">
+          <ul className="mt-2 lg:mt-auto">
             {CTA_SERVICES.map((service, index) => (
-              <li key={service.key} className="border-b border-(--k-ink)/20">
+              <li key={service.key} className="">
                 <a
                   href={service.cta.href}
                   target="_blank"

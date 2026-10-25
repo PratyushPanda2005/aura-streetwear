@@ -35,7 +35,7 @@ export function ServicesTabs() {
             onClick={() => setActive(index)}
             onPointerEnter={() => setActive(index)}
             className={cn(
-              "flex items-baseline gap-x-4 border-t border-(--k-ink)/15 py-4 text-left transition-colors duration-300 last:border-b",
+              "flex items-baseline gap-x-4 py-4 text-left transition-colors duration-300",
               index === active ? "text-(--k-ink)" : "text-(--k-ink)/25",
             )}
           >

@@ -12,6 +12,7 @@ import { ServicesOverlay } from "@/components/sites/ekchitra-v6/services-cards/S
 import { ServicesSplitList } from "@/components/sites/ekchitra-v6/services-cards/ServicesSplitList";
 import { ServicesTable } from "@/components/sites/ekchitra-v6/services-cards/ServicesTable";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
+import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
 
 export const metadata: Metadata = {
   title: "Services — iterations",
@@ -82,6 +83,7 @@ export default function ServicesIterationsPage() {
           {variation.body}
         </section>
       ))}
+      <FooterLedger />
     </main>
   );
 }

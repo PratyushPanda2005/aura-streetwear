@@ -25,7 +25,7 @@ export function Bar({ className }: { className?: string }) {
   return (
     <h2
       className={cn(
-        "col-span-4 flex items-baseline justify-between border-y border-(--k-ink) py-3 text-[15px] lg:col-span-12",
+        "col-span-4 flex items-baseline justify-between py-3 text-[15px] lg:col-span-12",
         className,
       )}
     >
@@ -110,7 +110,7 @@ export function CurrentPair() {
           <h3 className="mt-2 text-[36px] leading-[1] tracking-[-0.045em] lg:text-[3.2vw]">
             {show.title}
           </h3>
-          <div className="mt-4 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+          <div className="mt-4 pt-3 text-[15px] leading-[1.45]">
             <p>{show.subtitle}</p>
             <p>{datesOf(show)}</p>
           </div>
@@ -147,13 +147,13 @@ export function CurrentLead() {
         </div>
       </article>
       {next && (
-        <article className="col-span-4 flex flex-col lg:border-l lg:border-(--k-ink)/15 lg:pl-5">
+        <article className="col-span-4 flex flex-col lg:pl-5">
           <Poster show={next} sizes="(min-width: 1024px) 33vw, 100vw" />
           <p className={cn(CAPS, "mt-5 text-[12px]")}>{statusOf(next)}</p>
           <h3 className="mt-2 text-[28px] leading-[1.05] tracking-[-0.04em] lg:text-[2vw]">
             {next.title}
           </h3>
-          <div className="mt-3 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+          <div className="mt-3 pt-3 text-[15px] leading-[1.45]">
             <p>{next.subtitle}</p>
             <p>{datesOf(next)}</p>
           </div>
@@ -178,7 +178,7 @@ export function CurrentRows() {
           key={show.title}
           className={cn(
             "col-span-4 grid grid-cols-1 gap-y-5 lg:col-span-12 lg:grid-cols-12 lg:gap-x-5",
-            index > 0 && "border-t border-(--k-ink)/15 pt-8",
+            index > 0 && "pt-8",
           )}
         >
           <Poster
@@ -194,7 +194,7 @@ export function CurrentRows() {
             <h3 className="mt-2 text-[40px] leading-[1] tracking-[-0.045em] lg:text-[3.8vw]">
               {show.title}
             </h3>
-            <div className="mt-4 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+            <div className="mt-4 pt-3 text-[15px] leading-[1.45]">
               <p>{show.subtitle}</p>
               <p>{datesOf(show)}</p>
             </div>
@@ -229,10 +229,10 @@ export function CurrentTabs() {
             aria-selected={active === index}
             onClick={() => setActive(index)}
             className={cn(
-              "flex flex-col items-start border-b-2 pb-3 text-left transition-colors duration-300",
+              "flex flex-col items-start pb-3 text-left transition-colors duration-300",
               active === index
-                ? "border-(--k-ink) text-(--k-ink)"
-                : "border-(--k-ink)/15 text-(--k-ink)/60 hover:text-(--k-ink)/85",
+                ? "text-(--k-ink)"
+                : "text-(--k-ink)/60 hover:text-(--k-ink)/85",
             )}
           >
             <span className={cn(CAPS, "text-[12px]")}>{statusOf(show)}</span>
@@ -262,7 +262,7 @@ export function CurrentTabs() {
               className="lg:col-span-8"
             />
             <div className="flex flex-col lg:col-span-4">
-              <div className="border-t border-(--k-ink) pt-3 text-[15px] leading-[1.45]">
+              <div className="pt-3 text-[15px] leading-[1.45]">
                 <p>{show.subtitle}</p>
                 <p>{datesOf(show)}</p>
               </div>
@@ -284,7 +284,7 @@ export function CurrentDark() {
   return (
     <div className="bg-(--k-ink) py-10 text-white lg:py-14">
       <div className={cn(GRID, "gap-y-12")}>
-        <h2 className="col-span-4 flex items-baseline justify-between border-y border-white/40 py-3 text-[15px] lg:col-span-12">
+        <h2 className="col-span-4 flex items-baseline justify-between py-3 text-[15px] lg:col-span-12">
           Now and upcoming
           <span className="text-[13px] tabular-nums">
             {pad(CURRENT.length)}
@@ -304,7 +304,7 @@ export function CurrentDark() {
             <h3 className="mt-2 text-[36px] leading-[1] tracking-[-0.045em] lg:text-[3.2vw]">
               {show.title}
             </h3>
-            <div className="mt-4 border-t border-white/25 pt-3 text-[15px] leading-[1.45] text-white/85">
+            <div className="mt-4 pt-3 text-[15px] leading-[1.45] text-white/85">
               <p>{show.subtitle}</p>
               <p>{datesOf(show)}</p>
             </div>

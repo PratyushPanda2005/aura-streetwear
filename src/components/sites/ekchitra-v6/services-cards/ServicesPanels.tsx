@@ -6,7 +6,7 @@ import { CTA_SERVICES, INTRO, MUTED, pad, ServicePhoto } from "./shared";
 /** Each service cell's ground, top to bottom: white, then brand black. */
 const CELLS = [
   {
-    ground: "border-b border-(--k-ink)/15 bg-white text-(--k-ink)",
+    ground: "bg-white text-(--k-ink)",
     muted: MUTED,
   },
   { ground: "bg-(--k-ink) text-white", muted: "text-white/70" },
@@ -55,7 +55,7 @@ export function ServicesPanels() {
       />
 
       {/* Right: the two services, stacked. */}
-      <div className="grid grid-rows-2 border-(--k-ink)/15 lg:col-span-4 lg:border-l">
+      <div className="grid grid-rows-2 lg:col-span-4">
         {CTA_SERVICES.map((service, index) => {
           const cell = CELLS[index % CELLS.length];
           return (

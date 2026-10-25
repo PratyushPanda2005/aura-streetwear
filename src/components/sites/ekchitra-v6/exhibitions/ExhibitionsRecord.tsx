@@ -64,7 +64,7 @@ export function ExhibitionsRecord() {
 
       {/* The archive. */}
       <div className={cn(GRID, "mt-16 lg:mt-24")}>
-        <div className="relative isolate col-span-4 flex flex-col gap-y-3 overflow-hidden border-y border-(--k-ink) py-3 lg:col-span-12 lg:flex-row lg:items-baseline lg:gap-x-8">
+        <div className="relative isolate col-span-4 flex flex-col gap-y-3 overflow-hidden py-3 lg:col-span-12 lg:flex-row lg:items-baseline lg:gap-x-8">
           {/* The diamond motif, fixed in place behind the bar's contents. */}
           <Diamonds
             rows={36}
@@ -102,7 +102,7 @@ export function ExhibitionsRecord() {
           id={id}
           className={cn(
             GRID,
-            "scroll-mt-[calc(44px+1rem)] items-start border-b border-(--k-ink)/15 pt-6 pb-2 lg:pt-8",
+            "scroll-mt-[calc(44px+1rem)] items-start pt-6 pb-2 lg:pt-8",
           )}
         >
           <div className="col-span-4 mb-2 lg:sticky lg:top-[calc(44px+1.5rem)] lg:col-span-3 lg:mb-0">
@@ -113,10 +113,7 @@ export function ExhibitionsRecord() {
 
           <ol className="col-span-4 lg:col-span-9">
             {shows.map((show) => (
-              <li
-                key={show.title}
-                className="border-t border-(--k-ink)/15 first:border-t-0"
-              >
+              <li key={show.title} className="">
                 <a
                   href={show.href}
                   target="_blank"

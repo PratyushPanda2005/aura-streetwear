@@ -61,7 +61,7 @@ export function CurrentWipe() {
             >
               {show.title}
             </h3>
-            <p className="mt-3 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+            <p className="mt-3 pt-3 text-[15px] leading-[1.45]">
               {show.subtitle} · {datesOf(show)}
             </p>
             <ViewButton show={show} className="mt-6" />
@@ -85,7 +85,7 @@ export function CurrentIndex() {
       <Bar />
       <ol className="col-span-4 lg:col-span-6">
         {CURRENT.map((show, index) => (
-          <li key={show.title} className="border-b border-(--k-ink)/15">
+          <li key={show.title} className="">
             <a
               href={show.href}
               target="_blank"
@@ -129,7 +129,7 @@ export function CurrentIndex() {
       </ol>
 
       <div className="hidden lg:col-span-6 lg:block">
-        <div className="grid border border-(--k-ink) p-3">
+        <div className="grid">
           {CURRENT.map((show, index) => (
             <div
               key={show.title}
@@ -181,10 +181,10 @@ export function CurrentDeck() {
             onClick={() => setFront(index)}
             aria-pressed={front === index}
             className={cn(
-              "border-t pt-3 text-left transition-colors duration-300",
+              "pt-3 text-left transition-colors duration-300",
               front === index
-                ? "border-(--k-ink) text-(--k-ink)"
-                : "border-(--k-ink)/20 text-(--k-ink)/60 hover:text-(--k-ink)",
+                ? "text-(--k-ink)"
+                : "text-(--k-ink)/60 hover:text-(--k-ink)",
             )}
           >
             <span className={cn(CAPS, "block text-[12px]")}>
@@ -306,7 +306,7 @@ export function CurrentDrift() {
           <h3 className="mt-2 text-[36px] leading-[1] tracking-[-0.045em] lg:text-[3.2vw]">
             {show.title}
           </h3>
-          <div className="mt-4 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+          <div className="mt-4 pt-3 text-[15px] leading-[1.45]">
             <p>{show.subtitle}</p>
             <p>{datesOf(show)}</p>
           </div>

@@ -31,12 +31,7 @@ export function ExArchive() {
     >
       <div
         aria-hidden="true"
-        className={cn(
-          GRID,
-          HEAD,
-          CAPS,
-          "grid-cols-4 border-b border-(--k-ink) pb-3 text-[10px] lg:pb-3",
-        )}
+        className={cn(GRID, HEAD, CAPS, "grid-cols-4 pb-3 text-[10px] lg:pb-3")}
       >
         <span className={COLS.thumb} />
         <span className={COLS.n}>No.</span>
@@ -48,7 +43,7 @@ export function ExArchive() {
 
       <ol>
         {ALL_SHOWS.map((show, index) => (
-          <li key={show.title} className="border-b border-(--k-ink)/15">
+          <li key={show.title} className="">
             <a
               href={show.href}
               target="_blank"

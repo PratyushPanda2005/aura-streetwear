@@ -62,7 +62,7 @@ export function ArtistsIndex() {
               href={`${V5_ROUTES.artists}#${artist.id}`}
               onPointerEnter={() => setActive(index)}
               className={cn(
-                "grid grid-cols-4 items-baseline gap-x-4 border-t border-(--k-ink)/15 py-5 transition-opacity lg:grid-cols-12 lg:gap-x-5 lg:py-6",
+                "grid grid-cols-4 items-baseline gap-x-4 py-5 transition-opacity lg:grid-cols-12 lg:gap-x-5 lg:py-6",
                 active !== null && active !== index && "opacity-35",
               )}
             >

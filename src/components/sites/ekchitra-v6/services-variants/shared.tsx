@@ -30,8 +30,8 @@ export function ArrowLink({
       {...external(href)}
       className={cn(
         CAPS,
-        "inline-flex items-center gap-x-2 border-b pb-1 text-[11px] transition-opacity hover:opacity-60",
-        light ? "border-white text-white" : "border-(--k-ink) text-(--k-ink)",
+        "inline-flex items-center gap-x-2 pb-1 text-[11px] transition-opacity hover:opacity-60",
+        light ? "text-white" : "text-(--k-ink)",
         className,
       )}
     >
@@ -53,13 +53,7 @@ export function Covers({
   return (
     <ul className={cn("text-[14px]", className)}>
       {items.map((item) => (
-        <li
-          key={item}
-          className={cn(
-            "border-b py-1.5 leading-[1.4]",
-            light ? "border-white/20" : "border-(--k-ink)/15",
-          )}
-        >
+        <li key={item} className={cn("py-1.5 leading-[1.4]", light ? "" : "")}>
           {item}
         </li>
       ))}

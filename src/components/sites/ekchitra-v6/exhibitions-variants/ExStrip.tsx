@@ -35,7 +35,7 @@ export function ExStrip() {
       className={cn("bg-white pb-12 text-(--k-ink) lg:pb-16", SANS)}
     >
       <div className={cn(GRID, HEAD, "pb-0 lg:pb-0")}>
-        <div className="col-span-4 flex items-center justify-between border-y border-(--k-ink) py-2 lg:col-span-12">
+        <div className="col-span-4 flex items-center justify-between py-2 lg:col-span-12">
           <a
             href={ALL_EXHIBITIONS.href}
             className="flex items-center gap-x-4 text-[15px] transition-opacity hover:opacity-60"
@@ -87,7 +87,7 @@ export function ExStrip() {
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
                 />
               </div>
-              <div className="mt-3 flex items-baseline justify-between border-t border-(--k-ink)/15 pt-3">
+              <div className="mt-3 flex items-baseline justify-between pt-3">
                 <span className="text-[12px] tabular-nums">
                   {pad(index + 1)} / {pad(SHOWS.length)}
                 </span>

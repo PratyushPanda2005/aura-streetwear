@@ -59,7 +59,7 @@ export function FooterFade() {
       </div>
 
       <div className={cn(GRID, "relative mt-16")}>
-        <div className="col-span-4 border-t border-(--k-ink)/15 pt-8 text-[14px] text-(--k-ink)/65 lg:col-span-12">
+        <div className="col-span-4 pt-8 text-[14px] text-(--k-ink)/65 lg:col-span-12">
           {FOOTER.copyright} · Hyderabad, India
         </div>
       </div>

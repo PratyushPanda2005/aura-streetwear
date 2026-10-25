@@ -42,7 +42,7 @@ export function ExFeature() {
           <h3 className="mt-3 text-[40px] leading-[0.98] tracking-[-0.045em] lg:text-[3.6vw]">
             {lead.title}
           </h3>
-          <div className="mt-6 border-t border-(--k-ink)/15 pt-3 text-[15px] leading-[1.45]">
+          <div className="mt-6 pt-3 text-[15px] leading-[1.45]">
             <p>{lead.subtitle}</p>
             <p>{lead.dates}</p>
           </div>
@@ -61,10 +61,7 @@ export function ExFeature() {
       <div className="mt-10 lg:mt-12">
         <ol className={cn(GRID, "grid-cols-4")}>
           {rest.map((show, index) => (
-            <li
-              key={show.title}
-              className="col-span-4 border-t border-(--k-ink)/15 last:border-b lg:col-span-12"
-            >
+            <li key={show.title} className="col-span-4 lg:col-span-12">
               <a
                 href={show.href}
                 target="_blank"

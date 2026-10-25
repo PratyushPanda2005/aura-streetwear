@@ -136,7 +136,6 @@ export function WorksStrip() {
           </figure>
         ))}
         {/* Room after the last work, so it can come clear of the edge. */}
-        <span aria-hidden="true" className="w-px shrink-0" />
       </div>
     </section>
   );

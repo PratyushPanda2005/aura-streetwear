@@ -21,6 +21,7 @@ const PANELS = [
     stat: exhibitions,
     tone: "bg-(--k-maroon) text-white",
     caption: "text-white/80",
+    light: true,
     size: "h-[60%]",
     motif: {
       shape: "steps",
@@ -33,15 +34,16 @@ const PANELS = [
   },
   {
     stat: artists,
-    tone: "bg-(--k-ink) text-white",
-    caption: "text-white/70",
+    tone: "bg-white text-(--k-ink)",
+    caption: "text-(--k-ink)/70",
+    light: false,
     size: "h-[40%]",
     motif: {
       shape: "zigzag",
       tint: "sky",
       horizontal: false,
       rows: 24,
-      className: "top-0 right-0 w-[64px] text-white/[0.14] lg:w-[88px]",
+      className: "top-0 right-0 w-[64px] text-(--k-ink)/[0.08] lg:w-[88px]",
     } as const,
     link: { label: "More about us", href: `${V6_HOME}/about` },
   },
@@ -59,7 +61,7 @@ const ease = (t: number) => 1 - (1 - t) * (1 - t);
  * with the left margin; the line fills from grey to black as it scrolls up. Then a photograph of the gallery fills the width; as it reaches
  * the top of the screen it pins, and while scrolling on, the photograph slides
  * left and two brand-coloured panels slide in beside it — maroon with the
- * number of exhibitions curated, brand black (with the diamond motif) with
+ * number of exhibitions curated, white (with a faint diamond motif) with
  * the number of artists — their
  * figures rolling up with the scroll; the artists panel links to the About
  * page. The pin releases straight into the next section.
@@ -102,7 +104,7 @@ export function Statement() {
       {/* Label over the founding line, flush left. */}
       <div className={cn(GRID, HEAD)}>
         <div className="col-span-4 lg:col-span-7">
-          <Index n={1} label={STATEMENT.label} />
+          <Index label={STATEMENT.label} />
           <h2 className={cn(TITLE, "mt-2 lg:mt-3")}>
             <ScrollFillText text={STATEMENT.lead} />
           </h2>
@@ -160,7 +162,11 @@ export function Statement() {
                         {panel.stat.label}
                       </p>
                       {"link" in panel && panel.link && (
-                        <CapsLink light arrow href={panel.link.href}>
+                        <CapsLink
+                          light={panel.light}
+                          arrow
+                          href={panel.link.href}
+                        >
                           {panel.link.label}
                         </CapsLink>
                       )}

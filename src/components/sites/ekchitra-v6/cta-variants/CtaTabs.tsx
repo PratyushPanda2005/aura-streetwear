@@ -25,22 +25,22 @@ import { CTA_SERVICES, LineArrow, pad } from "./shared";
 const TONES = {
   light: {
     section: "bg-white text-(--k-ink)",
-    tabOn: "border-(--k-ink) text-(--k-ink)",
-    tabOff: "border-(--k-ink)/15 text-(--k-ink)/30 hover:text-(--k-ink)/60",
+    tabOn: "text-(--k-ink)",
+    tabOff: "text-(--k-ink)/30 hover:text-(--k-ink)/60",
     picture: "bg-(--k-ink)/5",
     muted: "text-(--k-ink)/60",
     faint: "text-(--k-ink)/45",
-    rule: "border-(--k-ink)/15",
+    rule: "",
     button: "bg-(--k-ink) text-white hover:bg-(--k-maroon)",
   },
   dark: {
     section: "bg-(--k-ink) text-white",
-    tabOn: "border-white text-white",
-    tabOff: "border-white/15 text-white/30 hover:text-white/60",
+    tabOn: "text-white",
+    tabOff: "text-white/30 hover:text-white/60",
     picture: "bg-white/5",
     muted: "text-white/60",
     faint: "text-white/45",
-    rule: "border-white/15",
+    rule: "",
     button: "bg-white text-(--k-ink) hover:bg-(--k-sky)",
   },
 };
@@ -68,7 +68,7 @@ export function CtaTabs({ dark = false }: { dark?: boolean }) {
             aria-selected={active === index}
             onClick={() => setActive(index)}
             className={cn(
-              "col-span-2 flex items-baseline gap-x-3 border-b-2 pb-3 text-left transition-colors duration-300 lg:col-span-6",
+              "col-span-2 flex items-baseline gap-x-3 pb-3 text-left transition-colors duration-300 lg:col-span-6",
               active === index ? tone.tabOn : tone.tabOff,
             )}
           >
@@ -118,12 +118,12 @@ export function CtaTabs({ dark = false }: { dark?: boolean }) {
                 {service.body}
               </p>
 
-              <ol className={cn("mt-6 border-t text-[15px]", tone.rule)}>
+              <ol className={cn("mt-6 text-[15px]", tone.rule)}>
                 {service.covers.map((item, n) => (
                   <li
                     key={item}
                     className={cn(
-                      "grid grid-cols-[2.5rem_1fr] border-b py-2.5",
+                      "grid grid-cols-[2.5rem_1fr] py-2.5",
                       tone.rule,
                     )}
                   >

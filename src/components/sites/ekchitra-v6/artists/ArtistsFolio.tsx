@@ -33,7 +33,7 @@ export function ArtistsFolio() {
     >
       {/* The index: every name, a jump to its row. */}
       <nav aria-label="Artists index" className={GRID}>
-        <div className="col-span-4 flex flex-col gap-y-3 border-y border-(--k-ink) py-3 lg:col-span-12 lg:flex-row lg:items-baseline lg:gap-x-8">
+        <div className="col-span-4 flex flex-col gap-y-3 py-3 lg:col-span-12 lg:flex-row lg:items-baseline lg:gap-x-8">
           <p className="shrink-0 text-[13px] tabular-nums">
             {pad(ARTISTS.length)} artists
           </p>
@@ -57,7 +57,7 @@ export function ArtistsFolio() {
           <li
             key={artist.id}
             id={artist.id}
-            className="scroll-mt-[calc(44px+1.5rem)] border-b border-(--k-ink)/15 first:border-t"
+            className="scroll-mt-[calc(44px+1.5rem)]"
           >
             <div className={cn(GRID, "gap-y-6 py-6 lg:py-8")}>
               {/* Who they are. */}
@@ -84,7 +84,7 @@ export function ArtistsFolio() {
                   href={artist.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="group mt-6 flex items-center justify-between border-t border-(--k-ink) pt-3 text-[15px] transition-opacity hover:opacity-60 lg:mt-auto lg:max-w-[360px]"
+                  className="group mt-6 flex items-center justify-between pt-3 text-[15px] transition-opacity hover:opacity-60 lg:mt-auto lg:max-w-[360px]"
                 >
                   {ARTISTS_PAGE.cardCta}
                   <LineArrow className="transition-transform duration-300 group-hover:translate-x-1" />

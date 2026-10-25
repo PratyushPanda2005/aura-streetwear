@@ -22,10 +22,7 @@ export function ServicesIndex() {
       {SERVICES.map((service, index) => {
         const isOpen = open === index;
         return (
-          <article
-            key={service.title}
-            className="border-t border-(--k-ink)/15 last:border-b"
-          >
+          <article key={service.title} className="">
             <button
               type="button"
               aria-expanded={isOpen}

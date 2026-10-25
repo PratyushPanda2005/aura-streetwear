@@ -44,7 +44,7 @@ export function CtaTiles() {
               <p className="mt-3 text-[15px] leading-[1.4] text-(--k-ink)/70">
                 {service.body}
               </p>
-              <div className="mt-6 flex items-center justify-between border-t border-(--k-ink)/15 pt-4 text-[15px]">
+              <div className="mt-6 flex items-center justify-between pt-4 text-[15px]">
                 {service.cta.label}
                 <LineArrow className="transition-transform duration-300 group-hover:translate-x-1" />
               </div>

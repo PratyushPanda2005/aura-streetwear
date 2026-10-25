@@ -22,10 +22,7 @@ export function ServicesSheet() {
         <p className={cn(HEAD, "lg:col-span-3")}>Covers</p>
       </div>
       {SERVICES.map((service, index) => (
-        <article
-          key={service.title}
-          className={cn(GRID, "gap-y-5 border-t border-white/20 py-8")}
-        >
+        <article key={service.title} className={cn(GRID, "gap-y-5 py-8")}>
           <p className="text-[13px] tabular-nums text-white/50 lg:col-span-1">
             {pad(index + 1)}
           </p>

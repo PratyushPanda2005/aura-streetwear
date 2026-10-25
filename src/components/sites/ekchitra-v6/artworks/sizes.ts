@@ -24,24 +24,52 @@ export const ARTWORK_SIZES: Record<string, readonly [number, number]> = {
   "/sites/ekchitra-redesign/artists/dilip-kumar-1.jpg": [1200, 1379],
   "/sites/ekchitra-redesign/artists/dilip-kumar-2.jpg": [1193, 1400],
   "/sites/ekchitra-redesign/artists/vinod-daroz-1.jpg": [1200, 811],
-  "/sites/ekchitra-redesign/artworks/arthanareeswara--anupama-choudhary.png": [1200, 1202],
-  "/sites/ekchitra-redesign/artworks/between-presence-and-absence-3--parul-kaur-trimmed.png": [966, 1319],
-  "/sites/ekchitra-redesign/artworks/embrace-of-light--selvakumar.png": [1200, 911],
-  "/sites/ekchitra-redesign/artworks/finding-my-ground--rahul-and-gunjan-cutout.png": [1071, 839],
-  "/sites/ekchitra-redesign/artworks/finding-my-ground--rahul-and-gunjan.png": [1200, 919],
-  "/sites/ekchitra-redesign/artworks/harmony-of-nature-and-mind--farhad-hussain.png": [1200, 1191],
-  "/sites/ekchitra-redesign/artworks/head-1--subodh-kerkar-trimmed.png": [1044, 1613],
-  "/sites/ekchitra-redesign/artworks/meri-maa-ki-dua--rajesh-naik.png": [1200, 1258],
-  "/sites/ekchitra-redesign/artworks/modified-continuity--sarvanan-parasuraman-cutout.png": [1128, 1285],
-  "/sites/ekchitra-redesign/artworks/modified-continuity--sarvanan-parasuraman.png": [1200, 1382],
-  "/sites/ekchitra-redesign/artworks/paths-1--dilip-kumar-cutout.png": [999, 1085],
+  "/sites/ekchitra-redesign/artworks/arthanareeswara--anupama-choudhary.png": [
+    1200, 1202,
+  ],
+  "/sites/ekchitra-redesign/artworks/between-presence-and-absence-3--parul-kaur-trimmed.png":
+    [966, 1319],
+  "/sites/ekchitra-redesign/artworks/embrace-of-light--selvakumar.png": [
+    1200, 911,
+  ],
+  "/sites/ekchitra-redesign/artworks/finding-my-ground--rahul-and-gunjan-cutout.png":
+    [1071, 839],
+  "/sites/ekchitra-redesign/artworks/finding-my-ground--rahul-and-gunjan.png": [
+    1200, 919,
+  ],
+  "/sites/ekchitra-redesign/artworks/harmony-of-nature-and-mind--farhad-hussain.png":
+    [1200, 1191],
+  "/sites/ekchitra-redesign/artworks/head-1--subodh-kerkar-trimmed.png": [
+    1044, 1613,
+  ],
+  "/sites/ekchitra-redesign/artworks/meri-maa-ki-dua--rajesh-naik.png": [
+    1200, 1258,
+  ],
+  "/sites/ekchitra-redesign/artworks/modified-continuity--sarvanan-parasuraman-cutout.png":
+    [1128, 1285],
+  "/sites/ekchitra-redesign/artworks/modified-continuity--sarvanan-parasuraman.png":
+    [1200, 1382],
+  "/sites/ekchitra-redesign/artworks/paths-1--dilip-kumar-cutout.png": [
+    999, 1085,
+  ],
   "/sites/ekchitra-redesign/artworks/paths-1--dilip-kumar.png": [1200, 1408],
-  "/sites/ekchitra-redesign/artworks/sanctum-aikyam--vinod-daroz.png": [1200, 811],
-  "/sites/ekchitra-redesign/artworks/sites-of-remembering--manish-sharma-cutout.png": [968, 494],
-  "/sites/ekchitra-redesign/artworks/sites-of-remembering--manish-sharma.png": [1200, 671],
+  "/sites/ekchitra-redesign/artworks/sanctum-aikyam--vinod-daroz.png": [
+    1200, 811,
+  ],
+  "/sites/ekchitra-redesign/artworks/sites-of-remembering--manish-sharma-cutout.png":
+    [968, 494],
+  "/sites/ekchitra-redesign/artworks/sites-of-remembering--manish-sharma.png": [
+    1200, 671,
+  ],
   "/sites/ekchitra-redesign/artworks/untitled-1--ashok-juttu.png": [1200, 1300],
-  "/sites/ekchitra-redesign/artworks/untitled-1--chandrapal-panjre-cutout.png": [1047, 1295],
-  "/sites/ekchitra-redesign/artworks/untitled-1--chandrapal-panjre.png": [1200, 1438],
-  "/sites/ekchitra-redesign/artworks/untitled-2--charanjeet-singh.png": [1200, 1625],
-  "/sites/ekchitra-redesign/artworks/vernacular-house-2--kolipitchai-prabhakar.png": [1200, 1501],
+  "/sites/ekchitra-redesign/artworks/untitled-1--chandrapal-panjre-cutout.png":
+    [1047, 1295],
+  "/sites/ekchitra-redesign/artworks/untitled-1--chandrapal-panjre.png": [
+    1200, 1438,
+  ],
+  "/sites/ekchitra-redesign/artworks/untitled-2--charanjeet-singh.png": [
+    1200, 1625,
+  ],
+  "/sites/ekchitra-redesign/artworks/vernacular-house-2--kolipitchai-prabhakar.png":
+    [1200, 1501],
 };

@@ -34,7 +34,7 @@ export function ServicesBento() {
       rel="noreferrer"
       className={cn(
         CELL,
-        "flex min-h-[280px] flex-col border border-(--k-ink)/15 bg-white p-5 hover:border-(--k-ink) lg:min-h-0 lg:p-7",
+        "flex min-h-[280px] flex-col bg-white p-5 lg:min-h-0 lg:p-7",
       )}
     >
       <span className="flex items-baseline justify-between gap-x-4">
@@ -48,7 +48,7 @@ export function ServicesBento() {
         <span className="mt-3 block text-[15px] leading-[1.45]">
           {service.body}
         </span>
-        <span className="mt-5 flex items-center justify-between border-t border-(--k-ink)/15 pt-3 text-[14px]">
+        <span className="mt-5 flex items-center justify-between pt-3 text-[14px]">
           {service.cta.label}
           <LineArrow />
         </span>
@@ -79,7 +79,7 @@ export function ServicesBento() {
         <div
           className={cn(
             CELL,
-            "flex flex-col justify-between gap-y-8 border border-(--k-ink)/15 p-5 lg:p-7",
+            "flex flex-col justify-between gap-y-8 p-5 lg:p-7",
           )}
         >
           <p className={cn(CAPS, "text-[11px]", MUTED)}>Services</p>

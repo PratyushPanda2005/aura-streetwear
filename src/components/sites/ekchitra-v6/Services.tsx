@@ -156,10 +156,8 @@ export function Services() {
                         <li
                           key={item}
                           className={cn(
-                            "border-b py-1.5 leading-[1.4] lg:py-2.5",
-                            service.dark
-                              ? "border-white/30"
-                              : "border-(--k-ink)/25",
+                            "py-1.5 leading-[1.4] lg:py-2.5",
+                            service.dark ? "" : "",
                           )}
                         >
                           {item}

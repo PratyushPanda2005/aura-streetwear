@@ -51,7 +51,7 @@ export function ServicesOverlay() {
               <span className="mt-2 block text-[15px] leading-[1.45]">
                 {service.body}
               </span>
-              <span className="mt-5 flex items-center justify-between border-t border-(--k-ink)/15 pt-3 text-[14px]">
+              <span className="mt-5 flex items-center justify-between pt-3 text-[14px]">
                 {service.cta.label}
                 <LineArrow />
               </span>

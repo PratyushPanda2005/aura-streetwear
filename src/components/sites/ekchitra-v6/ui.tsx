@@ -44,16 +44,19 @@ export function Index({
   label,
   light = false,
 }: {
-  n: number;
+  /** The section's number; leave it out for the label alone. */
+  n?: number;
   label: string;
   /** For dark sections: the name in translucent white. */
   light?: boolean;
 }) {
   return (
     <div className="flex items-baseline gap-x-3 self-start">
-      <span className="text-[13px] tabular-nums">
-        {String(n).padStart(2, "0")}
-      </span>
+      {n !== undefined && (
+        <span className="text-[13px] tabular-nums">
+          {String(n).padStart(2, "0")}
+        </span>
+      )}
       <span
         className={cn(
           CAPS,

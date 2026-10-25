@@ -26,7 +26,7 @@ export function ServicesCardPair() {
         {CTA_SERVICES.map((service, index) => (
           <article
             key={service.key}
-            className="col-span-4 flex flex-col border border-(--k-ink)/15 lg:col-span-6 lg:min-h-0"
+            className="col-span-4 flex flex-col lg:col-span-6 lg:min-h-0"
           >
             <ServicePhoto
               service={service}
