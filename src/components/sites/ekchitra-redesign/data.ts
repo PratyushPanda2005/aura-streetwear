@@ -77,7 +77,7 @@ const ARTISTS_URL = "https://www.ekchitra.com/artists";
 
 export const ARTISTS_SECTION = {
   label: "Artists",
-  cta: { label: "Explore all artists", href: ROUTES.artists },
+  cta: { label: "Explore All Artists", href: ROUTES.artists },
   slideCta: "View artist",
 };
 
@@ -255,7 +255,7 @@ const EXHIBITIONS_URL = "https://www.ekchitra.com/exhibitions";
 export const EVENTS_SECTION = {
   label: "Events & Announcements",
   heading: "Current & upcoming",
-  cta: { label: "View all", href: EXHIBITIONS_URL },
+  cta: { label: "View All", href: EXHIBITIONS_URL },
   imagePlaceholder: "Exhibition image to follow",
 };
 
@@ -289,7 +289,7 @@ export const ABOUT_SECTION = {
     "From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.",
     "Ek Chitra makes that conversation easier to enter. Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.",
   ],
-  cta: { label: "About us", href: "https://www.ekchitra.com/about" },
+  cta: { label: "About Us", href: "https://www.ekchitra.com/about" },
   image: {
     src: `${IMAGES}/hero-newindianexpress-2025-12-05.avif`,
     alt: "Artists and visitors gathered in front of a painting inside the EkChitra gallery",
@@ -321,7 +321,7 @@ export const SERVICES: ServicePanel[] = [
     eyebrow: "For architects, designers & institutions",
     title: "Bespoke sourcing",
     body: "Art selection, curation and placement shaped around a particular space and brief.",
-    cta: { label: "Source for a space", href: CONTACT_URL },
+    cta: { label: "Source for a Space", href: CONTACT_URL },
     image: {
       src: `${ARTWORKS_DIR}/sanctum-aikyam--vinod-daroz.png`,
       alt: "Sanctum (From the series of Aikyam) by Vinod Daroz — detail",
@@ -331,7 +331,7 @@ export const SERVICES: ServicePanel[] = [
     eyebrow: "For collectors",
     title: "Art advisory",
     body: "Contextual, considered guidance for starting, refining or growing a collection.",
-    cta: { label: "Get in touch", href: CONTACT_URL },
+    cta: { label: "Get in Touch", href: CONTACT_URL },
     image: {
       src: `${ARTWORKS_DIR}/untitled-1--ashok-juttu.png`,
       alt: "Untitled - 1 by Ashok Juttu — detail",
@@ -376,7 +376,7 @@ export const ARTISTS_PAGE = {
   intro:
     "Artists shaping contemporary India, exclusively represented by EkChitra.",
   searchPlaceholder: "Search artist / medium / artwork",
-  cardCta: "View artist",
+  cardCta: "View Artist",
   /** Background of the page banner — a detail of one of the gallery's artworks. */
   banner: {
     src: `${ARTWORKS_DIR}/untitled-1--ashok-juttu.png`,
@@ -424,7 +424,7 @@ export const ARTWORKS_PAGE = {
   intro:
     "A living collection of contemporary expressions across various media.",
   searchPlaceholder: "Search artwork title / medium / artist",
-  cardCta: "View artist",
+  cardCta: "View Artist",
   /** Background of the page banner — a detail of one of the gallery's artworks. */
   banner: {
     src: `${ARTWORKS_DIR}/untitled-1--chandrapal-panjre.png`,

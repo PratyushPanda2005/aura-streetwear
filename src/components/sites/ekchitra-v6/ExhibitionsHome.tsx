@@ -115,7 +115,7 @@ export function ExhibitionsHome() {
                       </span>
                     </span>
                     <span className={cn(BUTTON, "bg-white text-(--k-ink)")}>
-                      View exhibition
+                      View Exhibition
                       <span
                         aria-hidden="true"
                         className={cn(

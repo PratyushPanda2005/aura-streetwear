@@ -40,7 +40,7 @@ const ROW = "grid grid-cols-[92px_1fr] gap-x-3 text-[13px] leading-[1.45]";
  * holds still while the next band slides up over it (and drifts a touch for
  * depth). The cards ride in one column on top, eased so each is centred as
  * its picture fills the screen. The cards are the v5 frosted cards, a little
- * wider (365px). A small navy "View all artists" button, with
+ * wider (365px). A small navy "View All Artists" button, with
  * two sky-blue diamonds in its corner, sits in the bottom-right corner of the
  * screen for as long as the bands are in view.
  */
@@ -200,7 +200,7 @@ export function ArtistsBands() {
             >
               <path d="M12 0l4 4-4 4-4-4zM4 8l4 4-4 4-4-4z" />
             </svg>
-            <span>View all artists</span>
+            <span>View All Artists</span>
             <span aria-hidden="true">→</span>
           </a>
         </div>

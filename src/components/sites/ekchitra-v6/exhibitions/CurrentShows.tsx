@@ -35,7 +35,7 @@ export function Bar({ className }: { className?: string }) {
   );
 }
 
-/** The black "View exhibition" button, named for screen readers. */
+/** The black "View Exhibition" button, named for screen readers. */
 export function ViewButton({
   show,
   light = false,
@@ -52,7 +52,7 @@ export function ViewButton({
       rel="noreferrer"
       className={cn(BUTTON, light && "bg-white text-(--k-ink)", className)}
     >
-      View exhibition
+      View Exhibition
       <span className="sr-only">: {show.title}</span>
       <span aria-hidden="true">→</span>
     </a>

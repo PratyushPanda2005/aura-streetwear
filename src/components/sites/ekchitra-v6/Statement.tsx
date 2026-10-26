@@ -45,7 +45,7 @@ const PANELS = [
       rows: 24,
       className: "top-0 right-0 w-[64px] text-(--k-ink)/[0.08] lg:w-[88px]",
     } as const,
-    link: { label: "More about us", href: `${V6_HOME}/about` },
+    link: { label: "More About Us", href: `${V6_HOME}/about` },
   },
 ];
 

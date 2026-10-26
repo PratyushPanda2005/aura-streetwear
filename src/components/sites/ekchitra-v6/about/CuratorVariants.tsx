@@ -280,7 +280,7 @@ export function CuratorShows() {
             rel="noreferrer"
             className="mt-8 flex h-12 w-full items-center justify-between bg-(--k-ink) px-5 text-[14px] text-white transition-colors duration-300 hover:bg-(--k-navy) sm:w-[300px]"
           >
-            Talk to the curator
+            Talk to the Curator
             <LineArrow />
           </a>
         </div>

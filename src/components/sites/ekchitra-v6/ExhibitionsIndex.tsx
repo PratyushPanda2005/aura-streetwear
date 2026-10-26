@@ -291,7 +291,7 @@ export function ExhibitionsIndex() {
                 className="mt-[1.6vw] flex items-center justify-between gap-x-6 pt-[1.6vw] text-[clamp(15px,1.25vw,19px)] transition-opacity hover:opacity-60"
               >
                 <span>
-                  View exhibition
+                  View Exhibition
                   <span> · {show.dates || show.subtitle}</span>
                 </span>
                 <Arrow />

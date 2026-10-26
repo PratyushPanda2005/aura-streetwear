@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo, useState, type CSSProperties } from "react";
+import { useCallback, useMemo, useState, type CSSProperties } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -10,6 +10,7 @@ import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
 import { CARD_TITLE, GRID } from "../styles";
+import { ArtworkPanel } from "./ArtworkPanel";
 import { ARTWORK_SIZES } from "./sizes";
 
 /** Every work by every artist, in the artists' order. */
@@ -17,7 +18,7 @@ const WORKS = ARTISTS.flatMap((artist) =>
   artist.works.map((work) => ({
     ...work,
     artist: artist.name,
-    href: artist.href,
+    artistData: artist,
   })),
 );
 
@@ -28,8 +29,9 @@ type Work = (typeof WORKS)[number];
  * medium filters and a count, then every work in justified rows: the works in
  * a row share one height, each as wide as its own proportions make it, and
  * the row fills the width exactly — never cropped.
- * Under each picture, between fine rules: its number, the title, the artist,
- * the medium and size, and a link to the artist that slides in on hover.
+ * Under each picture: its number, the title, the artist, the medium and size,
+ * and "View artwork", which slides in on hover. Choosing a work opens its
+ * details in a panel that slides up over the grid (ArtworkPanel).
  */
 const workKey = (work: Work) => `${work.artist}-${work.title}-${work.image}`;
 
@@ -39,7 +41,7 @@ const workKey = (work: Work) => `${work.artist}-${work.title}-${work.image}`;
  * the list) and it grows in that same ratio, so every work in a row ends up
  * one height and the row fills the width exactly.
  */
-function WorkCard({ work }: { work: Work }) {
+function WorkCard({ work, onOpen }: { work: Work; onOpen: () => void }) {
   const n = WORKS.indexOf(work) + 1;
   const [width, height] = ARTWORK_SIZES[work.image] ?? [1, 1];
   return (
@@ -47,11 +49,11 @@ function WorkCard({ work }: { work: Work }) {
       style={{ "--ratio": width / height } as CSSProperties}
       className="min-w-0 grow-(--ratio) basis-[calc(var(--ratio)*var(--row-h))]"
     >
-      <a
-        href={work.href}
-        target="_blank"
-        rel="noreferrer"
-        className="group block"
+      <button
+        type="button"
+        onClick={onOpen}
+        aria-haspopup="dialog"
+        className="group block w-full text-left"
       >
         <Image
           src={work.image}
@@ -72,11 +74,11 @@ function WorkCard({ work }: { work: Work }) {
         <div className="mt-2 flex items-center justify-between gap-x-3 text-[13px]">
           <span className="lg:shrink-0 lg:whitespace-nowrap">{work.size}</span>
           <span className="hidden min-w-0 items-center gap-x-2 overflow-hidden whitespace-nowrap opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100 lg:flex">
-            {ARTWORKS_PAGE.cardCta}
+            View Artwork
             <LineArrow className="w-6" />
           </span>
         </div>
-      </a>
+      </button>
     </li>
   );
 }
@@ -88,6 +90,14 @@ export function ArtworksIndex({
   initialQuery?: string;
 }) {
   const [query, setQuery] = useState(initialQuery);
+  // The open work, by its place in the current results; null when closed.
+  const [open, setOpen] = useState<number | null>(null);
+  // The last work opened, kept on screen while the panel slides away.
+  const [shown, setShown] = useState<number | null>(null);
+  const show = (index: number) => {
+    setOpen(index);
+    setShown(index);
+  };
   const term = query.trim().toLowerCase();
 
   const results = useMemo(
@@ -99,12 +109,24 @@ export function ArtworksIndex({
       ),
     [term],
   );
+  const shownWork = shown === null ? null : (results[shown] ?? null);
+  const closePanel = useCallback(() => setOpen(null), []);
+  const prev = useCallback(() => {
+    if (open === null || open === 0) return;
+    setOpen(open - 1);
+    setShown(open - 1);
+  }, [open]);
+  const next = useCallback(() => {
+    if (open === null || open >= results.length - 1) return;
+    setOpen(open + 1);
+    setShown(open + 1);
+  }, [open, results.length]);
 
   return (
     <section
       id="works"
       aria-label="Artworks"
-      className={cn("bg-white pb-16 text-(--k-ink) lg:pb-24", SANS)}
+      className={cn("bg-white text-(--k-ink)", SANS)}
     >
       {/* Search, filters and count, between two rules. */}
       <div className={GRID}>
@@ -170,8 +192,12 @@ export function ArtworksIndex({
           spare width in the last row so it stays at the base height. */}
       {results.length ? (
         <ul className="mt-8 flex flex-wrap items-start gap-x-3 gap-y-8 px-4 [--row-h:120px] after:grow-[999] after:content-[''] lg:mt-10 lg:gap-x-4 lg:gap-y-10 lg:px-5 lg:[--row-h:240px]">
-          {results.map((work) => (
-            <WorkCard key={workKey(work)} work={work} />
+          {results.map((work, index) => (
+            <WorkCard
+              key={workKey(work)}
+              work={work}
+              onOpen={() => show(index)}
+            />
           ))}
         </ul>
       ) : (
@@ -183,11 +209,21 @@ export function ArtworksIndex({
               onClick={() => setQuery("")}
               className="underline underline-offset-4 hover:opacity-60"
             >
-              Show all
+              Show All
             </button>
           </p>
         </div>
       )}
+
+      <ArtworkPanel
+        open={open !== null}
+        work={shownWork ? { ...shownWork, artist: shownWork.artistData } : null}
+        hasPrev={open !== null && open > 0}
+        hasNext={open !== null && open < results.length - 1}
+        onPrev={prev}
+        onNext={next}
+        onClose={closePanel}
+      />
     </section>
   );
 }

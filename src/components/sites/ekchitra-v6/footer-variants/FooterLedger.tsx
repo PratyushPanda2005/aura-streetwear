@@ -81,7 +81,7 @@ export function FooterLedger() {
               rel="noreferrer"
               className={cn(BUTTON, "mt-6")}
             >
-              Get in touch
+              Get in Touch
               <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -113,7 +113,8 @@ export function FooterLedger() {
         <LinkColumn
           title="Services"
           links={CTA_SERVICES.map((service) => ({
-            label: service.title,
+            // Link labels are set in title case, like every link on the site.
+            label: service.title.replace(/\b\w/g, (c) => c.toUpperCase()),
             href: service.cta.href,
             external: true,
           }))}

@@ -5,7 +5,7 @@ import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/Foo
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
-import { ServicesPanels } from "@/components/sites/ekchitra-v6/services-cards/ServicesPanels";
+import { ServicesOverlay } from "@/components/sites/ekchitra-v6/services-cards/ServicesOverlay";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 
@@ -29,10 +29,10 @@ export default function EkchitraV6Page() {
       <Statement />
       <ExIndexReel />
       <ArtistsBands />
-      {/* Services: iteration 07 (three panels) for now. The wrapper keeps
+      {/* Services: iteration 04 (overlay cards) for now. The wrapper keeps
           the top bar's "Services" link landing here. */}
       <div id="services" className="scroll-mt-11">
-        <ServicesPanels />
+        <ServicesOverlay />
       </div>
       <FooterLedger />
     </main>

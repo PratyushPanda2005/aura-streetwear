@@ -52,7 +52,7 @@ export function ExFeature() {
             rel="noreferrer"
             className="mt-6 flex h-12 w-full shrink-0 items-center justify-between bg-(--k-ink) px-5 text-[14px] text-white transition-colors duration-300 hover:bg-(--k-maroon) lg:mt-auto"
           >
-            View exhibition
+            View Exhibition
             <LineArrow />
           </a>
         </div>

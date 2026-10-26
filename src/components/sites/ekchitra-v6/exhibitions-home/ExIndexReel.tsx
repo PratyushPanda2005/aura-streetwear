@@ -210,7 +210,7 @@ export function ExIndexReel() {
           href={ALL_HREF}
           className="absolute right-5 bottom-5 flex items-center gap-x-2 bg-(--k-ink) px-3 py-1.5 text-[12px] tracking-[0.06em] text-white uppercase transition-opacity hover:opacity-85"
         >
-          <span aria-hidden="true">▸</span> All exhibitions
+          All Exhibitions <span aria-hidden="true">→</span>
         </a>
       </div>
 
@@ -250,7 +250,7 @@ export function ExIndexReel() {
         ))}
         <li>
           <a href={ALL_HREF} className="inline-block pb-1 text-[15px]">
-            All exhibitions →
+            All Exhibitions →
           </a>
         </li>
       </ol>

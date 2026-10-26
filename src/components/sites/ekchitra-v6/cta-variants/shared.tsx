@@ -87,20 +87,14 @@ export function SectionHead({
   );
 }
 
-/** A long arrow, drawn as a line — v6's arrow. */
+/**
+ * v6's arrow: the same "→" every link and button uses, so arrows read alike
+ * across the site. Size and motion come from the caller's classes.
+ */
 export function LineArrow({ className }: { className?: string }) {
   return (
-    <svg
-      viewBox="0 0 40 10"
-      aria-hidden="true"
-      className={cn("h-2.5 w-10 shrink-0", className)}
-    >
-      <path
-        d="M0 5h39M34 1l4.5 4-4.5 4"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1"
-      />
-    </svg>
+    <span aria-hidden="true" className={cn("inline-block shrink-0", className)}>
+      →
+    </span>
   );
 }

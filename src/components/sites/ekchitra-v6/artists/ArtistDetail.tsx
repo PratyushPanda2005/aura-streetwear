@@ -45,10 +45,6 @@ const listOf = (items: string[]) =>
 const SMALL_BUTTON =
   "inline-flex h-8 w-[168px] items-center justify-between gap-x-3 border border-(--k-ink)/30 px-3 text-[13px] hover:border-(--k-ink)";
 
-/** An underlined text link. */
-const UNDERLINED =
-  "underline decoration-1 underline-offset-4 hover:no-underline";
-
 /**
  * The body of an artist's page, after the artist pages on goodman-gallery.com,
  * in EkChitra's own words, works and photographs. It sits inside the shared
@@ -56,11 +52,12 @@ const UNDERLINED =
  * - a short line from the statement, centred;
  * - the works in a four-column grid, each shown whole on white with its
  *   title, medium and size;
- * - the bio, laid out as Goodman's: the artist's portrait in the first
- *   quarter with a caption and a small button to download their CV; from the halfway line, a small "Artist bio" heading, the
- *   bio as paragraphs — their statement, then what the gallery holds and how
- *   it represents them, drawn from its own data — and an underlined link to
- *   their page on ekchitra.com;
+ * - the bio, laid out as Goodman's: a small portrait of the artist at the
+ *   left with a caption and a small button to download their CV; from the
+ *   halfway line, a small "Artist bio" heading and the bio as paragraphs —
+ *   their statement, then what the gallery holds and how it represents them,
+ *   drawn from its own data. Everything is on this page, so it doesn't send
+ *   visitors elsewhere to read more;
  * - a row of the gallery's other artists;
  * - and, last, the enquiry card: black type centred on brand sky blue.
  * Static.
@@ -114,7 +111,7 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
               href={`${V6_HOME}/artworks?medium=${encodeURIComponent(artist.name)}`}
               className={SMALL_BUTTON}
             >
-              View in artworks
+              View in Artworks
               <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -146,12 +143,12 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
         className={cn(GRID, "gap-y-10 py-12 lg:py-16")}
       >
         <div className="col-span-4 sm:col-span-2 lg:col-span-3">
-          <div className="relative aspect-[4/5] overflow-hidden">
+          <div className="relative aspect-[4/5] w-[140px] overflow-hidden lg:w-[180px]">
             <Image
               src={portrait}
               alt={`Portrait of ${artist.name}`}
               fill
-              sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+              sizes="180px"
               className="object-cover"
             />
           </div>
@@ -176,14 +173,6 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
               <p key={text}>{text}</p>
             ))}
           </div>
-          <a
-            href={artist.href}
-            target="_blank"
-            rel="noreferrer"
-            className={cn(UNDERLINED, "mt-6 inline-block text-[14px]")}
-          >
-            Read more on ekchitra.com
-          </a>
         </div>
       </section>
 

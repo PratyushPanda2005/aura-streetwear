@@ -44,7 +44,7 @@ const ROW = "grid grid-cols-[92px_1fr] gap-x-3 text-[13px] leading-[1.45]";
  * fixed behind the page (drifting a touch for depth) while the next band
  * slides up over it. Frosted cards ride in one column on top — the poster,
  * the title, its status, dates and curator, and a link — eased so each is
- * centred as its poster fills the screen. A navy "View all exhibitions"
+ * centred as its poster fills the screen. A navy "View All Exhibitions"
  * button holds the bottom-right corner while the bands pass.
  */
 export function ExhibitionsBands() {
@@ -175,7 +175,7 @@ export function ExhibitionsBands() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View exhibition
+                      View Exhibition
                       <span className="sr-only">: {show.title}</span>
                     </CapsLink>
                   </dd>
@@ -203,7 +203,7 @@ export function ExhibitionsBands() {
             >
               <path d="M12 0l4 4-4 4-4-4zM4 8l4 4-4 4-4-4z" />
             </svg>
-            <span>View all exhibitions</span>
+            <span>View All Exhibitions</span>
             <span aria-hidden="true">→</span>
           </a>
         </div>

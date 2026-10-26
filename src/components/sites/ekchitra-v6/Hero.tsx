@@ -54,9 +54,14 @@ const FEATURED_SHOW = EXHIBITIONS[0];
  * on their own beside it; a film of the gallery below; a black cell saying
  * what the gallery is; and in the corner, the current exhibition's poster
  * filling the cell, darkened from the foot by a black gradient with a plain
- * "View exhibition →" over it — the whole cell is the link. Cells open in sequence on arrival.
+ * "View Exhibition →" over it — the whole cell is the link. Cells open in sequence on arrival.
  */
-export function Hero() {
+export function Hero({
+  dotted = false,
+}: {
+  /** Show the carousel and the film as dotted pictures that clear on hover. */
+  dotted?: boolean;
+}) {
   return (
     <section
       id="top"
@@ -75,9 +80,15 @@ export function Hero() {
       </div>
       <HeroCarousel
         slides={SLIDES}
+        dotted={dotted}
         className="ek5-rise col-span-2 hidden [--d:300ms] lg:block"
       />
-      <div className="ek5-rise relative col-span-2 overflow-hidden bg-(--k-ink) [--d:450ms]">
+      <div
+        className={cn(
+          "ek5-rise relative col-span-2 overflow-hidden bg-(--k-ink) [--d:450ms]",
+          dotted && "group",
+        )}
+      >
         <video
           src={VIDEO.src}
           poster={VIDEO.poster}
@@ -87,7 +98,10 @@ export function Hero() {
           playsInline
           preload="metadata"
           aria-hidden="true"
-          className="absolute inset-0 size-full object-cover"
+          className={cn(
+            "absolute inset-0 size-full object-cover",
+            dotted && "ek6-dots",
+          )}
         />
       </div>
       <div className="ek5-rise hidden flex-col justify-between bg-(--k-ink) p-5 text-white [--d:600ms] lg:flex">
@@ -101,7 +115,7 @@ export function Hero() {
             "flex items-center justify-between text-[11px] text-white/80 hover:text-white",
           )}
         >
-          About the gallery <span aria-hidden="true">→</span>
+          About the Gallery <span aria-hidden="true">→</span>
         </a>
       </div>
       <a
@@ -127,7 +141,7 @@ export function Hero() {
             "absolute inset-x-5 bottom-5 flex items-center justify-between text-[11px] text-white",
           )}
         >
-          View exhibition
+          View Exhibition
           <span
             aria-hidden="true"
             className="transition-transform duration-300 group-hover:translate-x-1"

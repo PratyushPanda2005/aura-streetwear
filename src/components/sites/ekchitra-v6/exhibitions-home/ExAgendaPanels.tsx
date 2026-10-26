@@ -215,7 +215,7 @@ export function ExAgendaPanels() {
                   />
                 </span>
                 <span className="mt-4 inline-flex items-center gap-x-2 text-[13px]">
-                  View exhibition
+                  View Exhibition
                   <span
                     aria-hidden="true"
                     className={cn(

@@ -207,7 +207,7 @@ export function AboutStory() {
             </Rise>
           </div>
           <a href={`${V6_HOME}/artworks`} className={cn(BUTTON, "mt-10")}>
-            View the artworks
+            View the Artworks
             <span aria-hidden="true">→</span>
           </a>
         </div>

@@ -24,6 +24,11 @@
     scrollbar-width: thin;
   }
 }
+/* Keep the scrollbar's space reserved even while scrolling is locked (the
+   artwork panel), so the page doesn't jump sideways when it opens. */
+html:has(.ek5) {
+  scrollbar-gutter: stable;
+}
 html:has(.ek5)::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -469,6 +474,53 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   .ek6-unveil,
   [data-shown="true"] .ek6-unveil {
     clip-path: none;
+    transition: none;
+  }
+}
+
+/* Dotted pictures (after the halftones on aspensearch.com), kept subtle: the
+   element is masked to a fine grid of large, close dots and partly
+   desaturated; when its group is hovered or focused the dots grow until they
+   merge into the clear, full-colour picture. Touch screens (no hover) see it
+   clear. Used by the dotted-hero route only. */
+@property --ek6-dot {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 64%;
+}
+.ek6-dots {
+  --ek6-dot: 64%;
+  -webkit-mask-image: radial-gradient(
+    circle,
+    #000 var(--ek6-dot),
+    transparent calc(var(--ek6-dot) + 8%)
+  );
+  mask-image: radial-gradient(
+    circle,
+    #000 var(--ek6-dot),
+    transparent calc(var(--ek6-dot) + 8%)
+  );
+  -webkit-mask-size: 4px 4px;
+  mask-size: 4px 4px;
+  filter: grayscale(0.6);
+  transition:
+    --ek6-dot 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+    filter 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.group:hover .ek6-dots,
+.group:focus-within .ek6-dots {
+  --ek6-dot: 115%;
+  filter: none;
+}
+@media (hover: none) {
+  .ek6-dots {
+    -webkit-mask-image: none;
+    mask-image: none;
+    filter: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-dots {
     transition: none;
   }
 }
