@@ -3659,3 +3659,13 @@ Import traces:
 [183936197ms] [LOG] [Fast Refresh] done in 582ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
 [188923255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
 [188923302ms] [LOG] [Fast Refresh] done in 151ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[189921605ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[189921614ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[194489654ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[194490123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[194491168ms] [LOG] [Fast Refresh] done in 1133ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[232665462ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=aAEh6JNOJBvzgvmyyXxjM' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16256
+[232666470ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=aAEh6JNOJBvzgvmyyXxjM' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16256
+[232667498ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=aAEh6JNOJBvzgvmyyXxjM' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16256
+[232668504ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=aAEh6JNOJBvzgvmyyXxjM' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16256
+[232669542ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/hmr?id=aAEh6JNOJBvzgvmyyXxjM' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js:16256

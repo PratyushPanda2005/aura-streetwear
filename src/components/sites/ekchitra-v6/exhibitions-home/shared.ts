@@ -1,10 +1,12 @@
 import { EXHIBITIONS, V6_HOME } from "../data";
 
 /**
- * The shows every homepage exhibitions iteration uses, picked by title for
- * their posters: full-bleed images that fill a frame (no white grounds).
+ * The shows every homepage exhibitions iteration uses: the latest three,
+ * newest first, whose posters are full-bleed images that fill a frame
+ * (Where Light Rests has only a placeholder, and Swadhatri's poster is on
+ * white, so both are left out).
  */
-const TITLES = ["Satirical Symphony", "Tree of Life", "Pause & Reflect"];
+const TITLES = ["Living Temple 2026", "Hyd Art", "House of Unified Expression"];
 
 export const SHOWS = TITLES.map((title) =>
   EXHIBITIONS.find((show) => show.title === title),
@@ -18,15 +20,19 @@ export const VENUE = "EkChitra, Hyderabad";
 /** The exhibitions page, for "all exhibitions" links. */
 export const ALL_HREF = `${V6_HOME}/exhibitions`;
 
-/** "Upcoming" for a current show with dates, "Now on" without; else "Past". */
+/**
+ * "Upcoming" for a current show with dates or dates still to be announced,
+ * "Now on" otherwise; else "Past".
+ */
 export const statusOf = (show: Show) =>
   show.status === "Current"
-    ? /\d/.test(show.dates)
+    ? /\d|announced/i.test(show.dates)
       ? "Upcoming"
       : "Now on"
     : "Past";
 
-/** The year a show opened, from its published dates. */
-export const yearOf = (show: Show) => show.dates.match(/\d{4}/)?.[0] ?? "";
+/** The year a show opened, from its published dates, else from its title. */
+export const yearOf = (show: Show) =>
+  (show.dates.match(/\d{4}/) ?? show.title.match(/\d{4}/))?.[0] ?? "";
 
 export const pad = (value: number) => String(value).padStart(2, "0");
