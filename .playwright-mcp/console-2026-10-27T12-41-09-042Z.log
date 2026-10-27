@@ -1,0 +1,64 @@
+[     382ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    2506ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    2566ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    8478ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    9228ms] [LOG] [Fast Refresh] done in 853ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   44722ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   46318ms] [LOG] [Fast Refresh] done in 1598ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   46345ms] [LOG] [Fast Refresh] done in 1598ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   46435ms] [LOG] [Fast Refresh] done in 1598ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   79562ms] [LOG] [Fast Refresh] done in 1598ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   79971ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   80050ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  149159ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  149434ms] [LOG] [Fast Refresh] done in 379ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  164275ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  165506ms] [LOG] [Fast Refresh] done in 1174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  165542ms] [LOG] [Fast Refresh] done in 1174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  165617ms] [LOG] [Fast Refresh] done in 1174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  187096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  188283ms] [ERROR] ./src/app/ekchitra-v6/services/page.tsx:5:1
+Error: Export SERVICES_PHOTOS doesn't exist in target module
+   3 | ...om "@/components...
+   4 | ... } from "@/compo...
+>  5 | ...
+     |    ^^^^^^^
+>  6 | ...
+     |    ^^^^^^^^^^^^^^^^^^
+>  7 | ...
+     |    ^^^^^^^^^^^^^^^
+>  8 | ...tes/ekchitra-v6/...
+     |    ^^^^^^^^^^^^^^^^^^^
+   9 | ...
+  10 | ...Metadata = {
+  11 | ...EkChitra Art Gal...
+
+The export SERVICES_PHOTOS was not found in module [project]/src/components/sites/ekchitra-v6/services/ServicesPage.tsx [app-rsc] (ecmascript).
+Did you mean to import ServicesPage?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  188582ms] [ERROR] ./src/app/ekchitra-v6/services/page.tsx:5:1
+Error: Export SERVICES_PHOTOS doesn't exist in target module
+   3 | ...om "@/components...
+   4 | ... } from "@/compo...
+>  5 | ...
+     |    ^^^^^^^
+>  6 | ...
+     |    ^^^^^^^^^^^^^^^^^^
+>  7 | ...
+     |    ^^^^^^^^^^^^^^^
+>  8 | ...tes/ekchitra-v6/...
+     |    ^^^^^^^^^^^^^^^^^^^
+   9 | ...
+  10 | ...Metadata = {
+  11 | ...EkChitra Art Gal...
+
+The export SERVICES_PHOTOS was not found in module [project]/src/components/sites/ekchitra-v6/services/ServicesPage.tsx [app-rsc] (ecmascript).
+Did you mean to import ServicesPage?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  216884ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  217559ms] [LOG] [Fast Refresh] done in 690ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  217569ms] [LOG] [Fast Refresh] done in 690ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  217647ms] [LOG] [Fast Refresh] done in 690ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  217843ms] [LOG] [Fast Refresh] done in 690ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  221008ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  221108ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

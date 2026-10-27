@@ -1,0 +1,116 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e3]:
+    - region "top of page"
+    - generic [ref=f7e10]:
+      - group:
+        - banner:
+          - generic [ref=f7e11]:
+            - group:
+              - link [ref=f7e16] [cursor=pointer]:
+                - /url: https://www.ekchitra.com
+                - img "EkChitra Logo black.png" [ref=f7e18]
+              - navigation "Site" [ref=f7e21]:
+                - list [ref=f7e22]:
+                  - listitem [ref=f7e23]:
+                    - link "About" [ref=f7e26] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/about
+                  - listitem [ref=f7e28]:
+                    - link "Artists" [ref=f7e31] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/artists
+                  - listitem [ref=f7e33]:
+                    - link "Gallery" [ref=f7e36] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/category/all-products
+                  - listitem [ref=f7e38]:
+                    - link "Exhibitions" [ref=f7e41] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/exhibitions
+                  - listitem [ref=f7e43]:
+                    - link "News" [ref=f7e46] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/news
+                  - listitem [ref=f7e48]:
+                    - link "Contact" [ref=f7e51] [cursor=pointer]:
+                      - /url: https://www.ekchitra.com/contact
+        - main:
+          - generic [ref=f7e54]:
+            - group:
+              - generic [ref=f7e58]:
+                - heading "Get In Touch" [level=1] [ref=f7e61]
+                - paragraph [ref=f7e63]: We'd love to hear from you
+          - generic [ref=f7e64]:
+            - group:
+              - generic [ref=f7e68]:
+                - group:
+                  - generic [ref=f7e70]:
+                    - list:
+                      - listitem [ref=f7e71]:
+                        - generic [ref=f7e73]:
+                          - heading "Visit Us" [level=6] [ref=f7e81]
+                          - paragraph [ref=f7e83]:
+                            - link "F94M+52P, Surya Enclave, HITEC City, Hyderabad, Telangana 500081" [ref=f7e84] [cursor=pointer]:
+                              - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D
+                      - listitem [ref=f7e85]:
+                        - generic [ref=f7e87]:
+                          - heading "Call Us" [level=6] [ref=f7e95]
+                          - paragraph [ref=f7e97]:
+                            - link "+91 91001 18321" [ref=f7e98] [cursor=pointer]:
+                              - /url: tel:+91 91001 18321
+                            - text: "Mon-Sat: 10AM - 7PM"
+                      - listitem [ref=f7e99]:
+                        - generic [ref=f7e101]:
+                          - heading "Email Us" [level=6] [ref=f7e110]
+                          - paragraph [ref=f7e112]:
+                            - link "info@ekchitra.com" [ref=f7e113] [cursor=pointer]:
+                              - /url: mailto:info@ekchitra.com
+        - contentinfo:
+          - generic [ref=f7e114]:
+            - group:
+              - generic [ref=f7e118]:
+                - group:
+                  - generic [ref=f7e120]:
+                    - heading "EkChitra" [level=5] [ref=f7e123]
+                    - paragraph [ref=f7e125]: Contemporary Indian art gallery showcasing exceptional talent and creativity.
+                    - list "Social Bar" [ref=f7e127]:
+                      - listitem [ref=f7e128]:
+                        - link "Instagram" [ref=f7e129] [cursor=pointer]:
+                          - /url: https://www.instagram.com/ek_chitra/
+                          - img "Instagram" [ref=f7e131]
+              - generic [ref=f7e132]:
+                - group:
+                  - generic [ref=f7e134]:
+                    - heading "Quick Links" [level=5] [ref=f7e137]
+                    - paragraph [ref=f7e139]:
+                      - link "Gallery" [ref=f7e140] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/about
+                    - paragraph [ref=f7e142]:
+                      - link "Artists" [ref=f7e143] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/artists
+                    - paragraph [ref=f7e145]:
+                      - link "Exhibitions" [ref=f7e146] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/virtual-gallery
+                    - paragraph [ref=f7e148]:
+                      - link "News" [ref=f7e149] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/news
+              - generic [ref=f7e150]:
+                - group:
+                  - generic [ref=f7e152]:
+                    - heading "Information" [level=5] [ref=f7e155]
+                    - paragraph [ref=f7e157]:
+                      - link "About Us" [ref=f7e158] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/about
+                    - paragraph [ref=f7e160]:
+                      - link "Contact" [ref=f7e161] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/contact
+                    - paragraph [ref=f7e163]:
+                      - link "Privacy Policy" [ref=f7e164] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/privacy-policy
+                    - paragraph [ref=f7e166]:
+                      - link "Terms & Conditions" [ref=f7e167] [cursor=pointer]:
+                        - /url: https://www.ekchitra.com/terms-and-conditions
+              - generic [ref=f7e168]:
+                - group
+              - generic [ref=f7e171]:
+                - group:
+                  - paragraph [ref=f7e175]: © 2026 EKCHITRA. All rights reserved.
+    - region "bottom of page"
+  - link "Chat on WhatsApp" [ref=f7e176] [cursor=pointer]:
+    - /url: https://wa.me/919100118321
+    - img "WhatsApp Icon" [ref=f7e177]

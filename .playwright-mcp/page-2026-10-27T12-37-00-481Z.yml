@@ -1,0 +1,342 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e8]:
+    - generic [ref=f18e10]:
+      - generic [ref=f18e11]: "0"
+      - generic [ref=f18e12]: "1"
+      - generic [ref=f18e13]: "2"
+      - generic [ref=f18e14]: "3"
+      - generic [ref=f18e15]: "4"
+      - generic [ref=f18e16]: "5"
+      - generic [ref=f18e17]: "6"
+      - generic [ref=f18e18]: "7"
+      - generic [ref=f18e19]: "8"
+      - generic [ref=f18e20]: "9"
+      - generic [ref=f18e21]: "0"
+    - generic [ref=f18e23]:
+      - generic [ref=f18e24]: "0"
+      - generic [ref=f18e25]: "1"
+      - generic [ref=f18e26]: "2"
+      - generic [ref=f18e27]: "3"
+      - generic [ref=f18e28]: "4"
+      - generic [ref=f18e29]: "5"
+      - generic [ref=f18e30]: "6"
+      - generic [ref=f18e31]: "7"
+      - generic [ref=f18e32]: "8"
+      - generic [ref=f18e33]: "9"
+      - generic [ref=f18e34]: "0"
+    - generic [ref=f18e36]:
+      - generic [ref=f18e37]: "0"
+      - generic [ref=f18e38]: "1"
+      - generic [ref=f18e39]: "2"
+      - generic [ref=f18e40]: "3"
+      - generic [ref=f18e41]: "4"
+      - generic [ref=f18e42]: "5"
+      - generic [ref=f18e43]: "6"
+      - generic [ref=f18e44]: "7"
+      - generic [ref=f18e45]: "8"
+      - generic [ref=f18e46]: "9"
+      - generic [ref=f18e47]: "0"
+  - generic [ref=f18e50]:
+    - navigation [ref=f18e51]:
+      - generic [ref=f18e52]:
+        - button "News Feed" [ref=f18e53] [cursor=pointer]
+        - link "Home" [ref=f18e54] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f18e57]:
+          - generic [ref=f18e58]:
+            - status [ref=f18e59]
+            - button "Loading..." [ref=f18e60] [cursor=pointer]
+            - generic [ref=f18e64]:
+              - button "£ GBP British Pound" [ref=f18e65] [cursor=pointer]:
+                - generic [ref=f18e66]: £
+                - generic [ref=f18e67]:
+                  - generic [ref=f18e68]: GBP
+                  - generic [ref=f18e69]: British Pound
+              - button "€ EUR Euro" [ref=f18e70] [cursor=pointer]:
+                - generic [ref=f18e71]: €
+                - generic [ref=f18e72]:
+                  - generic [ref=f18e73]: EUR
+                  - generic [ref=f18e74]: Euro
+              - button "$ USD United States Dollar" [ref=f18e75] [cursor=pointer]:
+                - generic [ref=f18e76]: $
+                - generic [ref=f18e77]:
+                  - generic [ref=f18e78]: USD
+                  - generic [ref=f18e79]: United States Dollar
+              - button "R ZAR South African Rand" [ref=f18e80] [cursor=pointer]:
+                - generic [ref=f18e81]: R
+                - generic [ref=f18e82]:
+                  - generic [ref=f18e83]: ZAR
+                  - generic [ref=f18e84]: South African Rand
+          - button "Cart" [ref=f18e85] [cursor=pointer]
+          - button "Enquiry List" [ref=f18e89] [cursor=pointer]
+          - button "Account" [ref=f18e92] [cursor=pointer]
+          - button "Menu" [ref=f18e96] [cursor=pointer]
+        - generic [ref=f18e97]:
+          - button "Support" [ref=f18e99] [cursor=pointer]
+          - generic [ref=f18e108]:
+            - generic [ref=f18e111]:
+              - searchbox "Search" [ref=f18e112]
+              - generic: Search
+            - generic [ref=f18e114]:
+              - list [ref=f18e115]:
+                - listitem [ref=f18e116]:
+                  - link "Artists" [ref=f18e117] [cursor=pointer]:
+                    - /url: /artists
+                - listitem [ref=f18e118]:
+                  - link "Exhibitions" [ref=f18e119] [cursor=pointer]:
+                    - /url: /exhibitions
+                - listitem [ref=f18e120]:
+                  - link "Fairs" [ref=f18e121] [cursor=pointer]:
+                    - /url: /fairs
+                - listitem [ref=f18e122]:
+                  - link "Films" [ref=f18e123] [cursor=pointer]:
+                    - /url: /films
+                - listitem [ref=f18e124]:
+                  - link "Screenings" [ref=f18e125] [cursor=pointer]:
+                    - /url: /william-kentridge-goodman-screenings
+                - listitem [ref=f18e126]:
+                  - link "Gift Store" [ref=f18e127] [cursor=pointer]:
+                    - /url: /shop
+                - listitem [ref=f18e128]:
+                  - link "Available Works" [ref=f18e129] [cursor=pointer]:
+                    - /url: /available-artworks
+              - list [ref=f18e130]:
+                - listitem [ref=f18e131]:
+                  - link "About" [ref=f18e132] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f18e133]:
+                  - link "Contact" [ref=f18e134] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f18e135]:
+                  - link "Curatorial Initiatives" [ref=f18e136] [cursor=pointer]:
+                    - /url: /curatorial-initiatives
+                - listitem [ref=f18e137]:
+                  - link "Advisory" [ref=f18e138] [cursor=pointer]:
+                    - /url: /goodman-advisory
+                - listitem [ref=f18e139]:
+                  - link "Secondary Market" [ref=f18e140] [cursor=pointer]:
+                    - /url: /secondary-market
+                - listitem [ref=f18e141]:
+                  - link "What's On" [ref=f18e142] [cursor=pointer]:
+                    - /url: /programme
+                - listitem [ref=f18e143]:
+                  - link "News" [ref=f18e144] [cursor=pointer]:
+                    - /url: /news
+                - listitem [ref=f18e145]:
+                  - link "Press" [ref=f18e146] [cursor=pointer]:
+                    - /url: /press
+              - generic [ref=f18e147]:
+                - generic [ref=f18e148]: Follow
+                - list [ref=f18e150]:
+                  - listitem [ref=f18e151]:
+                    - link "Follow us on Instagram" [ref=f18e152] [cursor=pointer]:
+                      - /url: https://www.instagram.com/goodman_gallery/
+                  - listitem [ref=f18e154]:
+                    - link "Follow us on Facebook" [ref=f18e155] [cursor=pointer]:
+                      - /url: https://www.facebook.com/GoodmanGallery
+                  - listitem [ref=f18e157]:
+                    - link "Follow us on YouTube" [ref=f18e158] [cursor=pointer]:
+                      - /url: https://www.youtube.com/@goodman_gallery
+              - button "Subscribe and discover unlimited access to Goodman Gallery Subscribe Discover unlimited access to Goodman Subscribe" [ref=f18e161] [cursor=pointer]:
+                - img "Subscribe and discover unlimited access to Goodman Gallery" [ref=f18e163]
+                - generic [ref=f18e164]:
+                  - generic [ref=f18e165]:
+                    - generic [ref=f18e166]: Subscribe
+                    - paragraph [ref=f18e169]: Discover unlimited access to Goodman
+                  - generic [ref=f18e170]: Subscribe
+          - generic [ref=f18e171]:
+            - link "Goodman Gallery Home" [ref=f18e172] [cursor=pointer]:
+              - /url: /
+            - generic [ref=f18e175]:
+              - generic [ref=f18e176]: Account
+              - generic [ref=f18e180]:
+                - generic [aria-hidden] [ref=f18e182]:
+                  - generic [aria-hidden] [ref=f18e184]: Browse
+                  - generic [aria-hidden] [ref=f18e186]: available
+                  - generic [aria-hidden] [ref=f18e188]: artworks,
+                  - generic [aria-hidden] [ref=f18e190]: view
+                  - generic [aria-hidden] [ref=f18e192]: pricing
+                  - generic [aria-hidden] [ref=f18e194]: "on"
+                  - generic [aria-hidden] [ref=f18e196]: selected
+                  - generic [aria-hidden] [ref=f18e198]: works,
+                - generic [aria-hidden] [ref=f18e200]:
+                  - generic [aria-hidden] [ref=f18e202]: and
+                  - generic [aria-hidden] [ref=f18e204]: purchase
+                  - generic [aria-hidden] [ref=f18e206]: with
+                  - generic [aria-hidden] [ref=f18e208]: confidence
+                  - generic [aria-hidden] [ref=f18e210]: through
+                  - generic [aria-hidden] [ref=f18e212]: our
+                  - generic [aria-hidden] [ref=f18e214]: online
+                  - generic [aria-hidden] [ref=f18e216]: Shop.
+              - link "My Account" [ref=f18e218] [cursor=pointer]:
+                - /url: /account
+    - main [ref=f18e219]:
+      - heading [level=1] [ref=f18e221]:
+        - generic [aria-hidden] [ref=f18e227]: Goodman
+        - generic [aria-hidden] [ref=f18e233]: Advisory
+      - generic [ref=f18e238]:
+        - paragraph [ref=f18e239]: "Rooted in the 60-year legacy of Goodman Gallery, with locationsin South Africa, London, and New York, Goodman Advisory guides collectors and institutions in building thoughtful, enduring art collections shaped by global perspectives and rigorous market insight. We provide bespoke advisory services tailored to each client’s objectives, supporting every stage of the collecting process: from research, sourcing, and acquisition to governance, collection management, conservation, institutional partnerships, loans, deaccessioning, and long-term stewardship."
+        - paragraph
+        - paragraph [ref=f18e240]:
+          - strong [ref=f18e241]: ‘
+          - text: Barloworld operates in 11 African Countries and employs thousands of staff across multiple sectors on the Continent. We approached Goodman to build a representative and relevant art collection for the business as part of our broader vision for the company. Goodman advised on a strategy to deaccession multiple historical artworks and bring the focus into the contemporary field. The collection now includes living artists from across the Continent working in many different disciplines and was curated to align with our core values and external programme partnerships. We are proud to host one of the most important corporate collections of African art in the country
+          - strong [ref=f18e242]: ’ – Dominic Sewela, CEO, Barloworld
+      - generic [ref=f18e243]: Our approach combines discretion, transparency, and deep international relationships to ensure that each collection is not only culturally meaningful, but responsibly developed and sustained for the future.
+      - generic [ref=f18e246]:
+        - generic [ref=f18e249]:
+          - paragraph [ref=f18e250]:
+            - strong [ref=f18e251]: ‘
+            - text: We approached Goodman to build an iconic corporate collection of artwork by leading artists from the African Continent and the Diaspora for our New York HQ. Being in a city like New York, we needed the collection to be exceptional at every level. Goodman was able to secure works by leading artists from galleries across the US, Europe and Africa. Their approach was tailored to our needs, identifying bespoke and ambitious solution where space allowed. This high quality collection has received much praise.
+            - strong [ref=f18e252]: ’
+          - paragraph [ref=f18e253]:
+            - strong [ref=f18e254]: – Wealth Management Firm, New York
+        - img "Goodman Advisory" [ref=f18e258]
+      - link "Speak with Our Advisory Team With offices and networks in London and New York, the world’s leading art market centres, we combine global reach with strong on-the-ground expertise. Connect with our Goodman Advisory specialists Connect with Goodman Advisory specialists in the UK, US, and South Africa." [ref=f18e260] [cursor=pointer]:
+        - /url: mailto:jacqui@goodman-gallery.com?subject=Goodman%20Gallery%20Consignments
+        - generic [ref=f18e261]:
+          - generic [ref=f18e262]: Speak with Our Advisory Team
+          - paragraph [ref=f18e265]: With offices and networks in London and New York, the world’s leading art market centres, we combine global reach with strong on-the-ground expertise.
+          - generic [ref=f18e266]: Connect with our Goodman Advisory specialists
+        - img "Connect with Goodman Advisory specialists in the UK, US, and South Africa." [ref=f18e269]
+      - img "Shonibare" [ref=f18e273]
+    - contentinfo [ref=f18e274]:
+      - generic [ref=f18e275]:
+        - generic [ref=f18e276]:
+          - generic [ref=f18e277]: Newsletter
+          - paragraph [ref=f18e280]: Be the first to know about our events, exhibitions, artists and much more
+          - button "Subscribe" [ref=f18e281] [cursor=pointer]
+        - generic [ref=f18e282]:
+          - generic [ref=f18e283]: Follow
+          - list [ref=f18e284]:
+            - listitem [ref=f18e285]:
+              - link "Follow us on Instagram" [ref=f18e286] [cursor=pointer]:
+                - /url: https://www.instagram.com/goodman_gallery/
+            - listitem [ref=f18e288]:
+              - link "Follow us on Facebook" [ref=f18e289] [cursor=pointer]:
+                - /url: https://www.facebook.com/GoodmanGallery
+            - listitem [ref=f18e291]:
+              - link "Follow us on YouTube" [ref=f18e292] [cursor=pointer]:
+                - /url: https://www.youtube.com/@goodman_gallery
+        - tablist [ref=f18e295]:
+          - tab [ref=f18e296]:
+            - button "Gallery" [ref=f18e297]
+            - list [ref=f18e301]:
+              - listitem [ref=f18e302]:
+                - link "Artists" [ref=f18e303] [cursor=pointer]:
+                  - /url: /artists
+              - listitem [ref=f18e304]:
+                - link "Exhibitions" [ref=f18e305] [cursor=pointer]:
+                  - /url: /exhibitions
+              - listitem [ref=f18e306]:
+                - link "Fairs" [ref=f18e307] [cursor=pointer]:
+                  - /url: /fairs
+              - listitem [ref=f18e308]:
+                - link "Films" [ref=f18e309] [cursor=pointer]:
+                  - /url: /films
+              - listitem [ref=f18e310]:
+                - link "Screenings" [ref=f18e311] [cursor=pointer]:
+                  - /url: /william-kentridge-goodman-screenings
+              - listitem [ref=f18e312]:
+                - link "Gift Store" [ref=f18e313] [cursor=pointer]:
+                  - /url: /shop
+              - listitem [ref=f18e314]:
+                - link "Available Works" [ref=f18e315] [cursor=pointer]:
+                  - /url: /available-artworks
+              - listitem [ref=f18e316]:
+                - link "FAQs" [ref=f18e317] [cursor=pointer]:
+                  - /url: /faqs
+          - tab [ref=f18e318]:
+            - button "Company" [ref=f18e319]
+            - list [ref=f18e323]:
+              - listitem [ref=f18e324]:
+                - link "About" [ref=f18e325] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f18e326]:
+                - link "Contact" [ref=f18e327] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f18e328]:
+                - link "Curatorial Initiatives" [ref=f18e329] [cursor=pointer]:
+                  - /url: /curatorial-initiatives
+              - listitem [ref=f18e330]:
+                - link "Advisory" [ref=f18e331] [cursor=pointer]:
+                  - /url: /goodman-advisory
+              - listitem [ref=f18e332]:
+                - link "Secondary Market" [ref=f18e333] [cursor=pointer]:
+                  - /url: /secondary-market
+              - listitem [ref=f18e334]:
+                - link "What's On" [ref=f18e335] [cursor=pointer]:
+                  - /url: /programme
+              - listitem [ref=f18e336]:
+                - link "Headlines" [ref=f18e337] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=f18e338]:
+                - link "Press" [ref=f18e339] [cursor=pointer]:
+                  - /url: /press
+          - tab [ref=f18e340]:
+            - button "My Goodman Gallery" [ref=f18e341]
+            - list [ref=f18e345]:
+              - listitem [ref=f18e346]:
+                - link "My Account" [ref=f18e347] [cursor=pointer]:
+                  - /url: /account/collection
+              - listitem [ref=f18e348]:
+                - button "My Enquiries (0)" [ref=f18e349] [cursor=pointer]
+              - listitem [ref=f18e350]:
+                - button "My Cart (0)" [ref=f18e351] [cursor=pointer]
+          - tab [ref=f18e352]:
+            - button "Legals" [ref=f18e353]
+            - list [ref=f18e357]:
+              - listitem [ref=f18e358]:
+                - link "Terms of Use" [ref=f18e359] [cursor=pointer]:
+                  - /url: /legal/terms-of-use
+              - listitem [ref=f18e360]:
+                - link "Privacy Policy" [ref=f18e361] [cursor=pointer]:
+                  - /url: /legal/privacy-policy
+              - listitem [ref=f18e362]:
+                - link "Online Terms of Sale" [ref=f18e363] [cursor=pointer]:
+                  - /url: /legal/online-terms-of-sale
+              - listitem [ref=f18e364]:
+                - link "Modern Slavery Statement" [ref=f18e365] [cursor=pointer]:
+                  - /url: /legal/modern-slavery-statement
+              - listitem [ref=f18e366]:
+                - link "Cookie Policy" [ref=f18e367] [cursor=pointer]:
+                  - /url: /legal/cookie-policy
+              - listitem [ref=f18e368]:
+                - button "Cookie Settings" [ref=f18e369] [cursor=pointer]
+        - list [ref=f18e370]:
+          - listitem [ref=f18e371]:
+            - generic [ref=f18e372]: Johannesburg
+            - generic [ref=f18e373]:
+              - generic [ref=f18e374]: 163 Jan Smuts Ave
+              - generic [ref=f18e375]: Parkwood, Johannesburg
+              - generic [ref=f18e376]: South Africa
+            - link "Get Directions" [ref=f18e377] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/6jttENJHBLUr3AUn6
+          - listitem [ref=f18e378]:
+            - generic [ref=f18e379]: Cape Town
+            - generic [ref=f18e380]:
+              - generic [ref=f18e381]: 37A Somerset Rd,
+              - generic [ref=f18e382]: Green Point, Cape Town,
+              - generic [ref=f18e383]: South Africa
+            - link "Get Directions" [ref=f18e384] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/raq4V3R2YACS14fR7
+          - listitem [ref=f18e385]:
+            - generic [ref=f18e386]: London
+            - generic [ref=f18e387]:
+              - generic [ref=f18e388]: 26 Cork St,
+              - generic [ref=f18e389]: London W1S 3ND,
+              - generic [ref=f18e390]: United Kingdom
+            - link "Get Directions" [ref=f18e391] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/gqV9aNss3vrzAkVi9
+          - listitem [ref=f18e392]:
+            - generic [ref=f18e393]: New York
+            - generic [ref=f18e394]:
+              - generic [ref=f18e395]: +1 646 684 3022
+              - generic [ref=f18e396]: nyc@goodman-gallery.com
+              - generic [ref=f18e397]: United States
+        - generic [ref=f18e398]:
+          - generic [ref=f18e399]: © 2026 Goodman Gallery. All Rights Reserved.
+          - generic [ref=f18e400]:
+            - generic [ref=f18e401]: Site by
+            - link "DashDigital® Studio" [ref=f18e402] [cursor=pointer]:
+              - /url: https://dashdigital.studio
+  - alert [ref=f18e403]

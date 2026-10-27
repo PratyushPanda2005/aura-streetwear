@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 import { CAPS, SANS } from "../ekchitra-v5/shared";
 import { hyderabadTime } from "../ekchitra-v5/heroes/data";
-import { CONTACT, V6_HOME, V6_NAV } from "./data";
+import { CONTACT_PAGE, V6_HOME, V6_NAV } from "./data";
 
 /**
  * The thin bar that stays at the top of the page, as on aspensearch.com: the
@@ -58,9 +58,7 @@ export function TopBar() {
         </ul>
       </nav>
       <a
-        href={CONTACT.href}
-        target="_blank"
-        rel="noreferrer"
+        href={CONTACT_PAGE}
         className="ml-auto flex items-center gap-x-6 bg-(--k-ink) px-5 text-[13px] text-white transition-opacity hover:opacity-85 lg:ml-0 lg:w-[208px] lg:justify-between"
       >
         Contact <span aria-hidden="true">→</span>

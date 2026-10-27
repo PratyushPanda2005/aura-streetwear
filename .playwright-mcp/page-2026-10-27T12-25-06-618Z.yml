@@ -1,0 +1,152 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - link "Home" [ref=f12e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f12e6]:
+        - list [ref=f12e7]:
+          - listitem [ref=f12e8]:
+            - link "About" [ref=f12e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f12e10]:
+            - link "Exhibitions" [ref=f12e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f12e12]:
+            - link "Artists" [ref=f12e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f12e14]:
+            - link "Artworks" [ref=f12e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f12e16]:
+            - link "Services" [ref=f12e17] [cursor=pointer]:
+              - /url: /ekchitra-v6#services
+      - link "Contact" [ref=f12e18] [cursor=pointer]:
+        - /url: https://wa.me/919100118321
+        - text: Contact
+        - generic [aria-hidden] [ref=f12e19]: →
+    - img "Lamp lighting at an EkChitra exhibition opening" [ref=f12e21]
+    - generic [ref=f12e22]:
+      - generic [ref=f12e23]:
+        - paragraph [ref=f12e24]: Contact
+        - heading "Get in touch" [level=1] [ref=f12e25]
+      - generic [ref=f12e26]:
+        - paragraph [ref=f12e27]: We’d love to hear from you.
+        - paragraph [ref=f12e28]: Monday to Saturday, 10am – 7pm
+    - generic [ref=f12e29]:
+      - region "General" [ref=f12e30]:
+        - heading "General" [level=2] [ref=f12e31]
+        - generic [ref=f12e32]:
+          - generic [ref=f12e33]:
+            - heading "Enquiries" [level=3] [ref=f12e34]
+            - paragraph [ref=f12e35]:
+              - generic [ref=f12e36]: EkChitra
+              - generic [ref=f12e37]: General enquiries
+            - paragraph [ref=f12e38]:
+              - link "info@ekchitra.com" [ref=f12e39] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+              - link "+91 91001 18321 on WhatsApp" [ref=f12e40] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: +91 91001 18321
+                - generic [ref=f12e41]: on WhatsApp
+          - generic [ref=f12e42]:
+            - heading "Curation" [level=3] [ref=f12e43]
+            - paragraph [ref=f12e44]:
+              - generic [ref=f12e45]: Annapurna M
+              - generic [ref=f12e46]: Curator
+          - generic [ref=f12e47]:
+            - heading "Follow" [level=3] [ref=f12e48]
+            - link "Instagram @ek_chitra" [ref=f12e49] [cursor=pointer]:
+              - /url: https://www.instagram.com/ek_chitra/
+        - generic [ref=f12e50]: EkChitra
+      - region "Hyderabad" [ref=f12e53]:
+        - heading "Hyderabad" [level=2] [ref=f12e54]
+        - generic [ref=f12e55]:
+          - generic [ref=f12e56]:
+            - heading "Hours" [level=3] [ref=f12e57]
+            - generic [ref=f12e58]:
+              - term [ref=f12e59]: Monday to Saturday
+              - definition [ref=f12e60]: 10am – 7pm
+          - generic [ref=f12e61]:
+            - heading "General" [level=3] [ref=f12e62]
+            - paragraph [ref=f12e63]:
+              - link "+91 91001 18321" [ref=f12e64] [cursor=pointer]:
+                - /url: tel:+919100118321
+              - link "info@ekchitra.com" [ref=f12e65] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+          - generic [ref=f12e66]:
+            - heading "Getting There" [level=3] [ref=f12e67]
+            - generic [ref=f12e68]:
+              - generic [ref=f12e69]: F94M+52P, Surya Enclave,
+              - generic [ref=f12e70]: HITEC City, Hyderabad,
+              - generic [ref=f12e71]: Telangana 500081
+            - link "Get Directions" [ref=f12e72] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+        - img "Ribbon cutting at EkChitra, Hyderabad" [ref=f12e75]
+      - link "Art advisory and bespoke sourcing Talk to us on WhatsApp" [ref=f12e77] [cursor=pointer]:
+        - /url: https://wa.me/919100118321
+        - generic [ref=f12e79]: Art advisory and bespoke sourcing
+        - generic [ref=f12e80]: Talk to us on WhatsApp
+    - generic [ref=f12e81]:
+      - generic [ref=f12e82]:
+        - generic [ref=f12e83]:
+          - generic [ref=f12e84]:
+            - link "EkChitra, home" [ref=f12e85] [cursor=pointer]:
+              - /url: /ekchitra-v6
+            - paragraph [ref=f12e87]: EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide.
+            - link "Get in Touch" [ref=f12e88] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: Get in Touch
+              - generic [aria-hidden] [ref=f12e89]: →
+          - generic [ref=f12e90]:
+            - paragraph [ref=f12e91]: Follow
+            - list [ref=f12e92]:
+              - listitem [ref=f12e93]:
+                - link "Instagram" [ref=f12e94] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+              - listitem [ref=f12e95]:
+                - link "WhatsApp" [ref=f12e96] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+        - generic [ref=f12e97]:
+          - paragraph [ref=f12e98]: Explore
+          - list [ref=f12e99]:
+            - listitem [ref=f12e100]:
+              - link "Home" [ref=f12e101] [cursor=pointer]:
+                - /url: /ekchitra-v6
+            - listitem [ref=f12e102]:
+              - link "About" [ref=f12e103] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f12e104]:
+              - link "Exhibitions" [ref=f12e105] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f12e106]:
+              - link "Artists" [ref=f12e107] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f12e108]:
+              - link "Artworks" [ref=f12e109] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f12e110]:
+              - link "Services" [ref=f12e111] [cursor=pointer]:
+                - /url: /ekchitra-v6#services
+        - generic [ref=f12e112]:
+          - paragraph [ref=f12e113]: Services
+          - list [ref=f12e114]:
+            - listitem [ref=f12e115]:
+              - link "Bespoke Sourcing" [ref=f12e116] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+            - listitem [ref=f12e117]:
+              - link "Art Advisory" [ref=f12e118] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+      - generic [ref=f12e119]:
+        - generic [ref=f12e120]:
+          - paragraph [ref=f12e121]: Hyderabad
+          - paragraph [ref=f12e122]: EkChitra Art Gallery
+          - paragraph [ref=f12e123]: Address and opening hours to be confirmed.
+        - generic [ref=f12e124]:
+          - paragraph [ref=f12e125]: Write to us
+          - paragraph [ref=f12e126]: Visits, enquiries and commissions.
+          - link "WhatsApp" [ref=f12e127] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+      - generic [ref=f12e128]:
+        - paragraph [ref=f12e129]: © 2026 EkChitra. All rights reserved.
+        - paragraph [ref=f12e130]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+  - button "Open Next.js Dev Tools" [ref=f12e136] [cursor=pointer]

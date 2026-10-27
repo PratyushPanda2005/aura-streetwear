@@ -3,8 +3,9 @@ import { cn } from "@/lib/utils";
 import { FOOTER } from "../../ekchitra-redesign/data";
 import { ABOUT_STORY } from "../../ekchitra-v5/about-data";
 import { SANS } from "../../ekchitra-v5/shared";
+import { DETAILS } from "../contact/data";
 import { CTA_SERVICES } from "../cta-variants/shared";
-import { CONTACT, SOCIAL, V6_HOME, V6_NAV } from "../data";
+import { CONTACT, CONTACT_PAGE, SOCIAL, V6_HOME, V6_NAV } from "../data";
 import { BUTTON, GRID } from "../styles";
 
 /** A column's heading: the house size, a touch heavier than its links. */
@@ -75,12 +76,7 @@ export function FooterLedger() {
             <p className="mt-6 max-w-[380px] text-[14px] leading-[1.5] text-(--k-ink)/70">
               {ABOUT_STORY.lead}
             </p>
-            <a
-              href={CONTACT.href}
-              target="_blank"
-              rel="noreferrer"
-              className={cn(BUTTON, "mt-6")}
-            >
+            <a href={CONTACT_PAGE} className={cn(BUTTON, "mt-6")}>
               Get in Touch
               <span aria-hidden="true">→</span>
             </a>
@@ -127,7 +123,20 @@ export function FooterLedger() {
         <div className="col-span-4 sm:col-span-2 lg:col-span-3">
           <p className={HEAD}>{FOOTER.location.title}</p>
           <p className="mt-2 text-(--k-ink)/70">EkChitra Art Gallery</p>
-          <p className="text-(--k-ink)/70">{FOOTER.location.note}</p>
+          <address className="text-(--k-ink)/70 not-italic">
+            {DETAILS.address.join(" ")}
+          </address>
+          <p className="mt-2 text-(--k-ink)/70">
+            {DETAILS.hours.days}, {DETAILS.hours.time}
+          </p>
+          <a
+            href={DETAILS.directions}
+            target="_blank"
+            rel="noreferrer"
+            className={cn(UNDERLINED, "mt-4 inline-block")}
+          >
+            Get Directions
+          </a>
         </div>
         <div className="col-span-4 sm:col-span-2 lg:col-span-3">
           <p className={HEAD}>Write to us</p>

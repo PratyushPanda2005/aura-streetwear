@@ -32,7 +32,7 @@ const EASING = 0.12;
  * as you scroll so the current show sits on the poster's centre line in
  * full ink while the rest fade with distance. Under the posters the current
  * title is set large and centred, and the navy "All Exhibitions" button
- * sits beside the poster's foot, on its right. Rows link to
+ * sits level with the poster's foot, flush to the screen's right edge. Rows link to
  * their shows. Below `lg`, a plain list.
  */
 export function ExIndexReel() {
@@ -219,7 +219,10 @@ export function ExIndexReel() {
               </ol>
               <a
                 href={ALL_HREF}
-                className={cn(BUTTON, "absolute bottom-0 left-0 bg-(--k-navy)")}
+                className={cn(
+                  BUTTON,
+                  "absolute -right-5 bottom-0 bg-(--k-navy)",
+                )}
               >
                 <Diamonds />
                 <span>All Exhibitions</span>

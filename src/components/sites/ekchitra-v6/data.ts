@@ -14,8 +14,11 @@ export const V6_NAV = [
   { label: "Exhibitions", href: `${V6_HOME}/exhibitions` },
   { label: "Artists", href: `${V6_HOME}/artists` },
   { label: "Artworks", href: `${V6_HOME}/artworks` },
-  { label: "Services", href: `${V6_HOME}#services` },
+  { label: "Services", href: `${V6_HOME}/services` },
 ];
+
+/** The contact page, where the top bar's and footer's contact buttons go. */
+export const CONTACT_PAGE = `${V6_HOME}/contact`;
 
 export const CONTACT =
   FOOTER.social.find((link) => link.label === "WhatsApp") ?? FOOTER.social[0];

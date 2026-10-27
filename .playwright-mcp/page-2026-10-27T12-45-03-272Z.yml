@@ -1,0 +1,140 @@
+- generic [active] [ref=f24e1]:
+  - main [ref=f24e3]:
+    - generic [ref=f24e4]:
+      - link "Home" [ref=f24e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f24e6]:
+        - list [ref=f24e7]:
+          - listitem [ref=f24e8]:
+            - link "About" [ref=f24e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f24e10]:
+            - link "Exhibitions" [ref=f24e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f24e12]:
+            - link "Artists" [ref=f24e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f24e14]:
+            - link "Artworks" [ref=f24e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f24e16]:
+            - link "Services" [ref=f24e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f24e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f24e19]: →
+    - generic [ref=f24e21]:
+      - generic [ref=f24e22]:
+        - paragraph [ref=f24e23]: Services
+        - heading "Art for spaces, minds & souls" [level=1] [ref=f24e24]
+      - generic [ref=f24e25]:
+        - paragraph [ref=f24e26]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+        - paragraph [ref=f24e27]: Art advisory and bespoke sourcing
+    - generic [ref=f24e28]:
+      - generic [ref=f24e29]:
+        - region [ref=f24e30]:
+          - generic [ref=f24e31]:
+            - heading "Art advisory" [level=2] [ref=f24e32]
+            - paragraph [ref=f24e33]: For collectors
+            - paragraph [ref=f24e34]: Contextual, considered guidance for starting, refining or growing a collection.
+            - list [ref=f24e35]:
+              - listitem [ref=f24e36]: Starting a collection, with a first work
+              - listitem [ref=f24e37]: Refining what you already own
+              - listitem [ref=f24e38]: Growing a collection with a clear direction
+              - listitem [ref=f24e39]: Introductions to artists and their studios
+              - listitem [ref=f24e40]: Framing, care and documentation
+            - link "Talk to the Gallery" [ref=f24e41] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: Talk to the Gallery
+              - generic [aria-hidden] [ref=f24e42]: →
+          - img "A large photographic work installed in an office interior" [ref=f24e44]
+        - region [ref=f24e45]:
+          - generic [ref=f24e46]:
+            - heading "Bespoke sourcing" [level=2] [ref=f24e47]
+            - paragraph [ref=f24e48]: For architects, designers & institutions
+            - paragraph [ref=f24e49]: Art selection, curation and placement shaped around a particular space and brief.
+            - list [ref=f24e50]:
+              - listitem [ref=f24e51]: Homes, from a single wall to a whole house
+              - listitem [ref=f24e52]: Architects and interior designers
+              - listitem [ref=f24e53]: Offices, hotels and restaurants
+              - listitem [ref=f24e54]: Institutions and public spaces
+              - listitem [ref=f24e55]: Commissions made for a particular site
+            - link "Source for a Space" [ref=f24e56] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: Source for a Space
+              - generic [aria-hidden] [ref=f24e57]: →
+          - img "An artwork placed in a furnished interior" [ref=f24e59]
+      - link "Speak with the gallery Visits, enquiries and commissions — tell us what you have in mind. Get in touch" [ref=f24e61] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - generic [ref=f24e63]: Speak with the gallery
+        - generic [ref=f24e64]: Visits, enquiries and commissions — tell us what you have in mind.
+        - generic [ref=f24e65]: Get in touch
+    - generic [ref=f24e66]:
+      - generic [ref=f24e67]:
+        - generic [ref=f24e68]:
+          - generic [ref=f24e69]:
+            - link "EkChitra, home" [ref=f24e70] [cursor=pointer]:
+              - /url: /ekchitra-v6
+            - paragraph [ref=f24e72]: EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide.
+            - link "Get in Touch" [ref=f24e73] [cursor=pointer]:
+              - /url: /ekchitra-v6/contact
+              - text: Get in Touch
+              - generic [aria-hidden] [ref=f24e74]: →
+          - generic [ref=f24e75]:
+            - paragraph [ref=f24e76]: Follow
+            - list [ref=f24e77]:
+              - listitem [ref=f24e78]:
+                - link "Instagram" [ref=f24e79] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+              - listitem [ref=f24e80]:
+                - link "WhatsApp" [ref=f24e81] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+        - generic [ref=f24e82]:
+          - paragraph [ref=f24e83]: Explore
+          - list [ref=f24e84]:
+            - listitem [ref=f24e85]:
+              - link "Home" [ref=f24e86] [cursor=pointer]:
+                - /url: /ekchitra-v6
+            - listitem [ref=f24e87]:
+              - link "About" [ref=f24e88] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f24e89]:
+              - link "Exhibitions" [ref=f24e90] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f24e91]:
+              - link "Artists" [ref=f24e92] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f24e93]:
+              - link "Artworks" [ref=f24e94] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f24e95]:
+              - link "Services" [ref=f24e96] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+        - generic [ref=f24e97]:
+          - paragraph [ref=f24e98]: Services
+          - list [ref=f24e99]:
+            - listitem [ref=f24e100]:
+              - link "Bespoke Sourcing" [ref=f24e101] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+            - listitem [ref=f24e102]:
+              - link "Art Advisory" [ref=f24e103] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+      - generic [ref=f24e104]:
+        - generic [ref=f24e105]:
+          - paragraph [ref=f24e106]: Hyderabad
+          - paragraph [ref=f24e107]: EkChitra Art Gallery
+          - generic [ref=f24e108]: F94M+52P, Surya Enclave, HITEC City, Hyderabad, Telangana 500081
+          - paragraph [ref=f24e109]: Monday to Saturday, 10am – 7pm
+          - link "Get Directions" [ref=f24e110] [cursor=pointer]:
+            - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+        - generic [ref=f24e111]:
+          - paragraph [ref=f24e112]: Write to us
+          - paragraph [ref=f24e113]: Visits, enquiries and commissions.
+          - link "WhatsApp" [ref=f24e114] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+      - generic [ref=f24e115]:
+        - paragraph [ref=f24e116]: © 2026 EkChitra. All rights reserved.
+        - paragraph [ref=f24e117]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+  - button "Open Next.js Dev Tools" [ref=f24e123] [cursor=pointer]
+  - alert [ref=f24e127]
