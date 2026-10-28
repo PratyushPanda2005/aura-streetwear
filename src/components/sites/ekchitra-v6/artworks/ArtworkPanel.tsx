@@ -32,8 +32,9 @@ const ARROW =
  * side of it; at the right, Prev / Next buttons through the works in the
  * current list, the artist and the title, the
  * medium and size (as on ekchitra.com's product pages), a button to enquire
- * about this work and a link to the artist's page, and the opening line of
- * the artist's statement. Esc closes it and the arrow keys step through; the
+ * about this work and a link to the artist's page, the opening line of
+ * the artist's statement, and small pictures of related works — the same
+ * family of medium, or more by the artist — each opening in the panel. Esc closes it and the arrow keys step through; the
  * page behind doesn't scroll while it is open.
  */
 export function ArtworkPanel({
@@ -44,6 +45,8 @@ export function ArtworkPanel({
   onPrev,
   onNext,
   onClose,
+  related,
+  onPick,
 }: {
   open: boolean;
   /** The work to show; kept while the panel slides away after closing. */
@@ -53,6 +56,13 @@ export function ArtworkPanel({
   onPrev: () => void;
   onNext: () => void;
   onClose: () => void;
+  /** Other works to suggest, with what they have in common (e.g. "More in Acrylic"). */
+  related: {
+    label: string;
+    works: { image: string; title: string; artist: string }[];
+  };
+  /** Show another work, by its image, in the panel. */
+  onPick: (image: string) => void;
 }) {
   const close = useRef<HTMLButtonElement>(null);
   const current = work;
@@ -246,6 +256,35 @@ export function ArtworkPanel({
             <p className="mt-8 text-[14px] leading-[1.55]">
               {firstSentence(current.artist.statement)}
             </p>
+
+            {/* Related works: the same family of medium, or more by the artist. */}
+            {related.works.length > 0 && (
+              <div className="mt-8 border-t border-(--k-ink)/15 pt-4">
+                <p className="text-[13px]">{related.label}</p>
+                <ul className="mt-3 flex flex-wrap gap-2.5">
+                  {related.works.map((work) => (
+                    <li key={work.image}>
+                      <button
+                        type="button"
+                        onClick={() => onPick(work.image)}
+                        tabIndex={open ? 0 : -1}
+                        title={`${work.title} — ${work.artist}`}
+                        className="block transition-opacity duration-200 hover:opacity-75 focus-visible:outline-1 focus-visible:outline-offset-2 focus-visible:outline-(--k-ink)"
+                      >
+                        <Image
+                          src={work.image}
+                          alt={`${work.title} by ${work.artist}`}
+                          width={0}
+                          height={0}
+                          sizes="96px"
+                          className="h-16 w-auto"
+                        />
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       )}

@@ -18,6 +18,7 @@ import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
 import { CARD_TITLE, GRID } from "../styles";
 import { ArtworkPanel } from "./ArtworkPanel";
+import { relatedWorks } from "./related";
 import { ARTWORK_SIZES } from "./sizes";
 
 /** Every work by every artist, in the artists' order. */
@@ -120,6 +121,38 @@ export function ArtworksIndex({
     [term],
   );
   const shownWork = shown === null ? null : (results[shown] ?? null);
+  // Works related to the one shown, from the whole collection (not just the
+  // current search), as small pictures under its details.
+  const related = useMemo(() => {
+    if (!shownWork) return { label: "", works: [] };
+    const { label, works } = relatedWorks(
+      shownWork,
+      WORKS,
+      (work) => work.artist,
+    );
+    return {
+      label,
+      works: works.map(({ image, title, artist }) => ({
+        image,
+        title,
+        artist,
+      })),
+    };
+  }, [shownWork]);
+  // Picking one opens it in the panel; if the search hides it, the search
+  // is cleared first so Prev / Next step through a list that holds it.
+  const pick = useCallback(
+    (image: string) => {
+      const inResults = results.findIndex((work) => work.image === image);
+      if (inResults >= 0) {
+        show(inResults);
+        return;
+      }
+      setQuery("");
+      show(WORKS.findIndex((work) => work.image === image));
+    },
+    [results],
+  );
 
   // Open the work named in the link once, a frame after arrival so the
   // panel slides in rather than appearing already open.
@@ -256,6 +289,8 @@ export function ArtworksIndex({
         onPrev={prev}
         onNext={next}
         onClose={closePanel}
+        related={related}
+        onPick={pick}
       />
     </section>
   );
