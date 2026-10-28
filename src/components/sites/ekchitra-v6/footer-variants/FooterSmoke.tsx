@@ -27,15 +27,20 @@ const SILK = "/sites/ekchitra-redesign/placeholders/footer-silk-brand.jpg";
  * line set large with its tagline and a button, then columns for the
  * pages, the socials, the visit and a newsletter; a row of small print with
  * the name — shown once — on the right. Below, a panel of glossy liquid
- * silk, its top edge stepping up with a diagonal notch.
+ * silk, its top edge stepping up with a diagonal notch. `dark` sets the
+ * top part in white on ink instead.
  */
-export function FooterSmoke() {
+export function FooterSmoke({ dark = false }: { dark?: boolean }) {
+  /** Secondary and muted text, in either theme. */
+  const soft = dark ? "text-white/70" : "text-(--k-ink)/70";
+  const faint = dark ? "text-white/60" : "text-(--k-ink)/60";
   return (
     <footer
       id="contact"
       className={cn(
         SCREEN,
-        "h-auto min-h-svh scroll-mt-11 bg-white text-(--k-ink) lg:h-svh",
+        "h-auto min-h-svh scroll-mt-11 lg:h-svh",
+        dark ? "bg-(--k-ink) text-white" : "bg-white text-(--k-ink)",
       )}
     >
       <div className={cn(GRID, "gap-y-10 pt-12 lg:pt-14")}>
@@ -43,14 +48,22 @@ export function FooterSmoke() {
           <p className="text-[30px] leading-[1.05] tracking-[-0.03em] lg:text-[38px]">
             Art is everywhere. Come and notice.
           </p>
-          <p className="mt-4 max-w-[320px] text-[14px] leading-[1.5] text-(--k-ink)/65">
+          <p
+            className={cn(
+              "mt-4 max-w-[320px] text-[14px] leading-[1.5]",
+              dark ? "text-white/65" : "text-(--k-ink)/65",
+            )}
+          >
             {FOOTER.tagline}
           </p>
           <a
             href={CONTACT.href}
             target="_blank"
             rel="noreferrer"
-            className="mt-6 inline-flex items-center gap-x-3 bg-(--k-ink) px-4 py-2.5 text-[13px] text-white hover:opacity-85"
+            className={cn(
+              "mt-6 inline-flex items-center gap-x-3 px-4 py-2.5 text-[13px] hover:opacity-85",
+              dark ? "bg-white text-(--k-ink)" : "bg-(--k-ink) text-white",
+            )}
           >
             Get in touch <span aria-hidden="true">→</span>
           </a>
@@ -60,17 +73,17 @@ export function FooterSmoke() {
           <p className="text-[15px] font-medium">Gallery</p>
           <LinkList
             links={V6_NAV}
-            className="mt-4 text-[14px] text-(--k-ink)/70"
+            className={cn("mt-4 text-[14px]", soft)}
           />
         </div>
         <div className="col-span-2 lg:col-span-2">
           <p className="text-[15px] font-medium">Connect</p>
           <LinkList
             links={SOCIAL.map((link) => ({ ...link, external: true }))}
-            className="mt-4 text-[14px] text-(--k-ink)/70"
+            className={cn("mt-4 text-[14px]", soft)}
           />
           <p className="mt-6 text-[15px] font-medium">Visit</p>
-          <p className="mt-3 max-w-[200px] text-[14px] text-(--k-ink)/70">
+          <p className={cn("mt-3 max-w-[200px] text-[14px]", soft)}>
             {FOOTER.location.note}
           </p>
         </div>
@@ -78,7 +91,7 @@ export function FooterSmoke() {
           <label htmlFor="ek6-f5-email" className="text-[15px] font-medium">
             Newsletter
           </label>
-          <p className="mt-4 text-[14px] leading-[1.5] text-(--k-ink)/70">
+          <p className={cn("mt-4 text-[14px] leading-[1.5]", soft)}>
             Openings, new artists and the occasional studio visit — a few times
             a year.
           </p>
@@ -87,7 +100,12 @@ export function FooterSmoke() {
               id="ek6-f5-email"
               type="email"
               placeholder="Your email"
-              className="h-10 min-w-0 flex-1 bg-transparent text-[14px] outline-none placeholder:text-(--k-ink)/45"
+              className={cn(
+                "h-10 min-w-0 flex-1 bg-transparent text-[14px] outline-none",
+                dark
+                  ? "placeholder:text-white/55"
+                  : "placeholder:text-(--k-ink)/45",
+              )}
             />
             <button type="submit" aria-label="Sign up" className="px-1">
               →
@@ -97,13 +115,18 @@ export function FooterSmoke() {
       </div>
 
       <div className={cn(GRID, "mt-auto items-end pt-8 pb-6")}>
-        <GroupTitle className="col-span-2 text-(--k-ink)/60">
+        <GroupTitle className={cn("col-span-2", faint)}>
           Terms of use
         </GroupTitle>
-        <GroupTitle className="col-span-2 text-(--k-ink)/60 lg:col-span-2">
+        <GroupTitle className={cn("col-span-2 lg:col-span-2", faint)}>
           Privacy
         </GroupTitle>
-        <GroupTitle className="col-span-4 mt-4 text-(--k-ink)/60 lg:col-span-3 lg:col-start-6 lg:mt-0">
+        <GroupTitle
+          className={cn(
+            "col-span-4 mt-4 lg:col-span-3 lg:col-start-6 lg:mt-0",
+            faint,
+          )}
+        >
           {`${FOOTER.copyright} · Hyderabad, India`}
         </GroupTitle>
         <p className="col-span-4 mt-6 text-[48px] leading-[0.8] tracking-[-0.045em] lg:col-span-3 lg:col-start-10 lg:mt-0 lg:text-right lg:text-[56px]">

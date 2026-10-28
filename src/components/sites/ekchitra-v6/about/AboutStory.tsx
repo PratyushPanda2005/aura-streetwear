@@ -96,7 +96,7 @@ function Rise({
  * About, after goodman-gallery.com/about, with EkChitra's own words and
  * photographs (ekchitra.com/about). Under the shared banner: the gallery's
  * founding line set large and centred; two photographs side by side, edge to
- * edge; an opening in black and white on the left with the rest of the story
+ * edge; an opening, dotted until hovered, on the left with the rest of the story
  * centred beside it; the exhibitions as full-screen poster bands with
  * frosted cards gliding over them; and the collection — two works stacked on
  * the left, the words centred beside them with a button to the artworks;
@@ -149,7 +149,8 @@ export function AboutStory() {
         <DriftPicture
           src={PHOTOS.opening.src}
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="col-span-4 aspect-[3/2] grayscale lg:col-span-7"
+          dotted
+          className="col-span-4 aspect-[3/2] lg:col-span-7"
         />
         <div className="col-span-4 space-y-4 text-[16px] leading-[1.45] lg:col-span-4 lg:col-start-9">
           {ABOUT_STORY.body.map((line, index) => (

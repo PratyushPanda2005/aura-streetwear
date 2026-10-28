@@ -39,9 +39,10 @@ const LINK = "hover:underline hover:underline-offset-4";
  * with their ends turned in: the copyright, the wordmark and the socials,
  * with the tagline beneath. The diamond motif shows twice, faint and still:
  * resting on the dotted rule, and on the footer's bottom edge. The card's
- * picture is dotted like the hero's, clearing on hover.
+ * picture is dotted like the hero's, clearing on hover (`dotted`, on by
+ * default; off, the glow shows plainly).
  */
-export function FooterGlow() {
+export function FooterGlow({ dotted = true }: { dotted?: boolean }) {
   return (
     <footer
       className={cn(
@@ -54,7 +55,7 @@ export function FooterGlow() {
       <div className="group @container relative isolate flex min-h-[260px] items-end overflow-hidden bg-[#1b1613] lg:min-h-[240px] lg:flex-1">
         {/* The picture, all its layers dotted as one (see Dotted, dark): a
             dark halftone that clears to the glow when the card is hovered. */}
-        <Dotted dark className="z-0">
+        <Dotted on={dotted} dark className="z-0">
           <div className="absolute inset-0 z-0">
             <div className="ek6-nebula-a absolute -inset-x-[6%] -inset-y-[12%]">
               <Image

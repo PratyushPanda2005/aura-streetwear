@@ -12,7 +12,7 @@ import { ServicesOverlay } from "@/components/sites/ekchitra-v6/services-cards/S
 import { ServicesSplitList } from "@/components/sites/ekchitra-v6/services-cards/ServicesSplitList";
 import { ServicesTable } from "@/components/sites/ekchitra-v6/services-cards/ServicesTable";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
-import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
 
 export const metadata: Metadata = {
   title: "Services — iterations",
@@ -83,7 +83,7 @@ export default function ServicesIterationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterGlow />
+      <FooterSmoke dark />
     </main>
   );
 }

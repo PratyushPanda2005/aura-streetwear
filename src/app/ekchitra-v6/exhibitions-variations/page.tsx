@@ -10,7 +10,7 @@ import { ExFeature } from "@/components/sites/ekchitra-v6/exhibitions-variants/E
 import { ExGrid } from "@/components/sites/ekchitra-v6/exhibitions-variants/ExGrid";
 import { ExList } from "@/components/sites/ekchitra-v6/exhibitions-variants/ExList";
 import { ExStrip } from "@/components/sites/ekchitra-v6/exhibitions-variants/ExStrip";
-import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
 
 export const metadata: Metadata = {
   title: "Exhibitions — variations",
@@ -81,7 +81,7 @@ export default function ExhibitionsVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterGlow />
+      <FooterSmoke dark />
     </main>
   );
 }

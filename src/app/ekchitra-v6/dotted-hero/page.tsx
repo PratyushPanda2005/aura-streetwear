@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
-import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
 import { ServicesOverlay } from "@/components/sites/ekchitra-v6/services-cards/ServicesOverlay";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
@@ -31,7 +31,7 @@ export default function EkchitraV6DottedHeroPage() {
       <div id="services" className="scroll-mt-11">
         <ServicesOverlay />
       </div>
-      <FooterGlow />
+      <FooterSmoke dark />
     </main>
   );
 }

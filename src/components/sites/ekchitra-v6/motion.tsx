@@ -5,6 +5,8 @@ import { useEffect, type RefObject } from "react";
 
 import { cn } from "@/lib/utils";
 
+import { Dotted } from "./Dotted";
+
 /** The house easing for v6 motion: a long, soft settle. */
 export const EASE = "ease-[cubic-bezier(0.25,1,0.5,1)]";
 
@@ -54,32 +56,41 @@ export function DriftPicture({
   src,
   sizes,
   priority = false,
+  dotted = false,
   className,
 }: {
   src: string;
   sizes: string;
   priority?: boolean;
+  /** Show the picture as a grey halftone that clears on hover (see Dotted). */
+  dotted?: boolean;
   className?: string;
 }) {
   return (
     <span
-      className={cn("relative block overflow-hidden bg-(--k-ink)/5", className)}
+      className={cn(
+        "relative block overflow-hidden bg-(--k-ink)/5",
+        dotted && "group",
+        className,
+      )}
     >
       <span
         data-drift=""
         className="absolute inset-x-0 -inset-y-[6%] block will-change-transform"
       >
-        <Image
-          src={src}
-          alt=""
-          fill
-          priority={priority}
-          sizes={sizes}
-          className={cn(
-            "object-cover transition-[scale] duration-[750ms] group-hover:scale-[1.04] motion-reduce:transition-none",
-            EASE,
-          )}
-        />
+        <Dotted on={dotted}>
+          <Image
+            src={src}
+            alt=""
+            fill
+            priority={priority}
+            sizes={sizes}
+            className={cn(
+              "object-cover transition-[scale] duration-[750ms] group-hover:scale-[1.04] motion-reduce:transition-none",
+              EASE,
+            )}
+          />
+        </Dotted>
       </span>
     </span>
   );

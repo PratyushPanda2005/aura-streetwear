@@ -4,7 +4,7 @@ import { SANS } from "@/components/sites/ekchitra-v5/shared";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 import { ContactAddress } from "@/components/sites/ekchitra-v6/contact-variants/ContactAddress";
-import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function EkchitraV6ContactPage() {
       <SmoothScroll />
       <TopBar />
       <ContactAddress page />
-      <FooterGlow />
+      <FooterSmoke dark />
     </main>
   );
 }

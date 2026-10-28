@@ -9,7 +9,7 @@ import { CtaMosaic } from "@/components/sites/ekchitra-v6/cta-variants/CtaMosaic
 import { CtaStack } from "@/components/sites/ekchitra-v6/cta-variants/CtaStack";
 import { CtaTabs } from "@/components/sites/ekchitra-v6/cta-variants/CtaTabs";
 import { CtaTiles } from "@/components/sites/ekchitra-v6/cta-variants/CtaTiles";
-import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
 
 export const metadata: Metadata = {
   title: "Services calls to action — variations",
@@ -70,7 +70,7 @@ export default function CtaVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterGlow />
+      <FooterSmoke dark />
     </main>
   );
 }
