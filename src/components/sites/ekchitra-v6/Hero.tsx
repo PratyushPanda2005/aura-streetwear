@@ -6,6 +6,7 @@ import { ARTWORKS, LOGO } from "../ekchitra-redesign/data";
 import { Chars } from "../ekchitra-v5/Chars";
 import { CAPS, SANS, V5_ROUTES } from "../ekchitra-v5/shared";
 import { HERO_ART, HERO_COPY } from "../ekchitra-v5/heroes/data";
+import { artworkPath } from "./artworks/paths";
 import { EXHIBITIONS } from "./data";
 import { Dotted } from "./Dotted";
 import { HeroCarousel } from "./HeroCarousel";
@@ -25,11 +26,18 @@ const SLIDES = [
   {
     src: HERO_ART[0].src,
     alt: `${HERO_ART[0].title} by ${HERO_ART[0].artist}`,
+    href: artworkPath(HERO_ART[0].title, HERO_ART[0].artist),
   },
   ...SLIDE_FILES.flatMap((file) => {
     const work = ARTWORKS.find((artwork) => artwork.image.endsWith(`/${file}`));
     return work
-      ? [{ src: work.image, alt: `${work.title} by ${work.artist}` }]
+      ? [
+          {
+            src: work.image,
+            alt: `${work.title} by ${work.artist}`,
+            href: artworkPath(work.title, work.artist),
+          },
+        ]
       : [];
   }),
 ];

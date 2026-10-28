@@ -1,0 +1,499 @@
+- generic [active] [ref=f41e1]:
+  - main [ref=f41e3]:
+    - generic [ref=f41e4]:
+      - link "Home" [ref=f41e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f41e6]:
+        - list [ref=f41e7]:
+          - listitem [ref=f41e8]:
+            - link "About" [ref=f41e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f41e10]:
+            - link "Exhibitions" [ref=f41e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f41e12]:
+            - link "Artists" [ref=f41e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f41e14]:
+            - link "Artworks" [ref=f41e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f41e16]:
+            - link "Services" [ref=f41e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f41e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f41e19]: →
+    - img "A visitor looking at paintings hung on a gallery wall" [ref=f41e21]
+    - generic [ref=f41e22]:
+      - generic [ref=f41e23]:
+        - paragraph [ref=f41e24]: Artworks
+        - heading "Discover and collect" [level=1] [ref=f41e25]
+      - generic [ref=f41e26]:
+        - paragraph [ref=f41e27]: A living collection of contemporary expressions across various media.
+        - paragraph [ref=f41e28]: 29 works on view
+    - region "Artworks" [ref=f41e29]:
+      - generic [ref=f41e31]:
+        - generic [ref=f41e32]:
+          - generic [ref=f41e36]: Search the artworks
+          - searchbox "Search the artworks" [ref=f41e37]
+        - list [ref=f41e38]:
+          - listitem [ref=f41e39]:
+            - button "All" [pressed] [ref=f41e40]
+          - listitem [ref=f41e41]:
+            - button "Acrylic" [ref=f41e42]
+          - listitem [ref=f41e43]:
+            - button "Mixed Media" [ref=f41e44]
+          - listitem [ref=f41e45]:
+            - button "Canvas" [ref=f41e46]
+          - listitem [ref=f41e47]:
+            - button "Paper" [ref=f41e48]
+          - listitem [ref=f41e49]:
+            - button "Steel" [ref=f41e50]
+          - listitem [ref=f41e51]:
+            - button "Ceramic" [ref=f41e52]
+          - listitem [ref=f41e53]:
+            - button "Watercolor" [ref=f41e54]
+        - paragraph [ref=f41e55]: 29 / 29 works
+      - list [ref=f41e56]:
+        - listitem [ref=f41e57]:
+          - button "Garuda by Anupama Choudhary 01 Mixed Media on Canvas Garuda Anupama Choudhary 36 x 36 Inches View Artwork" [ref=f41e58]:
+            - img "Garuda by Anupama Choudhary" [ref=f41e59]
+            - generic [ref=f41e60]:
+              - generic [ref=f41e61]: "01"
+              - generic [ref=f41e62]: Mixed Media on Canvas
+            - heading "Garuda" [level=3] [ref=f41e63]
+            - paragraph [ref=f41e64]: Anupama Choudhary
+            - generic [ref=f41e65]:
+              - generic [ref=f41e66]: 36 x 36 Inches
+              - generic [ref=f41e67]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e68]: →
+        - listitem [ref=f41e69]:
+          - button "Arthanareeswara by Anupama Choudhary 02 Mixed Media on Canvas Arthanareeswara Anupama Choudhary 36 x 36 Inches View Artwork" [ref=f41e70]:
+            - img "Arthanareeswara by Anupama Choudhary" [ref=f41e71]
+            - generic [ref=f41e72]:
+              - generic [ref=f41e73]: "02"
+              - generic [ref=f41e74]: Mixed Media on Canvas
+            - heading "Arthanareeswara" [level=3] [ref=f41e75]
+            - paragraph [ref=f41e76]: Anupama Choudhary
+            - generic [ref=f41e77]:
+              - generic [ref=f41e78]: 36 x 36 Inches
+              - generic [ref=f41e79]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e80]: →
+        - listitem [ref=f41e81]:
+          - button "Warhalseque by Anupama Choudhary 03 Mixed Media on Canvas Warhalseque Anupama Choudhary 36 x 36 Inches View Artwork" [ref=f41e82]:
+            - img "Warhalseque by Anupama Choudhary" [ref=f41e83]
+            - generic [ref=f41e84]:
+              - generic [ref=f41e85]: "03"
+              - generic [ref=f41e86]: Mixed Media on Canvas
+            - heading "Warhalseque" [level=3] [ref=f41e87]
+            - paragraph [ref=f41e88]: Anupama Choudhary
+            - generic [ref=f41e89]:
+              - generic [ref=f41e90]: 36 x 36 Inches
+              - generic [ref=f41e91]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e92]: →
+        - listitem [ref=f41e93]:
+          - button "Unexplored Heritage - 051 by Ashok Juttu 04 Acrylic, Fabric & Acid Wash on Canvas Unexplored Heritage - 051 Ashok Juttu 78 x 96 Inches View Artwork" [ref=f41e94]:
+            - img "Unexplored Heritage - 051 by Ashok Juttu" [ref=f41e95]
+            - generic [ref=f41e96]:
+              - generic [ref=f41e97]: "04"
+              - generic [ref=f41e98]: Acrylic, Fabric & Acid Wash on Canvas
+            - heading "Unexplored Heritage - 051" [level=3] [ref=f41e99]
+            - paragraph [ref=f41e100]: Ashok Juttu
+            - generic [ref=f41e101]:
+              - generic [ref=f41e102]: 78 x 96 Inches
+              - generic [ref=f41e103]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e104]: →
+        - listitem [ref=f41e105]:
+          - button "Untitled - 1 by Ashok Juttu 05 Acrylic Ink & Acrylic Pens on Canvas Untitled - 1 Ashok Juttu 60 x 66 Inches View Artwork" [ref=f41e106]:
+            - img "Untitled - 1 by Ashok Juttu" [ref=f41e107]
+            - generic [ref=f41e108]:
+              - generic [ref=f41e109]: "05"
+              - generic [ref=f41e110]: Acrylic Ink & Acrylic Pens on Canvas
+            - heading "Untitled - 1" [level=3] [ref=f41e111]
+            - paragraph [ref=f41e112]: Ashok Juttu
+            - generic [ref=f41e113]:
+              - generic [ref=f41e114]: 60 x 66 Inches
+              - generic [ref=f41e115]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e116]: →
+        - listitem [ref=f41e117]:
+          - button "Untitled - 1 by Chandrapal Panjre 06 Mixed Media Untitled - 1 Chandrapal Panjre 24 x 30 Inches View Artwork" [ref=f41e118]:
+            - img "Untitled - 1 by Chandrapal Panjre" [ref=f41e119]
+            - generic [ref=f41e120]:
+              - generic [ref=f41e121]: "06"
+              - generic [ref=f41e122]: Mixed Media
+            - heading "Untitled - 1" [level=3] [ref=f41e123]
+            - paragraph [ref=f41e124]: Chandrapal Panjre
+            - generic [ref=f41e125]:
+              - generic [ref=f41e126]: 24 x 30 Inches
+              - generic [ref=f41e127]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e128]: →
+        - listitem [ref=f41e129]:
+          - button "Untitled - 6 by Charanjeet Singh 07 Acrylic on Paper Untitled - 6 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f41e130]:
+            - img "Untitled - 6 by Charanjeet Singh" [ref=f41e131]
+            - generic [ref=f41e132]:
+              - generic [ref=f41e133]: "07"
+              - generic [ref=f41e134]: Acrylic on Paper
+            - heading "Untitled - 6" [level=3] [ref=f41e135]
+            - paragraph [ref=f41e136]: Charanjeet Singh
+            - generic [ref=f41e137]:
+              - generic [ref=f41e138]: 16.5 x 12 Inches
+              - generic [ref=f41e139]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e140]: →
+        - listitem [ref=f41e141]:
+          - button "Untitled - 4 by Charanjeet Singh 08 Acrylic on Paper Untitled - 4 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f41e142]:
+            - img "Untitled - 4 by Charanjeet Singh" [ref=f41e143]
+            - generic [ref=f41e144]:
+              - generic [ref=f41e145]: "08"
+              - generic [ref=f41e146]: Acrylic on Paper
+            - heading "Untitled - 4" [level=3] [ref=f41e147]
+            - paragraph [ref=f41e148]: Charanjeet Singh
+            - generic [ref=f41e149]:
+              - generic [ref=f41e150]: 16.5 x 12 Inches
+              - generic [ref=f41e151]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e152]: →
+        - listitem [ref=f41e153]:
+          - button "Untitled - 3 by Charanjeet Singh 09 Acrylic on Paper Untitled - 3 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f41e154]:
+            - img "Untitled - 3 by Charanjeet Singh" [ref=f41e155]
+            - generic [ref=f41e156]:
+              - generic [ref=f41e157]: "09"
+              - generic [ref=f41e158]: Acrylic on Paper
+            - heading "Untitled - 3" [level=3] [ref=f41e159]
+            - paragraph [ref=f41e160]: Charanjeet Singh
+            - generic [ref=f41e161]:
+              - generic [ref=f41e162]: 16.5 x 12 Inches
+              - generic [ref=f41e163]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e164]: →
+        - listitem [ref=f41e165]:
+          - button "Untitled - 2 by Charanjeet Singh 10 Acrylic on Paper Untitled - 2 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f41e166]:
+            - img "Untitled - 2 by Charanjeet Singh" [ref=f41e167]
+            - generic [ref=f41e168]:
+              - generic [ref=f41e169]: "10"
+              - generic [ref=f41e170]: Acrylic on Paper
+            - heading "Untitled - 2" [level=3] [ref=f41e171]
+            - paragraph [ref=f41e172]: Charanjeet Singh
+            - generic [ref=f41e173]:
+              - generic [ref=f41e174]: 16.5 x 12 Inches
+              - generic [ref=f41e175]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e176]: →
+        - listitem [ref=f41e177]:
+          - button "Untitled - 1 by Charanjeet Singh 11 Acrylic on Paper Untitled - 1 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f41e178]:
+            - img "Untitled - 1 by Charanjeet Singh" [ref=f41e179]
+            - generic [ref=f41e180]:
+              - generic [ref=f41e181]: "11"
+              - generic [ref=f41e182]: Acrylic on Paper
+            - heading "Untitled - 1" [level=3] [ref=f41e183]
+            - paragraph [ref=f41e184]: Charanjeet Singh
+            - generic [ref=f41e185]:
+              - generic [ref=f41e186]: 16.5 x 12 Inches
+              - generic [ref=f41e187]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e188]: →
+        - listitem [ref=f41e189]:
+          - button "Untitled - 6 by Charanjeet Singh 12 Acrylic on Paper Untitled - 6 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e190]:
+            - img "Untitled - 6 by Charanjeet Singh" [ref=f41e191]
+            - generic [ref=f41e192]:
+              - generic [ref=f41e193]: "12"
+              - generic [ref=f41e194]: Acrylic on Paper
+            - heading "Untitled - 6" [level=3] [ref=f41e195]
+            - paragraph [ref=f41e196]: Charanjeet Singh
+            - generic [ref=f41e197]:
+              - generic [ref=f41e198]: 15 x 11 Inches
+              - generic [ref=f41e199]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e200]: →
+        - listitem [ref=f41e201]:
+          - button "Untitled - 5 by Charanjeet Singh 13 Acrylic on Paper Untitled - 5 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e202]:
+            - img "Untitled - 5 by Charanjeet Singh" [ref=f41e203]
+            - generic [ref=f41e204]:
+              - generic [ref=f41e205]: "13"
+              - generic [ref=f41e206]: Acrylic on Paper
+            - heading "Untitled - 5" [level=3] [ref=f41e207]
+            - paragraph [ref=f41e208]: Charanjeet Singh
+            - generic [ref=f41e209]:
+              - generic [ref=f41e210]: 15 x 11 Inches
+              - generic [ref=f41e211]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e212]: →
+        - listitem [ref=f41e213]:
+          - button "Untitled - 4 by Charanjeet Singh 14 Acrylic on Paper Untitled - 4 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e214]:
+            - img "Untitled - 4 by Charanjeet Singh" [ref=f41e215]
+            - generic [ref=f41e216]:
+              - generic [ref=f41e217]: "14"
+              - generic [ref=f41e218]: Acrylic on Paper
+            - heading "Untitled - 4" [level=3] [ref=f41e219]
+            - paragraph [ref=f41e220]: Charanjeet Singh
+            - generic [ref=f41e221]:
+              - generic [ref=f41e222]: 15 x 11 Inches
+              - generic [ref=f41e223]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e224]: →
+        - listitem [ref=f41e225]:
+          - button "Untitled - 3 by Charanjeet Singh 15 Acrylic on Paper Untitled - 3 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e226]:
+            - img "Untitled - 3 by Charanjeet Singh" [ref=f41e227]
+            - generic [ref=f41e228]:
+              - generic [ref=f41e229]: "15"
+              - generic [ref=f41e230]: Acrylic on Paper
+            - heading "Untitled - 3" [level=3] [ref=f41e231]
+            - paragraph [ref=f41e232]: Charanjeet Singh
+            - generic [ref=f41e233]:
+              - generic [ref=f41e234]: 15 x 11 Inches
+              - generic [ref=f41e235]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e236]: →
+        - listitem [ref=f41e237]:
+          - button "Untitled - 2 by Charanjeet Singh 16 Acrylic on Paper Untitled - 2 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e238]:
+            - img "Untitled - 2 by Charanjeet Singh" [ref=f41e239]
+            - generic [ref=f41e240]:
+              - generic [ref=f41e241]: "16"
+              - generic [ref=f41e242]: Acrylic on Paper
+            - heading "Untitled - 2" [level=3] [ref=f41e243]
+            - paragraph [ref=f41e244]: Charanjeet Singh
+            - generic [ref=f41e245]:
+              - generic [ref=f41e246]: 15 x 11 Inches
+              - generic [ref=f41e247]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e248]: →
+        - listitem [ref=f41e249]:
+          - button "Untitled - 1 by Charanjeet Singh 17 Acrylic on Paper Untitled - 1 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f41e250]:
+            - img "Untitled - 1 by Charanjeet Singh" [ref=f41e251]
+            - generic [ref=f41e252]:
+              - generic [ref=f41e253]: "17"
+              - generic [ref=f41e254]: Acrylic on Paper
+            - heading "Untitled - 1" [level=3] [ref=f41e255]
+            - paragraph [ref=f41e256]: Charanjeet Singh
+            - generic [ref=f41e257]:
+              - generic [ref=f41e258]: 15 x 11 Inches
+              - generic [ref=f41e259]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e260]: →
+        - listitem [ref=f41e261]:
+          - button "Paths - 2 by Dilip Kumar 18 Acrylic on Plywood Paths - 2 Dilip Kumar 53 x 48 Inches View Artwork" [ref=f41e262]:
+            - img "Paths - 2 by Dilip Kumar" [ref=f41e263]
+            - generic [ref=f41e264]:
+              - generic [ref=f41e265]: "18"
+              - generic [ref=f41e266]: Acrylic on Plywood
+            - heading "Paths - 2" [level=3] [ref=f41e267]
+            - paragraph [ref=f41e268]: Dilip Kumar
+            - generic [ref=f41e269]:
+              - generic [ref=f41e270]: 53 x 48 Inches
+              - generic [ref=f41e271]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e272]: →
+        - listitem [ref=f41e273]:
+          - button "Paths - 1 by Dilip Kumar 19 Acrylic on Plywood Paths - 1 Dilip Kumar 53 x 50 Inches View Artwork" [ref=f41e274]:
+            - img "Paths - 1 by Dilip Kumar" [ref=f41e275]
+            - generic [ref=f41e276]:
+              - generic [ref=f41e277]: "19"
+              - generic [ref=f41e278]: Acrylic on Plywood
+            - heading "Paths - 1" [level=3] [ref=f41e279]
+            - paragraph [ref=f41e280]: Dilip Kumar
+            - generic [ref=f41e281]:
+              - generic [ref=f41e282]: 53 x 50 Inches
+              - generic [ref=f41e283]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e284]: →
+        - listitem [ref=f41e285]:
+          - button "Harmony of Nature and Mind by Farhad Hussain 20 Acrylic on Canvas Harmony of Nature and Mind Farhad Hussain 36 x 36 Inches View Artwork" [ref=f41e286]:
+            - img "Harmony of Nature and Mind by Farhad Hussain" [ref=f41e287]
+            - generic [ref=f41e288]:
+              - generic [ref=f41e289]: "20"
+              - generic [ref=f41e290]: Acrylic on Canvas
+            - heading "Harmony of Nature and Mind" [level=3] [ref=f41e291]
+            - paragraph [ref=f41e292]: Farhad Hussain
+            - generic [ref=f41e293]:
+              - generic [ref=f41e294]: 36 x 36 Inches
+              - generic [ref=f41e295]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e296]: →
+        - listitem [ref=f41e297]:
+          - button "Vernacular House by Kolipitchai Prabhakar 21 Acrylic on Canvas Vernacular House Kolipitchai Prabhakar 24 x 36 Inches View Artwork" [ref=f41e298]:
+            - img "Vernacular House by Kolipitchai Prabhakar" [ref=f41e299]
+            - generic [ref=f41e300]:
+              - generic [ref=f41e301]: "21"
+              - generic [ref=f41e302]: Acrylic on Canvas
+            - heading "Vernacular House" [level=3] [ref=f41e303]
+            - paragraph [ref=f41e304]: Kolipitchai Prabhakar
+            - generic [ref=f41e305]:
+              - generic [ref=f41e306]: 24 x 36 Inches
+              - generic [ref=f41e307]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e308]: →
+        - listitem [ref=f41e309]:
+          - button "Sites of Remembering by Manish Sharma 22 Wood, Iron, Acrylic and PU Sites of Remembering Manish Sharma 36 x 65 x 7 Inches View Artwork" [ref=f41e310]:
+            - img "Sites of Remembering by Manish Sharma" [ref=f41e311]
+            - generic [ref=f41e312]:
+              - generic [ref=f41e313]: "22"
+              - generic [ref=f41e314]: Wood, Iron, Acrylic and PU
+            - heading "Sites of Remembering" [level=3] [ref=f41e315]
+            - paragraph [ref=f41e316]: Manish Sharma
+            - generic [ref=f41e317]:
+              - generic [ref=f41e318]: 36 x 65 x 7 Inches
+              - generic [ref=f41e319]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e320]: →
+        - listitem [ref=f41e321]:
+          - button "Between Presence and Absence 3 by Parul Kaur 23 Watercolor on Stamp Papers Between Presence and Absence 3 Parul Kaur 14 x 20 Inches View Artwork" [ref=f41e322]:
+            - img "Between Presence and Absence 3 by Parul Kaur" [ref=f41e323]
+            - generic [ref=f41e324]:
+              - generic [ref=f41e325]: "23"
+              - generic [ref=f41e326]: Watercolor on Stamp Papers
+            - heading "Between Presence and Absence 3" [level=3] [ref=f41e327]
+            - paragraph [ref=f41e328]: Parul Kaur
+            - generic [ref=f41e329]:
+              - generic [ref=f41e330]: 14 x 20 Inches
+              - generic [ref=f41e331]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e332]: →
+        - listitem [ref=f41e333]:
+          - button "Finding My Ground by Rahul & Gunjan 24 Collected Wool Silk, Linen, Cotton & Steel Finding My Ground Rahul & Gunjan 64 x 84 Inches View Artwork" [ref=f41e334]:
+            - img "Finding My Ground by Rahul & Gunjan" [ref=f41e335]
+            - generic [ref=f41e336]:
+              - generic [ref=f41e337]: "24"
+              - generic [ref=f41e338]: Collected Wool Silk, Linen, Cotton & Steel
+            - heading "Finding My Ground" [level=3] [ref=f41e339]
+            - paragraph [ref=f41e340]: Rahul & Gunjan
+            - generic [ref=f41e341]:
+              - generic [ref=f41e342]: 64 x 84 Inches
+              - generic [ref=f41e343]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e344]: →
+        - listitem [ref=f41e345]:
+          - button "Meri Maa Ki Dua by Rajesh Naik 25 Metal Meri Maa Ki Dua Rajesh Naik 30 x 30 Inches View Artwork" [ref=f41e346]:
+            - img "Meri Maa Ki Dua by Rajesh Naik" [ref=f41e347]
+            - generic [ref=f41e348]:
+              - generic [ref=f41e349]: "25"
+              - generic [ref=f41e350]: Metal
+            - heading "Meri Maa Ki Dua" [level=3] [ref=f41e351]
+            - paragraph [ref=f41e352]: Rajesh Naik
+            - generic [ref=f41e353]:
+              - generic [ref=f41e354]: 30 x 30 Inches
+              - generic [ref=f41e355]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e356]: →
+        - listitem [ref=f41e357]:
+          - button "Modified Continuity by Sarvanan Parasuraman 26 Paper Board Modified Continuity Sarvanan Parasuraman 48 x 48 Inches View Artwork" [ref=f41e358]:
+            - img "Modified Continuity by Sarvanan Parasuraman" [ref=f41e359]
+            - generic [ref=f41e360]:
+              - generic [ref=f41e361]: "26"
+              - generic [ref=f41e362]: Paper Board
+            - heading "Modified Continuity" [level=3] [ref=f41e363]
+            - paragraph [ref=f41e364]: Sarvanan Parasuraman
+            - generic [ref=f41e365]:
+              - generic [ref=f41e366]: 48 x 48 Inches
+              - generic [ref=f41e367]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e368]: →
+        - listitem [ref=f41e369]:
+          - button "Embrace of Light by Selva Kumar 27 Stainless Steel and Corten Steel Embrace of Light Selva Kumar 36 x 38 x 16 Inches View Artwork" [ref=f41e370]:
+            - img "Embrace of Light by Selva Kumar" [ref=f41e371]
+            - generic [ref=f41e372]:
+              - generic [ref=f41e373]: "27"
+              - generic [ref=f41e374]: Stainless Steel and Corten Steel
+            - heading "Embrace of Light" [level=3] [ref=f41e375]
+            - paragraph [ref=f41e376]: Selva Kumar
+            - generic [ref=f41e377]:
+              - generic [ref=f41e378]: 36 x 38 x 16 Inches
+              - generic [ref=f41e379]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e380]: →
+        - listitem [ref=f41e381]:
+          - button "Head 1 by Subodh Kerkar 28 Ceramic Clay with Red Oxide Head 1 Subodh Kerkar 18.5 x 11 Inches View Artwork" [ref=f41e382]:
+            - img "Head 1 by Subodh Kerkar" [ref=f41e383]
+            - generic [ref=f41e384]:
+              - generic [ref=f41e385]: "28"
+              - generic [ref=f41e386]: Ceramic Clay with Red Oxide
+            - heading "Head 1" [level=3] [ref=f41e387]
+            - paragraph [ref=f41e388]: Subodh Kerkar
+            - generic [ref=f41e389]:
+              - generic [ref=f41e390]: 18.5 x 11 Inches
+              - generic [ref=f41e391]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e392]: →
+        - listitem [ref=f41e393]:
+          - button "Sanctum (From the series of Aikyam) by Vinod Daroz 29 Porcelain and Stoneware with Liquid Gold Sanctum (From the series of Aikyam) Vinod Daroz 12 x 12 x 5.5 Inches Each View Artwork" [ref=f41e394]:
+            - img "Sanctum (From the series of Aikyam) by Vinod Daroz" [ref=f41e395]
+            - generic [ref=f41e396]:
+              - generic [ref=f41e397]: "29"
+              - generic [ref=f41e398]: Porcelain and Stoneware with Liquid Gold
+            - heading "Sanctum (From the series of Aikyam)" [level=3] [ref=f41e399]
+            - paragraph [ref=f41e400]: Vinod Daroz
+            - generic [ref=f41e401]:
+              - generic [ref=f41e402]: 12 x 12 x 5.5 Inches Each
+              - generic [ref=f41e403]:
+                - text: View Artwork
+                - generic [aria-hidden] [ref=f41e404]: →
+      - dialog [aria-hidden]:
+        - generic:
+          - generic: Artworks
+          - button: Close
+    - generic [ref=f41e405]:
+      - generic [ref=f41e418]:
+        - paragraph [ref=f41e419]: Art is everywhere. Come and notice.
+        - link "Get in Touch" [ref=f41e420] [cursor=pointer]:
+          - /url: /ekchitra-v6/contact
+          - text: Get in Touch
+          - generic [aria-hidden] [ref=f41e421]: →
+      - generic [ref=f41e422]:
+        - navigation "Explore" [ref=f41e423]:
+          - paragraph [ref=f41e424]: Explore
+          - list [ref=f41e425]:
+            - listitem [ref=f41e426]:
+              - link "Home" [ref=f41e427] [cursor=pointer]:
+                - /url: /ekchitra-v6
+            - listitem [ref=f41e428]:
+              - link "About" [ref=f41e429] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f41e430]:
+              - link "Exhibitions" [ref=f41e431] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f41e432]:
+              - link "Artists" [ref=f41e433] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f41e434]:
+              - link "Artworks" [ref=f41e435] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f41e436]:
+              - link "Services" [ref=f41e437] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+        - navigation "Services" [ref=f41e438]:
+          - paragraph [ref=f41e439]: Services
+          - list [ref=f41e440]:
+            - listitem [ref=f41e441]:
+              - link "Bespoke Sourcing" [ref=f41e442] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+            - listitem [ref=f41e443]:
+              - link "Art Advisory" [ref=f41e444] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+        - generic [ref=f41e446]:
+          - paragraph [ref=f41e447]: Hyderabad
+          - generic [ref=f41e448]:
+            - generic [ref=f41e449]: F94M+52P, Surya Enclave,
+            - generic [ref=f41e450]: HITEC City, Hyderabad,
+            - generic [ref=f41e451]: Telangana 500081
+          - paragraph [ref=f41e452]: Monday to Saturday, 10am – 7pm
+          - link "Get Directions" [ref=f41e453] [cursor=pointer]:
+            - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+      - generic [ref=f41e456]:
+        - paragraph [ref=f41e457]: © 2026 EkChitra
+        - link "EkChitra, home" [ref=f41e458] [cursor=pointer]:
+          - /url: /ekchitra-v6
+        - list [ref=f41e460]:
+          - listitem [ref=f41e461]:
+            - link "Instagram" [ref=f41e462] [cursor=pointer]:
+              - /url: https://www.instagram.com/ek_chitra/
+          - listitem [ref=f41e463]:
+            - link "WhatsApp" [ref=f41e464] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+      - paragraph [ref=f41e466]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+  - button "Open Next.js Dev Tools" [ref=f41e472] [cursor=pointer]

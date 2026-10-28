@@ -1,7 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import { useCallback, useMemo, useState, type CSSProperties } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -85,9 +92,12 @@ function WorkCard({ work, onOpen }: { work: Work; onOpen: () => void }) {
 
 export function ArtworksIndex({
   initialQuery = "",
+  initialWork,
 }: {
   /** Search to start with, e.g. a medium picked from a link. */
   initialQuery?: string;
+  /** A work to open on arrival, by title and artist (see artworkPath). */
+  initialWork?: { title: string; artist: string };
 }) {
   const [query, setQuery] = useState(initialQuery);
   // The open work, by its place in the current results; null when closed.
@@ -110,6 +120,29 @@ export function ArtworksIndex({
     [term],
   );
   const shownWork = shown === null ? null : (results[shown] ?? null);
+
+  // Open the work named in the link once, a frame after arrival so the
+  // panel slides in rather than appearing already open.
+  const arrived = useRef(false);
+  useEffect(() => {
+    if (arrived.current || !initialWork) return;
+    const same = (a: string, b: string) =>
+      a.trim().toLowerCase() === b.trim().toLowerCase();
+    const index = results.findIndex(
+      (work) =>
+        same(work.title, initialWork.title) &&
+        same(work.artist, initialWork.artist),
+    );
+    if (index < 0) return;
+    // Marked only once it opens: an effect cancelled before then (as React
+    // does in development) leaves the next run free to try again.
+    const id = requestAnimationFrame(() => {
+      arrived.current = true;
+      setOpen(index);
+      setShown(index);
+    });
+    return () => cancelAnimationFrame(id);
+  }, [initialWork, results]);
   const closePanel = useCallback(() => setOpen(null), []);
   const prev = useCallback(() => {
     if (open === null || open === 0) return;

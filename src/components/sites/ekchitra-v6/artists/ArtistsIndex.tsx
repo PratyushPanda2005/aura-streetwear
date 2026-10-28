@@ -28,8 +28,8 @@ const mediums = (artist: (typeof ARTISTS)[number]) =>
  * under the top bar while the list scrolls: the chosen artist's lead work,
  * centred at its own proportions, in 5–8, and in 9–12 their number, name,
  * mediums, statement, the work's title and size, the rest of their works as
- * small thumbnails and a link to their page — the two columns one height,
- * the button on the foot. Panels cross-fade (the old one clears, then the
+ * small thumbnails and a link to their page — the button just below
+ * them. Panels cross-fade (the old one clears, then the
  * new one settles in); hovering waits a beat before choosing, so skimming
  * the list doesn't flicker. On a phone each name opens its own preview
  * beneath it instead.
@@ -175,7 +175,7 @@ export function ArtistsIndex() {
                   <a
                     href={artistPath(artist)}
                     tabIndex={on ? undefined : -1}
-                    className={cn(BUTTON, "mt-6 lg:mt-auto")}
+                    className={cn(BUTTON, "mt-6")}
                   >
                     {ARTISTS_PAGE.cardCta}
                     <span aria-hidden="true">→</span>

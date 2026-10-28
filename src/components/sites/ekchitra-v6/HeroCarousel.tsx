@@ -44,7 +44,8 @@ export function HeroCarousel({
   dotted = false,
   className,
 }: {
-  slides: { src: string; alt: string }[];
+  /** `href`, when given, makes the picture showing a link (e.g. to its artwork). */
+  slides: { src: string; alt: string; href?: string }[];
   /** Show the pictures dotted, clearing on hover (see .ek6-dots). */
   dotted?: boolean;
   className?: string;
@@ -97,6 +98,15 @@ export function HeroCarousel({
           />
         ))}
       </Dotted>
+
+      {/* The picture showing, as a link to its artwork, under the controls. */}
+      {slides[active]?.href && (
+        <a
+          href={slides[active].href}
+          aria-label={`View ${slides[active].alt}`}
+          className="absolute inset-0 z-10 focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-white"
+        />
+      )}
 
       {/* Previous and next, either side of where the run is. */}
       <div className="absolute right-5 bottom-5 z-20 flex items-center gap-x-1 rounded-full bg-(--k-ink)/55 p-1 text-white backdrop-blur-sm">

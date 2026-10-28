@@ -30,8 +30,9 @@ export default async function EkchitraV6ArtworksPage({
 }: {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
-  // A medium to filter by, e.g. /ekchitra-v6/artworks?medium=Acrylic.
-  const { medium } = await searchParams;
+  // A medium to filter by, e.g. /ekchitra-v6/artworks?medium=Acrylic, and
+  // a work to open on arrival, e.g. ?work=Garuda&artist=Anupama+Choudhary.
+  const { medium, work, artist } = await searchParams;
 
   return (
     <PageFrame
@@ -41,7 +42,14 @@ export default async function EkchitraV6ArtworksPage({
       intro={ARTWORKS_PAGE.intro}
       note={`${ARTIST_WORK_COUNT} works on view`}
     >
-      <ArtworksIndex initialQuery={typeof medium === "string" ? medium : ""} />
+      <ArtworksIndex
+        initialQuery={typeof medium === "string" ? medium : ""}
+        initialWork={
+          typeof work === "string" && typeof artist === "string"
+            ? { title: work, artist }
+            : undefined
+        }
+      />
     </PageFrame>
   );
 }

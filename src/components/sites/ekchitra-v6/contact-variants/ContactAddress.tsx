@@ -32,7 +32,16 @@ const EASE = 0.12;
  * the cursor instead. Phones and touch screens see the square photograph
  * fixed in the middle column.
  */
-export function ContactAddress() {
+export function ContactAddress({
+  page = false,
+}: {
+  /**
+   * As the contact page itself: under the 44px top bar, so one screen is the
+   * height below it, and "Contact" is the page's h1.
+   */
+  page?: boolean;
+}) {
+  const Heading = page ? "h1" : "h2";
   const sectionRef = useRef<HTMLElement>(null);
   const lensRef = useRef<HTMLDivElement>(null);
   const dotRef = useRef<HTMLSpanElement>(null);
@@ -119,7 +128,9 @@ export function ContactAddress() {
       ref={sectionRef}
       aria-label="Contact details"
       className={cn(
-        "relative isolate flex min-h-svh flex-col overflow-hidden lg:h-svh lg:min-h-[600px] bg-white px-4 py-10 text-(--k-ink) lg:px-5 lg:py-12 lg:pointer-fine:cursor-none lg:pointer-fine:[&_a]:cursor-none",
+        "relative isolate flex min-h-(--screen) flex-col overflow-hidden lg:h-(--screen) lg:min-h-[600px] bg-white px-4 py-10 text-(--k-ink) lg:px-5 lg:py-12 lg:pointer-fine:cursor-none lg:pointer-fine:[&_a]:cursor-none",
+        // One screen: the whole of it, or what's below the top bar.
+        page ? "[--screen:calc(100svh-44px)]" : "[--screen:100svh]",
         SANS,
       )}
     >
@@ -149,9 +160,9 @@ export function ContactAddress() {
         className="pointer-events-none absolute top-0 left-0 z-30 -mt-12 -ml-12 hidden size-24 border border-(--k-ink) opacity-0 transition-opacity duration-300 lg:pointer-fine:block"
       />
 
-      <h2 className="text-[22vw] leading-[0.85] font-normal tracking-[-0.06em] uppercase lg:text-[min(10vw,calc((100svh-430px)/2.65))]">
+      <Heading className="text-[22vw] leading-[0.85] font-normal tracking-[-0.06em] uppercase lg:text-[min(10vw,calc((var(--screen)-430px)/2.65))]">
         Contact
-      </h2>
+      </Heading>
 
       <div className="mt-6 grid flex-1 grid-cols-4 gap-x-4 gap-y-6 lg:grid-cols-12 lg:gap-x-5">
         {/* Details, low in the left column. */}
@@ -228,7 +239,7 @@ export function ContactAddress() {
         <a
           data-ring
           href={`mailto:${DETAILS.email}`}
-          className="text-right text-[15.5vw] leading-[0.95] font-bold tracking-[-0.05em] lg:text-[min(9.5vw,calc((100svh-430px)/2.8))]"
+          className="text-right text-[15.5vw] leading-[0.95] font-bold tracking-[-0.05em] lg:text-[min(9.5vw,calc((var(--screen)-430px)/2.8))]"
         >
           {EMAIL_LINES.map((line) => (
             <span key={line} className="block">

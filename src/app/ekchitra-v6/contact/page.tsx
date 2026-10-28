@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 
-import { HERO_SLIDES } from "@/components/sites/ekchitra-redesign/data";
-import { PageFrame } from "@/components/sites/ekchitra-v6/PageFrame";
-import { ContactDirectory } from "@/components/sites/ekchitra-v6/contact/ContactDirectory";
-import { DETAILS } from "@/components/sites/ekchitra-v6/contact/data";
+import { SANS } from "@/components/sites/ekchitra-v5/shared";
+import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
+import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
+import { ContactAddress } from "@/components/sites/ekchitra-v6/contact-variants/ContactAddress";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Contact — EkChitra Art Gallery",
@@ -11,17 +13,20 @@ export const metadata: Metadata = {
     "Visit, call or write to EkChitra, a contemporary Indian art gallery in HITEC City, Hyderabad.",
 };
 
-/** Contact, v6: the shared frame over the gallery's details, after goodman-gallery.com/contact. */
+/**
+ * Contact, v6: layout 03 from the contact variations (after
+ * lefruitstudio.fr/en/contact) — one screen under the top bar with
+ * "Contact" huge, the address and hours, a window onto the photograph that
+ * follows the cursor, and the email enormous across the foot — then the
+ * shared footer.
+ */
 export default function EkchitraV6ContactPage() {
   return (
-    <PageFrame
-      banner={HERO_SLIDES[0]}
-      label="Contact"
-      title="Get in touch"
-      intro="We’d love to hear from you."
-      note={`${DETAILS.hours.days}, ${DETAILS.hours.time}`}
-    >
-      <ContactDirectory />
-    </PageFrame>
+    <main className={cn("min-h-svh bg-white text-(--k-ink)", SANS)}>
+      <SmoothScroll />
+      <TopBar />
+      <ContactAddress page />
+      <FooterGlow />
+    </main>
   );
 }
