@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
-import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
@@ -25,16 +25,16 @@ export default function EkchitraV6Page() {
     <main className="min-h-svh bg-white text-(--k-ink)">
       <SmoothScroll />
       <TopBar />
-      <Hero />
+      <Hero dotted />
       <Statement />
       <ExIndexReel />
       <ArtistsBands />
       {/* Services: iteration 04 (overlay cards) for now. The wrapper keeps
           the top bar's "Services" link landing here. */}
       <div id="services" className="scroll-mt-11">
-        <ServicesOverlay />
+        <ServicesOverlay dotted />
       </div>
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

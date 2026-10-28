@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 
 import { cn } from "@/lib/utils";
 
+import { Dotted } from "./Dotted";
+
 /** How long each picture holds before the next fades in, ms. */
 const HOLD = 4500;
 
@@ -73,9 +75,9 @@ export function HeroCarousel({
         className,
       )}
     >
-      {/* The pictures, cross-fading. When dotted, the mask sits on this layer
-          so it doesn't fight the crossfade. */}
-      <div className={cn("absolute inset-0", dotted && "ek6-dots")}>
+      {/* The pictures, cross-fading. When dotted they are drawn twice (see
+          Dotted); both copies share the same state, so they change together. */}
+      <Dotted on={dotted}>
         {slides.map((slide, index) => (
           <Image
             key={slide.src}
@@ -94,7 +96,7 @@ export function HeroCarousel({
             )}
           />
         ))}
-      </div>
+      </Dotted>
 
       {/* Previous and next, either side of where the run is. */}
       <div className="absolute right-5 bottom-5 z-20 flex items-center gap-x-1 rounded-full bg-(--k-ink)/55 p-1 text-white backdrop-blur-sm">

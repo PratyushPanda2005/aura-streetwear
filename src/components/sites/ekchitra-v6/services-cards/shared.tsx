@@ -3,6 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 import { CTA_PHOTOS, CTA_SERVICES } from "../cta-variants/shared";
+import { Dotted } from "../Dotted";
 
 /**
  * Shared bits for the static services iterations: the two services and their
@@ -55,22 +56,32 @@ export function Covers({
 export function ServicePhoto({
   service,
   sizes,
+  dotted = false,
   className,
 }: {
   service: Service;
   sizes: string;
+  /** Show the photo as a grey halftone that clears when its group is hovered (see .ek6-dots). */
+  dotted?: boolean;
   className?: string;
 }) {
   const photo = CTA_PHOTOS[service.key];
   return (
     <div className={cn("relative overflow-hidden bg-(--k-ink)/5", className)}>
-      <Image
-        src={photo.src}
-        alt={photo.alt}
-        fill
-        sizes={sizes}
-        className={cn("object-cover", photo.position)}
-      />
+      <Dotted on={dotted}>
+        <Image
+          src={photo.src}
+          alt={photo.alt}
+          fill
+          sizes={sizes}
+          className={cn(
+            "object-cover",
+            photo.position,
+            dotted &&
+              "transition-transform duration-900 ease-[cubic-bezier(0.45,0,0.25,1)] group-hover:scale-[1.03] group-hover:duration-750 group-hover:ease-[cubic-bezier(0.4,0,0.2,1)] motion-reduce:transition-none",
+          )}
+        />
+      </Dotted>
     </div>
   );
 }

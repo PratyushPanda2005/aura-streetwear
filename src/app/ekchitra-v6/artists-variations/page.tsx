@@ -13,7 +13,7 @@ import { ArtistsWall } from "@/components/sites/ekchitra-v6/artists-variants/Art
 import { GRID, HEAD } from "@/components/sites/ekchitra-v6/styles";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 import { Index } from "@/components/sites/ekchitra-v6/ui";
-import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 
 export const metadata: Metadata = {
   title: "Artists section — variations",
@@ -82,7 +82,7 @@ export default function ArtistsVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

@@ -1,0 +1,85 @@
+- generic [ref=f11e4]:
+  - generic [ref=f11e5]:
+    - generic [ref=f11e6]: We use cookies to improve your experience on our websites and to compile visitor statistics.
+    - generic [ref=f11e7]:
+      - button "Accept" [ref=f11e8] [cursor=pointer]
+      - button "Customize" [ref=f11e9] [cursor=pointer]
+  - generic:
+    - generic:
+      - button
+      - paragraph: Manage cookies
+      - paragraph: Our site uses cookies. Cookies are small text files placed on your device to store data for later use by web servers. Our site uses cookies to remember your preferences and settings, help you log in, display personalized advertising and analyze the performance of our websites.
+      - generic:
+        - list:
+          - listitem:
+            - paragraph: Required
+            - paragraph: We use the cookies necessary to perform the essential functions of the website. On this site, we use cookies to measure our audience, to maintain our relationship with you and to send you quality content and advertising from time to time. These cookies are necessary for the operation of our website.
+          - listitem:
+            - paragraph: Analytical
+            - paragraph: Enables us to analyze the statistics of visits to our site.
+            - generic:
+              - button "Accept"
+              - button "Refuser"
+      - generic:
+        - button "Enregistrer"
+  - generic [ref=f11e10]:
+    - banner:
+      - generic [ref=f11e13]:
+        - link "Back to home" [ref=f11e14] [cursor=pointer]:
+          - /url: /en
+        - button "open menu" [ref=f11e17] [cursor=pointer]:
+          - generic [ref=f11e18]: Menu
+        - generic [ref=f11e23] [cursor=pointer]:
+          - list [ref=f11e24]:
+            - listitem [ref=f11e25]:
+              - link "Switch tofr" [ref=f11e26]:
+                - /url: /contact
+                - text: fr
+          - generic [ref=f11e27]: en
+      - generic:
+        - generic:
+          - generic:
+            - img "Le Fruit Studio"
+      - generic:
+        - generic:
+          - generic:
+            - img "Le Fruit Studio"
+      - generic:
+        - generic:
+          - generic:
+            - img "We are a branding company based in Paris, dog friendly and currently throwing the stick to Kaya pointing at the Metaverse"
+    - main [ref=f11e28]:
+      - generic [ref=f11e30]:
+        - img "We are a branding company based in Paris, dog friendly and currently throwing the stick to Kaya pointing at the Metaverse" [ref=f11e33]
+        - generic [ref=f11e34]:
+          - generic:
+            - generic:
+              - heading "Contact" [level=1]
+            - list [ref=f11e36]
+            - generic [ref=f11e37]:
+              - link [ref=f11e39] [cursor=pointer]:
+                - /url: mailto:hey@lefruitstudio.fr
+                - generic [ref=f11e42]:
+                  - generic: h
+                  - generic: e
+                  - generic: "y"
+                  - generic: "@"
+              - link [ref=f11e44] [cursor=pointer]:
+                - /url: mailto:hey@lefruitstudio.fr
+                - generic [ref=f11e47]:
+                  - generic: l
+                  - generic: e
+                  - generic: f
+                  - generic: r
+                  - generic: u
+                  - generic: i
+                  - generic: t
+                  - generic: s
+                  - generic: t
+                  - generic: u
+                  - generic: d
+                  - generic: i
+                  - generic: o
+                  - generic: .
+                  - generic: f
+                  - generic: r

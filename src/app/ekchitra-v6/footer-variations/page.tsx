@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 
 import { CAPS, SANS } from "@/components/sites/ekchitra-v5/shared";
 import { FooterEtching } from "@/components/sites/ekchitra-v6/footer-variants/FooterEtching";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 import { FooterFade } from "@/components/sites/ekchitra-v6/footer-variants/FooterFade";
 import { FooterMark } from "@/components/sites/ekchitra-v6/footer-variants/FooterMark";
 import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
@@ -41,11 +42,16 @@ const VARIATIONS: { name: string; note: string; body: ReactNode }[] = [
     note: "After Evmos — a full white top over a notched panel of glossy silk in the brand colours.",
     body: <FooterSmoke />,
   },
+  {
+    name: "Glow",
+    note: "After arrakis — warm near-black, a glowing orange card with drifting light, link columns, a bracketed last line.",
+    body: <FooterGlow />,
+  },
 ];
 
 /**
- * Five footers for the v6 homepage, each one screen high and only in black
- * and white, stacked with a label above each to choose from.
+ * Six footers for the v6 homepage, each one screen high and (but for the
+ * last) only in black and white, stacked with a label above each to choose from.
  */
 export default function FooterVariationsPage() {
   return (

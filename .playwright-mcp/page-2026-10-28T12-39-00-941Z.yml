@@ -1,0 +1,436 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - region "Notifications alt+T"
+    - generic [ref=f14e4]:
+      - generic [ref=f14e5]:
+        - link "Home" [ref=f14e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f14e9]:
+          - link "Platform" [ref=f14e12] [cursor=pointer]:
+            - /url: /platform
+          - button "Industries" [ref=f14e15] [cursor=pointer]
+          - link "Security" [ref=f14e18] [cursor=pointer]:
+            - /url: /security
+          - link "About" [ref=f14e21] [cursor=pointer]:
+            - /url: /about
+      - link "Request a demo" [ref=f14e23] [cursor=pointer]:
+        - /url: mailto:demo@arrakis.tech
+    - main [ref=f14e27]:
+      - generic [ref=f14e31]:
+        - img "Excavator working on a construction site" [ref=f14e37]
+        - generic [ref=f14e60]:
+          - generic [ref=f14e61]:
+            - heading "This is the industrial world, reengineered for the frontier" [level=1] [ref=f14e62]
+            - paragraph [ref=f14e63]: We turn decades of operational know-how into a sovereign intelligence layer that AI acts on, so your teams build unfair execution edge.
+            - link "Request a demo" [ref=f14e65] [cursor=pointer]:
+              - /url: mailto:demo@arrakis.tech
+          - heading [level=1] [aria-hidden]:
+            - generic:
+              - generic:
+                - generic: This
+                - generic: is
+                - generic: the
+                - generic: industrial
+                - generic: world,
+            - generic:
+              - generic:
+                - generic: reengineered
+                - generic: for
+                - generic: the
+                - generic: frontier
+      - generic [ref=f14e72]:
+        - generic [ref=f14e73]: Built by AI experts from
+        - generic [ref=f14e74]:
+          - img "Accel" [ref=f14e77]
+          - img "Palantir" [ref=f14e80]
+          - img "Deliveryhero" [ref=f14e83]
+          - img "Revolut" [ref=f14e86]
+      - generic [ref=f14e100]:
+        - heading "The operating system for the new industrial world ." [level=2] [ref=f14e101]:
+          - text: The operating system for the
+          - generic [ref=f14e102]: new industrial world
+          - text: .
+        - paragraph [ref=f14e105]: Model-Agnostic. Sovereign. Self-Learning.
+        - link "Explore the platform" [ref=f14e107] [cursor=pointer]:
+          - /url: /platform
+      - generic [ref=f14e116]:
+        - paragraph [ref=f14e122]: Built to expand your people, not replace them. Your teams hold command while agents execute. Every correction sharpens the system and adds to your execution firepower.
+        - paragraph [ref=f14e124]:
+          - generic [ref=f14e125]: Built
+          - generic [ref=f14e126]: to
+          - generic [ref=f14e127]: expand
+          - generic [ref=f14e128]: your
+          - generic [ref=f14e129]: people,
+          - generic [ref=f14e130]: not
+          - generic [ref=f14e131]: replace
+          - generic [ref=f14e132]: them.
+          - generic [ref=f14e133]: Your
+          - generic [ref=f14e134]: teams
+          - generic [ref=f14e135]: hold
+          - generic [ref=f14e136]: command
+          - generic [ref=f14e137]: while
+          - generic [ref=f14e138]: agents
+          - generic [ref=f14e139]: execute.
+          - generic [ref=f14e140]: Every
+          - generic [ref=f14e141]: correction
+          - generic [ref=f14e142]: sharpens
+          - generic [ref=f14e143]: the
+          - generic [ref=f14e144]: system
+          - generic [ref=f14e145]: and
+          - generic [ref=f14e146]: adds
+          - generic [ref=f14e147]: to
+          - generic [ref=f14e148]: your
+          - generic [ref=f14e149]: execution
+          - generic [ref=f14e150]: firepower.
+      - generic [ref=f14e154]:
+        - generic [ref=f14e155]:
+          - heading "In the field" [level=2] [ref=f14e156]
+          - generic [ref=f14e157]:
+            - navigation "Industries" [ref=f14e159]:
+              - button "Aerospace" [ref=f14e160] [cursor=pointer]
+              - button "Transportation" [ref=f14e163] [cursor=pointer]
+              - button "Energy" [ref=f14e166] [cursor=pointer]
+              - button "Mining & Agriculture" [ref=f14e169] [cursor=pointer]
+              - button "Engineering & Construction" [ref=f14e172] [cursor=pointer]
+              - button "Manufacturing" [ref=f14e175] [cursor=pointer]
+            - generic [ref=f14e178]:
+              - button "Previous" [disabled] [ref=f14e179]:
+                - generic [aria-hidden] [ref=f14e180]: ←
+              - button "Next" [ref=f14e181] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f14e182]: →
+        - generic [ref=f14e183]:
+          - link "Aerospace Running mission-critical aerospace programs" [ref=f14e184] [cursor=pointer]:
+            - /url: /aerospace-and-defense
+            - generic [ref=f14e185]:
+              - generic [aria-hidden]:
+                - img [aria-hidden]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "01100110010"
+                        - generic: "10000001110"
+                        - generic: "0010000100010"
+                        - generic: "001000001010"
+                      - generic:
+                        - generic: N1 98.2%
+                        - generic: EGT 612°C
+              - generic [ref=f14e194]:
+                - generic [ref=f14e195]: Aerospace
+                - generic [ref=f14e198]:
+                  - text: Running mission-critical aerospace programs
+                  - generic [aria-hidden] [ref=f14e199]: →
+          - link [ref=f14e200] [cursor=pointer]:
+            - /url: /shipping
+            - generic [ref=f14e210]:
+              - generic [ref=f14e211]:
+                - generic [aria-hidden] [ref=f14e212]: →
+                - text: Transportation
+              - generic [ref=f14e213]:
+                - text: Transforming complex shipping operations
+                - generic [aria-hidden] [ref=f14e214]: →
+          - link [ref=f14e215] [cursor=pointer]:
+            - /url: /energy-commodities
+            - generic [ref=f14e225]:
+              - generic [ref=f14e226]:
+                - generic [aria-hidden] [ref=f14e227]: →
+                - text: Energy
+              - generic [ref=f14e228]:
+                - text: Trading and operating at commodity scale
+                - generic [aria-hidden] [ref=f14e229]: →
+          - link [ref=f14e230] [cursor=pointer]:
+            - /url: /mining-agriculture
+            - generic [ref=f14e240]:
+              - generic [ref=f14e241]:
+                - generic [aria-hidden] [ref=f14e242]: →
+                - text: Mining & Agriculture
+              - generic [ref=f14e243]:
+                - text: Running agricultural operations
+                - generic [aria-hidden] [ref=f14e244]: →
+          - link [ref=f14e245] [cursor=pointer]:
+            - /url: /engineering-construction
+            - generic [ref=f14e255]:
+              - generic [ref=f14e256]:
+                - generic [aria-hidden] [ref=f14e257]: →
+                - text: Engineering & Construction
+              - generic [ref=f14e258]:
+                - text: Delivering complex construction projects
+                - generic [aria-hidden] [ref=f14e259]: →
+          - link [ref=f14e260] [cursor=pointer]:
+            - /url: /manufacturing
+            - generic [ref=f14e270]:
+              - generic [ref=f14e271]:
+                - generic [aria-hidden] [ref=f14e272]: →
+                - text: Manufacturing
+              - generic [ref=f14e273]:
+                - text: Running complex manufacturing operations
+                - generic [aria-hidden] [ref=f14e274]: →
+      - generic [ref=f14e280]:
+        - heading "The modern-day industrial problem" [level=2] [ref=f14e281]
+        - paragraph [ref=f14e282]: What works in AI labs doesn't work in the field.
+        - paragraph [aria-hidden] [ref=f14e283]:
+          - generic [ref=f14e284]:
+            - generic [ref=f14e285]: What
+            - generic [ref=f14e286]: works
+            - generic [ref=f14e287]: in
+            - generic [ref=f14e288]: AI
+            - generic [ref=f14e289]: labs
+            - generic [ref=f14e290]: doesn't
+            - generic [ref=f14e291]: work
+            - generic [ref=f14e292]: in
+            - generic [ref=f14e293]: the
+            - generic [ref=f14e294]: field.
+        - paragraph [ref=f14e295]: We bridge the gap between frontier technologies and business outcomes with systems that harness the full complexity of your operations.
+      - generic [ref=f14e299]:
+        - generic [ref=f14e302]:
+          - img "Arrakis Logo Icon" [ref=f14e304]
+          - paragraph [ref=f14e305]: Arrakis OS
+          - heading "The harness factory that makes your operations AI-executable" [level=2] [ref=f14e306]:
+            - text: The harness factory that makes your operations
+            - generic [ref=f14e307]: AI-executable
+        - generic [ref=f14e309]:
+          - generic [ref=f14e310]:
+            - button [ref=f14e313] [cursor=pointer]:
+              - paragraph [ref=f14e314]: 01 · Source systems
+              - generic [ref=f14e339]:
+                - paragraph [ref=f14e340]: Built with everything you already run on
+                - paragraph [ref=f14e342]: Kept where it is. No rip-and-replace.
+            - button [ref=f14e345] [cursor=pointer]:
+              - paragraph [ref=f14e346]: 02 · Data connectors
+              - generic [ref=f14e373]:
+                - paragraph [ref=f14e374]: Read and write, both ways
+                - paragraph [ref=f14e376]: Live integrations that pull it all into one place.
+            - button [ref=f14e379] [cursor=pointer]:
+              - paragraph [ref=f14e380]: 03 · Context twin
+              - generic [ref=f14e414]:
+                - paragraph [ref=f14e415]: A living model of your operation
+                - paragraph [ref=f14e417]: Assets, people, rules and the know-how in between, kept in sync with the real thing.
+          - generic [ref=f14e418]:
+            - button [ref=f14e421] [cursor=pointer]:
+              - paragraph [ref=f14e422]: 04 · Harnesses
+              - generic [ref=f14e436]:
+                - paragraph [ref=f14e437]: Bespoke structures agents run in
+                - paragraph [ref=f14e439]: Each one fits a workflow, with permissions, approvals and an audit trail built in.
+            - button [ref=f14e442] [cursor=pointer]:
+              - paragraph [ref=f14e443]: 05 · Models
+              - generic [ref=f14e452]:
+                - paragraph [ref=f14e453]: Model-agnostic
+                - paragraph [ref=f14e455]: Bring your own, or let us route each task to the best one.
+            - button [ref=f14e458] [cursor=pointer]:
+              - paragraph [ref=f14e459]: 06 · Security & governance
+              - generic [ref=f14e469]:
+                - paragraph [ref=f14e470]: Sovereign, and in your control
+                - paragraph [ref=f14e472]: Runs in your cloud or on-prem, with role-based access, approvals and a full audit trail of every agent action.
+      - generic [ref=f14e476]:
+        - heading "We deliver results fast" [level=2] [ref=f14e478]
+        - generic [ref=f14e479]:
+          - generic [ref=f14e483]:
+            - generic [ref=f14e484]:
+              - generic [ref=f14e485]: "0"
+              - generic [ref=f14e490]: +
+            - paragraph [ref=f14e493]: Countries Arrakis is live in
+          - generic [ref=f14e497]:
+            - generic [ref=f14e498]:
+              - generic [ref=f14e499]: "0"
+              - generic [ref=f14e504]: +
+            - paragraph [ref=f14e507]: Agents in production
+          - generic [ref=f14e511]:
+            - generic [ref=f14e512]:
+              - generic [ref=f14e513]: "0"
+              - generic [ref=f14e518]: "%"
+            - paragraph [ref=f14e521]: Faster cycle times
+          - generic [ref=f14e525]:
+            - generic [ref=f14e526]:
+              - generic [ref=f14e527]: "0"
+              - generic [ref=f14e532]: "%"
+            - paragraph [ref=f14e535]: Agentic-resolution
+          - generic [ref=f14e539]:
+            - generic [ref=f14e540]:
+              - generic [ref=f14e541]: "0"
+              - generic [ref=f14e546]: +
+            - paragraph [ref=f14e549]: Operator hours saved per week
+          - generic [ref=f14e554]:
+            - generic [ref=f14e555]:
+              - generic [ref=f14e556]: "0"
+              - generic [ref=f14e561]: x
+            - paragraph [ref=f14e564]: Agent performance uplift on Arrakis Harness
+      - generic [ref=f14e569]:
+        - button "Go to panel 1" [ref=f14e571] [cursor=pointer]
+        - generic [ref=f14e574]:
+          - generic [ref=f14e575]:
+            - generic [ref=f14e576]:
+              - heading [level=2] [ref=f14e577]:
+                - generic [ref=f14e578]:
+                  - paragraph [ref=f14e580]: Connect with everything you already rely on, bringing your operational context into one place
+                  - paragraph [ref=f14e582]:
+                    - generic [ref=f14e583]: Connect
+                    - generic [ref=f14e584]: with
+                    - generic [ref=f14e585]: everything
+                    - generic [ref=f14e586]: you
+                    - generic [ref=f14e587]: already
+                    - generic [ref=f14e588]: rely
+                    - generic [ref=f14e589]: on,
+                    - generic [ref=f14e590]: bringing
+                    - generic [ref=f14e591]: your
+                    - generic [ref=f14e592]: operational
+                    - generic [ref=f14e593]: context
+                    - generic [ref=f14e594]: into
+                    - generic [ref=f14e595]: one
+                    - generic [ref=f14e596]: place
+              - navigation "Panel navigation" [ref=f14e597]:
+                - list [ref=f14e598]:
+                  - listitem [ref=f14e599]:
+                    - 'button "Go to: ERP Systems" [ref=f14e600] [cursor=pointer]':
+                      - generic [aria-hidden] [ref=f14e601]: ">"
+                      - generic [ref=f14e602]: ERP Systems
+                  - listitem [ref=f14e603]:
+                    - 'button "Go to: AI Model Providers" [ref=f14e604] [cursor=pointer]':
+                      - generic [ref=f14e605]: AI Model Providers
+                  - listitem [ref=f14e606]:
+                    - 'button "Go to: Data Warehouses" [ref=f14e607] [cursor=pointer]':
+                      - generic [ref=f14e608]: Data Warehouses
+                  - listitem [ref=f14e609]:
+                    - 'button "Go to: Document Repositories" [ref=f14e610] [cursor=pointer]':
+                      - generic [ref=f14e611]: Document Repositories
+            - group [ref=f14e624]:
+              - region "Logo slider" [ref=f14e625]:
+                - generic [ref=f14e626]:
+                  - group [ref=f14e627]:
+                    - img "SAP Logo" [ref=f14e629]
+                  - group [ref=f14e630]:
+                    - img "Oracle Logo" [ref=f14e632]
+                  - group [ref=f14e633]:
+                    - img "Infor Logo" [ref=f14e635]
+                  - group [ref=f14e636]:
+                    - img "IBM Logo" [ref=f14e638]
+                  - group [ref=f14e639]:
+                    - img "Workday Logo" [ref=f14e641]
+                  - group [ref=f14e642]:
+                    - img "SAP Logo" [ref=f14e644]
+                  - group [ref=f14e645]:
+                    - img "Oracle Logo" [ref=f14e647]
+                  - group [ref=f14e648]:
+                    - img "Infor Logo" [ref=f14e650]
+                  - group [ref=f14e651]:
+                    - img "IBM Logo" [ref=f14e653]
+                  - group [ref=f14e654]:
+                    - img "Workday Logo" [ref=f14e656]
+                  - group [ref=f14e657]:
+                    - img "SAP Logo" [ref=f14e659]
+                  - group [ref=f14e660]:
+                    - img "Oracle Logo" [ref=f14e662]
+                  - group [ref=f14e663]:
+                    - img "Infor Logo" [ref=f14e665]
+                  - group [ref=f14e666]:
+                    - img "IBM Logo" [ref=f14e668]
+                  - group [ref=f14e669]:
+                    - img "Workday Logo" [ref=f14e671]
+          - generic [ref=f14e674]:
+            - generic [ref=f14e675]:
+              - generic [ref=f14e676]:
+                - generic [ref=f14e677]: "0"
+                - generic [ref=f14e682]: "%"
+              - paragraph [ref=f14e685]: Cross platform visibility
+            - generic [ref=f14e686]:
+              - generic [ref=f14e687]:
+                - heading "Connect your full stack" [level=3] [ref=f14e688]
+                - paragraph [ref=f14e689]: Integrate ERPs, CRMs, data warehouses, and operational tools into one unified layer.
+              - generic [ref=f14e690]:
+                - heading "Ingest unstructured data" [level=3] [ref=f14e691]
+                - paragraph [ref=f14e692]: Parse emails, PDFs, and spreadsheets into structured, usable inputs.
+              - generic [ref=f14e693]:
+                - heading "Build a living knowledge graph" [level=3] [ref=f14e694]
+                - paragraph [ref=f14e695]: Create a shared operational model that agents and teams can act on.
+              - generic [ref=f14e696]:
+                - heading "Bring your own model" [level=3] [ref=f14e697]
+                - paragraph [ref=f14e698]: Use your preferred models or let us optimize across providers in real time.
+      - generic [ref=f14e703]:
+        - generic [ref=f14e704]: As covered by
+        - generic [ref=f14e705]:
+          - link [ref=f14e708] [cursor=pointer]:
+            - /url: https://fortune.com/2026/07/22/arrakis-a-startup-betting-ais-biggest-payoff-is-in-industrial-sectors-not-office-work-emerges-from-stealth-with-38-million-in-venture-funding/
+            - img "Fortune" [ref=f14e709]
+          - link [ref=f14e712] [cursor=pointer]:
+            - /url: https://www.bloomberg.com/news/newsletters/2026-07-29/palantir-s-new-rivals-in-europe-seize-the-sovereignty-opening
+            - img "Bloomberg" [ref=f14e713]
+          - link [ref=f14e716] [cursor=pointer]:
+            - /url: https://sifted.eu/articles/12-investors-who-recently-became-founders
+            - img "Sifted" [ref=f14e717]
+          - link [ref=f14e720] [cursor=pointer]:
+            - /url: https://tech.eu/2026/07/22/openai-and-datadog-leaders-back-ai-deployment-startup-arrakis/
+            - img "tech.eu" [ref=f14e721]
+    - generic [ref=f14e723]:
+      - generic [ref=f14e724]:
+        - generic [ref=f14e733]:
+          - heading "Bring AI into the core of your operations" [level=2] [ref=f14e734]
+          - link "Request a demo" [ref=f14e736] [cursor=pointer]:
+            - /url: mailto:rafael@arrakistechnologies.ai,chester@arrakistechnologies.ai
+        - generic [ref=f14e741]:
+          - generic [ref=f14e743]:
+            - heading "Platform" [level=3] [ref=f14e744]
+            - list [ref=f14e745]:
+              - listitem [ref=f14e746]:
+                - link "Consolidate" [ref=f14e747] [cursor=pointer]:
+                  - /url: /platform#stacked-panel-db8c95a580c0
+              - listitem [ref=f14e752]:
+                - link "Configure" [ref=f14e753] [cursor=pointer]:
+                  - /url: /platform#stacked-panel-d312ee484b96
+              - listitem [ref=f14e758]:
+                - link "Control" [ref=f14e759] [cursor=pointer]:
+                  - /url: /platform#stacked-panel-da9cd09a67b4
+              - listitem [ref=f14e764]:
+                - link "Scale" [ref=f14e765] [cursor=pointer]:
+                  - /url: /platform#stacked-panel-0140ce7b4477
+              - listitem [ref=f14e770]:
+                - link "Security" [ref=f14e771] [cursor=pointer]:
+                  - /url: /security
+          - generic [ref=f14e777]:
+            - heading "Industries" [level=3] [ref=f14e778]
+            - list [ref=f14e779]:
+              - listitem [ref=f14e780]:
+                - link "Aerospace" [ref=f14e781] [cursor=pointer]:
+                  - /url: /aerospace-and-defense
+              - listitem [ref=f14e786]:
+                - link "Transportation" [ref=f14e787] [cursor=pointer]:
+                  - /url: /shipping
+              - listitem [ref=f14e792]:
+                - link "Energy" [ref=f14e793] [cursor=pointer]:
+                  - /url: /energy-commodities
+              - listitem [ref=f14e798]:
+                - link "Mining & Agriculture" [ref=f14e799] [cursor=pointer]:
+                  - /url: /mining-agriculture
+              - listitem [ref=f14e804]:
+                - link "Engineering & Construction" [ref=f14e805] [cursor=pointer]:
+                  - /url: /engineering-construction
+              - listitem [ref=f14e810]:
+                - link "Manufacturing" [ref=f14e811] [cursor=pointer]:
+                  - /url: /manufacturing
+          - generic [ref=f14e817]:
+            - heading "Company" [level=3] [ref=f14e818]
+            - list [ref=f14e819]:
+              - listitem [ref=f14e820]:
+                - link "About" [ref=f14e821] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f14e826]:
+                - link "Careers" [ref=f14e827] [cursor=pointer]:
+                  - /url: mailto:careers@arrakis.tech
+              - listitem [ref=f14e832]:
+                - link "Terms of Service" [ref=f14e833] [cursor=pointer]:
+                  - /url: /terms-of-service
+              - listitem [ref=f14e838]:
+                - link "Cookie Policy" [ref=f14e839] [cursor=pointer]:
+                  - /url: /cookie-policy
+      - generic [ref=f14e850]:
+        - paragraph [ref=f14e851]: © 2026 ARRAKIS TECHNOLOGIES
+        - link "LinkedIn" [ref=f14e853] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/arrakis-corp/
+      - paragraph [ref=f14e857]: Arrakis Technologies does not collect, store, or process any personal data from its visitors.
+  - alert [ref=f14e858]
+  - region "Cookie notice" [ref=f14e859]:
+    - paragraph [ref=f14e860]: Cookies
+    - paragraph [ref=f14e861]:
+      - text: We use only strictly necessary cookies to make this site work. We don't use advertising or cross-site tracking cookies.
+      - link "Read our Cookie Policy" [ref=f14e862] [cursor=pointer]:
+        - /url: /cookie-policy
+      - text: .
+    - button "Dismiss cookie notice" [ref=f14e864] [cursor=pointer]:
+      - generic [ref=f14e865]: Got it

@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { BODY, CAPS, SANS, TITLE } from "../ekchitra-v5/shared";
 import { SmoothScroll } from "./SmoothScroll";
 import { TopBar } from "./TopBar";
-import { FooterLedger } from "./footer-variants/FooterLedger";
+import { FooterGlow } from "./footer-variants/FooterGlow";
 import { GRID, HEAD } from "./styles";
 
 /**
@@ -89,7 +89,7 @@ export function PageFrame({
       )}
 
       {children}
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

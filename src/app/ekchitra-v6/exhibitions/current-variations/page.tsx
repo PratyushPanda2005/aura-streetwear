@@ -17,7 +17,7 @@ import {
   CurrentIndex,
   CurrentWipe,
 } from "@/components/sites/ekchitra-v6/exhibitions/CurrentShowsMotion";
-import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 
 export const metadata: Metadata = {
   title: "Now and upcoming — variations",
@@ -103,7 +103,7 @@ export default function CurrentVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

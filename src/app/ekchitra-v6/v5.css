@@ -478,49 +478,52 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   }
 }
 
-/* Dotted pictures (after the halftones on aspensearch.com), kept subtle: the
-   element is masked to a fine grid of large, close dots and partly
-   desaturated; when its group is hovered or focused the dots grow until they
-   merge into the clear, full-colour picture. Touch screens (no hover) see it
-   clear. Used by the dotted-hero route only. */
-@property --ek6-dot {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 64%;
-}
+/* Dotted pictures, after the grey halftones of the v7 hero (and
+   aspensearch.com): the picture is turned grey and laid half under a grid
+   of soft round dots, then the contrast is pushed so each point snaps to
+   dark or light — big dots where the picture is dark, small where it is
+   light — and eased back so the dots are dark grey on light grey.
+   This layer is the top copy of a picture drawn twice (see Dotted.tsx).
+   Its filter never changes; when its group is hovered or focused the layer
+   simply fades out over the clear copy underneath, so the whole picture
+   clears evenly at once. (Easing the filter instead clears it unevenly —
+   mid-tones first, then outwards — however the curve is shaped.)
+   It clears gently (0.75s) and the dots settle back a little slower. Touch
+   screens (no hover) see only the clear copy. */
 .ek6-dots {
-  --ek6-dot: 64%;
-  -webkit-mask-image: radial-gradient(
-    circle,
-    #000 var(--ek6-dot),
-    transparent calc(var(--ek6-dot) + 8%)
-  );
-  mask-image: radial-gradient(
-    circle,
-    #000 var(--ek6-dot),
-    transparent calc(var(--ek6-dot) + 8%)
-  );
-  -webkit-mask-size: 4px 4px;
-  mask-size: 4px 4px;
-  filter: grayscale(0.6);
-  transition:
-    --ek6-dot 0.6s cubic-bezier(0.25, 1, 0.5, 1),
-    filter 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  filter: grayscale(1) contrast(24) contrast(0.78) brightness(1.04);
+  transition: opacity 0.9s cubic-bezier(0.45, 0, 0.25, 1);
+}
+.ek6-dots::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #000 0, #fff 72%);
+  background-size: 5px 5px;
+  opacity: 0.5;
+}
+/* For a dark picture with white type over it (the footer's glow): the same
+   halftone, eased down instead of up, so the dots are mid grey on near
+   black and the type keeps its contrast. */
+.ek6-dots-dark {
+  filter: grayscale(1) contrast(24) contrast(0.78) brightness(0.5);
 }
 .group:hover .ek6-dots,
 .group:focus-within .ek6-dots {
-  --ek6-dot: 115%;
-  filter: none;
+  opacity: 0;
+  transition: opacity 0.75s cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media (hover: none) {
   .ek6-dots {
-    -webkit-mask-image: none;
-    mask-image: none;
-    filter: none;
+    display: none;
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .ek6-dots {
+  .ek6-dots,
+  .group:hover .ek6-dots,
+  .group:focus-within .ek6-dots {
     transition: none;
   }
 }
@@ -562,4 +565,174 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
     0 calc(100% - 20px),
     0 20px
   );
+}
+
+/* The glowing card of the "Glow" footer, after the closing card on
+   arrakis.tech, with its own keyframes and layers: two copies of the
+   nebula picture drifting at different speeds (the second mirrored and
+   lightened in at 18%), a blurred light leak screened over the left edge,
+   and a field of dot streams that drifts and twinkles under a moving
+   mask. */
+@keyframes ek6-nebula-a {
+  0% {
+    transform: translate(-4%, 1.5%) rotate(-1.5deg) scale(1);
+  }
+  35% {
+    transform: translate(2%, -1%) rotate(0.5deg) scale(1.05);
+  }
+  70% {
+    transform: translate(5%, 1.5%) rotate(1.5deg) scale(1.02);
+  }
+  100% {
+    transform: translate(-1%, -1.5%) rotate(-0.5deg) scale(1.06);
+  }
+}
+@keyframes ek6-nebula-b {
+  0% {
+    transform: scaleX(-1) translate(4%, -1.5%) rotate(1.5deg) scale(1.06);
+  }
+  50% {
+    transform: scaleX(-1) translate(-5%, 1.5%) rotate(-1deg) scale(1);
+  }
+  100% {
+    transform: scaleX(-1) translate(1%, -1%) rotate(0.5deg) scale(1.04);
+  }
+}
+@keyframes ek6-leak-drift {
+  0% {
+    opacity: 0.85;
+    transform: translate(0) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(3%, -2%) rotate(2deg);
+  }
+  100% {
+    opacity: 0.75;
+    transform: translate(-2%, 2%) rotate(-1deg);
+  }
+}
+@keyframes ek6-star-drift {
+  0% {
+    transform: translate(1.5%, -1%);
+  }
+  50% {
+    transform: translate(-1.5%, 0.5%);
+  }
+  100% {
+    transform: translate(0.5%, 1.5%);
+  }
+}
+@keyframes ek6-star-twinkle {
+  0% {
+    mask-position: 0 0;
+  }
+  100% {
+    mask-position: 100% 100%;
+  }
+}
+.ek6-nebula-a {
+  will-change: transform;
+  animation: ek6-nebula-a 50s ease-in-out infinite alternate;
+}
+.ek6-nebula-b {
+  will-change: transform;
+  mix-blend-mode: lighten;
+  opacity: 0.18;
+  animation: ek6-nebula-b 70s ease-in-out infinite alternate;
+}
+.ek6-leak-drift {
+  will-change: transform, opacity;
+  animation: ek6-leak-drift 36s ease-in-out infinite alternate;
+}
+.ek6-star-drift {
+  animation: ek6-star-drift 40s ease-in-out infinite alternate;
+}
+.ek6-star-twinkle {
+  -webkit-mask-image:
+    radial-gradient(30% 40% at 30% 40%, #000 0, rgba(0, 0, 0, 0.6) 100%),
+    radial-gradient(25% 35% at 70% 65%, #000 0, rgba(0, 0, 0, 0.6) 100%);
+  mask-image:
+    radial-gradient(30% 40% at 30% 40%, #000 0, rgba(0, 0, 0, 0.6) 100%),
+    radial-gradient(25% 35% at 70% 65%, #000 0, rgba(0, 0, 0, 0.6) 100%);
+  -webkit-mask-size: 200% 200%;
+  mask-size: 200% 200%;
+  mask-composite: add;
+  animation: ek6-star-twinkle 26s ease-in-out infinite alternate;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ek6-nebula-a,
+  .ek6-nebula-b,
+  .ek6-leak-drift,
+  .ek6-star-drift,
+  .ek6-star-twinkle {
+    animation: none;
+  }
+}
+
+/* A dotted rule with a small rounded tick turned down (or up) at each end,
+   as arrakis.tech frames its last line. Colour comes from `color`. */
+.ek6-bracket-t,
+.ek6-bracket-b {
+  position: relative;
+  height: 12px;
+  padding-inline: 3px;
+  background-image: linear-gradient(
+    90deg,
+    currentcolor 0,
+    currentcolor 1.5px,
+    transparent 1.5px
+  );
+  background-repeat: repeat-x;
+  background-size: 5px 1px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.ek6-bracket-t {
+  background-position: 0 0;
+}
+.ek6-bracket-b {
+  background-position: 0 100%;
+}
+.ek6-bracket-t::before,
+.ek6-bracket-t::after,
+.ek6-bracket-b::before,
+.ek6-bracket-b::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  border: 0 solid;
+}
+.ek6-bracket-t::before,
+.ek6-bracket-b::before {
+  left: 0;
+  border-left-width: 1px;
+}
+.ek6-bracket-t::after,
+.ek6-bracket-b::after {
+  right: 0;
+  border-right-width: 1px;
+}
+.ek6-bracket-t::before,
+.ek6-bracket-t::after {
+  top: 0;
+  border-top-width: 1px;
+}
+.ek6-bracket-t::before {
+  border-top-left-radius: 3px;
+}
+.ek6-bracket-t::after {
+  border-top-right-radius: 3px;
+}
+.ek6-bracket-b::before,
+.ek6-bracket-b::after {
+  bottom: 0;
+  border-bottom-width: 1px;
+}
+.ek6-bracket-b::before {
+  border-bottom-left-radius: 3px;
+}
+.ek6-bracket-b::after {
+  border-bottom-right-radius: 3px;
 }

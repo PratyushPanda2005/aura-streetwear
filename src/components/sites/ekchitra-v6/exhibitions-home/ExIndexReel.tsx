@@ -221,7 +221,7 @@ export function ExIndexReel() {
                 href={ALL_HREF}
                 className={cn(
                   BUTTON,
-                  "absolute -right-5 bottom-0 bg-(--k-navy)",
+                  "absolute right-0 bottom-0 bg-(--k-navy)",
                 )}
               >
                 <Diamonds />

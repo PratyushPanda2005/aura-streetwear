@@ -14,9 +14,14 @@ import {
 /**
  * 04 — Overlay cards: two tall photographs, six columns each, with a white
  * label card set into the lower left corner of each — number, audience, name,
- * line and the way in. Static.
+ * line and the way in. Static, unless dotted.
  */
-export function ServicesOverlay() {
+export function ServicesOverlay({
+  dotted = false,
+}: {
+  /** Show the photographs as grey halftones that clear on hover, as the dotted hero does. */
+  dotted?: boolean;
+}) {
   return (
     <section
       aria-label="Services"
@@ -29,11 +34,15 @@ export function ServicesOverlay() {
             href={service.cta.href}
             target="_blank"
             rel="noreferrer"
-            className="relative col-span-4 block lg:col-span-6 lg:h-full"
+            className={cn(
+              "relative col-span-4 block lg:col-span-6 lg:h-full",
+              dotted && "group",
+            )}
           >
             <ServicePhoto
               service={service}
               sizes="(min-width: 1024px) 50vw, 100vw"
+              dotted={dotted}
               className="aspect-[4/5] lg:aspect-auto lg:h-full"
             />
             <span className="absolute right-4 bottom-4 left-4 block bg-white p-5 sm:right-auto sm:w-[78%] lg:bottom-5 lg:left-5 lg:p-6">

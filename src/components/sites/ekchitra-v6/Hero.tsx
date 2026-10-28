@@ -7,6 +7,7 @@ import { Chars } from "../ekchitra-v5/Chars";
 import { CAPS, SANS, V5_ROUTES } from "../ekchitra-v5/shared";
 import { HERO_ART, HERO_COPY } from "../ekchitra-v5/heroes/data";
 import { EXHIBITIONS } from "./data";
+import { Dotted } from "./Dotted";
 import { HeroCarousel } from "./HeroCarousel";
 
 /**
@@ -59,7 +60,7 @@ const FEATURED_SHOW = EXHIBITIONS[0];
 export function Hero({
   dotted = false,
 }: {
-  /** Show the carousel and the film as dotted pictures that clear on hover. */
+  /** Show every picture in the hero as a grey halftone that clears on hover. */
   dotted?: boolean;
 }) {
   return (
@@ -89,20 +90,20 @@ export function Hero({
           dotted && "group",
         )}
       >
-        <video
-          src={VIDEO.src}
-          poster={VIDEO.poster}
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          aria-hidden="true"
-          className={cn(
-            "absolute inset-0 size-full object-cover",
-            dotted && "ek6-dots",
-          )}
-        />
+        {/* Drawn twice when dotted (see Dotted): a video can't carry the dots. */}
+        <Dotted on={dotted}>
+          <video
+            src={VIDEO.src}
+            poster={VIDEO.poster}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-hidden="true"
+            className="absolute inset-0 size-full object-cover"
+          />
+        </Dotted>
       </div>
       <div className="ek5-rise hidden flex-col justify-between bg-(--k-ink) p-5 text-white [--d:600ms] lg:flex">
         <p className="text-[17px] leading-[1.3]">
@@ -124,13 +125,15 @@ export function Hero({
         rel="noreferrer"
         className="group ek5-rise relative hidden overflow-hidden bg-white [--d:750ms] lg:block"
       >
-        <Image
-          src={FEATURED_SHOW.image}
-          alt={FEATURED_SHOW.title}
-          fill
-          sizes="20vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-        />
+        <Dotted on={dotted}>
+          <Image
+            src={FEATURED_SHOW.image}
+            alt={FEATURED_SHOW.title}
+            fill
+            sizes="20vw"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+          />
+        </Dotted>
         <div
           aria-hidden="true"
           className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-(--k-ink)/85 via-(--k-ink)/35 to-transparent"

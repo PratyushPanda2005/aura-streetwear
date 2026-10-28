@@ -1,0 +1,130 @@
+- generic [active] [ref=f13e1]:
+  - main [ref=f13e3]:
+    - generic [ref=f13e4]:
+      - paragraph [ref=f13e5]:
+        - text: Contact 01 — Studio
+        - generic [ref=f13e6]: · After orchid — a big question, details card and form, an FAQ, the glass flower to close.
+      - generic [ref=f13e7]:
+        - generic [ref=f13e9]:
+          - paragraph [ref=f13e10]: Get in touch
+          - heading "Have a wall, a home or a collection in mind?" [level=2] [ref=f13e11]
+          - paragraph [ref=f13e12]: We’d love to hear about it.
+        - generic [ref=f13e13]:
+          - generic [ref=f13e14]:
+            - paragraph [ref=f13e16]:
+              - link "+91 91001 18321" [ref=f13e17] [cursor=pointer]:
+                - /url: tel:+919100118321
+            - paragraph [ref=f13e18]:
+              - link "info@ekchitra.com" [ref=f13e19] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - generic [ref=f13e20]: F94M+52P, Surya Enclave, HITEC City, Hyderabad, Telangana 500081
+            - paragraph [ref=f13e21]: Monday to Saturday, 10am – 7pm
+          - form "Send us a message" [ref=f13e22]:
+            - paragraph [ref=f13e23]: Send us a message
+            - generic [ref=f13e24]:
+              - generic [ref=f13e25]:
+                - generic [ref=f13e26]: Name
+                - textbox "Name" [ref=f13e27]:
+                  - /placeholder: Your name
+              - generic [ref=f13e28]:
+                - generic [ref=f13e29]: Email
+                - textbox "Email" [ref=f13e30]:
+                  - /placeholder: you@example.com
+              - generic [ref=f13e31]:
+                - generic [ref=f13e32]: Message
+                - textbox "Message" [ref=f13e33]:
+                  - /placeholder: A wall, a room, an artist you love…
+            - button "Send on WhatsApp" [ref=f13e34]:
+              - text: Send on WhatsApp
+              - generic [aria-hidden] [ref=f13e35]: →
+        - generic [ref=f13e36]:
+          - generic [ref=f13e37]:
+            - heading "Answers to the questions we hear most often." [level=2] [ref=f13e38]
+            - paragraph [ref=f13e39]: FAQ
+          - generic [ref=f13e40]:
+            - group [ref=f13e41]:
+              - generic "When is the gallery open?" [ref=f13e42] [cursor=pointer]:
+                - text: When is the gallery open?
+                - generic [aria-hidden] [ref=f13e43]: +
+            - group [ref=f13e44]:
+              - generic "Where are you?" [ref=f13e45] [cursor=pointer]:
+                - text: Where are you?
+                - generic [aria-hidden] [ref=f13e46]: +
+            - group [ref=f13e47]:
+              - generic "How do I ask about a work I’ve seen?" [ref=f13e48] [cursor=pointer]:
+                - text: How do I ask about a work I’ve seen?
+                - generic [aria-hidden] [ref=f13e49]: +
+            - group [ref=f13e50]:
+              - generic "Can you find art for a particular space?" [ref=f13e51] [cursor=pointer]:
+                - text: Can you find art for a particular space?
+                - generic [aria-hidden] [ref=f13e52]: +
+            - group [ref=f13e53]:
+              - generic "Do you advise collectors?" [ref=f13e54] [cursor=pointer]:
+                - text: Do you advise collectors?
+                - generic [aria-hidden] [ref=f13e55]: +
+    - generic [ref=f13e58]:
+      - paragraph [ref=f13e59]:
+        - text: Contact 02 — Signal
+        - generic [ref=f13e60]: · After leeroy — a sand column cut out of a band of blue silk gradient, underlined fields.
+      - region "Contact form" [ref=f13e61]:
+        - form "Send us a message" [ref=f13e65]:
+          - paragraph [ref=f13e66]: Hello, nice to meet you.
+          - generic [ref=f13e67]:
+            - generic [ref=f13e68]:
+              - text: What’s your name?
+              - textbox "What’s your name?" [ref=f13e69]
+            - generic [ref=f13e70]:
+              - generic [ref=f13e71]:
+                - text: What’s your email?
+                - generic [aria-hidden] [ref=f13e72]: "*"
+              - textbox "What’s your email?" [ref=f13e73]
+            - generic [ref=f13e74]:
+              - text: What’s your phone number?
+              - textbox "What’s your phone number?" [ref=f13e75]
+          - paragraph [ref=f13e76]: If your wall could talk, what would it ask for?
+          - generic [ref=f13e78]:
+            - generic [ref=f13e79]:
+              - text: Your message
+              - generic [aria-hidden] [ref=f13e80]: "*"
+            - textbox "Your message" [ref=f13e81]
+          - button "Send on WhatsApp" [ref=f13e84]:
+            - text: Send on WhatsApp
+            - generic [aria-hidden] [ref=f13e85]: →
+          - generic [ref=f13e86]:
+            - link "+91 91001 18321" [ref=f13e87] [cursor=pointer]:
+              - /url: tel:+919100118321
+            - link "info@ekchitra.com" [ref=f13e88] [cursor=pointer]:
+              - /url: mailto:info@ekchitra.com
+    - generic [ref=f13e89]:
+      - paragraph [ref=f13e90]:
+        - text: Contact 03 — Address
+        - generic [ref=f13e91]: "· After le fruit — one screen: “Contact” huge, a round photo, the email enormous and bold."
+      - region "Contact details" [ref=f13e92]:
+        - heading "Contact" [level=2] [ref=f13e93]
+        - generic [ref=f13e94]:
+          - generic [ref=f13e95]:
+            - generic [ref=f13e96]:
+              - generic [ref=f13e97]: F94M+52P, Surya Enclave,
+              - generic [ref=f13e98]: HITEC City, Hyderabad,
+              - generic [ref=f13e99]: Telangana 500081
+            - paragraph [ref=f13e100]:
+              - text: "T :"
+              - link "+91 91001 18321" [ref=f13e101] [cursor=pointer]:
+                - /url: tel:+919100118321
+              - generic [ref=f13e102]: Monday to Saturday, 10am – 7pm
+          - img "A studio with shelves of magazines and a dog sitting among the plants" [ref=f13e105]
+          - list [ref=f13e106]:
+            - listitem [ref=f13e107]:
+              - link "Instagram" [ref=f13e108] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+            - listitem [ref=f13e109]:
+              - link "WhatsApp" [ref=f13e110] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+        - generic [ref=f13e111]:
+          - paragraph [ref=f13e112]: Write to us
+          - link "info@ ekchitra.com" [ref=f13e113] [cursor=pointer]:
+            - /url: mailto:info@ekchitra.com
+            - generic [ref=f13e114]: info@
+            - generic [ref=f13e115]: ekchitra.com
+  - button "Open Next.js Dev Tools" [ref=f13e121] [cursor=pointer]
+  - alert [ref=f13e125]

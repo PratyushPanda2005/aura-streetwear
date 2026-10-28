@@ -13,7 +13,7 @@ import {
   CuratorSheet,
   CuratorShows,
 } from "@/components/sites/ekchitra-v6/about/CuratorVariants";
-import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 
 export const metadata: Metadata = {
   title: "Curator section — variations",
@@ -87,7 +87,7 @@ export default function CuratorVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

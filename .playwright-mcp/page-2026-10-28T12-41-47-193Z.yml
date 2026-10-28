@@ -1,0 +1,306 @@
+- generic [active] [ref=f15e1]:
+  - main [ref=f15e3]:
+    - generic [ref=f15e4]:
+      - paragraph [ref=f15e5]:
+        - text: Footer 01 — Let’s talk
+        - generic [ref=f15e6]: · After swissbrut — a huge bold line with a small photograph in it.
+      - generic [ref=f15e7]:
+        - navigation [ref=f15e8]:
+          - link "About" [ref=f15e9] [cursor=pointer]:
+            - /url: /ekchitra-v6/about
+          - link "Exhibitions" [ref=f15e10] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+          - link "Artists" [ref=f15e11] [cursor=pointer]:
+            - /url: /ekchitra-v6/artists
+          - link "Artworks" [ref=f15e12] [cursor=pointer]:
+            - /url: /ekchitra-v6/artworks
+        - link "Let’s talk." [ref=f15e13] [cursor=pointer]:
+          - /url: https://wa.me/919100118321
+          - generic [ref=f15e14]: Let’s
+          - generic [ref=f15e16]: talk.
+        - generic [ref=f15e17]:
+          - generic [ref=f15e18]:
+            - paragraph [ref=f15e19]: Contact
+            - list [ref=f15e20]:
+              - listitem [ref=f15e21]:
+                - link "WhatsApp" [ref=f15e22] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+          - generic [ref=f15e23]:
+            - paragraph [ref=f15e24]: Follow
+            - list [ref=f15e25]:
+              - listitem [ref=f15e26]:
+                - link "Instagram" [ref=f15e27] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+              - listitem [ref=f15e28]:
+                - link "WhatsApp" [ref=f15e29] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+          - generic [ref=f15e30]:
+            - paragraph [ref=f15e31]: © 2026 EkChitra
+            - paragraph [ref=f15e32]: Address and opening hours to be confirmed.
+          - generic [ref=f15e33]:
+            - paragraph [ref=f15e34]: Hyderabad
+            - paragraph [ref=f15e35]: India
+    - generic [ref=f15e36]:
+      - paragraph [ref=f15e37]:
+        - text: Footer 02 — Fade
+        - generic [ref=f15e38]: · After ideogram — link columns, then a grey gradient with the name faint and enormous.
+      - generic [ref=f15e39]:
+        - generic [ref=f15e40]:
+          - generic [ref=f15e41]:
+            - paragraph [ref=f15e42]: EkChitra
+            - paragraph [ref=f15e43]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+            - link "Get in touch" [ref=f15e44] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: Get in touch
+              - generic [aria-hidden] [ref=f15e45]: →
+          - generic [ref=f15e46]:
+            - paragraph [ref=f15e47]: Gallery
+            - list [ref=f15e48]:
+              - listitem [ref=f15e49]:
+                - link "About" [ref=f15e50] [cursor=pointer]:
+                  - /url: /ekchitra-v6/about
+              - listitem [ref=f15e51]:
+                - link "Exhibitions" [ref=f15e52] [cursor=pointer]:
+                  - /url: /ekchitra-v6/exhibitions
+              - listitem [ref=f15e53]:
+                - link "Artists" [ref=f15e54] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists
+              - listitem [ref=f15e55]:
+                - link "Artworks" [ref=f15e56] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artworks
+              - listitem [ref=f15e57]:
+                - link "Services" [ref=f15e58] [cursor=pointer]:
+                  - /url: /ekchitra-v6/services
+          - generic [ref=f15e59]:
+            - paragraph [ref=f15e60]: Connect
+            - list [ref=f15e61]:
+              - listitem [ref=f15e62]:
+                - link "Instagram" [ref=f15e63] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+                  - text: Instagram ↗
+              - listitem [ref=f15e64]:
+                - link "WhatsApp" [ref=f15e65] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+                  - text: WhatsApp ↗
+          - generic [ref=f15e66]:
+            - paragraph [ref=f15e67]: Visit
+            - list
+            - paragraph [ref=f15e68]: Address and opening hours to be confirmed.
+        - generic [ref=f15e69]: © 2026 EkChitra · Hyderabad, India
+        - paragraph [aria-hidden] [ref=f15e72]: EkChitra
+        - paragraph [ref=f15e73]: EkChitra
+    - generic [ref=f15e74]:
+      - paragraph [ref=f15e75]:
+        - text: Footer 03 — Wordmark
+        - generic [ref=f15e76]: · After rejouice — black, a line, links and newsletter, the name across the bottom.
+      - generic [ref=f15e77]:
+        - generic [ref=f15e78]:
+          - generic [ref=f15e79]:
+            - paragraph [ref=f15e80]: Art is everywhere. Come and notice.
+            - generic [ref=f15e81]:
+              - paragraph [ref=f15e82]: "New work, visits and commissions:"
+              - link "WhatsApp the gallery ↗" [ref=f15e83] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+            - generic [ref=f15e84]:
+              - text: Sign up for news of openings
+              - generic [ref=f15e85]:
+                - textbox "Sign up for news of openings" [ref=f15e86]:
+                  - /placeholder: Email
+                - button "Sign up" [ref=f15e87]: →
+          - generic [ref=f15e88]:
+            - list [ref=f15e89]:
+              - listitem [ref=f15e90]:
+                - link "About" [ref=f15e91] [cursor=pointer]:
+                  - /url: /ekchitra-v6/about
+              - listitem [ref=f15e92]:
+                - link "Exhibitions" [ref=f15e93] [cursor=pointer]:
+                  - /url: /ekchitra-v6/exhibitions
+              - listitem [ref=f15e94]:
+                - link "Artists" [ref=f15e95] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists
+              - listitem [ref=f15e96]:
+                - link "Artworks" [ref=f15e97] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artworks
+              - listitem [ref=f15e98]:
+                - link "Services" [ref=f15e99] [cursor=pointer]:
+                  - /url: /ekchitra-v6/services
+            - paragraph [ref=f15e100]: HyderabadIndia
+          - generic [ref=f15e101]:
+            - list [ref=f15e102]:
+              - listitem [ref=f15e103]:
+                - link "Instagram" [ref=f15e104] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+                  - text: Instagram ↗
+              - listitem [ref=f15e105]:
+                - link "WhatsApp" [ref=f15e106] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+                  - text: WhatsApp ↗
+            - paragraph [ref=f15e107]: © 2026 EkChitra
+        - paragraph [aria-hidden] [ref=f15e109]: EkChitra
+    - generic [ref=f15e110]:
+      - paragraph [ref=f15e111]:
+        - text: Footer 04 — Etching
+        - generic [ref=f15e112]: · After Social Impact Capital — a painting in black and white over a black band.
+      - generic [ref=f15e115]:
+        - generic [ref=f15e116]:
+          - paragraph [ref=f15e117]: Ek Chitra
+          - generic [ref=f15e118]:
+            - generic [ref=f15e119]:
+              - generic [ref=f15e120]: Email
+              - textbox "Email" [ref=f15e121]:
+                - /placeholder: ENTER EMAIL
+            - button "Subscribe" [ref=f15e122]
+        - generic [ref=f15e123]:
+          - list [ref=f15e124]:
+            - listitem [ref=f15e125]:
+              - link "About" [ref=f15e126] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f15e127]:
+              - link "Exhibitions" [ref=f15e128] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f15e129]:
+              - link "Artists" [ref=f15e130] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f15e131]:
+              - link "Artworks" [ref=f15e132] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f15e133]:
+              - link "Services" [ref=f15e134] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+          - link "Contact ↗" [ref=f15e135] [cursor=pointer]:
+            - /url: https://wa.me/919100118321
+        - generic [ref=f15e136]:
+          - paragraph [ref=f15e137]: A contemporary art gallery in Hyderabad
+          - generic [ref=f15e138]:
+            - paragraph [ref=f15e139]: Socials
+            - list [ref=f15e140]:
+              - listitem [ref=f15e141]:
+                - link "Instagram" [ref=f15e142] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+                  - text: Instagram ↗
+              - listitem [ref=f15e143]:
+                - link "WhatsApp" [ref=f15e144] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+                  - text: WhatsApp ↗
+        - paragraph [ref=f15e145]: © 2026 EkChitra · All rights reserved
+    - generic [ref=f15e146]:
+      - paragraph [ref=f15e147]:
+        - text: Footer 05 — Smoke
+        - generic [ref=f15e148]: · After Evmos — a full white top over a notched panel of glossy silk in the brand colours.
+      - generic [ref=f15e149]:
+        - generic [ref=f15e150]:
+          - generic [ref=f15e151]:
+            - paragraph [ref=f15e152]: Art is everywhere. Come and notice.
+            - paragraph [ref=f15e153]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+            - link "Get in touch" [ref=f15e154] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: Get in touch
+              - generic [aria-hidden] [ref=f15e155]: →
+          - generic [ref=f15e156]:
+            - paragraph [ref=f15e157]: Gallery
+            - list [ref=f15e158]:
+              - listitem [ref=f15e159]:
+                - link "About" [ref=f15e160] [cursor=pointer]:
+                  - /url: /ekchitra-v6/about
+              - listitem [ref=f15e161]:
+                - link "Exhibitions" [ref=f15e162] [cursor=pointer]:
+                  - /url: /ekchitra-v6/exhibitions
+              - listitem [ref=f15e163]:
+                - link "Artists" [ref=f15e164] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists
+              - listitem [ref=f15e165]:
+                - link "Artworks" [ref=f15e166] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artworks
+              - listitem [ref=f15e167]:
+                - link "Services" [ref=f15e168] [cursor=pointer]:
+                  - /url: /ekchitra-v6/services
+          - generic [ref=f15e169]:
+            - paragraph [ref=f15e170]: Connect
+            - list [ref=f15e171]:
+              - listitem [ref=f15e172]:
+                - link "Instagram" [ref=f15e173] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ek_chitra/
+                  - text: Instagram ↗
+              - listitem [ref=f15e174]:
+                - link "WhatsApp" [ref=f15e175] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+                  - text: WhatsApp ↗
+            - paragraph [ref=f15e176]: Visit
+            - paragraph [ref=f15e177]: Address and opening hours to be confirmed.
+          - generic [ref=f15e178]:
+            - text: Newsletter
+            - paragraph [ref=f15e179]: Openings, new artists and the occasional studio visit — a few times a year.
+            - generic [ref=f15e180]:
+              - textbox "Newsletter" [ref=f15e181]:
+                - /placeholder: Your email
+              - button "Sign up" [ref=f15e182]: →
+        - generic [ref=f15e183]:
+          - paragraph [ref=f15e184]: Terms of use
+          - paragraph [ref=f15e185]: Privacy
+          - paragraph [ref=f15e186]: © 2026 EkChitra · Hyderabad, India
+          - paragraph [ref=f15e187]: EkChitra
+    - generic [ref=f15e189]:
+      - paragraph [ref=f15e190]:
+        - text: Footer 06 — Glow
+        - generic [ref=f15e191]: · After arrakis — warm near-black, a glowing orange card with drifting light, link columns, a bracketed last line.
+      - generic [ref=f15e192]:
+        - generic [ref=f15e198]:
+          - paragraph [ref=f15e199]: Art is everywhere. Come and notice.
+          - link "Get in Touch" [ref=f15e200] [cursor=pointer]:
+            - /url: /ekchitra-v6/contact
+            - text: Get in Touch
+            - generic [aria-hidden] [ref=f15e201]: →
+        - generic [ref=f15e202]:
+          - navigation "Explore" [ref=f15e203]:
+            - paragraph [ref=f15e204]: Explore
+            - list [ref=f15e205]:
+              - listitem [ref=f15e206]:
+                - link "Home" [ref=f15e207] [cursor=pointer]:
+                  - /url: /ekchitra-v6
+              - listitem [ref=f15e208]:
+                - link "About" [ref=f15e209] [cursor=pointer]:
+                  - /url: /ekchitra-v6/about
+              - listitem [ref=f15e210]:
+                - link "Exhibitions" [ref=f15e211] [cursor=pointer]:
+                  - /url: /ekchitra-v6/exhibitions
+              - listitem [ref=f15e212]:
+                - link "Artists" [ref=f15e213] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists
+              - listitem [ref=f15e214]:
+                - link "Artworks" [ref=f15e215] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artworks
+              - listitem [ref=f15e216]:
+                - link "Services" [ref=f15e217] [cursor=pointer]:
+                  - /url: /ekchitra-v6/services
+          - navigation "Services" [ref=f15e218]:
+            - paragraph [ref=f15e219]: Services
+            - list [ref=f15e220]:
+              - listitem [ref=f15e221]:
+                - link "Bespoke Sourcing" [ref=f15e222] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+              - listitem [ref=f15e223]:
+                - link "Art Advisory" [ref=f15e224] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321
+          - generic [ref=f15e225]:
+            - paragraph [ref=f15e226]: Hyderabad
+            - generic [ref=f15e227]:
+              - generic [ref=f15e228]: F94M+52P, Surya Enclave,
+              - generic [ref=f15e229]: HITEC City, Hyderabad,
+              - generic [ref=f15e230]: Telangana 500081
+            - paragraph [ref=f15e231]: Monday to Saturday, 10am – 7pm
+            - link "Get Directions" [ref=f15e232] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+        - generic [ref=f15e235]:
+          - paragraph [ref=f15e236]: © 2026 EkChitra
+          - link "EkChitra, home" [ref=f15e237] [cursor=pointer]:
+            - /url: /ekchitra-v6
+          - list [ref=f15e239]:
+            - listitem [ref=f15e240]:
+              - link "Instagram" [ref=f15e241] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+            - listitem [ref=f15e242]:
+              - link "WhatsApp" [ref=f15e243] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+        - paragraph [ref=f15e245]: Contemporary Indian art gallery and cultural platform, Hyderabad.
+  - button "Open Next.js Dev Tools" [ref=f15e251] [cursor=pointer]
+  - alert [ref=f15e255]

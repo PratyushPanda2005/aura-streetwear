@@ -14,7 +14,7 @@ import { ServicesTabs } from "@/components/sites/ekchitra-v6/services-variants/S
 import { GRID } from "@/components/sites/ekchitra-v6/styles";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 import { Index } from "@/components/sites/ekchitra-v6/ui";
-import { FooterLedger } from "@/components/sites/ekchitra-v6/footer-variants/FooterLedger";
+import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 
 export const metadata: Metadata = {
   title: "What we do — variations",
@@ -88,7 +88,7 @@ export default function ServicesVariationsPage() {
           {variation.body}
         </section>
       ))}
-      <FooterLedger />
+      <FooterGlow />
     </main>
   );
 }

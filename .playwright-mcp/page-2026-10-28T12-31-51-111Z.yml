@@ -1,0 +1,67 @@
+- generic [active] [ref=f5e1]:
+  - banner:
+    - generic:
+      - link [ref=f5e3] [cursor=pointer]:
+        - /url: https://www.leeroy.ca/en
+        - img "Leeroy" [ref=f5e4]
+      - generic [ref=f5e6]:
+        - link "Agency" [ref=f5e8] [cursor=pointer]:
+          - /url: https://www.leeroy.ca/en/agency
+        - link "Projects" [ref=f5e10] [cursor=pointer]:
+          - /url: https://www.leeroy.ca/en/projects
+        - link "Culture" [ref=f5e12] [cursor=pointer]:
+          - /url: https://www.leeroy.ca/en/culture
+      - link "Work with us" [ref=f5e14] [cursor=pointer]:
+        - /url: https://www.leeroy.ca/en/contact
+  - main [ref=f5e21]:
+    - generic [ref=f5e22]:
+      - generic [ref=f5e29]:
+        - generic [ref=f5e30]:
+          - heading "Hello, nice to meet you!" [level=2] [ref=f5e35]
+          - generic [ref=f5e38]:
+            - generic [ref=f5e39]: What's your name ?
+            - textbox "What's your name ?" [ref=f5e41]
+          - generic [ref=f5e44]:
+            - generic [ref=f5e45]: What's your email? *
+            - textbox "What's your email?" [ref=f5e47]
+          - generic [ref=f5e50]:
+            - generic [ref=f5e51]: What's your phone number?
+            - textbox "What's your phone number?" [ref=f5e53]
+          - heading "If your project could talk, what would it say?" [level=2] [ref=f5e58]
+          - generic [ref=f5e61]:
+            - generic [ref=f5e62]: Your message *
+            - textbox "Your message" [ref=f5e64]
+        - button "Send" [ref=f5e66] [cursor=pointer]
+      - generic [ref=f5e68]:
+        - generic [ref=f5e70]:
+          - link:
+            - /url: https://maps.app.goo.gl/h91HwqFJcuVADT587
+        - generic [ref=f5e71]:
+          - link "514 806-1644" [ref=f5e73] [cursor=pointer]:
+            - /url: tel:5148061644
+          - link "hello@leeroy.ca" [ref=f5e75] [cursor=pointer]:
+            - /url: mailto:hello@leeroy.ca
+        - generic [ref=f5e76]:
+          - generic [ref=f5e77]:
+            - link:
+              - /url: https://www.instagram.com/agenceleeroy/
+          - generic [ref=f5e78]:
+            - link:
+              - /url: https://www.linkedin.com/company/leeroy-agence-cr%C3%A9ative/
+          - generic [ref=f5e79]:
+            - link:
+              - /url: https://www.facebook.com/agenceleeroy/
+    - text: Back home
+  - dialog "Cookie banner":
+    - generic [ref=f5e82]:
+      - generic [ref=f5e83]:
+        - heading "We use cookies" [level=2] [ref=f5e85]
+        - paragraph [ref=f5e88]:
+          - paragraph [ref=f5e89]: We may place these for analysis of our visitor data, to improve our website, show personalised content and to give you a great website experience. For more information about the cookies we use open the settings.
+      - generic [ref=f5e91]:
+        - button "Accept all cookies" [ref=f5e93] [cursor=pointer]:
+          - generic [ref=f5e94]: Accept all
+        - button "Deny all cookies" [ref=f5e96] [cursor=pointer]:
+          - generic [ref=f5e97]: Deny
+        - button "Adjust cookie preferences" [ref=f5e99] [cursor=pointer]:
+          - generic [ref=f5e100]: No, adjust
