@@ -131,6 +131,9 @@ export function ContactAddress({
         "relative isolate flex min-h-(--screen) flex-col overflow-hidden lg:h-(--screen) lg:min-h-[600px] bg-white px-4 py-10 text-(--k-ink) lg:px-5 lg:py-12 lg:pointer-fine:cursor-none lg:pointer-fine:[&_a]:cursor-none",
         // One screen: the whole of it, or what's below the top bar.
         page ? "[--screen:calc(100svh-44px)]" : "[--screen:100svh]",
+        // On the page, the rest of the standard space above the footer
+        // (FOOTER_GAP): the section already keeps 40 / 48px at its foot.
+        page && "mb-6 lg:mb-12",
         SANS,
       )}
     >

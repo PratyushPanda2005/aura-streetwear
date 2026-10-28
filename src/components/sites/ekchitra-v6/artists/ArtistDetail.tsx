@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { ARTISTS, type Artist } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { CONTACT, V6_HOME } from "../data";
-import { CARD_TITLE, GRID, SECTION_TITLE } from "../styles";
+import { CARD_TITLE, FOOTER_GAP, GRID, SECTION_TITLE } from "../styles";
 import { artistPath, artistSlug } from "./paths";
 import { PORTRAITS } from "./portraits";
 
@@ -212,7 +212,7 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
       <section
         id="enquire"
         aria-labelledby="enquire-heading"
-        className="scroll-mt-11 px-4 pb-6 lg:px-5 lg:pb-8"
+        className={cn("scroll-mt-11 px-4 lg:px-5", FOOTER_GAP)}
       >
         <div className="flex min-h-[280px] flex-col items-center justify-center bg-(--k-sky) px-6 py-10 text-center text-(--k-ink) lg:min-h-[360px]">
           <h2

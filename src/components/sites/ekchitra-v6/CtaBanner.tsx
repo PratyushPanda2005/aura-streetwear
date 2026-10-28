@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
-import { SECTION_TITLE } from "./styles";
+import { FOOTER_GAP, SECTION_TITLE } from "./styles";
 
 /**
  * The closing banner every inner v6 page shares, after goodman-gallery.com:
@@ -27,7 +27,7 @@ export function CtaBanner({
 }) {
   const external = href.startsWith("http");
   return (
-    <div className="px-4 pt-12 pb-8 lg:px-5 lg:pt-20 lg:pb-10">
+    <div className={cn("px-4 pt-12 lg:px-5 lg:pt-20", FOOTER_GAP)}>
       <a
         href={href}
         {...(external ? { target: "_blank", rel: "noreferrer" } : {})}

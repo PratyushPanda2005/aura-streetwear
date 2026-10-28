@@ -31,7 +31,9 @@ export default function EkchitraV6Page() {
       <ArtistsBands />
       {/* Services: iteration 04 (overlay cards) for now. The wrapper keeps
           the top bar's "Services" link landing here. */}
-      <div id="services" className="scroll-mt-11">
+      {/* The cards keep 48px under them on desktop (one screen, centred);
+          the extra 48 makes the standard 96 above the footer (FOOTER_GAP). */}
+      <div id="services" className="scroll-mt-11 lg:pb-12">
         <ServicesOverlay dotted />
       </div>
       <FooterGlow />

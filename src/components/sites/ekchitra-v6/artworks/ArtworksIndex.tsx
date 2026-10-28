@@ -16,7 +16,7 @@ import { ARTWORKS_PAGE } from "../../ekchitra-redesign/data";
 import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { CAPS, SANS } from "../../ekchitra-v5/shared";
 import { LineArrow, pad } from "../cta-variants/shared";
-import { CARD_TITLE, GRID } from "../styles";
+import { CARD_TITLE, FOOTER_GAP, GRID } from "../styles";
 import { ArtworkPanel } from "./ArtworkPanel";
 import { relatedWorks } from "./related";
 import { ARTWORK_SIZES } from "./sizes";
@@ -192,7 +192,7 @@ export function ArtworksIndex({
     <section
       id="works"
       aria-label="Artworks"
-      className={cn("bg-white text-(--k-ink)", SANS)}
+      className={cn("bg-white text-(--k-ink)", FOOTER_GAP, SANS)}
     >
       {/* Search, filters and count, between two rules. */}
       <div className={GRID}>

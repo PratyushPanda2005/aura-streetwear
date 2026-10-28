@@ -25,7 +25,7 @@ export function ServicesOverlay({
   return (
     <section
       aria-label="Services"
-      className={cn("bg-white py-20 text-(--k-ink)", SCREEN, SANS)}
+      className={cn("bg-white pt-20 pb-16 text-(--k-ink)", SCREEN, SANS)}
     >
       <div className={cn(GRID, "gap-y-4 lg:min-h-0 lg:flex-1 lg:gap-y-5")}>
         {CTA_SERVICES.map((service, index) => (

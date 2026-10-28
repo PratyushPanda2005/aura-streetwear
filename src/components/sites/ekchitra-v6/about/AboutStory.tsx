@@ -15,7 +15,7 @@ import { V6_HOME } from "../data";
 import { handwriting, signature } from "../fonts";
 import { DriftPicture, useDrift } from "../motion";
 import { ExhibitionsBands } from "./ExhibitionsBands";
-import { BUTTON, GRID, SECTION_TITLE } from "../styles";
+import { BUTTON, FOOTER_GAP_BELOW, GRID, SECTION_TITLE } from "../styles";
 
 const ABOUT = "/sites/ekchitra-redesign/about";
 
@@ -217,7 +217,10 @@ export function AboutStory() {
           hand on sand, writing themselves in, then her signature. */}
       <section
         aria-labelledby="curator-heading"
-        className="bg-(--k-sand) py-20 text-(--k-ink) lg:py-36"
+        className={cn(
+          "bg-(--k-sand) py-20 text-(--k-ink) lg:py-36",
+          FOOTER_GAP_BELOW,
+        )}
       >
         <InView className="mx-auto max-w-[1100px] px-4 lg:px-5">
           <h2 id="curator-heading" className={cn(CAPS, "text-center")}>

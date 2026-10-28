@@ -20,6 +20,15 @@ export const HEAD = "pt-8 pb-8 lg:pt-12 lg:pb-10";
 export const SECTION = "py-20 lg:py-[120px]";
 
 /**
+ * The space between a page's last content and the footer — the same on every
+ * page (64px on phones, 96px on desktop). `FOOTER_GAP` pads the end of the
+ * last section; `FOOTER_GAP_BELOW` is for a last block with its own colour,
+ * leaving white between it and the footer.
+ */
+export const FOOTER_GAP = "pb-16 lg:pb-24";
+export const FOOTER_GAP_BELOW = "mb-16 lg:mb-24";
+
+/**
  * Every v6 button, set as the top bar's Contact cell: brand black, 44px tall,
  * 208px wide from small screens up (full width on a phone), 13px type, the
  * label left and a "→" right, easing slightly lighter on hover. Pass a
