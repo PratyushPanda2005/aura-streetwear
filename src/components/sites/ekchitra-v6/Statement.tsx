@@ -29,8 +29,9 @@ const PANELS = [
       horizontal: true,
       rows: 15,
       className:
-        "right-0 bottom-0 h-[80px] -scale-y-100 text-white/[0.16] lg:h-[108px]",
+        "top-0 right-0 h-[80px] text-white/[0.16] lg:h-[108px]",
     } as const,
+    link: { label: "View All Exhibitions", href: `${V6_HOME}/exhibitions` },
   },
   {
     stat: artists,
@@ -45,7 +46,7 @@ const PANELS = [
       rows: 24,
       className: "top-0 right-0 w-[64px] text-(--k-ink)/[0.08] lg:w-[88px]",
     } as const,
-    link: { label: "More About Us", href: `${V6_HOME}/about` },
+    link: { label: "View All Artists", href: `${V6_HOME}/artists` },
   },
 ];
 
@@ -63,8 +64,8 @@ const ease = (t: number) => 1 - (1 - t) * (1 - t);
  * left and two brand-coloured panels slide in beside it — maroon with the
  * number of exhibitions curated, white (with a faint diamond motif) with
  * the number of artists — their
- * figures rolling up with the scroll; the artists panel links to the About
- * page. The pin releases straight into the next section.
+ * figures rolling up with the scroll; each panel links to its full list
+ * (all exhibitions, all artists). The pin releases straight into the next section.
  */
 export function Statement() {
   const pin = useRef<HTMLDivElement>(null);
@@ -161,15 +162,13 @@ export function Statement() {
                       >
                         {panel.stat.label}
                       </p>
-                      {"link" in panel && panel.link && (
-                        <CapsLink
-                          light={panel.light}
-                          arrow
-                          href={panel.link.href}
-                        >
-                          {panel.link.label}
-                        </CapsLink>
-                      )}
+                      <CapsLink
+                        light={panel.light}
+                        arrow
+                        href={panel.link.href}
+                      >
+                        {panel.link.label}
+                      </CapsLink>
                     </div>
                   </div>
                 ))}

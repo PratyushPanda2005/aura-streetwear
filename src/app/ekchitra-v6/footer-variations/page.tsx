@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 import { CAPS, SANS } from "@/components/sites/ekchitra-v5/shared";
+import { FooterCard } from "@/components/sites/ekchitra-v6/footer-variants/FooterCard";
 import { FooterEtching } from "@/components/sites/ekchitra-v6/footer-variants/FooterEtching";
 import { FooterGlow } from "@/components/sites/ekchitra-v6/footer-variants/FooterGlow";
 import { FooterFade } from "@/components/sites/ekchitra-v6/footer-variants/FooterFade";
@@ -47,10 +48,15 @@ const VARIATIONS: { name: string; note: string; body: ReactNode }[] = [
     note: "After arrakis — warm near-black, a glowing orange card with drifting light, link columns, a bracketed last line.",
     body: <FooterGlow />,
   },
+  {
+    name: "Card",
+    note: "After pizzapizza.io — compact: a maroon card of two large facts, small columns and a slim nav bar on black.",
+    body: <FooterCard />,
+  },
 ];
 
 /**
- * Six footers for the v6 homepage, each one screen high and (but for the
+ * Seven footers for the v6 homepage, each one screen high and (but for the
  * last) only in black and white, stacked with a label above each to choose from.
  */
 export default function FooterVariationsPage() {

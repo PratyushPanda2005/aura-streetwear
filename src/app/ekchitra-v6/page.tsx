@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
-import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
+import { FooterCard } from "@/components/sites/ekchitra-v6/footer-variants/FooterCard";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
@@ -36,7 +36,7 @@ export default function EkchitraV6Page() {
       <div id="services" className="scroll-mt-11 lg:pb-12">
         <ServicesOverlay />
       </div>
-      <FooterSmoke dark />
+      <FooterCard />
     </main>
   );
 }

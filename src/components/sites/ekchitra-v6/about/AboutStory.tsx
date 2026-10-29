@@ -15,7 +15,7 @@ import { V6_HOME } from "../data";
 import { handwriting, signature } from "../fonts";
 import { DriftPicture, useDrift } from "../motion";
 import { ExhibitionsBands } from "./ExhibitionsBands";
-import { BUTTON, FOOTER_GAP_BELOW, GRID, SECTION_TITLE } from "../styles";
+import { BUTTON, GRID, SECTION_TITLE } from "../styles";
 
 const ABOUT = "/sites/ekchitra-redesign/about";
 
@@ -216,12 +216,11 @@ export function AboutStory() {
 
       {/* The curator, after Velaa's handwritten note: a few lines in a pen
           hand on sand, writing themselves in, then her signature. */}
+      {/* It meets the footer directly: a white gap between the sand and the
+          dark footer reads as a stray strip. */}
       <section
         aria-labelledby="curator-heading"
-        className={cn(
-          "bg-(--k-sand) py-20 text-(--k-ink) lg:py-36",
-          FOOTER_GAP_BELOW,
-        )}
+        className="relative bg-(--k-sand) py-14 text-(--k-ink) lg:py-24"
       >
         <InView className="mx-auto max-w-[1100px] px-4 lg:px-5">
           <h2 id="curator-heading" className={cn(CAPS, "text-center")}>
@@ -258,19 +257,19 @@ export function AboutStory() {
             </figcaption>
           </figure>
         </InView>
-      </section>
 
-      {/* A run of the diamond motif resting on the footer. */}
-      <Diamonds
-        rows={40}
-        shape="steps"
-        horizontal
-        side="right"
-        tint="navy"
-        tintEvery={6}
-        tintOpacity={0.22}
-        className="pointer-events-none absolute right-0 bottom-0 -z-10 h-[40px] -scale-y-100 text-(--k-ink)/[0.08] lg:h-[56px]"
-      />
+        {/* A run of the diamond motif on the sand, resting on the footer. */}
+        <Diamonds
+          rows={40}
+          shape="steps"
+          horizontal
+          side="right"
+          tint="navy"
+          tintEvery={6}
+          tintOpacity={0.22}
+          className="pointer-events-none absolute right-0 bottom-0 h-[32px] -scale-y-100 text-(--k-ink)/[0.08] lg:h-[48px]"
+        />
+      </section>
     </div>
   );
 }

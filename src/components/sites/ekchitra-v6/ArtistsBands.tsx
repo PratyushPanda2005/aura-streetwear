@@ -13,8 +13,8 @@ import {
 } from "../ekchitra-redesign/data";
 import { CapsLink } from "../ekchitra-v5/CapsLink";
 import { Chars } from "../ekchitra-v5/Chars";
-import { BODY, DISPLAY, SANS, TITLE, V5_ROUTES } from "../ekchitra-v5/shared";
-import { BUTTON, GRID, HEAD } from "./styles";
+import { BODY, DISPLAY, SANS, TITLE } from "../ekchitra-v5/shared";
+import { GRID, HEAD } from "./styles";
 import { Index } from "./ui";
 
 /** Artists shown on the homepage; the rest are a click away. */
@@ -40,9 +40,7 @@ const ROW = "grid grid-cols-[92px_1fr] gap-x-3 text-[13px] leading-[1.45]";
  * holds still while the next band slides up over it (and drifts a touch for
  * depth). The cards ride in one column on top, eased so each is centred as
  * its picture fills the screen. The cards are the v5 frosted cards, a little
- * wider (365px). A small navy "View All Artists" button, with
- * two sky-blue diamonds in its corner, sits in the bottom-right corner of the
- * screen for as long as the bands are in view.
+ * wider (365px). "View All Artists" lives on the About section's white panel.
  */
 export function ArtistsBands() {
   const bandsRef = useRef<HTMLDivElement>(null);
@@ -180,29 +178,6 @@ export function ArtistsBands() {
               </dl>
             </article>
           ))}
-        </div>
-
-        {/* The button, held at the bottom right, in from the edge by the grid's
-            margin, while the bands pass. */}
-        <div className="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end pr-4 lg:pr-5">
-          <a
-            href={V5_ROUTES.artists}
-            className={cn(
-              BUTTON,
-              "pointer-events-auto sticky bottom-0 w-[208px] self-end bg-(--k-navy)",
-            )}
-          >
-            {/* Two diamonds of the motif, corner to corner, in sky blue. */}
-            <svg
-              viewBox="0 0 16 16"
-              aria-hidden="true"
-              className="absolute top-1.5 right-1.5 size-3 fill-(--k-sky)"
-            >
-              <path d="M12 0l4 4-4 4-4-4zM4 8l4 4-4 4-4-4z" />
-            </svg>
-            <span>View All Artists</span>
-            <span aria-hidden="true">→</span>
-          </a>
         </div>
       </div>
     </section>

@@ -185,9 +185,9 @@ export function ExhibitionsBands() {
           ))}
         </div>
 
-        {/* The button, held in the screen's bottom-right corner while the
-            bands pass. */}
-        <div className="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end">
+        {/* The button, held at the bottom right, in from the edge by the grid's
+            margin (as on the homepage), while the bands pass. */}
+        <div className="pointer-events-none absolute inset-0 z-20 flex flex-col justify-end pr-4 lg:pr-5">
           <a
             href={`${V6_HOME}/exhibitions`}
             className={cn(

@@ -8,9 +8,9 @@ import { cn } from "@/lib/utils";
 import { Chars } from "../../ekchitra-v5/Chars";
 import { BODY, CAPS, SANS, TITLE } from "../../ekchitra-v5/shared";
 import { EASE } from "../motion";
-import { BUTTON, GRID, HEAD } from "../styles";
+import { GRID, HEAD } from "../styles";
 import { Index } from "../ui";
-import { ALL_HREF, SHOWS, VENUE, pad, statusOf, yearOf } from "./shared";
+import { SHOWS, VENUE, pad, statusOf, yearOf } from "./shared";
 
 /*
  * The reel is 100svh plus 90svh of scroll for each show after the first
@@ -28,11 +28,11 @@ const EASING = 0.12;
  * the same index and heading as the other sections, the reel holds the
  * screen while it scrolls, centred in it under the top bar. The posters run in a vertical strip at the centre; the
  * numbered index is split either side — title and number set against the
- * poster's left edge, curator, status and year from its right — sliding up
+ * poster's left edge, status and year from its right — sliding up
  * as you scroll so the current show sits on the poster's centre line in
  * full ink while the rest fade with distance. Under the posters the current
- * title is set large and centred, and the navy "All Exhibitions" button
- * sits level with the poster's foot, flush to the screen's right edge. Rows link to
+ * title is set large and centred ("View All Exhibitions" lives on the
+ * About section's maroon panel). Rows link to
  * their shows. Below `lg`, a plain list.
  */
 export function ExIndexReel() {
@@ -114,17 +114,6 @@ export function ExIndexReel() {
             <Chars text="Every exhibition begins with an idea, and every visit begins with curiosity." />
           </p>
         </div>
-        <a
-          href={ALL_HREF}
-          className={cn(
-            BUTTON,
-            "relative col-span-4 mt-8 bg-(--k-navy) lg:hidden",
-          )}
-        >
-          <Diamonds />
-          <span>All Exhibitions</span>
-          <span aria-hidden="true">→</span>
-        </a>
       </div>
 
       {/* Desktop: the pinned reel, centred on the screen under the top bar —
@@ -192,8 +181,7 @@ export function ExIndexReel() {
               </div>
             </div>
 
-            {/* Right: curator, status and year, set from the poster's edge,
-                with the button at the foot of the poster. */}
+            {/* Right: status and year, set from the poster's edge. */}
             <div className="relative h-(--img-h)">
               <ol
                 aria-hidden="true"
@@ -205,29 +193,13 @@ export function ExIndexReel() {
                     ref={(el) => {
                       rightRows.current[index] = el;
                     }}
-                    className="grid h-[30px] grid-cols-[minmax(0,1fr)_4.5rem_3rem] items-center gap-x-6 text-[13px] tracking-[0.04em] uppercase"
+                    className="grid h-[30px] grid-cols-[4.5rem_3rem] items-center gap-x-6 text-[13px] tracking-[0.04em] uppercase"
                   >
-                    <span className="truncate">
-                      {show.subtitle.replace("Curated by ", "")}
-                    </span>
                     <span>{statusOf(show)}</span>
-                    <span className="text-right tabular-nums">
-                      {yearOf(show)}
-                    </span>
+                    <span className="tabular-nums">{yearOf(show)}</span>
                   </li>
                 ))}
               </ol>
-              <a
-                href={ALL_HREF}
-                className={cn(
-                  BUTTON,
-                  "absolute right-0 bottom-0 bg-(--k-navy)",
-                )}
-              >
-                <Diamonds />
-                <span>All Exhibitions</span>
-                <span aria-hidden="true">→</span>
-              </a>
             </div>
           </div>
 
@@ -254,7 +226,7 @@ export function ExIndexReel() {
                     "mt-3 block text-[11px] text-(--k-ink)/65",
                   )}
                 >
-                  {show.subtitle} · {VENUE}
+                  {statusOf(show)} · {VENUE}
                 </span>
               </p>
             ))}
@@ -290,26 +262,10 @@ export function ExIndexReel() {
               <span className="mt-2 block text-[30px] leading-[1.02] tracking-[-0.035em]">
                 {show.title}
               </span>
-              <span className="mt-1 block text-[14px] text-(--k-ink)/65">
-                {show.subtitle}
-              </span>
             </a>
           </li>
         ))}
       </ol>
     </section>
-  );
-}
-
-/** Two diamonds of the motif, corner to corner, in sky blue. */
-function Diamonds() {
-  return (
-    <svg
-      viewBox="0 0 16 16"
-      aria-hidden="true"
-      className="absolute top-1.5 right-1.5 size-3 fill-(--k-sky)"
-    >
-      <path d="M12 0l4 4-4 4-4-4zM4 8l4 4-4 4-4-4z" />
-    </svg>
   );
 }
