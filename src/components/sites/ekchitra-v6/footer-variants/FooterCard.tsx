@@ -1,11 +1,18 @@
+import Image from "next/image";
+
 import { cn } from "@/lib/utils";
 
-import { Diamonds } from "../../ekchitra-v5/Diamonds";
 import { CAPS } from "../../ekchitra-v5/shared";
 import { DETAILS } from "../contact/data";
 import { CONTACT_PAGE } from "../data";
 import { GRID } from "../styles";
 import { FOOTER, GroupTitle, LinkList, V6_NAV } from "./shared";
+
+/**
+ * Behind the card: the brand-coloured silk from variation 05 (FooterSmoke) —
+ * TEMPORARY PLACEHOLDER, Unsplash, free licence (unsplash.com/photos/7nG_h0I_Zwk).
+ */
+const SILK = "/sites/ekchitra-redesign/placeholders/footer-silk-brand.jpg";
 
 /** The two facts set large on the card. */
 const FACTS = [
@@ -40,9 +47,10 @@ const COLUMNS = [
 ];
 
 /**
- * Variation 07 — compact, after pizzapizza.io. A maroon card hangs from the
- * footer's top edge with two facts set large, each under a small label on a
- * hairline rule, and a faint grey-and-navy diamond strip in its corner. Below,
+ * Variation 07 — compact, after pizzapizza.io. A card hangs from the
+ * footer's top edge — glossy silk in the brand colours, as on variation 05 —
+ * with two facts set large over it, each under a small label on a
+ * hairline rule. Below,
  * on brand black, small columns for getting in touch, socials and the
  * address; then a last row with the small print on the left and the pages in
  * a white bar, Contact picked out in maroon. Only as tall as its content.
@@ -53,15 +61,18 @@ export function FooterCard() {
       id="contact"
       className="scroll-mt-11 bg-(--k-ink) px-4 pb-6 text-white lg:px-5"
     >
-      <div className="relative isolate overflow-hidden bg-(--k-maroon) px-4 pt-8 pb-14 lg:px-6 lg:pt-10 lg:pb-24">
-        <Diamonds
-          rows={14}
-          shape="steps"
-          side="right"
-          tint="navy"
-          tintEvery={6}
-          tintOpacity={0.55}
-          className="pointer-events-none absolute top-0 right-0 -z-10 hidden w-[64px] text-white/[0.12] md:block"
+      <div className="relative isolate overflow-hidden bg-(--k-ink) px-4 pt-8 pb-14 lg:px-6 lg:pt-10 lg:pb-24">
+        <Image
+          src={SILK}
+          alt=""
+          fill
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        {/* A light shade at the top, where the facts sit, so they read. */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 -z-10 bg-linear-to-b from-(--k-ink)/55 via-(--k-ink)/35 to-transparent"
         />
         <dl className="grid gap-y-8 md:grid-cols-[1fr_1.6fr] md:gap-x-6 md:pr-24">
           {FACTS.map((fact) => (
