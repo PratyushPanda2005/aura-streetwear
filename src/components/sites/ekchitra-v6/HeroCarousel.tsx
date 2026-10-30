@@ -15,10 +15,10 @@ const SWIPE = 40;
 
 /**
  * Artworks cross-fading on their own: each one fades in on top of the last
- * while settling from a slight zoom. Along the foot, a row of thin bars, one
- * per work, the current one filling while it holds; clicking a bar goes to
- * its work, and a swipe or a drag sideways steps through them; stepping by
- * hand restarts the timer (and the bar). Doesn't
+ * while settling from a slight zoom. At the bottom right, a dot per work, the current
+ * one a bar filling while it holds (as the exhibition pages' slider);
+ * clicking one goes to its work, and a swipe or a drag sideways steps
+ * through them; stepping by hand restarts the timer (and the bar). Doesn't
  * advance on its own when the visitor prefers reduced motion.
  */
 export function HeroCarousel({
@@ -119,31 +119,40 @@ export function HeroCarousel({
         />
       )}
 
-      {/* The bars: one thin line per work along the foot, the current one
-          filling while it holds; each goes to its work. A soft shadow keeps
-          them visible over pale pictures. Clicking them leaves any dots on
-          (.ek6-keep-dots). */}
-      <div className="ek6-keep-dots absolute inset-x-5 bottom-3 z-20 flex gap-x-1.5 drop-shadow-[0_1px_2px_rgb(0_0_0/0.35)]">
-        {slides.map((item, index) => (
-          <button
-            key={item.src}
-            type="button"
-            onClick={() => go(index)}
-            aria-label={`Show ${item.alt}`}
-            aria-current={index === active}
-            className="group/bar flex h-6 flex-1 items-center focus-visible:outline-1 focus-visible:outline-white"
-          >
-            <span className="relative block h-0.5 w-full overflow-hidden bg-white/45 transition-colors group-hover/bar:bg-white/70">
-              {index === active && (
-                <span
-                  key={steps}
-                  // As long as HOLD; simply full when motion is reduced.
-                  className="absolute inset-0 origin-left animate-[ek6-fill_4500ms_linear_forwards] bg-white motion-reduce:animate-none"
-                />
-              )}
-            </span>
-          </button>
-        ))}
+      {/* As the exhibition pages' slider: a dot per work, at the bottom
+          right, the current one stretched into a bar that fills while it
+          holds; each goes to its work. White, on a small frosted-glass
+          panel with rounded corners, so they read over any picture.
+          Clicking them leaves any dots on (.ek6-keep-dots). */}
+      <div className="ek6-keep-dots absolute right-4 bottom-4 z-20 flex items-center gap-x-2 rounded-md border border-white/25 bg-black/25 px-3 backdrop-blur-md">
+        {slides.map((item, index) => {
+          const on = index === active;
+          return (
+            <button
+              key={item.src}
+              type="button"
+              onClick={() => go(index)}
+              aria-label={`Show ${item.alt}`}
+              aria-current={on}
+              className="flex h-6 items-center focus-visible:outline-1 focus-visible:outline-white"
+            >
+              <span
+                className={cn(
+                  "relative block h-1 overflow-hidden rounded-full bg-white/45 transition-[width,background-color] duration-500",
+                  on ? "w-12" : "w-1 hover:bg-white/80",
+                )}
+              >
+                {on && (
+                  <span
+                    key={steps}
+                    // As long as HOLD; simply full when motion is reduced.
+                    className="absolute inset-0 origin-left animate-[ek6-fill_4500ms_linear_forwards] bg-white motion-reduce:animate-none"
+                  />
+                )}
+              </span>
+            </button>
+          );
+        })}
       </div>
     </div>
   );
