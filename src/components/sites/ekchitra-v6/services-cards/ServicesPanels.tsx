@@ -3,13 +3,13 @@ import { cn } from "@/lib/utils";
 import { CAPS, SANS, TITLE } from "../../ekchitra-v5/shared";
 import { CTA_SERVICES, INTRO, MUTED, pad, ServicePhoto } from "./shared";
 
-/** Each service cell's ground, top to bottom: white, then brand black. */
+/** Each service cell's ground, top to bottom: brand black, then white. */
 const CELLS = [
+  { ground: "bg-(--k-ink) text-white", muted: "text-white/70" },
   {
     ground: "bg-white text-(--k-ink)",
     muted: MUTED,
   },
-  { ground: "bg-(--k-ink) text-white", muted: "text-white/70" },
 ];
 
 /**
@@ -17,10 +17,16 @@ const CELLS = [
  * bar: a narrow white column with "Services" at the top and, at its foot,
  * the heading, the line and a small second photograph; one large photograph
  * filling the middle; and at the right the two services as stacked cells —
- * white, then black — each with its name large, its audience in small
- * capitals, its line and an underlined way in. Static.
+ * black, then white — each with its name large, its audience in small
+ * capitals, its line and an underlined way in. Static, unless the small
+ * photograph is dotted.
  */
-export function ServicesPanels() {
+export function ServicesPanels({
+  dotted = false,
+}: {
+  /** Show the small photograph as a grey halftone that clears on hover, as the dotted hero does. */
+  dotted?: boolean;
+}) {
   const [first, second] = CTA_SERVICES;
 
   return (
@@ -42,7 +48,11 @@ export function ServicesPanels() {
           <ServicePhoto
             service={second}
             sizes="200px"
-            className="mt-8 hidden aspect-[4/3] w-[180px] lg:block"
+            dotted={dotted}
+            className={cn(
+              "mt-8 hidden aspect-[4/3] w-[180px] lg:block",
+              dotted && "group",
+            )}
           />
         </div>
       </div>

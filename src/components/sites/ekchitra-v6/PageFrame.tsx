@@ -22,6 +22,7 @@ export function PageFrame({
   note,
   hideHeading = false,
   nameOnBanner = false,
+  introClassName,
   children,
 }: {
   banner: { src: string; alt: string; position?: string };
@@ -38,6 +39,11 @@ export function PageFrame({
    * intro and note are then left to the page's own content.
    */
   nameOnBanner?: boolean;
+  /**
+   * Where the intro sits on the grid, to line it up with the page's own
+   * columns below (default: the last four columns).
+   */
+  introClassName?: string;
   children: ReactNode;
 }) {
   return (
@@ -77,11 +83,16 @@ export function PageFrame({
         <h1 className="sr-only">{title}</h1>
       ) : (
         <div className={cn(GRID, HEAD, "gap-y-6")}>
-          <div className="col-span-4 lg:col-span-7">
+          <div className="col-span-4 lg:col-span-7 lg:col-start-1 lg:row-start-1">
             <p className={cn(CAPS, "text-[12px]")}>{label}</p>
             <h1 className={cn(TITLE, "mt-3")}>{title}</h1>
           </div>
-          <div className="col-span-4 flex flex-col justify-end lg:col-span-4 lg:col-start-9">
+          <div
+            className={cn(
+              "col-span-4 flex flex-col justify-end lg:col-span-4 lg:col-start-9 lg:row-start-1",
+              introClassName,
+            )}
+          >
             <p className={cn(BODY, "text-(--k-ink)/80")}>{intro}</p>
             <p className="mt-2 text-[13px] tabular-nums">{note}</p>
           </div>

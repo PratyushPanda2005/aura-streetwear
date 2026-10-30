@@ -1,0 +1,117 @@
+- main [ref=f25e3]:
+  - generic [ref=f25e4]:
+    - link "Home" [ref=f25e5] [cursor=pointer]:
+      - /url: /ekchitra-v6
+    - navigation "Primary navigation" [ref=f25e6]:
+      - list [ref=f25e7]:
+        - listitem [ref=f25e8]:
+          - link "About" [ref=f25e9] [cursor=pointer]:
+            - /url: /ekchitra-v6/about
+        - listitem [ref=f25e10]:
+          - link "Exhibitions" [ref=f25e11] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+        - listitem [ref=f25e12]:
+          - link "Artists" [ref=f25e13] [cursor=pointer]:
+            - /url: /ekchitra-v6/artists
+        - listitem [ref=f25e14]:
+          - link "Artworks" [ref=f25e15] [cursor=pointer]:
+            - /url: /ekchitra-v6/artworks
+        - listitem [ref=f25e16]:
+          - link "Services" [ref=f25e17] [cursor=pointer]:
+            - /url: /ekchitra-v6/services
+    - link "Contact" [ref=f25e18] [cursor=pointer]:
+      - /url: /ekchitra-v6/contact
+      - text: Contact
+      - generic [aria-hidden] [ref=f25e19]: →
+  - generic [ref=f25e20]:
+    - generic [ref=f25e21]:
+      - generic [ref=f25e22]:
+        - paragraph [ref=f25e23]: Exhibition / Upcoming / 2026
+        - link "All Exhibitions" [ref=f25e24] [cursor=pointer]:
+          - /url: /ekchitra-v6/exhibitions
+          - generic [aria-hidden] [ref=f25e25]: ←
+          - text: All Exhibitions
+      - heading "Where Light Rests" [level=1] [ref=f25e26]:
+        - generic [ref=f25e28]: Where
+        - generic [ref=f25e30]: Light
+        - generic [ref=f25e32]: Rests
+      - generic [ref=f25e33]:
+        - generic [ref=f25e34]:
+          - term [ref=f25e35]: Dates
+          - definition [ref=f25e36]: December 5, 2026 – February 14, 2027
+        - generic [ref=f25e37]:
+          - term [ref=f25e38]: Venue
+          - definition [ref=f25e39]: EkChitra, Hyderabad
+    - img "Where Light Rests — exhibition poster" [ref=f25e42]
+    - region "About this exhibition" [ref=f25e43]:
+      - paragraph [ref=f25e44]: Where Light Rests comes to EkChitra, Hyderabad. The works and the full story follow soon — ask us to hear first.
+    - region "Next exhibition" [ref=f25e45]:
+      - link "Next exhibition / Past Hyd Art December 19 – 21, 2025" [ref=f25e46] [cursor=pointer]:
+        - /url: /ekchitra-v6/exhibitions/hyd-art
+        - generic [ref=f25e47]:
+          - paragraph [ref=f25e48]:
+            - text: Next exhibition
+            - generic [ref=f25e49]: / Past
+          - paragraph [ref=f25e50]: Hyd Art
+          - generic [ref=f25e51]:
+            - text: December 19 – 21, 2025
+            - generic [aria-hidden] [ref=f25e52]: →
+      - link "All Exhibitions" [ref=f25e54] [cursor=pointer]:
+        - /url: /ekchitra-v6/exhibitions
+        - text: All Exhibitions
+        - generic [aria-hidden] [ref=f25e55]: →
+  - generic [ref=f25e56]:
+    - generic [ref=f25e57]:
+      - generic [ref=f25e58]:
+        - paragraph [ref=f25e59]: Gallery
+        - list [ref=f25e60]:
+          - listitem [ref=f25e61]:
+            - link "About" [ref=f25e62] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f25e63]:
+            - link "Exhibitions" [ref=f25e64] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f25e65]:
+            - link "Artists" [ref=f25e66] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f25e67]:
+            - link "Artworks" [ref=f25e68] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f25e69]:
+            - link "Services" [ref=f25e70] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+          - listitem [ref=f25e71]:
+            - link "Contact" [ref=f25e72] [cursor=pointer]:
+              - /url: /ekchitra-v6/contact
+      - generic [ref=f25e73]:
+        - paragraph [ref=f25e74]: Connect
+        - list [ref=f25e75]:
+          - listitem [ref=f25e76]:
+            - link "Instagram" [ref=f25e77] [cursor=pointer]:
+              - /url: https://www.instagram.com/ek_chitra/
+              - text: Instagram ↗
+          - listitem [ref=f25e78]:
+            - link "WhatsApp" [ref=f25e79] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+              - text: WhatsApp ↗
+      - generic [ref=f25e80]:
+        - paragraph [ref=f25e81]: Get in touch
+        - list [ref=f25e82]:
+          - listitem [ref=f25e83]:
+            - link "info@ekchitra.com" [ref=f25e84] [cursor=pointer]:
+              - /url: mailto:info@ekchitra.com
+          - listitem [ref=f25e85]:
+            - link "+91 91001 18321" [ref=f25e86] [cursor=pointer]:
+              - /url: tel:+919100118321
+      - generic [ref=f25e87]:
+        - paragraph [ref=f25e88]: Visit
+        - paragraph [ref=f25e89]:
+          - generic [ref=f25e90]: F94M+52P, Surya Enclave,
+          - generic [ref=f25e91]: HITEC City, Hyderabad,
+          - generic [ref=f25e92]: Telangana 500081
+        - list [ref=f25e93]:
+          - listitem [ref=f25e94]:
+            - link "Directions" [ref=f25e95] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+              - text: Directions ↗
+    - paragraph [ref=f25e96]: © 2026 EkChitra · Hyderabad, India

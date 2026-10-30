@@ -1,0 +1,985 @@
+- generic [ref=f44e2]:
+  - banner [ref=f44e3]:
+    - banner [ref=f44e4]:
+      - generic [ref=f44e7]:
+        - navigation [ref=f44e8]:
+          - generic [ref=f44e9]: "[-] Navigation"
+          - generic [ref=f44e11]:
+            - text: 
+            - link "[1] Home" [ref=f44e12] [cursor=pointer]:
+              - /url: /
+            - link "[2] About" [ref=f44e13] [cursor=pointer]:
+              - /url: /about
+            - link "[3] Service" [ref=f44e14] [cursor=pointer]:
+              - /url: /services
+            - link "[4] Project" [ref=f44e15] [cursor=pointer]:
+              - /url: /projects
+        - link "home" [ref=f44e16] [cursor=pointer]:
+          - /url: /
+          - img "Nav Dropdown Logo" [ref=f44e17]
+        - generic [ref=f44e18]:
+          - link "Start Free Trial" [ref=f44e21] [cursor=pointer]:
+            - /url: /contact
+          - generic: 
+  - main [ref=f44e24]:
+    - generic [ref=f44e28]:
+      - generic [ref=f44e29]:
+        - link "social-icon-block" [ref=f44e30] [cursor=pointer]:
+          - /url: https://x.com/
+        - link "social-icon-block" [ref=f44e34] [cursor=pointer]:
+          - /url: http://instagram.com/
+        - link "social-icon-block" [ref=f44e40] [cursor=pointer]:
+          - /url: https://linkedin.com/
+      - generic [ref=f44e47]:
+        - generic [ref=f44e48]:
+          - paragraph [ref=f44e50]: We craft cutting-edge digital experiences that not only inspire growth but also propel our clients toward unprecedented success.
+          - heading "Novaform" [level=1] [ref=f44e52]:
+            - generic [aria-hidden] [ref=f44e53]:
+              - generic [aria-hidden] [ref=f44e55]: "N"
+              - generic [aria-hidden] [ref=f44e57]: o
+              - generic [aria-hidden] [ref=f44e59]: v
+              - generic [aria-hidden] [ref=f44e61]: a
+              - generic [aria-hidden] [ref=f44e63]: f
+              - generic [aria-hidden] [ref=f44e65]: o
+              - generic [aria-hidden] [ref=f44e67]: r
+              - generic [aria-hidden] [ref=f44e69]: m
+        - img "Silhouette of a person in profile with colorful gradient light blending yellow, orange, and blue hues." [ref=f44e71]
+    - generic [ref=f44e75]:
+      - generic [ref=f44e79]:
+        - generic [ref=f44e80]:
+          - generic [ref=f44e81]: "[ WHO WE ARE ]"
+          - heading "At Novaform, we believe that every project begins with a deep understanding of your unique goals. By fostering collabo-ration, conducting thorough research, and executing with precision, we craft experiences that not only meet your needs but also leave a lasting impact on your audience." [level=2] [ref=f44e84]:
+            - generic [aria-hidden] [ref=f44e85]:
+              - generic [aria-hidden] [ref=f44e86]: A
+              - generic [aria-hidden] [ref=f44e87]: t
+            - generic [aria-hidden] [ref=f44e88]:
+              - generic [aria-hidden] [ref=f44e89]: "N"
+              - generic [aria-hidden] [ref=f44e90]: o
+              - generic [aria-hidden] [ref=f44e91]: v
+              - generic [aria-hidden] [ref=f44e92]: a
+              - generic [aria-hidden] [ref=f44e93]: f
+              - generic [aria-hidden] [ref=f44e94]: o
+              - generic [aria-hidden] [ref=f44e95]: r
+              - generic [aria-hidden] [ref=f44e96]: m
+              - generic [aria-hidden] [ref=f44e97]: ","
+            - generic [aria-hidden] [ref=f44e98]:
+              - generic [aria-hidden] [ref=f44e99]: w
+              - generic [aria-hidden] [ref=f44e100]: e
+            - generic [aria-hidden] [ref=f44e101]:
+              - generic [aria-hidden] [ref=f44e102]: b
+              - generic [aria-hidden] [ref=f44e103]: e
+              - generic [aria-hidden] [ref=f44e104]: l
+              - generic [aria-hidden] [ref=f44e105]: i
+              - generic [aria-hidden] [ref=f44e106]: e
+              - generic [aria-hidden] [ref=f44e107]: v
+              - generic [aria-hidden] [ref=f44e108]: e
+            - generic [aria-hidden] [ref=f44e109]:
+              - generic [aria-hidden] [ref=f44e110]: t
+              - generic [aria-hidden] [ref=f44e111]: h
+              - generic [aria-hidden] [ref=f44e112]: a
+              - generic [aria-hidden] [ref=f44e113]: t
+            - generic [aria-hidden] [ref=f44e114]:
+              - generic [aria-hidden] [ref=f44e115]: e
+              - generic [aria-hidden] [ref=f44e116]: v
+              - generic [aria-hidden] [ref=f44e117]: e
+              - generic [aria-hidden] [ref=f44e118]: r
+              - generic [aria-hidden] [ref=f44e119]: "y"
+            - generic [aria-hidden] [ref=f44e120]:
+              - generic [aria-hidden] [ref=f44e121]: p
+              - generic [aria-hidden] [ref=f44e122]: r
+              - generic [aria-hidden] [ref=f44e123]: o
+              - generic [aria-hidden] [ref=f44e124]: j
+              - generic [aria-hidden] [ref=f44e125]: e
+              - generic [aria-hidden] [ref=f44e126]: c
+              - generic [aria-hidden] [ref=f44e127]: t
+            - generic [aria-hidden] [ref=f44e128]:
+              - generic [aria-hidden] [ref=f44e129]: b
+              - generic [aria-hidden] [ref=f44e130]: e
+              - generic [aria-hidden] [ref=f44e131]: g
+              - generic [aria-hidden] [ref=f44e132]: i
+              - generic [aria-hidden] [ref=f44e133]: "n"
+              - generic [aria-hidden] [ref=f44e134]: s
+            - generic [aria-hidden] [ref=f44e135]:
+              - generic [aria-hidden] [ref=f44e136]: w
+              - generic [aria-hidden] [ref=f44e137]: i
+              - generic [aria-hidden] [ref=f44e138]: t
+              - generic [aria-hidden] [ref=f44e139]: h
+            - generic [aria-hidden] [ref=f44e141]: a
+            - generic [aria-hidden] [ref=f44e142]:
+              - generic [aria-hidden] [ref=f44e143]: d
+              - generic [aria-hidden] [ref=f44e144]: e
+              - generic [aria-hidden] [ref=f44e145]: e
+              - generic [aria-hidden] [ref=f44e146]: p
+            - generic [aria-hidden] [ref=f44e147]:
+              - generic [aria-hidden] [ref=f44e148]: u
+              - generic [aria-hidden] [ref=f44e149]: "n"
+              - generic [aria-hidden] [ref=f44e150]: d
+              - generic [aria-hidden] [ref=f44e151]: e
+              - generic [aria-hidden] [ref=f44e152]: r
+              - generic [aria-hidden] [ref=f44e153]: s
+              - generic [aria-hidden] [ref=f44e154]: t
+              - generic [aria-hidden] [ref=f44e155]: a
+              - generic [aria-hidden] [ref=f44e156]: "n"
+              - generic [aria-hidden] [ref=f44e157]: d
+              - generic [aria-hidden] [ref=f44e158]: i
+              - generic [aria-hidden] [ref=f44e159]: "n"
+              - generic [aria-hidden] [ref=f44e160]: g
+            - generic [aria-hidden] [ref=f44e161]:
+              - generic [aria-hidden] [ref=f44e162]: o
+              - generic [aria-hidden] [ref=f44e163]: f
+            - generic [aria-hidden] [ref=f44e164]:
+              - generic [aria-hidden] [ref=f44e165]: "y"
+              - generic [aria-hidden] [ref=f44e166]: o
+              - generic [aria-hidden] [ref=f44e167]: u
+              - generic [aria-hidden] [ref=f44e168]: r
+            - generic [aria-hidden] [ref=f44e169]:
+              - generic [aria-hidden] [ref=f44e170]: u
+              - generic [aria-hidden] [ref=f44e171]: "n"
+              - generic [aria-hidden] [ref=f44e172]: i
+              - generic [aria-hidden] [ref=f44e173]: q
+              - generic [aria-hidden] [ref=f44e174]: u
+              - generic [aria-hidden] [ref=f44e175]: e
+            - generic [aria-hidden] [ref=f44e176]:
+              - generic [aria-hidden] [ref=f44e177]: g
+              - generic [aria-hidden] [ref=f44e178]: o
+              - generic [aria-hidden] [ref=f44e179]: a
+              - generic [aria-hidden] [ref=f44e180]: l
+              - generic [aria-hidden] [ref=f44e181]: s
+              - generic [aria-hidden] [ref=f44e182]: .
+            - generic [aria-hidden] [ref=f44e183]:
+              - generic [aria-hidden] [ref=f44e184]: B
+              - generic [aria-hidden] [ref=f44e185]: "y"
+            - generic [aria-hidden] [ref=f44e186]:
+              - generic [aria-hidden] [ref=f44e187]: f
+              - generic [aria-hidden] [ref=f44e188]: o
+              - generic [aria-hidden] [ref=f44e189]: s
+              - generic [aria-hidden] [ref=f44e190]: t
+              - generic [aria-hidden] [ref=f44e191]: e
+              - generic [aria-hidden] [ref=f44e192]: r
+              - generic [aria-hidden] [ref=f44e193]: i
+              - generic [aria-hidden] [ref=f44e194]: "n"
+              - generic [aria-hidden] [ref=f44e195]: g
+            - generic [aria-hidden] [ref=f44e196]:
+              - generic [aria-hidden] [ref=f44e197]: c
+              - generic [aria-hidden] [ref=f44e198]: o
+              - generic [aria-hidden] [ref=f44e199]: l
+              - generic [aria-hidden] [ref=f44e200]: l
+              - generic [aria-hidden] [ref=f44e201]: a
+              - generic [aria-hidden] [ref=f44e202]: b
+              - generic [aria-hidden] [ref=f44e203]: o
+              - generic [aria-hidden] [ref=f44e204]: "-"
+              - generic [aria-hidden] [ref=f44e205]: r
+              - generic [aria-hidden] [ref=f44e206]: a
+              - generic [aria-hidden] [ref=f44e207]: t
+              - generic [aria-hidden] [ref=f44e208]: i
+              - generic [aria-hidden] [ref=f44e209]: o
+              - generic [aria-hidden] [ref=f44e210]: "n"
+              - generic [aria-hidden] [ref=f44e211]: ","
+            - generic [aria-hidden] [ref=f44e212]:
+              - generic [aria-hidden] [ref=f44e213]: c
+              - generic [aria-hidden] [ref=f44e214]: o
+              - generic [aria-hidden] [ref=f44e215]: "n"
+              - generic [aria-hidden] [ref=f44e216]: d
+              - generic [aria-hidden] [ref=f44e217]: u
+              - generic [aria-hidden] [ref=f44e218]: c
+              - generic [aria-hidden] [ref=f44e219]: t
+              - generic [aria-hidden] [ref=f44e220]: i
+              - generic [aria-hidden] [ref=f44e221]: "n"
+              - generic [aria-hidden] [ref=f44e222]: g
+            - generic [aria-hidden] [ref=f44e223]:
+              - generic [aria-hidden] [ref=f44e224]: t
+              - generic [aria-hidden] [ref=f44e225]: h
+              - generic [aria-hidden] [ref=f44e226]: o
+              - generic [aria-hidden] [ref=f44e227]: r
+              - generic [aria-hidden] [ref=f44e228]: o
+              - generic [aria-hidden] [ref=f44e229]: u
+              - generic [aria-hidden] [ref=f44e230]: g
+              - generic [aria-hidden] [ref=f44e231]: h
+            - generic [aria-hidden] [ref=f44e232]:
+              - generic [aria-hidden] [ref=f44e233]: r
+              - generic [aria-hidden] [ref=f44e234]: e
+              - generic [aria-hidden] [ref=f44e235]: s
+              - generic [aria-hidden] [ref=f44e236]: e
+              - generic [aria-hidden] [ref=f44e237]: a
+              - generic [aria-hidden] [ref=f44e238]: r
+              - generic [aria-hidden] [ref=f44e239]: c
+              - generic [aria-hidden] [ref=f44e240]: h
+              - generic [aria-hidden] [ref=f44e241]: ","
+            - generic [aria-hidden] [ref=f44e242]:
+              - generic [aria-hidden] [ref=f44e243]: a
+              - generic [aria-hidden] [ref=f44e244]: "n"
+              - generic [aria-hidden] [ref=f44e245]: d
+            - generic [aria-hidden] [ref=f44e246]:
+              - generic [aria-hidden] [ref=f44e247]: e
+              - generic [aria-hidden] [ref=f44e248]: x
+              - generic [aria-hidden] [ref=f44e249]: e
+              - generic [aria-hidden] [ref=f44e250]: c
+              - generic [aria-hidden] [ref=f44e251]: u
+              - generic [aria-hidden] [ref=f44e252]: t
+              - generic [aria-hidden] [ref=f44e253]: i
+              - generic [aria-hidden] [ref=f44e254]: "n"
+              - generic [aria-hidden] [ref=f44e255]: g
+            - generic [aria-hidden] [ref=f44e256]:
+              - generic [aria-hidden] [ref=f44e257]: w
+              - generic [aria-hidden] [ref=f44e258]: i
+              - generic [aria-hidden] [ref=f44e259]: t
+              - generic [aria-hidden] [ref=f44e260]: h
+            - generic [aria-hidden] [ref=f44e261]:
+              - generic [aria-hidden] [ref=f44e262]: p
+              - generic [aria-hidden] [ref=f44e263]: r
+              - generic [aria-hidden] [ref=f44e264]: e
+              - generic [aria-hidden] [ref=f44e265]: c
+              - generic [aria-hidden] [ref=f44e266]: i
+              - generic [aria-hidden] [ref=f44e267]: s
+              - generic [aria-hidden] [ref=f44e268]: i
+              - generic [aria-hidden] [ref=f44e269]: o
+              - generic [aria-hidden] [ref=f44e270]: "n"
+              - generic [aria-hidden] [ref=f44e271]: ","
+            - generic [aria-hidden] [ref=f44e272]:
+              - generic [aria-hidden] [ref=f44e273]: w
+              - generic [aria-hidden] [ref=f44e274]: e
+            - generic [aria-hidden] [ref=f44e275]:
+              - generic [aria-hidden] [ref=f44e276]: c
+              - generic [aria-hidden] [ref=f44e277]: r
+              - generic [aria-hidden] [ref=f44e278]: a
+              - generic [aria-hidden] [ref=f44e279]: f
+              - generic [aria-hidden] [ref=f44e280]: t
+            - generic [aria-hidden] [ref=f44e281]:
+              - generic [aria-hidden] [ref=f44e282]: e
+              - generic [aria-hidden] [ref=f44e283]: x
+              - generic [aria-hidden] [ref=f44e284]: p
+              - generic [aria-hidden] [ref=f44e285]: e
+              - generic [aria-hidden] [ref=f44e286]: r
+              - generic [aria-hidden] [ref=f44e287]: i
+              - generic [aria-hidden] [ref=f44e288]: e
+              - generic [aria-hidden] [ref=f44e289]: "n"
+              - generic [aria-hidden] [ref=f44e290]: c
+              - generic [aria-hidden] [ref=f44e291]: e
+              - generic [aria-hidden] [ref=f44e292]: s
+            - generic [aria-hidden] [ref=f44e293]:
+              - generic [aria-hidden] [ref=f44e294]: t
+              - generic [aria-hidden] [ref=f44e295]: h
+              - generic [aria-hidden] [ref=f44e296]: a
+              - generic [aria-hidden] [ref=f44e297]: t
+            - generic [aria-hidden] [ref=f44e298]:
+              - generic [aria-hidden] [ref=f44e299]: "n"
+              - generic [aria-hidden] [ref=f44e300]: o
+              - generic [aria-hidden] [ref=f44e301]: t
+            - generic [aria-hidden] [ref=f44e302]:
+              - generic [aria-hidden] [ref=f44e303]: o
+              - generic [aria-hidden] [ref=f44e304]: "n"
+              - generic [aria-hidden] [ref=f44e305]: l
+              - generic [aria-hidden] [ref=f44e306]: "y"
+            - generic [aria-hidden] [ref=f44e307]:
+              - generic [aria-hidden] [ref=f44e308]: m
+              - generic [aria-hidden] [ref=f44e309]: e
+              - generic [aria-hidden] [ref=f44e310]: e
+              - generic [aria-hidden] [ref=f44e311]: t
+            - generic [aria-hidden] [ref=f44e312]:
+              - generic [aria-hidden] [ref=f44e313]: "y"
+              - generic [aria-hidden] [ref=f44e314]: o
+              - generic [aria-hidden] [ref=f44e315]: u
+              - generic [aria-hidden] [ref=f44e316]: r
+            - generic [aria-hidden] [ref=f44e317]:
+              - generic [aria-hidden] [ref=f44e318]: "n"
+              - generic [aria-hidden] [ref=f44e319]: e
+              - generic [aria-hidden] [ref=f44e320]: e
+              - generic [aria-hidden] [ref=f44e321]: d
+              - generic [aria-hidden] [ref=f44e322]: s
+            - generic [aria-hidden] [ref=f44e323]:
+              - generic [aria-hidden] [ref=f44e324]: b
+              - generic [aria-hidden] [ref=f44e325]: u
+              - generic [aria-hidden] [ref=f44e326]: t
+            - generic [aria-hidden] [ref=f44e327]:
+              - generic [aria-hidden] [ref=f44e328]: a
+              - generic [aria-hidden] [ref=f44e329]: l
+              - generic [aria-hidden] [ref=f44e330]: s
+              - generic [aria-hidden] [ref=f44e331]: o
+            - generic [aria-hidden] [ref=f44e332]:
+              - generic [aria-hidden] [ref=f44e333]: l
+              - generic [aria-hidden] [ref=f44e334]: e
+              - generic [aria-hidden] [ref=f44e335]: a
+              - generic [aria-hidden] [ref=f44e336]: v
+              - generic [aria-hidden] [ref=f44e337]: e
+            - generic [aria-hidden] [ref=f44e339]: a
+            - generic [aria-hidden] [ref=f44e340]:
+              - generic [aria-hidden] [ref=f44e341]: l
+              - generic [aria-hidden] [ref=f44e342]: a
+              - generic [aria-hidden] [ref=f44e343]: s
+              - generic [aria-hidden] [ref=f44e344]: t
+              - generic [aria-hidden] [ref=f44e345]: i
+              - generic [aria-hidden] [ref=f44e346]: "n"
+              - generic [aria-hidden] [ref=f44e347]: g
+            - generic [aria-hidden] [ref=f44e348]:
+              - generic [aria-hidden] [ref=f44e349]: i
+              - generic [aria-hidden] [ref=f44e350]: m
+              - generic [aria-hidden] [ref=f44e351]: p
+              - generic [aria-hidden] [ref=f44e352]: a
+              - generic [aria-hidden] [ref=f44e353]: c
+              - generic [aria-hidden] [ref=f44e354]: t
+            - generic [aria-hidden] [ref=f44e355]:
+              - generic [aria-hidden] [ref=f44e356]: o
+              - generic [aria-hidden] [ref=f44e357]: "n"
+            - generic [aria-hidden] [ref=f44e358]:
+              - generic [aria-hidden] [ref=f44e359]: "y"
+              - generic [aria-hidden] [ref=f44e360]: o
+              - generic [aria-hidden] [ref=f44e361]: u
+              - generic [aria-hidden] [ref=f44e362]: r
+            - generic [aria-hidden] [ref=f44e363]:
+              - generic [aria-hidden] [ref=f44e364]: a
+              - generic [aria-hidden] [ref=f44e365]: u
+              - generic [aria-hidden] [ref=f44e366]: d
+              - generic [aria-hidden] [ref=f44e367]: i
+              - generic [aria-hidden] [ref=f44e368]: e
+              - generic [aria-hidden] [ref=f44e369]: "n"
+              - generic [aria-hidden] [ref=f44e370]: c
+              - generic [aria-hidden] [ref=f44e371]: e
+              - generic [aria-hidden] [ref=f44e372]: .
+        - generic [ref=f44e373]:
+          - generic [ref=f44e374]:
+            - generic [ref=f44e375]:
+              - generic [ref=f44e376]: 150+
+              - paragraph [ref=f44e377]: Projects Delivered
+            - generic [ref=f44e378]:
+              - generic [ref=f44e379]: 98%
+              - paragraph [ref=f44e380]: Client Satisfaction
+            - generic [ref=f44e381]:
+              - generic [ref=f44e382]: 20+
+              - paragraph [ref=f44e383]: Years Experience
+          - generic [ref=f44e384]:
+            - generic [ref=f44e385]:
+              - link "About Our Studio" [ref=f44e387] [cursor=pointer]:
+                - /url: /about
+              - img "Abstract light streaks and lens flare with warm orange and cool blue tones on a dark background." [ref=f44e391]
+              - img "Colorful abstract light painting with flowing, glowing shapes in pink, purple, blue, and orange hues." [ref=f44e393]
+              - img "Close-up of iridescent, smooth, flowing fabric with pearly shine and soft folds." [ref=f44e395]
+            - img "Silhouette of a person with a double-exposure effect against a colorful orange and pink sky." [ref=f44e398]
+            - generic [ref=f44e399]:
+              - generic [ref=f44e400]:
+                - img "Silhouette of a person's side profile with colorful blue, orange, and yellow lighting background." [ref=f44e401]
+                - img "Abstract colorful 3D wave pattern with flowing lines and gradient hues of blue, purple, and orange." [ref=f44e402]
+              - img "Abstract smooth surface with glowing, flowing waves in blue, orange, and purple hues." [ref=f44e404]
+      - generic [ref=f44e408]:
+        - heading "Selected Work That Delivers Results" [level=2] [ref=f44e411]:
+          - generic [aria-hidden] [ref=f44e412]:
+            - generic [aria-hidden] [ref=f44e413]: S
+            - generic [aria-hidden] [ref=f44e414]: e
+            - generic [aria-hidden] [ref=f44e415]: l
+            - generic [aria-hidden] [ref=f44e416]: e
+            - generic [aria-hidden] [ref=f44e417]: c
+            - generic [aria-hidden] [ref=f44e418]: t
+            - generic [aria-hidden] [ref=f44e419]: e
+            - generic [aria-hidden] [ref=f44e420]: d
+          - generic [aria-hidden] [ref=f44e421]:
+            - generic [aria-hidden] [ref=f44e422]: W
+            - generic [aria-hidden] [ref=f44e423]: o
+            - generic [aria-hidden] [ref=f44e424]: r
+            - generic [aria-hidden] [ref=f44e425]: k
+          - generic [aria-hidden] [ref=f44e426]:
+            - generic [aria-hidden] [ref=f44e427]: T
+            - generic [aria-hidden] [ref=f44e428]: h
+            - generic [aria-hidden] [ref=f44e429]: a
+            - generic [aria-hidden] [ref=f44e430]: t
+          - generic [aria-hidden] [ref=f44e431]:
+            - generic [aria-hidden] [ref=f44e432]: D
+            - generic [aria-hidden] [ref=f44e433]: e
+            - generic [aria-hidden] [ref=f44e434]: l
+            - generic [aria-hidden] [ref=f44e435]: i
+            - generic [aria-hidden] [ref=f44e436]: v
+            - generic [aria-hidden] [ref=f44e437]: e
+            - generic [aria-hidden] [ref=f44e438]: r
+            - generic [aria-hidden] [ref=f44e439]: s
+          - generic [aria-hidden] [ref=f44e440]:
+            - generic [aria-hidden] [ref=f44e441]: R
+            - generic [aria-hidden] [ref=f44e442]: e
+            - generic [aria-hidden] [ref=f44e443]: s
+            - generic [aria-hidden] [ref=f44e444]: u
+            - generic [aria-hidden] [ref=f44e445]: l
+            - generic [aria-hidden] [ref=f44e446]: t
+            - generic [aria-hidden] [ref=f44e447]: s
+        - generic [ref=f44e448]:
+          - list [ref=f44e450]:
+            - listitem [ref=f44e451]:
+              - link [ref=f44e452] [cursor=pointer]:
+                - /url: /projects/finova
+                - img "case-study-card-image" [ref=f44e454]
+                - generic [ref=f44e456]:
+                  - heading "Finova" [level=3] [ref=f44e457]
+                  - paragraph [ref=f44e458]: UI/UX Design • Branding
+                - generic:
+                  - generic:
+                    - paragraph: View
+          - list [ref=f44e460]:
+            - listitem [ref=f44e461]:
+              - link "case-study-card-image Medilink Product Design • UX Research View":
+                - /url: /projects/medilink
+                - generic:
+                  - img "case-study-card-image"
+                - generic [ref=f44e463] [cursor=pointer]:
+                  - heading "Medilink" [level=3] [ref=f44e464]
+                  - paragraph [ref=f44e465]: Product Design • UX Research
+                - generic:
+                  - generic:
+                    - paragraph: View
+          - list [ref=f44e467]:
+            - listitem [ref=f44e468]:
+              - link "case-study-card-image Stratabuild Product Design • Design System View":
+                - /url: /projects/stratabuild
+                - generic:
+                  - img "case-study-card-image"
+                - generic [ref=f44e470] [cursor=pointer]:
+                  - heading "Stratabuild" [level=3] [ref=f44e471]
+                  - paragraph [ref=f44e472]: Product Design • Design System
+                - generic:
+                  - generic:
+                    - paragraph: View
+      - generic [ref=f44e476]:
+        - heading "Build a Strong Digital Presence" [level=2] [ref=f44e479]:
+          - generic [aria-hidden] [ref=f44e480]:
+            - generic [aria-hidden] [ref=f44e481]: B
+            - generic [aria-hidden] [ref=f44e482]: u
+            - generic [aria-hidden] [ref=f44e483]: i
+            - generic [aria-hidden] [ref=f44e484]: l
+            - generic [aria-hidden] [ref=f44e485]: d
+          - generic [aria-hidden] [ref=f44e487]: a
+          - generic [aria-hidden] [ref=f44e488]:
+            - generic [aria-hidden] [ref=f44e489]: S
+            - generic [aria-hidden] [ref=f44e490]: t
+            - generic [aria-hidden] [ref=f44e491]: r
+            - generic [aria-hidden] [ref=f44e492]: o
+            - generic [aria-hidden] [ref=f44e493]: "n"
+            - generic [aria-hidden] [ref=f44e494]: g
+          - generic [aria-hidden] [ref=f44e495]:
+            - generic [aria-hidden] [ref=f44e496]: D
+            - generic [aria-hidden] [ref=f44e497]: i
+            - generic [aria-hidden] [ref=f44e498]: g
+            - generic [aria-hidden] [ref=f44e499]: i
+            - generic [aria-hidden] [ref=f44e500]: t
+            - generic [aria-hidden] [ref=f44e501]: a
+            - generic [aria-hidden] [ref=f44e502]: l
+          - generic [aria-hidden] [ref=f44e503]:
+            - generic [aria-hidden] [ref=f44e504]: P
+            - generic [aria-hidden] [ref=f44e505]: r
+            - generic [aria-hidden] [ref=f44e506]: e
+            - generic [aria-hidden] [ref=f44e507]: s
+            - generic [aria-hidden] [ref=f44e508]: e
+            - generic [aria-hidden] [ref=f44e509]: "n"
+            - generic [aria-hidden] [ref=f44e510]: c
+            - generic [aria-hidden] [ref=f44e511]: e
+        - generic [ref=f44e512]:
+          - list [ref=f44e514]:
+            - listitem [ref=f44e515]:
+              - generic [ref=f44e516]:
+                - link [ref=f44e517] [cursor=pointer]:
+                  - /url: /services/ui-ux-design
+                  - img "UI/UX Design" [ref=f44e518]
+                  - generic:
+                    - generic:
+                      - paragraph: View
+                - generic [ref=f44e519]:
+                  - generic [ref=f44e520]: "[06]"
+                  - link "services-item-title-block" [ref=f44e523] [cursor=pointer]:
+                    - /url: /services/ui-ux-design
+                    - heading "UI/UX Design" [level=3] [ref=f44e524]
+                  - generic [ref=f44e525]:
+                    - generic [ref=f44e526]: Includes
+                    - list [ref=f44e528]:
+                      - listitem [ref=f44e529]: User Research
+                      - listitem [ref=f44e530]: Wireframing
+                      - listitem [ref=f44e531]: High-Fidelity UI Design
+                      - listitem [ref=f44e532]: User Flows
+                      - listitem [ref=f44e533]: Interactive Prototypes
+          - list [ref=f44e535]:
+            - listitem [ref=f44e536]:
+              - generic [ref=f44e537]:
+                - link [ref=f44e538] [cursor=pointer]:
+                  - /url: /services/branding-identity
+                  - img "Branding & Identity" [ref=f44e539]
+                  - generic:
+                    - generic:
+                      - paragraph: View
+                - generic [ref=f44e540]:
+                  - generic [ref=f44e541]: "[05]"
+                  - link "services-item-title-block" [ref=f44e544] [cursor=pointer]:
+                    - /url: /services/branding-identity
+                    - heading "Branding & Identity" [level=3] [ref=f44e545]
+                  - generic [ref=f44e546]:
+                    - generic [ref=f44e547]: Includes
+                    - list [ref=f44e549]:
+                      - listitem [ref=f44e550]: Brand Strategy
+                      - listitem [ref=f44e551]: Visual Identity
+                      - listitem [ref=f44e552]: Logo Design
+                      - listitem [ref=f44e553]: Brand Guidelines
+                      - listitem [ref=f44e554]: Messaging Systems
+          - list [ref=f44e556]:
+            - listitem [ref=f44e557]:
+              - generic [ref=f44e558]:
+                - link [ref=f44e559] [cursor=pointer]:
+                  - /url: /services/webflow-development
+                  - img "Webflow Development" [ref=f44e560]
+                  - generic:
+                    - generic:
+                      - paragraph: View
+                - generic [ref=f44e561]:
+                  - generic [ref=f44e562]: "[04]"
+                  - link "services-item-title-block" [ref=f44e565] [cursor=pointer]:
+                    - /url: /services/webflow-development
+                    - heading "Webflow Development" [level=3] [ref=f44e566]
+                  - generic [ref=f44e567]:
+                    - generic [ref=f44e568]: Includes
+                    - list [ref=f44e570]:
+                      - listitem [ref=f44e571]: Custom Webflow Builds
+                      - listitem [ref=f44e572]: CMS Architecture
+                      - listitem [ref=f44e573]: Responsive Development
+                      - listitem [ref=f44e574]: SEO Implementation
+                      - listitem [ref=f44e575]: Performance Optimization
+          - list [ref=f44e577]:
+            - listitem [ref=f44e578]:
+              - generic [ref=f44e579]:
+                - link [ref=f44e580] [cursor=pointer]:
+                  - /url: /services/framer-development
+                  - img "Framer Development" [ref=f44e581]
+                  - generic:
+                    - generic:
+                      - paragraph: View
+                - generic [ref=f44e582]:
+                  - generic [ref=f44e583]: "[03]"
+                  - link "services-item-title-block" [ref=f44e586] [cursor=pointer]:
+                    - /url: /services/framer-development
+                    - heading "Framer Development" [level=3] [ref=f44e587]
+                  - generic [ref=f44e588]:
+                    - generic [ref=f44e589]: Includes
+                    - list [ref=f44e591]:
+                      - listitem [ref=f44e592]: Framer Websites
+                      - listitem [ref=f44e593]: Interactive Experiences
+                      - listitem [ref=f44e594]: Advanced Animations
+                      - listitem [ref=f44e595]: Responsive Layouts
+                      - listitem [ref=f44e596]: Fast Launch Cycles
+      - generic [ref=f44e602]:
+        - generic [ref=f44e604]:
+          - generic [ref=f44e605]: OUR PROCESS
+          - generic [ref=f44e609]: OUR PROCESS
+          - generic [ref=f44e613]: OUR PROCESS
+          - generic [ref=f44e617]: OUR PROCESS
+        - generic [ref=f44e618]:
+          - generic [ref=f44e619]:
+            - generic [ref=f44e620]: "[ STEP 01 ]"
+            - generic:
+              - img "Abstract iridescent structure with glowing, glittery surface forming arch shapes on gray background."
+          - generic [ref=f44e623]:
+            - generic [ref=f44e624]: "[ STEP 02 ]"
+            - img "Close-up view of textured, layered organic material with pink, purple, and white hues." [ref=f44e628]
+          - generic [ref=f44e629]:
+            - generic [ref=f44e630]: "[ STEP 03 ]"
+            - img "Abstract blurry glass or translucent object reflecting warm light and colors on a surface." [ref=f44e634]
+          - generic [ref=f44e635]:
+            - generic [ref=f44e636]: "[ STEP 04 ]"
+            - img "Close-up of translucent, iridescent pink and white abstract shapes with soft lighting." [ref=f44e640]
+          - generic [ref=f44e641]:
+            - generic [ref=f44e642]: "[ STEP 05 ]"
+            - img "Abstract translucent waves in blue, orange, and purple hues on a light background." [ref=f44e646]
+        - generic [ref=f44e647]:
+          - generic [ref=f44e648]:
+            - generic [ref=f44e649]: Discover
+            - paragraph [ref=f44e650]: We start by taking a deep dive into your business, exploring your target audience, defining your goals, and identifying the challenges you encounter along the way.
+          - generic [ref=f44e651]:
+            - generic [ref=f44e652]: Define
+            - paragraph [ref=f44e653]: We take valuable insights and turn them into a well-defined strategy along with a clear and actionable roadmap that guides our efforts.
+          - generic [ref=f44e654]:
+            - generic [ref=f44e655]: Design
+            - paragraph [ref=f44e656]: We create visually stunning experiences that seamlessly blend aesthetics with usability, ensuring that every interaction is not only beautiful but also intuitive and user-friendly.
+          - generic [ref=f44e657]:
+            - generic [ref=f44e658]: Build
+            - paragraph [ref=f44e659]: We transform innovative concepts into reality by utilizing clean and scalable development practices that ensure longevity and adaptability.
+          - generic [ref=f44e660]:
+            - generic [ref=f44e661]: Launch
+            - paragraph [ref=f44e662]: We take the time to meticulously test and refine every single detail to ensure everything is absolutely perfect before we officially go live.
+      - generic [ref=f44e666]:
+        - generic [ref=f44e667]:
+          - generic [ref=f44e668]: "[ OUR PEOPLE ]"
+          - heading "A Group of Creative Problem Solvers" [level=2] [ref=f44e671]:
+            - generic [aria-hidden] [ref=f44e673]: A
+            - generic [aria-hidden] [ref=f44e674]:
+              - generic [aria-hidden] [ref=f44e675]: G
+              - generic [aria-hidden] [ref=f44e676]: r
+              - generic [aria-hidden] [ref=f44e677]: o
+              - generic [aria-hidden] [ref=f44e678]: u
+              - generic [aria-hidden] [ref=f44e679]: p
+            - generic [aria-hidden] [ref=f44e680]:
+              - generic [aria-hidden] [ref=f44e681]: o
+              - generic [aria-hidden] [ref=f44e682]: f
+            - generic [aria-hidden] [ref=f44e683]:
+              - generic [aria-hidden] [ref=f44e684]: C
+              - generic [aria-hidden] [ref=f44e685]: r
+              - generic [aria-hidden] [ref=f44e686]: e
+              - generic [aria-hidden] [ref=f44e687]: a
+              - generic [aria-hidden] [ref=f44e688]: t
+              - generic [aria-hidden] [ref=f44e689]: i
+              - generic [aria-hidden] [ref=f44e690]: v
+              - generic [aria-hidden] [ref=f44e691]: e
+            - generic [aria-hidden] [ref=f44e692]:
+              - generic [aria-hidden] [ref=f44e693]: P
+              - generic [aria-hidden] [ref=f44e694]: r
+              - generic [aria-hidden] [ref=f44e695]: o
+              - generic [aria-hidden] [ref=f44e696]: b
+              - generic [aria-hidden] [ref=f44e697]: l
+              - generic [aria-hidden] [ref=f44e698]: e
+              - generic [aria-hidden] [ref=f44e699]: m
+            - generic [aria-hidden] [ref=f44e700]:
+              - generic [aria-hidden] [ref=f44e701]: S
+              - generic [aria-hidden] [ref=f44e702]: o
+              - generic [aria-hidden] [ref=f44e703]: l
+              - generic [aria-hidden] [ref=f44e704]: v
+              - generic [aria-hidden] [ref=f44e705]: e
+              - generic [aria-hidden] [ref=f44e706]: r
+              - generic [aria-hidden] [ref=f44e707]: s
+        - region "carousel" [ref=f44e709]:
+          - generic [ref=f44e710]:
+            - group "1 of 6" [ref=f44e711]:
+              - generic [ref=f44e712]:
+                - generic [ref=f44e713]:
+                  - img "team-card-image"
+                - generic [ref=f44e714]:
+                  - heading "Michael Carter" [level=3] [ref=f44e716]
+                  - paragraph [ref=f44e718]: Founder & Lead Coach
+            - group [aria-hidden] [ref=f44e719]:
+              - generic [aria-hidden] [ref=f44e722]:
+                - heading [level=3] [aria-hidden] [ref=f44e724]: Sophia Carter
+                - paragraph [aria-hidden] [ref=f44e726]: Senior UI/UX Designer
+            - group [aria-hidden] [ref=f44e727]:
+              - generic [aria-hidden] [ref=f44e730]:
+                - heading [level=3] [aria-hidden] [ref=f44e732]: Olivia Bennett
+                - paragraph [aria-hidden] [ref=f44e734]: Digital Strategist
+            - group [aria-hidden] [ref=f44e735]:
+              - generic [aria-hidden] [ref=f44e738]:
+                - heading [level=3] [aria-hidden] [ref=f44e740]: Ethan Walker
+                - paragraph [aria-hidden] [ref=f44e742]: Webflow Developer
+            - group [aria-hidden] [ref=f44e743]:
+              - generic [aria-hidden] [ref=f44e746]:
+                - heading [level=3] [aria-hidden] [ref=f44e748]: Mia Thompson
+                - paragraph [aria-hidden] [ref=f44e750]: Project Manager
+            - group [aria-hidden] [ref=f44e751]:
+              - generic [aria-hidden] [ref=f44e754]:
+                - heading [level=3] [aria-hidden] [ref=f44e756]: Daniel Brooks
+                - paragraph [aria-hidden] [ref=f44e758]: Brand Designer
+          - button "previous slide" [ref=f44e760] [cursor=pointer]:
+            - generic [ref=f44e761]: 
+          - button "next slide" [ref=f44e762] [cursor=pointer]:
+            - generic [ref=f44e763]: 
+      - generic [ref=f44e768]:
+        - generic [ref=f44e769]:
+          - heading "What Our Clients Say" [level=2] [ref=f44e771]:
+            - generic [aria-hidden] [ref=f44e772]:
+              - generic [aria-hidden] [ref=f44e773]: W
+              - generic [aria-hidden] [ref=f44e774]: h
+              - generic [aria-hidden] [ref=f44e775]: a
+              - generic [aria-hidden] [ref=f44e776]: t
+            - generic [aria-hidden] [ref=f44e777]:
+              - generic [aria-hidden] [ref=f44e778]: O
+              - generic [aria-hidden] [ref=f44e779]: u
+              - generic [aria-hidden] [ref=f44e780]: r
+            - generic [aria-hidden] [ref=f44e781]:
+              - generic [aria-hidden] [ref=f44e782]: C
+              - generic [aria-hidden] [ref=f44e783]: l
+              - generic [aria-hidden] [ref=f44e784]: i
+              - generic [aria-hidden] [ref=f44e785]: e
+              - generic [aria-hidden] [ref=f44e786]: "n"
+              - generic [aria-hidden] [ref=f44e787]: t
+              - generic [aria-hidden] [ref=f44e788]: s
+            - generic [aria-hidden] [ref=f44e789]:
+              - generic [aria-hidden] [ref=f44e790]: S
+              - generic [aria-hidden] [ref=f44e791]: a
+              - generic [aria-hidden] [ref=f44e792]: "y"
+          - paragraph [ref=f44e794]: See how smart design, strategic insight, and teamwork have driven our clients' growth and digital success.
+        - generic [ref=f44e796]:
+          - generic [ref=f44e798]:
+            - img "testimonial-sm-image" [ref=f44e800]
+            - img "testimonial-sm-image" [ref=f44e804]
+            - img "testimonial-sm-image" [ref=f44e808]
+            - img "testimonial-sm-image" [ref=f44e812]
+            - img "testimonial-sm-image" [ref=f44e816]
+            - img "testimonial-sm-image" [ref=f44e820]
+            - img "testimonial-sm-image" [ref=f44e824]
+          - generic [ref=f44e827]:
+            - generic [ref=f44e829]:
+              - generic [ref=f44e830]:
+                - generic [ref=f44e831]:
+                  - generic [ref=f44e832]: Daniel Brooks
+                  - paragraph [ref=f44e833]: Founder, ScaleLabs
+                - generic:
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+              - heading "\"Novaform transformed our digital presence and helped us increase conversions significantly. Their process was smooth, strategic, and highly collaborative.\"" [level=3] [ref=f44e836]
+            - generic [ref=f44e838]:
+              - generic [ref=f44e839]:
+                - generic [ref=f44e840]:
+                  - generic [ref=f44e841]: James Carter
+                  - paragraph [ref=f44e842]: Founder, Elevate Studio
+                - generic:
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+              - heading "\"Novaform transformed our old website into a breathtaking digital platform that not only enhances our brand image but also significantly increases our lead generation.\"" [level=3] [ref=f44e845]
+            - generic [ref=f44e847]:
+              - generic [ref=f44e848]:
+                - generic [ref=f44e849]:
+                  - generic [ref=f44e850]: Marketer, BrightLabs
+                  - paragraph [ref=f44e851]: Founder, ScaleLabs
+                - generic:
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+              - heading "\"Novaform transformed our digital presence and helped us increase conversions significantly. Their process was smooth, strategic, and highly collaborative.\"" [level=3] [ref=f44e854]
+            - generic [ref=f44e856]:
+              - generic [ref=f44e857]:
+                - generic [ref=f44e858]:
+                  - generic [ref=f44e859]: Emma Rodriguez
+                  - paragraph [ref=f44e860]: Marketer, NovaTech
+                - generic:
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+              - heading "The team collaborated transparently from discovery to launch, delivering a polished product on time and enhancing customer connections through better design." [level=3] [ref=f44e863]
+            - generic [ref=f44e865]:
+              - generic [ref=f44e866]:
+                - generic [ref=f44e867]:
+                  - generic [ref=f44e868]: Web Designer, Ink Studio
+                  - paragraph [ref=f44e869]: Founder, ScaleLabs
+                - generic:
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+                  - img "testimonial-card-star"
+              - heading "\"Novaform transformed our digital presence and helped us increase conversions significantly. Their process was smooth, strategic, and highly collaborative.\"" [level=3] [ref=f44e872]
+      - generic [ref=f44e876]:
+        - heading "Latest Insights" [level=2] [ref=f44e879]:
+          - generic [aria-hidden] [ref=f44e880]:
+            - generic [aria-hidden] [ref=f44e881]: L
+            - generic [aria-hidden] [ref=f44e882]: a
+            - generic [aria-hidden] [ref=f44e883]: t
+            - generic [aria-hidden] [ref=f44e884]: e
+            - generic [aria-hidden] [ref=f44e885]: s
+            - generic [aria-hidden] [ref=f44e886]: t
+          - generic [aria-hidden] [ref=f44e887]:
+            - generic [aria-hidden] [ref=f44e888]: I
+            - generic [aria-hidden] [ref=f44e889]: "n"
+            - generic [aria-hidden] [ref=f44e890]: s
+            - generic [aria-hidden] [ref=f44e891]: i
+            - generic [aria-hidden] [ref=f44e892]: g
+            - generic [aria-hidden] [ref=f44e893]: h
+            - generic [aria-hidden] [ref=f44e894]: t
+            - generic [aria-hidden] [ref=f44e895]: s
+        - generic [ref=f44e896]:
+          - list [ref=f44e899]:
+            - listitem [ref=f44e900]:
+              - generic [ref=f44e901]:
+                - link [ref=f44e902] [cursor=pointer]:
+                  - /url: /blog/how-strategic-design-creates-lasting-business-growth
+                  - img "How Strategic Design Creates Lasting Business Growth" [ref=f44e903]
+                - generic [ref=f44e904]:
+                  - generic [ref=f44e905]:
+                    - paragraph [ref=f44e906]: "[Design Strategy]"
+                    - paragraph [ref=f44e907]: 8 Min Read
+                  - generic [ref=f44e908]:
+                    - link "blog-card-title-block" [ref=f44e909] [cursor=pointer]:
+                      - /url: /blog/how-strategic-design-creates-lasting-business-growth
+                      - heading "How Strategic Design Creates Lasting Business Growth" [level=3] [ref=f44e910]
+                    - paragraph [ref=f44e911]: Discover how companies use research, user experience, and brand positioning to create stronger customer relationships and measurable results.
+            - listitem [ref=f44e912]:
+              - generic [ref=f44e913]:
+                - link [ref=f44e914] [cursor=pointer]:
+                  - /url: /blog/the-role-of-branding-in-modern-business-success
+                  - img "The Role of Branding in Modern Business Success" [ref=f44e915]
+                - generic [ref=f44e916]:
+                  - generic [ref=f44e917]:
+                    - paragraph [ref=f44e918]: "[Design Strategy]"
+                    - paragraph [ref=f44e919]: 7 Min Read
+                  - generic [ref=f44e920]:
+                    - link "blog-card-title-block" [ref=f44e921] [cursor=pointer]:
+                      - /url: /blog/the-role-of-branding-in-modern-business-success
+                      - heading "The Role of Branding in Modern Business Success" [level=3] [ref=f44e922]
+                    - paragraph [ref=f44e923]: Strong branding shapes perception, builds loyalty, and creates a durable competitive advantage in crowded markets.
+            - listitem [ref=f44e924]:
+              - generic [ref=f44e925]:
+                - link [ref=f44e926] [cursor=pointer]:
+                  - /url: /blog/how-user-centered-design-improves-customer-retention
+                  - img "How User-Centered Design Improves Customer Retention" [ref=f44e927]
+                - generic [ref=f44e928]:
+                  - generic [ref=f44e929]:
+                    - paragraph [ref=f44e930]: "[Design Strategy]"
+                    - paragraph [ref=f44e931]: 8 Min Read
+                  - generic [ref=f44e932]:
+                    - link "blog-card-title-block" [ref=f44e933] [cursor=pointer]:
+                      - /url: /blog/how-user-centered-design-improves-customer-retention
+                      - heading "How User-Centered Design Improves Customer Retention" [level=3] [ref=f44e934]
+                    - paragraph [ref=f44e935]: User-centered design reduces churn, deepens loyalty, and increases lifetime customer value.
+          - text:  
+      - generic [ref=f44e939]:
+        - generic [ref=f44e940]:
+          - heading "Ready To Build Something Exceptional?" [level=2] [ref=f44e942]:
+            - generic [aria-hidden] [ref=f44e943]:
+              - generic [aria-hidden] [ref=f44e944]: R
+              - generic [aria-hidden] [ref=f44e945]: e
+              - generic [aria-hidden] [ref=f44e946]: a
+              - generic [aria-hidden] [ref=f44e947]: d
+              - generic [aria-hidden] [ref=f44e948]: "y"
+            - generic [aria-hidden] [ref=f44e949]:
+              - generic [aria-hidden] [ref=f44e950]: T
+              - generic [aria-hidden] [ref=f44e951]: o
+            - generic [aria-hidden] [ref=f44e952]:
+              - generic [aria-hidden] [ref=f44e953]: B
+              - generic [aria-hidden] [ref=f44e954]: u
+              - generic [aria-hidden] [ref=f44e955]: i
+              - generic [aria-hidden] [ref=f44e956]: l
+              - generic [aria-hidden] [ref=f44e957]: d
+            - generic [aria-hidden] [ref=f44e958]:
+              - generic [aria-hidden] [ref=f44e959]: S
+              - generic [aria-hidden] [ref=f44e960]: o
+              - generic [aria-hidden] [ref=f44e961]: m
+              - generic [aria-hidden] [ref=f44e962]: e
+              - generic [aria-hidden] [ref=f44e963]: t
+              - generic [aria-hidden] [ref=f44e964]: h
+              - generic [aria-hidden] [ref=f44e965]: i
+              - generic [aria-hidden] [ref=f44e966]: "n"
+              - generic [aria-hidden] [ref=f44e967]: g
+            - generic [aria-hidden] [ref=f44e968]:
+              - generic [aria-hidden] [ref=f44e969]: E
+              - generic [aria-hidden] [ref=f44e970]: x
+              - generic [aria-hidden] [ref=f44e971]: c
+              - generic [aria-hidden] [ref=f44e972]: e
+              - generic [aria-hidden] [ref=f44e973]: p
+              - generic [aria-hidden] [ref=f44e974]: t
+              - generic [aria-hidden] [ref=f44e975]: i
+              - generic [aria-hidden] [ref=f44e976]: o
+              - generic [aria-hidden] [ref=f44e977]: "n"
+              - generic [aria-hidden] [ref=f44e978]: a
+              - generic [aria-hidden] [ref=f44e979]: l
+              - generic [aria-hidden] [ref=f44e980]: "?"
+          - link "Contact Us" [ref=f44e982] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f44e986]:
+          - generic:
+            - img "Abstract blurred image with soft blue, white, purple, and orange hues blending in motion."
+          - generic:
+            - img "Silhouetted person with light beams crossing their face against a gradient blue and orange background."
+          - generic:
+            - img "Close-up of iridescent, flowing fabric or material with soft pastel hues and light reflections."
+          - generic:
+            - img "Abstract bright light with colorful lens flare and blurred background in red, orange, and purple hues."
+          - generic:
+            - img "Blurred figure walking indoors against a light-colored wall and floor."
+          - generic:
+            - img "Abstract smooth pastel colors blend in flowing shapes with dominant orange and blue tones."
+          - generic:
+            - img "Silhouettes of people standing and walking in a reflective space with abstract cloud shapes in the background."
+          - generic:
+            - img "City lights at night with vertical beams of bright light piercing the sky and atmospheric haze."
+          - generic:
+            - img "Blurred white Christmas tree with horizontal light streaks in a dimly lit room with window shadows."
+          - generic:
+            - img "Glowing artificial tree with bright lights surrounded by shadowy figures on a misty surface."
+          - generic:
+            - img "Abstract glass-like fluid shapes reflecting sky and ocean under soft sunlight."
+          - generic:
+            - img "Blurred profile of a person surrounded by a glowing, ethereal, circular light pattern."
+          - generic:
+            - img "Glowing abstract diamond-shaped light hovering over a dark reflective surface at night."
+          - generic:
+            - img "Abstract smooth pastel colors blend in flowing shapes with dominant orange and blue tones."
+  - contentinfo [ref=f44e987]:
+    - generic [ref=f44e989]:
+      - generic [ref=f44e991]:
+        - generic [ref=f44e993]:
+          - link [ref=f44e994] [cursor=pointer]:
+            - /url: /
+            - img "footer-logo" [ref=f44e995]
+          - paragraph [ref=f44e997]: Sign up for our newsletter to get latest insights and updates
+          - form "Email Form" [ref=f44e999]:
+            - generic [ref=f44e1000]:
+              - textbox "newsletter" [ref=f44e1001]:
+                - /placeholder: Enter your email
+              - button "Subscribe" [ref=f44e1002] [cursor=pointer]
+        - generic [ref=f44e1003]:
+          - generic [ref=f44e1004]:
+            - generic [ref=f44e1005]: Main Pages
+            - link "Home" [ref=f44e1006] [cursor=pointer]:
+              - /url: /
+            - link "About" [ref=f44e1008] [cursor=pointer]:
+              - /url: /about
+            - link "Services" [ref=f44e1010] [cursor=pointer]:
+              - /url: /services
+            - link "Project" [ref=f44e1012] [cursor=pointer]:
+              - /url: /projects
+            - link "Blog" [ref=f44e1014] [cursor=pointer]:
+              - /url: /blog
+            - link "Contact" [ref=f44e1016] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f44e1018]:
+            - generic [ref=f44e1019]: Others Pages
+            - link "Blog Details" [ref=f44e1020] [cursor=pointer]:
+              - /url: /blog/why-consistent-brand-experiences-increase-trust
+            - link "Service Details" [ref=f44e1022] [cursor=pointer]:
+              - /url: /services/motion-design
+            - link "Project Details" [ref=f44e1024] [cursor=pointer]:
+              - /url: /projects/skyluxe
+            - link "Style Guide" [ref=f44e1026] [cursor=pointer]:
+              - /url: /style-guide
+            - link "Licenses" [ref=f44e1028] [cursor=pointer]:
+              - /url: /licenses
+            - link "Changelog" [ref=f44e1030] [cursor=pointer]:
+              - /url: /changelog
+            - link "Instruction" [ref=f44e1032] [cursor=pointer]:
+              - /url: /instruction
+          - generic [ref=f44e1034]:
+            - generic [ref=f44e1035]: Services
+            - list [ref=f44e1037]:
+              - listitem [ref=f44e1038]:
+                - link "UI/UX Design" [ref=f44e1039] [cursor=pointer]:
+                  - /url: /services/ui-ux-design
+              - listitem [ref=f44e1041]:
+                - link "Branding & Identity" [ref=f44e1042] [cursor=pointer]:
+                  - /url: /services/branding-identity
+              - listitem [ref=f44e1044]:
+                - link "Webflow Development" [ref=f44e1045] [cursor=pointer]:
+                  - /url: /services/webflow-development
+              - listitem [ref=f44e1047]:
+                - link "Framer Development" [ref=f44e1048] [cursor=pointer]:
+                  - /url: /services/framer-development
+              - listitem [ref=f44e1050]:
+                - link "Product Design" [ref=f44e1051] [cursor=pointer]:
+                  - /url: /services/product-design
+              - listitem [ref=f44e1053]:
+                - link "Motion Design" [ref=f44e1054] [cursor=pointer]:
+                  - /url: /services/motion-design
+      - generic [ref=f44e1056]:
+        - generic [ref=f44e1057]:
+          - img "Company logo"
+          - generic [ref=f44e1058]:
+            - link "footer-social-icon-block" [ref=f44e1059] [cursor=pointer]:
+              - /url: https://fb.com/
+            - link "footer-social-icon-block" [ref=f44e1063] [cursor=pointer]:
+              - /url: https://x.com/
+            - link "footer-social-icon-block" [ref=f44e1067] [cursor=pointer]:
+              - /url: http://instagram.com/
+            - link "footer-social-icon-block" [ref=f44e1072] [cursor=pointer]:
+              - /url: https://linkedin.com/
+        - generic [ref=f44e1078]:
+          - paragraph [ref=f44e1080]: Copyright © Novaform
+          - paragraph [ref=f44e1082]:
+            - text: Powered by
+            - link "Astro" [ref=f44e1083] [cursor=pointer]:
+              - /url: https://astro.build/themes/
+  - generic:
+    - generic:
+      - img "Preloader Logo"
+    - img "Preloader Liner"

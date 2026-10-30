@@ -88,8 +88,6 @@ export function ExhibitionsGallery() {
             <li key={show.title}>
               <a
                 href={show.href}
-                target="_blank"
-                rel="noreferrer"
                 className={cn(GRID, "group items-start gap-y-4 pb-5")}
               >
                 <span className="col-span-4 grid grid-cols-subgrid gap-y-3 lg:sticky lg:top-[calc(44px+2rem)] lg:col-span-6">
@@ -167,8 +165,6 @@ export function ExhibitionsGallery() {
             <li key={show.title} className="col-span-4 lg:col-span-6">
               <a
                 href={show.href}
-                target="_blank"
-                rel="noreferrer"
                 className="group grid grid-cols-6 items-start gap-x-4 lg:gap-x-5"
               >
                 <span className="relative col-span-3 block aspect-video overflow-hidden bg-(--k-ink)/5">

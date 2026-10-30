@@ -1,0 +1,389 @@
+- generic [active] [ref=f71e1]:
+  - main [ref=f71e3]:
+    - generic [ref=f71e4]:
+      - link "Home" [ref=f71e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f71e6]:
+        - list [ref=f71e7]:
+          - listitem [ref=f71e8]:
+            - link "About" [ref=f71e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f71e10]:
+            - link "Exhibitions" [ref=f71e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f71e12]:
+            - link "Artists" [ref=f71e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f71e14]:
+            - link "Artworks" [ref=f71e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f71e16]:
+            - link "Services" [ref=f71e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f71e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f71e19]: →
+    - generic [ref=f71e20]:
+      - generic [ref=f71e22]:
+        - heading "Naik City" [level=1] [ref=f71e23]:
+          - generic [ref=f71e25]: Naik
+          - generic [ref=f71e27]: City
+        - generic [ref=f71e28]:
+          - paragraph [ref=f71e29]:
+            - text: Shown
+            - generic [ref=f71e30]: February 14 – 23, 2025
+          - link "All Exhibitions" [ref=f71e32] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - text: All Exhibitions
+            - generic [aria-hidden] [ref=f71e33]: →
+      - img "Naik City — exhibition poster" [ref=f71e35]
+      - navigation "Breadcrumb" [ref=f71e36]:
+        - list [ref=f71e37]:
+          - listitem [ref=f71e38]:
+            - link "Home" [ref=f71e39] [cursor=pointer]:
+              - /url: /ekchitra-v6
+          - listitem [aria-hidden] [ref=f71e40]: ←
+          - listitem [ref=f71e41]:
+            - link "Exhibitions" [ref=f71e42] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [aria-hidden] [ref=f71e43]: ←
+          - listitem [ref=f71e44]: Naik City
+      - region [ref=f71e45]:
+        - generic [ref=f71e46]:
+          - heading "About the exhibition" [level=2] [ref=f71e47]
+          - paragraph [ref=f71e48]:
+            - generic "Rajesh Naik’s life is a thrilling blend of street smarts, rebellion, and artistic brilliance—crafted in the chaotic symphony of Hyderabad’s Old City. Born to an auto driver, Naik didn’t just watch life pass by from the sidelines. By the time he was in seventh grade, he was behind the wheel of his father’s autorickshaw. Nights became his domain, where legality took a back seat, and the auto became his trusted sidekick and partner in adventure." [ref=f71e49]:
+              - generic [ref=f71e51]: Rajesh
+              - generic [ref=f71e53]: Naik’s
+              - generic [ref=f71e55]: life
+              - generic [ref=f71e57]: is
+              - generic [ref=f71e59]: a
+              - generic [ref=f71e61]: thrilling
+              - generic [ref=f71e63]: blend
+              - generic [ref=f71e65]: of
+              - generic [ref=f71e67]: street
+              - generic [ref=f71e69]: smarts,
+              - generic [ref=f71e71]: rebellion,
+              - generic [ref=f71e73]: and
+              - generic [ref=f71e75]: artistic
+              - generic [ref=f71e77]: brilliance—crafted
+              - generic [ref=f71e79]: in
+              - generic [ref=f71e81]: the
+              - generic [ref=f71e83]: chaotic
+              - generic [ref=f71e85]: symphony
+              - generic [ref=f71e87]: of
+              - generic [ref=f71e89]: Hyderabad’s
+              - generic [ref=f71e91]: Old
+              - generic [ref=f71e93]: City.
+              - generic [ref=f71e95]: Born
+              - generic [ref=f71e97]: to
+              - generic [ref=f71e99]: an
+              - generic [ref=f71e101]: auto
+              - generic [ref=f71e103]: driver,
+              - generic [ref=f71e105]: Naik
+              - generic [ref=f71e107]: didn’t
+              - generic [ref=f71e109]: just
+              - generic [ref=f71e111]: watch
+              - generic [ref=f71e113]: life
+              - generic [ref=f71e115]: pass
+              - generic [ref=f71e117]: by
+              - generic [ref=f71e119]: from
+              - generic [ref=f71e121]: the
+              - generic [ref=f71e123]: sidelines.
+              - generic [ref=f71e125]: By
+              - generic [ref=f71e127]: the
+              - generic [ref=f71e129]: time
+              - generic [ref=f71e131]: he
+              - generic [ref=f71e133]: was
+              - generic [ref=f71e135]: in
+              - generic [ref=f71e137]: seventh
+              - generic [ref=f71e139]: grade,
+              - generic [ref=f71e141]: he
+              - generic [ref=f71e143]: was
+              - generic [ref=f71e145]: behind
+              - generic [ref=f71e147]: the
+              - generic [ref=f71e149]: wheel
+              - generic [ref=f71e151]: of
+              - generic [ref=f71e153]: his
+              - generic [ref=f71e155]: father’s
+              - generic [ref=f71e157]: autorickshaw.
+              - generic [ref=f71e159]: Nights
+              - generic [ref=f71e161]: became
+              - generic [ref=f71e163]: his
+              - generic [ref=f71e165]: domain,
+              - generic [ref=f71e167]: where
+              - generic [ref=f71e169]: legality
+              - generic [ref=f71e171]: took
+              - generic [ref=f71e173]: a
+              - generic [ref=f71e175]: back
+              - generic [ref=f71e177]: seat,
+              - generic [ref=f71e179]: and
+              - generic [ref=f71e181]: the
+              - generic [ref=f71e183]: auto
+              - generic [ref=f71e185]: became
+              - generic [ref=f71e187]: his
+              - generic [ref=f71e189]: trusted
+              - generic [ref=f71e191]: sidekick
+              - generic [ref=f71e193]: and
+              - generic [ref=f71e195]: partner
+              - generic [ref=f71e197]: in
+              - generic [ref=f71e199]: adventure.
+          - generic [ref=f71e200]:
+            - paragraph [ref=f71e202]: The night had its own rhythm, and Naik thrived in it. Driving through the bustling lanes, he mingled with people from every corner of society. From street hustlers to late-night dreamers, every interaction gave Naik a crash course in humanity—particularly the quirky behaviors that surface after dark. For Naik, the city wasn’t just alive; it was a living, breathing storybook, begging to be explored.
+            - paragraph [ref=f71e204]: But Naik wasn’t all work and no play. Oh no! This guy had a rebellious streak a mile wide. Selling movie tickets in black? Check. Betting on bike races? Absolutely. Hanging out with his crew who loved rapping and street culture?
+            - paragraph [ref=f71e206]: Of course! Yet, amid all the street smarts and mischief, Naik had a burning love for art. Shaping his creative journey from an early age. His vivid color palette and attention to detail, a signature of his work, were deeply rooted in the vibrant world of his childhood. Growing up surrounded by the lively hues of the Lambada community and the intricate, colorful embroideries crafted by his mother, he absorbed a love for brightness and energy.
+        - complementary [ref=f71e207]:
+          - generic [ref=f71e208]:
+            - generic [ref=f71e209]:
+              - term [ref=f71e210]: When
+              - definition [ref=f71e211]:
+                - paragraph [ref=f71e212]: February 14 – 23, 2025
+                - paragraph [ref=f71e213]: Monday to Saturday, 10am – 7pm
+            - generic [ref=f71e214]:
+              - term [ref=f71e215]: Where
+              - definition [ref=f71e216]:
+                - paragraph [ref=f71e217]: EkChitra, Hyderabad
+                - paragraph [ref=f71e218]:
+                  - generic [ref=f71e219]: F94M+52P, Surya Enclave,
+                  - generic [ref=f71e220]: HITEC City, Hyderabad,
+                  - generic [ref=f71e221]: Telangana 500081
+                - link "Get Directions" [ref=f71e222] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+            - generic [ref=f71e223]:
+              - term [ref=f71e224]: Artist
+              - definition [ref=f71e225]:
+                - link "Rajesh Naik" [ref=f71e227] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists/rajesh-naik
+            - generic [ref=f71e228]:
+              - term [ref=f71e229]: In the exhibition
+              - definition [ref=f71e230]:
+                - text: 4 works · 12 views of the show
+                - link "See them below" [ref=f71e231] [cursor=pointer]:
+                  - /url: "#exhibition-images"
+      - 'region "Naik City: works and views" [ref=f71e232]':
+        - generic [ref=f71e233]:
+          - paragraph [ref=f71e234]:
+            - text: Works & views
+            - generic [ref=f71e235]: 01 / 16
+          - generic [ref=f71e236]:
+            - button "Previous" [disabled] [ref=f71e237]: ←
+            - button "Next" [ref=f71e238]: →
+        - list [ref=f71e239]:
+          - listitem [ref=f71e240]:
+            - figure "Chal Mere Ghose Tik Tik Tik... (2024), Rajesh Naik Metal · 36 X 30 inches" [ref=f71e241]:
+              - img "Chal Mere Ghose Tik Tik Tik... (2024), Rajesh Naik" [ref=f71e243]
+              - generic [ref=f71e244]:
+                - generic [aria-hidden] [ref=f71e245]: ↓
+                - generic [ref=f71e246]:
+                  - text: Chal Mere Ghose Tik Tik Tik... (2024), Rajesh Naik
+                  - generic [ref=f71e247]: Metal · 36 X 30 inches
+          - listitem [ref=f71e248]:
+            - figure "Mehnat ka fal Jarur Milega (2024), Rajesh Naik Metal · 36 X 30 inches" [ref=f71e249]:
+              - img "Mehnat ka fal Jarur Milega (2024), Rajesh Naik" [ref=f71e251]
+              - generic [ref=f71e252]:
+                - generic [aria-hidden] [ref=f71e253]: ↓
+                - generic [ref=f71e254]:
+                  - text: Mehnat ka fal Jarur Milega (2024), Rajesh Naik
+                  - generic [ref=f71e255]: Metal · 36 X 30 inches
+          - listitem [ref=f71e256]:
+            - figure "Hirani Jaisi Chaal Rajini Jaisi Kamaal (2024), Rajesh Naik Metal · 36 X 30 inches" [ref=f71e257]:
+              - img "Hirani Jaisi Chaal Rajini Jaisi Kamaal (2024), Rajesh Naik" [ref=f71e259]
+              - generic [ref=f71e260]:
+                - generic [aria-hidden] [ref=f71e261]: ↓
+                - generic [ref=f71e262]:
+                  - text: Hirani Jaisi Chaal Rajini Jaisi Kamaal (2024), Rajesh Naik
+                  - generic [ref=f71e263]: Metal · 36 X 30 inches
+          - listitem [ref=f71e264]:
+            - figure "Hathi Mera Sathi (2024), Rajesh Naik Metal · 36 X 30 inches" [ref=f71e265]:
+              - img "Hathi Mera Sathi (2024), Rajesh Naik" [ref=f71e267]
+              - generic [ref=f71e268]:
+                - generic [aria-hidden] [ref=f71e269]: ↓
+                - generic [ref=f71e270]:
+                  - text: Hathi Mera Sathi (2024), Rajesh Naik
+                  - generic [ref=f71e271]: Metal · 36 X 30 inches
+          - listitem [ref=f71e272]:
+            - figure "Naik City, installation view" [ref=f71e273]:
+              - img "Naik City at EkChitra, view 5" [ref=f71e275]
+              - generic [ref=f71e276]:
+                - generic [aria-hidden] [ref=f71e277]: ↓
+                - generic [ref=f71e278]: Naik City, installation view
+          - listitem [ref=f71e279]:
+            - figure "Naik City, installation view" [ref=f71e280]:
+              - img "Naik City at EkChitra, view 6" [ref=f71e282]
+              - generic [ref=f71e283]:
+                - generic [aria-hidden] [ref=f71e284]: ↓
+                - generic [ref=f71e285]: Naik City, installation view
+          - listitem [ref=f71e286]:
+            - figure "Naik City, installation view" [ref=f71e287]:
+              - img "Naik City at EkChitra, view 7" [ref=f71e289]
+              - generic [ref=f71e290]:
+                - generic [aria-hidden] [ref=f71e291]: ↓
+                - generic [ref=f71e292]: Naik City, installation view
+          - listitem [ref=f71e293]:
+            - figure "Naik City, installation view" [ref=f71e294]:
+              - img "Naik City at EkChitra, view 8" [ref=f71e296]
+              - generic [ref=f71e297]:
+                - generic [aria-hidden] [ref=f71e298]: ↓
+                - generic [ref=f71e299]: Naik City, installation view
+          - listitem [ref=f71e300]:
+            - figure "Naik City, installation view" [ref=f71e301]:
+              - img "Naik City at EkChitra, view 9" [ref=f71e303]
+              - generic [ref=f71e304]:
+                - generic [aria-hidden] [ref=f71e305]: ↓
+                - generic [ref=f71e306]: Naik City, installation view
+          - listitem [ref=f71e307]:
+            - figure "Naik City, installation view" [ref=f71e308]:
+              - img "Naik City at EkChitra, view 10" [ref=f71e310]
+              - generic [ref=f71e311]:
+                - generic [aria-hidden] [ref=f71e312]: ↓
+                - generic [ref=f71e313]: Naik City, installation view
+          - listitem [ref=f71e314]:
+            - figure "Naik City, installation view" [ref=f71e315]:
+              - img "Naik City at EkChitra, view 11" [ref=f71e317]
+              - generic [ref=f71e318]:
+                - generic [aria-hidden] [ref=f71e319]: ↓
+                - generic [ref=f71e320]: Naik City, installation view
+          - listitem [ref=f71e321]:
+            - figure "Naik City, installation view" [ref=f71e322]:
+              - img "Naik City at EkChitra, view 12" [ref=f71e324]
+              - generic [ref=f71e325]:
+                - generic [aria-hidden] [ref=f71e326]: ↓
+                - generic [ref=f71e327]: Naik City, installation view
+          - listitem [ref=f71e328]:
+            - figure "Naik City, installation view" [ref=f71e329]:
+              - img "Naik City at EkChitra, view 13" [ref=f71e331]
+              - generic [ref=f71e332]:
+                - generic [aria-hidden] [ref=f71e333]: ↓
+                - generic [ref=f71e334]: Naik City, installation view
+          - listitem [ref=f71e335]:
+            - figure "Naik City, installation view" [ref=f71e336]:
+              - img "Naik City at EkChitra, view 14" [ref=f71e338]
+              - generic [ref=f71e339]:
+                - generic [aria-hidden] [ref=f71e340]: ↓
+                - generic [ref=f71e341]: Naik City, installation view
+          - listitem [ref=f71e342]:
+            - figure "Naik City, installation view" [ref=f71e343]:
+              - img "Naik City at EkChitra, view 15" [ref=f71e345]
+              - generic [ref=f71e346]:
+                - generic [aria-hidden] [ref=f71e347]: ↓
+                - generic [ref=f71e348]: Naik City, installation view
+          - listitem [ref=f71e349]:
+            - figure "Naik City, installation view" [ref=f71e350]:
+              - img "Naik City at EkChitra, view 16" [ref=f71e352]
+              - generic [ref=f71e353]:
+                - generic [aria-hidden] [ref=f71e354]: ↓
+                - generic [ref=f71e355]: Naik City, installation view
+          - listitem [aria-hidden] [ref=f71e356]
+        - generic [ref=f71e357]:
+          - button "Show picture 1 of 16" [ref=f71e358]
+          - button "Show picture 2 of 16" [ref=f71e360]
+          - button "Show picture 3 of 16" [ref=f71e362]
+          - button "Show picture 4 of 16" [ref=f71e364]
+          - button "Show picture 5 of 16" [ref=f71e366]
+          - button "Show picture 6 of 16" [ref=f71e368]
+          - button "Show picture 7 of 16" [ref=f71e370]
+          - button "Show picture 8 of 16" [ref=f71e372]
+          - button "Show picture 9 of 16" [ref=f71e374]
+          - button "Show picture 10 of 16" [ref=f71e376]
+          - button "Show picture 11 of 16" [ref=f71e378]
+          - button "Show picture 12 of 16" [ref=f71e380]
+          - button "Show picture 13 of 16" [ref=f71e382]
+          - button "Show picture 14 of 16" [ref=f71e384]
+          - button "Show picture 15 of 16" [ref=f71e386]
+          - button "Show picture 16 of 16" [ref=f71e388]
+      - region [ref=f71e390]:
+        - generic [ref=f71e391]:
+          - heading "Other exhibitions" [level=2] [ref=f71e392]
+          - link "See All" [ref=f71e393] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - text: See All
+            - generic [aria-hidden] [ref=f71e394]: →
+        - list [ref=f71e395]:
+          - listitem [ref=f71e396]:
+            - link "House of Unified Expression Curated by Annapurna M Past August 30 – 29 Sept, 2025" [ref=f71e397] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+              - generic [ref=f71e398]:
+                - generic [ref=f71e399]:
+                  - generic [ref=f71e400]: House of Unified Expression
+                  - generic [ref=f71e401]: Curated by Annapurna M
+                - generic [ref=f71e402]:
+                  - generic [ref=f71e403]: Past
+                  - generic [ref=f71e404]: August 30 – 29 Sept, 2025
+          - listitem [ref=f71e408]:
+            - link "Mirror Mirror – Champa Tree Curated by Annapurna M Past March 22, 2024" [ref=f71e409] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+              - generic [ref=f71e410]:
+                - generic [ref=f71e411]:
+                  - generic [ref=f71e412]: Mirror Mirror – Champa Tree
+                  - generic [ref=f71e413]: Curated by Annapurna M
+                - generic [ref=f71e414]:
+                  - generic [ref=f71e415]: Past
+                  - generic [ref=f71e416]: March 22, 2024
+          - listitem [ref=f71e420]:
+            - link "Katha Kathan Curated by Annapurna M Past January 21 – 29, 2024" [ref=f71e421] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/katha-kathan
+              - generic [ref=f71e422]:
+                - generic [ref=f71e423]:
+                  - generic [ref=f71e424]: Katha Kathan
+                  - generic [ref=f71e425]: Curated by Annapurna M
+                - generic [ref=f71e426]:
+                  - generic [ref=f71e427]: Past
+                  - generic [ref=f71e428]: January 21 – 29, 2024
+    - generic [ref=f71e432]:
+      - generic [ref=f71e433]:
+        - generic [ref=f71e434]:
+          - paragraph [ref=f71e435]: Gallery
+          - list [ref=f71e436]:
+            - listitem [ref=f71e437]:
+              - link "About" [ref=f71e438] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f71e439]:
+              - link "Exhibitions" [ref=f71e440] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f71e441]:
+              - link "Artists" [ref=f71e442] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f71e443]:
+              - link "Artworks" [ref=f71e444] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f71e445]:
+              - link "Services" [ref=f71e446] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f71e447]:
+              - link "Contact" [ref=f71e448] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f71e449]:
+          - paragraph [ref=f71e450]: Connect
+          - list [ref=f71e451]:
+            - listitem [ref=f71e452]:
+              - link "Instagram" [ref=f71e453] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f71e454]:
+              - link "WhatsApp" [ref=f71e455] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f71e456]:
+          - paragraph [ref=f71e457]: Get in touch
+          - list [ref=f71e458]:
+            - listitem [ref=f71e459]:
+              - link "info@ekchitra.com" [ref=f71e460] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f71e461]:
+              - link "+91 91001 18321" [ref=f71e462] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f71e463]:
+          - paragraph [ref=f71e464]: Visit
+          - paragraph [ref=f71e465]:
+            - generic [ref=f71e466]: F94M+52P, Surya Enclave,
+            - generic [ref=f71e467]: HITEC City, Hyderabad,
+            - generic [ref=f71e468]: Telangana 500081
+          - list [ref=f71e469]:
+            - listitem [ref=f71e470]:
+              - link "Directions" [ref=f71e471] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f71e472]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f71e478] [cursor=pointer]
+  - alert [ref=f71e482]

@@ -68,7 +68,7 @@ const FEATURED_SHOW = EXHIBITIONS[0];
 export function Hero({
   dotted = false,
 }: {
-  /** Show the artworks and film as grey halftones that clear on hover (not the exhibition card). */
+  /** Show the film and the exhibition card as grey halftones that clear on hover (not the artworks). */
   dotted?: boolean;
 }) {
   return (
@@ -89,7 +89,6 @@ export function Hero({
       </div>
       <HeroCarousel
         slides={SLIDES}
-        dotted={dotted}
         className="ek5-rise col-span-2 hidden [--d:300ms] lg:block"
       />
       <div
@@ -129,26 +128,26 @@ export function Hero({
       </div>
       <a
         href={FEATURED_SHOW.href}
-        target="_blank"
-        rel="noreferrer"
         className="group ek5-rise relative hidden overflow-hidden bg-white [--d:750ms] lg:block"
       >
-        {/* Never dotted: the poster has to read at a glance. */}
-        <Image
-          src={FEATURED_SHOW.image}
-          alt={FEATURED_SHOW.title}
-          fill
-          sizes="20vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-        />
+        {/* Dotted dark, so the white label keeps its contrast (see Dotted). */}
+        <Dotted on={dotted} dark>
+          <Image
+            src={FEATURED_SHOW.image}
+            alt={FEATURED_SHOW.title}
+            fill
+            sizes="20vw"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+          />
+        </Dotted>
         <div
           aria-hidden="true"
-          className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-(--k-ink)/85 via-(--k-ink)/35 to-transparent"
+          className="absolute inset-x-0 bottom-0 z-10 h-1/2 bg-linear-to-t from-(--k-ink)/85 via-(--k-ink)/35 to-transparent"
         />
         <span
           className={cn(
             CAPS,
-            "absolute inset-x-5 bottom-5 flex items-center justify-between text-[11px] text-white",
+            "absolute inset-x-5 bottom-5 z-10 flex items-center justify-between text-[11px] text-white",
           )}
         >
           View Exhibition

@@ -5,7 +5,7 @@ import { FooterCard } from "@/components/sites/ekchitra-v6/footer-variants/Foote
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
-import { ServicesOverlay } from "@/components/sites/ekchitra-v6/services-cards/ServicesOverlay";
+import { ServicesPanels } from "@/components/sites/ekchitra-v6/services-cards/ServicesPanels";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 
@@ -29,12 +29,10 @@ export default function EkchitraV6Page() {
       <Statement />
       <ExIndexReel />
       <ArtistsBands />
-      {/* Services: iteration 04 (overlay cards) for now. The wrapper keeps
-          the top bar's "Services" link landing here. */}
-      {/* The cards keep 48px under them on desktop (one screen, centred);
-          the extra 48 makes the standard 96 above the footer (FOOTER_GAP). */}
-      <div id="services" className="scroll-mt-11 lg:pb-12">
-        <ServicesOverlay dotted />
+      {/* Services: iteration 07 (three panels), the small photo dotted. The
+          wrapper keeps the top bar's "Services" link landing here. */}
+      <div id="services" className="scroll-mt-11">
+        <ServicesPanels dotted />
       </div>
       <FooterCard />
     </main>

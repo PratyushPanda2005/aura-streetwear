@@ -28,6 +28,7 @@ export default function EkchitraV6ExhibitionsPage() {
       title="Current, upcoming and past"
       intro="Every exhibition begins with an idea, and every visit begins with curiosity."
       note={`${EXHIBITIONS.length} exhibitions`}
+      introClassName="lg:col-span-6 lg:col-start-7"
     >
       <ExhibitionsGallery />
     </PageFrame>

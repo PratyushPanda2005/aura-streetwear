@@ -1,7 +1,7 @@
 import { FOOTER, SERVICES } from "../ekchitra-redesign/data";
 import { ABOUT_STORY } from "../ekchitra-v5/about-data";
 import { ARTISTS, ARTIST_WORK_COUNT } from "../ekchitra-v5/artists-data";
-import { EXHIBITIONS } from "../ekchitra-v5/exhibitions-data";
+import { EXHIBITIONS as V5_EXHIBITIONS } from "../ekchitra-v5/exhibitions-data";
 import { V5_ROUTES } from "../ekchitra-v5/shared";
 
 /** Homepage v6 content — all of it from the gallery's own copy and records. */
@@ -37,7 +37,7 @@ export const STATEMENT = {
 };
 
 export const STATS = [
-  { value: EXHIBITIONS.length, suffix: "", label: "Exhibitions curated" },
+  { value: V5_EXHIBITIONS.length, suffix: "", label: "Exhibitions curated" },
   { value: ARTISTS.length, suffix: "", label: "Artists represented" },
   { value: ARTIST_WORK_COUNT, suffix: "+", label: "Works in the collection" },
 ];
@@ -108,4 +108,21 @@ export const SERVICES_INTRO = {
   body: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls.",
 };
 
-export { ARTISTS, EXHIBITIONS };
+/** An exhibition's URL segment, from its title ("Pause & Reflect" → "pause-and-reflect"). */
+export const exhibitionSlug = (show: { title: string }) =>
+  show.title
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+/**
+ * Every exhibition, each linking to its own page on this site (see
+ * exhibitions/[slug]) rather than to ekchitra.com.
+ */
+export const EXHIBITIONS = V5_EXHIBITIONS.map((show) => ({
+  ...show,
+  href: `${V6_HOME}/exhibitions/${exhibitionSlug(show)}`,
+}));
+
+export { ARTISTS };

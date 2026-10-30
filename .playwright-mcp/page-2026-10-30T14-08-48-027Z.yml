@@ -1,0 +1,233 @@
+- generic [active] [ref=f40e1]:
+  - main [ref=f40e3]:
+    - generic [ref=f40e4]:
+      - link "Home" [ref=f40e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - link "Contact" [ref=f40e6] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f40e7]: →
+    - img "Visitors among the paintings at EkChitra, Hyderabad" [ref=f40e9]
+    - heading "Where art meets soul" [level=1] [ref=f40e10]
+    - generic [ref=f40e11]:
+      - region [ref=f40e12]:
+        - generic [ref=f40e13]:
+          - paragraph [ref=f40e14]: ( Our story )
+          - heading "EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide." [level=2] [ref=f40e15]
+          - generic [ref=f40e16]:
+            - paragraph [ref=f40e17]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+            - paragraph [ref=f40e18]: Today, we proudly showcase a diverse collection of contemporary artworks, from bold abstracts to serene landscapes, each piece carefully curated to bring beauty and meaning into your life.
+        - img "Lamp lighting at an EkChitra exhibition opening" [ref=f40e20]
+        - img "Guests at an EkChitra exhibition opening" [ref=f40e22]
+        - img "Artists and visitors inside the EkChitra gallery" [ref=f40e24]
+        - img "Classical dancers performing at Living Temple, EkChitra" [ref=f40e26]
+        - img "Ribbon cutting at EkChitra, Hyderabad" [ref=f40e28]
+      - region "How we work" [ref=f40e29]:
+        - list [ref=f40e30]:
+          - listitem [ref=f40e31]:
+            - paragraph [ref=f40e33]: ( How we work 01 )
+            - generic [ref=f40e34]:
+              - heading "We begin with looking." [level=3] [ref=f40e35]
+              - paragraph [ref=f40e36]:
+                - generic [ref=f40e37]: Curiosity
+                - text: Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.
+          - listitem [ref=f40e38]:
+            - paragraph [ref=f40e40]: ( How we work 02 )
+            - generic [ref=f40e41]:
+              - heading "Every work belongs to a larger story." [level=3] [ref=f40e42]
+              - paragraph [ref=f40e43]:
+                - generic [ref=f40e44]: Context
+                - text: From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.
+          - listitem [ref=f40e45]:
+            - paragraph [ref=f40e47]: ( How we work 03 )
+            - generic [ref=f40e48]:
+              - heading "Art becomes meaningful when it enters a life." [level=3] [ref=f40e49]
+              - paragraph [ref=f40e50]:
+                - generic [ref=f40e51]: Connection
+                - text: Art selection, curation and placement shaped around a particular space, and considered guidance for starting, refining or growing a collection.
+          - listitem [ref=f40e52]:
+            - paragraph [ref=f40e54]: ( How we work 04 )
+            - generic [ref=f40e55]:
+              - heading "A gallery is a place to exchange ideas." [level=3] [ref=f40e56]
+              - paragraph [ref=f40e57]:
+                - generic [ref=f40e58]: Conversation
+                - text: Knowledgeable without being intimidating, and always open to a conversation — amplifying the voices of artists so their stories reach diverse audiences.
+      - region [ref=f40e59]:
+        - generic [ref=f40e60]:
+          - heading "Our journey." [level=2] [ref=f40e61]: Ourjourney.
+          - paragraph [ref=f40e62]: Every exhibition EkChitra has held, from Pause & Reflect in 2021 to what comes next — 18 in all.
+        - list [ref=f40e63]:
+          - listitem [ref=f40e64]:
+            - link "Pause & Reflect [2021] In the hustle and bustle of our daily lives, we often forget the importance of pausing, reflecting, and simply being in the moment." [ref=f40e65] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/pause-and-reflect
+              - paragraph [ref=f40e66]:
+                - generic [ref=f40e67]: Pause & Reflect
+                - generic [ref=f40e68]: "[2021]"
+              - paragraph [ref=f40e70]: In the hustle and bustle of our daily lives, we often forget the importance of pausing, reflecting, and simply being in the moment.
+          - listitem [ref=f40e71]:
+            - link "Shreekaram [2021] The word ‘Shreekaaram’ radiates hope." [ref=f40e72] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/shreekaram
+              - paragraph [ref=f40e73]:
+                - generic [ref=f40e74]: Shreekaram
+                - generic [ref=f40e75]: "[2021]"
+              - paragraph [ref=f40e77]: The word ‘Shreekaaram’ radiates hope.
+          - listitem [ref=f40e78]:
+            - link "Chitram [2022] The human quest to impart motion to art led him to puppetry in the ancient times and to the celluloid in the modern era." [ref=f40e79] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/chitram
+              - paragraph [ref=f40e80]:
+                - generic [ref=f40e81]: Chitram
+                - generic [ref=f40e82]: "[2022]"
+              - paragraph [ref=f40e84]: The human quest to impart motion to art led him to puppetry in the ancient times and to the celluloid in the modern era.
+          - listitem [ref=f40e85]:
+            - link "Tree of Life [2022] Trees have had the most significant parts to play in our lives since the beginning of time." [ref=f40e86] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/tree-of-life
+              - paragraph [ref=f40e87]:
+                - generic [ref=f40e88]: Tree of Life
+                - generic [ref=f40e89]: "[2022]"
+              - paragraph [ref=f40e91]: Trees have had the most significant parts to play in our lives since the beginning of time.
+          - listitem [ref=f40e92]:
+            - link "Once Upon a Time [2023] India has a rich tradition of storytelling - from our ancient bards who travelled with nothing but stories in their quivers, to our potters and weavers who adorned their craft with re-creations of their daily lives, to dancers who told us of the love and beauty and anger of the Gods - we were spoilt for choice." [ref=f40e93] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/once-upon-a-time
+              - paragraph [ref=f40e94]:
+                - generic [ref=f40e95]: Once Upon a Time
+                - generic [ref=f40e96]: "[2023]"
+              - paragraph [ref=f40e98]: India has a rich tradition of storytelling - from our ancient bards who travelled with nothing but stories in their quivers, to our potters and weavers who adorned their craft with re-creations of their daily lives, to dancers who told us of the love and beauty and anger of the Gods - we were spoilt for choice.
+          - listitem [ref=f40e99]:
+            - link "Satirical Symphony [2024] Guided by the strong principles of his father, Paidi Raju—an esteemed senior artist, poet, sculptor, and art guru—Rajeswara Rao’s work is imbued with profound influence and inspiration." [ref=f40e100] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/satirical-symphony
+              - paragraph [ref=f40e101]:
+                - generic [ref=f40e102]: Satirical Symphony
+                - generic [ref=f40e103]: "[2024]"
+              - paragraph [ref=f40e105]: Guided by the strong principles of his father, Paidi Raju—an esteemed senior artist, poet, sculptor, and art guru—Rajeswara Rao’s work is imbued with profound influence and inspiration.
+          - listitem [ref=f40e106]:
+            - link "Katha Kathan [2024] KathaKathan - India has a rich tradition of storytelling - from our ancient bards who travelled with nothing but stories in their quivers, to our potters and weavers who adorned their craft with re-creations of their daily lives, to dancers who told us of the love and beauty and anger of the Gods - we were spoilt for choice." [ref=f40e107] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/katha-kathan
+              - paragraph [ref=f40e108]:
+                - generic [ref=f40e109]: Katha Kathan
+                - generic [ref=f40e110]: "[2024]"
+              - paragraph [ref=f40e112]: KathaKathan - India has a rich tradition of storytelling - from our ancient bards who travelled with nothing but stories in their quivers, to our potters and weavers who adorned their craft with re-creations of their daily lives, to dancers who told us of the love and beauty and anger of the Gods - we were spoilt for choice.
+          - listitem [ref=f40e113]:
+            - link "Mirror Mirror – Champa Tree [2024] Throughout Indian history, women have been celebrated for their multifaceted roles, embodying power, creativity, and the essence of life itself." [ref=f40e114] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+              - paragraph [ref=f40e115]:
+                - generic [ref=f40e116]: Mirror Mirror – Champa Tree
+                - generic [ref=f40e117]: "[2024]"
+              - paragraph [ref=f40e119]: Throughout Indian history, women have been celebrated for their multifaceted roles, embodying power, creativity, and the essence of life itself.
+          - listitem [ref=f40e120]:
+            - link "House of Unified Expression [2025] Art knows no boundaries, and creativity is a universal language that transcends geographical limits." [ref=f40e121] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+              - paragraph [ref=f40e122]:
+                - generic [ref=f40e123]: House of Unified Expression
+                - generic [ref=f40e124]: "[2025]"
+              - paragraph [ref=f40e126]: Art knows no boundaries, and creativity is a universal language that transcends geographical limits.
+          - listitem [ref=f40e127]:
+            - link "Naik City [2025] Rajesh Naik’s life is a thrilling blend of street smarts, rebellion, and artistic brilliance—crafted in the chaotic symphony of Hyderabad’s Old City." [ref=f40e128] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/naik-city
+              - paragraph [ref=f40e129]:
+                - generic [ref=f40e130]: Naik City
+                - generic [ref=f40e131]: "[2025]"
+              - paragraph [ref=f40e133]: Rajesh Naik’s life is a thrilling blend of street smarts, rebellion, and artistic brilliance—crafted in the chaotic symphony of Hyderabad’s Old City.
+          - listitem [ref=f40e134]:
+            - link "Living Temple [2025] Living Temple is a unique event that honours the resilience and beauty of traditional Indian art forms." [ref=f40e135] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/living-temple
+              - paragraph [ref=f40e136]:
+                - generic [ref=f40e137]: Living Temple
+                - generic [ref=f40e138]: "[2025]"
+              - paragraph [ref=f40e140]: Living Temple is a unique event that honours the resilience and beauty of traditional Indian art forms.
+          - listitem [ref=f40e141]:
+            - link "Swadhatri [2025] Born on March 1, 1940, in Pamarru, Krishna district, B.A." [ref=f40e142] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/swadhatri
+              - paragraph [ref=f40e143]:
+                - generic [ref=f40e144]: Swadhatri
+                - generic [ref=f40e145]: "[2025]"
+              - paragraph [ref=f40e147]: Born on March 1, 1940, in Pamarru, Krishna district, B.A.
+          - listitem [ref=f40e148]:
+            - link "Hyd Art [2025] Hyd Art 2025 – Navanaami is a thoughtfully curated celebration of Indian art, bringing together emerging and established artists from across the country alongside 30 leading contemporary artists from Hyderabad." [ref=f40e149] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/hyd-art
+              - paragraph [ref=f40e150]:
+                - generic [ref=f40e151]: Hyd Art
+                - generic [ref=f40e152]: "[2025]"
+              - paragraph [ref=f40e154]: Hyd Art 2025 – Navanaami is a thoughtfully curated celebration of Indian art, bringing together emerging and established artists from across the country alongside 30 leading contemporary artists from Hyderabad.
+          - listitem [ref=f40e155]:
+            - link "Where Light Rests [2026] December 5, 2026 – February 14, 2027" [ref=f40e156] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/where-light-rests
+              - paragraph [ref=f40e157]:
+                - generic [ref=f40e158]: Where Light Rests
+                - generic [ref=f40e159]: "[2026]"
+              - paragraph [ref=f40e161]: December 5, 2026 – February 14, 2027
+          - listitem [ref=f40e162]:
+            - link "Living Temple 2026 [2026] Dates to be announced" [ref=f40e163] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/living-temple-2026
+              - paragraph [ref=f40e164]:
+                - generic [ref=f40e165]: Living Temple 2026
+                - generic [ref=f40e166]: "[2026]"
+              - paragraph [ref=f40e168]: Dates to be announced
+    - region [ref=f40e169]:
+      - generic [ref=f40e170]:
+        - heading "A note from our curator" [level=2] [ref=f40e171]
+        - figure "Annapurna M Curator, EkChitra" [ref=f40e172]:
+          - blockquote [ref=f40e173]:
+            - paragraph [ref=f40e174]:
+              - generic [ref=f40e175]: We’ve always lived around art —
+              - generic [ref=f40e177]: we’ve just forgotten to notice it.
+              - generic [ref=f40e179]: Every exhibition here begins with an idea,
+              - generic [ref=f40e181]: and every visit with curiosity.
+          - generic [ref=f40e183]:
+            - generic [ref=f40e184]: Annapurna M
+            - generic [ref=f40e185]: Curator, EkChitra
+    - generic [ref=f40e186]:
+      - generic [ref=f40e187]:
+        - generic [ref=f40e188]:
+          - paragraph [ref=f40e189]: Gallery
+          - list [ref=f40e190]:
+            - listitem [ref=f40e191]:
+              - link "About" [ref=f40e192] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f40e193]:
+              - link "Exhibitions" [ref=f40e194] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f40e195]:
+              - link "Artists" [ref=f40e196] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f40e197]:
+              - link "Artworks" [ref=f40e198] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f40e199]:
+              - link "Services" [ref=f40e200] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f40e201]:
+              - link "Contact" [ref=f40e202] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f40e203]:
+          - paragraph [ref=f40e204]: Connect
+          - list [ref=f40e205]:
+            - listitem [ref=f40e206]:
+              - link "Instagram" [ref=f40e207] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f40e208]:
+              - link "WhatsApp" [ref=f40e209] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f40e210]:
+          - paragraph [ref=f40e211]: Get in touch
+          - list [ref=f40e212]:
+            - listitem [ref=f40e213]:
+              - link "info@ekchitra.com" [ref=f40e214] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f40e215]:
+              - link "+91 91001 18321" [ref=f40e216] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f40e217]:
+          - paragraph [ref=f40e218]: Visit
+          - paragraph [ref=f40e219]:
+            - generic [ref=f40e220]: F94M+52P, Surya Enclave,
+            - generic [ref=f40e221]: HITEC City, Hyderabad,
+            - generic [ref=f40e222]: Telangana 500081
+          - list [ref=f40e223]:
+            - listitem [ref=f40e224]:
+              - link "Directions" [ref=f40e225] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f40e226]: © 2026 EkChitra · Hyderabad, India
+  - alert [ref=f40e227]

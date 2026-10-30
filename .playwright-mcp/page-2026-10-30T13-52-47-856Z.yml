@@ -1,0 +1,280 @@
+- generic [ref=f26e2]:
+  - banner:
+    - generic [ref=f26e3]:
+      - generic [ref=f26e4]:
+        - link "Vantra home" [ref=f26e5] [cursor=pointer]:
+          - /url: /
+        - generic: Who is behind this?
+        - button "Menu" [ref=f26e6] [cursor=pointer]
+      - generic [ref=f26e12]:
+        - navigation [ref=f26e13]:
+          - link "Home One team" [ref=f26e15] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f26e16]: Home
+            - generic [ref=f26e17]: One team
+          - generic [ref=f26e22]:
+            - generic [ref=f26e23] [cursor=pointer]:
+              - generic [ref=f26e24]: About
+              - generic [ref=f26e25]: Since 2017
+            - generic [ref=f26e28]:
+              - link "The Studio" [ref=f26e29] [cursor=pointer]:
+                - /url: /about-us
+              - link "Our philosophy" [ref=f26e34] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#philosophy
+              - link "Core values" [ref=f26e39] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#values
+              - link "Studio profile" [ref=f26e44] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#profile
+              - link "The team" [ref=f26e49] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#team
+              - link "By the numbers" [ref=f26e54] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#numbers
+              - link "Recognition" [ref=f26e59] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/about-us#awards
+          - generic [ref=f26e65]:
+            - generic [ref=f26e66] [cursor=pointer]:
+              - generic [ref=f26e67]: Works
+              - generic [ref=f26e68]: Selected projects
+            - generic [ref=f26e71]:
+              - link "All Work" [ref=f26e72] [cursor=pointer]:
+                - /url: /work
+              - link "Brand identity" [ref=f26e77] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/brand-identity
+              - link "Digital product" [ref=f26e82] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/digital-product
+              - link "Content & motion" [ref=f26e87] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/content-motion
+              - link "Design systems" [ref=f26e92] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/design-systems
+              - link "Packaging" [ref=f26e97] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/packaging
+              - link "Film & campaign" [ref=f26e102] [cursor=pointer]:
+                - /url: https://vantra-studio.webflow.io/categories/film-campaign
+          - link "Journal Notes from the studio" [ref=f26e108] [cursor=pointer]:
+            - /url: /journal
+            - generic [ref=f26e109]: Journal
+            - generic [ref=f26e110]: Notes from the studio
+          - link "Contact Amsterdam — Lisbon" [ref=f26e115] [cursor=pointer]:
+            - /url: /contact-us
+            - generic [ref=f26e116]: Contact
+            - generic [ref=f26e117]: Amsterdam — Lisbon
+        - link "Start a project" [ref=f26e122] [cursor=pointer]:
+          - /url: /contact-us
+  - main [ref=f26e124]:
+    - generic [ref=f26e129]:
+      - generic [ref=f26e130]: ( The studio )
+      - heading "Built to holdtogether." [level=1] [ref=f26e131]:
+        - generic [aria-hidden] [ref=f26e132]: Built to hold
+        - generic [aria-hidden] [ref=f26e133]: together.
+    - generic [ref=f26e138]:
+      - heading "Our philosophy." [level=2] [ref=f26e140]:
+        - generic [aria-hidden] [ref=f26e141]: Our philosophy.
+      - paragraph [ref=f26e143]: Vantra takes on the whole system, not a piece of it. The same senior team stays on the work from the first meeting to launch.
+    - generic [ref=f26e148]:
+      - generic [ref=f26e150]:
+        - generic [ref=f26e151]: ( Core value 01 )
+        - generic [ref=f26e153]:
+          - heading "Fewer people, further in." [level=2] [ref=f26e155]:
+            - generic [aria-hidden] [ref=f26e156]: Fewer people,
+            - generic [aria-hidden] [ref=f26e157]: further in.
+          - paragraph [ref=f26e160]: A project runs with three or four seniors, not a rotating cast. The people in the first meeting are the people who ship it, and nothing is handed down mid-flight. Fewer hands means fewer translations, and every decision keeps the context that produced it.
+      - generic [ref=f26e162]:
+        - generic [ref=f26e163]: ( Core value 02 )
+        - generic [ref=f26e165]:
+          - heading "Decide slowly, once." [level=2] [ref=f26e167]:
+            - generic [aria-hidden] [ref=f26e168]: Decide slowly,
+            - generic [aria-hidden] [ref=f26e169]: once.
+          - paragraph [ref=f26e172]: Positioning takes the time it takes. Everything downstream moves faster when the argument underneath it is settled, so we hold the first decision until it holds. Once it does, identity and interface stop being opinions and start being consequences.
+      - generic [ref=f26e174]:
+        - generic [ref=f26e175]: ( Core value 03 )
+        - generic [ref=f26e177]:
+          - heading "Draw what ships." [level=2] [ref=f26e179]:
+            - generic [aria-hidden] [ref=f26e180]: Draw what
+            - generic [aria-hidden] [ref=f26e181]: ships.
+          - paragraph [ref=f26e184]: We work in the browser with your engineers from the second week, so what gets approved in review is what goes live. No redraw between sign-off and launch, no handover document standing in for the thing itself, and no surprises in the last fortnight.
+      - generic [ref=f26e186]:
+        - generic [ref=f26e187]: ( Core value 04 )
+        - generic [ref=f26e189]:
+          - heading "Own the whole system." [level=2] [ref=f26e191]:
+            - generic [aria-hidden] [ref=f26e192]: Own the whole
+            - generic [aria-hidden] [ref=f26e193]: system.
+          - paragraph [ref=f26e196]: "Identity, interface, and content are one problem. We take all three, or we say no and recommend someone else. A system that only half exists does not hold: the parts drift, the rules get reinterpreted, and a year later nothing reads as one brand."
+    - generic [ref=f26e201]:
+      - heading "2026Studio profile." [level=2] [ref=f26e203]:
+        - generic [aria-hidden] [ref=f26e204]: "2026"
+        - generic [aria-hidden] [ref=f26e205]: Studio profile.
+      - generic [ref=f26e206]:
+        - paragraph [ref=f26e207]: The 2026 Studio Profile sets out how an engagement runs, what each phase costs, and the five practices we take on — everything a first call would cover.
+        - link ". PDF Studio profile 2026" [ref=f26e208] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f26e209]: . PDF
+          - generic [ref=f26e210]: Studio profile 2026
+    - generic [ref=f26e220]:
+      - generic [ref=f26e221]:
+        - heading "The peopleon the file." [level=2] [ref=f26e223]:
+          - generic [aria-hidden] [ref=f26e224]: The people
+          - generic [aria-hidden] [ref=f26e225]: on the file.
+        - generic [ref=f26e226]:
+          - generic [ref=f26e227]: ( Six leads, one room )
+          - generic [ref=f26e228]: No one you meet leaves the project
+      - generic [ref=f26e229]:
+        - generic [ref=f26e231]:
+          - heading "Mara Ostergaard" [level=3] [ref=f26e232]
+          - generic [ref=f26e233]: Founder, principal designer
+        - generic [ref=f26e235]:
+          - heading "Joost Rijkaard" [level=3] [ref=f26e236]
+          - generic [ref=f26e237]: Partner, strategy
+        - generic [ref=f26e239]:
+          - heading "Ada Nkemdirim" [level=3] [ref=f26e240]
+          - generic [ref=f26e241]: Design director, product
+        - generic [ref=f26e243]:
+          - heading "Kenji Mori" [level=3] [ref=f26e244]
+          - generic [ref=f26e245]: Director, content & motion
+        - generic [ref=f26e247]:
+          - heading "Priya Raghunathan" [level=3] [ref=f26e248]
+          - generic [ref=f26e249]: Lead, design systems
+        - generic [ref=f26e251]:
+          - heading "Ruben Vale" [level=3] [ref=f26e252]
+          - generic [ref=f26e253]: Studio director
+    - generic [ref=f26e258]:
+      - generic [ref=f26e259]:
+        - heading "Studio snapshot." [level=2] [ref=f26e261]:
+          - generic [aria-hidden] [ref=f26e262]: Studio
+          - generic [aria-hidden] [ref=f26e263]: snapshot.
+        - link "Download the profile Download the profile" [ref=f26e265] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=f26e266]:
+            - generic [ref=f26e267]: Download the profile
+            - generic [ref=f26e269]: Download the profile
+      - generic [ref=f26e282]:
+        - generic [ref=f26e283]:
+          - generic [ref=f26e284]: Independent practice, Amsterdam — Lisbon
+          - generic [ref=f26e285]: Since 2017
+        - generic [ref=f26e286]:
+          - generic [ref=f26e287]: "09"
+          - generic [ref=f26e288]: Years
+        - generic [ref=f26e289]:
+          - generic [ref=f26e290]:
+            - generic [ref=f26e291]: Projects shipped
+            - generic [ref=f26e292]: "24"
+          - generic [ref=f26e293]:
+            - generic [ref=f26e294]: Craft awards
+            - generic [ref=f26e295]: "34"
+          - generic [ref=f26e296]:
+            - generic [ref=f26e297]: Studio people
+            - generic [ref=f26e298]: "24"
+          - generic [ref=f26e299]:
+            - generic [ref=f26e300]: Repeat clients
+            - generic [ref=f26e301]: 68%
+    - generic [ref=f26e305]:
+      - generic [ref=f26e306]:
+        - heading "Awards forthe work." [level=2] [ref=f26e308]:
+          - generic [aria-hidden] [ref=f26e309]: Awards for
+          - generic [aria-hidden] [ref=f26e310]: the work.
+        - generic [ref=f26e311]:
+          - generic [ref=f26e312]: ( 34 )
+          - generic [ref=f26e313]: Judged after launch
+      - generic [ref=f26e314]:
+        - generic [ref=f26e315]:
+          - generic [ref=f26e316]: Award
+          - generic [ref=f26e317]: Organisation
+          - generic [ref=f26e318]: Year
+        - generic [ref=f26e319]:
+          - generic [ref=f26e320]: Site of the Year — Northwind
+          - generic [ref=f26e321]: Awwwards
+          - generic [ref=f26e322]: "2026"
+        - generic [ref=f26e323]:
+          - generic [ref=f26e324]: Brand identity — Sable
+          - generic [ref=f26e325]: D&AD Wood Pencil
+          - generic [ref=f26e326]: "2025"
+        - generic [ref=f26e327]:
+          - generic [ref=f26e328]: Design team of the year
+          - generic [ref=f26e329]: Dutch Design Awards
+          - generic [ref=f26e330]: "2025"
+        - generic [ref=f26e331]:
+          - generic [ref=f26e332]: Film & motion — Halcyon
+          - generic [ref=f26e333]: FWA
+          - generic [ref=f26e334]: "2024"
+        - generic [ref=f26e335]:
+          - generic [ref=f26e336]: Independent studio of the year
+          - generic [ref=f26e337]: European Design
+          - generic [ref=f26e338]: "2023"
+        - generic [ref=f26e339]:
+          - generic [ref=f26e340]: Interface — Fold
+          - generic [ref=f26e341]: CSS Design Awards
+          - generic [ref=f26e342]: "2023"
+  - generic [ref=f26e347]:
+    - heading "Build what’s next with us" [level=2] [ref=f26e349]:
+      - generic [aria-hidden] [ref=f26e350]: Build
+      - generic [aria-hidden] [ref=f26e351]: what’s next
+      - generic [aria-hidden] [ref=f26e352]: with us
+    - paragraph [ref=f26e353]: Wherever you sit at Vantra, there is room to shape real work and leave a lasting mark.
+    - generic [ref=f26e354]:
+      - link "Start a project Start a project" [ref=f26e355] [cursor=pointer]:
+        - /url: /contact-us
+        - generic [ref=f26e356]:
+          - generic [ref=f26e357]: Start a project
+          - generic [ref=f26e359]: Start a project
+      - link "Meet the studio Meet the studio" [ref=f26e372] [cursor=pointer]:
+        - /url: /about-us
+        - generic [ref=f26e373]:
+          - generic [ref=f26e374]: Meet the studio
+          - generic [ref=f26e376]: Meet the studio
+  - contentinfo [ref=f26e389]:
+    - generic [ref=f26e392]:
+      - generic [ref=f26e393]:
+        - paragraph [ref=f26e397]: Vantra is an independent studio working across brand, product, and content. We partner with founders and in-house teams on positioning, identity systems, and the digital products that carry them.
+        - generic [ref=f26e398]:
+          - generic [ref=f26e399]:
+            - link "home" [ref=f26e400] [cursor=pointer]:
+              - /url: /
+            - link "about" [ref=f26e402] [cursor=pointer]:
+              - /url: /about-us
+            - link "works" [ref=f26e404] [cursor=pointer]:
+              - /url: /work
+            - link "Journal" [ref=f26e406] [cursor=pointer]:
+              - /url: /journal
+            - link "contact" [ref=f26e408] [cursor=pointer]:
+              - /url: /contact-us
+          - generic [ref=f26e410]:
+            - link "Style Guide" [ref=f26e411] [cursor=pointer]:
+              - /url: /style-guide
+            - link "Custom 404" [ref=f26e412] [cursor=pointer]:
+              - /url: /404
+            - link "Licenses" [ref=f26e413] [cursor=pointer]:
+              - /url: /licenses
+            - link "Custom 401" [ref=f26e414] [cursor=pointer]:
+              - /url: /401
+            - link "Change Log" [ref=f26e415] [cursor=pointer]:
+              - /url: /changelog
+      - generic [ref=f26e416]:
+        - generic [ref=f26e417]:
+          - text: © 2026
+          - link "Vantra Studio" [ref=f26e418] [cursor=pointer]:
+            - /url: https://vantra-studio.webflow.io/
+          - text: ", powered by"
+          - link "webflow" [ref=f26e419] [cursor=pointer]:
+            - /url: https://webflow.com/
+        - generic [ref=f26e420]: Amsterdam — Lisbon
+  - generic [ref=f26e422]:
+    - link "Customize Customize" [ref=f26e423] [cursor=pointer]:
+      - /url: mailto:hello@zafremedia.com?subject=Customize%20-%20Vantra%20Studio
+      - generic [ref=f26e425]:
+        - generic [ref=f26e426]: Customize
+        - generic [ref=f26e428]: Customize
+    - link "Figma Figma" [ref=f26e431] [cursor=pointer]:
+      - /url: mailto:hello@zafremedia.com?subject=Figma%20-%20Vantra%20Studio
+      - generic [ref=f26e433]:
+        - generic [ref=f26e434]: Figma
+        - generic [ref=f26e436]: Figma
+    - generic [ref=f26e439]:
+      - link "Help Help" [ref=f26e440] [cursor=pointer]:
+        - /url: mailto:hello@zafremedia.com?subject=Support%20-%20Vantra%20Studio
+        - generic [ref=f26e442]:
+          - generic [ref=f26e443]: Help
+          - generic [ref=f26e445]: Help
+      - link "Buy Now Buy Now" [ref=f26e447] [cursor=pointer]:
+        - /url: https://webflow.com/templates/html/vantra-studio-website-template
+        - generic [ref=f26e449]:
+          - generic [ref=f26e450]: Buy Now
+          - generic [ref=f26e452]: Buy Now

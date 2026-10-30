@@ -1,0 +1,248 @@
+- generic [active] [ref=f75e1]:
+  - main [ref=f75e3]:
+    - generic [ref=f75e4]:
+      - link "Home" [ref=f75e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f75e6]:
+        - list [ref=f75e7]:
+          - listitem [ref=f75e8]:
+            - link "About" [ref=f75e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f75e10]:
+            - link "Exhibitions" [ref=f75e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f75e12]:
+            - link "Artists" [ref=f75e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f75e14]:
+            - link "Artworks" [ref=f75e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f75e16]:
+            - link "Services" [ref=f75e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f75e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f75e19]: →
+    - generic [ref=f75e20]:
+      - generic [ref=f75e21]:
+        - img "Hyd Art — exhibition poster" [ref=f75e23]
+        - generic [ref=f75e25]:
+          - heading "Hyd Art" [level=1] [ref=f75e26]:
+            - generic [ref=f75e28]: Hyd
+            - generic [ref=f75e30]: Art
+          - generic [ref=f75e31]:
+            - paragraph [ref=f75e32]:
+              - text: Shown
+              - generic [ref=f75e33]: December 19 – 21, 2025
+            - link "All Exhibitions" [ref=f75e35] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+              - text: All Exhibitions
+              - generic [aria-hidden] [ref=f75e36]: →
+      - navigation "Breadcrumb" [ref=f75e37]:
+        - list [ref=f75e38]:
+          - listitem [ref=f75e39]:
+            - link "Home" [ref=f75e40] [cursor=pointer]:
+              - /url: /ekchitra-v6
+          - listitem [aria-hidden] [ref=f75e41]: ←
+          - listitem [ref=f75e42]:
+            - link "Exhibitions" [ref=f75e43] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [aria-hidden] [ref=f75e44]: ←
+          - listitem [ref=f75e45]: Hyd Art
+      - region [ref=f75e46]:
+        - generic [ref=f75e47]:
+          - heading "About the exhibition" [level=2] [ref=f75e48]
+          - paragraph [ref=f75e49]: Hyd Art 2025 – Navanaami is a thoughtfully curated celebration of Indian art, bringing together emerging and established artists from across the country alongside 30 leading contemporary artists from Hyderabad. The event features Keerthanam – A Tribute to Telugu Legends, a special homage to the region’s artistic heritage, along with a rare showcase of India’s modern masters, immersive installations, workshops, panel discussions, curatorial walks, and the Mahatma Book Release. Designed as a dynamic cultural platform, the exhibition creates meaningful dialogue between tradition and contemporary expression.
+          - paragraph [ref=f75e52]: The exhibition unfolds across curated zones including Masters of India, a vibrant national showcase of 30 emerging artists, a dedicated Hyderabad artists’ segment, and a special Mithila/Madhubani Art Show celebrating India’s rich folk traditions. Together, these sections offer collectors, art enthusiasts, and cultural patrons an engaging experience that bridges legacy, innovation, and regional identity, positioning Hyd Art 2025 as a landmark artistic gathering in the city’s cultural calendar.
+        - complementary [ref=f75e53]:
+          - generic [ref=f75e54]:
+            - generic [ref=f75e55]:
+              - term [ref=f75e56]: When
+              - definition [ref=f75e57]:
+                - paragraph [ref=f75e58]: December 19 – 21, 2025
+                - paragraph [ref=f75e59]: Monday to Saturday, 10am – 7pm
+            - generic [ref=f75e60]:
+              - term [ref=f75e61]: Where
+              - definition [ref=f75e62]:
+                - paragraph [ref=f75e63]: EkChitra, Hyderabad
+                - paragraph [ref=f75e64]:
+                  - generic [ref=f75e65]: F94M+52P, Surya Enclave,
+                  - generic [ref=f75e66]: HITEC City, Hyderabad,
+                  - generic [ref=f75e67]: Telangana 500081
+                - link "Get Directions" [ref=f75e68] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+            - generic [ref=f75e69]:
+              - term [ref=f75e70]: Artists
+              - definition [ref=f75e71]:
+                - generic [ref=f75e72]: Laxman Aelay,
+                - generic [ref=f75e73]: Thrigulla Murali,
+                - generic [ref=f75e74]:
+                  - link "Sarvanan Parasuraman" [ref=f75e75] [cursor=pointer]:
+                    - /url: /ekchitra-v6/artists/sarvanan-parasuraman
+                  - text: ","
+                - link "Anupama Choudary" [ref=f75e77] [cursor=pointer]:
+                  - /url: /ekchitra-v6/artists/anupama-choudhary
+            - generic [ref=f75e78]:
+              - term [ref=f75e79]: In the exhibition
+              - definition [ref=f75e80]:
+                - text: 4 works
+                - link "See them below" [ref=f75e81] [cursor=pointer]:
+                  - /url: "#exhibition-artworks"
+      - region [ref=f75e82]:
+        - generic [ref=f75e83]:
+          - generic [ref=f75e84]:
+            - paragraph [ref=f75e85]: Hyd Art
+            - heading "Exhibition artworks" [level=2] [ref=f75e86]
+          - paragraph [ref=f75e87]: 04 works
+        - list [ref=f75e88]:
+          - listitem [ref=f75e89]:
+            - link "Poolamma by Laxman Aelay 01 Acrylic on Linen canvas Poolamma Laxman Aelay 48x48 inch Enquire" [ref=f75e90] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Poolamma%22%20by%20Laxman%20Aelay%20from%20Hyd%20Art.
+              - img "Poolamma by Laxman Aelay" [ref=f75e91]
+              - generic [ref=f75e92]:
+                - generic [ref=f75e93]: "01"
+                - generic [ref=f75e94]: Acrylic on Linen canvas
+              - heading "Poolamma" [level=3] [ref=f75e95]
+              - paragraph [ref=f75e96]: Laxman Aelay
+              - generic [ref=f75e97]:
+                - generic [ref=f75e98]: 48x48 inch
+                - generic [ref=f75e99]:
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f75e100]: →
+          - listitem [ref=f75e101]:
+            - link "Tail of a Blue Car by Thrigulla Murali 02 Oil on Canvas, Acrylic Background Tail of a Blue Car Thrigulla Murali 41 x 50 Inches Enquire" [ref=f75e102] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Tail%20of%20a%20Blue%20Car%22%20by%20Thrigulla%20Murali%20from%20Hyd%20Art.
+              - img "Tail of a Blue Car by Thrigulla Murali" [ref=f75e103]
+              - generic [ref=f75e104]:
+                - generic [ref=f75e105]: "02"
+                - generic [ref=f75e106]: Oil on Canvas, Acrylic Background
+              - heading "Tail of a Blue Car" [level=3] [ref=f75e107]
+              - paragraph [ref=f75e108]: Thrigulla Murali
+              - generic [ref=f75e109]:
+                - generic [ref=f75e110]: 41 x 50 Inches
+                - generic [ref=f75e111]:
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f75e112]: →
+          - listitem [ref=f75e113]:
+            - link "Modified Continuity by Sarvanan Parasuraman 03 Paper Board Modified Continuity Sarvanan Parasuraman 48 x 48 Inches Enquire" [ref=f75e114] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Modified%20Continuity%22%20by%20Sarvanan%20Parasuraman%20from%20Hyd%20Art.
+              - img "Modified Continuity by Sarvanan Parasuraman" [ref=f75e115]
+              - generic [ref=f75e116]:
+                - generic [ref=f75e117]: "03"
+                - generic [ref=f75e118]: Paper Board
+              - heading "Modified Continuity" [level=3] [ref=f75e119]
+              - paragraph [ref=f75e120]: Sarvanan Parasuraman
+              - generic [ref=f75e121]:
+                - generic [ref=f75e122]: 48 x 48 Inches
+                - generic [ref=f75e123]:
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f75e124]: →
+          - listitem [ref=f75e125]:
+            - link "Arthanareeswara by Anupama Choudary 04 Mixed Media on Canvas Arthanareeswara Anupama Choudary 36 x 36 Inches Enquire" [ref=f75e126] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Arthanareeswara%22%20by%20Anupama%20Choudary%20from%20Hyd%20Art.
+              - img "Arthanareeswara by Anupama Choudary" [ref=f75e127]
+              - generic [ref=f75e128]:
+                - generic [ref=f75e129]: "04"
+                - generic [ref=f75e130]: Mixed Media on Canvas
+              - heading "Arthanareeswara" [level=3] [ref=f75e131]
+              - paragraph [ref=f75e132]: Anupama Choudary
+              - generic [ref=f75e133]:
+                - generic [ref=f75e134]: 36 x 36 Inches
+                - generic [ref=f75e135]:
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f75e136]: →
+      - region [ref=f75e137]:
+        - generic [ref=f75e138]:
+          - heading "Other exhibitions" [level=2] [ref=f75e139]
+          - link "See All" [ref=f75e140] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - text: See All
+            - generic [aria-hidden] [ref=f75e141]: →
+        - list [ref=f75e142]:
+          - listitem [ref=f75e143]:
+            - link "Swadhatri Curated by Annapurna M Past March 7 – 16, 2025" [ref=f75e144] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/swadhatri
+              - generic [ref=f75e145]:
+                - generic [ref=f75e146]:
+                  - generic [ref=f75e147]: Swadhatri
+                  - generic [ref=f75e148]: Curated by Annapurna M
+                - generic [ref=f75e149]:
+                  - generic [ref=f75e150]: Past
+                  - generic [ref=f75e151]: March 7 – 16, 2025
+          - listitem [ref=f75e155]:
+            - link "Living Temple Curated by Annapurna M Past February 28 – March 4, 2025" [ref=f75e156] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/living-temple
+              - generic [ref=f75e157]:
+                - generic [ref=f75e158]:
+                  - generic [ref=f75e159]: Living Temple
+                  - generic [ref=f75e160]: Curated by Annapurna M
+                - generic [ref=f75e161]:
+                  - generic [ref=f75e162]: Past
+                  - generic [ref=f75e163]: February 28 – March 4, 2025
+          - listitem [ref=f75e167]:
+            - link "Naik City Curated by Annapurna M Past February 14 – 23, 2025" [ref=f75e168] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/naik-city
+              - generic [ref=f75e169]:
+                - generic [ref=f75e170]:
+                  - generic [ref=f75e171]: Naik City
+                  - generic [ref=f75e172]: Curated by Annapurna M
+                - generic [ref=f75e173]:
+                  - generic [ref=f75e174]: Past
+                  - generic [ref=f75e175]: February 14 – 23, 2025
+    - generic [ref=f75e179]:
+      - generic [ref=f75e180]:
+        - generic [ref=f75e181]:
+          - paragraph [ref=f75e182]: Gallery
+          - list [ref=f75e183]:
+            - listitem [ref=f75e184]:
+              - link "About" [ref=f75e185] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f75e186]:
+              - link "Exhibitions" [ref=f75e187] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f75e188]:
+              - link "Artists" [ref=f75e189] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f75e190]:
+              - link "Artworks" [ref=f75e191] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f75e192]:
+              - link "Services" [ref=f75e193] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f75e194]:
+              - link "Contact" [ref=f75e195] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f75e196]:
+          - paragraph [ref=f75e197]: Connect
+          - list [ref=f75e198]:
+            - listitem [ref=f75e199]:
+              - link "Instagram" [ref=f75e200] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f75e201]:
+              - link "WhatsApp" [ref=f75e202] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f75e203]:
+          - paragraph [ref=f75e204]: Get in touch
+          - list [ref=f75e205]:
+            - listitem [ref=f75e206]:
+              - link "info@ekchitra.com" [ref=f75e207] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f75e208]:
+              - link "+91 91001 18321" [ref=f75e209] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f75e210]:
+          - paragraph [ref=f75e211]: Visit
+          - paragraph [ref=f75e212]:
+            - generic [ref=f75e213]: F94M+52P, Surya Enclave,
+            - generic [ref=f75e214]: HITEC City, Hyderabad,
+            - generic [ref=f75e215]: Telangana 500081
+          - list [ref=f75e216]:
+            - listitem [ref=f75e217]:
+              - link "Directions" [ref=f75e218] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f75e219]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f75e225] [cursor=pointer]

@@ -1,0 +1,140 @@
+[     107ms] [LOG] [Fast Refresh] done in 305ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     474ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     547ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     785ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    1069ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    1713ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    1787ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   34833ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   36587ms] [LOG] [Fast Refresh] done in 1856ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   36613ms] [LOG] [Fast Refresh] done in 1856ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   36734ms] [LOG] [Fast Refresh] done in 1856ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   38706ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   38827ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   45199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   45234ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   45529ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   45571ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   45854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   46014ms] [LOG] [Fast Refresh] done in 261ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   52104ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[   52821ms] [LOG] [Fast Refresh] done in 818ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  213156ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  213251ms] [LOG] [Fast Refresh] done in 198ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  213843ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  213864ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  222166ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  227595ms] [LOG] [Fast Refresh] done in 5334ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  227602ms] [LOG] [Fast Refresh] done in 5334ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  228001ms] [LOG] [Fast Refresh] done in 5334ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  228482ms] [WARNING] Image with src "/sites/ekchitra-redesign/placeholders/cta-bespoke-unsplash-virender-singh.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  238475ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  242574ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  242749ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  243189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  243230ms] [LOG] [Fast Refresh] done in 194ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  251398ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  251742ms] [LOG] [Fast Refresh] done in 448ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  469351ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  469514ms] [LOG] [Fast Refresh] done in 266ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  470664ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  470712ms] [LOG] [Fast Refresh] done in 150ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1119810ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1120950ms] [LOG] [Fast Refresh] done in 1251ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1197808ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1200751ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1200853ms] [LOG] [Fast Refresh] done in 2991ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1200964ms] [LOG] [Fast Refresh] done in 2991ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1201559ms] [LOG] [Fast Refresh] done in 2991ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1201761ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1202272ms] [LOG] [Fast Refresh] done in 611ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1202562ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/ekchitra-v6?_rsc=561fdUPD-8InNme6:0
+[ 1202631ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/ekchitra-v6:0
+[ 1202766ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0kla17-._.js:15093
+[ 1202973ms] ReferenceError: Cannot access 'EXHIBITIONS' before initialization
+    at Module.eval (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/%5Broot-of-the-server%5D__18_0pal._.js?id=%5Bproject%5D/src/components/sites/ekchitra-v6/data.ts+%5Bapp-rsc%5D+(ecmascript)+%3Clocals%3E:79:16)
+    at <unknown> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1330:27)
+    at runWithHooks (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1592:9)
+    at instantiateModuleShared (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1328:9)
+    at instantiateModule (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1595:23)
+    at getOrInstantiateModuleFromParent (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1631:23)
+    at Context.esmImport [as i] (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:352:20)
+    at Module.eval (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/%5Broot-of-the-server%5D__18_0pal._.js?id=%5Bproject%5D/src/components/sites/ekchitra-v6/footer-variants/FooterCard.tsx+%5Bapp-rsc%5D+(ecmascript):11:194)
+    at <unknown> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1330:27)
+    at runWithHooks (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1592:9)
+    at instantiateModuleShared (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1328:9)
+    at instantiateModule (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1595:23)
+    at getOrInstantiateModuleFromParent (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1631:23)
+    at Context.esmImport [as i] (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:352:20)
+    at Module.eval (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/%5Broot-of-the-server%5D__1bpiz8m._.js?id=%5Bproject%5D/src/components/sites/ekchitra-v6/PageFrame.tsx+%5Bapp-rsc%5D+(ecmascript):14:207)
+    at <unknown> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1330:27)
+    at runWithHooks (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1592:9)
+    at instantiateModuleShared (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1328:9)
+    at instantiateModule (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1595:23)
+    at getOrInstantiateModuleFromParent (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1631:23)
+    at Context.esmImport [as i] (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:352:20)
+    at Module.eval (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/%5Broot-of-the-server%5D__0shiejy._.js?id=%5Bproject%5D/src/app/ekchitra-v6/exhibitions/page.tsx+%5Bapp-rsc%5D+(ecmascript):11:184)
+    at <unknown> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1330:27)
+    at runWithHooks (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1592:9)
+    at instantiateModuleShared (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1328:9)
+    at instantiateModule (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1595:23)
+    at getOrInstantiateModuleFromParent (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1631:23)
+    at Context.esmImport [as i] (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:352:20)
+    at module evaluation (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[root-of-the-server]__1prvy-6._.js:59:47)
+    at <unknown> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1330:27)
+    at runWithHooks (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1592:9)
+    at instantiateModuleShared (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1328:9)
+    at instantiateModule (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1595:23)
+    at getOrInstantiateModuleFromParent (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:1631:23)
+    at Context.commonJsRequire [as r] (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/[turbopack]_runtime.js:373:12)
+    at Array.<anonymous> (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/node_modules_0ad7g6z._.js:3248:300)
+    at createFlightRouterStateFromLoaderTreeImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:166:9837)
+    at createFlightRouterStateFromLoaderTreeImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:166:11345)
+    at createFlightRouterStateFromLoaderTreeImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:166:11345)
+    at async createFlightRouterStateFromLoaderTreeImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:166:11339)
+    at async walkTreeWithFlightRouterState (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:168:51144)
+    at async generateDynamicRSCPayload (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:172:25045)
+    at async generateDynamicFlightRenderResult (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:172:28054)
+    at async doRender (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/node_modules_0ka9bk1._.js:2246:32)
+    at async AppPageRouteModule.handleResponse (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:216:75826)
+    at async handleResponse (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/node_modules_0ka9bk1._.js:2613:36)
+    at async Module.handler (file:///Users/apple/Desktop/GSAP/clone-website/.next/dev/server/chunks/ssr/node_modules_0ka9bk1._.js:3084:24)
+    at async DevServer.renderToResponseWithComponentsImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/server/base-server.js:1537:9)
+    at async DevServer.renderPageComponent (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/server/base-server.js:1589:24)
+    at async DevServer.renderToResponseImpl (file:///Users/apple/Desktop/GSAP/clone-website/node_modules/next/dist/server/base-server.js:1639:32)
+[ 1202854ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[ 1203389ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[ 1203408ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[ 1203593ms] [LOG] [Fast Refresh] done in 19ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1gdrd03._.js:756
+[ 1204029ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1204074ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1263175ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1265548ms] [LOG] [Fast Refresh] done in 1888ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1266201ms] [LOG] [Fast Refresh] done in 1888ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1277003ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1280564ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1280613ms] [LOG] [Fast Refresh] done in 3631ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1280827ms] [LOG] [Fast Refresh] done in 3631ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1281098ms] [LOG] [Fast Refresh] done in 3631ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1281808ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1281852ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1282464ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1282773ms] [LOG] [Fast Refresh] done in 411ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1300248ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1304058ms] [LOG] [Fast Refresh] done in 3954ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[ 1304132ms] [LOG] [Fast Refresh] done in 3954ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776

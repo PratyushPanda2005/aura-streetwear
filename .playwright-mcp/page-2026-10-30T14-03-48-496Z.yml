@@ -1,0 +1,173 @@
+- generic [active] [ref=f34e1]:
+  - main [ref=f34e3]:
+    - generic [ref=f34e4]:
+      - link "Home" [ref=f34e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f34e6]:
+        - list [ref=f34e7]:
+          - listitem [ref=f34e8]:
+            - link "About" [ref=f34e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f34e10]:
+            - link "Exhibitions" [ref=f34e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f34e12]:
+            - link "Artists" [ref=f34e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f34e14]:
+            - link "Artworks" [ref=f34e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f34e16]:
+            - link "Services" [ref=f34e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f34e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f34e19]: →
+    - img "Visitors among the paintings at EkChitra, Hyderabad" [ref=f34e21]
+    - generic [ref=f34e22]:
+      - generic [ref=f34e23]:
+        - paragraph [ref=f34e24]: About EkChitra
+        - heading "Where art meets soul" [level=1] [ref=f34e25]
+      - generic [ref=f34e26]:
+        - paragraph [ref=f34e27]: A contemporary Indian art gallery in HITEC City, Hyderabad.
+        - paragraph [ref=f34e28]: 18 exhibitions curated
+    - generic [ref=f34e29]:
+      - region [ref=f34e30]:
+        - generic [ref=f34e31]:
+          - paragraph [ref=f34e32]: ( Our story )
+          - heading "EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide." [level=2] [ref=f34e33]
+          - generic [ref=f34e34]:
+            - paragraph [ref=f34e35]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+            - paragraph [ref=f34e36]: Today, we proudly showcase a diverse collection of contemporary artworks, from bold abstracts to serene landscapes, each piece carefully curated to bring beauty and meaning into your life.
+        - img "Lamp lighting at an EkChitra exhibition opening" [ref=f34e38]
+        - img "Guests at an EkChitra exhibition opening" [ref=f34e40]
+        - img "Artists and visitors inside the EkChitra gallery" [ref=f34e42]
+        - img "Classical dancers performing at Living Temple, EkChitra" [ref=f34e44]
+        - img "Ribbon cutting at EkChitra, Hyderabad" [ref=f34e46]
+      - region "How we work" [ref=f34e47]:
+        - list [ref=f34e48]:
+          - listitem [ref=f34e49]:
+            - paragraph [ref=f34e51]: ( How we work 01 )
+            - generic [ref=f34e52]:
+              - heading "We begin with looking." [level=3] [ref=f34e53]
+              - paragraph [ref=f34e54]:
+                - generic [ref=f34e55]: Curiosity
+                - text: Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.
+          - listitem [ref=f34e56]:
+            - paragraph [ref=f34e58]: ( How we work 02 )
+            - generic [ref=f34e59]:
+              - heading "Every work belongs to a larger story." [level=3] [ref=f34e60]
+              - paragraph [ref=f34e61]:
+                - generic [ref=f34e62]: Context
+                - text: From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.
+          - listitem [ref=f34e63]:
+            - paragraph [ref=f34e65]: ( How we work 03 )
+            - generic [ref=f34e66]:
+              - heading "Art becomes meaningful when it enters a life." [level=3] [ref=f34e67]
+              - paragraph [ref=f34e68]:
+                - generic [ref=f34e69]: Connection
+                - text: Art selection, curation and placement shaped around a particular space, and considered guidance for starting, refining or growing a collection.
+          - listitem [ref=f34e70]:
+            - paragraph [ref=f34e72]: ( How we work 04 )
+            - generic [ref=f34e73]:
+              - heading "A gallery is a place to exchange ideas." [level=3] [ref=f34e74]
+              - paragraph [ref=f34e75]:
+                - generic [ref=f34e76]: Conversation
+                - text: Knowledgeable without being intimidating, and always open to a conversation — amplifying the voices of artists so their stories reach diverse audiences.
+      - region [ref=f34e77]:
+        - generic [ref=f34e78]:
+          - heading "Gallery snapshot." [level=2] [ref=f34e79]: Gallerysnapshot.
+          - link "Plan a Visit" [ref=f34e80]:
+            - /url: /ekchitra-v6/contact
+            - text: Plan a Visit
+            - generic [aria-hidden] [ref=f34e81]: →
+        - generic [ref=f34e82]:
+          - generic [ref=f34e83]:
+            - generic [ref=f34e84]: Contemporary Indian art, Hyderabad
+            - generic [ref=f34e85]: HITEC City
+          - paragraph [ref=f34e86]:
+            - generic [ref=f34e87]: "18"
+            - generic [ref=f34e88]: Exhibitions curated
+          - generic [ref=f34e89]:
+            - generic [ref=f34e90]:
+              - term [ref=f34e91]: Artists represented
+              - definition [ref=f34e92]: "15"
+            - generic [ref=f34e93]:
+              - term [ref=f34e94]: Works in the collection
+              - definition [ref=f34e95]: 29+
+            - generic [ref=f34e96]:
+              - term [ref=f34e97]: Now & upcoming
+              - definition [ref=f34e98]: "02"
+            - generic [ref=f34e99]:
+              - term [ref=f34e100]: Past exhibitions
+              - definition [ref=f34e101]: "16"
+    - region [ref=f34e102]:
+      - generic [ref=f34e103]:
+        - heading "A note from our curator" [level=2] [ref=f34e104]
+        - figure "Annapurna M Curator, EkChitra" [ref=f34e105]:
+          - blockquote [ref=f34e106]:
+            - paragraph [ref=f34e107]:
+              - generic [ref=f34e108]: We’ve always lived around art —
+              - generic [ref=f34e110]: we’ve just forgotten to notice it.
+              - generic [ref=f34e112]: Every exhibition here begins with an idea,
+              - generic [ref=f34e114]: and every visit with curiosity.
+          - generic [ref=f34e116]:
+            - generic [ref=f34e117]: Annapurna M
+            - generic [ref=f34e118]: Curator, EkChitra
+    - generic [ref=f34e119]:
+      - generic [ref=f34e120]:
+        - generic [ref=f34e121]:
+          - paragraph [ref=f34e122]: Gallery
+          - list [ref=f34e123]:
+            - listitem [ref=f34e124]:
+              - link "About" [ref=f34e125] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f34e126]:
+              - link "Exhibitions" [ref=f34e127] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f34e128]:
+              - link "Artists" [ref=f34e129] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f34e130]:
+              - link "Artworks" [ref=f34e131] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f34e132]:
+              - link "Services" [ref=f34e133] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f34e134]:
+              - link "Contact" [ref=f34e135] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f34e136]:
+          - paragraph [ref=f34e137]: Connect
+          - list [ref=f34e138]:
+            - listitem [ref=f34e139]:
+              - link "Instagram" [ref=f34e140] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f34e141]:
+              - link "WhatsApp" [ref=f34e142] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f34e143]:
+          - paragraph [ref=f34e144]: Get in touch
+          - list [ref=f34e145]:
+            - listitem [ref=f34e146]:
+              - link "info@ekchitra.com" [ref=f34e147] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f34e148]:
+              - link "+91 91001 18321" [ref=f34e149] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f34e150]:
+          - paragraph [ref=f34e151]: Visit
+          - paragraph [ref=f34e152]:
+            - generic [ref=f34e153]: F94M+52P, Surya Enclave,
+            - generic [ref=f34e154]: HITEC City, Hyderabad,
+            - generic [ref=f34e155]: Telangana 500081
+          - list [ref=f34e156]:
+            - listitem [ref=f34e157]:
+              - link "Directions" [ref=f34e158] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f34e159]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f34e165] [cursor=pointer]

@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 
 import { CAPS, SANS } from "@/components/sites/ekchitra-v5/shared";
 import { ServicesBento } from "@/components/sites/ekchitra-v6/services-cards/ServicesBento";
+import { ServicesBoxes } from "@/components/sites/ekchitra-v6/services-cards/ServicesBoxes";
 import { ServicesCardPair } from "@/components/sites/ekchitra-v6/services-cards/ServicesCardPair";
 import { ServicesColumns } from "@/components/sites/ekchitra-v6/services-cards/ServicesColumns";
 import { ServicesPanels } from "@/components/sites/ekchitra-v6/services-cards/ServicesPanels";
@@ -55,10 +56,15 @@ const VARIATIONS: { name: string; note: string; body: ReactNode }[] = [
     note: "Edge to edge: a narrow column with the heading, one large photograph, and the two services as stacked white and black cells.",
     body: <ServicesPanels />,
   },
+  {
+    name: "Boxes",
+    note: "Three boxes on hairlines: heading over a darkened photograph, Bespoke on black, Advisory on white.",
+    body: <ServicesBoxes />,
+  },
 ];
 
 /**
- * Seven static iterations of the v6 homepage's services section (Bespoke
+ * Eight static iterations of the v6 homepage's services section (Bespoke
  * sourcing and Art advisory) — cards and grids on the Swiss grid, no
  * animation — stacked under labels to choose from.
  */

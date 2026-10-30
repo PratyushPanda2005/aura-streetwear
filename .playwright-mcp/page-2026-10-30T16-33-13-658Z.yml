@@ -1,0 +1,282 @@
+- generic [active] [ref=f76e1]:
+  - banner:
+    - generic:
+      - generic:
+        - generic:
+          - generic: creative production company ＠TOKYO, JAPAN
+          - link [ref=f76e2] [cursor=pointer]:
+            - /url: /
+          - generic:
+            - navigation:
+              - list:
+                - listitem:
+                  - link "T T O O P P" [ref=f76e5] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=f76e8]:
+                      - generic [ref=f76e10]:
+                        - generic [ref=f76e11]: T
+                        - generic [ref=f76e12]: T
+                      - generic [ref=f76e14]:
+                        - generic [ref=f76e15]: O
+                        - generic [ref=f76e16]: O
+                      - generic [ref=f76e18]:
+                        - generic [ref=f76e19]: P
+                        - generic [ref=f76e20]: P
+                - listitem:
+                  - link "W W O O R R K K S S" [ref=f76e21] [cursor=pointer]:
+                    - /url: /works/
+                    - generic [ref=f76e24]:
+                      - generic [ref=f76e26]:
+                        - generic [ref=f76e27]: W
+                        - generic [ref=f76e28]: W
+                      - generic [ref=f76e30]:
+                        - generic [ref=f76e31]: O
+                        - generic [ref=f76e32]: O
+                      - generic [ref=f76e34]:
+                        - generic [ref=f76e35]: R
+                        - generic [ref=f76e36]: R
+                      - generic [ref=f76e38]:
+                        - generic [ref=f76e39]: K
+                        - generic [ref=f76e40]: K
+                      - generic [ref=f76e42]:
+                        - generic [ref=f76e43]: S
+                        - generic [ref=f76e44]: S
+                - listitem:
+                  - link "A A R R T T I I S S T T S S" [ref=f76e45] [cursor=pointer]:
+                    - /url: /artist/
+                    - generic [ref=f76e48]:
+                      - generic [ref=f76e50]:
+                        - generic [ref=f76e51]: A
+                        - generic [ref=f76e52]: A
+                      - generic [ref=f76e54]:
+                        - generic [ref=f76e55]: R
+                        - generic [ref=f76e56]: R
+                      - generic [ref=f76e58]:
+                        - generic [ref=f76e59]: T
+                        - generic [ref=f76e60]: T
+                      - generic [ref=f76e62]:
+                        - generic [ref=f76e63]: I
+                        - generic [ref=f76e64]: I
+                      - generic [ref=f76e66]:
+                        - generic [ref=f76e67]: S
+                        - generic [ref=f76e68]: S
+                      - generic [ref=f76e70]:
+                        - generic [ref=f76e71]: T
+                        - generic [ref=f76e72]: T
+                      - generic [ref=f76e74]:
+                        - generic [ref=f76e75]: S
+                        - generic [ref=f76e76]: S
+                - listitem:
+                  - link "A A B B O O U U T T" [ref=f76e77] [cursor=pointer]:
+                    - /url: /about/
+                    - generic [ref=f76e80]:
+                      - generic [ref=f76e82]:
+                        - generic [ref=f76e83]: A
+                        - generic [ref=f76e84]: A
+                      - generic [ref=f76e86]:
+                        - generic [ref=f76e87]: B
+                        - generic [ref=f76e88]: B
+                      - generic [ref=f76e90]:
+                        - generic [ref=f76e91]: O
+                        - generic [ref=f76e92]: O
+                      - generic [ref=f76e94]:
+                        - generic [ref=f76e95]: U
+                        - generic [ref=f76e96]: U
+                      - generic [ref=f76e98]:
+                        - generic [ref=f76e99]: T
+                        - generic [ref=f76e100]: T
+            - generic [ref=f76e102]:
+              - link "JP" [ref=f76e103] [cursor=pointer]:
+                - /url: /ja/about/
+              - generic [ref=f76e104]: /
+              - generic [ref=f76e105]: EN
+  - main [ref=f76e107]:
+    - generic [ref=f76e108]:
+      - generic [ref=f76e109]:
+        - link "TOP" [ref=f76e111] [cursor=pointer]:
+          - /url: https://www.east64films.com/
+        - link "ABOUT" [ref=f76e114] [cursor=pointer]:
+          - /url: https://www.east64films.com/about/
+      - generic [ref=f76e115]:
+        - heading "We Are A Global Creative Production Company" [level=1] [ref=f76e116]
+        - paragraph [ref=f76e117]: Production / Post-Production / Artist Management
+      - img "About Hero Image" [ref=f76e119]
+    - generic [ref=f76e120]:
+      - generic [ref=f76e133]:
+        - generic [ref=f76e134]: ON SET
+        - generic [ref=f76e135]: "@TOKYO"
+      - generic [ref=f76e136]:
+        - button "スライド1へ" [ref=f76e137] [cursor=pointer]
+        - button "スライド2へ" [ref=f76e138] [cursor=pointer]
+        - button "スライド3へ" [ref=f76e139] [cursor=pointer]
+        - button "スライド4へ" [ref=f76e140] [cursor=pointer]
+        - button "スライド5へ" [ref=f76e141] [cursor=pointer]
+      - paragraph [ref=f76e143]:
+        - text: EAST 64 Films is a Tokyo-based international production company. From concept to final delivery, we create commercials, music videos, branded content, television, and film.
+        - generic [ref=f76e144]: Our process is borderless. Each member of our team brings years of experience collaborating with international brands and partners. This global perspective enables us to work seamlessly across cultures, languages, and markets.
+        - generic [ref=f76e145]: Through our in-house post-production capabilities—including editing, color grading, CGI/VFX, and sound design—each project is carefully crafted to go beyond the visual, creating immersive experiences that audiences can feel.
+    - generic [ref=f76e146]:
+      - heading "Our Strengths" [level=2] [ref=f76e147]
+      - generic [ref=f76e148]:
+        - article [ref=f76e149]:
+          - generic [ref=f76e150]: "01"
+          - heading "Multilingual Team" [level=3] [ref=f76e151]: MultilingualTeam
+          - paragraph [ref=f76e152]: Multilingual creators with strong communication and global perspective.
+        - article [ref=f76e153]:
+          - generic [ref=f76e154]: "02"
+          - heading "Talent Relations" [level=3] [ref=f76e155]: TalentRelations
+          - paragraph [ref=f76e156]: Discreet and thoughtful collaboration with high-profile clients and talent.
+        - article [ref=f76e157]:
+          - generic [ref=f76e158]: "03"
+          - heading "Global Reach" [level=3] [ref=f76e159]: GlobalReach
+          - paragraph [ref=f76e160]: International in approach, working seamlessly across local and global productions.
+    - generic [ref=f76e162]:
+      - article [ref=f76e163]:
+        - generic [ref=f76e164]:
+          - generic [ref=f76e165]:
+            - term [ref=f76e166]: COMPANY
+            - definition [ref=f76e167]: EAST 64 Films Co.,Ltd.
+          - generic [ref=f76e168]:
+            - term [ref=f76e169]: Address
+            - definition [ref=f76e170]:
+              - generic [ref=f76e171]: Minami-Aoyama Queen Bldg. 6F/7F,2-22-2 Minami-Aoyama, Minato-ku,Tokyo 107-0062, Japan
+          - generic [ref=f76e172]:
+            - term [ref=f76e173]: President
+            - definition [ref=f76e174]: RYUTARO HORI
+          - generic [ref=f76e175]:
+            - term [ref=f76e176]: Established
+            - definition [ref=f76e177]: 22/2/2023
+          - generic [ref=f76e178]:
+            - term [ref=f76e179]: Capital
+            - definition [ref=f76e180]: 10 million yen
+          - generic [ref=f76e181]:
+            - term [ref=f76e182]: Email
+            - definition [ref=f76e183]:
+              - link "inquiries@east64films.com" [ref=f76e184] [cursor=pointer]:
+                - /url: mailto:inquiries@east64films.com
+          - generic [ref=f76e185]:
+            - term [ref=f76e186]: GROUP
+            - definition [ref=f76e187]:
+              - link "ACCORDER Inc." [ref=f76e188] [cursor=pointer]:
+                - /url: https://www.accorder.co.jp/
+      - img "About Company Image" [ref=f76e190]
+    - generic [ref=f76e191]:
+      - heading "Selected Clients" [level=2] [ref=f76e192]
+      - list [ref=f76e193]:
+        - listitem [ref=f76e194]:
+          - img "Client 01" [ref=f76e195]
+        - listitem [ref=f76e196]:
+          - img "Client 02" [ref=f76e197]
+        - listitem [ref=f76e198]:
+          - img "Client 03" [ref=f76e199]
+        - listitem [ref=f76e200]:
+          - img "Client 03" [ref=f76e201]
+        - listitem [ref=f76e202]:
+          - img "Client 03" [ref=f76e203]
+        - listitem [ref=f76e204]:
+          - img "Client 03" [ref=f76e205]
+        - listitem [ref=f76e206]:
+          - img "Client 03" [ref=f76e207]
+        - listitem [ref=f76e208]:
+          - img "Client 03" [ref=f76e209]
+        - listitem [ref=f76e210]:
+          - img "Client 09" [ref=f76e211]
+        - listitem [ref=f76e212]:
+          - img "Client 10" [ref=f76e213]
+        - listitem [ref=f76e214]:
+          - img "Client 11" [ref=f76e215]
+        - listitem [ref=f76e216]:
+          - img "Client 12" [ref=f76e217]
+        - listitem [ref=f76e218]:
+          - img "Client 13" [ref=f76e219]
+        - listitem [ref=f76e220]:
+          - img "Client 14" [ref=f76e221]
+        - listitem [ref=f76e222]:
+          - img "Client 15" [ref=f76e223]
+        - listitem [ref=f76e224]:
+          - img "Client 16" [ref=f76e225]
+        - listitem [ref=f76e226]:
+          - img "Client 17" [ref=f76e227]
+        - listitem [ref=f76e228]:
+          - img "Client 18" [ref=f76e229]
+        - listitem [ref=f76e230]:
+          - img "Client 19" [ref=f76e231]
+        - listitem [ref=f76e232]:
+          - img "Client 20" [ref=f76e233]
+        - listitem [ref=f76e234]:
+          - img "Client 21" [ref=f76e235]
+        - listitem [ref=f76e236]:
+          - img "Client 22" [ref=f76e237]
+        - listitem [ref=f76e238]:
+          - img "Client 23" [ref=f76e239]
+        - listitem [ref=f76e240]:
+          - img "Client 24" [ref=f76e241]
+    - generic [ref=f76e244]:
+      - generic [ref=f76e245]:
+        - paragraph [ref=f76e246]: EAST64Films
+        - heading "Works" [level=2] [ref=f76e247]
+      - link "V V I I E E W W M M O O R R E E" [ref=f76e249] [cursor=pointer]:
+        - /url: https://www.east64films.com/works/
+        - generic [ref=f76e252]:
+          - generic [ref=f76e254]:
+            - generic [ref=f76e255]: V
+            - generic [ref=f76e256]: V
+          - generic [ref=f76e258]:
+            - generic [ref=f76e259]: I
+            - generic [ref=f76e260]: I
+          - generic [ref=f76e262]:
+            - generic [ref=f76e263]: E
+            - generic [ref=f76e264]: E
+          - generic [ref=f76e266]:
+            - generic [ref=f76e267]: W
+            - generic [ref=f76e268]: W
+          - generic [ref=f76e270]:
+            - generic [ref=f76e271]: M
+            - generic [ref=f76e272]: M
+          - generic [ref=f76e274]:
+            - generic [ref=f76e275]: O
+            - generic [ref=f76e276]: O
+          - generic [ref=f76e278]:
+            - generic [ref=f76e279]: R
+            - generic [ref=f76e280]: R
+          - generic [ref=f76e282]:
+            - generic [ref=f76e283]: E
+            - generic [ref=f76e284]: E
+  - contentinfo [ref=f76e286]:
+    - generic [ref=f76e287]:
+      - generic [ref=f76e289]:
+        - paragraph [ref=f76e290]: FOLLOW US
+        - generic [ref=f76e291]:
+          - link [ref=f76e292] [cursor=pointer]:
+            - /url: https://www.instagram.com/east64films/
+            - img "Instagram Icon" [ref=f76e293]
+          - link [ref=f76e294] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/east-64-films/home/
+            - img "LinkedIn Icon" [ref=f76e295]
+      - paragraph [ref=f76e296]:
+        - link "For production and talent inquiries, please get in touch here. C C O O N N T T A A C C T T" [ref=f76e297] [cursor=pointer]:
+          - /url: https://www.east64films.com/contact/
+          - generic [ref=f76e298]:
+            - generic: For production and talent inquiries, please get in touch here.
+            - generic [ref=f76e301]:
+              - generic [ref=f76e303]:
+                - generic [ref=f76e304]: C
+                - generic [ref=f76e305]: C
+              - generic [ref=f76e307]:
+                - generic [ref=f76e308]: O
+                - generic [ref=f76e309]: O
+              - generic [ref=f76e311]:
+                - generic [ref=f76e312]: "N"
+                - generic [ref=f76e313]: "N"
+              - generic [ref=f76e315]:
+                - generic [ref=f76e316]: T
+                - generic [ref=f76e317]: T
+              - generic [ref=f76e319]:
+                - generic [ref=f76e320]: A
+                - generic [ref=f76e321]: A
+              - generic [ref=f76e323]:
+                - generic [ref=f76e324]: C
+                - generic [ref=f76e325]: C
+              - generic [ref=f76e327]:
+                - generic [ref=f76e328]: T
+                - generic [ref=f76e329]: T

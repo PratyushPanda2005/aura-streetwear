@@ -1,0 +1,304 @@
+- generic [active] [ref=f22e1]:
+  - main [ref=f22e3]:
+    - generic [ref=f22e4]:
+      - link "Home" [ref=f22e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f22e6]:
+        - list [ref=f22e7]:
+          - listitem [ref=f22e8]:
+            - link "About" [ref=f22e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f22e10]:
+            - link "Exhibitions" [ref=f22e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f22e12]:
+            - link "Artists" [ref=f22e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f22e14]:
+            - link "Artworks" [ref=f22e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f22e16]:
+            - link "Services" [ref=f22e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f22e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f22e19]: →
+    - generic [ref=f22e20]:
+      - generic [ref=f22e21]:
+        - generic [ref=f22e22]:
+          - paragraph [ref=f22e23]: Exhibition / Past / 2025
+          - link "All Exhibitions" [ref=f22e24] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - generic [aria-hidden] [ref=f22e25]: ←
+            - text: All Exhibitions
+        - heading "Naik City" [level=1] [ref=f22e26]:
+          - generic [ref=f22e28]: Naik
+          - generic [ref=f22e30]: City
+        - generic [ref=f22e31]:
+          - generic [ref=f22e32]:
+            - term [ref=f22e33]: Dates
+            - definition [ref=f22e34]: February 14 – 23, 2025
+          - generic [ref=f22e35]:
+            - term [ref=f22e36]: Venue
+            - definition [ref=f22e37]: EkChitra, Hyderabad
+          - generic [ref=f22e38]:
+            - term [ref=f22e39]: Works
+            - definition [ref=f22e40]: "04"
+          - generic [ref=f22e41]:
+            - term [ref=f22e42]: Photographs
+            - definition [ref=f22e43]: "12"
+      - img "Naik City — exhibition poster" [ref=f22e46]
+      - region [ref=f22e47]:
+        - generic [ref=f22e49]:
+          - paragraph [ref=f22e50]: "01"
+          - heading "Overview" [level=2] [ref=f22e51]
+        - generic [ref=f22e52]:
+          - paragraph [ref=f22e53]:
+            - generic "Rajesh Naik’s life is a thrilling blend of street smarts, rebellion, and artistic brilliance—crafted in the chaotic symphony of Hyderabad’s Old City. Born to an auto driver, Naik didn’t just watch life pass by from the sidelines. By the time he was in seventh grade, he was behind the wheel of his father’s autorickshaw. Nights became his domain, where legality took a back seat, and the auto became his trusted sidekick and partner in adventure." [ref=f22e54]:
+              - generic [ref=f22e56]: Rajesh
+              - generic [ref=f22e58]: Naik’s
+              - generic [ref=f22e60]: life
+              - generic [ref=f22e62]: is
+              - generic [ref=f22e64]: a
+              - generic [ref=f22e66]: thrilling
+              - generic [ref=f22e68]: blend
+              - generic [ref=f22e70]: of
+              - generic [ref=f22e72]: street
+              - generic [ref=f22e74]: smarts,
+              - generic [ref=f22e76]: rebellion,
+              - generic [ref=f22e78]: and
+              - generic [ref=f22e80]: artistic
+              - generic [ref=f22e82]: brilliance—crafted
+              - generic [ref=f22e84]: in
+              - generic [ref=f22e86]: the
+              - generic [ref=f22e88]: chaotic
+              - generic [ref=f22e90]: symphony
+              - generic [ref=f22e92]: of
+              - generic [ref=f22e94]: Hyderabad’s
+              - generic [ref=f22e96]: Old
+              - generic [ref=f22e98]: City.
+              - generic [ref=f22e100]: Born
+              - generic [ref=f22e102]: to
+              - generic [ref=f22e104]: an
+              - generic [ref=f22e106]: auto
+              - generic [ref=f22e108]: driver,
+              - generic [ref=f22e110]: Naik
+              - generic [ref=f22e112]: didn’t
+              - generic [ref=f22e114]: just
+              - generic [ref=f22e116]: watch
+              - generic [ref=f22e118]: life
+              - generic [ref=f22e120]: pass
+              - generic [ref=f22e122]: by
+              - generic [ref=f22e124]: from
+              - generic [ref=f22e126]: the
+              - generic [ref=f22e128]: sidelines.
+              - generic [ref=f22e130]: By
+              - generic [ref=f22e132]: the
+              - generic [ref=f22e134]: time
+              - generic [ref=f22e136]: he
+              - generic [ref=f22e138]: was
+              - generic [ref=f22e140]: in
+              - generic [ref=f22e142]: seventh
+              - generic [ref=f22e144]: grade,
+              - generic [ref=f22e146]: he
+              - generic [ref=f22e148]: was
+              - generic [ref=f22e150]: behind
+              - generic [ref=f22e152]: the
+              - generic [ref=f22e154]: wheel
+              - generic [ref=f22e156]: of
+              - generic [ref=f22e158]: his
+              - generic [ref=f22e160]: father’s
+              - generic [ref=f22e162]: autorickshaw.
+              - generic [ref=f22e164]: Nights
+              - generic [ref=f22e166]: became
+              - generic [ref=f22e168]: his
+              - generic [ref=f22e170]: domain,
+              - generic [ref=f22e172]: where
+              - generic [ref=f22e174]: legality
+              - generic [ref=f22e176]: took
+              - generic [ref=f22e178]: a
+              - generic [ref=f22e180]: back
+              - generic [ref=f22e182]: seat,
+              - generic [ref=f22e184]: and
+              - generic [ref=f22e186]: the
+              - generic [ref=f22e188]: auto
+              - generic [ref=f22e190]: became
+              - generic [ref=f22e192]: his
+              - generic [ref=f22e194]: trusted
+              - generic [ref=f22e196]: sidekick
+              - generic [ref=f22e198]: and
+              - generic [ref=f22e200]: partner
+              - generic [ref=f22e202]: in
+              - generic [ref=f22e204]: adventure.
+          - generic [ref=f22e205]:
+            - paragraph [ref=f22e207]: The night had its own rhythm, and Naik thrived in it. Driving through the bustling lanes, he mingled with people from every corner of society. From street hustlers to late-night dreamers, every interaction gave Naik a crash course in humanity—particularly the quirky behaviors that surface after dark. For Naik, the city wasn’t just alive; it was a living, breathing storybook, begging to be explored.
+            - paragraph [ref=f22e209]: But Naik wasn’t all work and no play. Oh no! This guy had a rebellious streak a mile wide. Selling movie tickets in black? Check. Betting on bike races? Absolutely. Hanging out with his crew who loved rapping and street culture?
+            - paragraph [ref=f22e211]: Of course! Yet, amid all the street smarts and mischief, Naik had a burning love for art. Shaping his creative journey from an early age. His vivid color palette and attention to detail, a signature of his work, were deeply rooted in the vibrant world of his childhood. Growing up surrounded by the lively hues of the Lambada community and the intricate, colorful embroideries crafted by his mother, he absorbed a love for brightness and energy.
+      - region [ref=f22e212]:
+        - generic [ref=f22e213]:
+          - paragraph [ref=f22e214]: "02"
+          - heading "In the gallery" [level=2] [ref=f22e215]
+          - paragraph [ref=f22e216]:
+            - text: "01"
+            - generic [ref=f22e217]: / 12
+        - list [ref=f22e218]:
+          - listitem [ref=f22e219]:
+            - img "Naik City at EkChitra, view 1 of 12" [ref=f22e220]
+          - listitem [ref=f22e221]:
+            - img "Naik City at EkChitra, view 2 of 12" [ref=f22e222]
+          - listitem [ref=f22e223]:
+            - img "Naik City at EkChitra, view 3 of 12" [ref=f22e224]
+          - listitem [ref=f22e225]:
+            - img "Naik City at EkChitra, view 4 of 12" [ref=f22e226]
+          - listitem [ref=f22e227]:
+            - img "Naik City at EkChitra, view 5 of 12" [ref=f22e228]
+          - listitem [ref=f22e229]:
+            - img "Naik City at EkChitra, view 6 of 12" [ref=f22e230]
+          - listitem [ref=f22e231]:
+            - img "Naik City at EkChitra, view 7 of 12" [ref=f22e232]
+          - listitem [ref=f22e233]:
+            - img "Naik City at EkChitra, view 8 of 12" [ref=f22e234]
+          - listitem [ref=f22e235]:
+            - img "Naik City at EkChitra, view 9 of 12" [ref=f22e236]
+          - listitem [ref=f22e237]:
+            - img "Naik City at EkChitra, view 10 of 12" [ref=f22e238]
+          - listitem [ref=f22e239]:
+            - img "Naik City at EkChitra, view 11 of 12" [ref=f22e240]
+          - listitem [ref=f22e241]:
+            - img "Naik City at EkChitra, view 12 of 12" [ref=f22e242]
+          - listitem [aria-hidden] [ref=f22e243]
+      - region [ref=f22e246]:
+        - generic [ref=f22e247]:
+          - generic [ref=f22e248]:
+            - paragraph [ref=f22e249]: "03"
+            - paragraph [ref=f22e250]: Works
+          - heading "Works in the exhibition" [level=2] [ref=f22e251]
+        - list [ref=f22e252]:
+          - listitem [ref=f22e253]:
+            - img "Chal Mere Ghose Tik Tik Tik... by Rajesh Naik" [ref=f22e255]
+            - generic [ref=f22e256]:
+              - generic [ref=f22e257]: "01"
+              - generic [ref=f22e258]:
+                - heading "Chal Mere Ghose Tik Tik Tik..." [level=3] [ref=f22e259]
+                - paragraph [ref=f22e260]:
+                  - link "Rajesh Naik" [ref=f22e261] [cursor=pointer]:
+                    - /url: /ekchitra-v6/artists/rajesh-naik
+                - paragraph [ref=f22e262]: Metal · 36 X 30 inches · 2024
+                - link "Enquire" [ref=f22e263] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Chal%20Mere%20Ghose%20Tik%20Tik%20Tik...%22%20by%20Rajesh%20Naik%20from%20Naik%20City.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f22e264]: →
+          - listitem [ref=f22e265]:
+            - img "Mehnat ka fal Jarur Milega by Rajesh Naik" [ref=f22e267]
+            - generic [ref=f22e268]:
+              - generic [ref=f22e269]: "02"
+              - generic [ref=f22e270]:
+                - heading "Mehnat ka fal Jarur Milega" [level=3] [ref=f22e271]
+                - paragraph [ref=f22e272]:
+                  - link "Rajesh Naik" [ref=f22e273] [cursor=pointer]:
+                    - /url: /ekchitra-v6/artists/rajesh-naik
+                - paragraph [ref=f22e274]: Metal · 36 X 30 inches · 2024
+                - link "Enquire" [ref=f22e275] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Mehnat%20ka%20fal%20Jarur%20Milega%22%20by%20Rajesh%20Naik%20from%20Naik%20City.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f22e276]: →
+          - listitem [ref=f22e277]:
+            - img "Hirani Jaisi Chaal Rajini Jaisi Kamaal by Rajesh Naik" [ref=f22e279]
+            - generic [ref=f22e280]:
+              - generic [ref=f22e281]: "03"
+              - generic [ref=f22e282]:
+                - heading "Hirani Jaisi Chaal Rajini Jaisi Kamaal" [level=3] [ref=f22e283]
+                - paragraph [ref=f22e284]:
+                  - link "Rajesh Naik" [ref=f22e285] [cursor=pointer]:
+                    - /url: /ekchitra-v6/artists/rajesh-naik
+                - paragraph [ref=f22e286]: Metal · 36 X 30 inches · 2024
+                - link "Enquire" [ref=f22e287] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Hirani%20Jaisi%20Chaal%20Rajini%20Jaisi%20Kamaal%22%20by%20Rajesh%20Naik%20from%20Naik%20City.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f22e288]: →
+          - listitem [ref=f22e289]:
+            - img "Hathi Mera Sathi by Rajesh Naik" [ref=f22e291]
+            - generic [ref=f22e292]:
+              - generic [ref=f22e293]: "04"
+              - generic [ref=f22e294]:
+                - heading "Hathi Mera Sathi" [level=3] [ref=f22e295]
+                - paragraph [ref=f22e296]:
+                  - link "Rajesh Naik" [ref=f22e297] [cursor=pointer]:
+                    - /url: /ekchitra-v6/artists/rajesh-naik
+                - paragraph [ref=f22e298]: Metal · 36 X 30 inches · 2024
+                - link "Enquire" [ref=f22e299] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Hathi%20Mera%20Sathi%22%20by%20Rajesh%20Naik%20from%20Naik%20City.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f22e300]: →
+      - region "Next exhibition" [ref=f22e301]:
+        - link "Next exhibition / Past House of Unified Expression August 30 – 29 Sept, 2025" [ref=f22e302] [cursor=pointer]:
+          - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+          - generic [ref=f22e303]:
+            - paragraph [ref=f22e304]:
+              - text: Next exhibition
+              - generic [ref=f22e305]: / Past
+            - paragraph [ref=f22e306]: House of Unified Expression
+            - generic [ref=f22e307]:
+              - text: August 30 – 29 Sept, 2025
+              - generic [aria-hidden] [ref=f22e308]: →
+        - link "All Exhibitions" [ref=f22e310] [cursor=pointer]:
+          - /url: /ekchitra-v6/exhibitions
+          - text: All Exhibitions
+          - generic [aria-hidden] [ref=f22e311]: →
+    - generic [ref=f22e312]:
+      - generic [ref=f22e313]:
+        - generic [ref=f22e314]:
+          - paragraph [ref=f22e315]: Gallery
+          - list [ref=f22e316]:
+            - listitem [ref=f22e317]:
+              - link "About" [ref=f22e318] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f22e319]:
+              - link "Exhibitions" [ref=f22e320] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f22e321]:
+              - link "Artists" [ref=f22e322] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f22e323]:
+              - link "Artworks" [ref=f22e324] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f22e325]:
+              - link "Services" [ref=f22e326] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f22e327]:
+              - link "Contact" [ref=f22e328] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f22e329]:
+          - paragraph [ref=f22e330]: Connect
+          - list [ref=f22e331]:
+            - listitem [ref=f22e332]:
+              - link "Instagram" [ref=f22e333] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f22e334]:
+              - link "WhatsApp" [ref=f22e335] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f22e336]:
+          - paragraph [ref=f22e337]: Get in touch
+          - list [ref=f22e338]:
+            - listitem [ref=f22e339]:
+              - link "info@ekchitra.com" [ref=f22e340] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f22e341]:
+              - link "+91 91001 18321" [ref=f22e342] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f22e343]:
+          - paragraph [ref=f22e344]: Visit
+          - paragraph [ref=f22e345]:
+            - generic [ref=f22e346]: F94M+52P, Surya Enclave,
+            - generic [ref=f22e347]: HITEC City, Hyderabad,
+            - generic [ref=f22e348]: Telangana 500081
+          - list [ref=f22e349]:
+            - listitem [ref=f22e350]:
+              - link "Directions" [ref=f22e351] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f22e352]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f22e358] [cursor=pointer]

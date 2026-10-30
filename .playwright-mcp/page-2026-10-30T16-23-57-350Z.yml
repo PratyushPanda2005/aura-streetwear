@@ -1,0 +1,581 @@
+- generic [active] [ref=f68e1]:
+  - generic [ref=f68e8]:
+    - generic [ref=f68e10]:
+      - generic [ref=f68e11]: "0"
+      - generic [ref=f68e12]: "1"
+      - generic [ref=f68e13]: "2"
+      - generic [ref=f68e14]: "3"
+      - generic [ref=f68e15]: "4"
+      - generic [ref=f68e16]: "5"
+      - generic [ref=f68e17]: "6"
+      - generic [ref=f68e18]: "7"
+      - generic [ref=f68e19]: "8"
+      - generic [ref=f68e20]: "9"
+      - generic [ref=f68e21]: "0"
+    - generic [ref=f68e23]:
+      - generic [ref=f68e24]: "0"
+      - generic [ref=f68e25]: "1"
+      - generic [ref=f68e26]: "2"
+      - generic [ref=f68e27]: "3"
+      - generic [ref=f68e28]: "4"
+      - generic [ref=f68e29]: "5"
+      - generic [ref=f68e30]: "6"
+      - generic [ref=f68e31]: "7"
+      - generic [ref=f68e32]: "8"
+      - generic [ref=f68e33]: "9"
+      - generic [ref=f68e34]: "0"
+    - generic [ref=f68e36]:
+      - generic [ref=f68e37]: "0"
+      - generic [ref=f68e38]: "1"
+      - generic [ref=f68e39]: "2"
+      - generic [ref=f68e40]: "3"
+      - generic [ref=f68e41]: "4"
+      - generic [ref=f68e42]: "5"
+      - generic [ref=f68e43]: "6"
+      - generic [ref=f68e44]: "7"
+      - generic [ref=f68e45]: "8"
+      - generic [ref=f68e46]: "9"
+      - generic [ref=f68e47]: "0"
+  - generic [ref=f68e50]:
+    - navigation [ref=f68e51]:
+      - generic [ref=f68e52]:
+        - button "News Feed" [ref=f68e53] [cursor=pointer]
+        - button "Press Release" [ref=f68e54] [cursor=pointer]
+        - link "Home" [ref=f68e55] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f68e58]:
+          - generic [ref=f68e59]:
+            - status [ref=f68e60]
+            - button "Loading..." [ref=f68e61] [cursor=pointer]
+            - generic [ref=f68e65]:
+              - button "£ GBP British Pound" [ref=f68e66] [cursor=pointer]:
+                - generic [ref=f68e67]: £
+                - generic [ref=f68e68]:
+                  - generic [ref=f68e69]: GBP
+                  - generic [ref=f68e70]: British Pound
+              - button "€ EUR Euro" [ref=f68e71] [cursor=pointer]:
+                - generic [ref=f68e72]: €
+                - generic [ref=f68e73]:
+                  - generic [ref=f68e74]: EUR
+                  - generic [ref=f68e75]: Euro
+              - button "$ USD United States Dollar" [ref=f68e76] [cursor=pointer]:
+                - generic [ref=f68e77]: $
+                - generic [ref=f68e78]:
+                  - generic [ref=f68e79]: USD
+                  - generic [ref=f68e80]: United States Dollar
+              - button "R ZAR South African Rand" [ref=f68e81] [cursor=pointer]:
+                - generic [ref=f68e82]: R
+                - generic [ref=f68e83]:
+                  - generic [ref=f68e84]: ZAR
+                  - generic [ref=f68e85]: South African Rand
+          - button "Cart" [ref=f68e86] [cursor=pointer]
+          - button "Enquiry List" [ref=f68e90] [cursor=pointer]
+          - button "Account" [ref=f68e93] [cursor=pointer]
+          - button "Menu" [ref=f68e97] [cursor=pointer]
+        - generic [ref=f68e98]:
+          - button "Support" [ref=f68e100] [cursor=pointer]
+          - generic [ref=f68e109]:
+            - generic [ref=f68e112]:
+              - searchbox "Search" [ref=f68e113]
+              - generic: Search
+            - generic [ref=f68e115]:
+              - list [ref=f68e116]:
+                - listitem [ref=f68e117]:
+                  - link "Artists" [ref=f68e118] [cursor=pointer]:
+                    - /url: /artists
+                - listitem [ref=f68e119]:
+                  - link "Exhibitions" [ref=f68e120] [cursor=pointer]:
+                    - /url: /exhibitions
+                - listitem [ref=f68e121]:
+                  - link "Fairs" [ref=f68e122] [cursor=pointer]:
+                    - /url: /fairs
+                - listitem [ref=f68e123]:
+                  - link "Films" [ref=f68e124] [cursor=pointer]:
+                    - /url: /films
+                - listitem [ref=f68e125]:
+                  - link "Screenings" [ref=f68e126] [cursor=pointer]:
+                    - /url: /william-kentridge-goodman-screenings
+                - listitem [ref=f68e127]:
+                  - link "Gift Store" [ref=f68e128] [cursor=pointer]:
+                    - /url: /shop
+                - listitem [ref=f68e129]:
+                  - link "Available Works" [ref=f68e130] [cursor=pointer]:
+                    - /url: /available-artworks
+              - list [ref=f68e131]:
+                - listitem [ref=f68e132]:
+                  - link "About" [ref=f68e133] [cursor=pointer]:
+                    - /url: /about
+                - listitem [ref=f68e134]:
+                  - link "Contact" [ref=f68e135] [cursor=pointer]:
+                    - /url: /contact
+                - listitem [ref=f68e136]:
+                  - link "Curatorial Initiatives" [ref=f68e137] [cursor=pointer]:
+                    - /url: /curatorial-initiatives
+                - listitem [ref=f68e138]:
+                  - link "Advisory" [ref=f68e139] [cursor=pointer]:
+                    - /url: /goodman-advisory
+                - listitem [ref=f68e140]:
+                  - link "Secondary Market" [ref=f68e141] [cursor=pointer]:
+                    - /url: /secondary-market
+                - listitem [ref=f68e142]:
+                  - link "What's On" [ref=f68e143] [cursor=pointer]:
+                    - /url: /programme
+                - listitem [ref=f68e144]:
+                  - link "News" [ref=f68e145] [cursor=pointer]:
+                    - /url: /news
+                - listitem [ref=f68e146]:
+                  - link "Press" [ref=f68e147] [cursor=pointer]:
+                    - /url: /press
+              - generic [ref=f68e148]:
+                - generic [ref=f68e149]: Follow
+                - list [ref=f68e151]:
+                  - listitem [ref=f68e152]:
+                    - link "Follow us on Instagram" [ref=f68e153] [cursor=pointer]:
+                      - /url: https://www.instagram.com/goodman_gallery/
+                  - listitem [ref=f68e155]:
+                    - link "Follow us on Facebook" [ref=f68e156] [cursor=pointer]:
+                      - /url: https://www.facebook.com/GoodmanGallery
+                  - listitem [ref=f68e158]:
+                    - link "Follow us on YouTube" [ref=f68e159] [cursor=pointer]:
+                      - /url: https://www.youtube.com/@goodman_gallery
+              - button "Subscribe and discover unlimited access to Goodman Gallery Subscribe Discover unlimited access to Goodman Subscribe" [ref=f68e162] [cursor=pointer]:
+                - img "Subscribe and discover unlimited access to Goodman Gallery" [ref=f68e164]
+                - generic [ref=f68e165]:
+                  - generic [ref=f68e166]:
+                    - generic [ref=f68e167]: Subscribe
+                    - paragraph [ref=f68e170]: Discover unlimited access to Goodman
+                  - generic [ref=f68e171]: Subscribe
+          - generic [ref=f68e172]:
+            - link "Goodman Gallery Home" [ref=f68e173] [cursor=pointer]:
+              - /url: /
+            - generic [ref=f68e176]:
+              - generic [ref=f68e177]: Account
+              - generic [ref=f68e181]:
+                - generic [ref=f68e182]: Browse
+                - generic [ref=f68e183]: available
+                - generic [ref=f68e184]: artworks,
+                - generic [ref=f68e185]: view
+                - generic [ref=f68e186]: pricing
+                - generic [ref=f68e187]: "on"
+                - generic [ref=f68e188]: selected
+                - generic [ref=f68e189]: works,
+                - generic [ref=f68e190]: and
+                - generic [ref=f68e191]: purchase
+                - generic [ref=f68e192]: with
+                - generic [ref=f68e193]: confidence
+                - generic [ref=f68e194]: through
+                - generic [ref=f68e195]: our
+                - generic [ref=f68e196]: online
+                - generic [ref=f68e197]: Shop.
+              - link "My Account" [ref=f68e199] [cursor=pointer]:
+                - /url: /account
+    - main [ref=f68e200]:
+      - generic [ref=f68e202]:
+        - generic [ref=f68e203]:
+          - heading "William Kentridge A Nicely Built City" [level=1] [ref=f68e204]:
+            - generic [ref=f68e206]:
+              - generic [ref=f68e207]: William
+              - generic [ref=f68e208]: Kentridge
+            - generic [ref=f68e210]:
+              - generic [ref=f68e211]: A
+              - generic [ref=f68e212]: Nicely
+              - generic [ref=f68e213]: Built
+              - generic [ref=f68e214]: City
+          - generic [ref=f68e215]:
+            - generic [ref=f68e216]: London
+            - generic [ref=f68e219]: 24 Sep - 07 Nov 2026
+        - img "Alt" [ref=f68e222]
+      - generic [ref=f68e226]:
+        - paragraph [ref=f68e227]:
+          - strong [ref=f68e228]: Dates
+          - text: 24 Septmeber – 07 November 2026
+        - paragraph [ref=f68e229]:
+          - strong [ref=f68e230]: Location
+          - text: 26 Cork St, London W1S 3ND
+        - paragraph
+        - paragraph [ref=f68e231]:
+          - text: Goodman Gallery London presents the global premiere of South African artist and theatre director William Kentridge’s new stop-animation film,
+          - emphasis [ref=f68e232]: A Nicely Built City (Never Resists Destruction)
+          - text: ", the twelfth film in his globally acclaimed cycle of"
+          - emphasis [ref=f68e233]: Drawings for Projection
+          - text: (1989–ongoing). The film forms part of a wide-ranging presentation of new drawings, sculptures and editioned works on paper linked to two major projects, shown together in the gallery’s London gallery under the title
+          - emphasis [ref=f68e234]: A Nicely Built City
+          - text: .
+        - paragraph
+        - paragraph [ref=f68e235]:
+          - link "Visit the gallery - directions" [ref=f68e236] [cursor=pointer]:
+            - /url: https://www.google.com/maps/place/Goodman+Gallery+London/@51.5103986,-0.1439104,17z/data=!3m1!4b1!4m6!3m5!1s0x4876056ee5495bd7:0xc130edb42e6acf2d!8m2!3d51.5103986!4d-0.1413355!16s%2Fg%2F11h_syf8px?entry=tts&g_ep=EgoyMDI1MDEyMC4wIPu8ASoASAFQAw%3D%3D
+      - generic [ref=f68e241]:
+        - generic [ref=f68e242]:
+          - generic [ref=f68e243]: Insight
+          - generic [ref=f68e244]:
+            - generic [ref=f68e245]: William Kentridge
+            - heading "Walkthrough with William Kentridge" [level=3] [ref=f68e246]
+          - generic [ref=f68e249]: 02:31
+        - 'button "Watch Film: Walkthrough with William Kentridge" [ref=f68e250] [cursor=pointer]'
+      - generic [ref=f68e251]:
+        - generic [ref=f68e252]:
+          - heading "Preview the Works" [level=2] [ref=f68e254]
+          - generic [ref=f68e255]:
+            - paragraph [ref=f68e256]: Create a Goodman Gallery account to view our full selection of available works, access pricing and check out online.
+            - generic [ref=f68e257]:
+              - link "Log In" [ref=f68e258] [cursor=pointer]:
+                - /url: /login
+              - link "Create Account" [ref=f68e259] [cursor=pointer]:
+                - /url: /create-account
+          - button "View All Artworks" [ref=f68e260] [cursor=pointer]
+        - generic [ref=f68e261]:
+          - generic [ref=f68e262]:
+            - button "View Drawing for A Nicely Built City (Money Which Was Truth) details" [ref=f68e263] [cursor=pointer]
+            - img "Alt" [ref=f68e266]
+            - generic: William Kentridge
+            - generic [ref=f68e267]: Drawing for A Nicely Built City (Money Which Was Truth), 2024
+            - button "Enquire" [ref=f68e269] [cursor=pointer]
+          - generic [ref=f68e270]:
+            - button "View Drawing for A Nicely Built City (House with pool) details" [ref=f68e271] [cursor=pointer]
+            - img "Alt" [ref=f68e274]
+            - generic: William Kentridge
+            - generic [ref=f68e275]: Drawing for A Nicely Built City (House with pool), 2026
+            - button "Enquire" [ref=f68e277] [cursor=pointer]
+          - generic [ref=f68e278]:
+            - button "View Drawing for A Nicely Built City (Soho at window) details" [ref=f68e279] [cursor=pointer]
+            - img "Alt" [ref=f68e282]
+            - generic: William Kentridge
+            - generic [ref=f68e283]: Drawing for A Nicely Built City (Soho at window), 2026
+            - button "Enquire" [ref=f68e285] [cursor=pointer]
+          - generic [ref=f68e286]:
+            - button "View Drawing for A Nicely Built City (Trees and structure) details" [ref=f68e287] [cursor=pointer]
+            - img "Alt" [ref=f68e290]
+            - generic: William Kentridge
+            - generic [ref=f68e291]: Drawing for A Nicely Built City (Trees and structure), 2026
+            - button "Enquire" [ref=f68e293] [cursor=pointer]
+          - generic [ref=f68e294]:
+            - button "View Drawing for A Nicely Built City (Bree Street) details" [ref=f68e295] [cursor=pointer]
+            - img "Alt" [ref=f68e298]
+            - generic: William Kentridge
+            - generic [ref=f68e299]: Drawing for A Nicely Built City (Bree Street), 2026
+            - button "Enquire" [ref=f68e301] [cursor=pointer]
+          - generic [ref=f68e302]:
+            - button "View Drawing for A Nicely Built City (Crowd) details" [ref=f68e303] [cursor=pointer]
+            - img "Alt" [ref=f68e306]
+            - generic: William Kentridge
+            - generic [ref=f68e307]: Drawing for A Nicely Built City (Crowd), 2026
+            - button "Enquire" [ref=f68e309] [cursor=pointer]
+          - generic [ref=f68e310]:
+            - button "View Drawing for A Nicely Built City (Cat and newspaper) details" [ref=f68e311] [cursor=pointer]
+            - img "Alt" [ref=f68e314]
+            - generic: William Kentridge
+            - generic [ref=f68e315]: Drawing for A Nicely Built City (Cat and newspaper), 2026
+            - button "Enquire" [ref=f68e317] [cursor=pointer]
+          - generic [ref=f68e318]:
+            - button "View Drawing for L'Orfeo (Oak Tree) details" [ref=f68e319] [cursor=pointer]
+            - img "Alt" [ref=f68e322]
+            - generic: William Kentridge
+            - generic [ref=f68e323]: Drawing for L'Orfeo (Oak Tree), 2024
+            - button "Enquire" [ref=f68e325] [cursor=pointer]
+          - generic [ref=f68e326]:
+            - button "View Composite for L'Orfeo (Roads Measured from Shoreditch Church) details" [ref=f68e327] [cursor=pointer]
+            - img "Alt" [ref=f68e330]
+            - generic: William Kentridge
+            - generic [ref=f68e331]: Composite for L'Orfeo (Roads Measured from Shoreditch Church), 2026
+            - button "Enquire" [ref=f68e333] [cursor=pointer]
+          - generic [ref=f68e334]:
+            - button "View Carousel for Eurydice details" [ref=f68e335] [cursor=pointer]
+            - img "Alt" [ref=f68e338]
+            - generic: William Kentridge
+            - generic [ref=f68e339]: Carousel for Eurydice, 2026
+            - button "Enquire" [ref=f68e341] [cursor=pointer]
+          - generic [ref=f68e342]:
+            - link "View Speranza details" [ref=f68e343] [cursor=pointer]:
+              - /url: /artists/william-kentridge-greta-goiris/speranza-161383
+            - img "Alt" [ref=f68e346]
+            - generic: William Kentridge & Greta Goiris
+            - generic [ref=f68e347]: Speranza, 2025
+            - button "Enquire" [ref=f68e349] [cursor=pointer]
+          - generic [ref=f68e350]:
+            - button "View Prologue details" [ref=f68e351] [cursor=pointer]
+            - img "Alt" [ref=f68e354]
+            - generic: William Kentridge & Greta Goiris
+            - generic [ref=f68e355]: Prologue, 2025
+            - button "Enquire" [ref=f68e357] [cursor=pointer]
+          - generic [ref=f68e358]:
+            - button "View Drawing for L'Orfeo (Boulders) details" [ref=f68e359] [cursor=pointer]
+            - img "Alt" [ref=f68e362]
+            - generic: William Kentridge
+            - generic [ref=f68e363]: Drawing for L'Orfeo (Boulders), 2025
+            - button "Enquire" [ref=f68e365] [cursor=pointer]
+      - generic [ref=f68e366]: "\"Characterised by the artist as a return to basics, in particular to charcoal drawing and filmmaking, the exhibition includes a studio-like display of original drawings from A Nicely Built City (Never Resists Destruction).\""
+      - img "William Kentridge soho film a nicely built city goodman gallery London" [ref=f68e371]
+      - generic [ref=f68e375]:
+        - generic [ref=f68e376]:
+          - generic [ref=f68e377]: In the Studio
+          - generic [ref=f68e378]:
+            - generic [ref=f68e379]: William Kentridge
+            - heading "Making ‘A Nicely Built City’ – premiering in London this September" [level=3] [ref=f68e380]
+          - generic [ref=f68e383]: 03:25
+        - 'button "Watch Film: Making ‘A Nicely Built City’ – premiering in London this September" [ref=f68e384] [cursor=pointer]'
+      - generic [ref=f68e386]:
+        - generic [ref=f68e389]:
+          - paragraph [ref=f68e390]:
+            - text: Developed and produced over nine months in the artist’s Johannesburg studio, the title for the new film is adapted from a West African proverb, “A nicely built city never resists destruction”. It forms part of an informal collection of aphorisms that Kentridge first used in an etching series published by Caversham Press in 1995. Repurposed and qualified with the introduction of parentheses,
+            - emphasis [ref=f68e391]: A Nicely Built City (Never Resists Destruction)
+            - text: immerses the viewer in contemporary Johannesburg, a post-colonial city racked by infrastructural and environmental challenges as it adapts from its foundational gold-mining economy.
+          - paragraph
+          - paragraph [ref=f68e392]: Merging social and personal biography, this elegiac film summons events familiar to the city’s dogged residents, including trees stricken by the fungus of a non-indigenous beetle and a fictional reimagining of the July 2023 methane gas explosion that destroyed parts of Bree Street in central Johannesburg. The action of the film moves between the turbulent commons of Johannesburg’s city streets and the sedate modernist home of industrialist Soho Eckstein, a central protagonist in Kentridge’s evolving cycle of films.
+          - paragraph
+          - paragraph [ref=f68e393]:
+            - text: “In 1989, when I made
+            - emphasis [ref=f68e394]: Johannesburg, 2nd Greatest City After Paris
+            - text: ", Soho Eckstein was a much older man,” says Kentridge of his fictional protagonist and proxy for avarice. “I was the age of Felix Teitelbaum, the other protagonist in the early films. In the 37 years that have followed, Soho hasn’t really aged, but I have. What used to be a very external, antagonistic character has, over the years, by default, become closer to me. The challenge for me as an artist has always been to find a connection between my life and the life of Johannesburg, and the world of Soho in the films.”"
+          - paragraph
+          - paragraph [ref=f68e395]: Integral to the action of the film is Soho Eckstein’s unnamed black cat. It meanders between frames, in one scene offering comfort to Soho, in another dancing on its hind legs, and in yet another arriving like a herald before a violent inner-city explosion. The cat is a resident motif in Kentridge’s bountiful oeuvre, at once biographically linked to the childhood gift of a cat print by artist Cecil Skotnes and simply a convenient formal device.Music in the film soundtrack composed by Philip Miller.
+        - img "William Kentridge London goodman gallery a nicely built city cat drawing charcoal" [ref=f68e399]
+      - generic [ref=f68e401]:
+        - paragraph [ref=f68e405]:
+          - text: The presentation also includes a suite of six figural sculptures produced in collaboration with renowned Belgian costume designer Greta Goiris. Made from wood, fabric and found materials, the sculptures are based on studio models for costumes worn by actors portraying the spirits of the underworld in
+          - emphasis [ref=f68e406]: L’Orfeo
+          - text: . There is also a suite of composite ink drawings inventorying classical forms and figures appearing in the opera and linked to Kentridge’s bountiful visual language.
+        - img "puppets William Kentridge goodman gallery London a nicely built city" [ref=f68e410]
+      - generic [ref=f68e412]:
+        - generic [ref=f68e415]:
+          - paragraph [ref=f68e416]:
+            - text: A recurring motif in Kentridge’s mature output, meriting a spotlight section in his 2022 survey exhibition at the Royal Academy in London, trees not only gesture to the leafy landscape of Houghton, where Kentridge lives and maintains a studio, but also connect to the figure of Eurydice. In Monteverdi’s opera
+            - emphasis [ref=f68e417]: L’Orfeo
+            - text: ", Orpheus journeys to Hades to retrieve his dead bride Eurydice, an oak tree nymph or dryad. Arboreal motifs also recur in"
+            - emphasis [ref=f68e418]: A Nicely Built City (Never Resists Destruction)
+            - text: ", a film in which ruined buildings – based on contemporary images of Caracas, Gaza, Johannesburg, Tehran and Tel Aviv – transform into trees."
+          - paragraph
+          - paragraph [ref=f68e419]:
+            - text: The exhibition also gathers a number of works developed in relation to Kentridge’s production of
+            - emphasis [ref=f68e420]: L’Orfeo
+            - text: at the 2026 Glyndebourne Festival.
+            - emphasis [ref=f68e421]: Orpheus, Eurydice, Hermes
+            - text: (2026) is a new Pepper’s Ghost film installation integrating workshop footage for
+            - emphasis [ref=f68e422]: L’Orfeo
+            - text: filmed in Johannesburg with works on paper, sculpture and found paper ephemera. Part of a lineage of mechanised theatres, like
+            - emphasis [ref=f68e423]: Black Box/Chambre Noire
+            - text: (2005), the format of this work evolved out of theatre projects at The Centre for the Less Good Idea, an interdisciplinary incubator established in 2016 by the artist.
+          - paragraph
+          - paragraph [ref=f68e424]:
+            - emphasis [ref=f68e425]: Orpheus, Eurydice, Hermes
+            - text: is the third example of this nineteenth-century optical illusion utilising a pane of glass and strategic lighting to make objects appear or disappear on stage. It will be exhibited at the National Archaeological Museum, Athens, to coincide with
+            - emphasis [ref=f68e426]: L’Orfeo
+            - text: at the Greek National Opera, in November 2026. The title of the installation derives from Rainer Maria Rilke’s 1904 poem “Orpheus. Eurydice. Hermes”, fragments of which Kentridge projected as backdrop to his production of
+            - emphasis [ref=f68e427]: L’Orfeo
+            - text: .
+        - img "William Kentridge goodman gallery London a nicely built city hologram orpheus" [ref=f68e431]
+      - 'link "Enquire about available works Request a preview Goodman Gallery presents William Kentridge: A Nicely Built City, a major solo exhibition in London opening 24 September 2026. The exhibition marks the global premiere of Kentridge''s new stop-animation film." [ref=f68e433] [cursor=pointer]':
+        - /url: mailto:sales@goodman-gallery.com
+        - generic [ref=f68e434]:
+          - generic [ref=f68e435]: Enquire about available works
+          - generic [ref=f68e436]: Request a preview
+        - 'img "Goodman Gallery presents William Kentridge: A Nicely Built City, a major solo exhibition in London opening 24 September 2026. The exhibition marks the global premiere of Kentridge''s new stop-animation film." [ref=f68e439]'
+      - heading "Installation Images" [level=2] [ref=f68e441]
+      - generic [ref=f68e443]:
+        - heading "Shop William Kentridge" [level=2] [ref=f68e444]
+        - link "Shop Now" [ref=f68e445] [cursor=pointer]:
+          - /url: /shop/collections/kentridge-collection
+      - generic [ref=f68e446]:
+        - generic [ref=f68e447]:
+          - link "Go to William Kentridge artist page" [ref=f68e448] [cursor=pointer]:
+            - /url: /artists/william-kentridge
+            - img "william-kentridge" [ref=f68e450]
+          - generic [ref=f68e451]:
+            - link "William Kentridge" [ref=f68e452] [cursor=pointer]:
+              - /url: /artists/william-kentridge
+            - link "View Artist Page" [ref=f68e453] [cursor=pointer]:
+              - /url: /artists/william-kentridge
+          - generic [ref=f68e454]:
+            - button "Download CV" [ref=f68e455] [cursor=pointer]
+            - generic [ref=f68e456]:
+              - link "Follow Artist" [ref=f68e457] [cursor=pointer]:
+                - /url: /create-account
+              - button "Share Artist" [ref=f68e459] [cursor=pointer]
+        - generic [ref=f68e460]:
+          - heading "Artist Bio" [level=2] [ref=f68e461]
+          - region "Artist Bio" [ref=f68e462]:
+            - generic [ref=f68e463]:
+              - paragraph [ref=f68e464]: William Kentridge (b. 1955, Johannesburg, South Africa) is internationally acclaimed for his drawings, films, theatre, and opera productions.
+              - paragraph [ref=f68e465]: In 2024, in Venice, Kentridge premiered a new nine-episode video series, 'Self-Portrait as a Coffee Pot' — a site-specific installation curated by long-time collaborator and curator Carolyn Christov-Bakargiev at the Arsenale Institute for Politics of Representation. Following this, in October, MUBI presented the New York premiere of 'William Kentridge’s Self-Portrait as a Coffee Pot'.
+              - paragraph [ref=f68e466]: In conjunction with the world premiere of his newly commissioned opera, 'The Great Yes, The Great No', which debuted at LUMA Arles in July 2024, the solo exhibition 'Je n’attends plus' (I’m Not Waiting Any Longer) presented a collection of major works, some of which had not previously been seen in Europe.
+              - paragraph [ref=f68e467]: Kentridge’s largest UK survey to date was held at the Royal Academy of Arts, London, in 2022. An iteration of the exhibition opened at the Taipei Fine Arts Museum in May 2024. In the same year, Kentridge opened another major survey exhibition, 'In Praise of Shadows', at The Broad, Los Angeles. In 2023, the exhibition travelled to the Museum of Fine Arts, Houston.
+              - paragraph [ref=f68e468]: In 2025, he presented 'The Pull of Gravity' at Yorkshire Sculpture Park, marking the first museum presentation outside South Africa to focus on his sculpture.
+              - paragraph [ref=f68e469]: Most recently, he opened 'I am not me, the horse is not mine' at Bozar in Brussels, Belgium and 'The Battle Between YES and NO' at Kunsthalle Praha, marking his first major exhibition in Czechia.
+              - paragraph [ref=f68e470]: Kentridge’s work has been exhibited internationally since the 1990s, including at Kunsthalle Praha (2026); Staatliche Kunstsammlungen Dresden (2025); Museum Folkwang (2025); LUMA Foundation, France (2024); Arsenale Institute for Politics of Representation, Venice (2024); Taipei Fine Arts Museum (2024); Museum of Modern Art, New York (1999, 2005, 2010); Albertina Museum, Vienna (2010); Musée du Louvre, Paris (2010); National Museum of Modern and Contemporary Art, Korea; Museo Reina Sofía, Madrid (2015); Kunstmuseum Basel (2019); and Norval Foundation, Cape Town (2019). The artist has also participated in major biennales, including Documenta, Kassel (1997, 2002, 2012) and the Venice Biennale (1993, 1999, 2005, 2013, 2015).
+              - paragraph [ref=f68e471]: Public collections include MoMA, New York; Tate Modern, London; Centre Pompidou, Paris; Haus der Kunst, Munich; Sharjah Art Foundation, Sharjah; National Museum of Modern Art, Kyoto; Guggenheim Abu Dhabi; and Zeitz MOCAA, Cape Town.
+              - paragraph [ref=f68e472]: Kentridge lives and works in Johannesburg, South Africa.
+      - generic [ref=f68e473]:
+        - heading "Other Exhibitions" [level=2] [ref=f68e474]
+        - link "See All" [ref=f68e475] [cursor=pointer]:
+          - /url: /exhibitions
+        - generic [ref=f68e476]:
+          - link "Kate Gottgens Unsteady Realms Museum 15 Sep 2026 - 07 Feb 2027 Alt" [ref=f68e477] [cursor=pointer]:
+            - /url: /exhibitions/unsteady-realms-kate-gottgens
+            - generic [ref=f68e478]:
+              - generic [ref=f68e479]:
+                - generic [ref=f68e480]: Kate Gottgens
+                - generic [ref=f68e481]: Unsteady Realms
+              - generic [ref=f68e482]:
+                - generic [ref=f68e483]: Museum
+                - generic [ref=f68e484]: 15 Sep 2026 - 07 Feb 2027
+            - img "Alt" [ref=f68e486]
+          - link "Mikhael Subotzky A Johannesburg Landscape (or Thirteen Tons Settled to Brick) Johannesburg 27 Aug - 31 Oct 2026 Alt" [ref=f68e487] [cursor=pointer]:
+            - /url: /exhibitions/a-johannesburg-landscape-or-thirteen-tons-settled-to-brick-mikhael-subotzky
+            - generic [ref=f68e488]:
+              - generic [ref=f68e489]:
+                - generic [ref=f68e490]: Mikhael Subotzky
+                - generic [ref=f68e491]: A Johannesburg Landscape (or Thirteen Tons Settled to Brick)
+              - generic [ref=f68e492]:
+                - generic [ref=f68e493]: Johannesburg
+                - generic [ref=f68e494]: 27 Aug - 31 Oct 2026
+            - img "Alt" [ref=f68e496]
+          - link "A Landscape in Motion A Group Presentation Cheetah Plains Private Game Reserve 01 Nov 2026 - 30 Apr 2027 Alt" [ref=f68e497] [cursor=pointer]:
+            - /url: /exhibitions/a-group-presentation-a-landscape-in-motion
+            - generic [ref=f68e498]:
+              - generic [ref=f68e499]:
+                - generic [ref=f68e500]: A Landscape in Motion
+                - generic [ref=f68e501]: A Group Presentation
+              - generic [ref=f68e502]:
+                - generic [ref=f68e503]: Cheetah Plains Private Game Reserve
+                - generic [ref=f68e504]: 01 Nov 2026 - 30 Apr 2027
+            - img "Alt" [ref=f68e506]
+    - contentinfo [ref=f68e507]:
+      - generic [ref=f68e508]:
+        - generic [ref=f68e509]:
+          - generic [ref=f68e510]: Newsletter
+          - paragraph [ref=f68e513]: Be the first to know about our events, exhibitions, artists and much more
+          - button "Subscribe" [ref=f68e514] [cursor=pointer]
+        - generic [ref=f68e515]:
+          - generic [ref=f68e516]: Follow
+          - list [ref=f68e517]:
+            - listitem [ref=f68e518]:
+              - link "Follow us on Instagram" [ref=f68e519] [cursor=pointer]:
+                - /url: https://www.instagram.com/goodman_gallery/
+            - listitem [ref=f68e521]:
+              - link "Follow us on Facebook" [ref=f68e522] [cursor=pointer]:
+                - /url: https://www.facebook.com/GoodmanGallery
+            - listitem [ref=f68e524]:
+              - link "Follow us on YouTube" [ref=f68e525] [cursor=pointer]:
+                - /url: https://www.youtube.com/@goodman_gallery
+        - tablist [ref=f68e528]:
+          - tab [ref=f68e529]:
+            - button "Gallery" [ref=f68e530]
+            - list [ref=f68e534]:
+              - listitem [ref=f68e535]:
+                - link "Artists" [ref=f68e536] [cursor=pointer]:
+                  - /url: /artists
+              - listitem [ref=f68e537]:
+                - link "Exhibitions" [ref=f68e538] [cursor=pointer]:
+                  - /url: /exhibitions
+              - listitem [ref=f68e539]:
+                - link "Fairs" [ref=f68e540] [cursor=pointer]:
+                  - /url: /fairs
+              - listitem [ref=f68e541]:
+                - link "Films" [ref=f68e542] [cursor=pointer]:
+                  - /url: /films
+              - listitem [ref=f68e543]:
+                - link "Screenings" [ref=f68e544] [cursor=pointer]:
+                  - /url: /william-kentridge-goodman-screenings
+              - listitem [ref=f68e545]:
+                - link "Gift Store" [ref=f68e546] [cursor=pointer]:
+                  - /url: /shop
+              - listitem [ref=f68e547]:
+                - link "Available Works" [ref=f68e548] [cursor=pointer]:
+                  - /url: /available-artworks
+              - listitem [ref=f68e549]:
+                - link "FAQs" [ref=f68e550] [cursor=pointer]:
+                  - /url: /faqs
+          - tab [ref=f68e551]:
+            - button "Company" [ref=f68e552]
+            - list [ref=f68e556]:
+              - listitem [ref=f68e557]:
+                - link "About" [ref=f68e558] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=f68e559]:
+                - link "Contact" [ref=f68e560] [cursor=pointer]:
+                  - /url: /contact
+              - listitem [ref=f68e561]:
+                - link "Curatorial Initiatives" [ref=f68e562] [cursor=pointer]:
+                  - /url: /curatorial-initiatives
+              - listitem [ref=f68e563]:
+                - link "Advisory" [ref=f68e564] [cursor=pointer]:
+                  - /url: /goodman-advisory
+              - listitem [ref=f68e565]:
+                - link "Secondary Market" [ref=f68e566] [cursor=pointer]:
+                  - /url: /secondary-market
+              - listitem [ref=f68e567]:
+                - link "What's On" [ref=f68e568] [cursor=pointer]:
+                  - /url: /programme
+              - listitem [ref=f68e569]:
+                - link "Headlines" [ref=f68e570] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=f68e571]:
+                - link "Press" [ref=f68e572] [cursor=pointer]:
+                  - /url: /press
+          - tab [ref=f68e573]:
+            - button "My Goodman Gallery" [ref=f68e574]
+            - list [ref=f68e578]:
+              - listitem [ref=f68e579]:
+                - link "My Account" [ref=f68e580] [cursor=pointer]:
+                  - /url: /account/collection
+              - listitem [ref=f68e581]:
+                - button "My Enquiries (0)" [ref=f68e582] [cursor=pointer]
+              - listitem [ref=f68e583]:
+                - button "My Cart (0)" [ref=f68e584] [cursor=pointer]
+          - tab [ref=f68e585]:
+            - button "Legals" [ref=f68e586]
+            - list [ref=f68e590]:
+              - listitem [ref=f68e591]:
+                - link "Terms of Use" [ref=f68e592] [cursor=pointer]:
+                  - /url: /legal/terms-of-use
+              - listitem [ref=f68e593]:
+                - link "Privacy Policy" [ref=f68e594] [cursor=pointer]:
+                  - /url: /legal/privacy-policy
+              - listitem [ref=f68e595]:
+                - link "Online Terms of Sale" [ref=f68e596] [cursor=pointer]:
+                  - /url: /legal/online-terms-of-sale
+              - listitem [ref=f68e597]:
+                - link "Modern Slavery Statement" [ref=f68e598] [cursor=pointer]:
+                  - /url: /legal/modern-slavery-statement
+              - listitem [ref=f68e599]:
+                - link "Cookie Policy" [ref=f68e600] [cursor=pointer]:
+                  - /url: /legal/cookie-policy
+              - listitem [ref=f68e601]:
+                - button "Cookie Settings" [ref=f68e602] [cursor=pointer]
+        - list [ref=f68e603]:
+          - listitem [ref=f68e604]:
+            - generic [ref=f68e605]: Johannesburg
+            - generic [ref=f68e606]:
+              - generic [ref=f68e607]: 163 Jan Smuts Ave
+              - generic [ref=f68e608]: Parkwood, Johannesburg
+              - generic [ref=f68e609]: South Africa
+            - link "Get Directions" [ref=f68e610] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/6jttENJHBLUr3AUn6
+          - listitem [ref=f68e611]:
+            - generic [ref=f68e612]: Cape Town
+            - generic [ref=f68e613]:
+              - generic [ref=f68e614]: 37A Somerset Rd,
+              - generic [ref=f68e615]: Green Point, Cape Town,
+              - generic [ref=f68e616]: South Africa
+            - link "Get Directions" [ref=f68e617] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/raq4V3R2YACS14fR7
+          - listitem [ref=f68e618]:
+            - generic [ref=f68e619]: London
+            - generic [ref=f68e620]:
+              - generic [ref=f68e621]: 26 Cork St,
+              - generic [ref=f68e622]: London W1S 3ND,
+              - generic [ref=f68e623]: United Kingdom
+            - link "Get Directions" [ref=f68e624] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/gqV9aNss3vrzAkVi9
+          - listitem [ref=f68e625]:
+            - generic [ref=f68e626]: New York
+            - generic [ref=f68e627]:
+              - generic [ref=f68e628]: +1 646 684 3022
+              - generic [ref=f68e629]: nyc@goodman-gallery.com
+              - generic [ref=f68e630]: United States
+        - generic [ref=f68e631]:
+          - generic [ref=f68e632]: © 2026 Goodman Gallery. All Rights Reserved.
+          - generic [ref=f68e633]:
+            - generic [ref=f68e634]: Site by
+            - link "DashDigital® Studio" [ref=f68e635] [cursor=pointer]:
+              - /url: https://dashdigital.studio

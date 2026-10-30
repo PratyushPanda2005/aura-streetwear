@@ -1,0 +1,726 @@
+- generic [active] [ref=f59e1]:
+  - generic [ref=f59e2]:
+    - link "Skip to content" [ref=f59e3] [cursor=pointer]:
+      - /url: "#main"
+    - main [ref=f59e4]:
+      - region [ref=f59e5]:
+        - generic [ref=f59e7]:
+          - navigation "Sections" [ref=f59e8]:
+            - paragraph [aria-hidden] [ref=f59e9]: "[-] Menu"
+            - list [ref=f59e10]:
+              - listitem [ref=f59e11]:
+                - link "[1] How it works" [ref=f59e12] [cursor=pointer]:
+                  - /url: "#how"
+              - listitem [ref=f59e13]:
+                - link "[2] For clients" [ref=f59e14] [cursor=pointer]:
+                  - /url: "#clients"
+              - listitem [ref=f59e15]:
+                - link "[3] Your data" [ref=f59e16] [cursor=pointer]:
+                  - /url: "#trust"
+              - listitem [ref=f59e17]:
+                - link "[4] Questions" [ref=f59e18] [cursor=pointer]:
+                  - /url: "#faq"
+          - link "Krew" [ref=f59e19] [cursor=pointer]:
+            - /url: /
+          - link "Join the pilot" [ref=f59e20] [cursor=pointer]:
+            - /url: "#waitlist"
+        - generic [ref=f59e22]:
+          - list [ref=f59e23]:
+            - listitem [ref=f59e24]:
+              - link "See how a job runs" [ref=f59e25] [cursor=pointer]:
+                - /url: "#how"
+            - listitem [ref=f59e28]:
+              - link "Is my data safe?" [ref=f59e29] [cursor=pointer]:
+                - /url: "#trust"
+            - listitem [ref=f59e32]:
+              - link "Questions" [ref=f59e33] [cursor=pointer]:
+                - /url: "#faq"
+          - paragraph [ref=f59e36]: From the first DM to getting paid. Krew keeps every client job in one place, for you and your crew.
+          - heading "Krew" [level=1] [ref=f59e37]:
+            - generic [aria-hidden] [ref=f59e39]:
+              - generic [ref=f59e40]: K
+              - generic [ref=f59e41]: R
+              - generic [ref=f59e42]: E
+              - generic [ref=f59e43]: W
+        - generic [aria-hidden]:
+          - generic: KREW
+      - generic [ref=f59e44]:
+        - region [ref=f59e45]:
+          - generic [ref=f59e46]:
+            - paragraph [ref=f59e47]: "[ The mess ]"
+            - heading "Right now, one job lives in four apps. Add a crew, and every question still comes back to you." [level=2] [ref=f59e48]:
+              - generic [ref=f59e49]: Right now, one job lives in four apps.
+              - generic [aria-hidden] [ref=f59e50]:
+                - generic [ref=f59e51]:
+                  - generic [ref=f59e52]: R
+                  - generic [ref=f59e53]: i
+                  - generic [ref=f59e54]: g
+                  - generic [ref=f59e55]: h
+                  - generic [ref=f59e56]: t
+                - generic [ref=f59e57]:
+                  - generic [ref=f59e58]: "n"
+                  - generic [ref=f59e59]: o
+                  - generic [ref=f59e60]: w
+                  - generic [ref=f59e61]: ","
+                - generic [ref=f59e62]:
+                  - generic [ref=f59e63]: o
+                  - generic [ref=f59e64]: "n"
+                  - generic [ref=f59e65]: e
+                - generic [ref=f59e66]:
+                  - generic [ref=f59e67]: j
+                  - generic [ref=f59e68]: o
+                  - generic [ref=f59e69]: b
+                - generic [ref=f59e70]:
+                  - generic [ref=f59e71]: l
+                  - generic [ref=f59e72]: i
+                  - generic [ref=f59e73]: v
+                  - generic [ref=f59e74]: e
+                  - generic [ref=f59e75]: s
+                - generic [ref=f59e76]:
+                  - generic [ref=f59e77]: i
+                  - generic [ref=f59e78]: "n"
+                - generic [ref=f59e79]:
+                  - generic [ref=f59e80]: f
+                  - generic [ref=f59e81]: o
+                  - generic [ref=f59e82]: u
+                  - generic [ref=f59e83]: r
+                - generic [ref=f59e84]:
+                  - generic [ref=f59e85]: a
+                  - generic [ref=f59e86]: p
+                  - generic [ref=f59e87]: p
+                  - generic [ref=f59e88]: s
+                  - generic [ref=f59e89]: .
+              - generic [ref=f59e90]: Add a crew, and every question still comes back to you.
+              - generic [aria-hidden] [ref=f59e91]:
+                - generic [ref=f59e92]:
+                  - generic [ref=f59e93]: A
+                  - generic [ref=f59e94]: d
+                  - generic [ref=f59e95]: d
+                - generic [ref=f59e96]: a
+                - generic [ref=f59e98]:
+                  - generic [ref=f59e99]: c
+                  - generic [ref=f59e100]: r
+                  - generic [ref=f59e101]: e
+                  - generic [ref=f59e102]: w
+                  - generic [ref=f59e103]: ","
+                - generic [ref=f59e104]:
+                  - generic [ref=f59e105]: a
+                  - generic [ref=f59e106]: "n"
+                  - generic [ref=f59e107]: d
+                - generic [ref=f59e108]:
+                  - generic [ref=f59e109]: e
+                  - generic [ref=f59e110]: v
+                  - generic [ref=f59e111]: e
+                  - generic [ref=f59e112]: r
+                  - generic [ref=f59e113]: "y"
+                - generic [ref=f59e114]:
+                  - generic [ref=f59e115]: q
+                  - generic [ref=f59e116]: u
+                  - generic [ref=f59e117]: e
+                  - generic [ref=f59e118]: s
+                  - generic [ref=f59e119]: t
+                  - generic [ref=f59e120]: i
+                  - generic [ref=f59e121]: o
+                  - generic [ref=f59e122]: "n"
+                - generic [ref=f59e123]:
+                  - generic [ref=f59e124]: s
+                  - generic [ref=f59e125]: t
+                  - generic [ref=f59e126]: i
+                  - generic [ref=f59e127]: l
+                  - generic [ref=f59e128]: l
+                - generic [ref=f59e129]:
+                  - generic [ref=f59e130]: c
+                  - generic [ref=f59e131]: o
+                  - generic [ref=f59e132]: m
+                  - generic [ref=f59e133]: e
+                  - generic [ref=f59e134]: s
+                - generic [ref=f59e135]:
+                  - generic [ref=f59e136]: b
+                  - generic [ref=f59e137]: a
+                  - generic [ref=f59e138]: c
+                  - generic [ref=f59e139]: k
+                - generic [ref=f59e140]:
+                  - generic [ref=f59e141]: t
+                  - generic [ref=f59e142]: o
+                - generic [ref=f59e143]:
+                  - generic [ref=f59e144]: "y"
+                  - generic [ref=f59e145]: o
+                  - generic [ref=f59e146]: u
+                  - generic [ref=f59e147]: .
+          - generic [ref=f59e148]:
+            - generic [ref=f59e149]:
+              - generic [ref=f59e150]:
+                - term [ref=f59e151]: apps for one job
+                - definition [ref=f59e152]: "4"
+              - generic [ref=f59e153]:
+                - term [ref=f59e154]: steps, in one place
+                - definition [ref=f59e155]: "7"
+              - generic [ref=f59e156]:
+                - term [ref=f59e157]: logins for your clients
+                - definition [ref=f59e158]: "0"
+            - generic [ref=f59e159]:
+              - figure "Enquiries in Instagram DMs." [ref=f59e160]:
+                - generic [ref=f59e162]:
+                  - img "A woman in a pink sari reading messages on her phone" [ref=f59e163]
+                  - generic [ref=f59e164]: With your client
+              - figure "Your shooter asks for the date. Again." [ref=f59e166]:
+                - generic [ref=f59e168]:
+                  - img "A video crew on a street shoot with a camera gimbal" [ref=f59e169]
+                  - generic [ref=f59e170]: With your crew
+              - figure "Quotes as screenshots." [ref=f59e172]:
+                - generic [ref=f59e174]:
+                  - img "A woman checking her phone outdoors" [ref=f59e175]
+                  - generic [ref=f59e176]: With your client
+              - figure "Your editor can't find the brief." [ref=f59e178]:
+                - generic [ref=f59e180]:
+                  - img "An editor in headphones at a computer in a dark room" [ref=f59e181]
+                  - generic [ref=f59e182]: With your crew
+              - figure "Invoices buried in email threads." [ref=f59e184]:
+                - generic [ref=f59e186]:
+                  - img "A woman working at a laptop" [ref=f59e187]
+                  - generic [ref=f59e188]: With your client
+              - figure "Payments chased by hand." [ref=f59e190]:
+                - generic [ref=f59e192]:
+                  - img "A woman on a phone call" [ref=f59e193]
+                  - generic [ref=f59e194]: With your client
+              - figure "Two of you reply to one client." [ref=f59e196]:
+                - generic [ref=f59e198]:
+                  - img "Two people looking at one phone" [ref=f59e199]
+                  - generic [ref=f59e200]: With your crew
+              - link "Krew puts the job back together." [ref=f59e203] [cursor=pointer]:
+                - /url: "#how"
+        - region [ref=f59e205]:
+          - generic [ref=f59e207]:
+            - list [ref=f59e209]:
+              - listitem [ref=f59e210]:
+                - generic [ref=f59e211]:
+                  - paragraph [ref=f59e212]: "[ How it works ]"
+                  - heading "How a job runs in Krew" [level=2] [ref=f59e213]:
+                    - generic [aria-hidden] [ref=f59e215]:
+                      - generic [ref=f59e216]:
+                        - generic [ref=f59e217]: H
+                        - generic [ref=f59e218]: o
+                        - generic [ref=f59e219]: w
+                      - generic [ref=f59e220]: a
+                      - generic [ref=f59e222]:
+                        - generic [ref=f59e223]: j
+                        - generic [ref=f59e224]: o
+                        - generic [ref=f59e225]: b
+                      - generic [ref=f59e226]:
+                        - generic [ref=f59e227]: r
+                        - generic [ref=f59e228]: u
+                        - generic [ref=f59e229]: "n"
+                        - generic [ref=f59e230]: s
+                      - generic [ref=f59e231]:
+                        - generic [ref=f59e232]: i
+                        - generic [ref=f59e233]: "n"
+                      - generic [ref=f59e234]:
+                        - generic [ref=f59e235]: K
+                        - generic [ref=f59e236]: r
+                        - generic [ref=f59e237]: e
+                        - generic [ref=f59e238]: w
+                  - paragraph [ref=f59e239]: Follow Riya, a photographer in Pune, and Arjun's wedding video crew. Both are examples.
+              - listitem [ref=f59e240]:
+                - article [ref=f59e242]:
+                  - generic [ref=f59e243]:
+                    - img "Layered blue mountain ranges fading into the sky" [ref=f59e245]
+                    - generic [ref=f59e246]: "[ Step 01 ]"
+                  - generic [ref=f59e247]:
+                    - heading "Enquiry" [level=3] [ref=f59e248]
+                    - generic [ref=f59e249]: 01 / 07
+                  - paragraph [ref=f59e250]: On Instagram, Krew replies with your “starting from” rates and portfolio, asks the date, budget and type of work, then hands the chat to you. It never agrees a price.
+              - listitem [ref=f59e251]:
+                - article [ref=f59e252]:
+                  - generic [ref=f59e253]:
+                    - img "Sand dunes below mountains under a cloudy sky" [ref=f59e255]
+                    - generic [ref=f59e256]: "[ Step 02 ]"
+                  - generic [ref=f59e257]:
+                    - heading "Quote" [level=3] [ref=f59e258]
+                    - generic [ref=f59e259]: 02 / 07
+                  - paragraph [ref=f59e260]: Send the quote as a link. Your client accepts by typing their name and ticking a box, and Krew keeps a record of exactly what they accepted.
+              - listitem [ref=f59e261]:
+                - article [ref=f59e262]:
+                  - generic [ref=f59e263]:
+                    - img "White sand stretching to a mountain range" [ref=f59e265]
+                    - generic [ref=f59e266]: "[ Step 03 ]"
+                  - generic [ref=f59e267]:
+                    - heading "Advance" [level=3] [ref=f59e268]
+                    - generic [ref=f59e269]: 03 / 07
+                  - paragraph [ref=f59e270]: Ask for the advance with a payment link or your UPI ID. If it isn't paid two days before the shoot, Krew marks the job at risk.
+              - listitem [ref=f59e271]:
+                - article [ref=f59e272]:
+                  - generic [ref=f59e273]:
+                    - img "Golden plains below snow-capped mountains" [ref=f59e275]
+                    - generic [ref=f59e276]: "[ Step 04 ]"
+                  - generic [ref=f59e277]:
+                    - heading "Work" [level=3] [ref=f59e278]
+                    - generic [ref=f59e279]: 04 / 07
+                  - paragraph [ref=f59e280]: Turn the job into tasks from a template and assign them to your crew. Each person sees only the jobs and tasks you give them, and you choose who can reply to clients.
+              - listitem [ref=f59e281]:
+                - article [ref=f59e282]:
+                  - generic [ref=f59e283]:
+                    - img "Dark hills at dusk with the sea beyond" [ref=f59e285]
+                    - generic [ref=f59e286]: "[ Step 05 ]"
+                  - generic [ref=f59e287]:
+                    - heading "Review" [level=3] [ref=f59e288]
+                    - generic [ref=f59e289]: 05 / 07
+                  - paragraph [ref=f59e290]: Share drafts by link. Clients comment on the exact second of a video or a spot on a photo, then approve, and that version is locked.
+              - listitem [ref=f59e291]:
+                - article [ref=f59e292]:
+                  - generic [ref=f59e293]:
+                    - img "The moon above pale dunes at dusk" [ref=f59e295]
+                    - generic [ref=f59e296]: "[ Step 06 ]"
+                  - generic [ref=f59e297]:
+                    - heading "Invoice" [level=3] [ref=f59e298]
+                    - generic [ref=f59e299]: 06 / 07
+                  - paragraph [ref=f59e300]: Raise a GST invoice, or a plain one if you aren't registered, with a payment link for UPI or card.
+              - listitem [ref=f59e301]:
+                - article [ref=f59e302]:
+                  - generic [ref=f59e303]:
+                    - img "Jagged mountains behind grassy dunes and black sand" [ref=f59e305]
+                    - generic [ref=f59e306]: "[ Step 07 ]"
+                  - generic [ref=f59e307]:
+                    - heading "Paid" [level=3] [ref=f59e308]
+                    - generic [ref=f59e309]: 07 / 07
+                  - paragraph [ref=f59e310]: Record the payment, and any TDS the client deducted, and the invoice settles. Every rupee in and out goes in your ledger.
+              - listitem [ref=f59e311]:
+                - generic [ref=f59e312]:
+                  - paragraph [ref=f59e313]: Every step lives in the same job, for you and your crew.
+                  - link "Join the pilot" [ref=f59e314] [cursor=pointer]:
+                    - /url: "#waitlist"
+            - region [ref=f59e318]:
+              - paragraph [ref=f59e319]: "[ Across all your jobs ]"
+              - heading "Watch your income grow, month by month." [level=2] [ref=f59e320]:
+                - generic [aria-hidden] [ref=f59e322]:
+                  - generic [ref=f59e323]:
+                    - generic [ref=f59e324]: W
+                    - generic [ref=f59e325]: a
+                    - generic [ref=f59e326]: t
+                    - generic [ref=f59e327]: c
+                    - generic [ref=f59e328]: h
+                  - generic [ref=f59e329]:
+                    - generic [ref=f59e330]: "y"
+                    - generic [ref=f59e331]: o
+                    - generic [ref=f59e332]: u
+                    - generic [ref=f59e333]: r
+                  - generic [ref=f59e334]:
+                    - generic [ref=f59e335]: i
+                    - generic [ref=f59e336]: "n"
+                    - generic [ref=f59e337]: c
+                    - generic [ref=f59e338]: o
+                    - generic [ref=f59e339]: m
+                    - generic [ref=f59e340]: e
+                  - generic [ref=f59e341]:
+                    - generic [ref=f59e342]: g
+                    - generic [ref=f59e343]: r
+                    - generic [ref=f59e344]: o
+                    - generic [ref=f59e345]: w
+                    - generic [ref=f59e346]: ","
+                  - generic [ref=f59e347]:
+                    - generic [ref=f59e348]: m
+                    - generic [ref=f59e349]: o
+                    - generic [ref=f59e350]: "n"
+                    - generic [ref=f59e351]: t
+                    - generic [ref=f59e352]: h
+                  - generic [ref=f59e353]:
+                    - generic [ref=f59e354]: b
+                    - generic [ref=f59e355]: "y"
+                  - generic [ref=f59e356]:
+                    - generic [ref=f59e357]: m
+                    - generic [ref=f59e358]: o
+                    - generic [ref=f59e359]: "n"
+                    - generic [ref=f59e360]: t
+                    - generic [ref=f59e361]: h
+                    - generic [ref=f59e362]: .
+              - generic [ref=f59e363]:
+                - paragraph [ref=f59e364]: ◆ Every job feeds one ledger.
+                - link "See your jobs" [ref=f59e365] [cursor=pointer]:
+                  - /url: "#jobs"
+        - generic [ref=f59e367]:
+          - paragraph [ref=f59e368]: Every job feeds one ledger. See money in, money out and what you kept each month, and what each client still owes you. When it's time to file, export it all for your accountant.
+          - generic [ref=f59e369]:
+            - generic [ref=f59e370]:
+              - heading "Your jobs, right now" [level=3] [ref=f59e371]
+              - paragraph [ref=f59e372]: ( Example ) 3 jobs on the go
+            - list [ref=f59e373]:
+              - listitem [ref=f59e374]:
+                - generic [ref=f59e375]:
+                  - paragraph [ref=f59e376]: Kapoor wedding
+                  - paragraph [ref=f59e377]: Arjun's crew · 4 people
+                - paragraph [ref=f59e378]: Work
+                - generic [ref=f59e380]:
+                  - generic [ref=f59e381]: Step 4 of 7
+                  - generic [ref=f59e382]: Shoot 12 Dec
+                - paragraph [ref=f59e384]: ₹1,25,000
+              - listitem [ref=f59e385]:
+                - generic [ref=f59e386]:
+                  - paragraph [ref=f59e387]: Logo and brand kit
+                  - paragraph [ref=f59e388]: Dev Sharma
+                - paragraph [ref=f59e389]: Review
+                - generic [ref=f59e391]:
+                  - generic [ref=f59e392]: Step 5 of 7
+                  - generic [ref=f59e393]: Draft 2 sent
+                - paragraph [ref=f59e395]: ₹24,000
+              - listitem [ref=f59e396]:
+                - generic [ref=f59e397]:
+                  - paragraph [ref=f59e398]: Pre-wedding shoot
+                  - paragraph [ref=f59e399]: Meera Joshi
+                - paragraph [ref=f59e400]: Invoice
+                - generic [ref=f59e402]:
+                  - generic [ref=f59e403]: Step 6 of 7
+                  - generic [ref=f59e404]: Due 8 Nov
+                - paragraph [ref=f59e406]: ₹59,000
+          - list [ref=f59e407]:
+            - listitem [ref=f59e408]:
+              - generic [ref=f59e411]:
+                - generic [ref=f59e412]:
+                  - generic [ref=f59e413]: 11:00
+                  - generic [ref=f59e414]: Example
+                - generic [ref=f59e415]:
+                  - paragraph [ref=f59e416]: Money
+                  - paragraph [ref=f59e417]: FY 2026-27 · all jobs
+                - generic [ref=f59e418]:
+                  - generic [ref=f59e419]:
+                    - paragraph [ref=f59e420]: Received
+                    - text: ₹4,78,000
+                  - generic [ref=f59e421]:
+                    - paragraph [ref=f59e422]: Pending · 3 invoices
+                    - text: ₹86,000
+                - generic [ref=f59e423]:
+                  - paragraph [ref=f59e424]: Money in, by month
+                  - generic [ref=f59e425]: ₹1,12,000
+                  - generic [ref=f59e441]:
+                    - generic [ref=f59e442]: Apr
+                    - generic [ref=f59e443]: May
+                    - generic [ref=f59e444]: Jun
+                    - generic [ref=f59e445]: Jul
+                    - generic [ref=f59e446]: Aug
+                    - generic [ref=f59e447]: Sep
+                    - generic [ref=f59e448]: Oct
+                - generic [ref=f59e449]:
+                  - generic [ref=f59e450]:
+                    - generic [ref=f59e451]: October in
+                    - generic [ref=f59e453]: ₹1,12,000
+                  - generic [ref=f59e455]:
+                    - generic [ref=f59e456]:
+                      - generic [ref=f59e457]: October out
+                      - generic [ref=f59e458]: Crew, hire, travel
+                    - generic [ref=f59e459]: ₹38,000
+                  - generic [ref=f59e461]:
+                    - generic [ref=f59e462]: October net
+                    - generic [ref=f59e464]: ₹74,000
+              - paragraph [ref=f59e466]: "[ By month ]"
+              - heading "Money in, money out and net, by month" [level=3] [ref=f59e467]
+            - listitem [ref=f59e468]:
+              - generic [ref=f59e471]:
+                - generic [ref=f59e472]:
+                  - generic [ref=f59e473]: 11:00
+                  - generic [ref=f59e474]: Example
+                - generic [ref=f59e475]:
+                  - paragraph [ref=f59e476]: Still owed to you
+                  - paragraph [ref=f59e477]: 3 invoices
+                - generic [ref=f59e478]:
+                  - generic [ref=f59e479]: Pending
+                  - generic [ref=f59e480]: ₹86,000
+                - generic [ref=f59e481]:
+                  - generic [ref=f59e482]:
+                    - generic [ref=f59e483]:
+                      - generic [ref=f59e484]: Meera Joshi
+                      - generic [ref=f59e485]: Invoice RY/26-27/014
+                    - generic [ref=f59e486]: ₹44,000
+                  - generic [ref=f59e488]:
+                    - generic [ref=f59e489]:
+                      - generic [ref=f59e490]: Mrs Kapoor
+                      - generic [ref=f59e491]: Balance after the advance
+                    - generic [ref=f59e492]: ₹30,000
+                  - generic [ref=f59e494]:
+                    - generic [ref=f59e495]:
+                      - generic [ref=f59e496]: Dev Sharma
+                      - generic [ref=f59e497]: Logo and brand kit
+                    - generic [ref=f59e498]: ₹12,000
+              - paragraph [ref=f59e500]: "[ Who owes you ]"
+              - heading "What each client still owes" [level=3] [ref=f59e501]
+            - listitem [ref=f59e502]:
+              - generic [ref=f59e505]:
+                - generic [ref=f59e506]:
+                  - generic [ref=f59e507]: 11:00
+                  - generic [ref=f59e508]: Example
+                - generic [ref=f59e509]:
+                  - paragraph [ref=f59e510]: Export
+                  - paragraph [ref=f59e511]: FY 2026-27 · for your accountant
+                - generic [ref=f59e512]:
+                  - generic [ref=f59e513]:
+                    - generic [ref=f59e514]:
+                      - generic [ref=f59e515]: Tally
+                      - generic [ref=f59e516]: Invoices, payments, expenses
+                    - button [ref=f59e518]: Download
+                  - generic [ref=f59e519]:
+                    - generic [ref=f59e520]:
+                      - generic [ref=f59e521]: Zoho Books
+                      - generic [ref=f59e522]: Invoices, payments, expenses
+                    - button [ref=f59e524]: Download
+                  - generic [ref=f59e525]:
+                    - generic [ref=f59e526]:
+                      - generic [ref=f59e527]: CSV
+                      - generic [ref=f59e528]: Invoices, payments, expenses
+                    - button [ref=f59e530]: Download
+              - paragraph [ref=f59e531]: "[ For your accountant ]"
+              - heading "Exports for Tally and Zoho Books, or CSV" [level=3] [ref=f59e532]
+        - region [ref=f59e533]:
+          - generic [ref=f59e534]:
+            - paragraph [ref=f59e535]: "[ Your clients ]"
+            - heading "Your clients never make an account." [level=2] [ref=f59e536]:
+              - generic [aria-hidden] [ref=f59e538]:
+                - generic [ref=f59e539]:
+                  - generic [ref=f59e540]: "Y"
+                  - generic [ref=f59e541]: o
+                  - generic [ref=f59e542]: u
+                  - generic [ref=f59e543]: r
+                - generic [ref=f59e544]:
+                  - generic [ref=f59e545]: c
+                  - generic [ref=f59e546]: l
+                  - generic [ref=f59e547]: i
+                  - generic [ref=f59e548]: e
+                  - generic [ref=f59e549]: "n"
+                  - generic [ref=f59e550]: t
+                  - generic [ref=f59e551]: s
+                - generic [ref=f59e552]:
+                  - generic [ref=f59e553]: "n"
+                  - generic [ref=f59e554]: e
+                  - generic [ref=f59e555]: v
+                  - generic [ref=f59e556]: e
+                  - generic [ref=f59e557]: r
+                - generic [ref=f59e558]:
+                  - generic [ref=f59e559]: m
+                  - generic [ref=f59e560]: a
+                  - generic [ref=f59e561]: k
+                  - generic [ref=f59e562]: e
+                - generic [ref=f59e563]:
+                  - generic [ref=f59e564]: a
+                  - generic [ref=f59e565]: "n"
+                - generic [ref=f59e566]:
+                  - generic [ref=f59e567]: a
+                  - generic [ref=f59e568]: c
+                  - generic [ref=f59e569]: c
+                  - generic [ref=f59e570]: o
+                  - generic [ref=f59e571]: u
+                  - generic [ref=f59e572]: "n"
+                  - generic [ref=f59e573]: t
+                  - generic [ref=f59e574]: .
+            - paragraph [ref=f59e575]: Quotes, drafts and invoices open from a link on their phone. They accept, comment, approve and pay. No app, no password, no forms.
+          - list [ref=f59e576]:
+            - listitem [ref=f59e577]:
+              - link [ref=f59e578] [cursor=pointer]:
+                - /url: "#faq-q3"
+                - img "White sculpted waves on a pale grey ground" [ref=f59e579]
+                - generic [ref=f59e580]:
+                  - heading "Quote link" [level=3] [ref=f59e581]
+                  - paragraph [ref=f59e582]: They read it and accept by typing their name.
+                - generic [aria-hidden] [ref=f59e583]: Ask
+            - listitem [ref=f59e584]:
+              - link [ref=f59e585] [cursor=pointer]:
+                - /url: "#faq-q3"
+                - img "Soft folds of lilac and pink" [ref=f59e586]
+                - generic [ref=f59e587]:
+                  - heading "Review link" [level=3] [ref=f59e588]
+                  - paragraph [ref=f59e589]: They watch the draft, comment and approve.
+                - generic [aria-hidden] [ref=f59e590]: Ask
+            - listitem [ref=f59e591]:
+              - link [ref=f59e592] [cursor=pointer]:
+                - /url: "#faq-q3"
+                - img "Curved layers of cream and peach paper" [ref=f59e593]
+                - generic [ref=f59e594]:
+                  - heading "Invoice link" [level=3] [ref=f59e595]
+                  - paragraph [ref=f59e596]: They see what's due and pay.
+                - generic [aria-hidden] [ref=f59e597]: Ask
+          - paragraph [ref=f59e598]: Reminders reach them by email from your own address, and stop as soon as they act.
+        - region [ref=f59e599]:
+          - generic [ref=f59e600]:
+            - paragraph [ref=f59e601]: "[ Our promises ]"
+            - heading "What we promise" [level=2] [ref=f59e602]:
+              - generic [aria-hidden] [ref=f59e604]:
+                - generic [ref=f59e605]:
+                  - generic [ref=f59e606]: W
+                  - generic [ref=f59e607]: h
+                  - generic [ref=f59e608]: a
+                  - generic [ref=f59e609]: t
+                - generic [ref=f59e610]:
+                  - generic [ref=f59e611]: w
+                  - generic [ref=f59e612]: e
+                - generic [ref=f59e613]:
+                  - generic [ref=f59e614]: p
+                  - generic [ref=f59e615]: r
+                  - generic [ref=f59e616]: o
+                  - generic [ref=f59e617]: m
+                  - generic [ref=f59e618]: i
+                  - generic [ref=f59e619]: s
+                  - generic [ref=f59e620]: e
+            - list [ref=f59e621]:
+              - listitem [ref=f59e622]:
+                - generic [ref=f59e623]:
+                  - img "A translucent, iridescent knotted form on a grey ground" [ref=f59e624]
+                  - 'link "Questions about: Personal chats are never stored." [ref=f59e625] [cursor=pointer]':
+                    - /url: "#faq-q1"
+                    - text: Ask
+                - generic [ref=f59e626]:
+                  - paragraph [ref=f59e627]: "[04]"
+                  - heading "Personal chats are never stored." [level=3] [ref=f59e628]
+                  - generic [ref=f59e629]:
+                    - paragraph [ref=f59e630]: What this means
+                    - list [ref=f59e631]:
+                      - listitem [ref=f59e632]: When a new chat comes in, you mark it as a client or personal.
+                      - listitem [ref=f59e633]: Krew saves only client chats.
+              - listitem [ref=f59e634]:
+                - generic [ref=f59e635]:
+                  - img "Stacked glass cubes in soft blue light" [ref=f59e636]
+                  - 'link "Questions about: Your money goes straight to you." [ref=f59e637] [cursor=pointer]':
+                    - /url: "#faq-q5"
+                    - text: Ask
+                - generic [ref=f59e638]:
+                  - paragraph [ref=f59e639]: "[03]"
+                  - heading "Your money goes straight to you." [level=3] [ref=f59e640]
+                  - generic [ref=f59e641]:
+                    - paragraph [ref=f59e642]: What this means
+                    - list [ref=f59e643]:
+                      - listitem [ref=f59e644]: Payment links come from your own Razorpay account, or your own UPI ID.
+                      - listitem [ref=f59e645]: Krew never holds your clients' money.
+              - listitem [ref=f59e646]:
+                - generic [ref=f59e647]:
+                  - img "A single glass cube tilted on a pale blue background" [ref=f59e648]
+                  - 'link "Questions about: Invoices built to GST rules." [ref=f59e649] [cursor=pointer]':
+                    - /url: "#faq-q4"
+                    - text: Ask
+                - generic [ref=f59e650]:
+                  - paragraph [ref=f59e651]: "[02]"
+                  - heading "Invoices built to GST rules." [level=3] [ref=f59e652]
+                  - generic [ref=f59e653]:
+                    - paragraph [ref=f59e654]: What this means
+                    - list [ref=f59e655]:
+                      - listitem [ref=f59e656]: GST invoices carry every field Rule 46 asks for.
+                      - listitem [ref=f59e657]: Not registered? You get a plain invoice with no tax.
+              - listitem [ref=f59e658]:
+                - generic [ref=f59e659]:
+                  - img "People in a dark gallery beneath a giant glowing moon" [ref=f59e660]
+                  - 'link "Questions about: Official connections." [ref=f59e661] [cursor=pointer]':
+                    - /url: "#faq-q2"
+                    - text: Ask
+                - generic [ref=f59e662]:
+                  - paragraph [ref=f59e663]: "[01]"
+                  - heading "Official connections." [level=3] [ref=f59e664]
+                  - generic [ref=f59e665]:
+                    - paragraph [ref=f59e666]: What this means
+                    - list [ref=f59e667]:
+                      - listitem [ref=f59e668]: Instagram and WhatsApp Business connect through Meta's official APIs, and email goes out from your own Gmail through Google's.
+        - region [ref=f59e669]:
+          - generic [ref=f59e670]:
+            - generic [ref=f59e671]:
+              - paragraph [ref=f59e672]: Questions
+              - heading "Questions creators ask" [level=2] [ref=f59e674]:
+                - generic [aria-hidden] [ref=f59e676]:
+                  - generic [ref=f59e677]:
+                    - generic [ref=f59e678]: Q
+                    - generic [ref=f59e679]: u
+                    - generic [ref=f59e680]: e
+                    - generic [ref=f59e681]: s
+                    - generic [ref=f59e682]: t
+                    - generic [ref=f59e683]: i
+                    - generic [ref=f59e684]: o
+                    - generic [ref=f59e685]: "n"
+                    - generic [ref=f59e686]: s
+                  - generic [ref=f59e687]:
+                    - generic [ref=f59e688]: c
+                    - generic [ref=f59e689]: r
+                    - generic [ref=f59e690]: e
+                    - generic [ref=f59e691]: a
+                    - generic [ref=f59e692]: t
+                    - generic [ref=f59e693]: o
+                    - generic [ref=f59e694]: r
+                    - generic [ref=f59e695]: s
+                  - generic [ref=f59e696]:
+                    - generic [ref=f59e697]: a
+                    - generic [ref=f59e698]: s
+                    - generic [ref=f59e699]: k
+              - generic [ref=f59e700]:
+                - paragraph [ref=f59e702]: Still have a question? Write to us and we'll get back to you.
+                - link "Email us" [ref=f59e705] [cursor=pointer]:
+                  - /url: mailto:hello@krew.example
+            - generic [ref=f59e708]:
+              - group [ref=f59e709]:
+                - heading "Can I connect my personal WhatsApp?" [level=3] [ref=f59e711] [cursor=pointer]
+                - paragraph [ref=f59e716]: No. Krew connects a WhatsApp Business number, and you keep using the WhatsApp Business app on the same number. Krew never sends WhatsApp messages on its own.
+              - group [ref=f59e717]:
+                - heading "Which Instagram accounts work?" [level=3] [ref=f59e719] [cursor=pointer]
+              - group [ref=f59e724]:
+                - heading "Do my clients need to download anything?" [level=3] [ref=f59e726] [cursor=pointer]
+              - group [ref=f59e731]:
+                - heading "I'm not GST registered. Can I still use Krew?" [level=3] [ref=f59e733] [cursor=pointer]
+              - group [ref=f59e738]:
+                - heading "Does Krew hold my payments?" [level=3] [ref=f59e740] [cursor=pointer]
+              - group [ref=f59e745]:
+                - heading "Will Krew read all my email?" [level=3] [ref=f59e747] [cursor=pointer]
+      - navigation "Quick links" [ref=f59e752]:
+        - link "Krew" [ref=f59e753] [cursor=pointer]:
+          - /url: "#main"
+        - paragraph [ref=f59e754]: From the first DM to getting paid.
+        - link "Join the pilot" [ref=f59e755] [cursor=pointer]:
+          - /url: "#waitlist"
+    - contentinfo [ref=f59e757]:
+      - region [ref=f59e758]:
+        - generic [ref=f59e759]:
+          - paragraph [ref=f59e760]: "[ The pilot ]"
+          - paragraph [ref=f59e761]:
+            - text: IST →
+            - time [ref=f59e762]: 21:32
+        - generic [ref=f59e763]:
+          - generic [ref=f59e764]:
+            - heading "Join the pilot" [level=2] [ref=f59e765]:
+              - generic [aria-hidden] [ref=f59e767]:
+                - generic [ref=f59e768]:
+                  - generic [ref=f59e769]: J
+                  - generic [ref=f59e770]: o
+                  - generic [ref=f59e771]: i
+                  - generic [ref=f59e772]: "n"
+                - generic [ref=f59e773]:
+                  - generic [ref=f59e774]: t
+                  - generic [ref=f59e775]: h
+                  - generic [ref=f59e776]: e
+                - generic [ref=f59e777]:
+                  - generic [ref=f59e778]: p
+                  - generic [ref=f59e779]: i
+                  - generic [ref=f59e780]: l
+                  - generic [ref=f59e781]: o
+                  - generic [ref=f59e782]: t
+            - paragraph [ref=f59e783]: We're opening Krew to a small group of creators first. Leave your email or number and we'll be in touch.
+          - generic [ref=f59e785]:
+            - generic [ref=f59e786]: Email or phone
+            - generic [ref=f59e787]:
+              - textbox "Email or phone" [ref=f59e788]
+              - button "Join the pilot" [ref=f59e789]
+            - paragraph [ref=f59e790]: We'll only use this to contact you about the pilot.
+            - generic [ref=f59e792]:
+              - text: Website
+              - textbox [ref=f59e793]
+        - generic [ref=f59e794]:
+          - generic [ref=f59e795]:
+            - paragraph [ref=f59e796]: © 2026 Orry
+            - paragraph [ref=f59e797]: Hover the lines.
+          - generic [ref=f59e798]:
+            - paragraph [ref=f59e799]: ( Contact )
+            - link "hello@krew.example" [ref=f59e800] [cursor=pointer]:
+              - /url: mailto:hello@krew.example
+          - navigation "On this page" [ref=f59e802]:
+            - paragraph [ref=f59e803]: ( On this page )
+            - list [ref=f59e804]:
+              - listitem [ref=f59e805]:
+                - link "How it works" [ref=f59e806] [cursor=pointer]:
+                  - /url: "#how"
+              - listitem [ref=f59e808]:
+                - link "For clients" [ref=f59e809] [cursor=pointer]:
+                  - /url: "#clients"
+              - listitem [ref=f59e811]:
+                - link "Your data" [ref=f59e812] [cursor=pointer]:
+                  - /url: "#trust"
+              - listitem [ref=f59e814]:
+                - link "Questions" [ref=f59e815] [cursor=pointer]:
+                  - /url: "#faq"
+  - alert [ref=f59e819]

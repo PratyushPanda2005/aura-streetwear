@@ -1,0 +1,212 @@
+- generic [active] [ref=f24e1]:
+  - main [ref=f24e3]:
+    - generic [ref=f24e4]:
+      - link "Home" [ref=f24e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - link "Contact" [ref=f24e6] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f24e7]: →
+    - generic [ref=f24e8]:
+      - generic [ref=f24e9]:
+        - generic [ref=f24e10]:
+          - paragraph [ref=f24e11]: Exhibition / Past / 2025
+          - link "All Exhibitions" [ref=f24e12] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - generic [aria-hidden] [ref=f24e13]: ←
+            - text: All Exhibitions
+        - heading "House of Unified Expression" [level=1] [ref=f24e14]:
+          - generic [ref=f24e16]: House
+          - generic [ref=f24e18]: of
+          - generic [ref=f24e20]: Unified
+          - generic [ref=f24e22]: Expression
+        - generic [ref=f24e23]:
+          - generic [ref=f24e24]:
+            - term [ref=f24e25]: Dates
+            - definition [ref=f24e26]: August 30 – 29 Sept, 2025
+          - generic [ref=f24e27]:
+            - term [ref=f24e28]: Venue
+            - definition [ref=f24e29]: EkChitra, Hyderabad
+          - generic [ref=f24e30]:
+            - term [ref=f24e31]: Works
+            - definition [ref=f24e32]: "04"
+          - generic [ref=f24e33]:
+            - term [ref=f24e34]: Photographs
+            - definition [ref=f24e35]: —
+      - img "House of Unified Expression — exhibition poster" [ref=f24e38]
+      - region [ref=f24e39]:
+        - generic [ref=f24e41]:
+          - paragraph [ref=f24e42]: "01"
+          - heading "Overview" [level=2] [ref=f24e43]
+        - paragraph [ref=f24e45]:
+          - generic "Art knows no boundaries, and creativity is a universal language that transcends geographical limits. The inclusion of artists from across India in the \"HUE - HOUSE OF UNIFIED EXPRESSION\" art exhibition is a deliberate and inspired choice that resonates deeply with the exhibition's essence." [ref=f24e46]:
+            - generic [ref=f24e48]: Art
+            - generic [ref=f24e50]: knows
+            - generic [ref=f24e52]: "no"
+            - generic [ref=f24e54]: boundaries,
+            - generic [ref=f24e56]: and
+            - generic [ref=f24e58]: creativity
+            - generic [ref=f24e60]: is
+            - generic [ref=f24e62]: a
+            - generic [ref=f24e64]: universal
+            - generic [ref=f24e66]: language
+            - generic [ref=f24e68]: that
+            - generic [ref=f24e70]: transcends
+            - generic [ref=f24e72]: geographical
+            - generic [ref=f24e74]: limits.
+            - generic [ref=f24e76]: The
+            - generic [ref=f24e78]: inclusion
+            - generic [ref=f24e80]: of
+            - generic [ref=f24e82]: artists
+            - generic [ref=f24e84]: from
+            - generic [ref=f24e86]: across
+            - generic [ref=f24e88]: India
+            - generic [ref=f24e90]: in
+            - generic [ref=f24e92]: the
+            - generic [ref=f24e94]: "\"HUE"
+            - generic [ref=f24e96]: "-"
+            - generic [ref=f24e98]: HOUSE
+            - generic [ref=f24e100]: OF
+            - generic [ref=f24e102]: UNIFIED
+            - generic [ref=f24e104]: EXPRESSION"
+            - generic [ref=f24e106]: art
+            - generic [ref=f24e108]: exhibition
+            - generic [ref=f24e110]: is
+            - generic [ref=f24e112]: a
+            - generic [ref=f24e114]: deliberate
+            - generic [ref=f24e116]: and
+            - generic [ref=f24e118]: inspired
+            - generic [ref=f24e120]: choice
+            - generic [ref=f24e122]: that
+            - generic [ref=f24e124]: resonates
+            - generic [ref=f24e126]: deeply
+            - generic [ref=f24e128]: with
+            - generic [ref=f24e130]: the
+            - generic [ref=f24e132]: exhibition's
+            - generic [ref=f24e134]: essence.
+      - region [ref=f24e135]:
+        - generic [ref=f24e136]:
+          - generic [ref=f24e137]:
+            - paragraph [ref=f24e138]: "02"
+            - paragraph [ref=f24e139]: Works
+          - heading "Works in the exhibition" [level=2] [ref=f24e140]
+        - list [ref=f24e141]:
+          - listitem [ref=f24e142]:
+            - img "The Primate and Avian Discourse by Dhruv Patel" [ref=f24e144]
+            - generic [ref=f24e145]:
+              - generic [ref=f24e146]: "01"
+              - generic [ref=f24e147]:
+                - heading "The Primate and Avian Discourse" [level=3] [ref=f24e148]
+                - paragraph [ref=f24e149]: Dhruv Patel
+                - paragraph [ref=f24e150]: Brass and wood · 12 X 17 X 10.5 (LBH) Inches · 2024
+                - link "Enquire" [ref=f24e151] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22The%20Primate%20and%20Avian%20Discourse%22%20by%20Dhruv%20Patel%20from%20House%20of%20Unified%20Expression.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f24e152]: →
+          - listitem [ref=f24e153]:
+            - img "Petal Prince by Srinia Chowdhury" [ref=f24e155]
+            - generic [ref=f24e156]:
+              - generic [ref=f24e157]: "02"
+              - generic [ref=f24e158]:
+                - heading "Petal Prince" [level=3] [ref=f24e159]
+                - paragraph [ref=f24e160]: Srinia Chowdhury
+                - paragraph [ref=f24e161]: Stoneware Clay and coloured slips · 15.3 x 5.9 x 4.7 Inches · 2023
+                - link "Enquire" [ref=f24e162] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Petal%20Prince%22%20by%20Srinia%20Chowdhury%20from%20House%20of%20Unified%20Expression.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f24e163]: →
+          - listitem [ref=f24e164]:
+            - img "Under Control by Jagdeesh Tamminenni" [ref=f24e166]
+            - generic [ref=f24e167]:
+              - generic [ref=f24e168]: "03"
+              - generic [ref=f24e169]:
+                - heading "Under Control" [level=3] [ref=f24e170]
+                - paragraph [ref=f24e171]: Jagdeesh Tamminenni
+                - paragraph [ref=f24e172]: Woodcut Block (Natural Kamba Wood) · 24 x 36 inches · 2023
+                - link "Enquire" [ref=f24e173] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Under%20Control%22%20by%20Jagdeesh%20Tamminenni%20from%20House%20of%20Unified%20Expression.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f24e174]: →
+          - listitem [ref=f24e175]:
+            - img "Rebirth and Survival by Malchand Pareek" [ref=f24e177]
+            - generic [ref=f24e178]:
+              - generic [ref=f24e179]: "04"
+              - generic [ref=f24e180]:
+                - heading "Rebirth and Survival" [level=3] [ref=f24e181]
+                - paragraph [ref=f24e182]: Malchand Pareek
+                - paragraph [ref=f24e183]: Mixed Media on Canvas · 36 X 48 Inches
+                - link "Enquire" [ref=f24e184] [cursor=pointer]:
+                  - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Rebirth%20and%20Survival%22%20by%20Malchand%20Pareek%20from%20House%20of%20Unified%20Expression.
+                  - text: Enquire
+                  - generic [aria-hidden] [ref=f24e185]: →
+      - region "Next exhibition" [ref=f24e186]:
+        - link "Next exhibition / Past Mirror Mirror – Champa Tree March 22, 2024" [ref=f24e187] [cursor=pointer]:
+          - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+          - generic [ref=f24e188]:
+            - paragraph [ref=f24e189]:
+              - text: Next exhibition
+              - generic [ref=f24e190]: / Past
+            - paragraph [ref=f24e191]: Mirror Mirror – Champa Tree
+            - generic [ref=f24e192]:
+              - text: March 22, 2024
+              - generic [aria-hidden] [ref=f24e193]: →
+        - link "All Exhibitions" [ref=f24e195] [cursor=pointer]:
+          - /url: /ekchitra-v6/exhibitions
+          - text: All Exhibitions
+          - generic [aria-hidden] [ref=f24e196]: →
+    - generic [ref=f24e197]:
+      - generic [ref=f24e198]:
+        - generic [ref=f24e199]:
+          - paragraph [ref=f24e200]: Gallery
+          - list [ref=f24e201]:
+            - listitem [ref=f24e202]:
+              - link "About" [ref=f24e203] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f24e204]:
+              - link "Exhibitions" [ref=f24e205] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f24e206]:
+              - link "Artists" [ref=f24e207] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f24e208]:
+              - link "Artworks" [ref=f24e209] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f24e210]:
+              - link "Services" [ref=f24e211] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f24e212]:
+              - link "Contact" [ref=f24e213] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f24e214]:
+          - paragraph [ref=f24e215]: Connect
+          - list [ref=f24e216]:
+            - listitem [ref=f24e217]:
+              - link "Instagram" [ref=f24e218] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f24e219]:
+              - link "WhatsApp" [ref=f24e220] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f24e221]:
+          - paragraph [ref=f24e222]: Get in touch
+          - list [ref=f24e223]:
+            - listitem [ref=f24e224]:
+              - link "info@ekchitra.com" [ref=f24e225] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f24e226]:
+              - link "+91 91001 18321" [ref=f24e227] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f24e228]:
+          - paragraph [ref=f24e229]: Visit
+          - paragraph [ref=f24e230]:
+            - generic [ref=f24e231]: F94M+52P, Surya Enclave,
+            - generic [ref=f24e232]: HITEC City, Hyderabad,
+            - generic [ref=f24e233]: Telangana 500081
+          - list [ref=f24e234]:
+            - listitem [ref=f24e235]:
+              - link "Directions" [ref=f24e236] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f24e237]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f24e243] [cursor=pointer]

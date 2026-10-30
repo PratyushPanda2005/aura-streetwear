@@ -1,0 +1,229 @@
+- generic [active] [ref=f28e1]:
+  - main [ref=f28e3]:
+    - generic [ref=f28e4]:
+      - link "Home" [ref=f28e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f28e6]:
+        - list [ref=f28e7]:
+          - listitem [ref=f28e8]:
+            - link "About" [ref=f28e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f28e10]:
+            - link "Exhibitions" [ref=f28e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f28e12]:
+            - link "Artists" [ref=f28e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f28e14]:
+            - link "Artworks" [ref=f28e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f28e16]:
+            - link "Services" [ref=f28e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f28e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f28e19]: →
+    - region [ref=f28e20]:
+      - generic [ref=f28e21]:
+        - paragraph [ref=f28e22]: ( About EkChitra )
+        - heading "Where art meets soul." [level=1] [ref=f28e23]:
+          - generic [ref=f28e24]: Where art
+          - generic [ref=f28e25]: meets soul.
+    - generic [ref=f28e26]:
+      - region [ref=f28e27]:
+        - heading "Our story." [level=2] [ref=f28e28]
+        - paragraph [ref=f28e31]: EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide.
+        - generic [ref=f28e40]:
+          - paragraph [ref=f28e43]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+          - paragraph [ref=f28e46]: Today, we proudly showcase a diverse collection of contemporary artworks, from bold abstracts to serene landscapes, each piece carefully curated to bring beauty and meaning into your life.
+      - region "How we work" [ref=f28e50]:
+        - list [ref=f28e51]:
+          - listitem [ref=f28e52]:
+            - paragraph [ref=f28e54]: ( How we work 01 )
+            - generic [ref=f28e55]:
+              - heading "We begin with looking." [level=3] [ref=f28e56]
+              - paragraph [ref=f28e57]:
+                - generic [ref=f28e58]: Curiosity
+                - text: Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.
+          - listitem [ref=f28e59]:
+            - paragraph [ref=f28e61]: ( How we work 02 )
+            - generic [ref=f28e62]:
+              - heading "Every work belongs to a larger story." [level=3] [ref=f28e63]
+              - paragraph [ref=f28e64]:
+                - generic [ref=f28e65]: Context
+                - text: From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.
+          - listitem [ref=f28e66]:
+            - paragraph [ref=f28e68]: ( How we work 03 )
+            - generic [ref=f28e69]:
+              - heading "Art becomes meaningful when it enters a life." [level=3] [ref=f28e70]
+              - paragraph [ref=f28e71]:
+                - generic [ref=f28e72]: Connection
+                - text: Art selection, curation and placement shaped around a particular space, and considered guidance for starting, refining or growing a collection.
+          - listitem [ref=f28e73]:
+            - paragraph [ref=f28e75]: ( How we work 04 )
+            - generic [ref=f28e76]:
+              - heading "A gallery is a place to exchange ideas." [level=3] [ref=f28e77]
+              - paragraph [ref=f28e78]:
+                - generic [ref=f28e79]: Conversation
+                - text: Knowledgeable without being intimidating, and always open to a conversation — amplifying the voices of artists so their stories reach diverse audiences.
+      - region [ref=f28e80]:
+        - generic [ref=f28e81]:
+          - heading "Gallery snapshot." [level=2] [ref=f28e82]: Gallerysnapshot.
+          - link "Plan a Visit" [ref=f28e83] [cursor=pointer]:
+            - /url: /ekchitra-v6/contact
+            - text: Plan a Visit
+            - generic [aria-hidden] [ref=f28e84]: →
+        - generic [ref=f28e85]:
+          - generic [ref=f28e86]:
+            - generic [ref=f28e87]: Contemporary Indian art, Hyderabad
+            - generic [ref=f28e88]: HITEC City
+          - paragraph [ref=f28e89]:
+            - generic [ref=f28e90]: "18"
+            - generic [ref=f28e91]: Exhibitions curated
+          - generic [ref=f28e92]:
+            - generic [ref=f28e93]:
+              - term [ref=f28e94]: Artists represented
+              - definition [ref=f28e95]: "15"
+            - generic [ref=f28e96]:
+              - term [ref=f28e97]: Works in the collection
+              - definition [ref=f28e98]: 29+
+            - generic [ref=f28e99]:
+              - term [ref=f28e100]: Now & upcoming
+              - definition [ref=f28e101]: "02"
+            - generic [ref=f28e102]:
+              - term [ref=f28e103]: Past exhibitions
+              - definition [ref=f28e104]: "16"
+      - region [ref=f28e105]:
+        - heading "Exhibitions, by year." [level=2] [ref=f28e106]: Exhibitions,by year.
+        - generic [ref=f28e107]:
+          - paragraph [ref=f28e108]: ( 18 )
+          - paragraph [ref=f28e109]: Held at EkChitra
+        - generic [ref=f28e110]:
+          - generic [ref=f28e111]:
+            - generic [ref=f28e112]: Exhibition
+            - generic [ref=f28e113]: Dates
+            - generic [ref=f28e114]: Year
+          - list [ref=f28e115]:
+            - listitem [ref=f28e116]:
+              - link "Living Temple 2026 Dates to be announced 2026" [ref=f28e117]:
+                - /url: /ekchitra-v6/exhibitions/living-temple-2026
+                - generic [ref=f28e118]: Living Temple 2026
+                - generic [ref=f28e119]: Dates to be announced
+                - generic [ref=f28e120]: "2026"
+            - listitem [ref=f28e121]:
+              - link "Where Light Rests December 5, 2026 – February 14, 2027 2026" [ref=f28e122]:
+                - /url: /ekchitra-v6/exhibitions/where-light-rests
+                - generic [ref=f28e123]: Where Light Rests
+                - generic [ref=f28e124]: December 5, 2026 – February 14, 2027
+                - generic [ref=f28e125]: "2026"
+            - listitem [ref=f28e126]:
+              - link "Hyd Art December 19 – 21, 2025 2025" [ref=f28e127]:
+                - /url: /ekchitra-v6/exhibitions/hyd-art
+                - generic [ref=f28e128]: Hyd Art
+                - generic [ref=f28e129]: December 19 – 21, 2025
+                - generic [ref=f28e130]: "2025"
+            - listitem [ref=f28e131]:
+              - link "Swadhatri March 7 – 16, 2025 2025" [ref=f28e132]:
+                - /url: /ekchitra-v6/exhibitions/swadhatri
+                - generic [ref=f28e133]: Swadhatri
+                - generic [ref=f28e134]: March 7 – 16, 2025
+                - generic [ref=f28e135]: "2025"
+            - listitem [ref=f28e136]:
+              - link "Living Temple February 28 – March 4, 2025 2025" [ref=f28e137]:
+                - /url: /ekchitra-v6/exhibitions/living-temple
+                - generic [ref=f28e138]: Living Temple
+                - generic [ref=f28e139]: February 28 – March 4, 2025
+                - generic [ref=f28e140]: "2025"
+            - listitem [ref=f28e141]:
+              - link "Naik City February 14 – 23, 2025 2025" [ref=f28e142]:
+                - /url: /ekchitra-v6/exhibitions/naik-city
+                - generic [ref=f28e143]: Naik City
+                - generic [ref=f28e144]: February 14 – 23, 2025
+                - generic [ref=f28e145]: "2025"
+            - listitem [ref=f28e146]:
+              - link "House of Unified Expression August 30 – 29 Sept, 2025 2025" [ref=f28e147]:
+                - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+                - generic [ref=f28e148]: House of Unified Expression
+                - generic [ref=f28e149]: August 30 – 29 Sept, 2025
+                - generic [ref=f28e150]: "2025"
+            - listitem [ref=f28e151]:
+              - link "Mirror Mirror – Champa Tree March 22, 2024 2024" [ref=f28e152]:
+                - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+                - generic [ref=f28e153]: Mirror Mirror – Champa Tree
+                - generic [ref=f28e154]: March 22, 2024
+                - generic [ref=f28e155]: "2024"
+          - link "All Exhibitions" [ref=f28e156] [cursor=pointer]:
+            - /url: /ekchitra-v6/exhibitions
+            - text: All Exhibitions
+            - generic [aria-hidden] [ref=f28e157]: →
+    - region [ref=f28e158]:
+      - generic [ref=f28e159]:
+        - heading "A note from our curator" [level=2] [ref=f28e160]
+        - figure "Annapurna M Curator, EkChitra" [ref=f28e161]:
+          - blockquote [ref=f28e162]:
+            - paragraph [ref=f28e163]:
+              - generic [ref=f28e164]: We’ve always lived around art —
+              - generic [ref=f28e166]: we’ve just forgotten to notice it.
+              - generic [ref=f28e168]: Every exhibition here begins with an idea,
+              - generic [ref=f28e170]: and every visit with curiosity.
+          - generic [ref=f28e172]:
+            - generic [ref=f28e173]: Annapurna M
+            - generic [ref=f28e174]: Curator, EkChitra
+    - generic [ref=f28e175]:
+      - generic [ref=f28e176]:
+        - generic [ref=f28e177]:
+          - paragraph [ref=f28e178]: Gallery
+          - list [ref=f28e179]:
+            - listitem [ref=f28e180]:
+              - link "About" [ref=f28e181] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f28e182]:
+              - link "Exhibitions" [ref=f28e183] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f28e184]:
+              - link "Artists" [ref=f28e185] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f28e186]:
+              - link "Artworks" [ref=f28e187] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f28e188]:
+              - link "Services" [ref=f28e189] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f28e190]:
+              - link "Contact" [ref=f28e191] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f28e192]:
+          - paragraph [ref=f28e193]: Connect
+          - list [ref=f28e194]:
+            - listitem [ref=f28e195]:
+              - link "Instagram" [ref=f28e196] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f28e197]:
+              - link "WhatsApp" [ref=f28e198] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f28e199]:
+          - paragraph [ref=f28e200]: Get in touch
+          - list [ref=f28e201]:
+            - listitem [ref=f28e202]:
+              - link "info@ekchitra.com" [ref=f28e203] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f28e204]:
+              - link "+91 91001 18321" [ref=f28e205] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f28e206]:
+          - paragraph [ref=f28e207]: Visit
+          - paragraph [ref=f28e208]:
+            - generic [ref=f28e209]: F94M+52P, Surya Enclave,
+            - generic [ref=f28e210]: HITEC City, Hyderabad,
+            - generic [ref=f28e211]: Telangana 500081
+          - list [ref=f28e212]:
+            - listitem [ref=f28e213]:
+              - link "Directions" [ref=f28e214] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f28e215]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f28e221] [cursor=pointer]
+  - alert [ref=f28e225]

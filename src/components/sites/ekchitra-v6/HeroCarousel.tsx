@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -10,34 +10,16 @@ import { Dotted } from "./Dotted";
 /** How long each picture holds before the next fades in, ms. */
 const HOLD = 4500;
 
-/** A small round step button on the dark pill. */
-const ARROW =
-  "grid size-6 place-items-center rounded-full transition-colors duration-200 hover:bg-white/20 focus-visible:outline-1 focus-visible:outline-white";
-
-/** A thin chevron pointing right; rotate it for left. */
-function Chevron({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 12 12"
-      aria-hidden="true"
-      className={cn("size-3", className)}
-    >
-      <path
-        d="M4.5 2.5 8 6l-3.5 3.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.25"
-      />
-    </svg>
-  );
-}
+/** How far a drag or swipe has to travel sideways to change the picture, px. */
+const SWIPE = 40;
 
 /**
  * Artworks cross-fading on their own: each one fades in on top of the last
- * while settling from a slight zoom. In the bottom-right corner, on a dark
- * pill so it reads over any picture, small previous and next buttons flank a
- * row of dots showing which one is up; stepping by hand restarts the timer.
- * Doesn't advance on its own when the visitor prefers reduced motion.
+ * while settling from a slight zoom. Along the foot, a row of thin bars, one
+ * per work, the current one filling while it holds; clicking a bar goes to
+ * its work, and a swipe or a drag sideways steps through them; stepping by
+ * hand restarts the timer (and the bar). Doesn't
+ * advance on its own when the visitor prefers reduced motion.
  */
 export function HeroCarousel({
   slides,
@@ -51,8 +33,12 @@ export function HeroCarousel({
   className?: string;
 }) {
   const [active, setActive] = useState(0);
-  // Bumped on every manual step, so the timer starts its count again.
+  // Bumped on every manual step, so the timer (and the bar) start again.
   const [steps, setSteps] = useState(0);
+  // Where a drag began, and whether the last one moved far enough to count
+  // as a swipe (so letting go doesn't also follow the link).
+  const start = useRef<number | null>(null);
+  const swiped = useRef(false);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -63,30 +49,54 @@ export function HeroCarousel({
     return () => window.clearInterval(id);
   }, [slides.length, steps]);
 
-  const step = (by: number) => {
-    setActive((index) => (index + by + slides.length) % slides.length);
+  const go = (index: number) => {
+    setActive((index + slides.length) % slides.length);
     setSteps((count) => count + 1);
   };
+
+  const slide = slides[active];
 
   return (
     <div
       className={cn(
-        "relative overflow-hidden bg-white",
+        "relative touch-pan-y overflow-hidden bg-white select-none",
         dotted && "group",
         className,
       )}
+      onPointerDown={(event) => {
+        start.current = event.clientX;
+        swiped.current = false;
+      }}
+      onPointerUp={(event) => {
+        if (start.current === null) return;
+        const moved = event.clientX - start.current;
+        start.current = null;
+        if (Math.abs(moved) < SWIPE) return;
+        swiped.current = true;
+        go(active + (moved < 0 ? 1 : -1));
+      }}
+      onPointerCancel={() => {
+        start.current = null;
+      }}
+      onClickCapture={(event) => {
+        if (swiped.current) {
+          event.preventDefault();
+          swiped.current = false;
+        }
+      }}
     >
       {/* The pictures, cross-fading. When dotted they are drawn twice (see
           Dotted); both copies share the same state, so they change together. */}
       <Dotted on={dotted}>
-        {slides.map((slide, index) => (
+        {slides.map((item, index) => (
           <Image
-            key={slide.src}
-            src={slide.src}
-            alt={index === active ? slide.alt : ""}
+            key={item.src}
+            src={item.src}
+            alt={index === active ? item.alt : ""}
             aria-hidden={index !== active}
             fill
             priority={index === 0}
+            draggable={false}
             sizes="(max-width: 1023px) 100vw, 50vw"
             className={cn(
               "object-cover transition-[opacity,scale] ease-out",
@@ -99,44 +109,41 @@ export function HeroCarousel({
         ))}
       </Dotted>
 
-      {/* The picture showing, as a link to its artwork, under the controls. */}
-      {slides[active]?.href && (
+      {/* The picture showing, as a link to its artwork, under the bars. */}
+      {slide?.href && (
         <a
-          href={slides[active].href}
-          aria-label={`View ${slides[active].alt}`}
+          href={slide.href}
+          draggable={false}
+          aria-label={`View ${slide.alt}`}
           className="absolute inset-0 z-10 focus-visible:outline-2 focus-visible:-outline-offset-4 focus-visible:outline-white"
         />
       )}
 
-      {/* Previous and next, either side of where the run is. */}
-      <div className="absolute right-5 bottom-5 z-20 flex items-center gap-x-1 rounded-full bg-(--k-ink)/55 p-1 text-white backdrop-blur-sm">
-        <button
-          type="button"
-          onClick={() => step(-1)}
-          aria-label="Previous artwork"
-          className={ARROW}
-        >
-          <Chevron className="rotate-180" />
-        </button>
-        <div aria-hidden="true" className="flex items-center gap-x-1.5 px-1">
-          {slides.map((slide, index) => (
-            <span
-              key={slide.src}
-              className={cn(
-                "h-1.5 rounded-full bg-white transition-[width,opacity] duration-500 ease-out",
-                index === active ? "w-5 opacity-100" : "w-1.5 opacity-60",
+      {/* The bars: one thin line per work along the foot, the current one
+          filling while it holds; each goes to its work. A soft shadow keeps
+          them visible over pale pictures. Clicking them leaves any dots on
+          (.ek6-keep-dots). */}
+      <div className="ek6-keep-dots absolute inset-x-5 bottom-3 z-20 flex gap-x-1.5 drop-shadow-[0_1px_2px_rgb(0_0_0/0.35)]">
+        {slides.map((item, index) => (
+          <button
+            key={item.src}
+            type="button"
+            onClick={() => go(index)}
+            aria-label={`Show ${item.alt}`}
+            aria-current={index === active}
+            className="group/bar flex h-6 flex-1 items-center focus-visible:outline-1 focus-visible:outline-white"
+          >
+            <span className="relative block h-0.5 w-full overflow-hidden bg-white/45 transition-colors group-hover/bar:bg-white/70">
+              {index === active && (
+                <span
+                  key={steps}
+                  // As long as HOLD; simply full when motion is reduced.
+                  className="absolute inset-0 origin-left animate-[ek6-fill_4500ms_linear_forwards] bg-white motion-reduce:animate-none"
+                />
               )}
-            />
-          ))}
-        </div>
-        <button
-          type="button"
-          onClick={() => step(1)}
-          aria-label="Next artwork"
-          className={ARROW}
-        >
-          <Chevron />
-        </button>
+            </span>
+          </button>
+        ))}
       </div>
     </div>
   );

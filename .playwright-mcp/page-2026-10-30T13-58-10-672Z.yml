@@ -1,0 +1,201 @@
+- generic [active] [ref=f29e1]:
+  - banner [ref=f29e2]:
+    - navigation [ref=f29e3]:
+      - generic [ref=f29e4] [cursor=pointer]: Menu
+      - generic [ref=f29e10]:
+        - link "What’s On" [ref=f29e11] [cursor=pointer]:
+          - /url: https://www.knma.org/whats-on/
+        - link "Visit" [ref=f29e12] [cursor=pointer]:
+          - /url: https://www.knma.org/visit/saket/
+    - link "Go Back to KNMA Homepage" [ref=f29e14] [cursor=pointer]:
+      - /url: https://www.knma.org
+    - navigation [ref=f29e21]:
+      - link "Subscribe" [ref=f29e23] [cursor=pointer]:
+        - /url: ./signup/?click_src=header
+      - link "Search" [ref=f29e25] [cursor=pointer]:
+        - /url: ./search
+  - main [ref=f29e29]:
+    - generic [ref=f29e30]:
+      - generic [ref=f29e34]:
+        - heading "Inheritors of Earth" [level=1] [ref=f29e36]
+        - generic [ref=f29e37]:
+          - generic [ref=f29e38]: On View 09 Sep 2026 - 22 Dec 2026
+          - link "Visit Now" [ref=f29e40] [cursor=pointer]:
+            - /url: https://www.knma.org/visit/saket/
+      - generic [ref=f29e43] [cursor=pointer]
+    - generic [ref=f29e46]:
+      - generic:
+        - list:
+          - listitem:
+            - link "Home":
+              - /url: https://www.knma.org
+          - listitem:
+            - link "What's On":
+              - /url: https://www.knma.org/whats-on
+          - listitem:
+            - link "Inheritors of Earth":
+              - /url: "#"
+    - generic [ref=f29e49]:
+      - generic [ref=f29e50]:
+        - heading "Have we been looking at plants all wrong?" [level=3] [ref=f29e51]
+        - generic [ref=f29e53]:
+          - paragraph [ref=f29e54]:
+            - generic [ref=f29e55]: Inheritors of Earth
+            - text: ", curated by Premjish Achari, invites viewers into the relational world of plants, entities long treated as backdrop, resource, or specimen rather than co-inhabitants of the earth. The title draws on Vaikom Muhammad Basheer’s"
+            - generic [ref=f29e56]: Bhumiyude Avakashikal
+            - text: ", envisioning humans, flora and fauna as equal co-custodians of the planet, and on ecological activist Kallen Pokkudan, whose mangrove-planting work fused Dalit history with ecological repair."
+          - paragraph [ref=f29e57]: "Through paintings, photographs, installations and video, artists here practice a “phytosensitive” approach: encountering rather than merely representing plants, tracing colonial botanical migrations, and honoring uncredited lower-caste knowledge-keepers erased from scientific archives."
+          - paragraph [ref=f29e58]
+          - iframe [ref=f29e60]: <br />
+          - paragraph [ref=f29e61]
+          - paragraph [ref=f29e62]:
+            - text: Rejecting both extraction and exoticism, the exhibition asks viewers to look
+            - generic [ref=f29e63]: with
+            - text: plants, not just at them, moving from usefulness and utility toward humility, kinship, and coexistence—imagining a future shaped by plant life on its own terms.
+          - paragraph [ref=f29e64]: The exhibition is proud to host a set of artworks from the Shared Ecologies archive as part of an extended reading room. Ben Goldfarb has designed a special soundscape for the exhibition. Independent curator and researcher Oorja Garg and IMPULSE Magazine, New York are leading a special reading group for the duration of the exhibition.
+          - generic [ref=f29e65]: Museum FAQs
+          - generic [ref=f29e68]: Exhibition FAQs
+      - generic [ref=f29e72]:
+        - generic [ref=f29e73]:
+          - generic [ref=f29e74]: When
+          - generic [ref=f29e75]: 09 Sep 2026 - 22 Dec 2026
+          - generic [ref=f29e76]: 11:00 am - 8:00 pm
+        - generic [ref=f29e77]:
+          - generic [ref=f29e78]: Where
+          - generic [ref=f29e79]: KNMA, New DelhiDLF South Court Mall, Near Select Citywalk Mall, Saket, New Delhi, 110017
+        - generic [ref=f29e80]:
+          - generic [ref=f29e81]: Artist
+          - generic [ref=f29e82]: Arunkumar HG, Ben Goldfarb, Bhimanshu Pandel, Gaurav Patil, Hemangini Maharaul, Ishita Chakraborty, Jayita Barai, Maksud Ali Mondol, Manir Mrittik, Manuel Mata, Minam Apang, Radhika Agarwala, Ravi Agarwal, Samit Das, Sujith SN, Sweety Chakma, Sandeep TK, Valay Gada, and Shared Ecologies
+        - generic [ref=f29e83]:
+          - generic [ref=f29e84]: Curated By
+          - generic [ref=f29e85]: Premjish Achari
+        - generic [ref=f29e86]:
+          - generic [ref=f29e87]: Press Release
+          - link "Download the Press Release" [ref=f29e89] [cursor=pointer]:
+            - /url: https://www.knma.org/wp-content/uploads/2026/10/KNMA-announces-Inheritors-of-Earth-Curated-by-Premjish-Achari.pdf
+        - generic [ref=f29e90]:
+          - generic [ref=f29e91]: Audio Guide
+          - link "Click to Hear" [ref=f29e93] [cursor=pointer]:
+            - /url: https://guides.bloombergconnects.org/en-US/guide/kNmA/exhibition/f01a63c5-7a61-40a7-873a-7ac8d8e5b135
+        - generic [ref=f29e94]:
+          - generic [ref=f29e95]: Have a question? ASK
+          - link "Chat with your AI museum companion." [ref=f29e97] [cursor=pointer]:
+            - /url: https://webapp.askmona.ai/i/mtqvdjhi-u7ox6/selection/inheritors-of-earth
+        - generic [ref=f29e98]:
+          - generic [ref=f29e99]: Exhibition Brochure
+          - link "Download the Brochure" [ref=f29e101] [cursor=pointer]:
+            - /url: https://www.knma.org/wp-content/uploads/2026/10/Inheritors-of-Earth-Brochure.pdf
+        - generic [ref=f29e102]:
+          - generic [ref=f29e103]: Tags
+          - generic [ref=f29e104]:
+            - generic [ref=f29e105] [cursor=pointer]: Experiential
+            - generic [ref=f29e106] [cursor=pointer]: Installation
+            - generic [ref=f29e107] [cursor=pointer]: Multi Media
+        - generic [ref=f29e108]:
+          - generic [ref=f29e109]: Share
+          - generic [ref=f29e110]:
+            - button [ref=f29e111] [cursor=pointer]
+            - button [ref=f29e116] [cursor=pointer]
+            - button [ref=f29e122] [cursor=pointer]
+            - button [ref=f29e128] [cursor=pointer]
+    - generic [ref=f29e136]:
+      - generic:
+        - generic:
+          - button "Previous slide" [disabled]
+          - button "Next slide"
+        - generic:
+          - generic:
+            - generic: Colorized Scene from As Told by the Sea (2026), Sandeep TK
+            - generic: Vulnerable Guardians (series), Arunkumar HG
+            - generic: Vulnerable Guardians (series), Arunkumar HG
+            - generic: Inheritors of Earth
+            - generic: Where The Wild Things Roam 35, Cotton (2026), Ishita Chakraborty
+            - generic: Inheritors of Earth
+            - generic: Spectre of War VIII (2025), Minam Apang
+            - generic: Inheritors of Earth
+            - generic: Inheritors of Earth
+            - generic: Pre - Monsoon Drift, Gaurav Patil
+  - contentinfo [ref=f29e137]:
+    - generic [ref=f29e138]:
+      - generic [ref=f29e140]:
+        - generic [ref=f29e141]:
+          - status
+          - list
+        - form "Contact form" [ref=f29e142]:
+          - generic [ref=f29e143]:
+            - generic:
+              - generic:
+                - textbox "Subscribe to our newsletter"
+            - button "Sign up" [ref=f29e145] [cursor=pointer]
+      - generic [ref=f29e146]:
+        - link "Kiran Nadar Museum of Art brand logo" [ref=f29e147] [cursor=pointer]:
+          - /url: https://www.knma.org
+          - img "Kiran Nadar Museum of Art brand logo"
+        - generic [ref=f29e148]:
+          - generic [ref=f29e149]:
+            - generic [ref=f29e150]:
+              - generic: Discover
+              - list:
+                - listitem:
+                  - link "Visit":
+                    - /url: https://www.knma.org/visit/saket/
+                - listitem:
+                  - link "What’s On":
+                    - /url: https://www.knma.org/whats-on/
+                - listitem:
+                  - link "The Collection":
+                    - /url: https://www.knma.org/collection/
+                - listitem:
+                  - link "Publications":
+                    - /url: https://www.knma.org/publications/
+            - generic [ref=f29e151]:
+              - generic: The Museum
+              - list:
+                - listitem:
+                  - link "About":
+                    - /url: https://www.knma.org/about/
+                - listitem:
+                  - link "Careers":
+                    - /url: https://www.knma.org/careers/
+                - listitem:
+                  - link "Join Our Creative Community":
+                    - /url: https://www.knma.org/about/join-our-creative-community/
+                - listitem:
+                  - link "Contact Us":
+                    - /url: https://www.knma.org/contact-us/
+            - generic [ref=f29e152]:
+              - generic: Media
+              - list:
+                - listitem:
+                  - link "Press":
+                    - /url: https://www.knma.org/press/
+            - generic [ref=f29e153]:
+              - generic: Follow us
+              - list:
+                - listitem:
+                  - link:
+                    - /url: https://www.facebook.com/KiranNadarMuseumOfArt
+                - listitem:
+                  - link:
+                    - /url: https://x.com/KNMAindia
+                - listitem:
+                  - link:
+                    - /url: https://www.instagram.com/knmaindia/
+                - listitem:
+                  - link:
+                    - /url: https://www.youtube.com/channel/UC1pZ79RuUM2BPxXsbPA-z8Q
+                - listitem:
+                  - link:
+                    - /url: https://in.linkedin.com/company/kiran-nadar-museum-of-art
+          - generic:
+            - link "Privacy Policy":
+              - /url: https://www.knma.org/privacy-policy/
+            - generic: "|"
+            - link "Disclaimer":
+              - /url: https://www.knma.org/disclaimer/
+            - generic: "|"
+            - link "Terms and Conditions":
+              - /url: https://www.knma.org/terms-and-conditions/
+            - generic: "|"
+            - link "Download":
+              - /url: https://www.knma.org/downloads/

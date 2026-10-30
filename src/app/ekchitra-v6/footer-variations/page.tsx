@@ -50,7 +50,7 @@ const VARIATIONS: { name: string; note: string; body: ReactNode }[] = [
   },
   {
     name: "Card",
-    note: "After pizzapizza.io — compact: a maroon card of two large facts, four small columns on black.",
+    note: "Short and minimal, type only on black: four small columns and the small print.",
     body: <FooterCard />,
   },
 ];

@@ -140,8 +140,6 @@ export function ExIndexReel() {
                         leftRows.current[index] = el;
                       }}
                       href={show.href}
-                      target="_blank"
-                      rel="noreferrer"
                       className="flex h-[30px] items-center justify-end gap-x-6 text-[13px] tracking-[0.04em] uppercase hover:opacity-100! focus-visible:opacity-100! focus-visible:outline-1 focus-visible:-outline-offset-1 focus-visible:outline-(--k-ink)"
                     >
                       <span
@@ -240,8 +238,6 @@ export function ExIndexReel() {
           <li key={show.title}>
             <a
               href={show.href}
-              target="_blank"
-              rel="noreferrer"
               className="block"
             >
               <span className="relative block aspect-video overflow-hidden">

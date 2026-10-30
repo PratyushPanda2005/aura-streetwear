@@ -1,0 +1,1266 @@
+- generic [active] [ref=f12e1]:
+  - banner [ref=f12e2]:
+    - navigation [ref=f12e3]:
+      - generic [ref=f12e4] [cursor=pointer]: Menu
+      - generic [ref=f12e10]:
+        - link "What’s On" [ref=f12e11] [cursor=pointer]:
+          - /url: https://www.knma.org/whats-on/
+        - link "Visit" [ref=f12e12] [cursor=pointer]:
+          - /url: https://www.knma.org/visit/saket/
+    - link "Go Back to KNMA Homepage" [ref=f12e14] [cursor=pointer]:
+      - /url: https://www.knma.org
+    - navigation [ref=f12e21]:
+      - link "Subscribe" [ref=f12e23] [cursor=pointer]:
+        - /url: ./signup/?click_src=header
+      - link "Search" [ref=f12e25] [cursor=pointer]:
+        - /url: ./search
+  - main [ref=f12e29]:
+    - generic [ref=f12e31]:
+      - generic [ref=f12e32]: "> > Your browser does not support the video tag."
+      - button "Play or Pause Video" [ref=f12e36] [cursor=pointer]
+    - generic [ref=f12e43]:
+      - generic:
+        - generic: "> > Your browser does not support the video tag."
+        - button "Play or Pause Video"
+      - generic [ref=f12e45]:
+        - generic [ref=f12e46]:
+          - generic [ref=f12e47]:
+            - generic [ref=f12e48]: K
+            - generic [ref=f12e49]: i
+            - generic [ref=f12e50]: r
+            - generic [ref=f12e51]: a
+            - generic [ref=f12e52]: "n"
+          - generic [ref=f12e53]:
+            - generic [ref=f12e54]: "N"
+            - generic [ref=f12e55]: a
+            - generic [ref=f12e56]: d
+            - generic [ref=f12e57]: a
+            - generic [ref=f12e58]: r
+          - generic [ref=f12e59]:
+            - generic [ref=f12e60]: M
+            - generic [ref=f12e61]: u
+            - generic [ref=f12e62]: s
+            - generic [ref=f12e63]: e
+            - generic [ref=f12e64]: u
+            - generic [ref=f12e65]: m
+          - generic [ref=f12e66]:
+            - generic [ref=f12e67]: o
+            - generic [ref=f12e68]: f
+          - generic [ref=f12e69]:
+            - generic [ref=f12e70]: A
+            - generic [ref=f12e71]: r
+            - generic [ref=f12e72]: t
+          - generic [ref=f12e73]:
+            - generic [ref=f12e74]: i
+            - generic [ref=f12e75]: s
+          - generic [ref=f12e76]: a
+          - generic [ref=f12e78]:
+            - generic [ref=f12e79]: w
+            - generic [ref=f12e80]: e
+            - generic [ref=f12e81]: l
+            - generic [ref=f12e82]: c
+            - generic [ref=f12e83]: o
+            - generic [ref=f12e84]: m
+            - generic [ref=f12e85]: i
+            - generic [ref=f12e86]: "n"
+            - generic [ref=f12e87]: g
+          - generic [ref=f12e88]:
+            - generic [ref=f12e89]: p
+            - generic [ref=f12e90]: l
+            - generic [ref=f12e91]: a
+            - generic [ref=f12e92]: c
+            - generic [ref=f12e93]: e
+          - generic [ref=f12e94]:
+            - generic [ref=f12e95]: f
+            - generic [ref=f12e96]: o
+            - generic [ref=f12e97]: r
+          - generic [ref=f12e98]:
+            - generic [ref=f12e99]: a
+            - generic [ref=f12e100]: l
+            - generic [ref=f12e101]: l
+            - generic [ref=f12e102]: .
+          - generic [ref=f12e103]:
+            - generic [ref=f12e104]: W
+            - generic [ref=f12e105]: e
+          - generic [ref=f12e106]:
+            - generic [ref=f12e107]: p
+            - generic [ref=f12e108]: r
+            - generic [ref=f12e109]: e
+            - generic [ref=f12e110]: s
+            - generic [ref=f12e111]: e
+            - generic [ref=f12e112]: "n"
+            - generic [ref=f12e113]: t
+          - generic [ref=f12e114]:
+            - generic [ref=f12e115]: t
+            - generic [ref=f12e116]: h
+            - generic [ref=f12e117]: e
+          - generic [ref=f12e118]:
+            - generic [ref=f12e119]: a
+            - generic [ref=f12e120]: r
+            - generic [ref=f12e121]: t
+            - generic [ref=f12e122]: s
+          - generic [ref=f12e123]:
+            - generic [ref=f12e124]: p
+            - generic [ref=f12e125]: r
+            - generic [ref=f12e126]: i
+            - generic [ref=f12e127]: m
+            - generic [ref=f12e128]: a
+            - generic [ref=f12e129]: r
+            - generic [ref=f12e130]: i
+            - generic [ref=f12e131]: l
+            - generic [ref=f12e132]: "y"
+          - generic [ref=f12e133]:
+            - generic [ref=f12e134]: f
+            - generic [ref=f12e135]: r
+            - generic [ref=f12e136]: o
+            - generic [ref=f12e137]: m
+          - generic [ref=f12e138]:
+            - generic [ref=f12e139]: I
+            - generic [ref=f12e140]: "n"
+            - generic [ref=f12e141]: d
+            - generic [ref=f12e142]: i
+            - generic [ref=f12e143]: a
+          - generic [ref=f12e144]:
+            - generic [ref=f12e145]: a
+            - generic [ref=f12e146]: "n"
+            - generic [ref=f12e147]: d
+          - generic [ref=f12e148]:
+            - generic [ref=f12e149]: S
+            - generic [ref=f12e150]: o
+            - generic [ref=f12e151]: u
+            - generic [ref=f12e152]: t
+            - generic [ref=f12e153]: h
+          - generic [ref=f12e154]:
+            - generic [ref=f12e155]: A
+            - generic [ref=f12e156]: s
+            - generic [ref=f12e157]: i
+            - generic [ref=f12e158]: a
+          - generic [ref=f12e159]:
+            - generic [ref=f12e160]: a
+            - generic [ref=f12e161]: c
+            - generic [ref=f12e162]: r
+            - generic [ref=f12e163]: o
+            - generic [ref=f12e164]: s
+            - generic [ref=f12e165]: s
+          - generic [ref=f12e166]:
+            - generic [ref=f12e167]: t
+            - generic [ref=f12e168]: i
+            - generic [ref=f12e169]: m
+            - generic [ref=f12e170]: e
+            - generic [ref=f12e171]: ","
+          - generic [ref=f12e172]:
+            - generic [ref=f12e173]: w
+            - generic [ref=f12e174]: i
+            - generic [ref=f12e175]: t
+            - generic [ref=f12e176]: h
+          - generic [ref=f12e177]:
+            - generic [ref=f12e178]: c
+            - generic [ref=f12e179]: r
+            - generic [ref=f12e180]: e
+            - generic [ref=f12e181]: a
+            - generic [ref=f12e182]: t
+            - generic [ref=f12e183]: i
+            - generic [ref=f12e184]: v
+            - generic [ref=f12e185]: i
+            - generic [ref=f12e186]: t
+            - generic [ref=f12e187]: "y"
+            - generic [ref=f12e188]: ","
+          - generic [ref=f12e189]:
+            - generic [ref=f12e190]: k
+            - generic [ref=f12e191]: "n"
+            - generic [ref=f12e192]: o
+            - generic [ref=f12e193]: w
+            - generic [ref=f12e194]: l
+            - generic [ref=f12e195]: e
+            - generic [ref=f12e196]: d
+            - generic [ref=f12e197]: g
+            - generic [ref=f12e198]: e
+            - generic [ref=f12e199]: ","
+          - generic [ref=f12e200]:
+            - generic [ref=f12e201]: a
+            - generic [ref=f12e202]: "n"
+            - generic [ref=f12e203]: d
+          - generic [ref=f12e204]:
+            - generic [ref=f12e205]: c
+            - generic [ref=f12e206]: o
+            - generic [ref=f12e207]: "n"
+            - generic [ref=f12e208]: v
+            - generic [ref=f12e209]: e
+            - generic [ref=f12e210]: r
+            - generic [ref=f12e211]: s
+            - generic [ref=f12e212]: a
+            - generic [ref=f12e213]: t
+            - generic [ref=f12e214]: i
+            - generic [ref=f12e215]: o
+            - generic [ref=f12e216]: "n"
+            - generic [ref=f12e217]: s
+            - generic [ref=f12e218]: .
+          - generic [ref=f12e219]:
+            - generic [ref=f12e220]: T
+            - generic [ref=f12e221]: h
+            - generic [ref=f12e222]: r
+            - generic [ref=f12e223]: o
+            - generic [ref=f12e224]: u
+            - generic [ref=f12e225]: g
+            - generic [ref=f12e226]: h
+          - generic [ref=f12e227]:
+            - generic [ref=f12e228]: o
+            - generic [ref=f12e229]: u
+            - generic [ref=f12e230]: r
+          - generic [ref=f12e231]:
+            - generic [ref=f12e232]: c
+            - generic [ref=f12e233]: o
+            - generic [ref=f12e234]: l
+            - generic [ref=f12e235]: l
+            - generic [ref=f12e236]: e
+            - generic [ref=f12e237]: c
+            - generic [ref=f12e238]: t
+            - generic [ref=f12e239]: i
+            - generic [ref=f12e240]: o
+            - generic [ref=f12e241]: "n"
+            - generic [ref=f12e242]: ","
+          - generic [ref=f12e243]:
+            - generic [ref=f12e244]: e
+            - generic [ref=f12e245]: x
+            - generic [ref=f12e246]: h
+            - generic [ref=f12e247]: i
+            - generic [ref=f12e248]: b
+            - generic [ref=f12e249]: i
+            - generic [ref=f12e250]: t
+            - generic [ref=f12e251]: i
+            - generic [ref=f12e252]: o
+            - generic [ref=f12e253]: "n"
+            - generic [ref=f12e254]: s
+            - generic [ref=f12e255]: ","
+          - generic [ref=f12e256]:
+            - generic [ref=f12e257]: e
+            - generic [ref=f12e258]: d
+            - generic [ref=f12e259]: u
+            - generic [ref=f12e260]: c
+            - generic [ref=f12e261]: a
+            - generic [ref=f12e262]: t
+            - generic [ref=f12e263]: i
+            - generic [ref=f12e264]: o
+            - generic [ref=f12e265]: "n"
+            - generic [ref=f12e266]: a
+            - generic [ref=f12e267]: l
+          - generic [ref=f12e268]:
+            - generic [ref=f12e269]: a
+            - generic [ref=f12e270]: "n"
+            - generic [ref=f12e271]: d
+          - generic [ref=f12e272]:
+            - generic [ref=f12e273]: c
+            - generic [ref=f12e274]: u
+            - generic [ref=f12e275]: l
+            - generic [ref=f12e276]: t
+            - generic [ref=f12e277]: u
+            - generic [ref=f12e278]: r
+            - generic [ref=f12e279]: a
+            - generic [ref=f12e280]: l
+          - generic [ref=f12e281]:
+            - generic [ref=f12e282]: p
+            - generic [ref=f12e283]: r
+            - generic [ref=f12e284]: o
+            - generic [ref=f12e285]: g
+            - generic [ref=f12e286]: r
+            - generic [ref=f12e287]: a
+            - generic [ref=f12e288]: m
+            - generic [ref=f12e289]: m
+            - generic [ref=f12e290]: i
+            - generic [ref=f12e291]: "n"
+            - generic [ref=f12e292]: g
+            - generic [ref=f12e293]: ","
+          - generic [ref=f12e294]:
+            - generic [ref=f12e295]: w
+            - generic [ref=f12e296]: e
+          - generic [ref=f12e297]:
+            - generic [ref=f12e298]: a
+            - generic [ref=f12e299]: s
+            - generic [ref=f12e300]: p
+            - generic [ref=f12e301]: i
+            - generic [ref=f12e302]: r
+            - generic [ref=f12e303]: e
+          - generic [ref=f12e304]:
+            - generic [ref=f12e305]: t
+            - generic [ref=f12e306]: o
+          - generic [ref=f12e307]:
+            - generic [ref=f12e308]: c
+            - generic [ref=f12e309]: o
+            - generic [ref=f12e310]: "n"
+            - generic [ref=f12e311]: "n"
+            - generic [ref=f12e312]: e
+            - generic [ref=f12e313]: c
+            - generic [ref=f12e314]: t
+          - generic [ref=f12e315]:
+            - generic [ref=f12e316]: t
+            - generic [ref=f12e317]: h
+            - generic [ref=f12e318]: e
+          - generic [ref=f12e319]:
+            - generic [ref=f12e320]: a
+            - generic [ref=f12e321]: r
+            - generic [ref=f12e322]: t
+            - generic [ref=f12e323]: s
+            - generic [ref=f12e324]: ","
+          - generic [ref=f12e325]:
+            - generic [ref=f12e326]: a
+            - generic [ref=f12e327]: r
+            - generic [ref=f12e328]: t
+            - generic [ref=f12e329]: i
+            - generic [ref=f12e330]: s
+            - generic [ref=f12e331]: t
+            - generic [ref=f12e332]: s
+            - generic [ref=f12e333]: ","
+          - generic [ref=f12e334]:
+            - generic [ref=f12e335]: a
+            - generic [ref=f12e336]: "n"
+            - generic [ref=f12e337]: d
+          - generic [ref=f12e338]:
+            - generic [ref=f12e339]: a
+            - generic [ref=f12e340]: u
+            - generic [ref=f12e341]: d
+            - generic [ref=f12e342]: i
+            - generic [ref=f12e343]: e
+            - generic [ref=f12e344]: "n"
+            - generic [ref=f12e345]: c
+            - generic [ref=f12e346]: e
+            - generic [ref=f12e347]: s
+            - generic [ref=f12e348]: .
+        - link "About":
+          - /url: https://www.knma.org/about/
+    - generic [ref=f12e350]:
+      - generic [ref=f12e353]:
+        - heading "Spotlight" [level=2]
+      - generic [ref=f12e355]:
+        - generic [ref=f12e360]:
+          - generic [ref=f12e362]:
+            - generic [ref=f12e363]:
+              - generic [ref=f12e364]: I
+              - generic [ref=f12e365]: "n"
+              - generic [ref=f12e366]: h
+              - generic [ref=f12e367]: e
+              - generic [ref=f12e368]: r
+              - generic [ref=f12e369]: i
+              - generic [ref=f12e370]: t
+              - generic [ref=f12e371]: o
+              - generic [ref=f12e372]: r
+              - generic [ref=f12e373]: s
+            - generic [ref=f12e374]:
+              - generic [ref=f12e375]: o
+              - generic [ref=f12e376]: f
+            - generic [ref=f12e377]:
+              - generic [ref=f12e378]: E
+              - generic [ref=f12e379]: a
+              - generic [ref=f12e380]: r
+              - generic [ref=f12e381]: t
+              - generic [ref=f12e382]: h
+          - generic:
+            - generic:
+              - generic: 09 Sep 2026 - 22 Dec 2026
+              - generic: KNMA, New Delhi
+            - link "Read More":
+              - /url: https://www.knma.org/whats-on/exhibitions/inheritors-of-earth
+        - generic [ref=f12e383]:
+          - img "Side-by-side works by Bice Lazzari (left) and Nasreen Mohamedi (right), bringing together abstract linear forms, grids and gestural marks in contrasting black-and-white compositions." [ref=f12e386]
+          - generic [ref=f12e388]:
+            - generic [ref=f12e389]:
+              - generic [ref=f12e391]:
+                - generic [ref=f12e392]: I
+                - generic [ref=f12e393]: "n"
+                - generic [ref=f12e394]: "-"
+                - generic [ref=f12e395]: R
+                - generic [ref=f12e396]: h
+                - generic [ref=f12e397]: "y"
+                - generic [ref=f12e398]: t
+                - generic [ref=f12e399]: h
+                - generic [ref=f12e400]: m
+              - generic [ref=f12e401]:
+                - generic [ref=f12e402]:
+                  - generic [ref=f12e403]: B
+                  - generic [ref=f12e404]: i
+                  - generic [ref=f12e405]: c
+                  - generic [ref=f12e406]: e
+                - generic [ref=f12e407]:
+                  - generic [ref=f12e408]: L
+                  - generic [ref=f12e409]: a
+                  - generic [ref=f12e410]: z
+                  - generic [ref=f12e411]: z
+                  - generic [ref=f12e412]: a
+                  - generic [ref=f12e413]: r
+                  - generic [ref=f12e414]: i
+                - generic [ref=f12e415]: "&"
+                - generic [ref=f12e417]:
+                  - generic [ref=f12e418]: "N"
+                  - generic [ref=f12e419]: a
+                  - generic [ref=f12e420]: s
+                  - generic [ref=f12e421]: r
+                  - generic [ref=f12e422]: e
+                  - generic [ref=f12e423]: e
+                  - generic [ref=f12e424]: "n"
+                - generic [ref=f12e425]:
+                  - generic [ref=f12e426]: M
+                  - generic [ref=f12e427]: o
+                  - generic [ref=f12e428]: h
+                  - generic [ref=f12e429]: a
+                  - generic [ref=f12e430]: m
+                  - generic [ref=f12e431]: e
+                  - generic [ref=f12e432]: d
+                  - generic [ref=f12e433]: i
+            - generic:
+              - generic:
+                - generic: 09 Sep 2026 - 22 Dec 2026
+                - generic: KNMA, New Delhi
+              - link "Read More":
+                - /url: https://www.knma.org/whats-on/exhibitions/bice-lazzari-and-nasreen-mohamedi-in-rhythm
+        - generic [ref=f12e434]:
+          - img "Promotional GIF for 'Nalini Malani – Of Woman Born', a Collateral Event of Biennale Arte 2026 presented by the Kiran Nadar Museum of Art" [ref=f12e437]
+          - generic [ref=f12e439]:
+            - generic [ref=f12e440]:
+              - generic [ref=f12e441]:
+                - generic [ref=f12e442]:
+                  - generic [ref=f12e443]: "N"
+                  - generic [ref=f12e444]: a
+                  - generic [ref=f12e445]: l
+                  - generic [ref=f12e446]: i
+                  - generic [ref=f12e447]: "n"
+                  - generic [ref=f12e448]: i
+                - generic [ref=f12e449]:
+                  - generic [ref=f12e450]: M
+                  - generic [ref=f12e451]: a
+                  - generic [ref=f12e452]: l
+                  - generic [ref=f12e453]: a
+                  - generic [ref=f12e454]: "n"
+                  - generic [ref=f12e455]: i
+              - generic [ref=f12e456]:
+                - generic [ref=f12e457]:
+                  - generic [ref=f12e458]: O
+                  - generic [ref=f12e459]: f
+                - generic [ref=f12e460]:
+                  - generic [ref=f12e461]: W
+                  - generic [ref=f12e462]: o
+                  - generic [ref=f12e463]: m
+                  - generic [ref=f12e464]: a
+                  - generic [ref=f12e465]: "n"
+                - generic [ref=f12e466]:
+                  - generic [ref=f12e467]: B
+                  - generic [ref=f12e468]: o
+                  - generic [ref=f12e469]: r
+                  - generic [ref=f12e470]: "n"
+            - generic:
+              - generic:
+                - generic: 09 May 2026 - 22 Nov 2026
+                - generic: Magazzini del Sale, Venice
+              - link "Read More":
+                - /url: https://www.knma.org/whats-on/exhibitions/nalini-malani-of-woman-born/
+    - generic [ref=f12e472]:
+      - generic [ref=f12e475]:
+        - heading "Upnext at KNMA" [level=2]
+      - generic:
+        - generic:
+          - button "Previous slide" [disabled]
+          - button "Next slide"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "Artist in Me KNMA, New Delhi Dots and Lines 31 Oct 2026":
+                  - /url: https://www.knma.org/whats-on/workshops/dots-and-lines
+                  - generic:
+                    - generic:
+                      - generic: Artist in Me
+                      - generic: KNMA, New Delhi
+                    - generic: Dots and Lines
+                    - generic: 31 Oct 2026
+            - generic:
+              - generic:
+                - link "KNMA, New Delhi Skipping Time 13 Nov 2026":
+                  - /url: https://www.knma.org/whats-on/events/skipping-time
+                  - generic:
+                    - generic: KNMA, New Delhi
+                    - generic: Skipping Time
+                    - generic: 13 Nov 2026
+            - generic:
+              - generic:
+                - link "KNMA, New Delhi KNMA Curator-Led Walkthrough 26 Sep 2026 — 19 Dec 2026":
+                  - /url: https://www.knma.org/whats-on/guided-tours/knma-curator-led-walkthrough
+                  - generic:
+                    - generic: KNMA, New Delhi
+                    - generic: KNMA Curator-Led Walkthrough
+                    - generic: 26 Sep 2026 — 19 Dec 2026
+            - generic:
+              - generic:
+                - link "Art Battle Sunder Nursery KNMA Art Battle 21 Apr 2026 — 18 Nov 2026":
+                  - /url: https://www.knma.org/whats-on/events/art-battle-season-6
+                  - generic:
+                    - generic:
+                      - generic: Art Battle
+                      - generic: Sunder Nursery
+                    - generic: KNMA Art Battle
+                    - generic: 21 Apr 2026 — 18 Nov 2026
+      - link "What's On" [ref=f12e478] [cursor=pointer]:
+        - /url: https://www.knma.org/whats-on/
+    - generic [ref=f12e484]:
+      - generic [ref=f12e487]:
+        - heading "Explore Our Collection" [level=2]
+      - generic [ref=f12e489]:
+        - generic [ref=f12e490]:
+          - img "Artwork titled Bird & Mountain by Jagdish Swaminathan"
+          - img "Artwork titled When Your Target Cries for Mercy (Diptych) by T. V. Santhosh"
+          - img "Artwork titled Shakuntala Patralekhan by Raja Ravi Varma"
+          - img "Artwork titled Chiku Drawing by Atul Dodiya"
+          - img "Artwork titled Krishna Playing ‘Blind Man’s Bluff’ with fellow Cowherds by Miniature"
+          - img "Artwork titled Each One Teach One by Shibu Natesan"
+          - img "Artwork titled Speechless City by Gulammohammed Sheikh"
+          - img "Artwork titled Calcutta Ruins (Doll Series) by Bikash Bhattacharjee"
+          - img "Artwork titled Woman with a Tree by Sayed Haider Raza"
+        - link "Explore" [ref=f12e491] [cursor=pointer]:
+          - /url: https://www.knma.org/collection/
+    - generic [ref=f12e494]:
+      - generic [ref=f12e495]:
+        - heading "KNMA's Upcoming Museum" [level=2]
+      - generic:
+        - generic:
+          - generic:
+            - generic [ref=f12e498]:
+              - img "Architectural rendering of the upcoming Kiran Nadar Museum of Art building" [ref=f12e500]
+              - generic [ref=f12e501]: The new museum, spanning 1 million sq. ft., is poised to become South Asia's largest art and cultural center, featuring a state-of-the-art building and serving as a vibrant cultural hub.
+            - generic:
+              - generic:
+                - generic:
+                  - img "Architectural rendering of the upcoming Kiran Nadar Museum of Art building"
+                - generic: Where art, architecture, and life converge! The building blends modern rectangular forms with intricately carved balconies inspired by Mughal architecture, creating a structure that interacts with the space it is situated in.
+            - generic:
+              - generic:
+                - generic:
+                  - img "Large-scale campus view of the upcoming Kiran Nadar Museum of Art building"
+                - generic: This unique and iconic project was conceived through a limited, invitation-only international design competition and later commissioned to Adjaye Associates, a renowned architectural firm with offices in London, New York, and Accra.
+            - generic:
+              - generic:
+                - generic:
+                  - img "Architectural rendering of the upcoming Kiran Nadar Museum of Art building"
+                - generic: The building is constructed as a self-cleaning white concrete edifice. The concrete mix used achieves an extremely low-carbon footprint, aiming to achieve a LEED Platinum rating through various innovations and the use of recycled materials.
+        - button "Previous slide" [disabled]
+        - button "Next slide"
+      - generic:
+        - link "About":
+          - /url: https://www.knma.org/about/
+    - generic [ref=f12e509]:
+      - generic [ref=f12e510]:
+        - heading "E d u c a t i o n a l O u t r e a c h" [level=2] [ref=f12e512]:
+          - generic [ref=f12e513]:
+            - generic [ref=f12e514]: E
+            - generic [ref=f12e515]: d
+            - generic [ref=f12e516]: u
+            - generic [ref=f12e517]: c
+            - generic [ref=f12e518]: a
+            - generic [ref=f12e519]: t
+            - generic [ref=f12e520]: i
+            - generic [ref=f12e521]: o
+            - generic [ref=f12e522]: "n"
+            - generic [ref=f12e523]: a
+            - generic [ref=f12e524]: l
+          - generic [ref=f12e525]:
+            - generic [ref=f12e526]: O
+            - generic [ref=f12e527]: u
+            - generic [ref=f12e528]: t
+            - generic [ref=f12e529]: r
+            - generic [ref=f12e530]: e
+            - generic [ref=f12e531]: a
+            - generic [ref=f12e532]: c
+            - generic [ref=f12e533]: h
+        - generic [ref=f12e534]:
+          - generic [ref=f12e535]:
+            - generic [ref=f12e536]:
+              - generic [ref=f12e537]: S
+              - generic [ref=f12e538]: t
+              - generic [ref=f12e539]: e
+              - generic [ref=f12e540]: p
+            - generic [ref=f12e541]:
+              - generic [ref=f12e542]: i
+              - generic [ref=f12e543]: "n"
+              - generic [ref=f12e544]: t
+              - generic [ref=f12e545]: o
+            - generic [ref=f12e546]: a
+            - generic [ref=f12e548]:
+              - generic [ref=f12e549]: w
+              - generic [ref=f12e550]: o
+              - generic [ref=f12e551]: r
+              - generic [ref=f12e552]: l
+              - generic [ref=f12e553]: d
+            - generic [ref=f12e554]:
+              - generic [ref=f12e555]: w
+              - generic [ref=f12e556]: h
+              - generic [ref=f12e557]: e
+              - generic [ref=f12e558]: r
+              - generic [ref=f12e559]: e
+            - generic [ref=f12e560]:
+              - generic [ref=f12e561]: a
+              - generic [ref=f12e562]: r
+              - generic [ref=f12e563]: t
+            - generic [ref=f12e564]:
+              - generic [ref=f12e565]: m
+              - generic [ref=f12e566]: e
+              - generic [ref=f12e567]: e
+              - generic [ref=f12e568]: t
+              - generic [ref=f12e569]: s
+            - generic [ref=f12e570]:
+              - generic [ref=f12e571]: i
+              - generic [ref=f12e572]: m
+              - generic [ref=f12e573]: a
+              - generic [ref=f12e574]: g
+              - generic [ref=f12e575]: i
+              - generic [ref=f12e576]: "n"
+              - generic [ref=f12e577]: a
+              - generic [ref=f12e578]: t
+              - generic [ref=f12e579]: i
+              - generic [ref=f12e580]: o
+              - generic [ref=f12e581]: "n"
+              - generic [ref=f12e582]: .
+            - generic [ref=f12e583]:
+              - generic [ref=f12e584]: K
+              - generic [ref=f12e585]: "N"
+              - generic [ref=f12e586]: M
+              - generic [ref=f12e587]: A
+              - generic [ref=f12e588]: ’
+              - generic [ref=f12e589]: s
+            - generic [ref=f12e590]:
+              - generic [ref=f12e591]: d
+              - generic [ref=f12e592]: "y"
+              - generic [ref=f12e593]: "n"
+              - generic [ref=f12e594]: a
+              - generic [ref=f12e595]: m
+              - generic [ref=f12e596]: i
+              - generic [ref=f12e597]: c
+            - generic [ref=f12e598]:
+              - generic [ref=f12e599]: p
+              - generic [ref=f12e600]: r
+              - generic [ref=f12e601]: o
+              - generic [ref=f12e602]: g
+              - generic [ref=f12e603]: r
+              - generic [ref=f12e604]: a
+              - generic [ref=f12e605]: m
+              - generic [ref=f12e606]: s
+            - generic [ref=f12e607]:
+              - generic [ref=f12e608]: i
+              - generic [ref=f12e609]: "n"
+              - generic [ref=f12e610]: v
+              - generic [ref=f12e611]: i
+              - generic [ref=f12e612]: t
+              - generic [ref=f12e613]: e
+            - generic [ref=f12e614]:
+              - generic [ref=f12e615]: s
+              - generic [ref=f12e616]: t
+              - generic [ref=f12e617]: u
+              - generic [ref=f12e618]: d
+              - generic [ref=f12e619]: e
+              - generic [ref=f12e620]: "n"
+              - generic [ref=f12e621]: t
+              - generic [ref=f12e622]: s
+            - generic [ref=f12e623]:
+              - generic [ref=f12e624]: a
+              - generic [ref=f12e625]: "n"
+              - generic [ref=f12e626]: d
+            - generic [ref=f12e627]:
+              - generic [ref=f12e628]: "y"
+              - generic [ref=f12e629]: o
+              - generic [ref=f12e630]: u
+              - generic [ref=f12e631]: "n"
+              - generic [ref=f12e632]: g
+            - generic [ref=f12e633]:
+              - generic [ref=f12e634]: a
+              - generic [ref=f12e635]: d
+              - generic [ref=f12e636]: u
+              - generic [ref=f12e637]: l
+              - generic [ref=f12e638]: t
+              - generic [ref=f12e639]: s
+            - generic [ref=f12e640]:
+              - generic [ref=f12e641]: t
+              - generic [ref=f12e642]: o
+            - generic [ref=f12e643]:
+              - generic [ref=f12e644]: e
+              - generic [ref=f12e645]: x
+              - generic [ref=f12e646]: p
+              - generic [ref=f12e647]: l
+              - generic [ref=f12e648]: o
+              - generic [ref=f12e649]: r
+              - generic [ref=f12e650]: e
+              - generic [ref=f12e651]: ","
+            - generic [ref=f12e652]:
+              - generic [ref=f12e653]: q
+              - generic [ref=f12e654]: u
+              - generic [ref=f12e655]: e
+              - generic [ref=f12e656]: s
+              - generic [ref=f12e657]: t
+              - generic [ref=f12e658]: i
+              - generic [ref=f12e659]: o
+              - generic [ref=f12e660]: "n"
+              - generic [ref=f12e661]: ","
+            - generic [ref=f12e662]:
+              - generic [ref=f12e663]: a
+              - generic [ref=f12e664]: "n"
+              - generic [ref=f12e665]: d
+            - generic [ref=f12e666]:
+              - generic [ref=f12e667]: d
+              - generic [ref=f12e668]: i
+              - generic [ref=f12e669]: s
+              - generic [ref=f12e670]: c
+              - generic [ref=f12e671]: o
+              - generic [ref=f12e672]: v
+              - generic [ref=f12e673]: e
+              - generic [ref=f12e674]: r
+            - generic [ref=f12e675]:
+              - generic [ref=f12e676]: t
+              - generic [ref=f12e677]: h
+              - generic [ref=f12e678]: e
+            - generic [ref=f12e679]:
+              - generic [ref=f12e680]: m
+              - generic [ref=f12e681]: a
+              - generic [ref=f12e682]: g
+              - generic [ref=f12e683]: i
+              - generic [ref=f12e684]: c
+            - generic [ref=f12e685]:
+              - generic [ref=f12e686]: o
+              - generic [ref=f12e687]: f
+            - generic [ref=f12e688]:
+              - generic [ref=f12e689]: a
+              - generic [ref=f12e690]: r
+              - generic [ref=f12e691]: t
+            - generic [ref=f12e692]:
+              - generic [ref=f12e693]: b
+              - generic [ref=f12e694]: e
+              - generic [ref=f12e695]: "y"
+              - generic [ref=f12e696]: o
+              - generic [ref=f12e697]: "n"
+              - generic [ref=f12e698]: d
+            - generic [ref=f12e699]:
+              - generic [ref=f12e700]: t
+              - generic [ref=f12e701]: h
+              - generic [ref=f12e702]: e
+            - generic [ref=f12e703]:
+              - generic [ref=f12e704]: c
+              - generic [ref=f12e705]: l
+              - generic [ref=f12e706]: a
+              - generic [ref=f12e707]: s
+              - generic [ref=f12e708]: s
+              - generic [ref=f12e709]: r
+              - generic [ref=f12e710]: o
+              - generic [ref=f12e711]: o
+              - generic [ref=f12e712]: m
+              - generic [ref=f12e713]: .
+            - generic [ref=f12e714]:
+              - generic [ref=f12e715]: T
+              - generic [ref=f12e716]: h
+              - generic [ref=f12e717]: r
+              - generic [ref=f12e718]: o
+              - generic [ref=f12e719]: u
+              - generic [ref=f12e720]: g
+              - generic [ref=f12e721]: h
+            - generic [ref=f12e722]:
+              - generic [ref=f12e723]: i
+              - generic [ref=f12e724]: "n"
+              - generic [ref=f12e725]: t
+              - generic [ref=f12e726]: e
+              - generic [ref=f12e727]: r
+              - generic [ref=f12e728]: a
+              - generic [ref=f12e729]: c
+              - generic [ref=f12e730]: t
+              - generic [ref=f12e731]: i
+              - generic [ref=f12e732]: v
+              - generic [ref=f12e733]: e
+            - generic [ref=f12e734]:
+              - generic [ref=f12e735]: w
+              - generic [ref=f12e736]: o
+              - generic [ref=f12e737]: r
+              - generic [ref=f12e738]: k
+              - generic [ref=f12e739]: s
+              - generic [ref=f12e740]: h
+              - generic [ref=f12e741]: o
+              - generic [ref=f12e742]: p
+              - generic [ref=f12e743]: s
+              - generic [ref=f12e744]: ","
+            - generic [ref=f12e745]:
+              - generic [ref=f12e746]: s
+              - generic [ref=f12e747]: t
+              - generic [ref=f12e748]: o
+              - generic [ref=f12e749]: r
+              - generic [ref=f12e750]: "y"
+              - generic [ref=f12e751]: t
+              - generic [ref=f12e752]: e
+              - generic [ref=f12e753]: l
+              - generic [ref=f12e754]: l
+              - generic [ref=f12e755]: i
+              - generic [ref=f12e756]: "n"
+              - generic [ref=f12e757]: g
+            - generic [ref=f12e758]:
+              - generic [ref=f12e759]: s
+              - generic [ref=f12e760]: e
+              - generic [ref=f12e761]: s
+              - generic [ref=f12e762]: s
+              - generic [ref=f12e763]: i
+              - generic [ref=f12e764]: o
+              - generic [ref=f12e765]: "n"
+              - generic [ref=f12e766]: s
+              - generic [ref=f12e767]: ","
+            - generic [ref=f12e768]:
+              - generic [ref=f12e769]: a
+              - generic [ref=f12e770]: "n"
+              - generic [ref=f12e771]: d
+            - generic [ref=f12e772]:
+              - generic [ref=f12e773]: t
+              - generic [ref=f12e774]: a
+              - generic [ref=f12e775]: i
+              - generic [ref=f12e776]: l
+              - generic [ref=f12e777]: o
+              - generic [ref=f12e778]: r
+              - generic [ref=f12e779]: e
+              - generic [ref=f12e780]: d
+            - generic [ref=f12e781]:
+              - generic [ref=f12e782]: e
+              - generic [ref=f12e783]: "n"
+              - generic [ref=f12e784]: g
+              - generic [ref=f12e785]: a
+              - generic [ref=f12e786]: g
+              - generic [ref=f12e787]: e
+              - generic [ref=f12e788]: m
+              - generic [ref=f12e789]: e
+              - generic [ref=f12e790]: "n"
+              - generic [ref=f12e791]: t
+              - generic [ref=f12e792]: s
+              - generic [ref=f12e793]: ","
+            - generic [ref=f12e794]:
+              - generic [ref=f12e795]: w
+              - generic [ref=f12e796]: e
+            - generic [ref=f12e797]:
+              - generic [ref=f12e798]: c
+              - generic [ref=f12e799]: r
+              - generic [ref=f12e800]: e
+              - generic [ref=f12e801]: a
+              - generic [ref=f12e802]: t
+              - generic [ref=f12e803]: e
+            - generic [ref=f12e804]:
+              - generic [ref=f12e805]: s
+              - generic [ref=f12e806]: p
+              - generic [ref=f12e807]: a
+              - generic [ref=f12e808]: c
+              - generic [ref=f12e809]: e
+              - generic [ref=f12e810]: s
+            - generic [ref=f12e811]:
+              - generic [ref=f12e812]: w
+              - generic [ref=f12e813]: h
+              - generic [ref=f12e814]: e
+              - generic [ref=f12e815]: r
+              - generic [ref=f12e816]: e
+            - generic [ref=f12e817]:
+              - generic [ref=f12e818]: l
+              - generic [ref=f12e819]: e
+              - generic [ref=f12e820]: a
+              - generic [ref=f12e821]: r
+              - generic [ref=f12e822]: "n"
+              - generic [ref=f12e823]: e
+              - generic [ref=f12e824]: r
+              - generic [ref=f12e825]: s
+            - generic [ref=f12e826]:
+              - generic [ref=f12e827]: f
+              - generic [ref=f12e828]: r
+              - generic [ref=f12e829]: o
+              - generic [ref=f12e830]: m
+            - generic [ref=f12e831]:
+              - generic [ref=f12e832]: s
+              - generic [ref=f12e833]: c
+              - generic [ref=f12e834]: h
+              - generic [ref=f12e835]: o
+              - generic [ref=f12e836]: o
+              - generic [ref=f12e837]: l
+              - generic [ref=f12e838]: s
+              - generic [ref=f12e839]: ","
+            - generic [ref=f12e840]:
+              - generic [ref=f12e841]: c
+              - generic [ref=f12e842]: o
+              - generic [ref=f12e843]: l
+              - generic [ref=f12e844]: l
+              - generic [ref=f12e845]: e
+              - generic [ref=f12e846]: g
+              - generic [ref=f12e847]: e
+              - generic [ref=f12e848]: s
+              - generic [ref=f12e849]: ","
+            - generic [ref=f12e850]:
+              - generic [ref=f12e851]: a
+              - generic [ref=f12e852]: "n"
+              - generic [ref=f12e853]: d
+            - generic [ref=f12e854]:
+              - generic [ref=f12e855]: "N"
+              - generic [ref=f12e856]: G
+              - generic [ref=f12e857]: O
+              - generic [ref=f12e858]: s
+            - generic [ref=f12e859]:
+              - generic [ref=f12e860]: c
+              - generic [ref=f12e861]: a
+              - generic [ref=f12e862]: "n"
+            - generic [ref=f12e863]:
+              - generic [ref=f12e864]: c
+              - generic [ref=f12e865]: o
+              - generic [ref=f12e866]: "n"
+              - generic [ref=f12e867]: "n"
+              - generic [ref=f12e868]: e
+              - generic [ref=f12e869]: c
+              - generic [ref=f12e870]: t
+            - generic [ref=f12e871]:
+              - generic [ref=f12e872]: w
+              - generic [ref=f12e873]: i
+              - generic [ref=f12e874]: t
+              - generic [ref=f12e875]: h
+            - generic [ref=f12e876]:
+              - generic [ref=f12e877]: c
+              - generic [ref=f12e878]: r
+              - generic [ref=f12e879]: e
+              - generic [ref=f12e880]: a
+              - generic [ref=f12e881]: t
+              - generic [ref=f12e882]: i
+              - generic [ref=f12e883]: v
+              - generic [ref=f12e884]: i
+              - generic [ref=f12e885]: t
+              - generic [ref=f12e886]: "y"
+            - generic [ref=f12e887]:
+              - generic [ref=f12e888]: i
+              - generic [ref=f12e889]: "n"
+            - generic [ref=f12e890]:
+              - generic [ref=f12e891]: e
+              - generic [ref=f12e892]: x
+              - generic [ref=f12e893]: c
+              - generic [ref=f12e894]: i
+              - generic [ref=f12e895]: t
+              - generic [ref=f12e896]: i
+              - generic [ref=f12e897]: "n"
+              - generic [ref=f12e898]: g
+            - generic [ref=f12e899]:
+              - generic [ref=f12e900]: a
+              - generic [ref=f12e901]: "n"
+              - generic [ref=f12e902]: d
+            - generic [ref=f12e903]:
+              - generic [ref=f12e904]: m
+              - generic [ref=f12e905]: e
+              - generic [ref=f12e906]: a
+              - generic [ref=f12e907]: "n"
+              - generic [ref=f12e908]: i
+              - generic [ref=f12e909]: "n"
+              - generic [ref=f12e910]: g
+              - generic [ref=f12e911]: f
+              - generic [ref=f12e912]: u
+              - generic [ref=f12e913]: l
+            - generic [ref=f12e914]:
+              - generic [ref=f12e915]: w
+              - generic [ref=f12e916]: a
+              - generic [ref=f12e917]: "y"
+              - generic [ref=f12e918]: s
+              - generic [ref=f12e919]: .
+            - generic [ref=f12e920]:
+              - generic [ref=f12e921]: T
+              - generic [ref=f12e922]: o
+              - generic [ref=f12e923]: g
+              - generic [ref=f12e924]: e
+              - generic [ref=f12e925]: t
+              - generic [ref=f12e926]: h
+              - generic [ref=f12e927]: e
+              - generic [ref=f12e928]: r
+              - generic [ref=f12e929]: ","
+            - generic [ref=f12e930]:
+              - generic [ref=f12e931]: w
+              - generic [ref=f12e932]: e
+            - generic [ref=f12e933]:
+              - generic [ref=f12e934]: "n"
+              - generic [ref=f12e935]: u
+              - generic [ref=f12e936]: r
+              - generic [ref=f12e937]: t
+              - generic [ref=f12e938]: u
+              - generic [ref=f12e939]: r
+              - generic [ref=f12e940]: e
+            - generic [ref=f12e941]:
+              - generic [ref=f12e942]: t
+              - generic [ref=f12e943]: h
+              - generic [ref=f12e944]: e
+            - generic [ref=f12e945]:
+              - generic [ref=f12e946]: "n"
+              - generic [ref=f12e947]: e
+              - generic [ref=f12e948]: x
+              - generic [ref=f12e949]: t
+            - generic [ref=f12e950]:
+              - generic [ref=f12e951]: g
+              - generic [ref=f12e952]: e
+              - generic [ref=f12e953]: "n"
+              - generic [ref=f12e954]: e
+              - generic [ref=f12e955]: r
+              - generic [ref=f12e956]: a
+              - generic [ref=f12e957]: t
+              - generic [ref=f12e958]: i
+              - generic [ref=f12e959]: o
+              - generic [ref=f12e960]: "n"
+            - generic [ref=f12e961]:
+              - generic [ref=f12e962]: o
+              - generic [ref=f12e963]: f
+            - generic [ref=f12e964]:
+              - generic [ref=f12e965]: c
+              - generic [ref=f12e966]: u
+              - generic [ref=f12e967]: r
+              - generic [ref=f12e968]: i
+              - generic [ref=f12e969]: o
+              - generic [ref=f12e970]: u
+              - generic [ref=f12e971]: s
+            - generic [ref=f12e972]:
+              - generic [ref=f12e973]: m
+              - generic [ref=f12e974]: i
+              - generic [ref=f12e975]: "n"
+              - generic [ref=f12e976]: d
+              - generic [ref=f12e977]: s
+              - generic [ref=f12e978]: ","
+            - generic [ref=f12e979]:
+              - generic [ref=f12e980]: t
+              - generic [ref=f12e981]: h
+              - generic [ref=f12e982]: i
+              - generic [ref=f12e983]: "n"
+              - generic [ref=f12e984]: k
+              - generic [ref=f12e985]: e
+              - generic [ref=f12e986]: r
+              - generic [ref=f12e987]: s
+              - generic [ref=f12e988]: ","
+            - generic [ref=f12e989]:
+              - generic [ref=f12e990]: a
+              - generic [ref=f12e991]: "n"
+              - generic [ref=f12e992]: d
+            - generic [ref=f12e993]:
+              - generic [ref=f12e994]: c
+              - generic [ref=f12e995]: r
+              - generic [ref=f12e996]: e
+              - generic [ref=f12e997]: a
+              - generic [ref=f12e998]: t
+              - generic [ref=f12e999]: o
+              - generic [ref=f12e1000]: r
+              - generic [ref=f12e1001]: s
+              - generic [ref=f12e1002]: .
+          - link "Learn More":
+            - /url: https://www.knma.org/outreach/
+      - img "Educational Outreach for students and young adults by Kiran Nadar Museum of Art, Saket, New Delhi" [ref=f12e1004]
+    - generic [ref=f12e1006]:
+      - generic [ref=f12e1009]:
+        - heading "On YouTube" [level=2]
+      - generic:
+        - generic:
+          - button "Previous slide" [disabled]
+          - button "Next slide"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "10 years of Kiran Nadar Museum of Art video"
+                  - generic: 10 years of KNMA
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "The Weavers of Patan video on National Handloom Day by the Kiran Nadar Museum of Art"
+                  - generic: National Handloom Day - Weavers of Patan
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "'Meet the Masters' series by the Kiran Nadar Museum of Art, featuring artist Vivan Sundaram"
+                  - generic: Meet The Masters, Vivan Sundaram
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - 'img "''Unearthing Memories of Civilisation: Curation as Archaeology'', a virtual exhibition by KNMA"'
+                  - generic: "Unearthing Memories of Civilisation: Curation as Archaeology | Virtual Exhibition"
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Video of the Chalo Museum initiative by KNMA"
+                  - generic: Chalo Museum
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Video of Kiran Nadar discussing the work of artist Rameshwar Broota at KNMA"
+                  - generic: Kiran Nadar on Rameshwar Broota
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Artist Studio Series by KNMA, featuring Pooja Iranna"
+                  - generic: The Artist’s Studio - Pooja Iranna
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Video featuring contemporary artist Afrah Shafiq talking about her artwork 'Nobody Knows for Certain', part of Very Small Feelings"
+                  - generic: Nobody Knows for Certain | Afrah Shafiq | Very Small Feelings
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - 'img "Video exploring the inspiration behind KNMA’s ''The Rooted Nomad: MF Husain'' with Kiran Nadar during the Venice Biennale 2024"'
+                  - generic: "Explore the inspiration behind \"The Rooted Nomad: MF Husain\" exhibition with Mrs Nadar"
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - img "An exclusive TV feature on KNMA, featuring Kiran Nadar, envisioning art accessibility for all audiences"
+                  - generic: Exclusive TV Feature - Envisioning Art For All
+      - generic:
+        - generic:
+          - link "Subscribe":
+            - /url: https://www.youtube.com/channel/UC1pZ79RuUM2BPxXsbPA-z8Q
+    - generic [ref=f12e1013]:
+      - generic [ref=f12e1015]: On Instagram
+      - generic:
+        - generic:
+          - button "Previous slide" [disabled]
+          - button "Next slide"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "knmaindia Neha Choksi lets us in on her creative process—shaping the space between time and transformation into a visual experience where light and elemental....":
+                  - /url: https://www.instagram.com/reel/DCTUisLRuKI/?igsh=eGZ5cHNhdTh6ZjN5
+                  - generic:
+                    - generic: knmaindia
+                    - generic: Neha Choksi lets us in on her creative process—shaping the space between time and transformation into a visual experience where light and elemental....
+            - generic:
+              - generic:
+                - link "knmaindia In this episode of Viewing with the Curators, learn about the artwork \"Tourists at the Sea Festival (1979)\" where Mohan Samant brings a festival to life....":
+                  - /url: https://www.instagram.com/reel/C_DojZWSvx_/?igsh=MXh3b3cyaDNndDM3Mw==
+                  - generic:
+                    - generic: knmaindia
+                    - generic: In this episode of Viewing with the Curators, learn about the artwork "Tourists at the Sea Festival (1979)" where Mohan Samant brings a festival to life....
+            - generic:
+              - generic:
+                - link "knmaindia Two distinct art styles, united by their evocative impact, are set to redefine the boundaries of art at KNMA, New Delhi with the new solo exhibitions....":
+                  - /url: https://www.instagram.com/reel/C97olmdyODM/?igsh=NmZ4cGN1eTE1dHRn
+                  - generic:
+                    - generic: knmaindia
+                    - generic: Two distinct art styles, united by their evocative impact, are set to redefine the boundaries of art at KNMA, New Delhi with the new solo exhibitions....
+            - generic:
+              - generic:
+                - link "knmaindia We are delighted to announce the opening of Purvaee – Evoking Pedagogic Lineages at KNMA Noida. This exhibition explores the evolution of artistic....":
+                  - /url: https://www.instagram.com/reel/DALwiWnRIwD/?igsh=c3h1eGhqaXdwaXc1
+                  - generic:
+                    - generic: knmaindia
+                    - generic: We are delighted to announce the opening of Purvaee – Evoking Pedagogic Lineages at KNMA Noida. This exhibition explores the evolution of artistic....
+            - generic:
+              - generic:
+                - link "knmaindia Explore Australia’s aboriginal culture in Delhi this summer! Dive into the ‘Walking through a Songline’ exhibition at Kiran Nadar Museum of Art....":
+                  - /url: https://www.instagram.com/reel/C8cO-5-PXyK/?igsh=cGgwa3pwMDRwYmly
+                  - generic:
+                    - generic: knmaindia
+                    - generic: Explore Australia’s aboriginal culture in Delhi this summer! Dive into the ‘Walking through a Songline’ exhibition at Kiran Nadar Museum of Art....
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/C6v1Si-P9Em/?igsh=MmhrdWR3M2VuajJn
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/C58y_AfPuLb/?igsh=amFic3E0ZmFnZ2Z0
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/C8HY3HJy0-a/?igsh=MWYxNmE4bXJiN294OA==
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/C0T4k9lvsbT/?igsh=eHp3NnBnb3RpY3Mx
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/CxLXrGLvw3g/?igsh=MXdwbDhhNWkzdHVkbw==
+            - generic:
+              - generic:
+                - link "knmaindia":
+                  - /url: https://www.instagram.com/reel/CwAedSjrdqQ/?igsh=MXBubHBvNzg1c2J4NQ==
+      - link "Follow us" [ref=f12e1018] [cursor=pointer]:
+        - /url: https://www.instagram.com/knmaindia/
+  - contentinfo [ref=f12e1024]:
+    - generic [ref=f12e1025]:
+      - generic [ref=f12e1027]:
+        - generic [ref=f12e1028]:
+          - status
+          - list
+        - form "Contact form" [ref=f12e1029]:
+          - generic [ref=f12e1030]:
+            - generic:
+              - generic:
+                - textbox "Subscribe to our newsletter"
+            - button "Sign up" [ref=f12e1032] [cursor=pointer]
+      - generic [ref=f12e1033]:
+        - link "Kiran Nadar Museum of Art brand logo" [ref=f12e1034] [cursor=pointer]:
+          - /url: https://www.knma.org
+          - img "Kiran Nadar Museum of Art brand logo"
+        - generic [ref=f12e1035]:
+          - generic [ref=f12e1036]:
+            - generic [ref=f12e1037]:
+              - generic: Discover
+              - list:
+                - listitem:
+                  - link "Visit":
+                    - /url: https://www.knma.org/visit/saket/
+                - listitem:
+                  - link "What’s On":
+                    - /url: https://www.knma.org/whats-on/
+                - listitem:
+                  - link "The Collection":
+                    - /url: https://www.knma.org/collection/
+                - listitem:
+                  - link "Publications":
+                    - /url: https://www.knma.org/publications/
+            - generic [ref=f12e1038]:
+              - generic: The Museum
+              - list:
+                - listitem:
+                  - link "About":
+                    - /url: https://www.knma.org/about/
+                - listitem:
+                  - link "Careers":
+                    - /url: https://www.knma.org/careers/
+                - listitem:
+                  - link "Join Our Creative Community":
+                    - /url: https://www.knma.org/about/join-our-creative-community/
+                - listitem:
+                  - link "Contact Us":
+                    - /url: https://www.knma.org/contact-us/
+            - generic [ref=f12e1039]:
+              - generic: Media
+              - list:
+                - listitem:
+                  - link "Press":
+                    - /url: https://www.knma.org/press/
+            - generic [ref=f12e1040]:
+              - generic: Follow us
+              - list:
+                - listitem:
+                  - link:
+                    - /url: https://www.facebook.com/KiranNadarMuseumOfArt
+                - listitem:
+                  - link:
+                    - /url: https://x.com/KNMAindia
+                - listitem:
+                  - link:
+                    - /url: https://www.instagram.com/knmaindia/
+                - listitem:
+                  - link:
+                    - /url: https://www.youtube.com/channel/UC1pZ79RuUM2BPxXsbPA-z8Q
+                - listitem:
+                  - link:
+                    - /url: https://in.linkedin.com/company/kiran-nadar-museum-of-art
+          - generic:
+            - link "Privacy Policy":
+              - /url: https://www.knma.org/privacy-policy/
+            - generic: "|"
+            - link "Disclaimer":
+              - /url: https://www.knma.org/disclaimer/
+            - generic: "|"
+            - link "Terms and Conditions":
+              - /url: https://www.knma.org/terms-and-conditions/
+            - generic: "|"
+            - link "Download":
+              - /url: https://www.knma.org/downloads/
