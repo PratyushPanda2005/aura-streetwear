@@ -34,7 +34,7 @@ export default function EkchitraV6Page() {
       {/* The cards keep 48px under them on desktop (one screen, centred);
           the extra 48 makes the standard 96 above the footer (FOOTER_GAP). */}
       <div id="services" className="scroll-mt-11 lg:pb-12">
-        <ServicesOverlay />
+        <ServicesOverlay dotted />
       </div>
       <FooterCard />
     </main>
