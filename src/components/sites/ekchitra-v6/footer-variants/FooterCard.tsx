@@ -23,14 +23,14 @@ const FACTS = [
   },
 ];
 
-/** The small columns under the card. */
+/**
+ * The small columns under the card. `wide` columns take the full width on
+ * phones; the rest sit two to a row.
+ */
 const COLUMNS = [
   {
-    title: "Get in touch",
-    links: [
-      { label: DETAILS.email, href: `mailto:${DETAILS.email}` },
-      { label: DETAILS.phone, href: `tel:${DETAILS.phone.replace(/\s/g, "")}` },
-    ],
+    title: "Gallery",
+    links: [...V6_NAV, { label: "Contact", href: CONTACT_PAGE }],
   },
   {
     title: "Connect",
@@ -40,7 +40,16 @@ const COLUMNS = [
     ],
   },
   {
+    title: "Get in touch",
+    wide: true,
+    links: [
+      { label: DETAILS.email, href: `mailto:${DETAILS.email}` },
+      { label: DETAILS.phone, href: `tel:${DETAILS.phone.replace(/\s/g, "")}` },
+    ],
+  },
+  {
     title: "Visit",
+    wide: true,
     lines: DETAILS.address,
     links: [{ label: "Directions", href: DETAILS.directions, external: true }],
   },
@@ -51,9 +60,9 @@ const COLUMNS = [
  * footer's top edge — glossy silk in the brand colours, as on variation 05 —
  * with two facts set large over it, each under a small label on a
  * hairline rule. Below,
- * on brand black, small columns for getting in touch, socials and the
- * address; then a last row with the small print on the left and the pages in
- * a white bar, Contact picked out in maroon. Only as tall as its content.
+ * on brand black, small columns for the pages, socials, getting in touch
+ * and the address; then the small print.
+ * Only as tall as its content.
  */
 export function FooterCard() {
   return (
@@ -97,7 +106,7 @@ export function FooterCard() {
             key={column.title}
             className={cn(
               "lg:col-span-3",
-              "lines" in column ? "col-span-4" : "col-span-2",
+              "wide" in column ? "col-span-4" : "col-span-2",
             )}
           >
             <GroupTitle className="text-white/60">{column.title}</GroupTitle>
@@ -121,34 +130,9 @@ export function FooterCard() {
         ))}
       </div>
 
-      <div className="mt-12 flex flex-col-reverse gap-y-6 lg:mt-16 lg:flex-row lg:items-center lg:justify-between">
-        <GroupTitle className="text-white/60">
-          {`${FOOTER.copyright} · Hyderabad, India`}
-        </GroupTitle>
-        {/* Two rows of three on phones, one bar from lg. */}
-        <nav aria-label="Footer">
-          <ul className="grid grid-cols-3 bg-white text-[13px] text-(--k-ink) lg:flex">
-            {V6_NAV.map((link) => (
-              <li key={link.label}>
-                <a
-                  href={link.href}
-                  className="flex h-11 items-center px-4 transition-colors hover:bg-(--k-ink)/[0.06] focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-(--k-navy)"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-            <li>
-              <a
-                href={CONTACT_PAGE}
-                className="flex h-11 items-center justify-between gap-x-3 bg-(--k-maroon) px-4 text-white transition-opacity hover:opacity-85 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-white"
-              >
-                Contact <span aria-hidden="true">→</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <GroupTitle className="mt-12 text-white/60 lg:mt-16">
+        {`${FOOTER.copyright} · Hyderabad, India`}
+      </GroupTitle>
     </footer>
   );
 }

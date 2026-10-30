@@ -1,0 +1,1 @@
+[     -21ms] [ERROR] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy. @ https://api.whatsapp.com/send/?phone=919100118321&text&type=phone_number&app_absent=0:0
