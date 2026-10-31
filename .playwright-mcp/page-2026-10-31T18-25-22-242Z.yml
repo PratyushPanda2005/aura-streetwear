@@ -1,0 +1,263 @@
+- generic [active] [ref=f33e1]:
+  - main [ref=f33e3]:
+    - generic [ref=f33e4]:
+      - link "Home" [ref=f33e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f33e6]:
+        - list [ref=f33e7]:
+          - listitem [ref=f33e8]:
+            - link "About" [ref=f33e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f33e10]:
+            - link "Exhibitions" [ref=f33e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f33e12]:
+            - link "Artists" [ref=f33e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f33e14]:
+            - link "Artworks" [ref=f33e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f33e16]:
+            - link "Services" [ref=f33e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f33e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f33e19]: →
+    - generic [ref=f33e20]:
+      - region [ref=f33e21]:
+        - generic [ref=f33e22]:
+          - img "Portrait of Charanjeet Singh" [ref=f33e24]
+          - heading "Charanjeet Singh" [level=1] [ref=f33e25]
+        - img "Untitled - 6 by Charanjeet Singh" [ref=f33e27]
+        - img "A visitor looking at a large painting on a gallery wall" [ref=f33e31]
+        - generic [ref=f33e34]:
+          - paragraph [ref=f33e35]: Charanjeet Singh is a contemporary artist whose creations echo the whispers of history and advocate for water conservation.
+          - link "Selected works" [ref=f33e36] [cursor=pointer]:
+            - /url: "#works-heading"
+            - text: Selected works
+            - generic [aria-hidden] [ref=f33e37]: ↓
+        - generic [ref=f33e38]:
+          - generic [ref=f33e39]:
+            - term [ref=f33e40]: Works
+            - definition [ref=f33e41]: 11 at EkChitra
+          - generic [ref=f33e42]:
+            - term [ref=f33e43]: Medium
+            - definition [ref=f33e44]: Acrylic on Paper
+          - generic [ref=f33e45]:
+            - term [ref=f33e46]: Sizes
+            - definition [ref=f33e47]: 16.5 x 12 in and 15 x 11 in
+      - region [ref=f33e48]:
+        - heading "Statement" [level=2] [ref=f33e49]
+        - generic [ref=f33e50]:
+          - paragraph [ref=f33e51]: Drawing inspiration from the ancient step wells of India and the rich tradition of Mughal miniature paintings, Singh seamlessly weaves together these influences to convey a crucial message about the preservation of water and the timeless lessons of history.
+          - paragraph [ref=f33e52]: Charanjeet Singh is represented by EkChitra in Hyderabad. Through the gallery's art advisory and bespoke sourcing, their work can be placed in homes, offices and institutions; to see a piece in person or ask what is available, enquire about any work below.
+      - region [ref=f33e53]:
+        - generic [ref=f33e54]:
+          - heading "Selected works" [level=2] [ref=f33e55]
+          - paragraph [ref=f33e56]: 11 works
+        - list [ref=f33e57]:
+          - listitem [ref=f33e58]:
+            - button "Untitled - 6 by Charanjeet Singh 01 Acrylic on Paper Untitled - 6 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f33e59]:
+              - img "Untitled - 6 by Charanjeet Singh" [ref=f33e60]
+              - generic [ref=f33e61]:
+                - generic [ref=f33e62]: "01"
+                - generic [ref=f33e63]: Acrylic on Paper
+              - heading "Untitled - 6" [level=3] [ref=f33e64]
+              - paragraph [ref=f33e65]: Charanjeet Singh
+              - generic [ref=f33e66]:
+                - generic [ref=f33e67]: 16.5 x 12 Inches
+                - generic [ref=f33e68]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e69]: →
+          - listitem [ref=f33e70]:
+            - button "Untitled - 4 by Charanjeet Singh 02 Acrylic on Paper Untitled - 4 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f33e71]:
+              - img "Untitled - 4 by Charanjeet Singh" [ref=f33e72]
+              - generic [ref=f33e73]:
+                - generic [ref=f33e74]: "02"
+                - generic [ref=f33e75]: Acrylic on Paper
+              - heading "Untitled - 4" [level=3] [ref=f33e76]
+              - paragraph [ref=f33e77]: Charanjeet Singh
+              - generic [ref=f33e78]:
+                - generic [ref=f33e79]: 16.5 x 12 Inches
+                - generic [ref=f33e80]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e81]: →
+          - listitem [ref=f33e82]:
+            - button "Untitled - 3 by Charanjeet Singh 03 Acrylic on Paper Untitled - 3 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f33e83]:
+              - img "Untitled - 3 by Charanjeet Singh" [ref=f33e84]
+              - generic [ref=f33e85]:
+                - generic [ref=f33e86]: "03"
+                - generic [ref=f33e87]: Acrylic on Paper
+              - heading "Untitled - 3" [level=3] [ref=f33e88]
+              - paragraph [ref=f33e89]: Charanjeet Singh
+              - generic [ref=f33e90]:
+                - generic [ref=f33e91]: 16.5 x 12 Inches
+                - generic [ref=f33e92]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e93]: →
+          - listitem [ref=f33e94]:
+            - button "Untitled - 2 by Charanjeet Singh 04 Acrylic on Paper Untitled - 2 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f33e95]:
+              - img "Untitled - 2 by Charanjeet Singh" [ref=f33e96]
+              - generic [ref=f33e97]:
+                - generic [ref=f33e98]: "04"
+                - generic [ref=f33e99]: Acrylic on Paper
+              - heading "Untitled - 2" [level=3] [ref=f33e100]
+              - paragraph [ref=f33e101]: Charanjeet Singh
+              - generic [ref=f33e102]:
+                - generic [ref=f33e103]: 16.5 x 12 Inches
+                - generic [ref=f33e104]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e105]: →
+          - listitem [ref=f33e106]:
+            - button "Untitled - 1 by Charanjeet Singh 05 Acrylic on Paper Untitled - 1 Charanjeet Singh 16.5 x 12 Inches View Artwork" [ref=f33e107]:
+              - img "Untitled - 1 by Charanjeet Singh" [ref=f33e108]
+              - generic [ref=f33e109]:
+                - generic [ref=f33e110]: "05"
+                - generic [ref=f33e111]: Acrylic on Paper
+              - heading "Untitled - 1" [level=3] [ref=f33e112]
+              - paragraph [ref=f33e113]: Charanjeet Singh
+              - generic [ref=f33e114]:
+                - generic [ref=f33e115]: 16.5 x 12 Inches
+                - generic [ref=f33e116]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e117]: →
+          - listitem [ref=f33e118]:
+            - button "Untitled - 6 by Charanjeet Singh 06 Acrylic on Paper Untitled - 6 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e119]:
+              - img "Untitled - 6 by Charanjeet Singh" [ref=f33e120]
+              - generic [ref=f33e121]:
+                - generic [ref=f33e122]: "06"
+                - generic [ref=f33e123]: Acrylic on Paper
+              - heading "Untitled - 6" [level=3] [ref=f33e124]
+              - paragraph [ref=f33e125]: Charanjeet Singh
+              - generic [ref=f33e126]:
+                - generic [ref=f33e127]: 15 x 11 Inches
+                - generic [ref=f33e128]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e129]: →
+          - listitem [ref=f33e130]:
+            - button "Untitled - 5 by Charanjeet Singh 07 Acrylic on Paper Untitled - 5 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e131]:
+              - img "Untitled - 5 by Charanjeet Singh" [ref=f33e132]
+              - generic [ref=f33e133]:
+                - generic [ref=f33e134]: "07"
+                - generic [ref=f33e135]: Acrylic on Paper
+              - heading "Untitled - 5" [level=3] [ref=f33e136]
+              - paragraph [ref=f33e137]: Charanjeet Singh
+              - generic [ref=f33e138]:
+                - generic [ref=f33e139]: 15 x 11 Inches
+                - generic [ref=f33e140]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e141]: →
+          - listitem [ref=f33e142]:
+            - button "Untitled - 4 by Charanjeet Singh 08 Acrylic on Paper Untitled - 4 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e143]:
+              - img "Untitled - 4 by Charanjeet Singh" [ref=f33e144]
+              - generic [ref=f33e145]:
+                - generic [ref=f33e146]: "08"
+                - generic [ref=f33e147]: Acrylic on Paper
+              - heading "Untitled - 4" [level=3] [ref=f33e148]
+              - paragraph [ref=f33e149]: Charanjeet Singh
+              - generic [ref=f33e150]:
+                - generic [ref=f33e151]: 15 x 11 Inches
+                - generic [ref=f33e152]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e153]: →
+          - listitem [ref=f33e154]:
+            - button "Untitled - 3 by Charanjeet Singh 09 Acrylic on Paper Untitled - 3 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e155]:
+              - img "Untitled - 3 by Charanjeet Singh" [ref=f33e156]
+              - generic [ref=f33e157]:
+                - generic [ref=f33e158]: "09"
+                - generic [ref=f33e159]: Acrylic on Paper
+              - heading "Untitled - 3" [level=3] [ref=f33e160]
+              - paragraph [ref=f33e161]: Charanjeet Singh
+              - generic [ref=f33e162]:
+                - generic [ref=f33e163]: 15 x 11 Inches
+                - generic [ref=f33e164]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e165]: →
+          - listitem [ref=f33e166]:
+            - button "Untitled - 2 by Charanjeet Singh 10 Acrylic on Paper Untitled - 2 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e167]:
+              - img "Untitled - 2 by Charanjeet Singh" [ref=f33e168]
+              - generic [ref=f33e169]:
+                - generic [ref=f33e170]: "10"
+                - generic [ref=f33e171]: Acrylic on Paper
+              - heading "Untitled - 2" [level=3] [ref=f33e172]
+              - paragraph [ref=f33e173]: Charanjeet Singh
+              - generic [ref=f33e174]:
+                - generic [ref=f33e175]: 15 x 11 Inches
+                - generic [ref=f33e176]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e177]: →
+          - listitem [ref=f33e178]:
+            - button "Untitled - 1 by Charanjeet Singh 11 Acrylic on Paper Untitled - 1 Charanjeet Singh 15 x 11 Inches View Artwork" [ref=f33e179]:
+              - img "Untitled - 1 by Charanjeet Singh" [ref=f33e180]
+              - generic [ref=f33e181]:
+                - generic [ref=f33e182]: "11"
+                - generic [ref=f33e183]: Acrylic on Paper
+              - heading "Untitled - 1" [level=3] [ref=f33e184]
+              - paragraph [ref=f33e185]: Charanjeet Singh
+              - generic [ref=f33e186]:
+                - generic [ref=f33e187]: 15 x 11 Inches
+                - generic [ref=f33e188]:
+                  - text: View Artwork
+                  - generic [aria-hidden] [ref=f33e189]: →
+        - dialog [aria-hidden]:
+          - generic:
+            - generic: Artworks
+            - button: Close
+    - generic [ref=f33e190]:
+      - generic [ref=f33e191]:
+        - generic [ref=f33e192]:
+          - paragraph [ref=f33e193]: Gallery
+          - list [ref=f33e194]:
+            - listitem [ref=f33e195]:
+              - link "About" [ref=f33e196] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f33e197]:
+              - link "Exhibitions" [ref=f33e198] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f33e199]:
+              - link "Artists" [ref=f33e200] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f33e201]:
+              - link "Artworks" [ref=f33e202] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f33e203]:
+              - link "Services" [ref=f33e204] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f33e205]:
+              - link "Contact" [ref=f33e206] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f33e207]:
+          - paragraph [ref=f33e208]: Connect
+          - list [ref=f33e209]:
+            - listitem [ref=f33e210]:
+              - link "Instagram" [ref=f33e211] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f33e212]:
+              - link "WhatsApp" [ref=f33e213] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f33e214]:
+          - paragraph [ref=f33e215]: Get in touch
+          - list [ref=f33e216]:
+            - listitem [ref=f33e217]:
+              - link "info@ekchitra.com" [ref=f33e218] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f33e219]:
+              - link "+91 91001 18321" [ref=f33e220] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f33e221]:
+          - paragraph [ref=f33e222]: Visit
+          - paragraph [ref=f33e223]:
+            - generic [ref=f33e224]: F94M+52P, Surya Enclave,
+            - generic [ref=f33e225]: HITEC City, Hyderabad,
+            - generic [ref=f33e226]: Telangana 500081
+          - list [ref=f33e227]:
+            - listitem [ref=f33e228]:
+              - link "Directions" [ref=f33e229] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f33e230]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f33e236] [cursor=pointer]
+  - alert [ref=f33e240]
