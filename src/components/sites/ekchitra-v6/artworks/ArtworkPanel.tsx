@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 import type { Artist, ArtistWork } from "../../ekchitra-v5/artists-data";
 import { SANS } from "../../ekchitra-v5/shared";
-import { firstSentence } from "../artists/ArtistDetail";
+import { firstSentence } from "../artists/text";
 import { artistPath } from "../artists/paths";
 import { CONTACT } from "../data";
 
@@ -20,17 +20,12 @@ const SLIDE_MS = 900;
 const STEP =
   "flex h-8 flex-1 items-center justify-center border border-(--k-ink)/30 text-[13px] transition-colors duration-200 hover:border-(--k-ink) disabled:pointer-events-none disabled:opacity-35";
 
-/** The arrows on the picture: small white squares at its left and right. */
-const ARROW =
-  "absolute top-1/2 z-10 flex size-10 -translate-y-1/2 items-center justify-center bg-white/90 text-[16px] transition-opacity duration-200 hover:bg-white disabled:pointer-events-none disabled:opacity-0";
-
 /**
  * An artwork's details, after the available-artworks view on
  * goodman-gallery.com: a full-screen panel that slides up from the foot of
  * the screen over the grid. "Artworks" at the top left and "Close" at the
- * top right; the work shown whole in the left half, with an arrow at each
- * side of it; at the right, Prev / Next buttons through the works in the
- * current list, the artist and the title, the
+ * top right; the work shown whole in the left half; at the right, Prev / Next buttons through the works in the
+ * current list, the title, larger and bolder, then the artist, the
  * medium and size (as on ekchitra.com's product pages), a button to enquire
  * about this work and a link to the artist's page, the opening line of
  * the artist's statement, and small pictures of related works — the same
@@ -164,28 +159,8 @@ export function ArtworkPanel({
             "grid min-h-0 flex-1 grid-cols-1 gap-y-8 overflow-y-auto px-4 pb-10 lg:grid-cols-12 lg:gap-x-5 lg:overflow-hidden lg:px-5 lg:pb-14",
           )}
         >
-          {/* The work, whole, in the left half, with an arrow at each side. */}
+          {/* The work, whole, in the left half. */}
           <div className="relative min-h-[50svh] lg:col-span-6 lg:col-start-1 lg:min-h-0">
-            <button
-              type="button"
-              onClick={onPrev}
-              disabled={!hasPrev}
-              tabIndex={open ? 0 : -1}
-              aria-label="Previous artwork"
-              className={cn(ARROW, "left-0")}
-            >
-              <span aria-hidden="true">←</span>
-            </button>
-            <button
-              type="button"
-              onClick={onNext}
-              disabled={!hasNext}
-              tabIndex={open ? 0 : -1}
-              aria-label="Next artwork"
-              className={cn(ARROW, "right-0")}
-            >
-              <span aria-hidden="true">→</span>
-            </button>
             <Image
               key={current.image}
               src={current.image}
@@ -219,12 +194,12 @@ export function ArtworkPanel({
               </button>
             </div>
 
-            <p className="mt-10 text-[26px] leading-[1.1] font-medium tracking-[-0.02em]">
-              {current.artist.name}
-            </p>
-            <h2 className="mt-1 text-[26px] leading-[1.15] tracking-[-0.02em]">
+            <h2 className="mt-10 text-[32px] leading-[1.1] font-medium tracking-[-0.025em]">
               {current.title}
             </h2>
+            <p className="mt-1 text-[20px] leading-[1.2] tracking-[-0.01em]">
+              {current.artist.name}
+            </p>
             <dl className="mt-5 space-y-1 text-[14px] text-(--k-ink)/70">
               <div className="flex gap-x-2">
                 <dt>Medium:</dt>

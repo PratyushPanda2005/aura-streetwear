@@ -1,0 +1,259 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - navigation [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://www.operagallery.com
+          - img "Opera Gallery is an international gallery specializing in modern and contemporary art with 16 locations worldwide." [ref=e6]
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "ARTISTS (current)" [ref=e10] [cursor=pointer]:
+              - /url: https://www.operagallery.com/artists
+              - text: ARTISTS
+              - generic [ref=e11]: (current)
+          - listitem [ref=e12]:
+            - link "EXHIBITIONS" [ref=e13] [cursor=pointer]:
+              - /url: https://www.operagallery.com/exhibitions
+          - listitem [ref=e14]:
+            - link "VIEWING ROOMS" [ref=e15] [cursor=pointer]:
+              - /url: https://www.operagallery.com/viewing-rooms
+          - listitem [ref=e16]:
+            - link "FAIRS" [ref=e17] [cursor=pointer]:
+              - /url: https://www.operagallery.com/fairs
+          - listitem [ref=e18]:
+            - link "NEWS" [ref=e19] [cursor=pointer]:
+              - /url: https://www.operagallery.com/news
+          - listitem [ref=e20]:
+            - link "ABOUT" [ref=e21] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e22]:
+            - link "CONTACT" [ref=e23] [cursor=pointer]:
+              - /url: https://www.operagallery.com/contact
+          - listitem [ref=e24]:
+            - link [ref=e25] [cursor=pointer]:
+              - /url: "#search"
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Ron Arad" [level=1] [ref=e32]
+          - generic [ref=e33]:
+            - paragraph [ref=e34]:
+              - strong [ref=e35]: Ron Arad
+              - text: is an Israeli designer born in Tel Aviv in 1951. He studied at the Jerusalem Art Academy and at the Architectural Association in London.
+            - paragraph [ref=e36]
+            - paragraph [ref=e37]: His objects are the result of a constant experimentation of raw materials such as steel, aluminium or polyamide, which he distorts into sinusoidal, elliptical and oval forms. Alongside his studio work, Arad designs for many leading international companies including Kartell, Vitra, Moroso, Fiam, Driade, Alessi, Cappellini, Cassina, WMF and Magis amongst many others.
+            - paragraph [ref=e38]
+            - paragraph [ref=e39]:
+              - text: He was awarded the 2011 London Design Week Medal for design excellence and became an Academician of the Royal Academy of Arts in 2013. Ron Arad has designed a number of public art pieces such as the
+              - emphasis [ref=e40]: Vortex
+              - text: in Seoul, South Korea, and the
+              - emphasis [ref=e41]: Kesher Sculpture
+              - text: at the Tel Aviv University, Israel.
+            - paragraph [ref=e42]
+            - paragraph [ref=e43]: Arad’s work is held in public collections worldwide including The Metropolitan Museum of Art in New York, Musée d'Art Moderne and Musée des Arts Décoratifs in Paris, Musée des Beaux-Arts de Montréal and the Victoria and Albert Museum in London, among others. He has also designed various public artworks, some which can be seen in Tel Aviv, Seoul, Toronto and London. He has collaborated with brands such as Adidas, Samsung, Kenzo, Fiat, and many more. In 2013, Arad became an Academician of the Royal Academy of Arts.
+        - img "Ron Arad" [ref=e45]
+      - generic [ref=e46]:
+        - heading "SELECTED WORKS" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - link "Ron Arad, Big Easy (crystalline) Aquamarine, 2023 Ron Arad, Big Easy (crystalline) Aquamarine, 2023 Crystalline resin 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in Enquire" [ref=e51] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Big Easy (crystalline) Aquamarine, 2023.png
+            - generic [ref=e53]:
+              - img "Ron Arad, Big Easy (crystalline) Aquamarine, 2023" [ref=e54]
+              - generic [ref=e55]:
+                - heading "Ron Arad, Big Easy (crystalline) Aquamarine, 2023" [level=3] [ref=e56]
+                - paragraph [ref=e57]: Crystalline resin
+                - paragraph [ref=e58]: 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in
+                - generic [ref=e59]: Enquire
+          - link "Ron Arad, Two Legs and a Table (crystalline) Transparent, 2023 Ron Arad, Two Legs and a Table (crystalline) Transparent, 2023 Crystalline resin 40 x 230 x 87 cm | 15.7 x 90.6 x 34.3 in Enquire" [ref=e61] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Capture d’écran 2023-03-06 à 15.31.40.png
+            - generic [ref=e63]:
+              - img "Ron Arad, Two Legs and a Table (crystalline) Transparent, 2023" [ref=e64]
+              - generic [ref=e65]:
+                - heading "Ron Arad, Two Legs and a Table (crystalline) Transparent, 2023" [level=3] [ref=e66]
+                - paragraph [ref=e67]: Crystalline resin
+                - paragraph [ref=e68]: 40 x 230 x 87 cm | 15.7 x 90.6 x 34.3 in
+                - generic [ref=e69]: Enquire
+          - link "Ron Arad, Tuba (crystalline) Aquamarine, 2023 Ron Arad, Tuba (crystalline) Aquamarine, 2023 Crystalline resin 90 x 230 x 87 cm | 35.4 x 90.6 x 34.3 in Enquire" [ref=e71] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/ARADRO-47964_Tube Resin VII - Aquamarine, 2022, FRONT.png
+            - generic [ref=e73]:
+              - img "Ron Arad, Tuba (crystalline) Aquamarine, 2023" [ref=e74]
+              - generic [ref=e75]:
+                - heading "Ron Arad, Tuba (crystalline) Aquamarine, 2023" [level=3] [ref=e76]
+                - paragraph [ref=e77]: Crystalline resin
+                - paragraph [ref=e78]: 90 x 230 x 87 cm | 35.4 x 90.6 x 34.3 in
+                - generic [ref=e79]: Enquire
+          - link "Ron Arad, Gomli painterly black/red/white, 2008 Ron Arad, Gomli painterly black/red/white, 2008 Handmade in polyester gelcoat 254 x 98 x 124 cm | 100 x 38.6 x 48.8 in Enquire" [ref=e81] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/ARADRO-40950_Gomli painterly black-red-white, 2008.jpg
+            - generic [ref=e83]:
+              - img "Ron Arad, Gomli painterly black/red/white, 2008" [ref=e84]
+              - generic [ref=e85]:
+                - heading "Ron Arad, Gomli painterly black/red/white, 2008" [level=3] [ref=e86]
+                - paragraph [ref=e87]: Handmade in polyester gelcoat
+                - paragraph [ref=e88]: 254 x 98 x 124 cm | 100 x 38.6 x 48.8 in
+                - generic [ref=e89]: Enquire
+          - link "Ron Arad, Big Easy (crystalline) Mixing Blue, 2023 Ron Arad, Big Easy (crystalline) Mixing Blue, 2023 Crystalline resin 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in Enquire" [ref=e91] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/ARADRO-48385_Big Easy Mixing Blue, 2022, FRONT copie.jpg
+            - generic [ref=e93]:
+              - img "Ron Arad, Big Easy (crystalline) Mixing Blue, 2023" [ref=e94]
+              - generic [ref=e95]:
+                - heading "Ron Arad, Big Easy (crystalline) Mixing Blue, 2023" [level=3] [ref=e96]
+                - paragraph [ref=e97]: Crystalline resin
+                - paragraph [ref=e98]: 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in
+                - generic [ref=e99]: Enquire
+          - link "Ron Arad, Little Albert (crystalline) Orange, 2022 Ron Arad, Little Albert (crystalline) Orange, 2022 70 x 74 x 62 cm | 27.6 x 29.1 x 24.2 in Enquire" [ref=e101] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/ARADRO-47958_Little Albert Orange, 2022, FRONT copie.jpg
+            - generic [ref=e103]:
+              - img "Ron Arad, Little Albert (crystalline) Orange, 2022" [ref=e104]
+              - generic [ref=e105]:
+                - heading "Ron Arad, Little Albert (crystalline) Orange, 2022" [level=3] [ref=e106]
+                - paragraph
+                - paragraph [ref=e107]: 70 x 74 x 62 cm | 27.6 x 29.1 x 24.2 in
+                - generic [ref=e108]: Enquire
+          - link "Ron Arad, Bodyguard (solid), 2008 Ron Arad, Bodyguard (solid), 2008 Super plastic aluminium 140 x 190 x 93 cm | 55.1 x 74.8 x 36.6 in Enquire" [ref=e110] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Bodyguard (solid), 2008.jpg
+            - generic [ref=e112]:
+              - img "Ron Arad, Bodyguard (solid), 2008" [ref=e113]
+              - generic [ref=e114]:
+                - heading "Ron Arad, Bodyguard (solid), 2008" [level=3] [ref=e115]
+                - paragraph [ref=e116]: Super plastic aluminium
+                - paragraph [ref=e117]: 140 x 190 x 93 cm | 55.1 x 74.8 x 36.6 in
+                - generic [ref=e118]: Enquire
+          - link "Ron Arad, 2RNOT, 1992 Ron Arad, 2RNOT, 1992 Copper 74 x 74 x 102 cm | 29.1 x 29.1 x 40.2 in Enquire" [ref=e120] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad,2RNOT, 1992.jpg
+            - generic [ref=e122]:
+              - img "Ron Arad, 2RNOT, 1992" [ref=e123]
+              - generic [ref=e124]:
+                - heading "Ron Arad, 2RNOT, 1992" [level=3] [ref=e125]
+                - paragraph [ref=e126]: Copper
+                - paragraph [ref=e127]: 74 x 74 x 102 cm | 29.1 x 29.1 x 40.2 in
+                - generic [ref=e128]: Enquire
+          - link "Ron Arad, Let Sleeping Dogs Lie, 1990 Ron Arad, Let Sleeping Dogs Lie, 1990 Patinated steel 70 x 230 x 56 cm | 27.6 x 90.6 x 22 in Enquire" [ref=e130] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Let_Sleeping_Dogs_Lie,1990.jpg
+            - generic [ref=e132]:
+              - img "Ron Arad, Let Sleeping Dogs Lie, 1990" [ref=e133]
+              - generic [ref=e134]:
+                - heading "Ron Arad, Let Sleeping Dogs Lie, 1990" [level=3] [ref=e135]
+                - paragraph [ref=e136]: Patinated steel
+                - paragraph [ref=e137]: 70 x 230 x 56 cm | 27.6 x 90.6 x 22 in
+                - generic [ref=e138]: Enquire
+          - link "Ron Arad, Ron Arad Minimalistic Rodin's Thinker, 2022 Ron Arad, Ron Arad Minimalistic Rodin's Thinker, 2022 Bronze and stainless steel 76 x 69 x 94 cm | 29.9 x 27.2 x 37 in Enquire" [ref=e140] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Ron Arad Minimalistic Rodin's Thinker, 2022.jpg
+            - generic [ref=e142]:
+              - img "Ron Arad, Ron Arad Minimalistic Rodin's Thinker, 2022" [ref=e143]
+              - generic [ref=e144]:
+                - heading "Ron Arad, Ron Arad Minimalistic Rodin's Thinker, 2022" [level=3] [ref=e145]
+                - paragraph [ref=e146]: Bronze and stainless steel
+                - paragraph [ref=e147]: 76 x 69 x 94 cm | 29.9 x 27.2 x 37 in
+                - generic [ref=e148]: Enquire
+          - link "Ron Arad, This Mortal Coil (large), 1992 Ron Arad, This Mortal Coil (large), 1992 Patinated and tempered mild steel 220 x 33 x 215 cm | 86.6 x 12 x 84.6 in Enquire" [ref=e150] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Large Mortal Coil, 1992.jpg
+            - generic [ref=e152]:
+              - img "Ron Arad, This Mortal Coil (large), 1992" [ref=e153]
+              - generic [ref=e154]:
+                - heading "Ron Arad, This Mortal Coil (large), 1992" [level=3] [ref=e155]
+                - paragraph [ref=e156]: Patinated and tempered mild steel
+                - paragraph [ref=e157]: 220 x 33 x 215 cm | 86.6 x 12 x 84.6 in
+                - generic [ref=e158]: Enquire
+          - link "Ron Arad, Two Nuns Bicycle, 2011 Ron Arad, Two Nuns Bicycle, 2011 Steel, tempered stainless steel, aluminium 170 x 100 x 65 cm | 66.9 x 39.4 x 25.6 in Enquire" [ref=e160] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Two Nuns Bicycle, 2011.jpg
+            - generic [ref=e162]:
+              - img "Ron Arad, Two Nuns Bicycle, 2011" [ref=e163]
+              - generic [ref=e164]:
+                - heading "Ron Arad, Two Nuns Bicycle, 2011" [level=3] [ref=e165]
+                - paragraph [ref=e166]: Steel, tempered stainless steel, aluminium
+                - paragraph [ref=e167]: 170 x 100 x 65 cm | 66.9 x 39.4 x 25.6 in
+                - generic [ref=e168]: Enquire
+          - link "Ron Arad, Hot Tango Floor Lamp, 2005 Ron Arad, Hot Tango Floor Lamp, 2005 Sintered polyamid, steel, aluminium, silicon, copper 38 x 25 cm | 15 x 9.8 in Enquire" [ref=e170] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, Hot Tango Floor Lamp, 2005.jpg
+            - generic [ref=e172]:
+              - img "Ron Arad, Hot Tango Floor Lamp, 2005" [ref=e173]
+              - generic [ref=e174]:
+                - heading "Ron Arad, Hot Tango Floor Lamp, 2005" [level=3] [ref=e175]
+                - paragraph [ref=e176]: Sintered polyamid, steel, aluminium, silicon, copper
+                - paragraph [ref=e177]: 38 x 25 cm | 15 x 9.8 in
+                - generic [ref=e178]: Enquire
+          - 'link "Ron Arad, All or Nothing Table #12, 2018 Ron Arad, All or Nothing Table #12, 2018 Mirror polished stainless steel and patinated mild steel 37 x 230 x 103 cm | 14.6 x 90.6 x 40.6 in Enquire" [ref=e180] [cursor=pointer]':
+            - /url: https://www.operagallery.com/storage/artworks/Ron Arad, All or Nothing table, 2018.jpg
+            - generic [ref=e182]:
+              - 'img "Ron Arad, All or Nothing Table #12, 2018" [ref=e183]'
+              - generic [ref=e184]:
+                - 'heading "Ron Arad, All or Nothing Table #12, 2018" [level=3] [ref=e185]'
+                - paragraph [ref=e186]: Mirror polished stainless steel and patinated mild steel
+                - paragraph [ref=e187]: 37 x 230 x 103 cm | 14.6 x 90.6 x 40.6 in
+                - generic [ref=e188]: Enquire
+          - link "Ron Arad, Big Easy Olive, 2022 Ron Arad, Big Easy Olive, 2022 Crystalline resin 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in Enquire" [ref=e190] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/ARADRO-47519_Big-Easy-Olive,-2022,-FRONT-1.jpg
+            - generic [ref=e192]:
+              - img "Ron Arad, Big Easy Olive, 2022" [ref=e193]
+              - generic [ref=e194]:
+                - heading "Ron Arad, Big Easy Olive, 2022" [level=3] [ref=e195]
+                - paragraph [ref=e196]: Crystalline resin
+                - paragraph [ref=e197]: 92 x 132 x 80 cm | 36.2 x 52 x 31.5 in
+                - generic [ref=e198]: Enquire
+          - link "Ron Arad, Linguine, 2020 Ron Arad, Linguine, 2020 111 x 392 x 62 cm | 43.7 x 154.3 x 24.4 in Enquire" [ref=e200] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/Linguine Ron Arad Design Chair Stainless steel 2020.png
+            - generic [ref=e202]:
+              - img "Ron Arad, Linguine, 2020" [ref=e203]
+              - generic [ref=e204]:
+                - heading "Ron Arad, Linguine, 2020" [level=3] [ref=e205]
+                - paragraph
+                - paragraph [ref=e206]: 111 x 392 x 62 cm | 43.7 x 154.3 x 24.4 in
+                - generic [ref=e207]: Enquire
+          - link "Ron Arad, Good Ping Pong Dining Table, 2023 Ron Arad, Good Ping Pong Dining Table, 2023 Stainless steel 89.7 x 208.4 x 102.2 cm | 35.3 x 82 x 40.2 in Enquire" [ref=e209] [cursor=pointer]:
+            - /url: https://www.operagallery.com/storage/artworks/good ping pong dining table opera gallery monaco ron arad 2023.jpg
+            - generic [ref=e211]:
+              - img "Ron Arad, Good Ping Pong Dining Table, 2023" [ref=e212]
+              - generic [ref=e213]:
+                - heading "Ron Arad, Good Ping Pong Dining Table, 2023" [level=3] [ref=e214]
+                - paragraph [ref=e215]: Stainless steel
+                - paragraph [ref=e216]: 89.7 x 208.4 x 102.2 cm | 35.3 x 82 x 40.2 in
+                - generic [ref=e217]: Enquire
+    - contentinfo [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e222]:
+          - generic [ref=e223]: Join our mailing list for updates about our artists, exhibitions, events, and more.
+          - generic [ref=e224]:
+            - textbox "First Name" [ref=e226]
+            - textbox "Last Name" [ref=e228]
+            - generic [ref=e229]:
+              - textbox "Email" [ref=e230]
+              - button [ref=e231] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e232]: 
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - link "About" [ref=e236] [cursor=pointer]:
+              - /url: /about
+            - link "Careers" [ref=e237] [cursor=pointer]:
+              - /url: /careers
+            - link "Terms" [ref=e238] [cursor=pointer]:
+              - /url: /terms-conditions
+          - generic [ref=e239]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: https://www.instagram.com/operagallery/
+              - generic [aria-hidden] [ref=e241]: 
+            - link [ref=e242] [cursor=pointer]:
+              - /url: https://www.facebook.com/OperaGalleryOfficial
+              - generic [aria-hidden] [ref=e243]: 
+            - link [ref=e244] [cursor=pointer]:
+              - /url: https://twitter.com/operagallery
+              - generic [aria-hidden] [ref=e245]: 
+            - link [ref=e246] [cursor=pointer]:
+              - /url: https://www.operagallery.com/news/opera-gallery-is-on-wechat-new-account
+              - generic [aria-hidden] [ref=e247]: 
+            - link [ref=e248] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCjRWKzvJ6zZT2NEsMtquAXw
+              - generic [aria-hidden] [ref=e249]: 
+            - link [ref=e250] [cursor=pointer]:
+              - /url: https://www.pinterest.ch/operagallerypinterest/
+              - generic [aria-hidden] [ref=e251]: 
+            - link [ref=e252] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/opera-gallery
+              - generic [aria-hidden] [ref=e253]: 
+            - link [ref=e254] [cursor=pointer]:
+              - /url: http://weibo.com/operagallery
+              - generic [aria-hidden] [ref=e255]: 
+  - generic [ref=e256]:
+    - generic [ref=e257]: This website uses cookies to offer you a better browsing experience. By using this site, you consent to our use of cookies.
+    - button "Accept" [ref=e258] [cursor=pointer]
+    - button "X" [ref=e259] [cursor=pointer]

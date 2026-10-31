@@ -2,27 +2,18 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { ARTISTS } from "@/components/sites/ekchitra-v5/artists-data";
-import { PageFrame } from "@/components/sites/ekchitra-v6/PageFrame";
-import {
-  ArtistDetail,
-  firstSentence,
-} from "@/components/sites/ekchitra-v6/artists/ArtistDetail";
+import { SANS } from "@/components/sites/ekchitra-v5/shared";
+import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
+import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
+import { ArtistDetail } from "@/components/sites/ekchitra-v6/artists/ArtistDetail";
 import { artistSlug } from "@/components/sites/ekchitra-v6/artists/paths";
-import { ARTWORK_SIZES } from "@/components/sites/ekchitra-v6/artworks/sizes";
-import type { ArtistWork } from "@/components/sites/ekchitra-v5/artists-data";
+import { FooterCard } from "@/components/sites/ekchitra-v6/footer-variants/FooterCard";
+import { cn } from "@/lib/utils";
 
 type Props = { params: Promise<{ slug: string }> };
 
 const find = (slug: string) =>
   ARTISTS.find((artist) => artistSlug(artist) === slug);
-
-/** The artist's widest work, which crops best into the wide banner. */
-const widestWork = (works: ArtistWork[]) =>
-  [...works].sort((a, b) => {
-    const [aw, ah] = ARTWORK_SIZES[a.image] ?? [1, 1];
-    const [bw, bh] = ARTWORK_SIZES[b.image] ?? [1, 1];
-    return bw / bh - aw / ah;
-  })[0];
 
 /** One page per artist, built ahead of time. */
 export function generateStaticParams() {
@@ -39,26 +30,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 /**
- * An artist's page, v6: the shared page frame every inner page uses, with
- * their widest work as the banner and their name set over it — then a short
- * centred line, the works, the bio, the other artists and an enquiry card.
+ * An artist's page, v6: no banner — the top bar, then the artist's own
+ * intro and works (see ArtistDetail), then the shared footer.
  */
 export default async function EkchitraV6ArtistPage({ params }: Props) {
   const artist = find((await params).slug);
   if (!artist) notFound();
-  const count = artist.works.length;
-  const wide = widestWork(artist.works);
 
   return (
-    <PageFrame
-      banner={{ src: wide.image, alt: `${wide.title} by ${artist.name}` }}
-      nameOnBanner
-      label="Artist"
-      title={artist.name}
-      intro={firstSentence(artist.statement)}
-      note={`${count} ${count === 1 ? "work" : "works"} at EkChitra`}
-    >
+    <main className={cn("min-h-svh bg-white text-(--k-ink)", SANS)}>
+      <SmoothScroll />
+      <TopBar />
       <ArtistDetail artist={artist} />
-    </PageFrame>
+      <FooterCard />
+    </main>
   );
 }

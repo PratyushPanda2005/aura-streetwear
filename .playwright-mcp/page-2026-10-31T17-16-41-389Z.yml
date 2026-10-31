@@ -1,0 +1,193 @@
+- generic [active] [ref=f26e1]:
+  - main [ref=f26e3]:
+    - generic [ref=f26e4]:
+      - link "Home" [ref=f26e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f26e6]:
+        - list [ref=f26e7]:
+          - listitem [ref=f26e8]:
+            - link "About" [ref=f26e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f26e10]:
+            - link "Exhibitions" [ref=f26e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f26e12]:
+            - link "Artists" [ref=f26e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f26e14]:
+            - link "Artworks" [ref=f26e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f26e16]:
+            - link "Services" [ref=f26e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f26e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f26e19]: →
+    - generic [ref=f26e20]:
+      - region [ref=f26e21]:
+        - generic [ref=f26e22]:
+          - heading "Charanjeet Singh" [level=1] [ref=f26e23]
+          - generic [ref=f26e24]:
+            - paragraph [ref=f26e25]: Charanjeet Singh is a contemporary artist whose creations echo the whispers of history and advocate for water conservation. Drawing inspiration from the ancient step wells of India and the rich tradition of Mughal miniature paintings, Singh seamlessly weaves together these influences to convey a crucial message about the preservation of water and the timeless lessons of history.
+            - paragraph [ref=f26e26]: EkChitra holds eleven works by Charanjeet Singh, in acrylic on paper, in two sizes, 16.5 x 12 inches and 15 x 11 inches. Each is shown in full under Selected works below, with its own title, medium and size.
+            - paragraph [ref=f26e27]: Charanjeet Singh is represented by EkChitra in Hyderabad. Through the gallery's art advisory and bespoke sourcing, their work can be placed in homes, offices and institutions; to see a piece in person or ask what is available, enquire about any work below.
+        - img "Portrait of Charanjeet Singh" [ref=f26e30]
+      - region [ref=f26e31]:
+        - heading "Selected works" [level=2] [ref=f26e32]
+        - list [ref=f26e33]:
+          - listitem [ref=f26e34]:
+            - img "Untitled - 6 by Charanjeet Singh" [ref=f26e35]
+            - paragraph [ref=f26e36]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e37]: Untitled - 6
+            - paragraph [ref=f26e38]: Acrylic on Paper16.5 x 12 Inches
+            - link "Enquire about Untitled - 6" [ref=f26e39] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%206%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e40]:
+            - img "Untitled - 4 by Charanjeet Singh" [ref=f26e41]
+            - paragraph [ref=f26e42]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e43]: Untitled - 4
+            - paragraph [ref=f26e44]: Acrylic on Paper16.5 x 12 Inches
+            - link "Enquire about Untitled - 4" [ref=f26e45] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%204%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e46]:
+            - img "Untitled - 3 by Charanjeet Singh" [ref=f26e47]
+            - paragraph [ref=f26e48]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e49]: Untitled - 3
+            - paragraph [ref=f26e50]: Acrylic on Paper16.5 x 12 Inches
+            - link "Enquire about Untitled - 3" [ref=f26e51] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%203%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e52]:
+            - img "Untitled - 2 by Charanjeet Singh" [ref=f26e53]
+            - paragraph [ref=f26e54]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e55]: Untitled - 2
+            - paragraph [ref=f26e56]: Acrylic on Paper16.5 x 12 Inches
+            - link "Enquire about Untitled - 2" [ref=f26e57] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%202%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e58]:
+            - img "Untitled - 1 by Charanjeet Singh" [ref=f26e59]
+            - paragraph [ref=f26e60]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e61]: Untitled - 1
+            - paragraph [ref=f26e62]: Acrylic on Paper16.5 x 12 Inches
+            - link "Enquire about Untitled - 1" [ref=f26e63] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%201%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e64]:
+            - img "Untitled - 6 by Charanjeet Singh" [ref=f26e65]
+            - paragraph [ref=f26e66]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e67]: Untitled - 6
+            - paragraph [ref=f26e68]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 6" [ref=f26e69] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%206%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e70]:
+            - img "Untitled - 5 by Charanjeet Singh" [ref=f26e71]
+            - paragraph [ref=f26e72]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e73]: Untitled - 5
+            - paragraph [ref=f26e74]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 5" [ref=f26e75] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%205%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e76]:
+            - img "Untitled - 4 by Charanjeet Singh" [ref=f26e77]
+            - paragraph [ref=f26e78]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e79]: Untitled - 4
+            - paragraph [ref=f26e80]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 4" [ref=f26e81] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%204%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e82]:
+            - img "Untitled - 3 by Charanjeet Singh" [ref=f26e83]
+            - paragraph [ref=f26e84]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e85]: Untitled - 3
+            - paragraph [ref=f26e86]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 3" [ref=f26e87] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%203%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e88]:
+            - img "Untitled - 2 by Charanjeet Singh" [ref=f26e89]
+            - paragraph [ref=f26e90]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e91]: Untitled - 2
+            - paragraph [ref=f26e92]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 2" [ref=f26e93] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%202%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+          - listitem [ref=f26e94]:
+            - img "Untitled - 1 by Charanjeet Singh" [ref=f26e95]
+            - paragraph [ref=f26e96]:
+              - text: Charanjeet Singh,
+              - emphasis [ref=f26e97]: Untitled - 1
+            - paragraph [ref=f26e98]: Acrylic on Paper15 x 11 Inches
+            - link "Enquire about Untitled - 1" [ref=f26e99] [cursor=pointer]:
+              - /url: https://wa.me/919100118321?text=Hello%20EkChitra%2C%20I'd%20like%20to%20know%20more%20about%20%22Untitled%20-%201%22%20by%20Charanjeet%20Singh.
+              - text: Enquire
+    - generic [ref=f26e100]:
+      - generic [ref=f26e101]:
+        - generic [ref=f26e102]:
+          - paragraph [ref=f26e103]: Gallery
+          - list [ref=f26e104]:
+            - listitem [ref=f26e105]:
+              - link "About" [ref=f26e106] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f26e107]:
+              - link "Exhibitions" [ref=f26e108] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f26e109]:
+              - link "Artists" [ref=f26e110] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f26e111]:
+              - link "Artworks" [ref=f26e112] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f26e113]:
+              - link "Services" [ref=f26e114] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f26e115]:
+              - link "Contact" [ref=f26e116] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f26e117]:
+          - paragraph [ref=f26e118]: Connect
+          - list [ref=f26e119]:
+            - listitem [ref=f26e120]:
+              - link "Instagram" [ref=f26e121] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f26e122]:
+              - link "WhatsApp" [ref=f26e123] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f26e124]:
+          - paragraph [ref=f26e125]: Get in touch
+          - list [ref=f26e126]:
+            - listitem [ref=f26e127]:
+              - link "info@ekchitra.com" [ref=f26e128] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f26e129]:
+              - link "+91 91001 18321" [ref=f26e130] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f26e131]:
+          - paragraph [ref=f26e132]: Visit
+          - paragraph [ref=f26e133]:
+            - generic [ref=f26e134]: F94M+52P, Surya Enclave,
+            - generic [ref=f26e135]: HITEC City, Hyderabad,
+            - generic [ref=f26e136]: Telangana 500081
+          - list [ref=f26e137]:
+            - listitem [ref=f26e138]:
+              - link "Directions" [ref=f26e139] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f26e140]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f26e146] [cursor=pointer]

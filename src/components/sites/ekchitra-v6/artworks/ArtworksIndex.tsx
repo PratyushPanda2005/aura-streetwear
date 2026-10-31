@@ -22,7 +22,7 @@ import { relatedWorks } from "./related";
 import { ARTWORK_SIZES } from "./sizes";
 
 /** Every work by every artist, in the artists' order. */
-const WORKS = ARTISTS.flatMap((artist) =>
+export const WORKS = ARTISTS.flatMap((artist) =>
   artist.works.map((work) => ({
     ...work,
     artist: artist.name,
@@ -30,7 +30,7 @@ const WORKS = ARTISTS.flatMap((artist) =>
   })),
 );
 
-type Work = (typeof WORKS)[number];
+export type Work = (typeof WORKS)[number];
 
 /**
  * The artworks, after the v6 grid: a ruled bar with a search field, one-tap
@@ -49,8 +49,16 @@ const workKey = (work: Work) => `${work.artist}-${work.title}-${work.image}`;
  * the list) and it grows in that same ratio, so every work in a row ends up
  * one height and the row fills the width exactly.
  */
-function WorkCard({ work, onOpen }: { work: Work; onOpen: () => void }) {
-  const n = WORKS.indexOf(work) + 1;
+function WorkCard({
+  work,
+  n,
+  onOpen,
+}: {
+  work: Work;
+  /** Its number in the list, shown under the picture. */
+  n: number;
+  onOpen: () => void;
+}) {
   const [width, height] = ARTWORK_SIZES[work.image] ?? [1, 1];
   return (
     <li
@@ -88,6 +96,41 @@ function WorkCard({ work, onOpen }: { work: Work; onOpen: () => void }) {
         </div>
       </button>
     </li>
+  );
+}
+
+/**
+ * Works in justified rows, each opening with `onOpen(index)`. The trailing
+ * ::after soaks up the spare width in the last row so it stays at the base
+ * height. Numbered from `numberOf` (default: place in the list, from 1).
+ */
+export function WorkRows({
+  works,
+  onOpen,
+  numberOf = (_, index) => index + 1,
+  className,
+}: {
+  works: Work[];
+  onOpen: (index: number) => void;
+  numberOf?: (work: Work, index: number) => number;
+  className?: string;
+}) {
+  return (
+    <ul
+      className={cn(
+        "flex flex-wrap items-start gap-x-3 gap-y-8 px-4 [--row-h:120px] after:grow-[999] after:content-[''] lg:gap-x-4 lg:gap-y-10 lg:px-5 lg:[--row-h:240px]",
+        className,
+      )}
+    >
+      {works.map((work, index) => (
+        <WorkCard
+          key={workKey(work)}
+          work={work}
+          n={numberOf(work, index)}
+          onOpen={() => onOpen(index)}
+        />
+      ))}
+    </ul>
   );
 }
 
@@ -254,18 +297,14 @@ export function ArtworksIndex({
         </div>
       </div>
 
-      {/* The works in justified rows. The trailing ::after soaks up the
-          spare width in the last row so it stays at the base height. */}
+      {/* The works in justified rows, numbered across the whole collection. */}
       {results.length ? (
-        <ul className="mt-8 flex flex-wrap items-start gap-x-3 gap-y-8 px-4 [--row-h:120px] after:grow-[999] after:content-[''] lg:mt-10 lg:gap-x-4 lg:gap-y-10 lg:px-5 lg:[--row-h:240px]">
-          {results.map((work, index) => (
-            <WorkCard
-              key={workKey(work)}
-              work={work}
-              onOpen={() => show(index)}
-            />
-          ))}
-        </ul>
+        <WorkRows
+          works={results}
+          onOpen={show}
+          numberOf={(work) => WORKS.indexOf(work) + 1}
+          className="mt-8 lg:mt-10"
+        />
       ) : (
         <div className={cn(GRID, "mt-10")}>
           <p className="col-span-4 text-[17px] lg:col-span-6">

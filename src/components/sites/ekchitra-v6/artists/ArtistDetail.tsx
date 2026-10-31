@@ -2,16 +2,13 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
-import { ARTISTS, type Artist } from "../../ekchitra-v5/artists-data";
-import { CAPS, SANS } from "../../ekchitra-v5/shared";
-import { CONTACT, V6_HOME } from "../data";
-import { CARD_TITLE, FOOTER_GAP, GRID, SECTION_TITLE } from "../styles";
-import { artistPath, artistSlug } from "./paths";
+import type { Artist } from "../../ekchitra-v5/artists-data";
+import { SANS } from "../../ekchitra-v5/shared";
+import { ARTWORK_SIZES } from "../artworks/sizes";
+import { FOOTER_GAP, GRID, ITEM_TITLE, SECTION_TITLE } from "../styles";
+import { ArtistWorks } from "./ArtistWorks";
+import { artistSlug } from "./paths";
 import { PORTRAITS } from "./portraits";
-
-/** The first sentence of a statement, for the page's intro. */
-export const firstSentence = (text: string) =>
-  text.match(/^.*?[.!?](\s|$)/)?.[0].trim() ?? text;
 
 const WORDS = [
   "no",
@@ -39,31 +36,21 @@ const listOf = (items: string[]) =>
     : `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
 
 /**
- * The page's buttons: small and outlined, every one the same size, with the
- * label at the left and a mark at the right.
- */
-const SMALL_BUTTON =
-  "inline-flex h-8 w-[168px] items-center justify-between gap-x-3 border border-(--k-ink)/30 px-3 text-[13px] hover:border-(--k-ink)";
-
-/**
- * The body of an artist's page, after the artist pages on goodman-gallery.com,
- * in EkChitra's own words, works and photographs. It sits inside the shared
- * page frame (banner with the name set over it), then:
- * - a short line from the statement, centred;
- * - the works in a four-column grid, each shown whole on white with its
- *   title, medium and size;
- * - the bio, laid out as Goodman's: a small portrait of the artist at the
- *   left with a caption and a small button to download their CV; from the
- *   halfway line, a small "Artist bio" heading and the bio as paragraphs —
- *   their statement, then what the gallery holds and how it represents them,
- *   drawn from its own data. Everything is on this page, so it doesn't send
- *   visitors elsewhere to read more;
- * - a row of the gallery's other artists;
- * - and, last, the enquiry card: black type centred on brand sky blue.
- * Static.
+ * An artist's page, after the artist pages on operagallery.com, in
+ * EkChitra's own words, works and photographs. No banner — under the top bar:
+ * - a small portrait of the artist over their name and bio at the left, and
+ *   their first work at the right, shown whole;
+ *   the bio is their statement, then what the gallery holds and how it
+ *   represents them, drawn from its own data;
+ * - "Selected works": the artist's works as the Artworks page shows them —
+ *   justified rows of the same cards, each opening the same panel
+ *   (ArtistWorks).
  */
 export function ArtistDetail({ artist }: { artist: Artist }) {
-  const portrait = PORTRAITS[artistSlug(artist)] ?? artist.works[0].image;
+  const portrait = PORTRAITS[artistSlug(artist)];
+  // The work at the right: their first, shown whole.
+  const feature = artist.works[0];
+  const [featureWidth, featureHeight] = ARTWORK_SIZES[feature.image] ?? [1, 1];
   const mediums = [...new Set(artist.works.map((work) => work.medium))];
   const sizes = [...new Set(artist.works.map((work) => work.size))];
   const count = artist.works.length;
@@ -81,161 +68,58 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
     artist.statement,
     `EkChitra holds ${inWords(count)} ${count === 1 ? "work" : "works"} by ${artist.name}, in ${listOf(mediums.map((medium) => medium.toLowerCase()))}, ${sizesText}. ${
       count === 1 ? "It is" : "Each is"
-    } shown in full under Artworks above, with ${count === 1 ? "its" : "its own"} title, medium and size.`,
-    `${artist.name} ${pair ? "are" : "is"} represented by EkChitra in Hyderabad. Through the gallery's art advisory and bespoke sourcing, their work can be placed in homes, offices and institutions; to see a piece in person or ask what is available, enquire below.`,
+    } shown in full under Selected works below, with ${count === 1 ? "its" : "its own"} title, medium and size.`,
+    `${artist.name} ${pair ? "are" : "is"} represented by EkChitra in Hyderabad. Through the gallery's art advisory and bespoke sourcing, their work can be placed in homes, offices and institutions; to see a piece in person or ask what is available, enquire about any work below.`,
   ];
-  const enquire = `${CONTACT.href}?text=${encodeURIComponent(
-    `Hello EkChitra, I'd like to know more about ${artist.name}'s work.`,
-  )}`;
 
   return (
     <div className={cn("bg-white text-(--k-ink)", SANS)}>
-      {/* A short line from the statement, centred. */}
-      <section aria-label="Statement" className={cn(GRID, "py-14 lg:py-20")}>
-        <p className="col-span-4 text-center text-[20px] leading-[1.35] tracking-[-0.02em] lg:col-span-8 lg:col-start-3 lg:text-[26px]">
-          {firstSentence(artist.statement)}
-        </p>
-      </section>
-
-      {/* Artworks. */}
-      <section aria-labelledby="artworks-heading" className="pb-12 lg:pb-16">
-        <div className={cn(GRID, "items-end gap-y-3")}>
-          <h2
-            id="artworks-heading"
-            className={cn(SECTION_TITLE, "col-span-4 lg:col-span-6")}
-          >
-            Artworks
-          </h2>
-          <div className="col-span-4 flex justify-start lg:col-span-6 lg:justify-end">
-            <a
-              href={`${V6_HOME}/artworks?medium=${encodeURIComponent(artist.name)}`}
-              className={SMALL_BUTTON}
-            >
-              View in Artworks
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
-        </div>
-        <ul className={cn(GRID, "mt-8 gap-y-10")}>
-          {artist.works.map((work) => (
-            <li key={work.image} className="col-span-2 lg:col-span-3">
-              <div className="relative aspect-square">
-                <Image
-                  src={work.image}
-                  alt={`${work.title} by ${artist.name}`}
-                  fill
-                  sizes="(min-width: 1024px) 25vw, 50vw"
-                  className="object-contain object-bottom"
-                />
-              </div>
-              <p className={cn(CARD_TITLE, "mt-3")}>{work.title}</p>
-              <p className="mt-0.5 text-[13px] text-(--k-ink)/65">
-                {work.medium} · {work.size}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* The bio: portrait, caption and buttons at the left; the text from the halfway line. */}
+      {/* A small portrait over the name and bio at the left; one of their
+          works at the right. */}
       <section
-        aria-labelledby="bio-heading"
-        className={cn(GRID, "gap-y-10 py-12 lg:py-16")}
+        aria-labelledby="artist-heading"
+        className={cn(GRID, "gap-y-8 pt-8 pb-14 lg:pt-12 lg:pb-20")}
       >
-        <div className="col-span-4 sm:col-span-2 lg:col-span-3">
-          <div className="relative aspect-[4/5] w-[140px] overflow-hidden lg:w-[180px]">
-            <Image
-              src={portrait}
-              alt={`Portrait of ${artist.name}`}
-              fill
-              sizes="180px"
-              className="object-cover"
-            />
-          </div>
-          <p className="mt-2 text-[13px]">Represented by EkChitra, Hyderabad</p>
-          {/* The CV downloads from the artist's page on ekchitra.com; swap in
-              a direct link to the PDF once the gallery shares it. */}
-          <a
-            href={artist.href}
-            target="_blank"
-            rel="noreferrer"
-            className={cn(SMALL_BUTTON, "mt-5 justify-center")}
-          >
-            Download CV
-          </a>
-        </div>
-        <div className="col-span-4 lg:col-span-5 lg:col-start-7">
-          <h2 id="bio-heading" className="text-[15px] font-medium">
-            Artist bio
-          </h2>
-          <div className="mt-3 max-w-[560px] space-y-4 text-[14px] leading-[1.55]">
+        <div className="col-span-4 lg:col-span-6">
+          {portrait && (
+            <div className="relative mb-5 aspect-[4/5] w-[72px] overflow-hidden bg-(--k-ink)/5 lg:mb-6 lg:w-[88px]">
+              <Image
+                src={portrait}
+                alt={`Portrait of ${artist.name}`}
+                fill
+                sizes="88px"
+                className="object-cover"
+              />
+            </div>
+          )}
+          <h1 id="artist-heading" className={SECTION_TITLE}>
+            {artist.name}
+          </h1>
+          <div className="mt-5 max-w-[640px] space-y-4 text-[15px] leading-[1.55] lg:mt-6">
             {paragraphs.map((text) => (
               <p key={text}>{text}</p>
             ))}
           </div>
         </div>
+        <div className="col-span-4 flex lg:col-span-5 lg:col-start-8 lg:justify-end">
+          <Image
+            src={feature.image}
+            alt={`${feature.title} by ${artist.name}`}
+            width={featureWidth}
+            height={featureHeight}
+            priority
+            sizes="(min-width: 1024px) 460px, 100vw"
+            className="h-auto max-h-[560px] w-auto max-w-full"
+          />
+        </div>
       </section>
 
-      {/* The gallery's other artists. */}
-      <nav
-        aria-label="Other artists"
-        className={cn(GRID, "gap-y-4 py-10 lg:py-12")}
-      >
-        <p
-          className={cn(
-            CAPS,
-            "col-span-4 text-[11px] text-(--k-ink)/65 lg:col-span-3",
-          )}
-        >
-          Other artists
-        </p>
-        <ul className="col-span-4 flex flex-wrap gap-x-2 gap-y-2 text-[17px] leading-[1.4] lg:col-span-9 lg:text-[19px]">
-          {ARTISTS.filter((item) => item.id !== artist.id).map(
-            (item, index, list) => (
-              <li key={item.id}>
-                <a
-                  href={artistPath(item)}
-                  className="hover:underline hover:underline-offset-4"
-                >
-                  {item.name}
-                </a>
-                {index < list.length - 1 && (
-                  <span className="text-(--k-ink)/35"> /</span>
-                )}
-              </li>
-            ),
-          )}
-        </ul>
-      </nav>
-
-      {/* Last: the enquiry card, black type on brand sky blue. */}
-      <section
-        id="enquire"
-        aria-labelledby="enquire-heading"
-        className={cn("scroll-mt-11 px-4 lg:px-5", FOOTER_GAP)}
-      >
-        <div className="flex min-h-[280px] flex-col items-center justify-center bg-(--k-sky) px-6 py-10 text-center text-(--k-ink) lg:min-h-[360px]">
-          <h2
-            id="enquire-heading"
-            className="text-[30px] leading-[1.1] tracking-[-0.03em] lg:text-[40px]"
-          >
-            Available artworks
-          </h2>
-          <p className="mt-2 text-[14px] text-(--k-ink)/80">
-            Ask us about other works by {artist.name}.
-          </p>
-          <a
-            href={enquire}
-            target="_blank"
-            rel="noreferrer"
-            className={cn(
-              SMALL_BUTTON,
-              "mt-6 justify-center border-(--k-ink) bg-(--k-ink) text-white hover:bg-(--k-ink)/85",
-            )}
-          >
-            Enquire
-          </a>
-        </div>
+      {/* Selected works, laid out as the Artworks page. */}
+      <section aria-labelledby="works-heading" className={FOOTER_GAP}>
+        <h2 id="works-heading" className={cn(ITEM_TITLE, "px-4 lg:px-5")}>
+          Selected works
+        </h2>
+        <ArtistWorks artist={artist} />
       </section>
     </div>
   );
