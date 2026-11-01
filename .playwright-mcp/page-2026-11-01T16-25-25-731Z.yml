@@ -1,0 +1,323 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "21:55 Hyderabad" [ref=f4e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f4e6]:
+        - list [ref=f4e7]:
+          - listitem [ref=f4e8]:
+            - link "About" [ref=f4e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f4e10]:
+            - link "Exhibitions" [ref=f4e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f4e12]:
+            - link "Artists" [ref=f4e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f4e14]:
+            - link "Artworks" [ref=f4e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f4e16]:
+            - link "Services" [ref=f4e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f4e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f4e19]: →
+    - generic [ref=f4e20]:
+      - generic [ref=f4e21]:
+        - heading "EkChitra — Art is everywhere. We help you notice." [level=1] [ref=f4e22]
+        - img "EkChitra" [ref=f4e23]
+      - generic [ref=f4e24]:
+        - img "Garuda by Anupama Choudhary" [ref=f4e27]
+        - link "View Garuda by Anupama Choudhary" [ref=f4e38] [cursor=pointer]:
+          - /url: /ekchitra-v6/artworks?work=Garuda&artist=Anupama+Choudhary
+        - generic [ref=f4e39]:
+          - button "Show Garuda by Anupama Choudhary" [ref=f4e40]
+          - button "Show Untitled - 1 by Ashok Juttu" [ref=f4e43]
+          - button "Show Embrace of Light by Selva Kumar" [ref=f4e45]
+          - button "Show Meri Maa Ki Dua by Rajesh Naik" [ref=f4e47]
+          - button "Show Vernacular House by Kolipitchai Prabhakar" [ref=f4e49]
+      - generic [ref=f4e57]:
+        - paragraph [ref=f4e58]:
+          - generic "A contemporary Indian art gallery for the curious — welcoming, thoughtful and open to everyone." [ref=f4e59]:
+            - generic [aria-hidden] [ref=f4e60]: A contemporary Indian art gallery for the curious — welcoming, thoughtful and open to everyone.
+        - link "About the Gallery" [ref=f4e61] [cursor=pointer]:
+          - /url: /ekchitra-v5/about
+          - text: About the Gallery
+          - generic [aria-hidden] [ref=f4e62]: →
+      - link [ref=f4e63] [cursor=pointer]:
+        - /url: /ekchitra-v6/exhibitions/living-temple-2026
+        - img "Living Temple 2026" [ref=f4e64]
+        - generic [ref=f4e66]:
+          - text: View Exhibition
+          - generic [aria-hidden] [ref=f4e67]: →
+    - generic [ref=f4e68]:
+      - generic [ref=f4e70]:
+        - generic [ref=f4e71]: About EkChitra
+        - heading [level=2] [ref=f4e73]:
+          - generic "EkChitra was founded with a vision to bridge the gap between exceptional contemporary Indian artists and art enthusiasts worldwide." [ref=f4e74]:
+            - generic [ref=f4e76]: EkChitra
+            - generic [ref=f4e78]: was
+            - generic [ref=f4e80]: founded
+            - generic [ref=f4e82]: with
+            - generic [ref=f4e84]: a
+            - generic [ref=f4e86]: vision
+            - generic [ref=f4e88]: to
+            - generic [ref=f4e90]: bridge
+            - generic [ref=f4e92]: the
+            - generic [ref=f4e94]: gap
+            - generic [ref=f4e96]: between
+            - generic [ref=f4e98]: exceptional
+            - generic [ref=f4e100]: contemporary
+            - generic [ref=f4e102]: Indian
+            - generic [ref=f4e104]: artists
+            - generic [ref=f4e106]: and
+            - generic [ref=f4e108]: art
+            - generic [ref=f4e110]: enthusiasts
+            - generic [ref=f4e112]: worldwide.
+      - generic [ref=f4e116]:
+        - img "Visitors among the paintings at EkChitra, Hyderabad" [ref=f4e118]
+        - generic [ref=f4e119]:
+          - generic [ref=f4e120]:
+            - paragraph [ref=f4e121]: 0+
+            - generic [ref=f4e122]:
+              - paragraph [ref=f4e123]: Exhibitions curated
+              - link "View All Exhibitions" [ref=f4e124] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+          - generic [ref=f4e127]:
+            - paragraph [ref=f4e128]: 0+
+            - generic [ref=f4e129]:
+              - paragraph [ref=f4e130]: Artists represented
+              - link "View All Artists" [ref=f4e131] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+    - region [ref=f4e134]:
+      - generic [ref=f4e136]:
+        - generic [ref=f4e137]: Exhibitions
+        - generic [ref=f4e139]:
+          - heading [level=2] [ref=f4e140]:
+            - generic "Now and next at EkChitra" [ref=f4e141]:
+              - generic [aria-hidden] [ref=f4e142]: Now and next at EkChitra
+          - button "Pause" [ref=f4e143]
+        - paragraph [ref=f4e145]:
+          - generic "Every exhibition begins with an idea, and every visit begins with curiosity." [ref=f4e146]:
+            - generic [aria-hidden] [ref=f4e147]: Every exhibition begins with an idea, and every visit begins with curiosity.
+      - generic:
+        - link "View Living Temple 2026" [ref=f4e148]:
+          - /url: /ekchitra-v6/exhibitions/living-temple-2026
+          - generic [aria-hidden] [ref=f4e150]:
+            - generic [ref=f4e151]: Upcoming · 2026
+            - generic [ref=f4e152]: Dates to be announced
+          - generic [aria-hidden] [ref=f4e153]: Living Temple 2026
+        - list:
+          - listitem:
+            - link "Living Temple 2026, Upcoming, Dates to be announced":
+              - /url: /ekchitra-v6/exhibitions/living-temple-2026
+          - listitem:
+            - link "Hyd Art, Past, December 19 – 21, 2025":
+              - /url: /ekchitra-v6/exhibitions/hyd-art
+          - listitem:
+            - link "Living Temple, Past, February 28 – March 4, 2025":
+              - /url: /ekchitra-v6/exhibitions/living-temple
+          - listitem:
+            - link "Naik City, Past, February 14 – 23, 2025":
+              - /url: /ekchitra-v6/exhibitions/naik-city
+          - listitem:
+            - link "House of Unified Expression, Past, August 30 – 29 Sept, 2025":
+              - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+          - listitem:
+            - link "Mirror Mirror – Champa Tree, Past, March 22, 2024":
+              - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+          - listitem:
+            - link "Katha Kathan, Past, January 21 – 29, 2024":
+              - /url: /ekchitra-v6/exhibitions/katha-kathan
+          - listitem:
+            - link "Satirical Symphony, Past, 2024":
+              - /url: /ekchitra-v6/exhibitions/satirical-symphony
+          - listitem:
+            - link "Once Upon a Time, Past, September 1, 2023":
+              - /url: /ekchitra-v6/exhibitions/once-upon-a-time
+          - listitem:
+            - link "Tree of Life, Past, 2022":
+              - /url: /ekchitra-v6/exhibitions/tree-of-life
+    - region "Artists" [ref=f4e154]:
+      - generic [ref=f4e156]:
+        - generic [ref=f4e157]: Artists
+        - heading [level=2] [ref=f4e159]:
+          - generic "Discover EkChitra’s Artists" [ref=f4e160]:
+            - generic [aria-hidden] [ref=f4e161]: Discover EkChitra’s Artists
+        - paragraph [ref=f4e162]:
+          - generic "Artists shaping contemporary India, exclusively represented by EkChitra." [ref=f4e163]:
+            - generic [aria-hidden] [ref=f4e164]: Artists shaping contemporary India, exclusively represented by EkChitra.
+      - generic [ref=f4e165]:
+        - generic:
+          - article [ref=f4e178]:
+            - img "Arthanareeswara by Anupama Choudhary" [ref=f4e180]
+            - heading "Anupama Choudhary" [level=3] [ref=f4e181]
+            - generic [ref=f4e182]:
+              - generic [ref=f4e183]:
+                - term [ref=f4e184]: Artwork
+                - definition [ref=f4e185]: Arthanareeswara
+              - generic [ref=f4e186]:
+                - term [ref=f4e187]: Medium
+                - definition [ref=f4e188]:
+                  - text: Mixed Media on Canvas
+                  - generic [ref=f4e189]: 36 x 36 Inches
+              - generic [ref=f4e190]:
+                - term [ref=f4e191]: About
+                - definition [ref=f4e192]: This artist explores the vibrant intersection of pop art and Indian mythology, employing a comic-book style to bring their vision to life.
+              - generic [ref=f4e193]:
+                - term [ref=f4e194]
+                - definition [ref=f4e195]:
+                  - link "View artist" [ref=f4e196] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/artists/anupama-choudhary
+          - article [ref=f4e199]:
+            - img "Untitled - 1 by Ashok Juttu" [ref=f4e201]
+            - heading "Ashok Juttu" [level=3] [ref=f4e202]
+            - generic [ref=f4e203]:
+              - generic [ref=f4e204]:
+                - term [ref=f4e205]: Artwork
+                - definition [ref=f4e206]: Untitled - 1
+              - generic [ref=f4e207]:
+                - term [ref=f4e208]: Medium
+                - definition [ref=f4e209]:
+                  - text: Acrylic Ink & Acrylic Pens on Canvas
+                  - generic [ref=f4e210]: 60 x 66 Inches
+              - generic [ref=f4e211]:
+                - term [ref=f4e212]: About
+                - definition [ref=f4e213]: Their works are postmodernist explorations, lightly touched by notions of deconstructionism, where the artist unravels surfaces that bear the scars and whispers of time’s passage.
+              - generic [ref=f4e214]:
+                - term [ref=f4e215]
+                - definition [ref=f4e216]:
+                  - link "View artist" [ref=f4e217] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/artists/ashok-juttu
+          - article [ref=f4e220]:
+            - img "Untitled - 2 by Charanjeet Singh" [ref=f4e222]
+            - heading "Charanjeet Singh" [level=3] [ref=f4e223]
+            - generic [ref=f4e224]:
+              - generic [ref=f4e225]:
+                - term [ref=f4e226]: Artwork
+                - definition [ref=f4e227]: Untitled - 2
+              - generic [ref=f4e228]:
+                - term [ref=f4e229]: Medium
+                - definition [ref=f4e230]:
+                  - text: Acrylic on Paper
+                  - generic [ref=f4e231]: 16.5 x 12 Inches
+              - generic [ref=f4e232]:
+                - term [ref=f4e233]: About
+                - definition [ref=f4e234]: Charanjeet Singh is a contemporary artist whose creations echo the whispers of history and advocate for water conservation.
+              - generic [ref=f4e235]:
+                - term [ref=f4e236]
+                - definition [ref=f4e237]:
+                  - link "View artist" [ref=f4e238] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/artists/charanjeet-singh
+          - article [ref=f4e241]:
+            - img "Harmony of Nature and Mind by Farhad Hussain" [ref=f4e243]
+            - heading "Farhad Hussain" [level=3] [ref=f4e244]
+            - generic [ref=f4e245]:
+              - generic [ref=f4e246]:
+                - term [ref=f4e247]: Artwork
+                - definition [ref=f4e248]: Harmony of Nature and Mind
+              - generic [ref=f4e249]:
+                - term [ref=f4e250]: Medium
+                - definition [ref=f4e251]:
+                  - text: Acrylic on Canvas
+                  - generic [ref=f4e252]: 36 x 36 Inches
+              - generic [ref=f4e253]:
+                - term [ref=f4e254]: About
+                - definition [ref=f4e255]: The painting presents a surreal scene where the woman appears in quiet harmony with the birds around her.
+              - generic [ref=f4e256]:
+                - term [ref=f4e257]
+                - definition [ref=f4e258]:
+                  - link "View artist" [ref=f4e259] [cursor=pointer]:
+                    - /url: https://www.ekchitra.com/artists/farhad-hussain
+    - region "Services" [ref=f4e263]:
+      - generic [ref=f4e264]:
+        - paragraph [ref=f4e265]: Services
+        - generic [ref=f4e266]:
+          - heading "Art for spaces, minds & souls" [level=2] [ref=f4e267]
+          - paragraph [ref=f4e268]: "Our journey began with a simple belief: that art has the power to transform spaces, inspire minds, and connect souls."
+          - img "A visitor standing before a painting in a gallery" [ref=f4e272]
+      - img "An abstract painting hung above a chair in a living room" [ref=f4e277]
+      - generic [ref=f4e278]:
+        - article [ref=f4e279]:
+          - generic [ref=f4e280]:
+            - heading "Bespoke sourcing" [level=3] [ref=f4e281]
+            - generic [ref=f4e282]: "01"
+          - generic [ref=f4e283]:
+            - paragraph [ref=f4e284]: For architects, designers & institutions
+            - paragraph [ref=f4e285]: Art selection, curation and placement shaped around a particular space and brief.
+            - link "Source for a Space →" [ref=f4e286] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+        - article [ref=f4e287]:
+          - generic [ref=f4e288]:
+            - heading "Art advisory" [level=3] [ref=f4e289]
+            - generic [ref=f4e290]: "02"
+          - generic [ref=f4e291]:
+            - paragraph [ref=f4e292]: For collectors
+            - paragraph [ref=f4e293]: Contextual, considered guidance for starting, refining or growing a collection.
+            - link "Get in Touch →" [ref=f4e294] [cursor=pointer]:
+              - /url: https://wa.me/919100118321
+    - generic [ref=f4e295]:
+      - generic [ref=f4e296]:
+        - generic [ref=f4e297]:
+          - paragraph [ref=f4e298]: Gallery
+          - list [ref=f4e299]:
+            - listitem [ref=f4e300]:
+              - link "About" [ref=f4e301] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f4e302]:
+              - link "Exhibitions" [ref=f4e303] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f4e304]:
+              - link "Artists" [ref=f4e305] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f4e306]:
+              - link "Artworks" [ref=f4e307] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f4e308]:
+              - link "Services" [ref=f4e309] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f4e310]:
+              - link "Contact" [ref=f4e311] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f4e312]:
+          - paragraph [ref=f4e313]: Connect
+          - list [ref=f4e314]:
+            - listitem [ref=f4e315]:
+              - link "Instagram" [ref=f4e316] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f4e317]:
+              - link "WhatsApp" [ref=f4e318] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f4e319]:
+          - paragraph [ref=f4e320]: Get in touch
+          - list [ref=f4e321]:
+            - listitem [ref=f4e322]:
+              - link "info@ekchitra.com" [ref=f4e323] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f4e324]:
+              - link "+91 91001 18321" [ref=f4e325] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f4e326]:
+          - paragraph [ref=f4e327]: Visit
+          - paragraph [ref=f4e328]:
+            - generic [ref=f4e329]: F94M+52P, Surya Enclave,
+            - generic [ref=f4e330]: HITEC City, Hyderabad,
+            - generic [ref=f4e331]: Telangana 500081
+          - list [ref=f4e332]:
+            - listitem [ref=f4e333]:
+              - link "Directions" [ref=f4e334] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f4e335]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f4e341] [cursor=pointer]:
+    - generic [ref=f4e344]:
+      - text: Compiling
+      - generic [ref=f4e345]:
+        - generic [ref=f4e346]: .
+        - generic [ref=f4e347]: .
+        - generic [ref=f4e348]: .
+  - alert [ref=f4e349]

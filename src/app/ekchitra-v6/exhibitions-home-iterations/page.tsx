@@ -8,6 +8,7 @@ import { ExAgendaPanels } from "@/components/sites/ekchitra-v6/exhibitions-home/
 import { ExCheckerCards } from "@/components/sites/ekchitra-v6/exhibitions-home/ExCheckerCards";
 import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
 import { ExLedgerRows } from "@/components/sites/ekchitra-v6/exhibitions-home/ExLedgerRows";
+import { ExRibbon } from "@/components/sites/ekchitra-v6/exhibitions-home/ExRibbon";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
 import { TopBar } from "@/components/sites/ekchitra-v6/TopBar";
 import { FooterSmoke } from "@/components/sites/ekchitra-v6/footer-variants/FooterSmoke";
@@ -37,6 +38,11 @@ const VARIATIONS: { name: string; note: string; body: ReactNode }[] = [
     name: "Agenda panels",
     note: "After the agenda on chandebootcamp.com, in the house style — compact white panels, chips to jump between shows, lines that slide up in turn.",
     body: <ExAgendaPanels />,
+  },
+  {
+    name: "Ribbon",
+    note: "After the mess on krew-orqestra.vercel.app — outlined frames drift along a twisted ribbon and come into colour as they cross the ink window.",
+    body: <ExRibbon />,
   },
 ];
 

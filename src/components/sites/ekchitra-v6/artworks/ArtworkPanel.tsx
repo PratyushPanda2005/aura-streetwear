@@ -181,7 +181,7 @@ export function ArtworkPanel({
                 tabIndex={open ? 0 : -1}
                 className={STEP}
               >
-                Prev
+                Previous
               </button>
               <button
                 type="button"

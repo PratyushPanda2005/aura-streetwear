@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
 import { FooterCard } from "@/components/sites/ekchitra-v6/footer-variants/FooterCard";
 import { ArtistsBands } from "@/components/sites/ekchitra-v6/ArtistsBands";
-import { ExIndexReel } from "@/components/sites/ekchitra-v6/exhibitions-home/ExIndexReel";
+import { ExRibbon } from "@/components/sites/ekchitra-v6/exhibitions-home/ExRibbon";
 import { Hero } from "@/components/sites/ekchitra-v6/Hero";
 import { ServicesPanels } from "@/components/sites/ekchitra-v6/services-cards/ServicesPanels";
 import { Statement } from "@/components/sites/ekchitra-v6/Statement";
@@ -27,7 +27,7 @@ export default function EkchitraV6Page() {
       <TopBar />
       <Hero dotted />
       <Statement />
-      <ExIndexReel />
+      <ExRibbon />
       <ArtistsBands />
       {/* Services: iteration 07 (three panels), the small photo dotted. The
           wrapper keeps the top bar's "Services" link landing here. */}
