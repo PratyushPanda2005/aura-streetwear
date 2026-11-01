@@ -515,10 +515,9 @@ html:has(.ek5)::-webkit-scrollbar-thumb:hover {
   opacity: 0;
   transition: opacity 0.75s cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* Controls laid over a dotted picture (the hero carousel's bars) leave the
-   dots on while they are hovered, and the focus they keep after a click
-   doesn't hold the picture clear once the pointer has left it. */
-.group:has(.ek6-keep-dots:hover) .ek6-dots,
+/* Controls laid over a dotted picture (the hero carousel's navigation)
+   clear it like the picture itself while hovered, but the focus they keep
+   after a click doesn't hold the picture clear once the pointer has left. */
 .group:not(:hover):has(.ek6-keep-dots:focus-within) .ek6-dots {
   opacity: 1;
 }

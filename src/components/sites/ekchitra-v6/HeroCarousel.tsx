@@ -15,10 +15,9 @@ const SWIPE = 40;
 
 /**
  * Artworks cross-fading on their own: each one fades in on top of the last
- * while settling from a slight zoom. At the bottom right, a dot per work, the current
- * one a bar filling while it holds (as the exhibition pages' slider);
- * clicking one goes to its work, and a swipe or a drag sideways steps
- * through them; stepping by hand restarts the timer (and the bar). Doesn't
+ * while settling from a slight zoom. In the bottom-right corner, two plain
+ * arrows step back and forward; a swipe or a drag sideways steps through
+ * them too; stepping by hand restarts the timer. Doesn't
  * advance on its own when the visitor prefers reduced motion.
  */
 export function HeroCarousel({
@@ -33,7 +32,7 @@ export function HeroCarousel({
   className?: string;
 }) {
   const [active, setActive] = useState(0);
-  // Bumped on every manual step, so the timer (and the bar) start again.
+  // Bumped on every manual step, so the timer starts again.
   const [steps, setSteps] = useState(0);
   // Where a drag began, and whether the last one moved far enough to count
   // as a swipe (so letting go doesn't also follow the link).
@@ -49,8 +48,9 @@ export function HeroCarousel({
     return () => window.clearInterval(id);
   }, [slides.length, steps]);
 
-  const go = (index: number) => {
-    setActive((index + slides.length) % slides.length);
+  /** Steps forward (1) or back (-1), restarting the timer. */
+  const step = (by: number) => {
+    setActive((index) => (index + by + slides.length) % slides.length);
     setSteps((count) => count + 1);
   };
 
@@ -73,7 +73,7 @@ export function HeroCarousel({
         start.current = null;
         if (Math.abs(moved) < SWIPE) return;
         swiped.current = true;
-        go(active + (moved < 0 ? 1 : -1));
+        step(moved < 0 ? 1 : -1);
       }}
       onPointerCancel={() => {
         start.current = null;
@@ -119,40 +119,35 @@ export function HeroCarousel({
         />
       )}
 
-      {/* As the exhibition pages' slider: a dot per work, at the bottom
-          right, the current one stretched into a bar that fills while it
-          holds; each goes to its work. White, on a small frosted-glass
-          panel with rounded corners, so they read over any picture.
-          Clicking them leaves any dots on (.ek6-keep-dots). */}
-      <div className="ek6-keep-dots absolute right-4 bottom-4 z-20 flex items-center gap-x-2 rounded-md border border-white/25 bg-black/25 px-3 backdrop-blur-md">
-        {slides.map((item, index) => {
-          const on = index === active;
-          return (
-            <button
-              key={item.src}
-              type="button"
-              onClick={() => go(index)}
-              aria-label={`Show ${item.alt}`}
-              aria-current={on}
-              className="flex h-6 items-center focus-visible:outline-1 focus-visible:outline-white"
-            >
-              <span
-                className={cn(
-                  "relative block h-1 overflow-hidden rounded-full bg-white/45 transition-[width,background-color] duration-500",
-                  on ? "w-12" : "w-1 hover:bg-white/80",
-                )}
-              >
-                {on && (
-                  <span
-                    key={steps}
-                    // As long as HOLD; simply full when motion is reduced.
-                    className="absolute inset-0 origin-left animate-[ek6-fill_4500ms_linear_forwards] bg-white motion-reduce:animate-none"
-                  />
-                )}
-              </span>
-            </button>
-          );
-        })}
+      {/* A soft ink fade in the corner, as under the exhibition poster's
+          link, so the white arrows read over light and dark pictures alike
+          without a box. */}
+      <span
+        aria-hidden="true"
+        className="pointer-events-none absolute right-0 bottom-0 z-20 h-16 w-40 bg-[radial-gradient(ellipse_at_100%_100%,rgb(25_25_25/0.5),rgb(25_25_25/0.25)_45%,transparent_75%)]"
+      />
+
+      {/* Just the two arrows, flush in the corner, white over the fade.
+          Hovering them clears any dots, as the picture does; a click's
+          focus doesn't hold them clear after the pointer leaves
+          (.ek6-keep-dots). */}
+      <div className="ek6-keep-dots absolute right-0 bottom-0 z-20 flex text-[18px] text-white [text-shadow:0_0_4px_rgb(0_0_0/0.6)]">
+        <button
+          type="button"
+          onClick={() => step(-1)}
+          aria-label="Previous artwork"
+          className="flex h-11 w-9 items-center justify-center transition-opacity hover:opacity-60 focus-visible:outline-1 focus-visible:-outline-offset-4 focus-visible:outline-white"
+        >
+          <span aria-hidden="true">←</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => step(1)}
+          aria-label="Next artwork"
+          className="flex h-11 w-9 items-center justify-center transition-opacity hover:opacity-60 focus-visible:outline-1 focus-visible:-outline-offset-4 focus-visible:outline-white"
+        >
+          <span aria-hidden="true">→</span>
+        </button>
       </div>
     </div>
   );
