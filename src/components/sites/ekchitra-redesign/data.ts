@@ -310,6 +310,8 @@ export interface ServicePanel {
   eyebrow: string;
   title: string;
   body: string;
+  /** The body cut to a line or two, for the homepage. */
+  summary: string;
   cta: NavLink;
   image: { src: string; alt: string };
 }
@@ -320,7 +322,9 @@ export const SERVICES: ServicePanel[] = [
   {
     eyebrow: "For architects, designers & institutions",
     title: "Bespoke sourcing",
-    body: "Art selection, curation and placement shaped around a particular space and brief.",
+    body: "Every space has a character of its own. We bring it to life through artworks that complement its architecture, reflect its sensibilities and create a connection that goes beyond the visual.\n\nFrom discovering the right artist to finding the right work, we curate around your space, your ideas and your vision.",
+    summary:
+      "Every space has a character of its own. We bring it to life with artworks that complement its architecture and reflect its sensibilities.",
     cta: { label: "Source for a Space", href: CONTACT_URL },
     image: {
       src: `${ARTWORKS_DIR}/sanctum-aikyam--vinod-daroz.png`,
@@ -330,7 +334,9 @@ export const SERVICES: ServicePanel[] = [
   {
     eyebrow: "For collectors",
     title: "Art advisory",
-    body: "Contextual, considered guidance for starting, refining or growing a collection.",
+    body: "A collection is more than the sum of the works it holds. It’s a reflection of curiosity, perspective and the stories we choose to live with. We offer considered guidance to help you discover artists, make informed choices and develop a collection with a point of view.",
+    summary:
+      "A collection is a reflection of curiosity and perspective. We help you discover artists, make informed choices and build one with a point of view.",
     cta: { label: "Get in Touch", href: CONTACT_URL },
     image: {
       src: `${ARTWORKS_DIR}/untitled-1--ashok-juttu.png`,

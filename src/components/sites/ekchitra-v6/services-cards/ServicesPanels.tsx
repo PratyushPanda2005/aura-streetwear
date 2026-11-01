@@ -13,8 +13,8 @@ const CELLS = [
 ];
 
 /**
- * 07 — Three panels, edge to edge and exactly one screen tall below the top
- * bar: a narrow white column with "Services" at the top and, at its foot,
+ * 07 — Three panels, edge to edge and at least one screen tall below the
+ * top bar (taller only when the services' words need it): a narrow white column with "Services" at the top and, at its foot,
  * the heading, the line and a small second photograph; one large photograph
  * filling the middle; and at the right the two services as stacked cells —
  * black, then white — each with its name large, its audience in small
@@ -33,7 +33,7 @@ export function ServicesPanels({
     <section
       aria-label="Services"
       className={cn(
-        "grid grid-cols-1 bg-white text-(--k-ink) lg:h-[calc(100svh-44px)] lg:min-h-[640px] lg:grid-cols-12",
+        "grid grid-cols-1 bg-white text-(--k-ink) lg:min-h-[max(640px,calc(100svh-44px))] lg:grid-cols-12",
         SANS,
       )}
     >
@@ -72,12 +72,12 @@ export function ServicesPanels({
             <article
               key={service.key}
               className={cn(
-                "flex flex-col justify-between gap-y-8 px-4 py-8 lg:px-8",
+                "flex flex-col justify-between gap-y-6 px-4 py-8 lg:px-8 lg:py-6",
                 cell.ground,
               )}
             >
               <div className="flex items-baseline justify-between gap-x-4">
-                <h3 className="text-[34px] leading-[1] tracking-[-0.04em] lg:text-[2.8vw]">
+                <h3 className="text-[34px] leading-[1] tracking-[-0.04em] lg:text-[clamp(28px,2.4vw,40px)]">
                   {service.title}
                 </h3>
                 <span className="text-[13px] tabular-nums">
@@ -88,14 +88,14 @@ export function ServicesPanels({
                 <p className={cn(CAPS, "text-[11px]", cell.muted)}>
                   {service.eyebrow}
                 </p>
-                <p className="mt-4 max-w-[380px] text-[16px] leading-[1.45]">
-                  {service.body}
+                <p className="mt-3 max-w-[400px] text-[15px] leading-[1.45]">
+                  {service.summary}
                 </p>
                 <a
                   href={service.cta.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-5 inline-block text-[14px] underline decoration-1 underline-offset-4 hover:no-underline"
+                  className="mt-4 inline-block text-[14px] underline decoration-1 underline-offset-4 hover:no-underline"
                 >
                   {service.cta.label} →
                 </a>

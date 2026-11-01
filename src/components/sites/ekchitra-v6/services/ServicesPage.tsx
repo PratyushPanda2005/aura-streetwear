@@ -56,7 +56,9 @@ export function ServicesPage() {
               <p className="mt-2 text-[15px] text-(--k-ink)/70">
                 {service.headline}
               </p>
-              <p className={cn(BODY, "mt-6 max-w-[440px]")}>{service.body}</p>
+              <p className={cn(BODY, "mt-6 max-w-[440px] whitespace-pre-line")}>
+                {service.body}
+              </p>
               <ul className="mt-8 max-w-[440px] border-t border-(--k-ink)/15 text-[14px]">
                 {service.covers.map((item) => (
                   <li
