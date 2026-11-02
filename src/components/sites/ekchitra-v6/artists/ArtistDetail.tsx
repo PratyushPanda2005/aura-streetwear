@@ -5,7 +5,13 @@ import { cn } from "@/lib/utils";
 import type { Artist } from "../../ekchitra-v5/artists-data";
 import { SANS } from "../../ekchitra-v5/shared";
 import { ARTWORK_SIZES } from "../artworks/sizes";
-import { FOOTER_GAP, GRID, ITEM_TITLE, SECTION_TITLE } from "../styles";
+import {
+  BUTTON,
+  FOOTER_GAP,
+  GRID,
+  ITEM_TITLE,
+  SECTION_TITLE,
+} from "../styles";
 import { ArtistWorks } from "./ArtistWorks";
 import { artistSlug } from "./paths";
 import { PORTRAITS } from "./portraits";
@@ -42,12 +48,13 @@ const listOf = (items: string[]) =>
  *   their first work at the right, shown whole;
  *   the bio is their statement, then what the gallery holds and how it
  *   represents them, drawn from its own data;
- * - "Selected works": the artist's works as the Artworks page shows them —
- *   justified rows of the same cards, each opening the same panel
- *   (ArtistWorks).
+ * - "Artworks", with the artist's catalogue to download on the same line: the
+ *   artist's works as the Artworks page shows them — justified rows of the
+ *   same cards, each opening the same panel (ArtistWorks).
  */
 export function ArtistDetail({ artist }: { artist: Artist }) {
-  const portrait = PORTRAITS[artistSlug(artist)];
+  const slug = artistSlug(artist);
+  const portrait = PORTRAITS[slug];
   // The work at the right: their first, shown whole.
   const feature = artist.works[0];
   const [featureWidth, featureHeight] = ARTWORK_SIZES[feature.image] ?? [1, 1];
@@ -68,7 +75,7 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
     artist.statement,
     `EkChitra holds ${inWords(count)} ${count === 1 ? "work" : "works"} by ${artist.name}, in ${listOf(mediums.map((medium) => medium.toLowerCase()))}, ${sizesText}. ${
       count === 1 ? "It is" : "Each is"
-    } shown in full under Selected works below, with ${count === 1 ? "its" : "its own"} title, medium and size.`,
+    } shown in full under Artworks below, with ${count === 1 ? "its" : "its own"} title, medium and size.`,
     `${artist.name} ${pair ? "are" : "is"} represented by EkChitra in Hyderabad. Through the gallery's art advisory and bespoke sourcing, their work can be placed in homes, offices and institutions; to see a piece in person or ask what is available, enquire about any work below.`,
   ];
 
@@ -114,11 +121,24 @@ export function ArtistDetail({ artist }: { artist: Artist }) {
         </div>
       </section>
 
-      {/* Selected works, laid out as the Artworks page. */}
+      {/* The works, laid out as the Artworks page, under their heading and the
+          catalogue to download; on a phone the button drops below the heading. */}
       <section aria-labelledby="works-heading" className={FOOTER_GAP}>
-        <h2 id="works-heading" className={cn(ITEM_TITLE, "px-4 lg:px-5")}>
-          Selected works
-        </h2>
+        <div className="flex flex-col gap-y-4 px-4 sm:flex-row sm:items-center sm:justify-between lg:px-5">
+          <h2 id="works-heading" className={ITEM_TITLE}>
+            Artworks
+          </h2>
+          <a
+            href={`/catalogues/${slug}.pdf`}
+            download={`${slug}-catalogue.pdf`}
+            className={cn(
+              BUTTON,
+              "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-(--k-ink)",
+            )}
+          >
+            Download catalogue <span aria-hidden="true">↓</span>
+          </a>
+        </div>
         <ArtistWorks artist={artist} />
       </section>
     </div>
