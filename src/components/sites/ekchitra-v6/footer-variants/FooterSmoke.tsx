@@ -20,7 +20,7 @@ import {
  * its warm folds mapped to maroon, its cool folds to navy, highlights
  * lifting towards sky and white.
  */
-const SILK = "/sites/ekchitra-redesign/placeholders/footer-silk-brand.jpg";
+export const SILK = "/sites/ekchitra-redesign/placeholders/footer-silk-brand.jpg";
 
 /**
  * Variation 05 — after Evmos. The top part is white and full: the gallery's

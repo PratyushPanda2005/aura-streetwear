@@ -1,0 +1,10 @@
+[     366ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[     380ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[    3405ms] [WARNING] Image with src "/sites/ekchitra-redesign/placeholders/footer-silk-brand.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   68130ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   68637ms] [LOG] [Fast Refresh] done in 589ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   68739ms] [LOG] [Fast Refresh] done in 589ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   78448ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   81411ms] [LOG] [Fast Refresh] done in 3020ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777
+[   81904ms] [LOG] [Fast Refresh] done in 3393ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:777

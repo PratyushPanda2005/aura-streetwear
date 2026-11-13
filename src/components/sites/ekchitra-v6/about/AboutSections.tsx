@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 
 import { HERO_SLIDES } from "../../ekchitra-redesign/data";
 import { ABOUT_STORY, ABOUT_VALUES } from "../../ekchitra-v5/about-data";
+import { Diamonds } from "../../ekchitra-v5/Diamonds";
 import { BODY, CAPS, SANS, TITLE } from "../../ekchitra-v5/shared";
 import { STATS } from "../data";
 import { CuratorNote } from "./CuratorNote";
@@ -65,6 +66,27 @@ const ABOUT_PHOTOS = [
     place: "lg:col-start-3 lg:row-start-2",
   },
 ];
+
+/**
+ * The two cells About us's photographs leave empty on desktop, each with a
+ * small, faint strip of the diamond motif on the edge it shares with a
+ * photograph: one rising off the dancers below it, the other hanging from
+ * the room view above it. Each picks out a different brand colour.
+ */
+const EMPTY_CELLS = [
+  {
+    place: "lg:col-start-1 lg:row-start-1",
+    side: "left",
+    tint: "maroon",
+    className: "bottom-0 left-0 -scale-y-100",
+  },
+  {
+    place: "lg:col-start-2 lg:row-start-2",
+    side: "right",
+    tint: "navy",
+    className: "top-0 right-0",
+  },
+] as const;
 
 const VALUES_TITLE = ABOUT_VALUES.items.map((value) => value.title).join(", ");
 
@@ -390,6 +412,27 @@ function WhoWeAre() {
                 fill
                 sizes="(min-width: 1024px) 24vw, 50vw"
                 className="object-cover"
+              />
+            </div>
+          ))}
+          {EMPTY_CELLS.map((cell) => (
+            <div
+              key={cell.place}
+              aria-hidden="true"
+              className={cn("relative hidden lg:block", cell.place)}
+            >
+              <Diamonds
+                rows={36}
+                shape="steps"
+                horizontal
+                side={cell.side}
+                tint={cell.tint}
+                tintEvery={7}
+                tintOpacity={0.3}
+                className={cn(
+                  "absolute h-[36px] text-(--k-ink)/[0.08]",
+                  cell.className,
+                )}
               />
             </div>
           ))}

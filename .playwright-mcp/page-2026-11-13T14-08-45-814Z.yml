@@ -1,0 +1,209 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - link "Home" [ref=e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=e10]:
+            - link "Exhibitions" [ref=e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=e12]:
+            - link "Artists" [ref=e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=e14]:
+            - link "Artworks" [ref=e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=e16]:
+            - link "Services" [ref=e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=e19]: →
+    - img "Visitors among the paintings at EkChitra, Hyderabad" [ref=e21]
+    - heading "Where art meets soul" [level=1] [ref=e22]
+    - generic [ref=e23]:
+      - region "A living collection of contemporary expressions" [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - paragraph [ref=e27]: About us
+            - heading "A living collection of contemporary expressions" [level=2] [ref=e28]
+          - generic [ref=e29]:
+            - paragraph [ref=e30]: Today, we proudly showcase a diverse collection of contemporary artworks, from bold abstracts to serene landscapes, each piece carefully curated to bring beauty and meaning into your life.
+            - paragraph [ref=e31]: 18 exhibitions curated
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - term [ref=e35]: Exhibitions curated
+              - definition [ref=e36]: "18"
+            - generic [ref=e37]:
+              - term [ref=e38]: Artists represented
+              - definition [ref=e39]: "15"
+            - generic [ref=e40]:
+              - term [ref=e41]: Works in the collection
+              - definition [ref=e42]: 29+
+          - generic [ref=e43]:
+            - img "Visitors among the paintings at Hyd Art 2025" [ref=e45]
+            - img "Speaking to the press beside a painting at Hyd Art 2025" [ref=e47]
+            - img "Classical dancers performing at Living Temple" [ref=e49]
+            - img "Visitors at Hyd Art 2025, EkChitra" [ref=e51]
+      - region "Curiosity, Context, Connection, Conversation" [ref=e52]:
+        - generic [ref=e53]:
+          - region "A note from our curator" [ref=e55]:
+            - generic [ref=e56]:
+              - heading "A note from our curator" [level=2] [ref=e57]
+              - figure "Annapurna M Curator, EkChitra" [ref=e58]:
+                - blockquote [ref=e59]:
+                  - paragraph [ref=e60]:
+                    - generic [ref=e61]: We’ve always lived around art —
+                    - generic [ref=e63]: we’ve just forgotten to notice it.
+                    - generic [ref=e65]: Every exhibition here begins with an idea,
+                    - generic [ref=e67]: and every visit with curiosity.
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Annapurna M
+                  - generic [ref=e71]: Curator, EkChitra
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - paragraph [ref=e75]: "[ How we work ]"
+              - heading "Curiosity, Context, Connection, Conversation" [level=2] [ref=e76]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: C
+                  - generic [ref=e80]: u
+                  - generic [ref=e81]: r
+                  - generic [ref=e82]: i
+                  - generic [ref=e83]: o
+                  - generic [ref=e84]: s
+                  - generic [ref=e85]: i
+                  - generic [ref=e86]: t
+                  - generic [ref=e87]: "y"
+                  - generic [ref=e88]: ","
+                - generic [ref=e90]:
+                  - generic [ref=e91]: C
+                  - generic [ref=e92]: o
+                  - generic [ref=e93]: "n"
+                  - generic [ref=e94]: t
+                  - generic [ref=e95]: e
+                  - generic [ref=e96]: x
+                  - generic [ref=e97]: t
+                  - generic [ref=e98]: ","
+                - generic [ref=e100]:
+                  - generic [ref=e101]: C
+                  - generic [ref=e102]: o
+                  - generic [ref=e103]: "n"
+                  - generic [ref=e104]: "n"
+                  - generic [ref=e105]: e
+                  - generic [ref=e106]: c
+                  - generic [ref=e107]: t
+                  - generic [ref=e108]: i
+                  - generic [ref=e109]: o
+                  - generic [ref=e110]: "n"
+                  - generic [ref=e111]: ","
+                - generic [ref=e113]:
+                  - generic [ref=e114]: C
+                  - generic [ref=e115]: o
+                  - generic [ref=e116]: "n"
+                  - generic [ref=e117]: v
+                  - generic [ref=e118]: e
+                  - generic [ref=e119]: r
+                  - generic [ref=e120]: s
+                  - generic [ref=e121]: a
+                  - generic [ref=e122]: t
+                  - generic [ref=e123]: i
+                  - generic [ref=e124]: o
+                  - generic [ref=e125]: "n"
+            - listitem [ref=e126]:
+              - article [ref=e128]:
+                - generic [ref=e129]:
+                  - img "Artists and visitors inside the EkChitra gallery" [ref=e130]
+                  - generic [ref=e131]: "[ Curiosity ]"
+                - generic [ref=e132]:
+                  - heading "We begin with looking." [level=3] [ref=e133]
+                  - generic [ref=e134]: 01 / 04
+                - paragraph [ref=e135]: Every exhibition begins with an idea, and every visit begins with curiosity — you don’t need to know about art to feel at home here.
+            - listitem [ref=e136]:
+              - article [ref=e138]:
+                - generic [ref=e139]:
+                  - img "Classical dancers before painted deities at Living Temple" [ref=e140]
+                  - generic [ref=e141]: "[ Context ]"
+                - generic [ref=e142]:
+                  - heading "Every work belongs to a larger story." [level=3] [ref=e143]
+                  - generic [ref=e144]: 02 / 04
+                - paragraph [ref=e145]: From temple carvings and cinema posters to family photographs, textiles and handwritten signs, visual culture has always shaped how we understand identity, memory and belonging.
+            - listitem [ref=e146]:
+              - article [ref=e148]:
+                - generic [ref=e149]:
+                  - img "Guests at an EkChitra exhibition opening" [ref=e150]
+                  - generic [ref=e151]: "[ Connection ]"
+                - generic [ref=e152]:
+                  - heading "Art becomes meaningful when it enters a life." [level=3] [ref=e153]
+                  - generic [ref=e154]: 03 / 04
+                - paragraph [ref=e155]: Art selection, curation and placement shaped around a particular space, and considered guidance for starting, refining or growing a collection.
+            - listitem [ref=e156]:
+              - article [ref=e158]:
+                - generic [ref=e159]:
+                  - img "Speakers and guests together on stage at Hyd Art 2025" [ref=e160]
+                  - generic [ref=e161]: "[ Conversation ]"
+                - generic [ref=e162]:
+                  - heading "A gallery is a place to exchange ideas." [level=3] [ref=e163]
+                  - generic [ref=e164]: 04 / 04
+                - paragraph [ref=e165]: Knowledgeable without being intimidating, and always open to a conversation — amplifying the voices of artists so their stories reach diverse audiences.
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - paragraph [ref=e169]: Gallery
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - link "About" [ref=e172] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=e173]:
+              - link "Exhibitions" [ref=e174] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=e175]:
+              - link "Artists" [ref=e176] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=e177]:
+              - link "Artworks" [ref=e178] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=e179]:
+              - link "Services" [ref=e180] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=e181]:
+              - link "Contact" [ref=e182] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=e183]:
+          - paragraph [ref=e184]: Connect
+          - list [ref=e185]:
+            - listitem [ref=e186]:
+              - link "Instagram" [ref=e187] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=e188]:
+              - link "WhatsApp" [ref=e189] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=e190]:
+          - paragraph [ref=e191]: Get in touch
+          - list [ref=e192]:
+            - listitem [ref=e193]:
+              - link "info@ekchitra.com" [ref=e194] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=e195]:
+              - link "+91 91001 18321" [ref=e196] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=e197]:
+          - paragraph [ref=e198]: Visit
+          - paragraph [ref=e199]:
+            - generic [ref=e200]: F94M+52P, Surya Enclave,
+            - generic [ref=e201]: HITEC City, Hyderabad,
+            - generic [ref=e202]: Telangana 500081
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Directions" [ref=e205] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=e206]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=e212] [cursor=pointer]

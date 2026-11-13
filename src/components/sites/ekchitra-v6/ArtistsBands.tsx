@@ -11,14 +11,24 @@ import {
   ARTISTS_SECTION,
   ARTWORKS,
 } from "../ekchitra-redesign/data";
+import { ARTISTS } from "../ekchitra-v5/artists-data";
 import { CapsLink } from "../ekchitra-v5/CapsLink";
 import { Chars } from "../ekchitra-v5/Chars";
 import { BODY, DISPLAY, SANS, TITLE } from "../ekchitra-v5/shared";
+import { artistPath } from "./artists/paths";
 import { GRID, HEAD } from "./styles";
 import { Index } from "./ui";
 
-/** Artists shown on the homepage; the rest are a click away. */
-const FEATURED = ARTWORKS.filter((artwork) => !artwork.cutout).slice(0, 4);
+/**
+ * Artists shown on the homepage; the rest are a click away. Each links to
+ * the artist's page here, or to ekchitra.com if we have no page for them.
+ */
+const FEATURED = ARTWORKS.filter((artwork) => !artwork.cutout)
+  .slice(0, 4)
+  .map((artwork) => {
+    const artist = ARTISTS.find((item) => item.name === artwork.artist);
+    return { ...artwork, page: artist ? artistPath(artist) : null };
+  });
 
 /** Distance from the top of one card to the top of the next (card + gap), px. */
 const PITCH = 516;
@@ -167,9 +177,10 @@ export function ArtistsBands() {
                   <dd>
                     <CapsLink
                       arrow
-                      href={artwork.href}
-                      target="_blank"
-                      rel="noreferrer"
+                      href={artwork.page ?? artwork.href}
+                      {...(artwork.page
+                        ? {}
+                        : { target: "_blank", rel: "noreferrer" })}
                     >
                       {ARTISTS_SECTION.slideCta}
                     </CapsLink>
