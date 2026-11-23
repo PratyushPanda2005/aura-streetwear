@@ -1,0 +1,383 @@
+- generic [active] [ref=f7e1]:
+  - main [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link "Home" [ref=f7e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f7e6]:
+        - list [ref=f7e7]:
+          - listitem [ref=f7e8]:
+            - link "About" [ref=f7e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f7e10]:
+            - link "Exhibitions" [ref=f7e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f7e12]:
+            - link "Artists" [ref=f7e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f7e14]:
+            - link "Artworks" [ref=f7e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f7e16]:
+            - link "Services" [ref=f7e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f7e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f7e19]: →
+    - img "Rajesh Naik’s auto-rickshaw works in a row on a gallery wall at Naik City, with two people standing among them" [ref=f7e21]
+    - generic [ref=f7e22]:
+      - generic [ref=f7e23]:
+        - paragraph [ref=f7e24]: Artists
+        - heading "Meet the artists" [level=1] [ref=f7e25]
+      - generic [ref=f7e26]:
+        - paragraph [ref=f7e27]: Artists shaping contemporary India, exclusively represented by EkChitra.
+        - paragraph [ref=f7e28]: 15 artists represented
+    - region "Artists" [ref=f7e29]:
+      - generic [ref=f7e30]:
+        - list [ref=f7e31]:
+          - listitem [ref=f7e32]:
+            - button "01 Anupama Choudhary 03" [expanded] [ref=f7e33]:
+              - generic [ref=f7e34]: "01"
+              - generic [ref=f7e35]: Anupama Choudhary
+              - generic [ref=f7e36]: "03"
+          - listitem [ref=f7e37]:
+            - button "02 Ashok Juttu 02" [ref=f7e38]:
+              - generic [ref=f7e39]: "02"
+              - generic [ref=f7e40]: Ashok Juttu
+              - generic [ref=f7e41]: "02"
+          - listitem [ref=f7e42]:
+            - button "03 Chandrapal Panjre 01" [ref=f7e43]:
+              - generic [ref=f7e44]: "03"
+              - generic [ref=f7e45]: Chandrapal Panjre
+              - generic [ref=f7e46]: "01"
+          - listitem [ref=f7e47]:
+            - button "04 Charanjeet Singh 11" [ref=f7e48]:
+              - generic [ref=f7e49]: "04"
+              - generic [ref=f7e50]: Charanjeet Singh
+              - generic [ref=f7e51]: "11"
+          - listitem [ref=f7e52]:
+            - button "05 Dilip Kumar 02" [ref=f7e53]:
+              - generic [ref=f7e54]: "05"
+              - generic [ref=f7e55]: Dilip Kumar
+              - generic [ref=f7e56]: "02"
+          - listitem [ref=f7e57]:
+            - button "06 Farhad Hussain 01" [ref=f7e58]:
+              - generic [ref=f7e59]: "06"
+              - generic [ref=f7e60]: Farhad Hussain
+              - generic [ref=f7e61]: "01"
+          - listitem [ref=f7e62]:
+            - button "07 Kolipitchai Prabhakar 01" [ref=f7e63]:
+              - generic [ref=f7e64]: "07"
+              - generic [ref=f7e65]: Kolipitchai Prabhakar
+              - generic [ref=f7e66]: "01"
+          - listitem [ref=f7e67]:
+            - button "08 Manish Sharma 01" [ref=f7e68]:
+              - generic [ref=f7e69]: "08"
+              - generic [ref=f7e70]: Manish Sharma
+              - generic [ref=f7e71]: "01"
+          - listitem [ref=f7e72]:
+            - button "09 Parul Kaur 01" [ref=f7e73]:
+              - generic [ref=f7e74]: "09"
+              - generic [ref=f7e75]: Parul Kaur
+              - generic [ref=f7e76]: "01"
+          - listitem [ref=f7e77]:
+            - button "10 Rahul & Gunjan 01" [ref=f7e78]:
+              - generic [ref=f7e79]: "10"
+              - generic [ref=f7e80]: Rahul & Gunjan
+              - generic [ref=f7e81]: "01"
+          - listitem [ref=f7e82]:
+            - button "11 Rajesh Naik 01" [ref=f7e83]:
+              - generic [ref=f7e84]: "11"
+              - generic [ref=f7e85]: Rajesh Naik
+              - generic [ref=f7e86]: "01"
+          - listitem [ref=f7e87]:
+            - button "12 Sarvanan Parasuraman 01" [ref=f7e88]:
+              - generic [ref=f7e89]: "12"
+              - generic [ref=f7e90]: Sarvanan Parasuraman
+              - generic [ref=f7e91]: "01"
+          - listitem [ref=f7e92]:
+            - button "13 Selva Kumar 01" [ref=f7e93]:
+              - generic [ref=f7e94]: "13"
+              - generic [ref=f7e95]: Selva Kumar
+              - generic [ref=f7e96]: "01"
+          - listitem [ref=f7e97]:
+            - button "14 Subodh Kerkar 01" [ref=f7e98]:
+              - generic [ref=f7e99]: "14"
+              - generic [ref=f7e100]: Subodh Kerkar
+              - generic [ref=f7e101]: "01"
+          - listitem [ref=f7e102]:
+            - button "15 Vinod Daroz 01" [ref=f7e103]:
+              - generic [ref=f7e104]: "15"
+              - generic [ref=f7e105]: Vinod Daroz
+              - generic [ref=f7e106]: "01"
+        - generic [ref=f7e107]:
+          - generic [ref=f7e108]:
+            - img "Garuda by Anupama Choudhary" [ref=f7e110]
+            - generic [ref=f7e111]:
+              - paragraph [ref=f7e112]: 01 / 15
+              - heading "Anupama Choudhary" [level=2] [ref=f7e113]
+              - paragraph [ref=f7e114]: Mixed Media
+              - paragraph [ref=f7e115]: This artist explores the vibrant intersection of pop art and Indian mythology, employing a comic-book style to bring their vision to life. Their work reflects a deep appreciation for the rich narratives and characters found in Indian folklore. By merging traditional themes with contemporary aesthetics, the artist creates pieces that resonate with both cultural heritage and modern sensibilities.
+              - generic [ref=f7e116]:
+                - paragraph [ref=f7e117]: Garuda
+                - paragraph [ref=f7e118]: 36 x 36 Inches
+              - list [ref=f7e119]:
+                - listitem [ref=f7e120]:
+                  - img "Arthanareeswara by Anupama Choudhary" [ref=f7e121]
+                - listitem [ref=f7e122]:
+                  - img "Warhalseque by Anupama Choudhary" [ref=f7e123]
+              - link "View Artist" [ref=f7e124] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists/anupama-choudhary
+                - text: View Artist
+                - generic [aria-hidden] [ref=f7e125]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 02 / 15
+              - heading [level=2]: Ashok Juttu
+              - paragraph: Acrylic, Fabric & Acid Wash · Acrylic Ink & Acrylic Pens
+              - paragraph: Their works are postmodernist explorations, lightly touched by notions of deconstructionism, where the artist unravels surfaces that bear the scars and whispers of time’s passage, rock faces eroded by wind, walls peeling under neglect, cave paintings fading into myth, and traditional art on village homes weathered by the elements.
+              - generic:
+                - paragraph: Unexplored Heritage - 051
+                - paragraph: 78 x 96 Inches
+              - list:
+                - listitem
+              - link:
+                - /url: /ekchitra-v6/artists/ashok-juttu
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 03 / 15
+              - heading [level=2]: Chandrapal Panjre
+              - paragraph: Mixed Media
+              - paragraph: Artwork-making is an enjoyable and meditative process for him. The elements of his artwork represent rural lifestyle and rural culture. What he creates is a map of his inner exploration — his own world. He pieces together scraps of cloth as if they were canvas and colours, and travels through them with a needle and thread.
+              - generic:
+                - paragraph: Untitled - 1
+                - paragraph: 24 x 30 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/chandrapal-panjre
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 04 / 15
+              - heading [level=2]: Charanjeet Singh
+              - paragraph: Acrylic
+              - paragraph: Charanjeet Singh is a contemporary artist whose creations echo the whispers of history and advocate for water conservation. Drawing inspiration from the ancient step wells of India and the rich tradition of Mughal miniature paintings, Singh seamlessly weaves together these influences to convey a crucial message about the preservation of water and the timeless lessons of history.
+              - generic:
+                - paragraph: Untitled - 6
+                - paragraph: 16.5 x 12 Inches
+              - list:
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+              - link:
+                - /url: /ekchitra-v6/artists/charanjeet-singh
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 05 / 15
+              - heading [level=2]: Dilip Kumar
+              - paragraph: Acrylic
+              - paragraph: Dilipkumar Kesavan is an artist based in Chennai whose work is deeply rooted in the textures and stories of his surroundings. His creative process begins each day with his journey along the scenic coastal road to his studio in Mahabalipuram, filled with sights of swaying palms, scattered shells, and vibrant greens.
+              - generic:
+                - paragraph: Paths - 2
+                - paragraph: 53 x 48 Inches
+              - list:
+                - listitem
+              - link:
+                - /url: /ekchitra-v6/artists/dilip-kumar
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 06 / 15
+              - heading [level=2]: Farhad Hussain
+              - paragraph: Acrylic
+              - paragraph: The painting presents a surreal scene where the woman appears in quiet harmony with the birds around her. The flying birds create a sense of movement, contrasting with her composed expression. Elements like the rose, violin, and teacup symbolize beauty, music, and reflection.
+              - generic:
+                - paragraph: Harmony of Nature and Mind
+                - paragraph: 36 x 36 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/farhad-hussain
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 07 / 15
+              - heading [level=2]: Kolipitchai Prabhakar
+              - paragraph: Acrylic
+              - paragraph: The artist believes that many visual artists naturally return to their native landscapes, drawing inspiration from cultural roots and childhood memories etched deep within their consciousness. With this same intention, he has spent the past two years documenting his native region.
+              - generic:
+                - paragraph: Vernacular House
+                - paragraph: 24 x 36 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/kolipitchai-prabhakar
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 08 / 15
+              - heading [level=2]: Manish Sharma
+              - paragraph: Wood, Iron, Acrylic and PU
+              - paragraph: His art poignantly explores themes of nostalgia and cultural preservation. Born in the culturally rich town of Bikaner, Rajasthan, Sharma has witnessed the rapid changes and cultural erosion in his hometown, and emphasizes the importance of safeguarding cultural identity and history in the face of globalization.
+              - generic:
+                - paragraph: Sites of Remembering
+                - paragraph: 36 x 65 x 7 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/manish-sharma
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 09 / 15
+              - heading [level=2]: Parul Kaur
+              - paragraph: Watercolor
+              - paragraph: Parul Kaur is a Baroda-based artist currently working in Surat. Watercolour is her primary medium, through which she explores how artificial, temporary, and man-made interventions affect the human mind and shape emotional responses.
+              - generic:
+                - paragraph: Between Presence and Absence 3
+                - paragraph: 14 x 20 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/parul-kaur
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 10 / 15
+              - heading [level=2]: Rahul & Gunjan
+              - paragraph: Collected Wool Silk, Linen, Cotton & Steel
+              - paragraph: Threadarte, which began as an experiment in 2004 to deal with textile waste, became Rahul and Gunjan’s unique language. They collect and sort waste yarns from various sources and integrate them through manual process, incorporating coloured and textured yarns, strips of fabric, metallic threads and metals to create painterly installations.
+              - generic:
+                - paragraph: Finding My Ground
+                - paragraph: 64 x 84 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/rahul-gunjan
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 11 / 15
+              - heading [level=2]: Rajesh Naik
+              - paragraph: Metal
+              - paragraph: Born in the suburbs of Hyderabad, the artist began supporting his family from an early age, driving an autorickshaw at night. This early immersion into the gritty realities of life exposed him to a unique local ghetto culture, and his focus has always been on using art to make a meaningful difference.
+              - generic:
+                - paragraph: Meri Maa Ki Dua
+                - paragraph: 30 x 30 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/rajesh-naik
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 12 / 15
+              - heading [level=2]: Sarvanan Parasuraman
+              - paragraph: Paper Board
+              - paragraph: “Modified Continuity” is a series of artworks that emerges from their attempts to continually refine and elevate their stance on the things they once believed, practiced, achieved, or experienced — recognising that what persists is essentially an extension of what came before.
+              - generic:
+                - paragraph: Modified Continuity
+                - paragraph: 48 x 48 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/sarvanan-parasuraman
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 13 / 15
+              - heading [level=2]: Selva Kumar
+              - paragraph: Stainless Steel and Corten Steel
+              - paragraph: He has over 22 years of experience in traditional and digital sculpting. His journey began with a strong foundation in clay and fine arts; he has been recognised internationally with two awards in watercolour painting, and contributed to Hollywood productions including Boss Baby, Puss in Boots and Kung Fu Panda.
+              - generic:
+                - paragraph: Embrace of Light
+                - paragraph: 36 x 38 x 16 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/selva-kumar
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 14 / 15
+              - heading [level=2]: Subodh Kerkar
+              - paragraph: Ceramic Clay with Red Oxide
+              - paragraph: Subodh describes himself as an “ocean artist.” The ocean, he says, exists both inside and outside his works; it is his master and his muse. He believes that artists are sensors, receptors, and transmitters of ideas within a society.
+              - generic:
+                - paragraph: Head 1
+                - paragraph: 18.5 x 11 Inches
+              - link:
+                - /url: /ekchitra-v6/artists/subodh-kerkar
+                - text: View Artist
+                - generic [aria-hidden]: →
+          - generic [aria-hidden]:
+            - generic:
+              - paragraph: 15 / 15
+              - heading [level=2]: Vinod Daroz
+              - paragraph: Porcelain and Stoneware with Liquid Gold
+              - paragraph: Vinod Daroz, an Indian artist born into a family of traditional jewellers, carries forward a heritage of refined craftsmanship and meticulous attention to detail. Mentored by renowned ceramist Jyotsna Bhatt, he was introduced to the world of studio pottery and ceramics.
+              - generic:
+                - paragraph: Sanctum (From the series of Aikyam)
+                - paragraph: 12 x 12 x 5.5 Inches Each
+              - link:
+                - /url: /ekchitra-v6/artists/vinod-daroz
+                - text: View Artist
+                - generic [aria-hidden]: →
+    - generic [ref=f7e126]:
+      - generic [ref=f7e128]:
+        - generic [ref=f7e129]:
+          - paragraph [ref=f7e130]: Gallery
+          - list [ref=f7e131]:
+            - listitem [ref=f7e132]:
+              - link "About" [ref=f7e133] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f7e134]:
+              - link "Exhibitions" [ref=f7e135] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f7e136]:
+              - link "Artists" [ref=f7e137] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f7e138]:
+              - link "Artworks" [ref=f7e139] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f7e140]:
+              - link "Services" [ref=f7e141] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f7e142]:
+              - link "Contact" [ref=f7e143] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f7e144]:
+          - paragraph [ref=f7e145]: Connect
+          - list [ref=f7e146]:
+            - listitem [ref=f7e147]:
+              - link "Instagram" [ref=f7e148] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f7e149]:
+              - link "WhatsApp" [ref=f7e150] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f7e151]:
+          - paragraph [ref=f7e152]: Get in touch
+          - list [ref=f7e153]:
+            - listitem [ref=f7e154]:
+              - link "info@ekchitra.com" [ref=f7e155] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f7e156]:
+              - link "+91 91001 18321" [ref=f7e157] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f7e158]:
+          - paragraph [ref=f7e159]: Visit
+          - paragraph [ref=f7e160]:
+            - generic [ref=f7e161]: N Convention Road, Surya Enclave,
+            - generic [ref=f7e162]: Madhapur, Hyderabad 500081
+          - list [ref=f7e163]:
+            - listitem [ref=f7e164]:
+              - link "Directions" [ref=f7e165] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f7e166]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f7e172] [cursor=pointer]
+  - alert [ref=f7e176]

@@ -263,7 +263,7 @@ export const EVENTS: GalleryEvent[] = [
   {
     status: "Ongoing",
     title: "Living Temple 2026",
-    dates: "12 Sep — 18 Nov 2026",
+    dates: "31 Oct — 29 Nov 2026",
     curator: "Curated by Annapurna M",
     venue: "EkChitra, Hyderabad",
     image: "/sites/ekchitra-redesign/exhibitions/living-temple-2026.jpg",
@@ -271,11 +271,12 @@ export const EVENTS: GalleryEvent[] = [
   },
   {
     status: "Upcoming",
-    title: "Where Light Rests",
-    dates: "05 Dec 2026 — 14 Feb 2027",
-    curator: "Curated by Annapurna M",
-    venue: "EkChitra, Hyderabad",
-    href: EXHIBITIONS_URL,
+    title: "Baoli Art Sangam",
+    dates: "01 Dec 2026 — 10 Jan 2027",
+    curator: "India’s first stepwell art festival",
+    venue: "Stepwells across Hyderabad",
+    image: "/sites/ekchitra-redesign/exhibitions/baoli-art-sangam-2026.jpg",
+    href: "https://baoliartsangam.com",
   },
 ];
 

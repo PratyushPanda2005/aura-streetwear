@@ -16,9 +16,8 @@ import { statusOf, yearOf } from "./shared";
 const COUNT = 10;
 
 /**
- * The newest shows with full-bleed posters, one per frame (Where Light Rests
- * has only a placeholder, and Swadhatri's poster is on white, so both are
- * left out).
+ * The newest shows with full-bleed posters, one per frame (Swadhatri's
+ * poster is on white, so it is left out).
  */
 const RIBBON = EXHIBITIONS.filter(
   (show) => show.image.endsWith(".jpg") && show.title !== "Swadhatri",

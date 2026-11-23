@@ -1,0 +1,243 @@
+- generic [active] [ref=f1e1]:
+  - main [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Home" [ref=f1e5] [cursor=pointer]:
+        - /url: /ekchitra-v6
+      - navigation "Primary navigation" [ref=f1e6]:
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "About" [ref=f1e9] [cursor=pointer]:
+              - /url: /ekchitra-v6/about
+          - listitem [ref=f1e10]:
+            - link "Exhibitions" [ref=f1e11] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions
+          - listitem [ref=f1e12]:
+            - link "Artists" [ref=f1e13] [cursor=pointer]:
+              - /url: /ekchitra-v6/artists
+          - listitem [ref=f1e14]:
+            - link "Artworks" [ref=f1e15] [cursor=pointer]:
+              - /url: /ekchitra-v6/artworks
+          - listitem [ref=f1e16]:
+            - link "Services" [ref=f1e17] [cursor=pointer]:
+              - /url: /ekchitra-v6/services
+      - link "Contact" [ref=f1e18] [cursor=pointer]:
+        - /url: /ekchitra-v6/contact
+        - text: Contact
+        - generic [aria-hidden] [ref=f1e19]: →
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]:
+        - paragraph [ref=f1e23]: Exhibitions
+        - heading "Current, upcoming and past" [level=1] [ref=f1e24]
+      - generic [ref=f1e25]:
+        - paragraph [ref=f1e26]: Every exhibition begins with an idea, and every visit begins with curiosity.
+        - paragraph [ref=f1e27]: 18 exhibitions
+    - generic [ref=f1e28]:
+      - region "Now and upcoming" [ref=f1e29]:
+        - list [ref=f1e30]:
+          - listitem [ref=f1e31]:
+            - link "Living Temple 2026 Curated by Annapurna M Ongoing October 31 – November 29, 2026" [ref=f1e32] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/living-temple-2026
+              - generic [ref=f1e33]:
+                - generic [ref=f1e34]:
+                  - generic [ref=f1e35]: Living Temple 2026
+                  - generic [ref=f1e36]: Curated by Annapurna M
+                - generic [ref=f1e37]:
+                  - generic [ref=f1e38]: Ongoing
+                  - generic [ref=f1e39]: October 31 – November 29, 2026
+          - listitem [ref=f1e43]:
+            - link "Baoli Art Sangam India’s first stepwell art festival Upcoming December 1, 2026 – January 10, 2027" [ref=f1e44] [cursor=pointer]:
+              - /url: https://baoliartsangam.com
+              - generic [ref=f1e45]:
+                - generic [ref=f1e46]:
+                  - generic [ref=f1e47]: Baoli Art Sangam
+                  - generic [ref=f1e48]: India’s first stepwell art festival
+                - generic [ref=f1e49]:
+                  - generic [ref=f1e50]: Upcoming
+                  - generic [ref=f1e51]: December 1, 2026 – January 10, 2027
+      - region "Past exhibitions" [ref=f1e55]:
+        - generic [ref=f1e56]:
+          - heading "Past exhibitions" [level=2] [ref=f1e57]
+          - navigation "Filter past exhibitions" [ref=f1e58]:
+            - list [ref=f1e59]:
+              - listitem [ref=f1e60]:
+                - button "All" [pressed] [ref=f1e61]
+              - listitem [ref=f1e62]:
+                - button "2025" [ref=f1e63]
+              - listitem [ref=f1e64]:
+                - button "2024" [ref=f1e65]
+              - listitem [ref=f1e66]:
+                - button "2023" [ref=f1e67]
+              - listitem [ref=f1e68]:
+                - button "2022" [ref=f1e69]
+              - listitem [ref=f1e70]:
+                - button "2021" [ref=f1e71]
+              - listitem [ref=f1e72]:
+                - button "Undated" [ref=f1e73]
+        - list [ref=f1e74]:
+          - listitem [ref=f1e75]:
+            - link "Hyd Art Curated by Annapurna M December 19 – 21, 2025" [ref=f1e76] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/hyd-art
+              - generic [ref=f1e78]:
+                - generic [ref=f1e79]: Hyd Art
+                - generic [ref=f1e80]: Curated by Annapurna M
+                - generic [ref=f1e81]: December 19 – 21, 2025
+          - listitem [ref=f1e82]:
+            - link "Swadhatri Curated by Annapurna M March 7 – 16, 2025" [ref=f1e83] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/swadhatri
+              - generic [ref=f1e85]:
+                - generic [ref=f1e86]: Swadhatri
+                - generic [ref=f1e87]: Curated by Annapurna M
+                - generic [ref=f1e88]: March 7 – 16, 2025
+          - listitem [ref=f1e89]:
+            - link "Living Temple Curated by Annapurna M February 28 – March 4, 2025" [ref=f1e90] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/living-temple
+              - generic [ref=f1e92]:
+                - generic [ref=f1e93]: Living Temple
+                - generic [ref=f1e94]: Curated by Annapurna M
+                - generic [ref=f1e95]: February 28 – March 4, 2025
+          - listitem [ref=f1e96]:
+            - link "Naik City Curated by Annapurna M February 14 – 23, 2025" [ref=f1e97] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/naik-city
+              - generic [ref=f1e99]:
+                - generic [ref=f1e100]: Naik City
+                - generic [ref=f1e101]: Curated by Annapurna M
+                - generic [ref=f1e102]: February 14 – 23, 2025
+          - listitem [ref=f1e103]:
+            - link "House of Unified Expression Curated by Annapurna M August 30 – 29 Sept, 2025" [ref=f1e104] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/house-of-unified-expression
+              - generic [ref=f1e106]:
+                - generic [ref=f1e107]: House of Unified Expression
+                - generic [ref=f1e108]: Curated by Annapurna M
+                - generic [ref=f1e109]: August 30 – 29 Sept, 2025
+          - listitem [ref=f1e110]:
+            - link "Mirror Mirror – Champa Tree Curated by Annapurna M March 22, 2024" [ref=f1e111] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/mirror-mirror-champa-tree
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: Mirror Mirror – Champa Tree
+                - generic [ref=f1e115]: Curated by Annapurna M
+                - generic [ref=f1e116]: March 22, 2024
+          - listitem [ref=f1e117]:
+            - link "Katha Kathan Curated by Annapurna M January 21 – 29, 2024" [ref=f1e118] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/katha-kathan
+              - generic [ref=f1e120]:
+                - generic [ref=f1e121]: Katha Kathan
+                - generic [ref=f1e122]: Curated by Annapurna M
+                - generic [ref=f1e123]: January 21 – 29, 2024
+          - listitem [ref=f1e124]:
+            - link "Satirical Symphony Curated by Annapurna M 2024" [ref=f1e125] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/satirical-symphony
+              - generic [ref=f1e127]:
+                - generic [ref=f1e128]: Satirical Symphony
+                - generic [ref=f1e129]: Curated by Annapurna M
+                - generic [ref=f1e130]: "2024"
+          - listitem [ref=f1e131]:
+            - link "Once Upon a Time Curated by Annapurna M September 1, 2023" [ref=f1e132] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/once-upon-a-time
+              - generic [ref=f1e134]:
+                - generic [ref=f1e135]: Once Upon a Time
+                - generic [ref=f1e136]: Curated by Annapurna M
+                - generic [ref=f1e137]: September 1, 2023
+          - listitem [ref=f1e138]:
+            - link "Tree of Life Curated by Annapurna M 2022" [ref=f1e139] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/tree-of-life
+              - generic [ref=f1e141]:
+                - generic [ref=f1e142]: Tree of Life
+                - generic [ref=f1e143]: Curated by Annapurna M
+                - generic [ref=f1e144]: "2022"
+          - listitem [ref=f1e145]:
+            - link "Chitram Curated by Annapurna M 2022" [ref=f1e146] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/chitram
+              - generic [ref=f1e148]:
+                - generic [ref=f1e149]: Chitram
+                - generic [ref=f1e150]: Curated by Annapurna M
+                - generic [ref=f1e151]: "2022"
+          - listitem [ref=f1e152]:
+            - link "Shreekaram Curated by Annapurna M 2021" [ref=f1e153] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/shreekaram
+              - generic [ref=f1e155]:
+                - generic [ref=f1e156]: Shreekaram
+                - generic [ref=f1e157]: Curated by Annapurna M
+                - generic [ref=f1e158]: "2021"
+          - listitem [ref=f1e159]:
+            - link "Pause & Reflect Curated by Annapurna M 2021" [ref=f1e160] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/pause-and-reflect
+              - generic [ref=f1e162]:
+                - generic [ref=f1e163]: Pause & Reflect
+                - generic [ref=f1e164]: Curated by Annapurna M
+                - generic [ref=f1e165]: "2021"
+          - listitem [ref=f1e166]:
+            - link "Editions Curated by Annapurna M Date not listed" [ref=f1e167] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/editions
+              - generic [ref=f1e169]:
+                - generic [ref=f1e170]: Editions
+                - generic [ref=f1e171]: Curated by Annapurna M
+                - generic [ref=f1e172]: Date not listed
+          - listitem [ref=f1e173]:
+            - link "Daivatvam Curated by Annapurna M Date not listed" [ref=f1e174] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/daivatvam
+              - generic [ref=f1e176]:
+                - generic [ref=f1e177]: Daivatvam
+                - generic [ref=f1e178]: Curated by Annapurna M
+                - generic [ref=f1e179]: Date not listed
+          - listitem [ref=f1e180]:
+            - link "Unknowns 9 Curated by Annapurna M Date not listed" [ref=f1e181] [cursor=pointer]:
+              - /url: /ekchitra-v6/exhibitions/unknowns-9
+              - generic [ref=f1e183]:
+                - generic [ref=f1e184]: Unknowns 9
+                - generic [ref=f1e185]: Curated by Annapurna M
+                - generic [ref=f1e186]: Date not listed
+    - generic [ref=f1e187]:
+      - generic [ref=f1e189]:
+        - generic [ref=f1e190]:
+          - paragraph [ref=f1e191]: Gallery
+          - list [ref=f1e192]:
+            - listitem [ref=f1e193]:
+              - link "About" [ref=f1e194] [cursor=pointer]:
+                - /url: /ekchitra-v6/about
+            - listitem [ref=f1e195]:
+              - link "Exhibitions" [ref=f1e196] [cursor=pointer]:
+                - /url: /ekchitra-v6/exhibitions
+            - listitem [ref=f1e197]:
+              - link "Artists" [ref=f1e198] [cursor=pointer]:
+                - /url: /ekchitra-v6/artists
+            - listitem [ref=f1e199]:
+              - link "Artworks" [ref=f1e200] [cursor=pointer]:
+                - /url: /ekchitra-v6/artworks
+            - listitem [ref=f1e201]:
+              - link "Services" [ref=f1e202] [cursor=pointer]:
+                - /url: /ekchitra-v6/services
+            - listitem [ref=f1e203]:
+              - link "Contact" [ref=f1e204] [cursor=pointer]:
+                - /url: /ekchitra-v6/contact
+        - generic [ref=f1e205]:
+          - paragraph [ref=f1e206]: Connect
+          - list [ref=f1e207]:
+            - listitem [ref=f1e208]:
+              - link "Instagram" [ref=f1e209] [cursor=pointer]:
+                - /url: https://www.instagram.com/ek_chitra/
+                - text: Instagram ↗
+            - listitem [ref=f1e210]:
+              - link "WhatsApp" [ref=f1e211] [cursor=pointer]:
+                - /url: https://wa.me/919100118321
+                - text: WhatsApp ↗
+        - generic [ref=f1e212]:
+          - paragraph [ref=f1e213]: Get in touch
+          - list [ref=f1e214]:
+            - listitem [ref=f1e215]:
+              - link "info@ekchitra.com" [ref=f1e216] [cursor=pointer]:
+                - /url: mailto:info@ekchitra.com
+            - listitem [ref=f1e217]:
+              - link "+91 91001 18321" [ref=f1e218] [cursor=pointer]:
+                - /url: tel:+919100118321
+        - generic [ref=f1e219]:
+          - paragraph [ref=f1e220]: Visit
+          - paragraph [ref=f1e221]:
+            - generic [ref=f1e222]: N Convention Road, Surya Enclave,
+            - generic [ref=f1e223]: Madhapur, Hyderabad 500081
+          - list [ref=f1e224]:
+            - listitem [ref=f1e225]:
+              - link "Directions" [ref=f1e226] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/EkChitra+Art+Gallery/@17.4554681,78.3800168,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93002906a699:0x6ee02ee19b47b9d7!8m2!3d17.455463!4d78.3825917!16s%2Fg%2F11zwvvllg5
+                - text: Directions ↗
+      - paragraph [ref=f1e227]: © 2026 EkChitra · Hyderabad, India
+  - button "Open Next.js Dev Tools" [ref=f1e233] [cursor=pointer]

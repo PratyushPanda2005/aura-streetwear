@@ -8,6 +8,12 @@ const sans = DM_Sans({
   display: "swap",
 });
 
+/**
+ * Rebuild the pages hourly, so each exhibition's Upcoming / Ongoing / Past
+ * follows the calendar (statusOf in exhibitions-home/shared).
+ */
+export const revalidate = 3600;
+
 export default function EkchitraV6Layout({
   children,
 }: Readonly<{

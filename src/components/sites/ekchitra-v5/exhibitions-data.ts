@@ -5,9 +5,17 @@ export interface Exhibition {
   subtitle: string;
   /** As listed on ekchitra.com. */
   dates: string;
+  /**
+   * A current show's first and last days (YYYY-MM-DD), which decide whether
+   * it reads Upcoming, Ongoing or Past (see statusOf in exhibitions-home).
+   */
+  opens?: string;
+  closes?: string;
   image: string;
-  /** The exhibition's page on ekchitra.com. */
+  /** The exhibition's page on ekchitra.com, or its own website if `external`. */
   href: string;
+  /** The show has a website of its own, linked to instead of a page here. */
+  external?: boolean;
 }
 
 const DIR = "/sites/ekchitra-redesign/exhibitions";
@@ -23,23 +31,31 @@ const CURATOR = "Curated by Annapurna M";
  * none.
  */
 export const EXHIBITIONS: Exhibition[] = [
+  // ekchitra.com still says "Not yet announced"; the dates are from the press
+  // (The South First, 2 Nov 2026: opened 31 October; Telangana Today, 3 Nov
+  // 2026: "until November 29").
   {
     status: "Current",
     title: "Living Temple 2026",
     subtitle: CURATOR,
-    dates: "Dates to be announced",
+    dates: "October 31 – November 29, 2026",
+    opens: "2026-10-31",
+    closes: "2026-11-29",
     image: `${DIR}/living-temple-2026.jpg`,
     href: SITE,
   },
-  // Not yet on ekchitra.com: title and dates from the redesign brief, and a
-  // placeholder poster until the gallery supplies the real one.
+  // Not on ekchitra.com: the stepwell art festival founded by Annapurna M,
+  // with its own website. Line, dates and photograph from baoliartsangam.com.
   {
     status: "Current",
-    title: "Where Light Rests",
-    subtitle: CURATOR,
-    dates: "December 5, 2026 – February 14, 2027",
-    image: `${DIR}/where-light-rests-placeholder.svg`,
-    href: SITE,
+    title: "Baoli Art Sangam",
+    subtitle: "India’s first stepwell art festival",
+    dates: "December 1, 2026 – January 10, 2027",
+    opens: "2026-12-01",
+    closes: "2027-01-10",
+    image: `${DIR}/baoli-art-sangam-2026.jpg`,
+    href: "https://baoliartsangam.com",
+    external: true,
   },
   {
     status: "Past",

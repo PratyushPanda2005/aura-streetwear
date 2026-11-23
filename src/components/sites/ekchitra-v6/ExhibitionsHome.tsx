@@ -8,6 +8,7 @@ import { Chars } from "../ekchitra-v5/Chars";
 import { InView } from "../ekchitra-v5/InView";
 import { BODY, SANS, TITLE } from "../ekchitra-v5/shared";
 import { EXHIBITIONS } from "./data";
+import { statusOf } from "./exhibitions-home/shared";
 import { DriftPicture, EASE, useDrift } from "./motion";
 import { BUTTON, GRID, HEAD } from "./styles";
 import { Index } from "./ui";
@@ -28,13 +29,6 @@ const TINTS = [
   "from-(--k-maroon)/45 via-(--k-maroon)/15",
   "from-(--k-navy)/45 via-(--k-navy)/15",
 ];
-
-const statusOf = (show: (typeof SHOWS)[number]) =>
-  show.status === "Current"
-    ? /\d/.test(show.dates)
-      ? "Upcoming"
-      : "Now on"
-    : "Past";
 
 /**
  * 02 — Exhibitions, after the "Spotlight" cards on knma.org: the section

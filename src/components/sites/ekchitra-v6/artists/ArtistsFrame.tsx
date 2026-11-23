@@ -5,12 +5,13 @@ import { ARTISTS } from "../../ekchitra-v5/artists-data";
 import { PageFrame } from "../PageFrame";
 
 /**
- * TEMPORARY PLACEHOLDER — the Unsplash photograph already used on the v5
- * artists page. Replace with an EkChitra photograph.
+ * Rajesh Naik's auto-rickshaw works in a row at Naik City — from the
+ * original on ekchitra.com (4096 × 1842, saved at 3840 wide). A panorama,
+ * so it suits the wide banner; on phones the middle of the row shows.
  */
 const BANNER = {
-  src: "/sites/ekchitra-redesign/placeholders/artists-banner-unsplash.jpg",
-  alt: "",
+  src: "/sites/ekchitra-redesign/exhibitions/naik-city/autos-wall.jpg",
+  alt: "Rajesh Naik’s auto-rickshaw works in a row on a gallery wall at Naik City, with two people standing among them",
 };
 
 /** The frame every version of the artists page shares. */

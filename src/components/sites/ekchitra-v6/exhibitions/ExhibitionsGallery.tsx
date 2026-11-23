@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { Diamonds } from "../../ekchitra-v5/Diamonds";
 import { SANS } from "../../ekchitra-v5/shared";
 import { EXHIBITIONS } from "../data";
+import { statusOf } from "../exhibitions-home/shared";
 import { CARD_TITLE, GRID, ITEM_TITLE } from "../styles";
 import { DriftPicture, EASE, useDrift } from "../motion";
 
@@ -16,16 +17,12 @@ type Show = (typeof EXHIBITIONS)[number];
 const yearOf = (show: Show) =>
   show.dates.match(/\b(19|20)\d{2}\b/)?.[0] ?? null;
 
-const statusOf = (show: Show) =>
-  show.status === "Current"
-    ? /\d/.test(show.dates)
-      ? "Upcoming"
-      : "Now on"
-    : "Past";
-
-/** Filters: everything, what is on and next, then each year, newest first. */
-const CURRENT = EXHIBITIONS.filter((show) => show.status === "Current");
-const PAST = EXHIBITIONS.filter((show) => show.status === "Past");
+/**
+ * What is on and next, then the rest — a current show moves down to the
+ * past once its closing day has gone.
+ */
+const CURRENT = EXHIBITIONS.filter((show) => statusOf(show) !== "Past");
+const PAST = EXHIBITIONS.filter((show) => statusOf(show) === "Past");
 
 /** Filters for the past shows: all, each year newest first, then undated. */
 const FILTERS = (() => {

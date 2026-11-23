@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { CAPS } from "../../ekchitra-v5/shared";
 import { pad } from "../cta-variants/shared";
 import { EXHIBITIONS } from "../data";
+import { statusOf } from "../exhibitions-home/shared";
 import { BUTTON, GRID } from "../styles";
 
 /** The shows that are on now or coming next. */
@@ -15,9 +16,8 @@ export const CURRENT = EXHIBITIONS.filter((show) => show.status === "Current");
 
 export type Show = (typeof EXHIBITIONS)[number];
 
-/** "Upcoming" when the show has dates, "Now on" while they are still to come. */
-export const statusOf = (show: Show) =>
-  /\d/.test(show.dates) ? "Upcoming" : "Now on";
+/** Upcoming, Ongoing or Past, from the show's dates. */
+export { statusOf };
 export const datesOf = (show: Show) => show.dates || "Dates to be announced";
 
 /** The ruled bar that opens every version: the section name and a count. */

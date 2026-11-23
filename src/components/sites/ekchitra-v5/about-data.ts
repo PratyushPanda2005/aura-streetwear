@@ -99,11 +99,11 @@ export const ABOUT_CURATOR = {
   ],
 };
 
-/** Posters for the moving strip: every show except Where Light Rests, whose poster is still a placeholder. */
-const POSTERS = EXHIBITIONS.filter((show) => show.title !== "Where Light Rests");
+/** Posters for the moving strip: the gallery's own shows (not Baoli Art Sangam, which has its own site). */
+const POSTERS = EXHIBITIONS.filter((show) => !show.external);
 
 export const ABOUT_EXHIBITIONS = {
-  statement: `${EXHIBITIONS.length} exhibitions, each curated by Annapurna M — from Shreekaram and Chitram to Living Temple and Hyd Art.`,
+  statement: `${POSTERS.length} exhibitions, each curated by Annapurna M — from Shreekaram and Chitram to Living Temple and Hyd Art.`,
   posters: POSTERS.map((show) => ({ src: show.image, title: show.title })),
   by: "Exhibitions at EkChitra, Hyderabad",
 };

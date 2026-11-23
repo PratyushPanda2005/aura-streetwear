@@ -126,7 +126,7 @@ export function Statement() {
                   alt={STATEMENT.image.alt}
                   fill
                   sizes="100vw"
-                  className="object-cover"
+                  className={cn("object-cover", STATEMENT.image.position)}
                 />
               </div>
               <div className="flex h-full w-[min(34vw,480px)] shrink-0 flex-col">

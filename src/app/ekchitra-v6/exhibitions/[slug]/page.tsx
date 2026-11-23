@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 
 import { SANS } from "@/components/sites/ekchitra-v5/shared";
 import { SmoothScroll } from "@/components/sites/ekchitra-v6/SmoothScroll";
@@ -18,9 +18,14 @@ type Props = { params: Promise<{ slug: string }> };
 const indexOf = (slug: string) =>
   EXHIBITIONS.findIndex((show) => exhibitionSlug(show) === slug);
 
-/** One page per exhibition, built ahead of time. */
+/**
+ * One page per exhibition, built ahead of time — not for shows with a
+ * website of their own (Baoli Art Sangam), which link straight to it.
+ */
 export function generateStaticParams() {
-  return EXHIBITIONS.map((show) => ({ slug: exhibitionSlug(show) }));
+  return EXHIBITIONS.filter((show) => !show.external).map((show) => ({
+    slug: exhibitionSlug(show),
+  }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -45,6 +50,8 @@ export default async function EkchitraV6ExhibitionPage({ params }: Props) {
   const index = indexOf(slug);
   if (index < 0) notFound();
   const show = EXHIBITIONS[index];
+  // A show with its own website: send visitors there.
+  if (show.external) redirect(show.href);
   // The three shows after this one in the list, wrapping round.
   const others = [1, 2, 3].map(
     (step) => EXHIBITIONS[(index + step) % EXHIBITIONS.length],

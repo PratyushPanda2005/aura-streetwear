@@ -6,14 +6,13 @@ import { PageFrame } from "@/components/sites/ekchitra-v6/PageFrame";
 import { ArtworksIndex } from "@/components/sites/ekchitra-v6/artworks/ArtworksIndex";
 
 /**
- * TEMPORARY PLACEHOLDER — a visitor in front of six paintings in a gallery
- * (Unsplash, free licence — unsplash.com/photos/xJXxMR5PXoY, by Clem
- * Onojeghuo). Replace with an EkChitra photograph.
+ * "Akka Chelli" by BA Reddy, from Swadhatri — the two faces kept in the
+ * wide banner; on phones nearly the whole canvas shows.
  */
 const BANNER = {
-  src: "/sites/ekchitra-redesign/placeholders/artworks-banner-unsplash-onojeghuo.jpg",
-  alt: "A visitor looking at paintings hung on a gallery wall",
-  position: "object-[50%_45%]",
+  src: "/sites/ekchitra-redesign/exhibitions/swadhatri/work-02.jpg",
+  alt: "Akka Chelli by BA Reddy: two women in profile, painted in bright blues, reds and greens",
+  position: "object-[50%_30%]",
 };
 
 export const metadata: Metadata = {

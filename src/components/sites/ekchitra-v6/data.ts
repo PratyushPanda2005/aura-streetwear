@@ -31,13 +31,22 @@ export const STATEMENT = {
   lead: ABOUT_STORY.lead,
   body: ABOUT_STORY.body,
   image: {
-    src: "/sites/ekchitra-redesign/about/about-banner-hydart-2025.jpg",
-    alt: "Visitors among the paintings at EkChitra, Hyderabad",
+    // The gallery during Naik City — from the original on ekchitra.com
+    // (4096 × 1842, saved at 3840 wide).
+    src: "/sites/ekchitra-redesign/exhibitions/naik-city/hall-wide.jpg",
+    alt: "Visitors browsing framed works in a long, lit gallery hall during Naik City, an EkChitra exhibition",
+    // On narrow screens, a visitor before the row of framed works.
+    position: "object-[40%_50%]",
   },
 };
 
 export const STATS = [
-  { value: V5_EXHIBITIONS.length, suffix: "", label: "Exhibitions curated" },
+  {
+    // The gallery's own shows, not Baoli Art Sangam (its own festival).
+    value: V5_EXHIBITIONS.filter((show) => !show.external).length,
+    suffix: "",
+    label: "Exhibitions curated",
+  },
   { value: ARTISTS.length, suffix: "", label: "Artists represented" },
   { value: ARTIST_WORK_COUNT, suffix: "+", label: "Works in the collection" },
 ];
@@ -118,11 +127,14 @@ export const exhibitionSlug = (show: { title: string }) =>
 
 /**
  * Every exhibition, each linking to its own page on this site (see
- * exhibitions/[slug]) rather than to ekchitra.com.
+ * exhibitions/[slug]) rather than to ekchitra.com — except shows with a
+ * website of their own (Baoli Art Sangam), which link straight to it.
  */
 export const EXHIBITIONS = V5_EXHIBITIONS.map((show) => ({
   ...show,
-  href: `${V6_HOME}/exhibitions/${exhibitionSlug(show)}`,
+  href: show.external
+    ? show.href
+    : `${V6_HOME}/exhibitions/${exhibitionSlug(show)}`,
 }));
 
 export { ARTISTS };
